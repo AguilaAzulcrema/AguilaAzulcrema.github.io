@@ -1,0 +1,60 @@
+$(document).ready(function() {
+  function cargarEventos() {
+    $.ajax({
+      url: 'eventos.json', // URL del archivo JSON con los datos de los eventos
+      dataType: 'json',
+      success: function(eventos) {
+        var contenido = '';
+        eventos.forEach(function(evento) {
+          contenido += '<div class="col-md-4 evento">';
+          contenido += '<img src="' + evento.img + '" alt="' + evento.titulo + '" class="img-fluid">';
+          contenido += '<ul class="canales">';
+          evento.canales.forEach(function(canal) {
+            contenido += '<li><a href="' + canal.enlace + '">' + canal.nombre + '</a></li>';
+          });
+          contenido += '</ul>';
+          contenido += '<h5>' + evento.titulo + '</h5>';
+          contenido += '<div class="estado" id="estado-' + evento.titulo.replace(/ /g, '-') + '">Próximo</div>';
+          contenido += '<p>' + evento.hora + '</p>';
+          contenido += '</div>';
+        });
+        $('#eventos').html(contenido);
+
+        // Actualizar estado de los eventos según la hora actual
+        setInterval(function() {
+          actualizarEstadoEventos(eventos);
+        }, 60000); // Actualizar cada minuto
+
+        actualizarEstadoEventos(eventos);
+
+        $('.evento img').click(function() {
+          var canales = $(this).siblings('.canales');
+          $('.canales').not(canales).slideUp();
+          canales.slideToggle();
+        });
+      },
+      error: function() {
+        console.error('Error al cargar los eventos.');
+      }
+    });
+  }
+
+  function actualizarEstadoEventos(eventos) {
+    var ahora = new Date();
+
+    eventos.forEach(function(evento) {
+      var horaEvento = new Date(evento.hora);
+      var estadoElemento = $('#estado-' + evento.titulo.replace(/ /g, '-'));
+
+      if (ahora < horaEvento) {
+        estadoElemento.removeClass('en-vivo finalizado').text('Próximo');
+      } else if (ahora >= horaEvento && ahora < new Date(horaEvento.getTime() + 2 * 60 * 60 * 1000)) {
+        estadoElemento.removeClass('finalizado').addClass('en-vivo').text('EN VIVO');
+      } else {
+        estadoElemento.removeClass('en-vivo').addClass('finalizado').text('FINALIZADO');
+      }
+    });
+  }
+
+  cargarEventos();
+});
