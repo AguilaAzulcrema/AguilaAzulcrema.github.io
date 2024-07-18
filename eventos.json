@@ -1,26 +1,26 @@
 [
   {
-    "img": "https://mexitv.webcindario.com/img/chivasfvscruzazulf.jpg",
+    "img": "https://via.placeholder.com/600x400.png?text=Evento+1",
     "titulo": "Evento 1",
-    "hora": "2024-07-17T10:00:00",
+    "hora": "2024-07-25T10:00:00",  // Fecha y hora en formato ISO 8601 (UTC)
     "canales": [
       { "nombre": "Canal 1", "enlace": "http://canal1.com" },
       { "nombre": "Canal 2", "enlace": "http://canal2.com" }
     ]
   },
   {
-    "img": "https://via.placeholder.com/300",
+    "img": "https://via.placeholder.com/600x400.png?text=Evento+2",
     "titulo": "Evento 2",
-    "hora": "2024-07-17T12:30:00",
+    "hora": "2024-07-25T12:30:00",  // Fecha y hora en formato ISO 8601 (UTC)
     "canales": [
       { "nombre": "Canal 3", "enlace": "http://canal3.com" },
       { "nombre": "Canal 4", "enlace": "http://canal4.com" }
     ]
   },
   {
-    "img": "https://via.placeholder.com/300",
+    "img": "https://via.placeholder.com/600x400.png?text=Evento+3",
     "titulo": "Evento 3",
-    "hora": "2024-07-17T15:00:00",
+    "hora": "2024-07-25T15:00:00",  // Fecha y hora en formato ISO 8601 (UTC)
     "canales": [
       { "nombre": "Canal 5", "enlace": "http://canal5.com" },
       { "nombre": "Canal 6", "enlace": "http://canal6.com" }
