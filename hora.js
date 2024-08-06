@@ -19,7 +19,9 @@ function formato24h(date) {
 
 function ajustarHorarios() {
     const timeCells = document.querySelectorAll('.time-cell');
-    const userTimezoneOffset = new Date().getTimezoneOffset(); // En minutos
+
+    // Establece manualmente el offset de la zona horaria en minutos (por ejemplo, UTC-3 sería -180)
+    const manualTimezoneOffset = -180; // Cambia este valor según la zona horaria deseada
 
     timeCells.forEach(cell => {
         const originalTime = cell.textContent.trim();
@@ -30,7 +32,8 @@ function ajustarHorarios() {
         date.setUTCMinutes(minutes);
         date.setUTCSeconds(0);
 
-        const localTime = new Date(date.getTime() - userTimezoneOffset * 60000);
+        // Ajuste manual de la hora
+        const localTime = new Date(date.getTime() + manualTimezoneOffset * 60000);
 
         // Check if the user prefers 24-hour or AM/PM format
         const userFormat = '24H'; // Assuming 24-hour format, modify if needed
