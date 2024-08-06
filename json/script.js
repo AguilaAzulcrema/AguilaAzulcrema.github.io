@@ -63,7 +63,7 @@ function formatoAMPM(date) {
     let minutes = date.getMinutes();
     const ampm = hours >= 12 ? 'PM' : 'AM';
     hours = hours % 12;
-    hours = hours ? hours : 12;
+    hours = hours ? hours : 12; // the hour '0' should be '12'
     minutes = minutes < 10 ? '0' + minutes : minutes;
     const strTime = hours + ':' + minutes + ' ' + ampm;
     return strTime;
@@ -79,8 +79,8 @@ function formato24h(date) {
 
 function ajustarHorarios() {
     const timeCells = document.querySelectorAll('.time-cell');
-    const userTimezoneOffset = new Date().getTimezoneOffset() * -1;
-    const targetTimezoneOffset = -6 * 60;
+    const userTimezoneOffset = new Date().getTimezoneOffset() * -1; // In minutes
+    const targetTimezoneOffset = -3 * 60; // UTC-6 in minutes
 
     timeCells.forEach(cell => {
         const originalTime = cell.textContent.trim();
@@ -90,10 +90,15 @@ function ajustarHorarios() {
         date.setHours(hours);
         date.setMinutes(minutes);
 
+        // Calculate the difference between target timezone and user's timezone
         const timeDifference = userTimezoneOffset - targetTimezoneOffset;
+        
+        // Adjust the time
         date.setMinutes(date.getMinutes() + timeDifference);
+        
+        // Check if the user prefers 24-hour or AM/PM format
+        const userFormat = '24H'; // Assuming 24-hour format, modify if needed
 
-        const userFormat = '24H';
         cell.textContent = userFormat === 'AMPM' ? formatoAMPM(date) : formato24h(date);
     });
 }
