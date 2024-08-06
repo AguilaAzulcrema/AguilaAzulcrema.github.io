@@ -80,7 +80,7 @@ function formato24h(date) {
 function ajustarHorarios() {
     const timeCells = document.querySelectorAll('.time-cell');
     const userTimezoneOffset = new Date().getTimezoneOffset() * -1;
-    const targetTimezoneOffset = -6 * 60;
+    const targetTimezoneOffset = -3 * 60;
 
     timeCells.forEach(cell => {
         const originalTime = cell.textContent.trim();
