@@ -1,5 +1,6 @@
 $(document).ready(function() {
     $.getJSON('https://aguilaazulcrema.github.io/json/data.json', function(data) {
+        console.log(data);
         let eventBody = $('#event-body');
 
         data.events.forEach(event => {
