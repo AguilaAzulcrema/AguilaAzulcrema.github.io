@@ -5,7 +5,7 @@ $(document).ready(function() {
         data.events.forEach(event => {
             let eventRow = `
                 <tr class="cell-color">
-                    <td class="cell-color">${event.time}</td>
+                    <td class="cell-color time-cell">${event.time}</td>
                     <td class="cell-color">
                         <img aria-label="Liga" class="${event.tournament}" />
                     </td>
