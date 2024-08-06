@@ -23,3 +23,4 @@ $(document).ready(function() {
                 </tr>`;
             eventBody.append(eventRow);
         });
+});
