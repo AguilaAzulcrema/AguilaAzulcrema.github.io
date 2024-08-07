@@ -24,12 +24,13 @@ $(document).ready(function() {
 
         data.events.forEach((event, index) => {
             let eventTime = toDate(event.time);
-            eventTime.setMinutes(eventTime.getMinutes() + timezoneOffset);
-            mi_array[index] = eventTime;
+            // Convertir a la zona horaria deseada
+            let localEventTime = new Date(eventTime.getTime() + timezoneOffset * 60000);
+            mi_array[index] = localEventTime;
 
             let eventRow = `
                 <tr class="cell-color">
-                    <td class="cell-color time-cell">${formato24h(eventTime)}</td>
+                    <td class="cell-color time-cell">${formato24h(localEventTime)}</td>
                     <td class="cell-color">
                         <img aria-label="Liga" class="${event.tournament}" />
                     </td>
