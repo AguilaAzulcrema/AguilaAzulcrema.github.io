@@ -1,27 +1,31 @@
 $(document).ready(function() {
+    // Define la zona horaria deseada (offset en minutos desde UTC)
+    // Por ejemplo, para UTC-6 el offset sería -360 minutos
+    let timezoneOffset = -3 * 60; // Cambia esto según la zona horaria deseada
+
+    function toDate(dStr) {
+        var now = new Date();
+        now.setUTCHours(dStr.substr(0, dStr.indexOf(":")));
+        now.setUTCMinutes(dStr.substr(dStr.indexOf(":") + 1));
+        now.setUTCSeconds(0);
+        return now;
+    }
+
+    function formato24h(dia) {
+        var hours = dia.getHours();
+        var minutes = dia.getMinutes();
+        if (hours < 10) { hours = "0" + hours; }
+        if (minutes < 10) { minutes = "0" + minutes; }
+        return hours + ":" + minutes;
+    }
+
     $.getJSON('https://aguilaazulcrema.github.io/json/data.json', function(data) {
         let eventBody = $('#event-body');
         let mi_array = [];
-        let globalhuso = new Date().getTimezoneOffset() * (-1);
-
-        function toDate(dStr) {
-            var now = new Date();
-            now.setHours(dStr.substr(0, dStr.indexOf(":")));
-            now.setMinutes(dStr.substr(dStr.indexOf(":") + 1));
-            now.setSeconds(0);
-            return now;
-        }
-
-        function formato24h(dia) {
-            var hours = dia.getHours();
-            var minutes = dia.getMinutes();
-            if (hours < 10) { hours = "0" + hours; }
-            if (minutes < 10) { minutes = "0" + minutes; }
-            return hours + ":" + minutes;
-        }
 
         data.events.forEach((event, index) => {
             let eventTime = toDate(event.time);
+            eventTime.setMinutes(eventTime.getMinutes() + timezoneOffset);
             mi_array[index] = eventTime;
 
             let eventRow = `
@@ -76,16 +80,5 @@ $(document).ready(function() {
         });
 
         $(".cell-color, .event-title").css("cursor", "default");
-
-        // Adjust time zone
-        for (let i = 0; i < mi_array.length; i++) {
-            let eventTime = mi_array[i];
-            eventTime.setMinutes(eventTime.getMinutes() + globalhuso);
-            mi_array[i] = eventTime;
-        }
-
-        $('#event-body .time-cell').each(function(index) {
-            $(this).text(formato24h(mi_array[index]));
-        });
     });
 });
