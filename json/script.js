@@ -1,6 +1,6 @@
 $(document).ready(function() {
     // Define la zona horaria deseada (offset en minutos desde UTC)
-    let timezoneOffset = -3 * 60; // Cambia esto según la zona horaria deseada
+    let timezoneOffset = 3 * 60; // Cambia esto según la zona horaria deseada
 
     function toDate(dStr) {
         var now = new Date();
