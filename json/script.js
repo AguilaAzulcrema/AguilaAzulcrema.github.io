@@ -1,11 +1,32 @@
 $(document).ready(function() {
     $.getJSON('https://aguilaazulcrema.github.io/json/data.json', function(data) {
         let eventBody = $('#event-body');
+        let mi_array = [];
+        let globalhuso = new Date().getTimezoneOffset() * (-1);
 
-        data.events.forEach(event => {
+        function toDate(dStr) {
+            var now = new Date();
+            now.setHours(dStr.substr(0, dStr.indexOf(":")));
+            now.setMinutes(dStr.substr(dStr.indexOf(":") + 1));
+            now.setSeconds(0);
+            return now;
+        }
+
+        function formato24h(dia) {
+            var hours = dia.getHours();
+            var minutes = dia.getMinutes();
+            if (hours < 10) { hours = "0" + hours; }
+            if (minutes < 10) { minutes = "0" + minutes; }
+            return hours + ":" + minutes;
+        }
+
+        data.events.forEach((event, index) => {
+            let eventTime = toDate(event.time);
+            mi_array[index] = eventTime;
+
             let eventRow = `
                 <tr class="cell-color">
-                    <td class="cell-color time-cell">${event.time}</td>
+                    <td class="cell-color time-cell">${formato24h(eventTime)}</td>
                     <td class="cell-color">
                         <img aria-label="Liga" class="${event.tournament}" />
                     </td>
@@ -55,5 +76,16 @@ $(document).ready(function() {
         });
 
         $(".cell-color, .event-title").css("cursor", "default");
+
+        // Adjust time zone
+        for (let i = 0; i < mi_array.length; i++) {
+            let eventTime = mi_array[i];
+            eventTime.setMinutes(eventTime.getMinutes() + globalhuso);
+            mi_array[i] = eventTime;
+        }
+
+        $('#event-body .time-cell').each(function(index) {
+            $(this).text(formato24h(mi_array[index]));
+        });
     });
 });
