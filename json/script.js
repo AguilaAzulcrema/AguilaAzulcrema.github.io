@@ -1,7 +1,7 @@
 $(document).ready(function() {
     // Definir la zona horaria deseada (offset en minutos desde UTC)
     // Por ejemplo, para UTC-6 el offset sería -360 minutos
-    let timezoneOffset = -2 * 60;
+    let timezoneOffset = -3 * 60;
 
     function updateEventTimes(offset) {
         $('#event-body').empty();
