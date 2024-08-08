@@ -46,8 +46,14 @@
     height: 25px;
 }
 
-.cell-color img.ligabetplay {
+.cell-color img.ligacolombia {
     content: url('https://imagecache.365scores.com/image/upload/v2/Competitions/620');
+    width: 30px;
+    height: 25px;
+}
+
+.cell-color img.ligaargentina {
+    content: url('https://imagecache.365scores.com/image/upload/v2/Competitions/72');
     width: 30px;
     height: 25px;
 }
