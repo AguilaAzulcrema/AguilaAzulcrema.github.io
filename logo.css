@@ -70,6 +70,12 @@
     height: 25px;
 }
 
+.cell-color img.uslsuperleague {
+    content: url('https://floridapolitics.com/wp-content/uploads/2024/08/USL_Super_League_logo.png');
+    width: 30px;
+    height: 25px;
+}
+
 .cell-color img.costarica {
     content: url('https://imagecache.365scores.com/image/upload/v2/Competitions/5056');
     width: 30px;
@@ -102,6 +108,12 @@
 
 .cell-color img.concacaffemenino {
     content: url('https://imagecache.365scores.com/image/upload/v2/Competitions/8240');
+    width: 30px;
+    height: 25px;
+}
+
+.cell-color img.honduras {
+    content: url('https://imagecache.365scores.com/image/upload/v2/Competitions/5071');
     width: 30px;
     height: 25px;
 }
