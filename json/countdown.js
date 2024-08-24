@@ -24,7 +24,7 @@ function updateCountdown(targetDate, timeElement, container) {
             var distance = targetDate - now;
             var days = Math.floor(distance / (1000 * 60 * 60 * 24));
             var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
-            var minutes = Math.floor((distance % (1000 * 60)) / (1000 * 60));
+            var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
             var seconds = Math.floor((distance % (1000 * 60)) / 1000);
             timeElement.innerHTML = days + "d " + hours + "h " + minutes + "m " + seconds + "s";
         }
@@ -32,10 +32,9 @@ function updateCountdown(targetDate, timeElement, container) {
 }
 
 function initCountdownForEvents() {
-    const containers = document.querySelectorAll('.event-container');
-    containers.forEach(container => {
-        const timeCell = container.querySelector('.time-cell');
-        const timeText = timeCell.textContent.trim();
+    const timeCells = document.querySelectorAll('#event-body .time-cell');
+    timeCells.forEach(cell => {
+        const timeText = cell.textContent.trim();
         
         // Asume que el formato de tiempo es HH:MM
         const [hours, minutes] = timeText.split(':').map(Number);
@@ -44,7 +43,7 @@ function initCountdownForEvents() {
 
         // Verifica si la fecha es válida antes de iniciar la cuenta regresiva
         if (!isNaN(targetDate)) {
-            updateCountdown(targetDate, timeCell, container);
+            updateCountdown(targetDate, cell, cell.parentElement); // Pasar el elemento de la fila como contenedor
         }
     });
 }
