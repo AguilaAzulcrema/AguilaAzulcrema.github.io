@@ -1,21 +1,25 @@
 {
-  "events": [
-    {
-      "date": "2024-08-24",
-      "time": "17:00",
-      "team1": {
-        "name": "Brighton",
-        "logo": "https://static.flashscore.com/res/image/data/40juIezB-b92lfEJC.png"
-      },
-      "team2": {
-        "name": "Manchester Utd",
-        "logo": "https://static.flashscore.com/res/image/data/40juIezB-b92lfEJC.png"
-      },
-      "streams": [
-        "https://voodc.com/embed/858a938b9e88839587998389998c98888992.html",
-        "https://voodc.com/embed/aHR0cHM6Ly9kdW1wZXItdHJ1ZS5jb20vZGFzaGR1bXBlci5waHA/dXJsPWFIUjBjSE02THk5c2FYWmxMbXhzTG5kM0xtRnBkaTFqWkc0dWJtVjBMMDlVVkVJdlpIVmlMVzVwZEhKdkwyeHBkbVV2WTJ4cFpXNTBjeTlrWVhOb0wyVnVZeTkzYW1kcmJHSjBkbWhvTDI5MWRDOTJNUzgyTlRrM016WmhNV1V5TkdNME1HVTBPRFkxWVRnd1ptWmtOelZsTjJSbE55OWpaVzVqTG0xd1pBPT0mazE9TkROa01XTXpZakkxTWpBM1ptWXpPR0l5TW1OalptVXhOMlF6TURJek5qYz0mazI9TjJJeFpqZzFaalpsT0RFd05UazBOek5pTVRFMFl6RTJZVEkxWXpneU9XRT0="
-      ]
-    }
-    // Añade más eventos aquí
-  ]
+    "eventos": [
+        {
+            "pais": "Premier League",
+            "team1": {
+                "nombre": "Brighton",
+                "logo": "https://static.flashscore.com/res/image/data/40juIezB-b92lfEJC.png"
+            },
+            "team2": {
+                "nombre": "Manchester Utd",
+                "logo": "https://static.flashscore.com/res/image/data/nwSRlyWg-h2pPXz3k.png"
+            },
+            "fecha": "2024-08-24",
+            "hora": "13:30",
+            "streams": [
+                { "canal": "CH 1", "url": "https://voodc.com/embed/858a9389a186889187998388938a98868697.html" },
+                { "canal": "CH 2", "url": "https://voodc.com/embed/858a9389a186889187998388938a98868697.html" },
+                { "canal": "CH 3", "url": "https://voodc.com/embed/858a9389a186889187998388938a98868697.html" },
+                { "canal": "CH 4", "url": "https://voodc.com/embed/858a9389a186889187998388938a98868697.html" },
+                { "canal": "CH 5", "url": "https://voodc.com/embed/858a9389a186889187998388938a98868697.html" }
+            ]
+        }
+        // Puedes agregar más eventos aquí
+    ]
 }
