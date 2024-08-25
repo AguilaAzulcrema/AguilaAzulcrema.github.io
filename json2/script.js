@@ -1,5 +1,5 @@
 document.addEventListener('DOMContentLoaded', function() {
-    fetch('events.json') // Asegúrate de que la ruta al archivo JSON sea correcta
+    fetch('https://aguilaazulcrema.github.io/json2/events.json') // Asegúrate de que la ruta al archivo JSON sea correcta
         .then(response => response.json())
         .then(data => {
             const events = data.events;
