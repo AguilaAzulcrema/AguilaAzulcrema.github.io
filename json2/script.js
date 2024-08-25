@@ -1,6 +1,6 @@
 // script.js
 document.addEventListener('DOMContentLoaded', function() {
-    fetch('events.json')
+    fetch('https://aguilaazulcrema.github.io/json2/events.json')
         .then(response => response.json())
         .then(data => {
             const eventosDiv = document.querySelector('.eventos');
