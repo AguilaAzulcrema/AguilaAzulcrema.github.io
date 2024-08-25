@@ -1,0 +1,41 @@
+function updateCountdown() {
+    const now = new Date();
+    const timeCells = document.querySelectorAll('.jam.jam1');
+    const eventContainers = document.querySelectorAll('.event');
+
+    timeCells.forEach((cell, index) => {
+        const targetTime = cell.getAttribute('data-target-time');
+        const [targetHours, targetMinutes] = targetTime.split(':').map(Number);
+
+        // Crear la fecha del evento en la zona horaria original UTC-6
+        const eventDate = new Date();
+        eventDate.setUTCHours(targetHours + 6);  // Ajuste manual para convertir la hora desde UTC-6 a UTC
+        eventDate.setUTCMinutes(targetMinutes);
+        eventDate.setUTCSeconds(0);
+
+        // Calcular la fecha y hora de finalización (2 horas y media después)
+        const endDate = new Date(eventDate.getTime() + 2.5 * 60 * 60 * 1000);
+
+        // Calcular la diferencia en milisegundos
+        const timeDiff = eventDate - now;
+        const endDiff = now - endDate;
+
+        // Convertir la diferencia a horas, minutos y segundos
+        const hours = Math.floor(timeDiff / (1000 * 60 * 60));
+        const minutes = Math.floor((timeDiff % (1000 * 60 * 60)) / (1000 * 60));
+        const seconds = Math.floor((timeDiff % (1000 * 60)) / 1000);
+
+        // Actualizar el contenido de la celda con el tiempo restante o estado del evento
+        if (now < eventDate) {
+            cell.textContent = `${hours}h ${minutes}m ${seconds}s`;
+        } else if (now > endDate) {
+            cell.textContent = "FINALIZADO";
+            // Opcional: Puedes también ocultar o cambiar el estado del contenedor del evento si es necesario
+            eventContainers[index].querySelector('.buttons-container').style.display = 'none'; // Oculta los botones
+        } else {
+            cell.textContent = "EN VIVO";
+        }
+    });
+}
+
+setInterval(updateCountdown, 1000); // Actualiza la cuenta regresiva cada segundo
