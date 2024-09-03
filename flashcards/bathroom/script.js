@@ -53,6 +53,46 @@ const flashcards = [
         image: 'img/showerhead.webp', 
         answer: 'showerhead', 
         audio: 'https://audio12.forvo.com/audios/mp3/7/t/7t_9431504_39_3383225.mp3' 
+    },
+    { 
+        image: 'img/toiletpaper.webp', 
+        answer: 'toilet paper', 
+        audio: 'https://audio12.forvo.com/audios/mp3/4/r/4r_9020175_39_637249_379210.mp3' 
+    },
+    { 
+        image: 'img/bathmat.webp', 
+        answer: 'bath mat', 
+        audio: 'https://audio12.forvo.com/mp3/10014426/39/10014426_39_7512973.mp3' 
+    },
+    { 
+        image: 'img/toiletbrush.webp', 
+        answer: 'toilet brush', 
+        audio: 'https://audio12.forvo.com/mp3/9971123/39/9971123_39_7977887.mp3' 
+    },
+    { 
+        image: 'img/plunger.webp', 
+        answer: 'plunger', 
+        audio: 'https://audio12.forvo.com/audios/mp3/3/u/3u_9459997_39_660487.mp3' 
+    },
+    { 
+        image: 'img/razor.png', 
+        answer: 'razor', 
+        audio: 'https://audio12.forvo.com/audios/mp3/8/d/8d_9378780_39_318527.mp3' 
+    },
+    { 
+        image: 'img/towelrack.jpg', 
+        answer: 'towel rack', 
+        audio: 'https://audio12.forvo.com/audios/mp3/y/z/yz_9196189_39_3750853.mp3' 
+    },
+    { 
+        image: 'img/bodywash.jpg', 
+        answer: 'body wash', 
+        audio: 'https://audio12.forvo.com/mp3/10096473/39/10096473_39_8151291.mp3' 
+    },
+    { 
+        image: 'img/showercurtain.jpg', 
+        answer: 'shower curtain', 
+        audio: 'https://audio12.forvo.com/audios/mp3/b/k/bk_9109660_39_1689715_1.mp3' 
     }
 
 ];
