@@ -21,7 +21,7 @@ const imagenes = {
             america: 'img/ligamx/america.png',  
             atlas: 'img/ligamx/atlas.png',
             chivas: 'img/ligamx/chivas.png', 
-            cruzazul: 'img/ligamx/cruzazul.png', 
+            cruz_azul: 'img/ligamx/cruzazul.png', 
             juarez: 'img/ligamx/juarez.png',
             leon: 'img/ligamx/leon.png',
             mazatlan: 'img/ligamx/mazatlan.png',
@@ -31,7 +31,7 @@ const imagenes = {
             puebla: 'img/ligamx/puebla.png',
             pumas: 'img/ligamx/pumas.png',
             queretaro: 'img/ligamx/queretaro.png',
-            sanluis: 'img/ligamx/sanluis.png',
+            san_luis: 'img/ligamx/sanluis.png',
             santos: 'img/ligamx/santos.png',
             tigres: 'img/ligamx/tigres.png',
             tijuana: 'img/ligamx/tijuana.png',
@@ -44,7 +44,7 @@ const imagenes = {
             america: 'img/ligamxfemenil/america.png',  
             atlas: 'img/ligamxfemenil/atlas.png',
             chivas: 'img/ligamxfemenil/chivas.png', 
-            cruzazul: 'img/ligamxfemenil/cruzazul.png', 
+            cruz_azul: 'img/ligamxfemenil/cruzazul.png', 
             juarez: 'img/ligamxfemenil/juarez.png',
             leon: 'img/ligamxfemenil/leon.png',
             mazatlan: 'img/ligamxfemenil/mazatlan.png',
@@ -54,7 +54,7 @@ const imagenes = {
             pumas: 'img/ligamxfemenil/pumas.png',
             queretaro: 'img/ligamxfemenil/queretaro.png',
             rayadas: 'img/ligamxfemenil/rayadas.png',
-            sanluis: 'img/ligamxfemenil/sanluis.png',
+            san_luis: 'img/ligamxfemenil/sanluis.png',
             santos: 'img/ligamxfemenil/santos.png',
             tigres: 'img/ligamxfemenil/tigres.png',
             tijuana: 'img/ligamxfemenil/tijuana.png',
@@ -69,7 +69,7 @@ const imagenes = {
             celaya: 'img/expansionmx/celaya.png',
             correcaminos: 'img/expansionmx/correcaminos.png',
             dorados: 'img/expansionmx/dorados.png',
-            lapaz: 'img/expansionmx/lapaz.png',
+            la_paz: 'img/expansionmx/lapaz.png',
             mineros: 'img/expansionmx/mineros.png',
             morelia: 'img/expansionmx/morelia.png',
             tampico: 'img/expansionmx/tampico.png',
@@ -85,8 +85,8 @@ const imagenes = {
             equipo: '#',
             mexico: 'img/selecciones/mexico.png',
             canada: 'img/selecciones/canada.png',
-            nuevazelanda: 'img/selecciones/nuevazelanda.png',
-            nuevazelanda2: 'img/selecciones/nuevazelanda2.png',
+            nueva_zelanda: 'img/selecciones/nuevazelanda.png',
+            nueva_zelanda2: 'img/selecciones/nuevazelanda2.png',
           // Otros logos de Selecciones
         },
         // Agrega más ligas y logos
@@ -104,8 +104,17 @@ function cargarImagenes() {
     const logo2 = new Image();
 
     fondo.src = imagenes.fondos[fondoSeleccionado];
-    logo1.src = imagenes.logos[ligaSeleccionada][logo1Seleccionado];
-    logo2.src = imagenes.logos[ligaSeleccionada][logo2Seleccionado];
+
+    // Verificar si la opción "Todos los equipos" está seleccionada
+    if (ligaSeleccionada === 'todos') {
+        // Buscar logo en todas las ligas
+        logo1.src = buscarLogoEnTodasLasLigas(logo1Seleccionado);
+        logo2.src = buscarLogoEnTodasLasLigas(logo2Seleccionado);
+    } else {
+        // Cargar logo según la liga seleccionada
+        logo1.src = imagenes.logos[ligaSeleccionada][logo1Seleccionado];
+        logo2.src = imagenes.logos[ligaSeleccionada][logo2Seleccionado];
+    }
 
     fondo.onload = () => {
         ctx.clearRect(0, 0, canvas.width, canvas.height);  // Limpiar el canvas
@@ -125,6 +134,16 @@ function cargarImagenes() {
             };
         };
     };
+}
+
+// Función para buscar un logo en todas las ligas
+function buscarLogoEnTodasLasLigas(equipo) {
+    for (const liga in imagenes.logos) {
+        if (imagenes.logos[liga][equipo]) {
+            return imagenes.logos[liga][equipo]; // Retorna el logo si lo encuentra
+        }
+    }
+    return ''; // Retorna una cadena vacía si no encuentra el logo
 }
 
 // Función para ajustar tamaño manteniendo proporción
@@ -152,21 +171,37 @@ function filtrarLogosPorLiga() {
     logo1Selector.innerHTML = '';
     logo2Selector.innerHTML = '';
 
-    // Agregar las opciones correspondientes a la liga seleccionada
-    for (const equipo in imagenes.logos[ligaSeleccionada]) {
-        const option1 = document.createElement('option');
-        option1.value = equipo;
-        option1.textContent = equipo.charAt(0).toUpperCase() + equipo.slice(1);
-        logo1Selector.appendChild(option1);
+    const logosAgregados = new Set();
 
-        const option2 = document.createElement('option');
-        option2.value = equipo;
-        option2.textContent = equipo.charAt(0).toUpperCase() + equipo.slice(1);
-        logo2Selector.appendChild(option2);
+    if (ligaSeleccionada === 'todos') {
+        // Mostrar todos los logos, sin repetir
+        for (const liga in imagenes.logos) {
+            for (const equipo in imagenes.logos[liga]) {
+                if (!logosAgregados.has(equipo)) {
+                    logosAgregados.add(equipo);
+                    agregarOpcionLogo(logo1Selector, equipo);
+                    agregarOpcionLogo(logo2Selector, equipo);
+                }
+            }
+        }
+    } else {
+        // Agregar las opciones correspondientes a la liga seleccionada
+        for (const equipo in imagenes.logos[ligaSeleccionada]) {
+            agregarOpcionLogo(logo1Selector, equipo);
+            agregarOpcionLogo(logo2Selector, equipo);
+        }
     }
 
     // Cargar imágenes con los logos filtrados
     cargarImagenes();
+}
+
+// Función para agregar una opción de logo a un selector
+function agregarOpcionLogo(selector, equipo) {
+    const option = document.createElement('option');
+    option.value = equipo;
+    option.textContent = equipo.charAt(0).toUpperCase() + equipo.slice(1);
+    selector.appendChild(option);
 }
 
 // Función para descargar la imagen del canvas
