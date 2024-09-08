@@ -1,0 +1,25 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 100vh;
+  background-color: #181818;
+  margin: 0;
+  appearance: none;
+}
+
+#selectorsContainer {
+  display: flex;
+  gap: 10px;  /* Espacio entre los selectores */
+  margin-bottom: 20px;
+}
+
+#miCanvas {
+  border: 1px solid #000;
+}
+
+select {
+  background-color: #181818;
+  color: white;
+}

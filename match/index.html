@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Partidos Dinámicos</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<div id="selectorsContainer">
+<select id="fondoSelector" onchange="cargarImagenes()">
+    <option value="fondo1">Fondo Azul</option>
+    <option value="fondo2">Fondo Negro</option>
+    <option value="fondo3">Liga MX</option>
+    <option value="fondo4">Liga MX Femenil</option>
+    <option value="fondo5">Champions Cup</option>
+    <option value="fondo6">Mexico</option>
+    <!-- Agrega más fondos según sea necesario -->
+</select>
+
+<select id="ligaSelector" onchange="filtrarLogosPorLiga()">
+    <option value="ligamx">Liga MX</option>
+    <option value="ligamxf">Liga MX Femenil</option>
+    <option value="expansionmx">Liga de Expansión MX</option>
+    <option value="selecciones">Selecciones</option>
+    <!-- Agrega más ligas según sea necesario -->
+</select>
+
+<select id="logo1Selector" onchange="cargarImagenes()">
+    <!-- Opciones de logos se llenarán dinámicamente -->
+</select>
+
+<select id="logo2Selector" onchange="cargarImagenes()">
+    <!-- Opciones de logos se llenarán dinámicamente -->
+</select>
+</div>
+
+<canvas id="miCanvas" width="1200" height="627"></canvas>
+
+
+<script src="script.js"></script>
+
+</body>
+</html>
