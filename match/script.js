@@ -169,6 +169,17 @@ function filtrarLogosPorLiga() {
     cargarImagenes();
 }
 
+// Función para descargar la imagen del canvas
+function descargarImagen() {
+    const link = document.createElement('a');
+    link.href = canvas.toDataURL('image/png');  // Convierte el contenido del canvas a una URL de imagen
+    link.download = 'partido.png';  // Nombre predeterminado para el archivo
+    link.click();  // Dispara la descarga
+}
+
+// Añadir el evento al botón de descarga
+document.getElementById('descargarImagen').addEventListener('click', descargarImagen);
+
 // Cargar imágenes iniciales
 window.onload = function() {
     filtrarLogosPorLiga(); // Filtrar logos según la liga seleccionada por defecto

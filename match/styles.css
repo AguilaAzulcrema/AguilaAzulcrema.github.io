@@ -23,3 +23,17 @@ select {
   background-color: #181818;
   color: white;
 }
+
+button {
+  color: rgb(146, 146, 146);
+  background-color: #000;
+  padding: 8px;
+  border-radius: 8px;
+  border: none;
+  cursor: pointer;
+}
+
+button:hover {
+  box-shadow: 0 0 10px rgb(165, 165, 165);
+  color: white;
+}
