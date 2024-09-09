@@ -12,12 +12,19 @@ const imagenes = {
         fondo4: 'img/fondos/ligamxf.jpeg',
         fondo5: 'img/fondos/championscup.jpeg',
         fondo6: 'img/fondos/verde.jpeg', 
+        fondo7: 'img/fondos/leaguescup.jpeg',
+        fondo8: 'img/fondos/red.jpeg',
+        fondo9: 'img/fondos/champions.jpeg',
+        fondo10: 'img/fondos/europaleague.jpeg',
+        fondo11: 'img/fondos/conferenceleague.jpeg',
+        fondo12: 'img/fondos/uefanationsleague.jpeg',
+        fondo13: 'img/fondos/conmebol.jpeg',
         // Agrega más fondos
     },
 
     logos: {
         ligamx: {
-            equipo: '#',
+            _equipo: '#',
             america: 'img/ligamx/america.png',  
             atlas: 'img/ligamx/atlas.png',
             chivas: 'img/ligamx/chivas.png', 
@@ -40,7 +47,7 @@ const imagenes = {
         },
 
         ligamxf: {
-            equipo: '#',
+            _equipo: '#',
             america: 'img/ligamxfemenil/america.png',  
             atlas: 'img/ligamxfemenil/atlas.png',
             chivas: 'img/ligamxfemenil/chivas.png', 
@@ -62,7 +69,7 @@ const imagenes = {
         },
 
         expansionmx: {
-            equipo: '#',
+            _equipo: '#',
             alebrijes: 'img/expansionmx/alebrijes.png',
             atlante: 'img/expansionmx/atlante.png',
             cancun: 'img/expansionmx/cancun.png',
@@ -82,12 +89,64 @@ const imagenes = {
         },
 
         selecciones: {
-            equipo: '#',
+            _equipo: '#',
             mexico: 'img/selecciones/mexico.png',
             canada: 'img/selecciones/canada.png',
             nueva_zelanda: 'img/selecciones/nuevazelanda.png',
             nueva_zelanda2: 'img/selecciones/nuevazelanda2.png',
           // Otros logos de Selecciones
+        },
+
+        mls: {
+            _equipo: '#',
+            atlanta_united: 'img/mls/atlantaunited.png',  
+            austin: 'img/mls/austin.png',
+            charlotte: 'img/mls/charlotte.png', 
+            chicago_fire: 'img/mls/chicagofire.png', 
+            cincinnati: 'img/mls/cincinnati.png',
+            colorado_rapids: 'img/mls/coloradorapids.png',
+            columbus_crew: 'img/mls/columbuscrew.png',
+            dc_united: 'img/mls/dcunited.png',
+            fc_dallas: 'img/mls/fcdallas.png',
+            houston_dynamo: 'img/mls/houstondynamo.png',
+            inter_miami: 'img/mls/intermiami.png',
+            lafc: 'img/mls/losangelesfc.png',
+            la_galaxy: 'img/mls/losangelesgalaxy.png',
+            minnesota_united: 'img/mls/minnesotaunited.png',
+            montreal: 'img/mls/montreal.png',
+            nashville: 'img/mls/nashville.png',
+            new_england_revolution: 'img/mls/newenglandrevolution.png',
+            new_york_city: 'img/mls/newyorkcity.png',
+            new_york_red_bulls: 'img/mls/newyorkredbulls.png',
+            orlando_city: 'img/mls/orlandocity.png',
+            philadelphia_union: 'img/mls/philadelphiaunion.png',
+            portland_timbers: 'img/mls/portlandtimbers.png',
+            real_salt_lake: 'img/mls/realsaltlake.png',
+            san_diego: 'img/mls/sandiegofc.png',
+            san_jose_earthquakes: 'img/mls/sanjoseearthquakes.png',
+            seattle_sounders: 'img/mls/seattlesounders.png',
+            sporting_kansas_city: 'img/mls/sportingkansascity.png',
+            st_louis_city: 'img/mls/Stlouiscity.png',
+            toronto: 'img/mls/toronto.png',
+            vancouver_whitecaps: 'img/mls/vancouverwhitecaps.png',
+        },
+
+        nwls: {
+            _equipo: '#',
+            angel_city: 'img/nwsl/angelcity.png',  
+            bay_fc: 'img/nwsl/bayfc.png',
+            chicago_red_stars: 'img/nwsl/chicagoredstars.png', 
+            houston_dash: 'img/nwsl/houstondash.png', 
+            kansas_city_current: 'img/nwsl/kansascitycurrent.png',
+            nj_ny_gotham: 'img/nwsl/njnygotham.png',
+            north_carolina_courage: 'img/nwsl/northcarolinacourage.png',
+            orlando_pride: 'img/nwsl/orlandopride.png',
+            portland_thorns: 'img/nwsl/portlandthorns.png',
+            racing_louisville: 'img/nwsl/racinglouisville.png',
+            san_diego_wave: 'img/nwsl/sandiegowave.png',
+            seattle_reign: 'img/nwsl/seattlereign.png',
+            utah_royals: 'img/nwsl/utahroyals.png',
+            washintong_spirit: 'img/nwsl/washingtonspirit.png',
         },
         // Agrega más ligas y logos
     }
@@ -172,25 +231,31 @@ function filtrarLogosPorLiga() {
     logo2Selector.innerHTML = '';
 
     const logosAgregados = new Set();
+    let equipos = [];
 
     if (ligaSeleccionada === 'todos') {
-        // Mostrar todos los logos, sin repetir
+        // Recopilar todos los logos, sin repetir
         for (const liga in imagenes.logos) {
             for (const equipo in imagenes.logos[liga]) {
                 if (!logosAgregados.has(equipo)) {
                     logosAgregados.add(equipo);
-                    agregarOpcionLogo(logo1Selector, equipo);
-                    agregarOpcionLogo(logo2Selector, equipo);
+                    equipos.push(equipo); // Agregar equipo a la lista
                 }
             }
         }
     } else {
-        // Agregar las opciones correspondientes a la liga seleccionada
+        // Recopilar logos solo de la liga seleccionada
         for (const equipo in imagenes.logos[ligaSeleccionada]) {
-            agregarOpcionLogo(logo1Selector, equipo);
-            agregarOpcionLogo(logo2Selector, equipo);
+            equipos.push(equipo);
         }
     }
+
+    // Ordenar alfabéticamente y agregar al selector
+    equipos.sort((a, b) => a.localeCompare(b));
+    equipos.forEach(equipo => {
+        agregarOpcionLogo(logo1Selector, equipo);
+        agregarOpcionLogo(logo2Selector, equipo);
+    });
 
     // Cargar imágenes con los logos filtrados
     cargarImagenes();
@@ -200,7 +265,8 @@ function filtrarLogosPorLiga() {
 function agregarOpcionLogo(selector, equipo) {
     const option = document.createElement('option');
     option.value = equipo;
-    option.textContent = equipo.charAt(0).toUpperCase() + equipo.slice(1);
+    // Eliminar guiones bajos y capitalizar correctamente
+    option.textContent = equipo.replace(/_/g, ' ').replace(/\b\w/g, char => char.toUpperCase());
     selector.appendChild(option);
 }
 
