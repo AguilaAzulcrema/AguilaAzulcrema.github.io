@@ -168,6 +168,18 @@ const imagenes = {
             washintong_spirit: 'img/concacaf/nwsl/washingtonspirit.png',
         },
 
+        cpl: {
+            _equipo: '#',
+            atletico_ottawa: 'img/concacaf/canadianpremierleague/atleticoottawa.png',  
+            cavalry: 'img/concacaf/canadianpremierleague/cavalry.png',
+            forge: 'img/concacaf/canadianpremierleague/forge.png', 
+            hfx_wanderers: 'img/concacaf/canadianpremierleague/hfxwanderers.png', 
+            pacific: 'img/concacaf/canadianpremierleague/pacific.png',
+            valour: 'img/concacaf/canadianpremierleague/valour.png',
+            vancouver: 'img/concacaf/canadianpremierleague/vancouver.png',
+            york_united: 'img/concacaf/canadianpremierleague/yorkunited.png',
+        },
+
         concacaf: {
             _equipo: '#',
             anguila: 'img/concacaf/selecciones/anguila.png',  
