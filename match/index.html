@@ -9,54 +9,67 @@
 <body>
 
 <div id="selectorsContainer">
-<select id="fondoSelector" onchange="cargarImagenes()">
-    <option value="fondo1">Fondo Azul</option>
-    <option value="fondo8">Fondo Rojo</option>
-    <option value="fondo2">Fondo Negro</option>
-    <option value="fondo3">Liga MX</option>
-    <option value="fondo4">Liga MX Femenil</option>
-    <option value="fondo5">Champions Cup</option>
-    <option value="fondo6">Mexico</option>
-    <option value="fondo7">Leagues Cup</option>
-    <option value="fondo9">Champions League</option>
-    <option value="fondo10">Europa League</option>
-    <option value="fondo11">Conference League</option>
-    <option value="fondo12">UEFA NL</option>
-    <option value="fondo13">Conmebol</option>
-    <!-- Agrega más fondos según sea necesario -->
-</select>
+    <!-- Radio buttons para elegir entre fondo de imagen o fondo con colores -->
+    <label>
+        <input type="radio" name="fondoTipo" value="imagen" checked onchange="mostrarOpcionesFondo()"> Fondo Imagen
+    </label>
+    <label>
+        <input type="radio" name="fondoTipo" value="colores" onchange="mostrarOpcionesFondo()"> Fondo Colores
+    </label>
 
-<select id="ligaSelector" onchange="filtrarLogosPorLiga()">
-    <option value="todos">Todos</option>
-    <option value="conmebol">Selecciones Conmebol</option>
-    <option value="concacaf">Selecciones Concacaf</option>
-    <option value="uefa">Selecciones UEFA</option>
-    <option value="ofc">Selecciones OFC</option>
-    <option value="ligamx">Liga MX</option>
-    <option value="ligamxf">Liga MX Femenil</option>
-    <option value="expansionmx">Liga de Expansión MX</option>
-    <option value="mls">MLS</option>
-    <option value="usl">USL</option>
-    <option value="nwls">NWLS</option>
-    <option value="cpl">Canadian Premier League</option>
-    <!-- Agrega más ligas según sea necesario -->
-</select>
+    <!-- Select para elegir el fondo de imagen -->
+    <select id="fondoSelector" onchange="cargarImagenes()">
+        <option value="fondo1">Fondo Azul</option>
+        <option value="fondo8">Fondo Rojo</option>
+        <option value="fondo2">Fondo Negro</option>
+        <option value="fondo3">Liga MX</option>
+        <option value="fondo4">Liga MX Femenil</option>
+        <option value="fondo5">Champions Cup</option>
+        <option value="fondo6">Mexico</option>
+        <option value="fondo7">Leagues Cup</option>
+        <option value="fondo9">Champions League</option>
+        <option value="fondo10">Europa League</option>
+        <option value="fondo11">Conference League</option>
+        <option value="fondo12">UEFA NL</option>
+        <option value="fondo13">Conmebol</option>
+        <!-- Agrega más fondos según sea necesario -->
+    </select>
 
-<select id="logo1Selector" onchange="cargarImagenes()">
-    <!-- Opciones de logos se llenarán dinámicamente -->
-</select>
+    <!-- Inputs para seleccionar colores de fondo -->
+    <div id="colorInputsContainer" class="color-inputs" style="display:none;">
+        <input type="color" id="color1" name="color1" value="#000000">
+        <input type="color" id="color2" name="color2" value="#ffffff">
+    </div>
 
-<select id="logo2Selector" onchange="cargarImagenes()">
-    <!-- Opciones de logos se llenarán dinámicamente -->
-</select>
+    <select id="ligaSelector" onchange="filtrarLogosPorLiga()">
+        <option value="todos">Todos</option>
+        <option value="conmebol">Selecciones Conmebol</option>
+        <option value="concacaf">Selecciones Concacaf</option>
+        <option value="uefa">Selecciones UEFA</option>
+        <option value="ofc">Selecciones OFC</option>
+        <option value="ligamx">Liga MX</option>
+        <option value="ligamxf">Liga MX Femenil</option>
+        <option value="expansionmx">Liga de Expansión MX</option>
+        <option value="mls">MLS</option>
+        <option value="usl">USL</option>
+        <option value="nwsl">NWSL</option>
+        <option value="cpl">Canadian Premier League</option>
+        <!-- Agrega más ligas según sea necesario -->
+    </select>
+
+    <select id="logo1Selector" onchange="cargarImagenes()">
+        <!-- Opciones de logos se llenarán dinámicamente -->
+    </select>
+
+    <select id="logo2Selector" onchange="cargarImagenes()">
+        <!-- Opciones de logos se llenarán dinámicamente -->
+    </select>
 </div>
 
 <canvas id="miCanvas" width="1200" height="627"></canvas>
 <br>
 <button id="descargarImagen">DOWNLOAD</button>
 
-
 <script src="script.js"></script>
-
 </body>
 </html>

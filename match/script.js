@@ -150,7 +150,7 @@ const imagenes = {
             tulsa: 'img/concacaf/usl/tulsa.png',
         },
 
-        nwls: {
+        nwsl: {
             _equipo: '#',
             angel_city: 'img/concacaf/nwsl/angelcity.png',  
             bay_fc: 'img/concacaf/nwsl/bayfc.png',
@@ -324,59 +324,113 @@ const imagenes = {
     }
 };
 
-// Función para cargar las imágenes seleccionadas
+// Función para cargar imágenes o colores de fondo
 function cargarImagenes() {
-    const fondoSeleccionado = document.getElementById('fondoSelector').value;
+    const tipoFondoSeleccionado = document.querySelector('input[name="fondoTipo"]:checked').value;
+
+    if (tipoFondoSeleccionado === 'imagen') {
+        const fondoSeleccionado = document.getElementById('fondoSelector').value;
+        const fondo = new Image();
+        fondo.src = imagenes.fondos[fondoSeleccionado];
+        
+        fondo.onload = () => {
+            ctx.clearRect(0, 0, canvas.width, canvas.height);  // Limpiar el canvas
+            ctx.drawImage(fondo, 0, 0, canvas.width, canvas.height);  // Dibujar el fondo de imagen
+
+            // Cargar los logos
+            cargarLogos();
+        };
+    } else {
+        // Si se seleccionan colores, cargar el fondo con colores
+        const color1 = document.getElementById('color1').value;
+        const color2 = document.getElementById('color2').value;
+
+        // Limpiar el canvas antes de dibujar
+        ctx.clearRect(0, 0, canvas.width, canvas.height);
+
+        // Calcular la diagonal del canvas para asegurar que cubra completamente al rotar
+        const diagonal = Math.sqrt(Math.pow(canvas.width, 2) + Math.pow(canvas.height, 2));
+
+        // Guardar el estado actual del contexto
+        ctx.save();
+
+        // Mover el punto de origen al centro del canvas para rotar alrededor de él
+        ctx.translate(canvas.width / 2, canvas.height / 2);
+
+        // Rotar el contexto en -63 grados (convertidos a radianes)
+        ctx.rotate(26 * Math.PI / 180);
+
+        // Dibujar la mitad izquierda del canvas con el primer color
+        ctx.fillStyle = color1;  // Primer color seleccionado
+        ctx.fillRect(-diagonal / 2, -diagonal / 2, diagonal / 2, diagonal);  // Dibujar desde el inicio hasta la mitad
+
+        // Dibujar la mitad derecha del canvas con el segundo color
+        ctx.fillStyle = color2;  // Segundo color seleccionado
+        ctx.fillRect(0, -diagonal / 2, diagonal / 2, diagonal);  // Dibujar desde la mitad hasta el final
+
+        // Restaurar el estado del contexto
+        ctx.restore();
+
+        // Cargar los logos
+        cargarLogos();
+    }
+}
+
+// Función para cargar los logos seleccionados
+function cargarLogos() {
     const logo1Seleccionado = document.getElementById('logo1Selector').value;
     const logo2Seleccionado = document.getElementById('logo2Selector').value;
+    const tipoFondoSeleccionado = document.querySelector('input[name="fondoTipo"]:checked').value;  // Verificar si es imagen o colores
 
-    const fondo = new Image();
     const logo1 = new Image();
     const logo2 = new Image();
 
-    fondo.src = imagenes.fondos[fondoSeleccionado];
-
-    // Verificar si la opción "Todos los equipos" está seleccionada
+    // Verificar si la liga seleccionada es 'todos' o una liga específica
     if (ligaSeleccionada === 'todos') {
-        // Buscar logo en todas las ligas
         logo1.src = buscarLogoEnTodasLasLigas(logo1Seleccionado);
         logo2.src = buscarLogoEnTodasLasLigas(logo2Seleccionado);
     } else {
-        // Cargar logo según la liga seleccionada
         logo1.src = imagenes.logos[ligaSeleccionada][logo1Seleccionado];
         logo2.src = imagenes.logos[ligaSeleccionada][logo2Seleccionado];
     }
 
-    fondo.onload = () => {
-        ctx.clearRect(0, 0, canvas.width, canvas.height);  // Limpiar el canvas
-        ctx.drawImage(fondo, 0, 0, canvas.width, canvas.height);
+    // Dibujar logos basado en el fondo seleccionado
+    logo1.onload = () => {
+        let logo1Size, logo1X, logo1Y;
+        
+        if (tipoFondoSeleccionado === 'imagen') {
+            // Usar medidas y posiciones para fondo de imagen
+            logo1Size = ajustarTamañoProporcional(logo1, 392, 420);
+            logo1X = 162 + (392 - logo1Size.width) / 2;
+            logo1Y = 103 + (420 - logo1Size.height) / 2;
+        } else {
+            // Usar medidas y posiciones para fondo de colores
+            logo1Size = ajustarTamañoProporcional(logo1, 370, 398);
+            logo1X = 100 + (392 - logo1Size.width) / 2;
+            logo1Y = 103 + (420 - logo1Size.height) / 2;
+        }
 
-        logo1.onload = () => {
-            const logo1Size = ajustarTamañoProporcional(logo1, 392, 420);  // Tamaño deseado para el logo 1
-            const logo1X = 162 + (392 - logo1Size.width) / 2;  // Centrar el logo 1
-            const logo1Y = 103 + (420 - logo1Size.height) / 2;
-            ctx.drawImage(logo1, logo1X, logo1Y, logo1Size.width, logo1Size.height);
+        ctx.drawImage(logo1, logo1X, logo1Y, logo1Size.width, logo1Size.height);
+    };
 
-            logo2.onload = () => {
-                const logo2Size = ajustarTamañoProporcional(logo2, 392, 420);  // Tamaño deseado para el logo 2
-                const logo2X = 646 + (392 - logo2Size.width) / 2;  // Centrar el logo 2
-                const logo2Y = 103 + (420 - logo2Size.height) / 2;
-                ctx.drawImage(logo2, logo2X, logo2Y, logo2Size.width, logo2Size.height);
-            };
-        };
+    logo2.onload = () => {
+        let logo2Size, logo2X, logo2Y;
+        
+        if (tipoFondoSeleccionado === 'imagen') {
+            // Usar medidas y posiciones para fondo de imagen
+            logo2Size = ajustarTamañoProporcional(logo2, 392, 420);
+            logo2X = 646 + (392 - logo2Size.width) / 2;
+            logo2Y = 103 + (420 - logo2Size.height) / 2;
+        } else {
+            // Usar medidas y posiciones para fondo de colores
+            logo2Size = ajustarTamañoProporcional(logo2, 370, 398);
+            logo2X = 708 + (392 - logo2Size.width) / 2;
+            logo2Y = 103 + (420 - logo2Size.height) / 2;
+        }
+
+        ctx.drawImage(logo2, logo2X, logo2Y, logo2Size.width, logo2Size.height);
     };
 }
-
-// Función para buscar un logo en todas las ligas
-function buscarLogoEnTodasLasLigas(equipo) {
-    for (const liga in imagenes.logos) {
-        if (imagenes.logos[liga][equipo]) {
-            return imagenes.logos[liga][equipo]; // Retorna el logo si lo encuentra
-        }
-    }
-    return ''; // Retorna una cadena vacía si no encuentra el logo
-}
-
 // Función para ajustar tamaño manteniendo proporción
 function ajustarTamañoProporcional(img, targetWidth, targetHeight) {
     const aspectRatio = img.width / img.height;
@@ -392,9 +446,19 @@ function ajustarTamañoProporcional(img, targetWidth, targetHeight) {
     return { width: newWidth, height: newHeight };
 }
 
+// Función para buscar un logo en todas las ligas
+function buscarLogoEnTodasLasLigas(equipo) {
+    for (const liga in imagenes.logos) {
+        if (imagenes.logos[liga][equipo]) {
+            return imagenes.logos[liga][equipo];
+        }
+    }
+    return ''; // Si no se encuentra el logo
+}
+
 // Función para filtrar logos según la liga seleccionada
 function filtrarLogosPorLiga() {
-    ligaSeleccionada = document.getElementById('ligaSelector').value; // Actualizar la liga seleccionada
+    ligaSeleccionada = document.getElementById('ligaSelector').value;
     const logo1Selector = document.getElementById('logo1Selector');
     const logo2Selector = document.getElementById('logo2Selector');
 
@@ -406,7 +470,6 @@ function filtrarLogosPorLiga() {
     let equipos = [];
 
     if (ligaSeleccionada === 'todos') {
-        // Recopilar todos los logos, sin repetir
         for (const liga in imagenes.logos) {
             for (const equipo in imagenes.logos[liga]) {
                 if (!logosAgregados.has(equipo)) {
@@ -416,7 +479,6 @@ function filtrarLogosPorLiga() {
             }
         }
     } else {
-        // Recopilar logos solo de la liga seleccionada
         for (const equipo in imagenes.logos[ligaSeleccionada]) {
             equipos.push(equipo);
         }
@@ -437,7 +499,6 @@ function filtrarLogosPorLiga() {
 function agregarOpcionLogo(selector, equipo) {
     const option = document.createElement('option');
     option.value = equipo;
-    // Eliminar guiones bajos y capitalizar correctamente
     option.textContent = equipo.replace(/_/g, ' ').replace(/\b\w/g, char => char.toUpperCase());
     selector.appendChild(option);
 }
@@ -453,7 +514,46 @@ function descargarImagen() {
 // Añadir el evento al botón de descarga
 document.getElementById('descargarImagen').addEventListener('click', descargarImagen);
 
-// Cargar imágenes iniciales
-window.onload = function() {
-    filtrarLogosPorLiga(); // Filtrar logos según la liga seleccionada por defecto
-};
+// Mostrar u ocultar los selectores según el tipo de fondo seleccionado
+function mostrarOpcionesFondo() {
+    const tipoFondoSeleccionado = document.querySelector('input[name="fondoTipo"]:checked').value;
+    const fondoSelector = document.getElementById('fondoSelector');
+    const colorInputsContainer = document.getElementById('colorInputsContainer');
+
+    if (tipoFondoSeleccionado === 'imagen') {
+        fondoSelector.style.display = 'block';
+        colorInputsContainer.style.display = 'none';
+    } else {
+        fondoSelector.style.display = 'none';
+        colorInputsContainer.style.display = 'block';
+    }
+
+    // Forzar la recarga del fondo cada vez que se cambie entre imagen y color
+    cargarImagenes(); // Llamar a cargarImagenes para aplicar el cambio inmediatamente
+}
+
+// Event listener para cambiar entre imagen y color
+document.querySelectorAll('input[name="fondoTipo"]').forEach(input => {
+    input.addEventListener('change', mostrarOpcionesFondo);
+});
+
+// Event listeners para el cambio de liga y logos
+document.getElementById('ligaSelector').addEventListener('change', filtrarLogosPorLiga);
+document.getElementById('logo1Selector').addEventListener('change', cargarImagenes);
+document.getElementById('logo2Selector').addEventListener('change', cargarImagenes);
+
+// Event listeners para cambio de fondo o color
+document.getElementById('fondoSelector').addEventListener('change', cargarImagenes);
+document.querySelectorAll('#color1, #color2').forEach(inputColor => {
+    inputColor.addEventListener('input', cargarImagenes);
+});
+
+// Ejecutar al cargar la página
+window.addEventListener('load', () => {
+    // Forzar el fondo azul por defecto al cargar la página
+    document.getElementById('color1').value = '#0000FF';  // Azul por defecto
+    cargarImagenes();
+
+    // Filtrar logos por la liga seleccionada al inicio
+    filtrarLogosPorLiga();
+});
