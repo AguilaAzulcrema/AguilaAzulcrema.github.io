@@ -19,6 +19,7 @@ const imagenes = {
         fondo11: 'img/fondos/conferenceleague.jpeg',
         fondo12: 'img/fondos/uefanationsleague.jpeg',
         fondo13: 'img/fondos/conmebol.jpeg',
+        fondo14: 'img/fondos/black2.png',
         // Agrega más fondos
     },
 
@@ -376,11 +377,11 @@ function cargarImagenes() {
     }
 }
 
-// Función para cargar los logos seleccionados
 function cargarLogos() {
     const logo1Seleccionado = document.getElementById('logo1Selector').value;
     const logo2Seleccionado = document.getElementById('logo2Selector').value;
     const tipoFondoSeleccionado = document.querySelector('input[name="fondoTipo"]:checked').value;  // Verificar si es imagen o colores
+    const fondoSeleccionado = document.getElementById('fondoSelector').value;  // Obtener el fondo seleccionado
 
     const logo1 = new Image();
     const logo2 = new Image();
@@ -398,8 +399,13 @@ function cargarLogos() {
     logo1.onload = () => {
         let logo1Size, logo1X, logo1Y;
         
-        if (tipoFondoSeleccionado === 'imagen') {
-            // Usar medidas y posiciones para fondo de imagen
+        if (tipoFondoSeleccionado === 'imagen' && fondoSeleccionado === 'fondo14') {
+            // Usar medidas y posiciones para el fondo de colores (mismas medidas que el fondo de colores)
+            logo1Size = ajustarTamañoProporcional(logo1, 370, 398);
+            logo1X = 100 + (392 - logo1Size.width) / 2;
+            logo1Y = 103 + (420 - logo1Size.height) / 2;
+        } else if (tipoFondoSeleccionado === 'imagen') {
+            // Usar medidas y posiciones para fondo de imagen (excepto fondo14)
             logo1Size = ajustarTamañoProporcional(logo1, 392, 420);
             logo1X = 162 + (392 - logo1Size.width) / 2;
             logo1Y = 103 + (420 - logo1Size.height) / 2;
@@ -416,8 +422,13 @@ function cargarLogos() {
     logo2.onload = () => {
         let logo2Size, logo2X, logo2Y;
         
-        if (tipoFondoSeleccionado === 'imagen') {
-            // Usar medidas y posiciones para fondo de imagen
+        if (tipoFondoSeleccionado === 'imagen' && fondoSeleccionado === 'fondo14') {
+            // Usar medidas y posiciones para el fondo de colores (mismas medidas que el fondo de colores)
+            logo2Size = ajustarTamañoProporcional(logo2, 370, 398);
+            logo2X = 708 + (392 - logo2Size.width) / 2;
+            logo2Y = 103 + (420 - logo2Size.height) / 2;
+        } else if (tipoFondoSeleccionado === 'imagen') {
+            // Usar medidas y posiciones para fondo de imagen (excepto fondo14)
             logo2Size = ajustarTamañoProporcional(logo2, 392, 420);
             logo2X = 646 + (392 - logo2Size.width) / 2;
             logo2Y = 103 + (420 - logo2Size.height) / 2;
@@ -431,6 +442,7 @@ function cargarLogos() {
         ctx.drawImage(logo2, logo2X, logo2Y, logo2Size.width, logo2Size.height);
     };
 }
+
 // Función para ajustar tamaño manteniendo proporción
 function ajustarTamañoProporcional(img, targetWidth, targetHeight) {
     const aspectRatio = img.width / img.height;
