@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles2.css">
+    <title>Controles</title>
+</head>
+<body>
+    <div class="controls-container">
+        <div class="inputs-container">
+            <input type="text" id="team1-input" placeholder="Equipo 1" />
+            <input type="text" id="team2-input" placeholder="Equipo 2" />
+        </div>
+
+        <div class="score-buttons">
+            <button id="score1-minus">-</button>
+            <button id="score1-plus">+</button>
+            <button id="score2-minus">-</button>
+            <button id="score2-plus">+</button>
+        </div>
+
+        <div class="buttons-container">
+            <button id="start">Iniciar</button>
+            <button id="pause">Pausar</button>
+            <button id="reset">Detener</button>
+            <button id="first-half">1T</button>
+            <button id="second-half">2T</button>
+        </div>
+
+        <div class="time-add-container">
+            <input type="number" id="add-time-input" placeholder="Añadir tiempo" />
+            <button id="show-add-time">Mostrar</button>
+            <button id="hide-add-time">Ocultar</button> <!-- Nuevo botón para ocultar -->
+        </div>
+
+        <div class="custom-time-container">
+            <input type="number" id="custom-minutes" placeholder="Minutos" />
+            <input type="number" id="custom-seconds" placeholder="Segundos" />
+            <button id="set-custom-time">Iniciar desde este tiempo</button>
+        </div>
+    </div>
+
+    <script src="controls.js"></script> <!-- Script solo de los controles -->
+</body>
+</html>

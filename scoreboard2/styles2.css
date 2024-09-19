@@ -1,0 +1,181 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: rgba(0, 0, 0, 0); /* Fondo transparente */
+    color: #B39B00;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.scoreboard {
+    display: flex;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0); /* Fondo transparente */
+    border-radius: 20px;
+    padding: 10px;
+    width: 600px;
+    height: 100px;
+}
+
+.time {
+    padding: 3px 20px;
+    background-color: #afafaf;
+    color: #000000;
+    font-weight: bold;
+    font-size: 25px;
+    margin: 20px;
+    border-radius: 0px 0px 15px 15px;
+}
+
+.teams {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    font-size: 24px;
+    font-weight: bold;
+    width:65%;
+    background-color: #000000;
+    padding: 5px 0px;
+    border-radius: 0px 0px 0px 15px;
+}
+.score {
+    margin: 0px;
+    font-size: 26px;
+}
+
+.medio {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    font-weight: bold;
+    width:30%;
+}
+
+#logoContainer {
+    flex-basis: 15%;
+}
+
+.league-logo {
+    width: 40px;
+    height: auto;
+}
+
+.add {
+    padding: 3px 5px;
+    background-color: #b39b00d7;
+    color: #000000;
+    font-weight: bold;
+    font-size: 25px;
+}
+
+.controls-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+    padding-top: 100px;
+}
+
+.inputs-container {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    margin-bottom: 10px;
+}
+
+.inputs-container input {
+    padding: 5px;
+    width: 150px;
+    font-size: 16px;
+    text-align: center;
+}
+
+.buttons-container {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.buttons-container button,
+.score-buttons button {
+    padding: 10px 20px;
+    background-color: #afafaf;
+    color: #000;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.buttons-container button:hover,
+.score-buttons button:hover {
+    background-color: #b39b00;
+}
+
+.score-buttons {
+    display: flex;
+    justify-content: space-between;
+    width: 250px;
+}
+
+.time-add-container {
+    align-items: center;
+}
+
+#add-time-input {
+    margin-bottom: 10px;
+    padding: 5px;
+    width: 150px;
+}
+
+#show-add-time {
+    padding: 10px 20px;
+    background-color: #afafaf;
+    color: #000;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+#hide-add-time {
+    padding: 10px 20px;
+    background-color: #afafaf;
+    color: #000;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+#hide-add-time:hover {
+    background-color: #b39b00;
+}
+
+#show-add-time:hover {
+    background-color: #b39b00;
+}
+
+#set-custom-time {
+    padding: 10px 20px;
+    background-color: #afafaf;
+    color: #000;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    margin: 10px;
+}
+
+#set-custom-time:hover {
+    background-color: #b39b00;
+}
