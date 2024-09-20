@@ -18,16 +18,19 @@ $(document).ready(function() {
         return hours + ":" + minutes;
     }
 
+    // Cargar el archivo JSON (sin la clave "events", accede directamente al array)
     $.getJSON('https://aguilaazulcrema.github.io//json/prueva/eventos.json', function(data) {
         let eventBody = $('#event-body');
         let mi_array = [];
 
-        data.events.forEach((event, index) => {
+        // Iterar directamente sobre el array de eventos
+        data.forEach((event, index) => {
             let eventTime = toDate(event.hora);
             // Convertir a la zona horaria deseada
             let localEventTime = new Date(eventTime.getTime() + timezoneOffset * 60000);
             mi_array[index] = localEventTime;
 
+            // Crear la fila del evento
             let eventRow = `
                 <tr class="cell-color">
                     <td class="cell-color time-cell">${formato24h(localEventTime)}</td>
@@ -39,6 +42,7 @@ $(document).ready(function() {
                 <tr class="stream-options">
                     <td colspan="5">`;
 
+            // Iterar sobre los streams y añadir los botones correspondientes
             event.streams.forEach(stream => {
                 eventRow += `<a class='btn btn-stream btn-cell-color' data-stream='${stream.url}'>${stream.optionText}</a>`;
             });
@@ -49,12 +53,14 @@ $(document).ready(function() {
             eventBody.append(eventRow);
         });
 
+        // Control del toggle para mostrar las opciones de transmisión
         $(".cell-color").click(function() {
             var nextRow = $(this).next(".stream-options");
             $(".stream-options").not(nextRow).slideUp();
             nextRow.slideToggle();
         });
 
+        // Control del click en el botón de stream
         $(".btn-stream").click(function(event) {
             event.stopPropagation();
             var streamUrl = $(this).data("stream");
@@ -72,6 +78,7 @@ $(document).ready(function() {
             $(".event-info-player").show();
         });
 
+        // Función para copiar el código del iframe
         $("#copy-button").click(function() {
             var copyText = $("#iframe-code");
             copyText.select();
@@ -79,6 +86,7 @@ $(document).ready(function() {
             alert("Copied the iframe code: " + copyText.val());
         });
 
+        // Ajustar estilos
         $(".cell-color, .event-title").css("cursor", "default");
     });
 });
