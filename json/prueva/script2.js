@@ -18,12 +18,12 @@ $(document).ready(function() {
         return hours + ":" + minutes;
     }
 
-    $.getJSON('eventos.json', function(data) {
+    $.getJSON('https://aguilaazulcrema.github.io//json/prueva/eventos.json', function(data) {
         let eventBody = $('#event-body');
         let mi_array = [];
 
         data.events.forEach((event, index) => {
-            let eventTime = toDate(event.time);
+            let eventTime = toDate(event.hora);
             // Convertir a la zona horaria deseada
             let localEventTime = new Date(eventTime.getTime() + timezoneOffset * 60000);
             mi_array[index] = localEventTime;
@@ -32,9 +32,9 @@ $(document).ready(function() {
                 <tr class="cell-color">
                     <td class="cell-color time-cell">${formato24h(localEventTime)}</td>
                     <td class="cell-color">
-                        <img aria-label="Liga" class="${event.tournament}" />
+                        <img aria-label="Liga" class="${event.liga}" />
                     </td>
-                    <td class="event-title cell-color">${event.eventTitle}</td>
+                    <td class="event-title cell-color">${event.equipos}</td>
                 </tr>
                 <tr class="stream-options">
                     <td colspan="5">`;
