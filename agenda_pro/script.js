@@ -1,6 +1,6 @@
 // Función para generar el HTML de cada evento
 function generateEventHTML(event) {
-    const className = event.deporte.replace(/\s+/g, '').toUpperCase();
+    const className = event.tournament.replace(/\s+/g, '').toUpperCase();
     const eventInfo = `${event.tournament}: ${event.eventTitle}`;
     const time = event.time;
     const streamsList = event.streams.map(stream => {

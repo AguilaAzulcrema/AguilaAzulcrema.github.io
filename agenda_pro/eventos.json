@@ -1,167 +1,105 @@
 [
     {
-        "time": "04:55",
-        "deporte": "TENNIS",
-        "tournament": "ATP",
-        "eventTitle": "Laver Cup: Europe vs. World",
-        "streams": [
-            {
-                "url": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4YTkzOGRhMjg1ODk5Mjg3OTk4Mzg5OTg4Zjk4ODk4Yy5odG1s",
-                "optionText": "Opcion 1"
-            },
-            {
-                "url": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4YTkzOGRhMjg1ODk5Mjg3OTk4Mzg5OTg5MDk4OGE4My5odG1s",
-                "optionText": "Opcion 2"
-            }
-        ]
-    },
-    {
         "time": "09:00",
-        "deporte": "BOXING",
-        "tournament": "Event",
-        "eventTitle": "Anthony Joshua vs Daniel Dubois",
+        "tournament": "Suomen Cup",
+        "eventTitle": "Inter Turku vs. KuPS",
         "streams": [
             {
-                "url": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4YTkzOGRhMjg3ODM5OTg3OTk4MzhiOWE4Nzk4ODY4NTkyLmh0bWw=",
+                "url": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4YTkzOGRhMjg3ODM5OTg3OTk4MzhiOWE4Zjk4ODY4Njk3Lmh0bWw=",
+                "optionText": "Opcion 1"
+            }
+        ]
+    },
+    {
+        "time": "09:15",
+        "tournament": "Taca de Portugal",
+        "eventTitle": "Camacha vs. Leiria",
+        "streams": [
+            {
+                "url": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4YTkzOGRhMjg3ODQ5ODg3OTk4MzhjOTE4ZTk4ODY4Njk5Lmh0bWw=",
+                "optionText": "Opcion 1"
+            }
+        ]
+    },
+    {
+        "time": "09:30",
+        "tournament": "Allsvenskan",
+        "eventTitle": "Brommapojkarna vs. Mjallby",
+        "streams": [
+            {
+                "url": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4YTkzOGRhMjg3ODU5Nzg3OTk4MzhjOTE4Zjk4ODY4NzkyLmh0bWw=",
+                "optionText": "Opcion 1"
+            }
+        ]
+    },
+    {
+        "time": "09:30",
+        "tournament": "Croatia HNL",
+        "eventTitle": "Slaven Belupo vs. Dinamo Zagreb",
+        "streams": [
+            {
+                "url": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4YTkzOGRhMjg3ODU5Nzg3OTk4MzhjOTE5MDk4ODY4NzkzLmh0bWw=",
+                "optionText": "Opcion 1"
+            }
+        ]
+    },
+    {
+        "time": "09:30",
+        "tournament": "Ekstraklasa",
+        "eventTitle": "Widzew Lodz vs. Piast Gliwice",
+        "streams": [
+            {
+                "url": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4YTkzOGRhMjg3ODU5Nzg3OTk4MzhjOTI4Nzk4ODY4Nzk0Lmh0bWw=",
+                "optionText": "Opcion 1"
+            }
+        ]
+    },
+    {
+        "time": "09:30",
+        "tournament": "Poland Div 1",
+        "eventTitle": "Termalica B-B. vs. LKS Lodz",
+        "streams": [
+            {
+                "url": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4YTkzOGRhMjg3ODU5Nzg3OTk4MzhjOTI4ODk4ODY4Nzk1Lmh0bWw=",
+                "optionText": "Opcion 1"
+            }
+        ]
+    },
+    {
+        "time": "09:30",
+        "tournament": "Romania",
+        "eventTitle": "FC Hermannstadt vs. CFR Cluj",
+        "streams": [
+            {
+                "url": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4YTkzOGRhMjg3ODU5Nzg3OTk4MzhjOTI4OTk4ODY4Nzk2Lmh0bWw=",
+                "optionText": "Opcion 1"
+            }
+        ]
+    },
+    {
+        "time": "09:30",
+        "tournament": "Saudi Professional League",
+        "eventTitle": "Al Shabab vs. Al Taawon",
+        "streams": [
+            {
+                "url": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4YTkzOGRhMjg3ODU5Nzg3OTk4MzhjOTI4YTk4ODY4Nzk3Lmh0bWw=",
+                "optionText": "Opcion 1"
+            }
+        ]
+    },
+    {
+        "time": "09:35",
+        "tournament": "Saudi Professional League",
+        "eventTitle": "Al Raed vs. Al Riyadh",
+        "streams": [
+            {
+                "url": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4YTkzOGRhMjg3ODU5YTg3OTk4MzhjOTI4ZDk4ODY4Nzk4Lmh0bWw=",
                 "optionText": "Opcion 1"
             }
         ]
     },
     {
         "time": "10:00",
-        "deporte": "COMBAT SPORT",
-        "tournament": "MMA",
-        "eventTitle": "GLORY 95 vs. Prelims",
-        "streams": [
-            {
-                "url": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4YTkzOGRhMjg3ODc5NTg3OTk4MzhjOTI4ZTk4ODY4OTk1Lmh0bWw=",
-                "optionText": "Opcion 1"
-            }
-        ]
-    },
-    {
-        "time": "10:00",
-        "deporte": "AMERICAN FOOTBALL",
-        "tournament": "NCAA",
-        "eventTitle": "Kansas vs. West Virginia",
-        "streams": [
-            {
-                "url": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4YTkzOGRhMjg3ODc5NTg3OTk4MzhjOTM4ODk4ODY4OTlhLmh0bWw=",
-                "optionText": "Opcion 1"
-            }
-        ]
-    },
-    {
-        "time": "10:00",
-        "deporte": "AMERICAN FOOTBALL",
-        "tournament": "NCAA",
-        "eventTitle": "Houston vs. Cincinnati",
-        "streams": [
-            {
-                "url": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4YTkzOGRhMjg3ODc5NTg3OTk4MzhjOTM4Yjk4ODY4OTk4Lmh0bWw=",
-                "optionText": "Opcion 1"
-            }
-        ]
-    },
-    {
-        "time": "10:00",
-        "deporte": "AMERICAN FOOTBALL",
-        "tournament": "NCAA",
-        "eventTitle": "Charlotte vs. Indiana",
-        "streams": [
-            {
-                "url": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4YTkzOGRhMjg3ODc5NTg3OTk4MzhjOTM4Yzk4ODY4OTk2Lmh0bWw=",
-                "optionText": "Opcion 1"
-            }
-        ]
-    },
-    {
-        "time": "10:00",
-        "deporte": "AMERICAN FOOTBALL",
-        "tournament": "NCAA",
-        "eventTitle": "Villanova vs. Maryland",
-        "streams": [
-            {
-                "url": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4YTkzOGRhMjg3ODc5NTg3OTk4MzhjOTM4ZDk4ODY4YTk5Lmh0bWw=",
-                "optionText": "Opcion 1"
-            }
-        ]
-    },
-    {
-        "time": "10:00",
-        "deporte": "AMERICAN FOOTBALL",
-        "tournament": "NCAA",
-        "eventTitle": "Rice vs. Army",
-        "streams": [
-            {
-                "url": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4YTkzOGRhMjg3ODc5NTg3OTk4MzhjOTM4ZTk4ODY4YTk2Lmh0bWw=",
-                "optionText": "Opcion 1"
-            }
-        ]
-    },
-    {
-        "time": "10:00",
-        "deporte": "AMERICAN FOOTBALL",
-        "tournament": "NCAA",
-        "eventTitle": "Lafayette vs. Columbia",
-        "streams": [
-            {
-                "url": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4YTkzOGRhMjg3ODc5NTg3OTk4MzhjOTM4Zjk4ODY4YTkxLmh0bWw=",
-                "optionText": "Opcion 1"
-            }
-        ]
-    },
-    {
-        "time": "10:00",
-        "deporte": "AMERICAN FOOTBALL",
-        "tournament": "NCAA",
-        "eventTitle": "Princeton vs. Lehigh",
-        "streams": [
-            {
-                "url": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4YTkzOGRhMjg3ODc5NTg3OTk4MzhjOTM5MDk4ODY4YTk0Lmh0bWw=",
-                "optionText": "Opcion 1"
-            }
-        ]
-    },
-    {
-        "time": "10:00",
-        "deporte": "AMERICAN FOOTBALL",
-        "tournament": "NCAA",
-        "eventTitle": "Stetson vs. Harvard",
-        "streams": [
-            {
-                "url": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4YTkzOGRhMjg3ODc5NTg3OTk4MzhjOTQ4Nzk4ODY4YTk3Lmh0bWw=",
-                "optionText": "Opcion 1"
-            }
-        ]
-    },
-    {
-        "time": "10:00",
-        "deporte": "AMERICAN FOOTBALL",
-        "tournament": "NCAA",
-        "eventTitle": "Rhode Island vs. Long Island University",
-        "streams": [
-            {
-                "url": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4YTkzOGRhMjg3ODc5NTg3OTk4MzhjOTQ4ODk4ODY4YTk1Lmh0bWw=",
-                "optionText": "Opcion 1"
-            }
-        ]
-    },
-    {
-        "time": "10:00",
-        "deporte": "AMERICAN FOOTBALL",
-        "tournament": "NCAA",
-        "eventTitle": "West Virginia Wesleyan vs. Duquesne",
-        "streams": [
-            {
-                "url": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4YTkzOGRhMjg3ODc5NTg3OTk4MzhjOTQ4OTk4ODY4YTlhLmh0bWw=",
-                "optionText": "Opcion 1"
-            }
-        ]
-    },
-    {
-        "time": "10:00",
-        "deporte": "SOCCER",
         "tournament": "Argentina Primera B",
         "eventTitle": "Acassuso vs. Canuelas",
         "streams": [
@@ -173,7 +111,6 @@
     },
     {
         "time": "10:00",
-        "deporte": "SOCCER",
         "tournament": "Argentina Primera B",
         "eventTitle": "Argentino de Merlo vs. Villa Dalmine",
         "streams": [
@@ -185,7 +122,6 @@
     },
     {
         "time": "10:00",
-        "deporte": "SOCCER",
         "tournament": "Argentina Primera B",
         "eventTitle": "Dock Sud vs. Argentino de Quilmes",
         "streams": [
@@ -197,7 +133,6 @@
     },
     {
         "time": "10:00",
-        "deporte": "SOCCER",
         "tournament": "Argentina Primera B",
         "eventTitle": "UAI Urquiza vs. Midland",
         "streams": [
@@ -209,7 +144,6 @@
     },
     {
         "time": "10:00",
-        "deporte": "SOCCER",
         "tournament": "Eliteserien",
         "eventTitle": "HamKam vs. Lillestrom",
         "streams": [
@@ -221,7 +155,6 @@
     },
     {
         "time": "10:00",
-        "deporte": "SOCCER",
         "tournament": "Faroe Islands",
         "eventTitle": "Toftir vs. Klaksvik",
         "streams": [
@@ -233,7 +166,6 @@
     },
     {
         "time": "10:00",
-        "deporte": "SOCCER",
         "tournament": "Faroe Islands",
         "eventTitle": "Vikingur vs. Streymur",
         "streams": [
@@ -245,7 +177,6 @@
     },
     {
         "time": "10:00",
-        "deporte": "SOCCER",
         "tournament": "Moldova",
         "eventTitle": "Sheriff Tiraspol vs. Balti",
         "streams": [
@@ -257,7 +188,6 @@
     },
     {
         "time": "10:00",
-        "deporte": "SOCCER",
         "tournament": "Russia",
         "eventTitle": "Rubin Kazan vs. CSKA Moscow",
         "streams": [
@@ -269,7 +199,6 @@
     },
     {
         "time": "10:00",
-        "deporte": "SOCCER",
         "tournament": "Serbia",
         "eventTitle": "Cukaricki vs. Jedinstvo U.",
         "streams": [
@@ -281,7 +210,6 @@
     },
     {
         "time": "10:00",
-        "deporte": "SOCCER",
         "tournament": "Serbia",
         "eventTitle": "TSC vs. Novi Pazar",
         "streams": [
@@ -293,7 +221,6 @@
     },
     {
         "time": "10:00",
-        "deporte": "SOCCER",
         "tournament": "Serie A",
         "eventTitle": "Juventus vs. Napoli",
         "streams": [
@@ -313,7 +240,6 @@
     },
     {
         "time": "10:00",
-        "deporte": "SOCCER",
         "tournament": "Serie B",
         "eventTitle": "Modena vs. Juve Stabia",
         "streams": [
@@ -325,7 +251,6 @@
     },
     {
         "time": "10:00",
-        "deporte": "SOCCER",
         "tournament": "Slovakia",
         "eventTitle": "Komarno vs. Trencin",
         "streams": [
@@ -337,7 +262,6 @@
     },
     {
         "time": "10:00",
-        "deporte": "SOCCER",
         "tournament": "Slovakia",
         "eventTitle": "Kosice vs. Zilina",
         "streams": [
@@ -349,7 +273,6 @@
     },
     {
         "time": "10:00",
-        "deporte": "SOCCER",
         "tournament": "Slovakia",
         "eventTitle": "Skalica vs. Dunajska Streda",
         "streams": [
@@ -361,7 +284,6 @@
     },
     {
         "time": "10:00",
-        "deporte": "SOCCER",
         "tournament": "Swiss Super League",
         "eventTitle": "Grasshoppers vs. Servette",
         "streams": [
@@ -373,7 +295,6 @@
     },
     {
         "time": "10:00",
-        "deporte": "SOCCER",
         "tournament": "Swiss Super League",
         "eventTitle": "St. Gallen vs. Luzern",
         "streams": [
@@ -385,7 +306,6 @@
     },
     {
         "time": "10:00",
-        "deporte": "SOCCER",
         "tournament": "Turkey 1 Lig",
         "eventTitle": "Amedspor vs. Boluspor",
         "streams": [
@@ -397,7 +317,6 @@
     },
     {
         "time": "10:00",
-        "deporte": "SOCCER",
         "tournament": "Turkey 1 Lig",
         "eventTitle": "Ankaragucu vs. Sakaryaspor",
         "streams": [
@@ -409,7 +328,6 @@
     },
     {
         "time": "10:00",
-        "deporte": "SOCCER",
         "tournament": "UAE League",
         "eventTitle": "Al Wasl vs. Al Nasr",
         "streams": [
@@ -420,212 +338,7 @@
         ]
     },
     {
-        "time": "10:00",
-        "deporte": "HOCKEY",
-        "tournament": "Maxa liga",
-        "eventTitle": "Trebic vs. Frydek-Mistek",
-        "streams": [
-            {
-                "url": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4YTkzOGRhMjg3ODc5NTg3OTk4MzhjOTY4ZDk4ODY4OTkxLmh0bWw=",
-                "optionText": "Opcion 1"
-            }
-        ]
-    },
-    {
-        "time": "10:00",
-        "deporte": "HOCKEY",
-        "tournament": "SHL",
-        "eventTitle": "Farjestad vs. Rogle",
-        "streams": [
-            {
-                "url": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4YTkzOGRhMjg3ODc5NTg3OTk4MzhjOTY4ZTk4ODY4OTkyLmh0bWw=",
-                "optionText": "Opcion 1"
-            }
-        ]
-    },
-    {
-        "time": "10:00",
-        "deporte": "HOCKEY",
-        "tournament": "SHL",
-        "eventTitle": "Lulea Hockey vs. Timra",
-        "streams": [
-            {
-                "url": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4YTkzOGRhMjg3ODc5NTg3OTk4MzhjOTY4Zjk4ODY4OTkzLmh0bWw=",
-                "optionText": "Opcion 1"
-            }
-        ]
-    },
-    {
-        "time": "10:00",
-        "deporte": "HOCKEY",
-        "tournament": "SHL",
-        "eventTitle": "Orebro vs. Modo",
-        "streams": [
-            {
-                "url": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4YTkzOGRhMjg3ODc5NTg3OTk4MzhjOTY5MDk4ODY4OTk0Lmh0bWw=",
-                "optionText": "Opcion 1"
-            }
-        ]
-    },
-    {
-        "time": "10:00",
-        "deporte": "BASKETBALL",
-        "tournament": "ABA Liga",
-        "eventTitle": "Split vs. Igokea",
-        "streams": [
-            {
-                "url": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4YTkzOGRhMjg3ODc5NTg3OTk4MzhjOTc4ODk4ODY4NzlhLmh0bWw=",
-                "optionText": "Opcion 1"
-            }
-        ]
-    },
-    {
-        "time": "10:00",
-        "deporte": "BASKETBALL",
-        "tournament": "Champions League",
-        "eventTitle": "Benfica vs. Fribourg Olympic",
-        "streams": [
-            {
-                "url": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4YTkzOGRhMjg3ODc5NTg3OTk4MzhjOTc4OTk4ODY4ODkxLmh0bWw=",
-                "optionText": "Opcion 1"
-            }
-        ]
-    },
-    {
-        "time": "10:00",
-        "deporte": "BASKETBALL",
-        "tournament": "Italian Super Cup",
-        "eventTitle": "Olimpia Milano vs. Venezia",
-        "streams": [
-            {
-                "url": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4YTkzOGRhMjg3ODc5NTg3OTk4MzhjOTc4Nzk4ODY4ODk0Lmh0bWw=",
-                "optionText": "Opcion 1"
-            }
-        ]
-    },
-    {
-        "time": "10:00",
-        "deporte": "BASKETBALL",
-        "tournament": "LKL",
-        "eventTitle": "Rytas vs. Neptunas",
-        "streams": [
-            {
-                "url": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4YTkzOGRhMjg3ODc5NTg3OTk4MzhjOTc4YTk4ODY4ODkyLmh0bWw=",
-                "optionText": "Opcion 1"
-            }
-        ]
-    },
-    {
-        "time": "10:00",
-        "deporte": "BASKETBALL",
-        "tournament": "LNB",
-        "eventTitle": "Le Portel vs. JL Bourg",
-        "streams": [
-            {
-                "url": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4YTkzOGRhMjg3ODc5NTg3OTk4MzhjOTc4Yjk4ODY4ODkzLmh0bWw=",
-                "optionText": "Opcion 1"
-            }
-        ]
-    },
-    {
-        "time": "10:00",
-        "deporte": "VOLLEYBALL",
-        "tournament": "Italy Super Cup",
-        "eventTitle": "Trentino vs. Monza",
-        "streams": [
-            {
-                "url": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4YTkzOGRhMjg3ODc5NTg3OTk4MzhjOTc4ZDk4ODc4Mzk0Lmh0bWw=",
-                "optionText": "Opcion 1"
-            }
-        ]
-    },
-    {
-        "time": "10:00",
-        "deporte": "VOLLEYBALL",
-        "tournament": "Poland",
-        "eventTitle": "Chemik Police W vs. Bielsko-Biala W",
-        "streams": [
-            {
-                "url": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4YTkzOGRhMjg3ODc5NTg3OTk4MzhjOTc4Yzk4ODc4Mzk1Lmh0bWw=",
-                "optionText": "Opcion 1"
-            }
-        ]
-    },
-    {
-        "time": "10:00",
-        "deporte": "HANDBALL",
-        "tournament": "Champions League",
-        "eventTitle": "Brest Bretagne W vs. Esbjerg W",
-        "streams": [
-            {
-                "url": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4YTkzOGRhMjg3ODc5NTg3OTk4MzhjOTc4ZTk4ODY4ODk1Lmh0bWw=",
-                "optionText": "Opcion 1"
-            }
-        ]
-    },
-    {
-        "time": "10:00",
-        "deporte": "HANDBALL",
-        "tournament": "Champions League",
-        "eventTitle": "Gyor W vs. Kristiansand W",
-        "streams": [
-            {
-                "url": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4YTkzOGRhMjg3ODc5NTg3OTk4MzhjOTc4Zjk4ODY4ODk2Lmh0bWw=",
-                "optionText": "Opcion 1"
-            }
-        ]
-    },
-    {
-        "time": "10:00",
-        "deporte": "HANDBALL",
-        "tournament": "Champions League",
-        "eventTitle": "Podravka Vegeta W vs. CSM Bucuresti W",
-        "streams": [
-            {
-                "url": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4YTkzOGRhMjg3ODc5NTg3OTk4MzhjOTc5MDk4ODY4ODk3Lmh0bWw=",
-                "optionText": "Opcion 1"
-            }
-        ]
-    },
-    {
-        "time": "10:00",
-        "deporte": "HANDBALL",
-        "tournament": "Poland Superliga",
-        "eventTitle": "Legionowo vs. Zabrze",
-        "streams": [
-            {
-                "url": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4YTkzOGRhMjg3ODc5NTg3OTk4MzhjOTg4Nzk4ODY4ODlhLmh0bWw=",
-                "optionText": "Opcion 1"
-            }
-        ]
-    },
-    {
-        "time": "10:00",
-        "deporte": "HANDBALL",
-        "tournament": "Poland Superliga W",
-        "eventTitle": "Gniezno W vs. Sosnica Gliwice W",
-        "streams": [
-            {
-                "url": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4YTkzOGRhMjg3ODc5NTg3OTk4MzhjOTg4ODk4ODY4ODk4Lmh0bWw=",
-                "optionText": "Opcion 1"
-            }
-        ]
-    },
-    {
-        "time": "10:00",
-        "deporte": "HANDBALL",
-        "tournament": "Poland Superliga W",
-        "eventTitle": "Start Elblag W vs. Kalisz W",
-        "streams": [
-            {
-                "url": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4YTkzOGRhMjg3ODc5NTg3OTk4MzhjOTg4OTk4ODY4ODk5Lmh0bWw=",
-                "optionText": "Opcion 1"
-            }
-        ]
-    },
-    {
         "time": "10:15",
-        "deporte": "SOCCER",
         "tournament": "Belgium 1A",
         "eventTitle": "Westerlo vs. Antwerp",
         "streams": [
@@ -637,7 +350,6 @@
     },
     {
         "time": "10:30",
-        "deporte": "SOCCER",
         "tournament": "Bundesliga",
         "eventTitle": "Eintracht Frankfurt vs. Borussia Monchengladbach",
         "streams": [
@@ -649,7 +361,6 @@
     },
     {
         "time": "10:30",
-        "deporte": "SOCCER",
         "tournament": "England National League",
         "eventTitle": "Wealdstone vs. Barnet",
         "streams": [
@@ -661,7 +372,6 @@
     },
     {
         "time": "10:30",
-        "deporte": "SOCCER",
         "tournament": "EPL",
         "eventTitle": "Crystal Palace vs. Manchester United",
         "streams": [
@@ -681,7 +391,6 @@
     },
     {
         "time": "10:30",
-        "deporte": "SOCCER",
         "tournament": "Israel Ligat haAl",
         "eventTitle": "Hapoel Jerusalem vs. Maccabi Bnei Raina",
         "streams": [
@@ -693,7 +402,6 @@
     },
     {
         "time": "10:30",
-        "deporte": "SOCCER",
         "tournament": "Israel Ligat haAl",
         "eventTitle": "Ironi Tiberias vs. Bnei Sakhnin",
         "streams": [
@@ -705,7 +413,6 @@
     },
     {
         "time": "10:30",
-        "deporte": "SOCCER",
         "tournament": "Italy Serie C",
         "eventTitle": "Alcione Milano vs. L.R. Vicenza",
         "streams": [
@@ -717,7 +424,6 @@
     },
     {
         "time": "10:30",
-        "deporte": "SOCCER",
         "tournament": "Italy Serie C",
         "eventTitle": "Arzignano vs. Union Clodiense",
         "streams": [
@@ -729,7 +435,6 @@
     },
     {
         "time": "10:30",
-        "deporte": "SOCCER",
         "tournament": "Italy Serie C",
         "eventTitle": "Lecco vs. Triestina",
         "streams": [
@@ -741,7 +446,6 @@
     },
     {
         "time": "10:30",
-        "deporte": "SOCCER",
         "tournament": "Italy Serie C",
         "eventTitle": "Pergolettese vs. FeralpiSalo",
         "streams": [
@@ -753,7 +457,6 @@
     },
     {
         "time": "10:30",
-        "deporte": "SOCCER",
         "tournament": "Italy Serie C",
         "eventTitle": "Sorrento vs. Turris",
         "streams": [
@@ -765,7 +468,6 @@
     },
     {
         "time": "10:30",
-        "deporte": "SOCCER",
         "tournament": "LaLiga",
         "eventTitle": "Valencia vs. Girona",
         "streams": [
@@ -785,7 +487,6 @@
     },
     {
         "time": "10:30",
-        "deporte": "SOCCER",
         "tournament": "LaLiga2",
         "eventTitle": "Deportivo La Coruna vs. Burgos CF",
         "streams": [
@@ -797,7 +498,6 @@
     },
     {
         "time": "10:30",
-        "deporte": "SOCCER",
         "tournament": "LaLiga2",
         "eventTitle": "Eldense vs. Real Oviedo",
         "streams": [
@@ -809,7 +509,6 @@
     },
     {
         "time": "10:30",
-        "deporte": "SOCCER",
         "tournament": "Liga BiH",
         "eventTitle": "Posusje vs. Radnik Bijeljina",
         "streams": [
@@ -821,7 +520,6 @@
     },
     {
         "time": "10:30",
-        "deporte": "SOCCER",
         "tournament": "Sottish League Cup",
         "eventTitle": "Aberdeen vs. Spartans",
         "streams": [
@@ -833,7 +531,6 @@
     },
     {
         "time": "10:30",
-        "deporte": "SOCCER",
         "tournament": "Sottish League Cup",
         "eventTitle": "Rangers vs. Dundee FC",
         "streams": [
@@ -845,7 +542,6 @@
     },
     {
         "time": "10:30",
-        "deporte": "SOCCER",
         "tournament": "Uruguay",
         "eventTitle": "Rampla Juniors vs. Cerro Largo",
         "streams": [
@@ -856,80 +552,7 @@
         ]
     },
     {
-        "time": "10:30",
-        "deporte": "BASKETBALL",
-        "tournament": "BBL",
-        "eventTitle": "Gottingen vs. Frankfurt",
-        "streams": [
-            {
-                "url": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4YTkzOGRhMjg3ODk5Mzg3OTk4MzhjOWE4Yzk4ODc4Mzk3Lmh0bWw=",
-                "optionText": "Opcion 1"
-            }
-        ]
-    },
-    {
-        "time": "10:30",
-        "deporte": "BASKETBALL",
-        "tournament": "BBL",
-        "eventTitle": "Oldenburg vs. Heidelberg",
-        "streams": [
-            {
-                "url": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4YTkzOGRhMjg3ODk5Mzg3OTk4MzhjOWE4ZDk4ODc4Mzk4Lmh0bWw=",
-                "optionText": "Opcion 1"
-            }
-        ]
-    },
-    {
-        "time": "10:30",
-        "deporte": "BASKETBALL",
-        "tournament": "Supercopa ACB",
-        "eventTitle": "Real Madrid vs. Barcelona",
-        "streams": [
-            {
-                "url": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4YTkzOGRhMjg3ODk5Mzg3OTk4MzhjOWE4ZTk4ODc4Mzk5Lmh0bWw=",
-                "optionText": "Opcion 1"
-            }
-        ]
-    },
-    {
-        "time": "10:30",
-        "deporte": "RUGBY",
-        "tournament": "Premiership Rugby",
-        "eventTitle": "Gloucester vs. Saracens",
-        "streams": [
-            {
-                "url": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4YTkzOGRhMjg3ODk5Mzg3OTk4MzhjOWE4Zjk4ODc4MzlhLmh0bWw=",
-                "optionText": "Opcion 1"
-            }
-        ]
-    },
-    {
-        "time": "10:30",
-        "deporte": "RUGBY",
-        "tournament": "URC",
-        "eventTitle": "Munster vs. Connacht",
-        "streams": [
-            {
-                "url": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4YTkzOGRhMjg3ODk5Mzg3OTk4MzhjOWE5MDk4ODc4NDkxLmh0bWw=",
-                "optionText": "Opcion 1"
-            }
-        ]
-    },
-    {
         "time": "10:45",
-        "deporte": "AMERICAN FOOTBALL",
-        "tournament": "NCAA",
-        "eventTitle": "Ohio vs. Kentucky",
-        "streams": [
-            {
-                "url": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4YTkzOGRhMjg3OGE5Mjg3OTk4Mzg3OTE4Nzk4ODc4NjkzLmh0bWw=",
-                "optionText": "Opcion 1"
-            }
-        ]
-    },
-    {
-        "time": "10:45",
-        "deporte": "SOCCER",
         "tournament": "Eredivisie",
         "eventTitle": "RKC Waalwijk vs. Sparta Rotterdam",
         "streams": [
@@ -941,7 +564,6 @@
     },
     {
         "time": "10:45",
-        "deporte": "SOCCER",
         "tournament": "Eerste Divisie",
         "eventTitle": "Vitesse vs. Jong Ajax",
         "streams": [
@@ -953,79 +575,6 @@
     },
     {
         "time": "11:00",
-        "deporte": "AMERICAN FOOTBALL",
-        "tournament": "NCAA",
-        "eventTitle": "Ball State vs. Central Michigan",
-        "streams": [
-            {
-                "url": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4YTkzOGRhMjg3OGI5MTg3OTk4Mzg3OTE4YTk4ODc4NjlhLmh0bWw=",
-                "optionText": "Opcion 1"
-            }
-        ]
-    },
-    {
-        "time": "11:00",
-        "deporte": "AMERICAN FOOTBALL",
-        "tournament": "NCAA",
-        "eventTitle": "Brown vs. Georgetown",
-        "streams": [
-            {
-                "url": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4YTkzOGRhMjg3OGI5MTg3OTk4Mzg3OTE4Yjk4ODc4NzkxLmh0bWw=",
-                "optionText": "Opcion 1"
-            }
-        ]
-    },
-    {
-        "time": "11:00",
-        "deporte": "AMERICAN FOOTBALL",
-        "tournament": "NCAA",
-        "eventTitle": "Cornell vs. Colgate",
-        "streams": [
-            {
-                "url": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4YTkzOGRhMjg3OGI5MTg3OTk4Mzg3OTE4Yzk4ODc4NzkyLmh0bWw=",
-                "optionText": "Opcion 1"
-            }
-        ]
-    },
-    {
-        "time": "11:00",
-        "deporte": "AMERICAN FOOTBALL",
-        "tournament": "NCAA",
-        "eventTitle": "Fordham vs. Dartmouth",
-        "streams": [
-            {
-                "url": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4YTkzOGRhMjg3OGI5MTg3OTk4Mzg3OTE4ZDk4ODc4NzkzLmh0bWw=",
-                "optionText": "Opcion 1"
-            }
-        ]
-    },
-    {
-        "time": "11:00",
-        "deporte": "AMERICAN FOOTBALL",
-        "tournament": "NCAA",
-        "eventTitle": "Maine vs. Merrimack",
-        "streams": [
-            {
-                "url": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4YTkzOGRhMjg3OGI5MTg3OTk4Mzg3OTE4ZTk4ODc4Nzk0Lmh0bWw=",
-                "optionText": "Opcion 1"
-            }
-        ]
-    },
-    {
-        "time": "11:00",
-        "deporte": "AMERICAN FOOTBALL",
-        "tournament": "NCAA",
-        "eventTitle": "Sacred Heart vs. Stonehill",
-        "streams": [
-            {
-                "url": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4YTkzOGRhMjg3OGI5MTg3OTk4Mzg3OTE4Zjk4ODc4Nzk1Lmh0bWw=",
-                "optionText": "Opcion 1"
-            }
-        ]
-    },
-    {
-        "time": "11:00",
-        "deporte": "SOCCER",
         "tournament": "Bulgaria",
         "eventTitle": "Ludogorets vs. Lokomotiv Sofia",
         "streams": [
@@ -1037,7 +586,6 @@
     },
     {
         "time": "11:00",
-        "deporte": "SOCCER",
         "tournament": "Czech Republic",
         "eventTitle": "Slavia Prague vs. Viktoria Plzen",
         "streams": [
@@ -1049,7 +597,6 @@
     },
     {
         "time": "11:00",
-        "deporte": "SOCCER",
         "tournament": "Greece",
         "eventTitle": "Aris vs. Olympiacos Piraeus",
         "streams": [
@@ -1061,7 +608,6 @@
     },
     {
         "time": "11:00",
-        "deporte": "SOCCER",
         "tournament": "Israel Ligat haAl",
         "eventTitle": "Maccabi Netanya vs. Kiryat Shmona",
         "streams": [
@@ -1073,7 +619,6 @@
     },
     {
         "time": "11:00",
-        "deporte": "SOCCER",
         "tournament": "Israel Ligat haAl",
         "eventTitle": "Maccabi Petah Tikva vs. Hapoel Haifa",
         "streams": [
@@ -1085,7 +630,6 @@
     },
     {
         "time": "11:00",
-        "deporte": "SOCCER",
         "tournament": "Liga Portugal",
         "eventTitle": "Vitoria Guimaraes vs. FC Porto",
         "streams": [
@@ -1097,7 +641,6 @@
     },
     {
         "time": "11:00",
-        "deporte": "SOCCER",
         "tournament": "Ligue 1",
         "eventTitle": "Rennes vs. Lens",
         "streams": [
@@ -1117,7 +660,6 @@
     },
     {
         "time": "11:00",
-        "deporte": "SOCCER",
         "tournament": "Spain Liga F",
         "eventTitle": "Sevilla FC W vs. Barcelona W",
         "streams": [
@@ -1129,7 +671,6 @@
     },
     {
         "time": "11:00",
-        "deporte": "SOCCER",
         "tournament": "Turkey Super Lig",
         "eventTitle": "Fenerbahce vs. Galatasaray",
         "streams": [
@@ -1140,108 +681,7 @@
         ]
     },
     {
-        "time": "11:00",
-        "deporte": "HANDBALL",
-        "tournament": "Bundesliga",
-        "eventTitle": "Rhein-Neckar vs. MT Melsungen",
-        "streams": [
-            {
-                "url": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4YTkzOGRhMjg3OGI5MTg3OTk4Mzg3OTM4Nzk4ODc4Njk4Lmh0bWw=",
-                "optionText": "Opcion 1"
-            }
-        ]
-    },
-    {
-        "time": "11:00",
-        "deporte": "TENNIS",
-        "tournament": "ATP",
-        "eventTitle": "Laver Cup Zverev vs. Fritz",
-        "streams": [
-            {
-                "url": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4YTkzOGRhMjg3OGI5MTg3OTk4Mzg5OTg4Zjk4ODc4Njk2Lmh0bWw=",
-                "optionText": "Opcion 1"
-            }
-        ]
-    },
-    {
-        "time": "11:00",
-        "deporte": "GOLF",
-        "tournament": "LPGA",
-        "eventTitle": "Kroger Queen City Championship",
-        "streams": [
-            {
-                "url": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4YTkzOGRhMjg3OGI5MTg3OTk4Mzg3OTM4ODk4ODc4Njk3Lmh0bWw=",
-                "optionText": "Opcion 1"
-            }
-        ]
-    },
-    {
-        "time": "11:00",
-        "deporte": "MOTORSPORT",
-        "tournament": "IMSA",
-        "eventTitle": "Pilot Challenge Indianapolis",
-        "streams": [
-            {
-                "url": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4YTkzOGRhMjg3OGI5MTg3OTk4Mzg3OTM4OTk4ODc4Njk5Lmh0bWw=",
-                "optionText": "Opcion 1"
-            }
-        ]
-    },
-    {
-        "time": "11:10",
-        "deporte": "BASEBALL",
-        "tournament": "MLB",
-        "eventTitle": "Pittsburgh Pirates vs. Cincinnati Reds",
-        "streams": [
-            {
-                "url": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4YTkzOGRhMjg3OGI5Nzg3OTk4Mzg3OTM4YTk4ODc4ODk3Lmh0bWw=",
-                "optionText": "Opcion 1"
-            },
-            {
-                "url": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4YTkzOGRhMjg3OGI5Nzg3OTk4Mzg3OTM4Yjk4ODc4ODk4Lmh0bWw=",
-                "optionText": "Opcion 2"
-            }
-        ]
-    },
-    {
-        "time": "11:15",
-        "deporte": "HOCKEY",
-        "tournament": "Norway EHL",
-        "eventTitle": "Sparta Sarpsborg vs. Valerenga",
-        "streams": [
-            {
-                "url": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4YTkzOGRhMjg3OGI5YTg3OTk4Mzg3OTM4Yzk4ODc4ODk5Lmh0bWw=",
-                "optionText": "Opcion 1"
-            }
-        ]
-    },
-    {
         "time": "11:30",
-        "deporte": "COMBAT SPORT",
-        "tournament": "MMA",
-        "eventTitle": "Cage Warriors 178 Prelims",
-        "streams": [
-            {
-                "url": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4YTkzOGRhMjg3OGM5OTg3OTk4Mzg3OTM4ZDk4ODc4OTkxLmh0bWw=",
-                "optionText": "Opcion 1"
-            }
-        ]
-    },
-    {
-        "time": "11:30",
-        "deporte": "AMERICAN FOOTBALL",
-        "tournament": "NCAA",
-        "eventTitle": "Norfolk State vs. VMI",
-        "streams": [
-            {
-                "url": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4YTkzOGRhMjg3OGM5OTg3OTk4Mzg3OTM4ZTk4ODc4OTkyLmh0bWw=",
-                "optionText": "Opcion 1"
-            }
-        ]
-    },
-    {
-        "time": "11:30",
-        "deporte": "SOCCER",
         "tournament": "Faroe Islands",
         "eventTitle": "07 Vestur Sorvagur vs. B36 Torshavn",
         "streams": [
@@ -1253,7 +693,6 @@
     },
     {
         "time": "11:30",
-        "deporte": "SOCCER",
         "tournament": "Greece",
         "eventTitle": "Panetolikos vs. Asteras Tripolis",
         "streams": [
@@ -1265,7 +704,6 @@
     },
     {
         "time": "11:30",
-        "deporte": "SOCCER",
         "tournament": "Israel Ligat haAl",
         "eventTitle": "Hapoel Beer Sheva vs. Hapoel Hadera",
         "streams": [
@@ -1276,20 +714,7 @@
         ]
     },
     {
-        "time": "11:30",
-        "deporte": "HOCKEY",
-        "tournament": "ICEHL",
-        "eventTitle": "Vorarlberg vs. Fehervar AV19",
-        "streams": [
-            {
-                "url": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4YTkzOGRhMjg3OGM5OTg3OTk4Mzg3OTQ4ODk4ODc4ODlhLmh0bWw=",
-                "optionText": "Opcion 1"
-            }
-        ]
-    },
-    {
         "time": "11:35",
-        "deporte": "SOCCER",
         "tournament": "Poland Div 1",
         "eventTitle": "Kotwica Kolobrzeg vs. Gornik Leczna",
         "streams": [
@@ -1300,236 +725,7 @@
         ]
     },
     {
-        "time": "11:45",
-        "deporte": "HOCKEY",
-        "tournament": "Swiss National League",
-        "eventTitle": "Ambri-Piotta vs. EHC Kloten",
-        "streams": [
-            {
-                "url": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4YTkzOGRhMjg4ODM5ODg3OTk4Mzg3OTQ4YTk4ODc4OTk4Lmh0bWw=",
-                "optionText": "Opcion 1"
-            }
-        ]
-    },
-    {
-        "time": "11:45",
-        "deporte": "HOCKEY",
-        "tournament": "Swiss National League",
-        "eventTitle": "Biel vs. Ajoie",
-        "streams": [
-            {
-                "url": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4YTkzOGRhMjg4ODM5ODg3OTk4Mzg3OTQ4Yjk4ODc4OTk5Lmh0bWw=",
-                "optionText": "Opcion 1"
-            }
-        ]
-    },
-    {
-        "time": "11:45",
-        "deporte": "HOCKEY",
-        "tournament": "Swiss National League",
-        "eventTitle": "EV Zug vs. Langnau Tigers",
-        "streams": [
-            {
-                "url": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4YTkzOGRhMjg4ODM5ODg3OTk4Mzg3OTQ4Yzk4ODc4OTlhLmh0bWw=",
-                "optionText": "Opcion 1"
-            }
-        ]
-    },
-    {
-        "time": "11:45",
-        "deporte": "HOCKEY",
-        "tournament": "Swiss National League",
-        "eventTitle": "Fribourg-Gotteron vs. Rapperswil",
-        "streams": [
-            {
-                "url": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4YTkzOGRhMjg4ODM5ODg3OTk4Mzg3OTQ4ZDk4ODc4YTkxLmh0bWw=",
-                "optionText": "Opcion 1"
-            }
-        ]
-    },
-    {
-        "time": "11:45",
-        "deporte": "HOCKEY",
-        "tournament": "Swiss National League",
-        "eventTitle": "HC Davos vs. Geneve-Servette",
-        "streams": [
-            {
-                "url": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4YTkzOGRhMjg4ODM5ODg3OTk4Mzg3OTQ4ZTk4ODc4YTkyLmh0bWw=",
-                "optionText": "Opcion 1"
-            }
-        ]
-    },
-    {
-        "time": "11:45",
-        "deporte": "HOCKEY",
-        "tournament": "Swiss National League",
-        "eventTitle": "Lausanne vs. Lugano",
-        "streams": [
-            {
-                "url": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4YTkzOGRhMjg4ODM5ODg3OTk4Mzg3OTQ4Zjk4ODc4YTkzLmh0bWw=",
-                "optionText": "Opcion 1"
-            }
-        ]
-    },
-    {
-        "time": "11:45",
-        "deporte": "HOCKEY",
-        "tournament": "Swiss National League",
-        "eventTitle": "SC Bern vs. FC Zurich",
-        "streams": [
-            {
-                "url": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4YTkzOGRhMjg4ODM5ODg3OTk4Mzg3OTQ5MDk4ODc4YTk0Lmh0bWw=",
-                "optionText": "Opcion 1"
-            }
-        ]
-    },
-    {
-        "time": "11:45",
-        "deporte": "BASKETBALL",
-        "tournament": "Israel League Cup",
-        "eventTitle": "Hapoel Tel-Aviv vs. Maccabi Ironi Ramat Gan",
-        "streams": [
-            {
-                "url": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4YTkzOGRhMjg4ODM5ODg3OTk4Mzg3OTU4Nzk4ODc4OTk3Lmh0bWw=",
-                "optionText": "Opcion 1"
-            }
-        ]
-    },
-    {
         "time": "12:00",
-        "deporte": "COMBAT SPORT",
-        "tournament": "MMA",
-        "eventTitle": "GLORY 95",
-        "streams": [
-            {
-                "url": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4YTkzOGRhMjg4ODQ5Nzg3OTk4MzhjOTI4ZTk4ODc4YTk4Lmh0bWw=",
-                "optionText": "Opcion 1"
-            }
-        ]
-    },
-    {
-        "time": "12:00",
-        "deporte": "AMERICAN FOOTBALL",
-        "tournament": "NCAA",
-        "eventTitle": "Arkansas State vs. #20 Iowa State",
-        "streams": [
-            {
-                "url": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4YTkzOGRhMjg4ODQ5Nzg3OTk4Mzg3OTU4ODk4ODc4YTlhLmh0bWw=",
-                "optionText": "Opcion 1"
-            }
-        ]
-    },
-    {
-        "time": "12:00",
-        "deporte": "AMERICAN FOOTBALL",
-        "tournament": "NCAA",
-        "eventTitle": "Drake vs. South Dakota",
-        "streams": [
-            {
-                "url": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4YTkzOGRhMjg4ODQ5Nzg3OTk4Mzg3OTU4OTk4ODc4YjkxLmh0bWw=",
-                "optionText": "Opcion 1"
-            }
-        ]
-    },
-    {
-        "time": "12:00",
-        "deporte": "AMERICAN FOOTBALL",
-        "tournament": "NCAA",
-        "eventTitle": "Roosevelt vs. Valparaiso",
-        "streams": [
-            {
-                "url": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4YTkzOGRhMjg4ODQ5Nzg3OTk4Mzg3OTU4YTk4ODc4YjkyLmh0bWw=",
-                "optionText": "Opcion 1"
-            }
-        ]
-    },
-    {
-        "time": "12:00",
-        "deporte": "AMERICAN FOOTBALL",
-        "tournament": "NCAA",
-        "eventTitle": "San Diego vs. North Dakota",
-        "streams": [
-            {
-                "url": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4YTkzOGRhMjg4ODQ5Nzg3OTk4Mzg3OTU4Yjk4ODc4YjkzLmh0bWw=",
-                "optionText": "Opcion 1"
-            }
-        ]
-    },
-    {
-        "time": "12:00",
-        "deporte": "AMERICAN FOOTBALL",
-        "tournament": "NCAA",
-        "eventTitle": "St. Francis  vs. Eastern Michigan",
-        "streams": [
-            {
-                "url": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4YTkzOGRhMjg4ODQ5Nzg3OTk4Mzg3OTU4Yzk4ODc4Yjk0Lmh0bWw=",
-                "optionText": "Opcion 1"
-            }
-        ]
-    },
-    {
-        "time": "12:00",
-        "deporte": "AMERICAN FOOTBALL",
-        "tournament": "NCAA",
-        "eventTitle": "St. Thomas-Minnesota vs. Lindenwood",
-        "streams": [
-            {
-                "url": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4YTkzOGRhMjg4ODQ5Nzg3OTk4Mzg3OTU4ZDk4ODc4Yjk1Lmh0bWw=",
-                "optionText": "Opcion 1"
-            }
-        ]
-    },
-    {
-        "time": "12:00",
-        "deporte": "AMERICAN FOOTBALL",
-        "tournament": "NCAA",
-        "eventTitle": "Towson vs. North Dakota State",
-        "streams": [
-            {
-                "url": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4YTkzOGRhMjg4ODQ5Nzg3OTk4Mzg3OTU4ZTk4ODc4Yjk2Lmh0bWw=",
-                "optionText": "Opcion 1"
-            }
-        ]
-    },
-    {
-        "time": "12:00",
-        "deporte": "AMERICAN FOOTBALL",
-        "tournament": "NCAA",
-        "eventTitle": "Utah State vs. Temple",
-        "streams": [
-            {
-                "url": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4YTkzOGRhMjg4ODQ5Nzg3OTk4Mzg3OTU4Zjk4ODc4Yjk3Lmh0bWw=",
-                "optionText": "Opcion 1"
-            }
-        ]
-    },
-    {
-        "time": "12:00",
-        "deporte": "AMERICAN FOOTBALL",
-        "tournament": "NCAA",
-        "eventTitle": "Virginia vs. Coastal Carolina",
-        "streams": [
-            {
-                "url": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4YTkzOGRhMjg4ODQ5Nzg3OTk4Mzg3OTU5MDk4ODc4Yjk4Lmh0bWw=",
-                "optionText": "Opcion 1"
-            }
-        ]
-    },
-    {
-        "time": "12:00",
-        "deporte": "AMERICAN FOOTBALL",
-        "tournament": "NCAA",
-        "eventTitle": "Yale vs. Holy Cross",
-        "streams": [
-            {
-                "url": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4YTkzOGRhMjg4ODQ5Nzg3OTk4Mzg3OTY4Nzk4ODc4Yjk5Lmh0bWw=",
-                "optionText": "Opcion 1"
-            }
-        ]
-    },
-    {
-        "time": "12:00",
-        "deporte": "SOCCER",
         "tournament": "Argentina Primera Nacional",
         "eventTitle": "Club A. Guemes vs. San Miguel",
         "streams": [
@@ -1541,7 +737,6 @@
     },
     {
         "time": "12:00",
-        "deporte": "SOCCER",
         "tournament": "Belgium 1B",
         "eventTitle": "Genk U23 vs. RWDM",
         "streams": [
@@ -1553,7 +748,6 @@
     },
     {
         "time": "12:00",
-        "deporte": "SOCCER",
         "tournament": "Belgium 1B",
         "eventTitle": "Patro Eisden vs. Francs Borains",
         "streams": [
@@ -1565,7 +759,6 @@
     },
     {
         "time": "12:00",
-        "deporte": "SOCCER",
         "tournament": "Croatia HNL",
         "eventTitle": "Hajduk Split vs. Gorica",
         "streams": [
@@ -1577,7 +770,6 @@
     },
     {
         "time": "12:00",
-        "deporte": "SOCCER",
         "tournament": "Eredivisie",
         "eventTitle": "G.A. Eagles vs. Ajax",
         "streams": [
@@ -1589,7 +781,6 @@
     },
     {
         "time": "12:00",
-        "deporte": "SOCCER",
         "tournament": "MLS",
         "eventTitle": "New York City vs. Inter Miami",
         "streams": [
@@ -1605,7 +796,6 @@
     },
     {
         "time": "12:00",
-        "deporte": "SOCCER",
         "tournament": "Saudi Professional League",
         "eventTitle": "Al Hilal vs. Al Ittihad",
         "streams": [
@@ -1621,7 +811,6 @@
     },
     {
         "time": "12:00",
-        "deporte": "SOCCER",
         "tournament": "Serbia",
         "eventTitle": "Napredak vs. Mladost",
         "streams": [
@@ -1632,68 +821,7 @@
         ]
     },
     {
-        "time": "12:00",
-        "deporte": "HOCKEY",
-        "tournament": "UK Elite League",
-        "eventTitle": "Cardiff City vs. Fife",
-        "streams": [
-            {
-                "url": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4YTkzOGRhMjg4ODQ5Nzg3OTk4Mzg3OTc4ODk4ODc4YTk2Lmh0bWw=",
-                "optionText": "Opcion 1"
-            }
-        ]
-    },
-    {
-        "time": "12:00",
-        "deporte": "HOCKEY",
-        "tournament": "UK Elite League",
-        "eventTitle": "Dundee vs. Manchester",
-        "streams": [
-            {
-                "url": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4YTkzOGRhMjg4ODQ5Nzg3OTk4Mzg3OTc4OTk4ODc4YTk3Lmh0bWw=",
-                "optionText": "Opcion 1"
-            }
-        ]
-    },
-    {
-        "time": "12:00",
-        "deporte": "BASKETBALL",
-        "tournament": "ABA Liga",
-        "eventTitle": "Mornar Bar vs. Buducnost",
-        "streams": [
-            {
-                "url": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4YTkzOGRhMjg4ODQ5Nzg3OTk4Mzg3OTc4YTk4ODc4YTk1Lmh0bWw=",
-                "optionText": "Opcion 1"
-            }
-        ]
-    },
-    {
-        "time": "12:00",
-        "deporte": "MOTORSPORT",
-        "tournament": "Speedway",
-        "eventTitle": "Speedway Euro Championship Final: Chorzow",
-        "streams": [
-            {
-                "url": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4YTkzOGRhMjg4ODQ5Nzg3OTk4Mzg3OTc4Yjk4ODc4YTk5Lmh0bWw=",
-                "optionText": "Opcion 1"
-            }
-        ]
-    },
-    {
-        "time": "12:00",
-        "deporte": "BILLIARD",
-        "tournament": "Snooker",
-        "eventTitle": "English Open",
-        "streams": [
-            {
-                "url": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4YTkzOGRhMjg4ODQ5Nzg3OTk4Mzg5OTE4Nzk4ODc4YjlhLmh0bWw=",
-                "optionText": "Opcion 1"
-            }
-        ]
-    },
-    {
         "time": "12:15",
-        "deporte": "SOCCER",
         "tournament": "Ekstraklasa",
         "eventTitle": "Gornik Zabrze vs. GKS Katowice",
         "streams": [
@@ -1705,7 +833,6 @@
     },
     {
         "time": "12:15",
-        "deporte": "SOCCER",
         "tournament": "Slovenia",
         "eventTitle": "Olimpija Ljubljana vs. Bravo",
         "streams": [
@@ -1716,37 +843,8 @@
         ]
     },
     {
-        "time": "12:20",
-        "deporte": "BASEBALL",
-        "tournament": "MLB",
-        "eventTitle": "Washington Nationals vs. Chicago Cubs",
-        "streams": [
-            {
-                "url": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4YTkzOGRhMjg4ODU5OTg3OTk4Mzg3OTc4ZTk4ODg4MzkzLmh0bWw=",
-                "optionText": "Opcion 1"
-            },
-            {
-                "url": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4YTkzOGRhMjg4ODU5OTg3OTk4Mzg3OTc4Zjk4ODg4Mzk0Lmh0bWw=",
-                "optionText": "Opcion 2"
-            }
-        ]
-    },
-    {
         "time": "12:30",
-        "deporte": "AMERICAN FOOTBALL",
-        "tournament": "NCAA",
-        "eventTitle": "Tennessee State vs. Tennessee Tech",
-        "streams": [
-            {
-                "url": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4YTkzOGRhMjg4ODY5NTg3OTk4Mzg3OTg4Nzk4ODg4Mzk5Lmh0bWw=",
-                "optionText": "Opcion 1"
-            }
-        ]
-    },
-    {
-        "time": "12:30",
-        "deporte": "SOCCER",
-        "tournament": "2 Bundesliga",
+        "tournament": "Bundesliga 2",
         "eventTitle": "Kaiserslautern vs. Hamburger SV",
         "streams": [
             {
@@ -1757,7 +855,6 @@
     },
     {
         "time": "12:30",
-        "deporte": "SOCCER",
         "tournament": "Ireland Div 1",
         "eventTitle": "Longford vs. Wexford",
         "streams": [
@@ -1769,7 +866,6 @@
     },
     {
         "time": "12:30",
-        "deporte": "SOCCER",
         "tournament": "Romania",
         "eventTitle": "FCSB vs. Petrolul",
         "streams": [
@@ -1781,7 +877,6 @@
     },
     {
         "time": "12:30",
-        "deporte": "SOCCER",
         "tournament": "Slovakia",
         "eventTitle": "Slovan Bratislava vs. Ruzomberok",
         "streams": [
@@ -1793,7 +888,6 @@
     },
     {
         "time": "12:30",
-        "deporte": "SOCCER",
         "tournament": "Swiss Super League",
         "eventTitle": "Basel vs. FC Zurich",
         "streams": [
@@ -1805,7 +899,6 @@
     },
     {
         "time": "12:30",
-        "deporte": "SOCCER",
         "tournament": "Taca de Portugal",
         "eventTitle": "Academica vs. Torreense",
         "streams": [
@@ -1816,92 +909,7 @@
         ]
     },
     {
-        "time": "12:30",
-        "deporte": "BASKETBALL",
-        "tournament": "Champions League",
-        "eventTitle": "PAOK vs. Petkim Spor",
-        "streams": [
-            {
-                "url": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4YTkzOGRhMjg4ODY5NTg3OTk4Mzg3OTg4ZTk4ODg4Mzk1Lmh0bWw=",
-                "optionText": "Opcion 1"
-            }
-        ]
-    },
-    {
-        "time": "12:30",
-        "deporte": "BASKETBALL",
-        "tournament": "LNB",
-        "eventTitle": "Nancy vs. La Rochelle",
-        "streams": [
-            {
-                "url": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4YTkzOGRhMjg4ODY5NTg3OTk4Mzg3OTg4Zjk4ODg4Mzk2Lmh0bWw=",
-                "optionText": "Opcion 1"
-            }
-        ]
-    },
-    {
-        "time": "12:30",
-        "deporte": "BASKETBALL",
-        "tournament": "LNB",
-        "eventTitle": "Strasbourg vs. Chalon/Saone",
-        "streams": [
-            {
-                "url": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4YTkzOGRhMjg4ODY5NTg3OTk4Mzg3OTg5MDk4ODg4Mzk3Lmh0bWw=",
-                "optionText": "Opcion 1"
-            }
-        ]
-    },
-    {
-        "time": "12:30",
-        "deporte": "VOLLEYBALL",
-        "tournament": "Poland",
-        "eventTitle": "Zawiercie vs. Barkom",
-        "streams": [
-            {
-                "url": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4YTkzOGRhMjg4ODY5NTg3OTk4Mzg3OTk4Nzk4ODg4NDk2Lmh0bWw=",
-                "optionText": "Opcion 1"
-            }
-        ]
-    },
-    {
-        "time": "12:30",
-        "deporte": "HANDBALL",
-        "tournament": "Bundesliga",
-        "eventTitle": "SG Flensburg-Handewit vs. Goppingen",
-        "streams": [
-            {
-                "url": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4YTkzOGRhMjg4ODY5NTg3OTk4Mzg3OTk4ODk4ODg4Mzk4Lmh0bWw=",
-                "optionText": "Opcion 1"
-            }
-        ]
-    },
-    {
-        "time": "12:30",
-        "deporte": "TENNIS",
-        "tournament": "ATP",
-        "eventTitle": "Laver Cup Ruud/Tsitsipas vs. Shelton/Tabilo",
-        "streams": [
-            {
-                "url": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4YTkzOGRhMjg4ODY5NTg3OTk4Mzg5OTg4Zjk4OGE4OTkyLmh0bWw=",
-                "optionText": "Opcion 1"
-            }
-        ]
-    },
-    {
-        "time": "12:35",
-        "deporte": "RUGBY",
-        "tournament": "URC",
-        "eventTitle": "Benetton vs. Scarlets",
-        "streams": [
-            {
-                "url": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4YTkzOGRhMjg4ODY5ODg3OTk4Mzg3OTk4OTk4ODg4NDk3Lmh0bWw=",
-                "optionText": "Opcion 1"
-            }
-        ]
-    },
-    {
         "time": "12:45",
-        "deporte": "SOCCER",
         "tournament": "Belgium 1A",
         "eventTitle": "Anderlecht vs. Charleroi",
         "streams": [
@@ -1913,7 +921,6 @@
     },
     {
         "time": "12:45",
-        "deporte": "SOCCER",
         "tournament": "Ireland",
         "eventTitle": "Sligo Rovers vs. Dundalk",
         "streams": [
@@ -1925,7 +932,6 @@
     },
     {
         "time": "12:45",
-        "deporte": "SOCCER",
         "tournament": "Italy Serie C",
         "eventTitle": "Avellino vs. Latina",
         "streams": [
@@ -1937,7 +943,6 @@
     },
     {
         "time": "12:45",
-        "deporte": "SOCCER",
         "tournament": "Italy Serie C",
         "eventTitle": "Cavese vs. Monopoli",
         "streams": [
@@ -1949,7 +954,6 @@
     },
     {
         "time": "12:45",
-        "deporte": "SOCCER",
         "tournament": "Italy Serie C",
         "eventTitle": "Pontedera vs. Arezzo",
         "streams": [
@@ -1961,7 +965,6 @@
     },
     {
         "time": "12:45",
-        "deporte": "SOCCER",
         "tournament": "Italy Serie C",
         "eventTitle": "Taranto vs. Altamura",
         "streams": [
@@ -1973,7 +976,6 @@
     },
     {
         "time": "12:45",
-        "deporte": "SOCCER",
         "tournament": "Italy Serie C",
         "eventTitle": "Torres vs. Pineto",
         "streams": [
@@ -1985,7 +987,6 @@
     },
     {
         "time": "12:45",
-        "deporte": "SOCCER",
         "tournament": "Liga BiH",
         "eventTitle": "Zeljeznicar vs. Zrinjski",
         "streams": [
@@ -1997,7 +998,6 @@
     },
     {
         "time": "12:45",
-        "deporte": "SOCCER",
         "tournament": "Serie A",
         "eventTitle": "Lecce vs. Parma",
         "streams": [
@@ -2016,116 +1016,7 @@
         ]
     },
     {
-        "time": "12:45",
-        "deporte": "BASKETBALL",
-        "tournament": "Italy Super Cup",
-        "eventTitle": "Basket Napoli vs. Virtus Bologna",
-        "streams": [
-            {
-                "url": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4YTkzOGRhMjg4ODc5NDg3OTk4Mzg3OWE4Yjk4ODg4NDk4Lmh0bWw=",
-                "optionText": "Opcion 1"
-            }
-        ]
-    },
-    {
-        "time": "12:45",
-        "deporte": "RUGBY",
-        "tournament": "URC",
-        "eventTitle": "Ulster vs. Glasgow Warriors",
-        "streams": [
-            {
-                "url": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4YTkzOGRhMjg4ODc5NDg3OTk4Mzg3OWE4Yzk4ODg4NDlhLmh0bWw=",
-                "optionText": "Opcion 1"
-            }
-        ]
-    },
-    {
-        "time": "12:45",
-        "deporte": "HANDBALL",
-        "tournament": "France Starligue",
-        "eventTitle": "Montpellier vs. Limoges",
-        "streams": [
-            {
-                "url": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4YTkzOGRhMjg4ODc5NDg3OTk4Mzg3OWE4ZDk4ODg4NDk5Lmh0bWw=",
-                "optionText": "Opcion 1"
-            }
-        ]
-    },
-    {
         "time": "13:00",
-        "deporte": "AMERICAN FOOTBALL",
-        "tournament": "CFL",
-        "eventTitle": "Montreal Alouettes vs. Ottawa Redblacks",
-        "streams": [
-            {
-                "url": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4YTkzOGRhMjg4ODg5Mzg3OTk4Mzg3OWE4ZTk4ODg4NjkyLmh0bWw=",
-                "optionText": "Opcion 1"
-            }
-        ]
-    },
-    {
-        "time": "13:00",
-        "deporte": "AMERICAN FOOTBALL",
-        "tournament": "NCAA",
-        "eventTitle": "Bryant vs. New Hampshire",
-        "streams": [
-            {
-                "url": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4YTkzOGRhMjg4ODg5Mzg3OTk4Mzg3OWE4Zjk4ODg4NjkzLmh0bWw=",
-                "optionText": "Opcion 1"
-            }
-        ]
-    },
-    {
-        "time": "13:00",
-        "deporte": "AMERICAN FOOTBALL",
-        "tournament": "NCAA",
-        "eventTitle": "Clark Atlanta vs. Bethune-Cookman",
-        "streams": [
-            {
-                "url": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4YTkzOGRhMjg4ODg5Mzg3OTk4Mzg3OWE5MDk4ODg4Njk0Lmh0bWw=",
-                "optionText": "Opcion 1"
-            }
-        ]
-    },
-    {
-        "time": "13:00",
-        "deporte": "AMERICAN FOOTBALL",
-        "tournament": "NCAA",
-        "eventTitle": "Eastern Washington vs. Nevada",
-        "streams": [
-            {
-                "url": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4YTkzOGRhMjg4ODg5Mzg3OTk4Mzg4OTE4Nzk4ODg4Njk1Lmh0bWw=",
-                "optionText": "Opcion 1"
-            }
-        ]
-    },
-    {
-        "time": "13:00",
-        "deporte": "AMERICAN FOOTBALL",
-        "tournament": "NCAA",
-        "eventTitle": "Southern Miss vs. Jacksonville State",
-        "streams": [
-            {
-                "url": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4YTkzOGRhMjg4ODg5Mzg3OTk4Mzg4OTE4ODk4ODg4Njk2Lmh0bWw=",
-                "optionText": "Opcion 1"
-            }
-        ]
-    },
-    {
-        "time": "13:00",
-        "deporte": "AMERICAN FOOTBALL",
-        "tournament": "NCAA",
-        "eventTitle": "Western Carolina vs. Montana",
-        "streams": [
-            {
-                "url": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4YTkzOGRhMjg4ODg5Mzg3OTk4Mzg4OTE4OTk4ODg4Njk3Lmh0bWw=",
-                "optionText": "Opcion 1"
-            }
-        ]
-    },
-    {
-        "time": "13:00",
-        "deporte": "SOCCER",
         "tournament": "Argentina Liga Profesional",
         "eventTitle": "Boca Juniors vs. River Plate",
         "streams": [
@@ -2145,7 +1036,6 @@
     },
     {
         "time": "13:00",
-        "deporte": "SOCCER",
         "tournament": "Argentina Primera Nacional",
         "eventTitle": "Tristan Suarez vs. Chacarita Juniors",
         "streams": [
@@ -2157,7 +1047,6 @@
     },
     {
         "time": "13:00",
-        "deporte": "SOCCER",
         "tournament": "Bolivia",
         "eventTitle": "Santa Cruz vs. SA Bulo Bulo",
         "streams": [
@@ -2169,7 +1058,6 @@
     },
     {
         "time": "13:00",
-        "deporte": "SOCCER",
         "tournament": "Brazil Serie A",
         "eventTitle": "Corinthians vs. Atletico GO",
         "streams": [
@@ -2181,7 +1069,6 @@
     },
     {
         "time": "13:00",
-        "deporte": "SOCCER",
         "tournament": "Brazil Serie A",
         "eventTitle": "Vitoria vs. Juventude",
         "streams": [
@@ -2193,7 +1080,6 @@
     },
     {
         "time": "13:00",
-        "deporte": "SOCCER",
         "tournament": "Canada",
         "eventTitle": "Valour vs. HFX Wanderers",
         "streams": [
@@ -2205,7 +1091,6 @@
     },
     {
         "time": "13:00",
-        "deporte": "SOCCER",
         "tournament": "Ecuador",
         "eventTitle": "Cumbaya vs. SD Aucas",
         "streams": [
@@ -2217,7 +1102,6 @@
     },
     {
         "time": "13:00",
-        "deporte": "SOCCER",
         "tournament": "Eredivisie",
         "eventTitle": "NEC Nijmegen vs. Heracles",
         "streams": [
@@ -2229,7 +1113,6 @@
     },
     {
         "time": "13:00",
-        "deporte": "SOCCER",
         "tournament": "France Div 1 Women",
         "eventTitle": "Montpellier W vs. PSG W",
         "streams": [
@@ -2241,7 +1124,6 @@
     },
     {
         "time": "13:00",
-        "deporte": "SOCCER",
         "tournament": "LaLiga",
         "eventTitle": "Real Madrid vs. Espanyol",
         "streams": [
@@ -2261,7 +1143,6 @@
     },
     {
         "time": "13:00",
-        "deporte": "SOCCER",
         "tournament": "LaLiga2",
         "eventTitle": "Real Zaragoza vs. Levante",
         "streams": [
@@ -2273,7 +1154,6 @@
     },
     {
         "time": "13:00",
-        "deporte": "SOCCER",
         "tournament": "Ligue 1",
         "eventTitle": "Reims vs. PSG",
         "streams": [
@@ -2293,7 +1173,6 @@
     },
     {
         "time": "13:00",
-        "deporte": "SOCCER",
         "tournament": "MLS Next Pro",
         "eventTitle": "New England Revolution II vs. Chattanooga",
         "streams": [
@@ -2305,7 +1184,6 @@
     },
     {
         "time": "13:00",
-        "deporte": "SOCCER",
         "tournament": "Uruguay",
         "eventTitle": "Racing Montevideo vs. Progreso",
         "streams": [
@@ -2316,200 +1194,7 @@
         ]
     },
     {
-        "time": "13:05",
-        "deporte": "AMERICAN FOOTBALL",
-        "tournament": "NCAA",
-        "eventTitle": "Mercyhurst vs. Montana State",
-        "streams": [
-            {
-                "url": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4YTkzOGRhMjg4ODg5Njg3OTk4Mzg4OTM4ODk4ODg4ODk2Lmh0bWw=",
-                "optionText": "Opcion 1"
-            }
-        ]
-    },
-    {
-        "time": "13:05",
-        "deporte": "RUGBY",
-        "tournament": "Top 14",
-        "eventTitle": "Bordeaux Begles vs. Racing 92",
-        "streams": [
-            {
-                "url": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4YTkzOGRhMjg4ODg5Njg3OTk4Mzg4OTM4OTk4ODg4ODk3Lmh0bWw=",
-                "optionText": "Opcion 1"
-            }
-        ]
-    },
-    {
         "time": "13:30",
-        "deporte": "COMBAT SPORT",
-        "tournament": "MMA",
-        "eventTitle": "Cage Warriors 178",
-        "streams": [
-            {
-                "url": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4YTkzOGRhMjg4OGE5MTg3OTk4Mzg3OTM4ZDk4ODg4ODk5Lmh0bWw=",
-                "optionText": "Opcion 1"
-            }
-        ]
-    },
-    {
-        "time": "13:30",
-        "deporte": "AMERICAN FOOTBALL",
-        "tournament": "NCAA",
-        "eventTitle": "#11 USC vs. #18 Michigan",
-        "streams": [
-            {
-                "url": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4YTkzOGRhMjg4OGE5MTg3OTk4Mzg4OTM4YTk4ODg4ODlhLmh0bWw=",
-                "optionText": "Opcion 1"
-            }
-        ]
-    },
-    {
-        "time": "13:30",
-        "deporte": "AMERICAN FOOTBALL",
-        "tournament": "NCAA",
-        "eventTitle": "Miami  vs. #17 Notre Dame",
-        "streams": [
-            {
-                "url": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4YTkzOGRhMjg4OGE5MTg3OTk4Mzg4OTM4Yjk4ODg4OTk5Lmh0bWw=",
-                "optionText": "Opcion 1"
-            }
-        ]
-    },
-    {
-        "time": "13:30",
-        "deporte": "AMERICAN FOOTBALL",
-        "tournament": "NCAA",
-        "eventTitle": "UCLA vs. #16 LSU",
-        "streams": [
-            {
-                "url": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4YTkzOGRhMjg4OGE5MTg3OTk4Mzg4OTM4Yzk4ODg4YTkxLmh0bWw=",
-                "optionText": "Opcion 1"
-            }
-        ]
-    },
-    {
-        "time": "13:30",
-        "deporte": "AMERICAN FOOTBALL",
-        "tournament": "NCAA",
-        "eventTitle": "Arkansas vs. Auburn",
-        "streams": [
-            {
-                "url": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4YTkzOGRhMjg4OGE5MTg3OTk4Mzg4OTM4ZDk4ODg4OTkyLmh0bWw=",
-                "optionText": "Opcion 1"
-            }
-        ]
-    },
-    {
-        "time": "13:30",
-        "deporte": "AMERICAN FOOTBALL",
-        "tournament": "NCAA",
-        "eventTitle": "Arizona State vs. Texas Tech",
-        "streams": [
-            {
-                "url": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4YTkzOGRhMjg4OGE5MTg3OTk4Mzg4OTM4ZTk4ODg4OTkxLmh0bWw=",
-                "optionText": "Opcion 1"
-            }
-        ]
-    },
-    {
-        "time": "13:30",
-        "deporte": "AMERICAN FOOTBALL",
-        "tournament": "NCAA",
-        "eventTitle": "Memphis vs. Navy",
-        "streams": [
-            {
-                "url": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4YTkzOGRhMjg4OGE5MTg3OTk4Mzg4OTM4Zjk4ODg4OTk4Lmh0bWw=",
-                "optionText": "Opcion 1"
-            }
-        ]
-    },
-    {
-        "time": "13:30",
-        "deporte": "AMERICAN FOOTBALL",
-        "tournament": "NCAA",
-        "eventTitle": "Buffalo vs. #23 Northern Illinois",
-        "streams": [
-            {
-                "url": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4YTkzOGRhMjg4OGE5MTg3OTk4Mzg4OTM5MDk4ODg4OTkzLmh0bWw=",
-                "optionText": "Opcion 1"
-            }
-        ]
-    },
-    {
-        "time": "13:30",
-        "deporte": "AMERICAN FOOTBALL",
-        "tournament": "NCAA",
-        "eventTitle": "Central Connecticut vs. Massachusetts",
-        "streams": [
-            {
-                "url": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4YTkzOGRhMjg4OGE5MTg3OTk4Mzg4OTQ4Nzk4ODg4OTk0Lmh0bWw=",
-                "optionText": "Opcion 1"
-            }
-        ]
-    },
-    {
-        "time": "13:30",
-        "deporte": "AMERICAN FOOTBALL",
-        "tournament": "NCAA",
-        "eventTitle": "Georgia Tech vs. #19 Louisville",
-        "streams": [
-            {
-                "url": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4YTkzOGRhMjg4OGE5MTg3OTk4Mzg4OTQ4ODk4ODg4OTk1Lmh0bWw=",
-                "optionText": "Opcion 1"
-            }
-        ]
-    },
-    {
-        "time": "13:30",
-        "deporte": "AMERICAN FOOTBALL",
-        "tournament": "NCAA",
-        "eventTitle": "Houston Christian vs. UTSA",
-        "streams": [
-            {
-                "url": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4YTkzOGRhMjg4OGE5MTg3OTk4Mzg4OTQ4OTk4ODg4OTk2Lmh0bWw=",
-                "optionText": "Opcion 1"
-            }
-        ]
-    },
-    {
-        "time": "13:30",
-        "deporte": "AMERICAN FOOTBALL",
-        "tournament": "NCAA",
-        "eventTitle": "Kent State vs. #10 Penn State",
-        "streams": [
-            {
-                "url": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4YTkzOGRhMjg4OGE5MTg3OTk4Mzg4OTQ4YTk4ODg4OTk3Lmh0bWw=",
-                "optionText": "Opcion 1"
-            }
-        ]
-    },
-    {
-        "time": "13:30",
-        "deporte": "AMERICAN FOOTBALL",
-        "tournament": "NCAA",
-        "eventTitle": "Rutgers vs. Virginia Tech",
-        "streams": [
-            {
-                "url": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4YTkzOGRhMjg4OGE5MTg3OTk4Mzg4OTQ4Yjk4ODg4OTlhLmh0bWw=",
-                "optionText": "Opcion 1"
-            }
-        ]
-    },
-    {
-        "time": "13:30",
-        "deporte": "AMERICAN FOOTBALL",
-        "tournament": "NCAA",
-        "eventTitle": "Youngstown State vs. Pittsburgh",
-        "streams": [
-            {
-                "url": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4YTkzOGRhMjg4OGE5MTg3OTk4Mzg4OTQ4Yzk4ODg4YTkyLmh0bWw=",
-                "optionText": "Opcion 1"
-            }
-        ]
-    },
-    {
-        "time": "13:30",
-        "deporte": "SOCCER",
         "tournament": "Liga Portugal",
         "eventTitle": "Moreirense vs. Famalicao",
         "streams": [
@@ -2520,92 +1205,7 @@
         ]
     },
     {
-        "time": "13:30",
-        "deporte": "BASKETBALL",
-        "tournament": "Supercopa ACB",
-        "eventTitle": "Murcia vs. Unicaja",
-        "streams": [
-            {
-                "url": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4YTkzOGRhMjg4OGE5MTg3OTk4Mzg4OTQ4ZTk4ODg4ODk4Lmh0bWw=",
-                "optionText": "Opcion 1"
-            }
-        ]
-    },
-    {
-        "time": "13:35",
-        "deporte": "MOTORSPORT",
-        "tournament": "IMSA",
-        "eventTitle": "IMSA Weathertech Indianapolis Qualifying",
-        "streams": [
-            {
-                "url": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4YTkzOGRhMjg4OGE5NDg3OTk4Mzg3OTM4OTk4ODg4YTk0Lmh0bWw=",
-                "optionText": "Opcion 1"
-            }
-        ]
-    },
-    {
         "time": "14:00",
-        "deporte": "AMERICAN FOOTBALL",
-        "tournament": "NCAA",
-        "eventTitle": "#12 Utah vs. #14 Oklahoma State",
-        "streams": [
-            {
-                "url": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4YTkzOGRhMjg4OGI5OTg3OTk4Mzg4OTQ4Zjk4ODg4YTk2Lmh0bWw=",
-                "optionText": "Opcion 1"
-            }
-        ]
-    },
-    {
-        "time": "14:00",
-        "deporte": "AMERICAN FOOTBALL",
-        "tournament": "NCAA",
-        "eventTitle": "Duke vs. Middle Tennessee",
-        "streams": [
-            {
-                "url": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4YTkzOGRhMjg4OGI5OTg3OTk4Mzg4OTQ5MDk4ODg4YTk3Lmh0bWw=",
-                "optionText": "Opcion 1"
-            }
-        ]
-    },
-    {
-        "time": "14:00",
-        "deporte": "AMERICAN FOOTBALL",
-        "tournament": "NCAA",
-        "eventTitle": "Howard vs. Hampton",
-        "streams": [
-            {
-                "url": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4YTkzOGRhMjg4OGI5OTg3OTk4Mzg4OTU4Nzk4ODg4YTk4Lmh0bWw=",
-                "optionText": "Opcion 1"
-            }
-        ]
-    },
-    {
-        "time": "14:00",
-        "deporte": "AMERICAN FOOTBALL",
-        "tournament": "NCAA",
-        "eventTitle": "Mississippi Valley State vs. Nicholls",
-        "streams": [
-            {
-                "url": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4YTkzOGRhMjg4OGI5OTg3OTk4Mzg4OTU4ODk4ODg4YTk5Lmh0bWw=",
-                "optionText": "Opcion 1"
-            }
-        ]
-    },
-    {
-        "time": "14:00",
-        "deporte": "AMERICAN FOOTBALL",
-        "tournament": "NCAA",
-        "eventTitle": "Robert Morris vs. Wagner",
-        "streams": [
-            {
-                "url": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4YTkzOGRhMjg4OGI5OTg3OTk4Mzg4OTU4OTk4ODg4YTlhLmh0bWw=",
-                "optionText": "Opcion 1"
-            }
-        ]
-    },
-    {
-        "time": "14:00",
-        "deporte": "SOCCER",
         "tournament": "Brazil Serie B",
         "eventTitle": "Goias vs. Mirassol",
         "streams": [
@@ -2617,7 +1217,6 @@
     },
     {
         "time": "14:00",
-        "deporte": "SOCCER",
         "tournament": "MLS",
         "eventTitle": "Charlotte vs. New England Revolution",
         "streams": [
@@ -2629,7 +1228,6 @@
     },
     {
         "time": "14:00",
-        "deporte": "SOCCER",
         "tournament": "Venezuela",
         "eventTitle": "Rayo Zuliano vs. Metropolitanos",
         "streams": [
@@ -2640,112 +1238,7 @@
         ]
     },
     {
-        "time": "14:00",
-        "deporte": "GOLF",
-        "tournament": "Korn Ferry",
-        "eventTitle": "Nationwide Children's Hospital Championshi",
-        "streams": [
-            {
-                "url": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4YTkzOGRhMjg4OGI5OTg3OTk4Mzg4OTU4ZDk4ODg4YTk1Lmh0bWw=",
-                "optionText": "Opcion 1"
-            }
-        ]
-    },
-    {
-        "time": "14:05",
-        "deporte": "BASEBALL",
-        "tournament": "MLB",
-        "eventTitle": "Detroit Tigers vs. Baltimore Orioles",
-        "streams": [
-            {
-                "url": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4YTkzOGRhMjg4OGM5Mjg3OTk4Mzg4OTU4ZTk4ODg4Yjk0Lmh0bWw=",
-                "optionText": "Opcion 1"
-            },
-            {
-                "url": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4YTkzOGRhMjg4OGM5Mjg3OTk4Mzg4OTU4Zjk4ODg4Yjk1Lmh0bWw=",
-                "optionText": "Opcion 2"
-            }
-        ]
-    },
-    {
-        "time": "14:10",
-        "deporte": "BASEBALL",
-        "tournament": "MLB",
-        "eventTitle": "Atlanta Braves vs. Miami Marlins",
-        "streams": [
-            {
-                "url": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4YTkzOGRhMjg4OGM5NTg3OTk4Mzg4OTU5MDk4ODg4Yjk2Lmh0bWw=",
-                "optionText": "Opcion 1"
-            },
-            {
-                "url": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4YTkzOGRhMjg4OGM5NTg3OTk4Mzg4OTY4Nzk4ODg4Yjk3Lmh0bWw=",
-                "optionText": "Opcion 2"
-            }
-        ]
-    },
-    {
-        "time": "14:10",
-        "deporte": "BASEBALL",
-        "tournament": "MLB",
-        "eventTitle": "Minnesota Twins vs. Boston Red Sox",
-        "streams": [
-            {
-                "url": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4YTkzOGRhMjg4OGM5NTg3OTk4Mzg4OTY4ODk4ODg4Yjk4Lmh0bWw=",
-                "optionText": "Opcion 1"
-            },
-            {
-                "url": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4YTkzOGRhMjg4OGM5NTg3OTk4Mzg4OTY4OTk4ODg4Yjk5Lmh0bWw=",
-                "optionText": "Opcion 2"
-            }
-        ]
-    },
-    {
-        "time": "14:10",
-        "deporte": "BASEBALL",
-        "tournament": "MLB",
-        "eventTitle": "Philadelphia Phillies vs. New York Mets",
-        "streams": [
-            {
-                "url": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4YTkzOGRhMjg4OGM5NTg3OTk4Mzg4OTY4YTk4ODg4YjlhLmh0bWw=",
-                "optionText": "Opcion 1"
-            },
-            {
-                "url": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4YTkzOGRhMjg4OGM5NTg3OTk4Mzg4OTY4Yjk4ODg4YzkxLmh0bWw=",
-                "optionText": "Opcion 2"
-            }
-        ]
-    },
-    {
-        "time": "14:10",
-        "deporte": "BASEBALL",
-        "tournament": "MLB",
-        "eventTitle": "Toronto Blue Jays vs. Tampa Bay Rays",
-        "streams": [
-            {
-                "url": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4YTkzOGRhMjg4OGM5NTg3OTk4Mzg4OTY4Yzk4ODg4YzkyLmh0bWw=",
-                "optionText": "Opcion 1"
-            },
-            {
-                "url": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4YTkzOGRhMjg4OGM5NTg3OTk4Mzg4OTY4ZDk4ODg4YzkzLmh0bWw=",
-                "optionText": "Opcion 2"
-            }
-        ]
-    },
-    {
         "time": "14:15",
-        "deporte": "AMERICAN FOOTBALL",
-        "tournament": "NCAA",
-        "eventTitle": "Vanderbilt vs. #7 Missouri",
-        "streams": [
-            {
-                "url": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4YTkzOGRhMjg4OGM5ODg3OTk4Mzg4OTY4ZTk4ODg4Yzk0Lmh0bWw=",
-                "optionText": "Opcion 1"
-            }
-        ]
-    },
-    {
-        "time": "14:15",
-        "deporte": "SOCCER",
         "tournament": "Colombia Primera A",
         "eventTitle": "Envigado vs. Once Caldas",
         "streams": [
@@ -2757,55 +1250,6 @@
     },
     {
         "time": "15:00",
-        "deporte": "BOXING",
-        "tournament": "Event",
-        "eventTitle": "Anthony Joshua vs. Daniel Dubois",
-        "streams": [
-            {
-                "url": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4YTkzOGRhMjg5ODU5NTg3OTk4MzhiOWE4Nzk4ODg4Yzk2Lmh0bWw=",
-                "optionText": "Opcion 1"
-            }
-        ]
-    },
-    {
-        "time": "15:00",
-        "deporte": "AMERICAN FOOTBALL",
-        "tournament": "NCAA",
-        "eventTitle": "Stony Brook vs. Campbell",
-        "streams": [
-            {
-                "url": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4YTkzOGRhMjg5ODU5NTg3OTk4Mzg4OTc4Nzk4ODg4Yzk3Lmh0bWw=",
-                "optionText": "Opcion 1"
-            }
-        ]
-    },
-    {
-        "time": "15:00",
-        "deporte": "AMERICAN FOOTBALL",
-        "tournament": "NCAA",
-        "eventTitle": "TCU vs. SMU",
-        "streams": [
-            {
-                "url": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4YTkzOGRhMjg5ODU5NTg3OTk4Mzg4OTc4ODk4ODg4Yzk4Lmh0bWw=",
-                "optionText": "Opcion 1"
-            }
-        ]
-    },
-    {
-        "time": "15:00",
-        "deporte": "AMERICAN FOOTBALL",
-        "tournament": "NCAA",
-        "eventTitle": "UTEP vs. Colorado State",
-        "streams": [
-            {
-                "url": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4YTkzOGRhMjg5ODU5NTg3OTk4Mzg4OTc4OTk4ODg4Yzk5Lmh0bWw=",
-                "optionText": "Opcion 1"
-            }
-        ]
-    },
-    {
-        "time": "15:00",
-        "deporte": "SOCCER",
         "tournament": "Bolivia",
         "eventTitle": "Oriente Petrolero vs. Tomayapo",
         "streams": [
@@ -2817,7 +1261,6 @@
     },
     {
         "time": "15:00",
-        "deporte": "SOCCER",
         "tournament": "Brazil Serie B",
         "eventTitle": "Ituano vs. Coritiba",
         "streams": [
@@ -2829,7 +1272,6 @@
     },
     {
         "time": "15:00",
-        "deporte": "SOCCER",
         "tournament": "Colombia Primera B",
         "eventTitle": "Union Magdalena vs. Inter Palmira",
         "streams": [
@@ -2841,7 +1283,6 @@
     },
     {
         "time": "15:00",
-        "deporte": "SOCCER",
         "tournament": "World Cup",
         "eventTitle": "USA U20 W vs. Netherlands U20 W",
         "streams": [
@@ -2856,48 +1297,7 @@
         ]
     },
     {
-        "time": "15:00",
-        "deporte": "RUGBY",
-        "tournament": "Rugby Championship",
-        "eventTitle": "Argentina vs. South Africa",
-        "streams": [
-            {
-                "url": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4YTkzOGRhMjg5ODU5NTg3OTk4Mzg4OTc4Zjk4ODg4YzlhLmh0bWw=",
-                "optionText": "Opcion 1"
-            }
-        ]
-    },
-    {
-        "time": "15:05",
-        "deporte": "MOTORSPORT",
-        "tournament": "IMSA",
-        "eventTitle": "Lamborghini Super Trofeo Indianapolis Race 2",
-        "streams": [
-            {
-                "url": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4YTkzOGRhMjg5ODU5ODg3OTk4Mzg4OTc5MDk4ODk4Mzk2Lmh0bWw=",
-                "optionText": "Opcion 1"
-            }
-        ]
-    },
-    {
-        "time": "15:10",
-        "deporte": "BASEBALL",
-        "tournament": "MLB",
-        "eventTitle": "San Francisco Giants vs. Kansas City Royals",
-        "streams": [
-            {
-                "url": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4YTkzOGRhMjg5ODY5MTg3OTk4Mzg4OTg4Nzk4ODk4Mzk3Lmh0bWw=",
-                "optionText": "Opcion 1"
-            },
-            {
-                "url": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4YTkzOGRhMjg5ODY5MTg3OTk4Mzg4OTg4ODk4ODk4Mzk4Lmh0bWw=",
-                "optionText": "Opcion 2"
-            }
-        ]
-    },
-    {
         "time": "15:30",
-        "deporte": "SOCCER",
         "tournament": "Brazil Serie A",
         "eventTitle": "Fluminense vs. Botafogo RJ",
         "streams": [
@@ -2909,7 +1309,6 @@
     },
     {
         "time": "15:30",
-        "deporte": "SOCCER",
         "tournament": "Ecuador",
         "eventTitle": "LDU Quito vs. El Nacional",
         "streams": [
@@ -2921,7 +1320,6 @@
     },
     {
         "time": "15:30",
-        "deporte": "SOCCER",
         "tournament": "El Salvador",
         "eventTitle": "Aguila vs. 11 Deportivo",
         "streams": [
@@ -2933,7 +1331,6 @@
     },
     {
         "time": "15:30",
-        "deporte": "SOCCER",
         "tournament": "Paraguay",
         "eventTitle": "Sportivo Trinidense vs. Nacional Asuncion",
         "streams": [
@@ -2944,20 +1341,7 @@
         ]
     },
     {
-        "time": "15:30",
-        "deporte": "LACROSSE",
-        "tournament": "World Championship",
-        "eventTitle": "England vs. Canada",
-        "streams": [
-            {
-                "url": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4YTkzOGRhMjg5ODc5Mzg3OTk4Mzg4OTg4ZDk4ODk4Mzk5Lmh0bWw=",
-                "optionText": "Opcion 1"
-            }
-        ]
-    },
-    {
         "time": "15:45",
-        "deporte": "SOCCER",
         "tournament": "Venezuela",
         "eventTitle": "Deportivo Tachira vs. Inter de Barinas",
         "streams": [
@@ -2969,127 +1353,6 @@
     },
     {
         "time": "16:00",
-        "deporte": "AMERICAN FOOTBALL",
-        "tournament": "NCAA",
-        "eventTitle": "East Tennessee State vs. Elon",
-        "streams": [
-            {
-                "url": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4YTkzOGRhMjg5ODk5MTg3OTk4Mzg4OTg4Zjk4ODk4NDk3Lmh0bWw=",
-                "optionText": "Opcion 1"
-            }
-        ]
-    },
-    {
-        "time": "16:00",
-        "deporte": "AMERICAN FOOTBALL",
-        "tournament": "NCAA",
-        "eventTitle": "Furman vs. William & Mary",
-        "streams": [
-            {
-                "url": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4YTkzOGRhMjg5ODk5MTg3OTk4Mzg4OTg5MDk4ODk4NDk4Lmh0bWw=",
-                "optionText": "Opcion 1"
-            }
-        ]
-    },
-    {
-        "time": "16:00",
-        "deporte": "AMERICAN FOOTBALL",
-        "tournament": "NCAA",
-        "eventTitle": "Pennsylvania vs. Delaware",
-        "streams": [
-            {
-                "url": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4YTkzOGRhMjg5ODk5MTg3OTk4Mzg4OTk4Nzk4ODk4NTkyLmh0bWw=",
-                "optionText": "Opcion 1"
-            }
-        ]
-    },
-    {
-        "time": "16:00",
-        "deporte": "AMERICAN FOOTBALL",
-        "tournament": "NCAA",
-        "eventTitle": "East Carolina vs. Liberty",
-        "streams": [
-            {
-                "url": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4YTkzOGRhMjg5ODk5MTg3OTk4Mzg4OTk4ODk4ODk4NDk2Lmh0bWw=",
-                "optionText": "Opcion 1"
-            }
-        ]
-    },
-    {
-        "time": "16:00",
-        "deporte": "AMERICAN FOOTBALL",
-        "tournament": "NCAA",
-        "eventTitle": "Marist vs. Bucknell",
-        "streams": [
-            {
-                "url": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4YTkzOGRhMjg5ODk5MTg3OTk4Mzg4OTk4OTk4ODk4NDk5Lmh0bWw=",
-                "optionText": "Opcion 1"
-            }
-        ]
-    },
-    {
-        "time": "16:00",
-        "deporte": "AMERICAN FOOTBALL",
-        "tournament": "NCAA",
-        "eventTitle": "Monmouth vs. Florida International",
-        "streams": [
-            {
-                "url": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4YTkzOGRhMjg5ODk5MTg3OTk4Mzg4OTk4YTk4ODk4NDlhLmh0bWw=",
-                "optionText": "Opcion 1"
-            }
-        ]
-    },
-    {
-        "time": "16:00",
-        "deporte": "AMERICAN FOOTBALL",
-        "tournament": "NCAA",
-        "eventTitle": "Morehead State vs. Eastern Kentucky",
-        "streams": [
-            {
-                "url": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4YTkzOGRhMjg5ODk5MTg3OTk4Mzg4OTk4Yjk4ODk4NTkxLmh0bWw=",
-                "optionText": "Opcion 1"
-            }
-        ]
-    },
-    {
-        "time": "16:00",
-        "deporte": "AMERICAN FOOTBALL",
-        "tournament": "NCAA",
-        "eventTitle": "Richmond vs. Delaware State",
-        "streams": [
-            {
-                "url": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4YTkzOGRhMjg5ODk5MTg3OTk4Mzg4OTk4Yzk4ODk4NTkzLmh0bWw=",
-                "optionText": "Opcion 1"
-            }
-        ]
-    },
-    {
-        "time": "16:00",
-        "deporte": "AMERICAN FOOTBALL",
-        "tournament": "NCAA",
-        "eventTitle": "Southern Utah vs. Idaho State",
-        "streams": [
-            {
-                "url": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4YTkzOGRhMjg5ODk5MTg3OTk4Mzg4OTk4ZDk4ODk4NTk0Lmh0bWw=",
-                "optionText": "Opcion 1"
-            }
-        ]
-    },
-    {
-        "time": "16:00",
-        "deporte": "AMERICAN FOOTBALL",
-        "tournament": "NCAA",
-        "eventTitle": "The Citadel vs. Mercer",
-        "streams": [
-            {
-                "url": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4YTkzOGRhMjg5ODk5MTg3OTk4Mzg4OTk4ZTk4ODk4NTk1Lmh0bWw=",
-                "optionText": "Opcion 1"
-            }
-        ]
-    },
-    {
-        "time": "16:00",
-        "deporte": "SOCCER",
         "tournament": "Argentina Liga Profesional",
         "eventTitle": "Instituto vs. Barracas Central",
         "streams": [
@@ -3101,7 +1364,6 @@
     },
     {
         "time": "16:00",
-        "deporte": "SOCCER",
         "tournament": "Argentina Liga Profesional",
         "eventTitle": "Newell's Old Boys vs. CA Tigre",
         "streams": [
@@ -3113,7 +1375,6 @@
     },
     {
         "time": "16:00",
-        "deporte": "SOCCER",
         "tournament": "Canada",
         "eventTitle": "Vancouver FC vs. Forge",
         "streams": [
@@ -3125,7 +1386,6 @@
     },
     {
         "time": "16:00",
-        "deporte": "SOCCER",
         "tournament": "Uruguay",
         "eventTitle": "Nacional vs. Defensor Sporting",
         "streams": [
@@ -3137,7 +1397,6 @@
     },
     {
         "time": "16:00",
-        "deporte": "SOCCER",
         "tournament": "USL1",
         "eventTitle": "Forward Madison vs. Spokane Velocity",
         "streams": [
@@ -3149,7 +1408,6 @@
     },
     {
         "time": "16:00",
-        "deporte": "SOCCER",
         "tournament": "USL1",
         "eventTitle": "Richmond Kickers vs. Lexington",
         "streams": [
@@ -3160,20 +1418,7 @@
         ]
     },
     {
-        "time": "16:00",
-        "deporte": "GOLF",
-        "tournament": "PGA Tour Champions",
-        "eventTitle": "PURE Insurance Championship",
-        "streams": [
-            {
-                "url": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4YTkzOGRhMjg5ODk5MTg3OTk4Mzg4OWE4Yjk4ODk4NDk1Lmh0bWw=",
-                "optionText": "Opcion 1"
-            }
-        ]
-    },
-    {
         "time": "16:45",
-        "deporte": "SOCCER",
         "tournament": "Colombia Primera A",
         "eventTitle": "Deportivo Cali vs. La Equidad",
         "streams": [
@@ -3185,335 +1430,6 @@
     },
     {
         "time": "17:00",
-        "deporte": "HOCKEY",
-        "tournament": "NHL",
-        "eventTitle": "Pittsburgh Penguins vs. Buffalo Sabres",
-        "streams": [
-            {
-                "url": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4YTkzOGRhMjg5OGM5Nzg3OTk4Mzg4OWE4ZDk4ODk4ODk4Lmh0bWw=",
-                "optionText": "Opcion 1"
-            },
-            {
-                "url": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4YTkzOGRhMjg5OGM5Nzg3OTk4Mzg4OWE4ZTk4ODk4ODk5Lmh0bWw=",
-                "optionText": "Opcion 2"
-            }
-        ]
-    },
-    {
-        "time": "17:00",
-        "deporte": "HOCKEY",
-        "tournament": "NHL",
-        "eventTitle": "St. Louis Blues vs. Dallas Stars",
-        "streams": [
-            {
-                "url": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4YTkzOGRhMjg5OGM5Nzg3OTk4Mzg4OWE4Zjk4ODk4ODlhLmh0bWw=",
-                "optionText": "Opcion 1"
-            }
-        ]
-    },
-    {
-        "time": "17:00",
-        "deporte": "AMERICAN FOOTBALL",
-        "tournament": "CFL",
-        "eventTitle": "Winnipeg Blue Bombers vs. Edmonton Elks",
-        "streams": [
-            {
-                "url": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4YTkzOGRhMjg5OGM5Nzg3OTk4Mzg4OWE5MDk4ODk4NjkzLmh0bWw=",
-                "optionText": "Opcion 1"
-            }
-        ]
-    },
-    {
-        "time": "17:00",
-        "deporte": "AMERICAN FOOTBALL",
-        "tournament": "NCAA",
-        "eventTitle": "#8 Miami vs. South Florida",
-        "streams": [
-            {
-                "url": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4YTkzOGRhMjg5OGM5Nzg3OTk4Mzg5OTE4Nzk4ODk4Njk0Lmh0bWw=",
-                "optionText": "Opcion 1"
-            }
-        ]
-    },
-    {
-        "time": "17:00",
-        "deporte": "AMERICAN FOOTBALL",
-        "tournament": "NCAA",
-        "eventTitle": "California vs. Florida State",
-        "streams": [
-            {
-                "url": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4YTkzOGRhMjg5OGM5Nzg3OTk4Mzg5OTE4ODk4ODk4Njk2Lmh0bWw=",
-                "optionText": "Opcion 1"
-            }
-        ]
-    },
-    {
-        "time": "17:00",
-        "deporte": "AMERICAN FOOTBALL",
-        "tournament": "NCAA",
-        "eventTitle": "Northwestern vs. Washington",
-        "streams": [
-            {
-                "url": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4YTkzOGRhMjg5OGM5Nzg3OTk4Mzg5OTE4OTk4ODk4Nzk2Lmh0bWw=",
-                "optionText": "Opcion 1"
-            }
-        ]
-    },
-    {
-        "time": "17:00",
-        "deporte": "AMERICAN FOOTBALL",
-        "tournament": "NCAA",
-        "eventTitle": "Florida Atlantic vs. UConn",
-        "streams": [
-            {
-                "url": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4YTkzOGRhMjg5OGM5Nzg3OTk4Mzg5OTE4YTk4ODk4Njk5Lmh0bWw=",
-                "optionText": "Opcion 1"
-            }
-        ]
-    },
-    {
-        "time": "17:00",
-        "deporte": "AMERICAN FOOTBALL",
-        "tournament": "NCAA",
-        "eventTitle": "Alabama A&M vs. Austin Peay",
-        "streams": [
-            {
-                "url": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4YTkzOGRhMjg5OGM5Nzg3OTk4Mzg5OTE4Yjk4ODk4Njk1Lmh0bWw=",
-                "optionText": "Opcion 1"
-            }
-        ]
-    },
-    {
-        "time": "17:00",
-        "deporte": "AMERICAN FOOTBALL",
-        "tournament": "NCAA",
-        "eventTitle": "Eastern Illinois vs. Illinois State",
-        "streams": [
-            {
-                "url": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4YTkzOGRhMjg5OGM5Nzg3OTk4Mzg5OTE4Yzk4ODk4Njk3Lmh0bWw=",
-                "optionText": "Opcion 1"
-            }
-        ]
-    },
-    {
-        "time": "17:00",
-        "deporte": "AMERICAN FOOTBALL",
-        "tournament": "NCAA",
-        "eventTitle": "Florida A&M vs. Troy",
-        "streams": [
-            {
-                "url": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4YTkzOGRhMjg5OGM5Nzg3OTk4Mzg5OTE4ZDk4ODk4Njk4Lmh0bWw=",
-                "optionText": "Opcion 1"
-            }
-        ]
-    },
-    {
-        "time": "17:00",
-        "deporte": "AMERICAN FOOTBALL",
-        "tournament": "NCAA",
-        "eventTitle": "Gardner-Webb vs. Presbyterian",
-        "streams": [
-            {
-                "url": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4YTkzOGRhMjg5OGM5Nzg3OTk4Mzg5OTE4ZTk4ODk4NjlhLmh0bWw=",
-                "optionText": "Opcion 1"
-            }
-        ]
-    },
-    {
-        "time": "17:00",
-        "deporte": "AMERICAN FOOTBALL",
-        "tournament": "NCAA",
-        "eventTitle": "Jackson State vs. Grambling",
-        "streams": [
-            {
-                "url": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4YTkzOGRhMjg5OGM5Nzg3OTk4Mzg5OTE4Zjk4ODk4NzkxLmh0bWw=",
-                "optionText": "Opcion 1"
-            }
-        ]
-    },
-    {
-        "time": "17:00",
-        "deporte": "AMERICAN FOOTBALL",
-        "tournament": "NCAA",
-        "eventTitle": "Missouri State vs. UT Martin",
-        "streams": [
-            {
-                "url": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4YTkzOGRhMjg5OGM5Nzg3OTk4Mzg5OTE5MDk4ODk4NzkyLmh0bWw=",
-                "optionText": "Opcion 1"
-            }
-        ]
-    },
-    {
-        "time": "17:00",
-        "deporte": "AMERICAN FOOTBALL",
-        "tournament": "NCAA",
-        "eventTitle": "New Mexico State vs. Sam Houston",
-        "streams": [
-            {
-                "url": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4YTkzOGRhMjg5OGM5Nzg3OTk4Mzg5OTI4Nzk4ODk4NzkzLmh0bWw=",
-                "optionText": "Opcion 1"
-            }
-        ]
-    },
-    {
-        "time": "17:00",
-        "deporte": "AMERICAN FOOTBALL",
-        "tournament": "NCAA",
-        "eventTitle": "North Carolina A&T vs. North Carolina Central",
-        "streams": [
-            {
-                "url": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4YTkzOGRhMjg5OGM5Nzg3OTk4Mzg5OTI4ODk4ODk4Nzk0Lmh0bWw=",
-                "optionText": "Opcion 1"
-            }
-        ]
-    },
-    {
-        "time": "17:00",
-        "deporte": "AMERICAN FOOTBALL",
-        "tournament": "NCAA",
-        "eventTitle": "Northern Arizona vs. Incarnate Word",
-        "streams": [
-            {
-                "url": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4YTkzOGRhMjg5OGM5Nzg3OTk4Mzg5OTI4OTk4ODk4Nzk1Lmh0bWw=",
-                "optionText": "Opcion 1"
-            }
-        ]
-    },
-    {
-        "time": "17:00",
-        "deporte": "AMERICAN FOOTBALL",
-        "tournament": "NCAA",
-        "eventTitle": "Sacramento State vs. Texas A&M-Commerce",
-        "streams": [
-            {
-                "url": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4YTkzOGRhMjg5OGM5Nzg3OTk4Mzg5OTI4YTk4ODk4Nzk3Lmh0bWw=",
-                "optionText": "Opcion 1"
-            }
-        ]
-    },
-    {
-        "time": "17:00",
-        "deporte": "AMERICAN FOOTBALL",
-        "tournament": "NCAA",
-        "eventTitle": "South Dakota State vs. SE Louisiana",
-        "streams": [
-            {
-                "url": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4YTkzOGRhMjg5OGM5Nzg3OTk4Mzg5OTI4Yjk4ODk4Nzk4Lmh0bWw=",
-                "optionText": "Opcion 1"
-            }
-        ]
-    },
-    {
-        "time": "17:00",
-        "deporte": "AMERICAN FOOTBALL",
-        "tournament": "NCAA",
-        "eventTitle": "Southeast Missouri State vs. Southern Illinois",
-        "streams": [
-            {
-                "url": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4YTkzOGRhMjg5OGM5Nzg3OTk4Mzg5OTI4Yzk4ODk4Nzk5Lmh0bWw=",
-                "optionText": "Opcion 1"
-            }
-        ]
-    },
-    {
-        "time": "17:00",
-        "deporte": "AMERICAN FOOTBALL",
-        "tournament": "NCAA",
-        "eventTitle": "Southern vs. Prairie View A&M",
-        "streams": [
-            {
-                "url": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4YTkzOGRhMjg5OGM5Nzg3OTk4Mzg5OTI4ZDk4ODk4NzlhLmh0bWw=",
-                "optionText": "Opcion 1"
-            }
-        ]
-    },
-    {
-        "time": "17:00",
-        "deporte": "AMERICAN FOOTBALL",
-        "tournament": "NCAA",
-        "eventTitle": "Tarleton State vs. North Alabama",
-        "streams": [
-            {
-                "url": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4YTkzOGRhMjg5OGM5Nzg3OTk4Mzg5OTI4ZTk4ODk4ODkxLmh0bWw=",
-                "optionText": "Opcion 1"
-            }
-        ]
-    },
-    {
-        "time": "17:00",
-        "deporte": "AMERICAN FOOTBALL",
-        "tournament": "NCAA",
-        "eventTitle": "Texas Southern vs. Lamar",
-        "streams": [
-            {
-                "url": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4YTkzOGRhMjg5OGM5Nzg3OTk4Mzg5OTI4Zjk4ODk4ODkyLmh0bWw=",
-                "optionText": "Opcion 1"
-            }
-        ]
-    },
-    {
-        "time": "17:00",
-        "deporte": "AMERICAN FOOTBALL",
-        "tournament": "NCAA",
-        "eventTitle": "Toledo vs. Western Kentucky",
-        "streams": [
-            {
-                "url": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4YTkzOGRhMjg5OGM5Nzg3OTk4Mzg5OTI5MDk4ODk4ODkzLmh0bWw=",
-                "optionText": "Opcion 1"
-            }
-        ]
-    },
-    {
-        "time": "17:00",
-        "deporte": "AMERICAN FOOTBALL",
-        "tournament": "NCAA",
-        "eventTitle": "Tulsa vs. Louisiana Tech",
-        "streams": [
-            {
-                "url": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4YTkzOGRhMjg5OGM5Nzg3OTk4Mzg5OTM4Nzk4ODk4ODk0Lmh0bWw=",
-                "optionText": "Opcion 1"
-            }
-        ]
-    },
-    {
-        "time": "17:00",
-        "deporte": "AMERICAN FOOTBALL",
-        "tournament": "NCAA",
-        "eventTitle": "Virginia Lynchburg vs. Morgan State",
-        "streams": [
-            {
-                "url": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4YTkzOGRhMjg5OGM5Nzg3OTk4Mzg5OTM4ODk4ODk4ODk1Lmh0bWw=",
-                "optionText": "Opcion 1"
-            }
-        ]
-    },
-    {
-        "time": "17:00",
-        "deporte": "AMERICAN FOOTBALL",
-        "tournament": "NCAA",
-        "eventTitle": "Weber State vs. Northwestern State",
-        "streams": [
-            {
-                "url": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4YTkzOGRhMjg5OGM5Nzg3OTk4Mzg5OTM4OTk4ODk4ODk2Lmh0bWw=",
-                "optionText": "Opcion 1"
-            }
-        ]
-    },
-    {
-        "time": "17:00",
-        "deporte": "AMERICAN FOOTBALL",
-        "tournament": "NCAA",
-        "eventTitle": "Wyoming vs. North Texas",
-        "streams": [
-            {
-                "url": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4YTkzOGRhMjg5OGM5Nzg3OTk4Mzg5OTM4YTk4ODk4ODk3Lmh0bWw=",
-                "optionText": "Opcion 1"
-            }
-        ]
-    },
-    {
-        "time": "17:00",
-        "deporte": "SOCCER",
         "tournament": "Argentina Primera B",
         "eventTitle": "San Martin Burzaco vs. Los Andes",
         "streams": [
@@ -3525,7 +1441,6 @@
     },
     {
         "time": "17:00",
-        "deporte": "SOCCER",
         "tournament": "Bolivia",
         "eventTitle": "Aurora vs. Always Ready",
         "streams": [
@@ -3537,7 +1452,6 @@
     },
     {
         "time": "17:00",
-        "deporte": "SOCCER",
         "tournament": "Costa Rica Primera Division",
         "eventTitle": "Liberia vs. Deportivo Saprissa",
         "streams": [
@@ -3549,7 +1463,6 @@
     },
     {
         "time": "17:00",
-        "deporte": "SOCCER",
         "tournament": "Mexico",
         "eventTitle": "Club Leon vs. Atletico San Luis",
         "streams": [
@@ -3565,7 +1478,6 @@
     },
     {
         "time": "17:00",
-        "deporte": "SOCCER",
         "tournament": "MLS Next Pro",
         "eventTitle": "Vancouver Whitecaps 2 vs. Tacoma Defiance",
         "streams": [
@@ -3577,7 +1489,6 @@
     },
     {
         "time": "17:00",
-        "deporte": "SOCCER",
         "tournament": "NISA",
         "eventTitle": "Maryland Bobcats vs. Club de Lyon",
         "streams": [
@@ -3589,7 +1500,6 @@
     },
     {
         "time": "17:00",
-        "deporte": "SOCCER",
         "tournament": "USL",
         "eventTitle": "Hartford Athletic vs. Oakland Roots",
         "streams": [
@@ -3601,7 +1511,6 @@
     },
     {
         "time": "17:00",
-        "deporte": "SOCCER",
         "tournament": "USL1",
         "eventTitle": "Greenville Triumph SC vs. Central Valley Fuego",
         "streams": [
@@ -3612,132 +1521,7 @@
         ]
     },
     {
-        "time": "17:05",
-        "deporte": "BASEBALL",
-        "tournament": "MLB",
-        "eventTitle": "Seattle Mariners vs. Texas Rangers",
-        "streams": [
-            {
-                "url": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4YTkzOGRhMjg5OGM5YTg3OTk4Mzg5OTQ4YTk4ODk4OTlhLmh0bWw=",
-                "optionText": "Opcion 1"
-            },
-            {
-                "url": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4YTkzOGRhMjg5OGM5YTg3OTk4Mzg5OTQ4Yjk4ODk4YTkxLmh0bWw=",
-                "optionText": "Opcion 2"
-            }
-        ]
-    },
-    {
-        "time": "17:10",
-        "deporte": "BASEBALL",
-        "tournament": "MLB",
-        "eventTitle": "Arizona Diamondbacks vs. Milwaukee Brewers",
-        "streams": [
-            {
-                "url": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4YTkzOGRhMjhhODM5Mzg3OTk4Mzg5OTQ4Yzk4ODk4YTkyLmh0bWw=",
-                "optionText": "Opcion 1"
-            },
-            {
-                "url": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4YTkzOGRhMjhhODM5Mzg3OTk4Mzg5OTQ4ZDk4ODk4YTkzLmh0bWw=",
-                "optionText": "Opcion 2"
-            }
-        ]
-    },
-    {
-        "time": "17:10",
-        "deporte": "BASEBALL",
-        "tournament": "MLB",
-        "eventTitle": "Los Angeles Angels vs. Houston Astros",
-        "streams": [
-            {
-                "url": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4YTkzOGRhMjhhODM5Mzg3OTk4Mzg5OTQ4ZTk4ODk4YTk0Lmh0bWw=",
-                "optionText": "Opcion 1"
-            },
-            {
-                "url": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4YTkzOGRhMjhhODM5Mzg3OTk4Mzg5OTQ4Zjk4ODk4YTk1Lmh0bWw=",
-                "optionText": "Opcion 2"
-            }
-        ]
-    },
-    {
-        "time": "17:15",
-        "deporte": "BASEBALL",
-        "tournament": "MLB",
-        "eventTitle": "Cleveland Guardians vs. St.Louis Cardinals",
-        "streams": [
-            {
-                "url": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4YTkzOGRhMjhhODM5Njg3OTk4Mzg5OTQ5MDk4ODk4YTk2Lmh0bWw=",
-                "optionText": "Opcion 1"
-            },
-            {
-                "url": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4YTkzOGRhMjhhODM5Njg3OTk4Mzg5OTU4Nzk4ODk4YTk3Lmh0bWw=",
-                "optionText": "Opcion 2"
-            }
-        ]
-    },
-    {
         "time": "17:30",
-        "deporte": "AMERICAN FOOTBALL",
-        "tournament": "NCAA",
-        "eventTitle": "Iowa vs. Minnesota",
-        "streams": [
-            {
-                "url": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4YTkzOGRhMjhhODQ5NTg3OTk4Mzg5OTU4OTk4ODk4YjkyLmh0bWw=",
-                "optionText": "Opcion 1"
-            }
-        ]
-    },
-    {
-        "time": "17:30",
-        "deporte": "AMERICAN FOOTBALL",
-        "tournament": "NCAA",
-        "eventTitle": "#6 Tennessee vs. #15 Oklahoma",
-        "streams": [
-            {
-                "url": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4YTkzOGRhMjhhODQ5NTg3OTk4Mzg5OTU4ODk4ODk4YTk5Lmh0bWw=",
-                "optionText": "Opcion 1"
-            }
-        ]
-    },
-    {
-        "time": "17:30",
-        "deporte": "AMERICAN FOOTBALL",
-        "tournament": "NCAA",
-        "eventTitle": "Akron vs. South Carolina",
-        "streams": [
-            {
-                "url": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4YTkzOGRhMjhhODQ5NTg3OTk4Mzg5OTU4YTk4ODk4YTlhLmh0bWw=",
-                "optionText": "Opcion 1"
-            }
-        ]
-    },
-    {
-        "time": "17:30",
-        "deporte": "AMERICAN FOOTBALL",
-        "tournament": "NCAA",
-        "eventTitle": "Bowling Green vs. #25 Texas A&M",
-        "streams": [
-            {
-                "url": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4YTkzOGRhMjhhODQ5NTg3OTk4Mzg5OTU4Yjk4ODk4YjkxLmh0bWw=",
-                "optionText": "Opcion 1"
-            }
-        ]
-    },
-    {
-        "time": "17:30",
-        "deporte": "MOTORSPORT",
-        "tournament": "NASCAR",
-        "eventTitle": "NASCAR Cup Series Bass Pro Shops Night Race",
-        "streams": [
-            {
-                "url": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4YTkzOGRhMjhhODQ5NTg3OTk4Mzg5OTU4Yzk4ODk4YTk4Lmh0bWw=",
-                "optionText": "Opcion 1"
-            }
-        ]
-    },
-    {
-        "time": "17:30",
-        "deporte": "SOCCER",
         "tournament": "MLS",
         "eventTitle": "CF Montreal vs. Chicago Fire",
         "streams": [
@@ -3749,7 +1533,6 @@
     },
     {
         "time": "17:30",
-        "deporte": "SOCCER",
         "tournament": "MLS",
         "eventTitle": "Columbus Crew vs. Orlando City",
         "streams": [
@@ -3761,7 +1544,6 @@
     },
     {
         "time": "17:30",
-        "deporte": "SOCCER",
         "tournament": "MLS",
         "eventTitle": "New York Red Bulls vs. Atlanta United",
         "streams": [
@@ -3773,7 +1555,6 @@
     },
     {
         "time": "17:30",
-        "deporte": "SOCCER",
         "tournament": "NWSL",
         "eventTitle": "Racing Louisville W vs. North Carolina Courage W",
         "streams": [
@@ -3785,7 +1566,6 @@
     },
     {
         "time": "17:30",
-        "deporte": "SOCCER",
         "tournament": "Peru",
         "eventTitle": "Deportivo Garcilaso vs. Cienciano",
         "streams": [
@@ -3797,7 +1577,6 @@
     },
     {
         "time": "17:30",
-        "deporte": "SOCCER",
         "tournament": "USL",
         "eventTitle": "Charleston Battery vs. Tampa Bay Rowdies",
         "streams": [
@@ -3809,7 +1588,6 @@
     },
     {
         "time": "17:30",
-        "deporte": "SOCCER",
         "tournament": "USL",
         "eventTitle": "North Carolina vs. Indy Eleven",
         "streams": [
@@ -3821,7 +1599,6 @@
     },
     {
         "time": "17:30",
-        "deporte": "SOCCER",
         "tournament": "USL",
         "eventTitle": "Rhode Island vs. FC Tulsa",
         "streams": [
@@ -3833,7 +1610,6 @@
     },
     {
         "time": "17:30",
-        "deporte": "SOCCER",
         "tournament": "USL1",
         "eventTitle": "Tormenta vs. Charlotte Independence",
         "streams": [
@@ -3844,128 +1620,7 @@
         ]
     },
     {
-        "time": "17:45",
-        "deporte": "AMERICAN FOOTBALL",
-        "tournament": "NCAA",
-        "eventTitle": "Georgia Southern vs. #5 Ole Miss",
-        "streams": [
-            {
-                "url": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4YTkzOGRhMjhhODU5NDg3OTk4Mzg3OTE4Nzk4ODk4YzkyLmh0bWw=",
-                "optionText": "Opcion 1"
-            }
-        ]
-    },
-    {
         "time": "18:00",
-        "deporte": "COMBAT SPORT",
-        "tournament": "AEW",
-        "eventTitle": "AEW Collision",
-        "streams": [
-            {
-                "url": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4YTkzOGRhMjhhODY5Mzg3OTk4Mzg5OTY4Yzk4ODk4YzkzLmh0bWw=",
-                "optionText": "Opcion 1"
-            }
-        ]
-    },
-    {
-        "time": "18:00",
-        "deporte": "COMBAT SPORT",
-        "tournament": "MMA",
-        "eventTitle": "Cage Fury FC 135",
-        "streams": [
-            {
-                "url": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4YTkzOGRhMjhhODY5Mzg3OTk4Mzg5OTY4ZDk4ODk4Yzk0Lmh0bWw=",
-                "optionText": "Opcion 1"
-            }
-        ]
-    },
-    {
-        "time": "18:00",
-        "deporte": "HOCKEY",
-        "tournament": "NHL",
-        "eventTitle": "Minnesota Wild vs. Winnipeg Jets",
-        "streams": [
-            {
-                "url": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4YTkzOGRhMjhhODY5Mzg3OTk4Mzg5OTY4ZTk4OGE4MzkxLmh0bWw=",
-                "optionText": "Opcion 1"
-            }
-        ]
-    },
-    {
-        "time": "18:00",
-        "deporte": "AMERICAN FOOTBALL",
-        "tournament": "NCAA",
-        "eventTitle": "Baylor vs. Colorado",
-        "streams": [
-            {
-                "url": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4YTkzOGRhMjhhODY5Mzg3OTk4Mzg5OTY4Zjk4ODk4Yzk2Lmh0bWw=",
-                "optionText": "Opcion 1"
-            }
-        ]
-    },
-    {
-        "time": "18:00",
-        "deporte": "AMERICAN FOOTBALL",
-        "tournament": "NCAA",
-        "eventTitle": "Michigan State vs. Boston College",
-        "streams": [
-            {
-                "url": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4YTkzOGRhMjhhODY5Mzg3OTk4Mzg5OTY5MDk4ODk4Yzk4Lmh0bWw=",
-                "optionText": "Opcion 1"
-            }
-        ]
-    },
-    {
-        "time": "18:00",
-        "deporte": "AMERICAN FOOTBALL",
-        "tournament": "NCAA",
-        "eventTitle": "Alcorn State vs. McNeese",
-        "streams": [
-            {
-                "url": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4YTkzOGRhMjhhODY5Mzg3OTk4Mzg5OTc4Nzk4ODk4Yzk1Lmh0bWw=",
-                "optionText": "Opcion 1"
-            }
-        ]
-    },
-    {
-        "time": "18:00",
-        "deporte": "AMERICAN FOOTBALL",
-        "tournament": "NCAA",
-        "eventTitle": "Idaho vs. Abilene Christian",
-        "streams": [
-            {
-                "url": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4YTkzOGRhMjhhODY5Mzg3OTk4Mzg5OTc4ODk4ODk4Yzk3Lmh0bWw=",
-                "optionText": "Opcion 1"
-            }
-        ]
-    },
-    {
-        "time": "18:00",
-        "deporte": "AMERICAN FOOTBALL",
-        "tournament": "NCAA",
-        "eventTitle": "Northern Colorado vs. Stephen F. Austin",
-        "streams": [
-            {
-                "url": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4YTkzOGRhMjhhODY5Mzg3OTk4Mzg5OTc4OTk4ODk4Yzk5Lmh0bWw=",
-                "optionText": "Opcion 1"
-            }
-        ]
-    },
-    {
-        "time": "18:00",
-        "deporte": "AMERICAN FOOTBALL",
-        "tournament": "NCAA",
-        "eventTitle": "UL Monroe vs. #1 Texas",
-        "streams": [
-            {
-                "url": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4YTkzOGRhMjhhODY5Mzg3OTk4Mzg5OTc4YTk4ODk4YzlhLmh0bWw=",
-                "optionText": "Opcion 1"
-            }
-        ]
-    },
-    {
-        "time": "18:00",
-        "deporte": "SOCCER",
         "tournament": "Brazil Serie A",
         "eventTitle": "Fortaleza vs. EC Bahia",
         "streams": [
@@ -3977,7 +1632,6 @@
     },
     {
         "time": "18:00",
-        "deporte": "SOCCER",
         "tournament": "Ecuador",
         "eventTitle": "Deportivo Cuenca vs. Barcelona Guayaquil",
         "streams": [
@@ -3989,7 +1643,6 @@
     },
     {
         "time": "18:00",
-        "deporte": "SOCCER",
         "tournament": "Paraguay",
         "eventTitle": "Ameliano vs. Cerro Porteno",
         "streams": [
@@ -4001,7 +1654,6 @@
     },
     {
         "time": "18:00",
-        "deporte": "SOCCER",
         "tournament": "USL1",
         "eventTitle": "Union Omaha vs. One Knoxville",
         "streams": [
@@ -4013,7 +1665,6 @@
     },
     {
         "time": "18:15",
-        "deporte": "SOCCER",
         "tournament": "Argentina Liga Profesional",
         "eventTitle": "Defensa y Justicia vs. San Lorenzo",
         "streams": [
@@ -4025,47 +1676,6 @@
     },
     {
         "time": "18:30",
-        "deporte": "BOXING",
-        "tournament": "Event",
-        "eventTitle": "Jose Andres Teran vs. Yehison Cuello",
-        "streams": [
-            {
-                "url": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4YTkzOGRhMjhhODg5MTg3OTk4Mzg5OTc5MDk4OGE4Mzk3Lmh0bWw=",
-                "optionText": "Opcion 1"
-            },
-            {
-                "url": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4YTkzOGRhMjhhODg5MTg3OTk4Mzg5OTg4Nzk4OGE4Mzk4Lmh0bWw=",
-                "optionText": "Opcion 2"
-            }
-        ]
-    },
-    {
-        "time": "18:30",
-        "deporte": "AMERICAN FOOTBALL",
-        "tournament": "NCAA",
-        "eventTitle": "Fresno State vs. New Mexico",
-        "streams": [
-            {
-                "url": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4YTkzOGRhMjhhODg5MTg3OTk4Mzg5OTg4ODk4OGE4Mzk5Lmh0bWw=",
-                "optionText": "Opcion 1"
-            }
-        ]
-    },
-    {
-        "time": "18:30",
-        "deporte": "AMERICAN FOOTBALL",
-        "tournament": "NCAA",
-        "eventTitle": "Purdue vs. Oregon State",
-        "streams": [
-            {
-                "url": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4YTkzOGRhMjhhODg5MTg3OTk4Mzg5OTg4OTk4OGE4MzlhLmh0bWw=",
-                "optionText": "Opcion 1"
-            }
-        ]
-    },
-    {
-        "time": "18:30",
-        "deporte": "SOCCER",
         "tournament": "MLS",
         "eventTitle": "Austin FC vs. Houston Dynamo",
         "streams": [
@@ -4077,7 +1687,6 @@
     },
     {
         "time": "18:30",
-        "deporte": "SOCCER",
         "tournament": "MLS",
         "eventTitle": "FC Dallas vs. Los Angeles FC",
         "streams": [
@@ -4093,7 +1702,6 @@
     },
     {
         "time": "18:30",
-        "deporte": "SOCCER",
         "tournament": "MLS",
         "eventTitle": "Nashville SC vs. FC Cincinnati",
         "streams": [
@@ -4105,7 +1713,6 @@
     },
     {
         "time": "18:30",
-        "deporte": "SOCCER",
         "tournament": "MLS",
         "eventTitle": "Sporting Kansas City vs. Minnesota United",
         "streams": [
@@ -4117,7 +1724,6 @@
     },
     {
         "time": "18:30",
-        "deporte": "SOCCER",
         "tournament": "NWSL",
         "eventTitle": "Houston Dash W vs. Seattle Reign W",
         "streams": [
@@ -4129,7 +1735,6 @@
     },
     {
         "time": "18:30",
-        "deporte": "SOCCER",
         "tournament": "Venezuela",
         "eventTitle": "Portuguesa vs. Universidad Central",
         "streams": [
@@ -4140,36 +1745,7 @@
         ]
     },
     {
-        "time": "18:40",
-        "deporte": "BASEBALL",
-        "tournament": "MLB",
-        "eventTitle": "Chicago White Sox vs. San Diego Padres",
-        "streams": [
-            {
-                "url": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4YTkzOGRhMjhhODg5Nzg3OTk4MzhhOTE4OTk4OGE4NDk4Lmh0bWw=",
-                "optionText": "Opcion 1"
-            },
-            {
-                "url": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4YTkzOGRhMjhhODg5Nzg3OTk4MzhhOTE4YTk4OGE4NDk5Lmh0bWw=",
-                "optionText": "Opcion 2"
-            }
-        ]
-    },
-    {
         "time": "19:00",
-        "deporte": "BOXING",
-        "tournament": "Event",
-        "eventTitle": "BYB 31",
-        "streams": [
-            {
-                "url": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4YTkzOGRhMjhhODk5OTg3OTk4MzhhOTE4Yjk4OGE4NDlhLmh0bWw=",
-                "optionText": "Opcion 1"
-            }
-        ]
-    },
-    {
-        "time": "19:00",
-        "deporte": "SOCCER",
         "tournament": "Colombia Primera A",
         "eventTitle": "Fortaleza vs. Independiente Santa Fe",
         "streams": [
@@ -4181,7 +1757,6 @@
     },
     {
         "time": "19:00",
-        "deporte": "SOCCER",
         "tournament": "Guatemala",
         "eventTitle": "Xelaju vs. Antigua",
         "streams": [
@@ -4193,7 +1768,6 @@
     },
     {
         "time": "19:00",
-        "deporte": "SOCCER",
         "tournament": "Mexico",
         "eventTitle": "Monterrey vs. Mazatlan FC",
         "streams": [
@@ -4205,7 +1779,6 @@
     },
     {
         "time": "19:00",
-        "deporte": "SOCCER",
         "tournament": "Mexico",
         "eventTitle": "Necaxa vs. Club America",
         "streams": [
@@ -4221,7 +1794,6 @@
     },
     {
         "time": "19:00",
-        "deporte": "SOCCER",
         "tournament": "Mexico Liga de Expansion",
         "eventTitle": "Tlaxcala vs. Tapatio",
         "streams": [
@@ -4233,7 +1805,6 @@
     },
     {
         "time": "19:00",
-        "deporte": "SOCCER",
         "tournament": "USL",
         "eventTitle": "El Paso vs. Colorado Springs Switchbacks",
         "streams": [
@@ -4245,7 +1816,6 @@
     },
     {
         "time": "19:00",
-        "deporte": "SOCCER",
         "tournament": "USL1",
         "eventTitle": "Northern Colorado vs. Chattanooga Red Wolves",
         "streams": [
@@ -4256,20 +1826,7 @@
         ]
     },
     {
-        "time": "19:05",
-        "deporte": "RUGBY",
-        "tournament": "New Zealand NPC",
-        "eventTitle": "Waikato vs. Tasman",
-        "streams": [
-            {
-                "url": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4YTkzOGRhMjhhOGE5Mjg3OTk4MzhhOTI4YTk4OGE4NTk5Lmh0bWw=",
-                "optionText": "Opcion 1"
-            }
-        ]
-    },
-    {
         "time": "19:06",
-        "deporte": "SOCCER",
         "tournament": "Mexico",
         "eventTitle": "Juarez W vs. Cruz Azul W",
         "streams": [
@@ -4280,40 +1837,7 @@
         ]
     },
     {
-        "time": "19:07",
-        "deporte": "BASEBALL",
-        "tournament": "MLB",
-        "eventTitle": "New York Yankees vs. Oakland Athletics",
-        "streams": [
-            {
-                "url": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4YTkzOGRhMjhhOGE5Mzg5OTk4MzhhOTI4Yzk4OGE4NjkxLmh0bWw=",
-                "optionText": "Opcion 1"
-            },
-            {
-                "url": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4YTkzOGRhMjhhOGE5Mzg5OTk4MzhhOTI4ZDk4OGE4NjkyLmh0bWw=",
-                "optionText": "Opcion 2"
-            }
-        ]
-    },
-    {
-        "time": "19:10",
-        "deporte": "BASEBALL",
-        "tournament": "MLB",
-        "eventTitle": "Colorado Rockies vs. Los Angeles Dodgers",
-        "streams": [
-            {
-                "url": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4YTkzOGRhMjhhOGE5NTg3OTk4MzhhOTI4ZTk4OGE4NjkzLmh0bWw=",
-                "optionText": "Opcion 1"
-            },
-            {
-                "url": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4YTkzOGRhMjhhOGE5NTg3OTk4MzhhOTI4Zjk4OGE4Njk0Lmh0bWw=",
-                "optionText": "Opcion 2"
-            }
-        ]
-    },
-    {
         "time": "19:30",
-        "deporte": "SOCCER",
         "tournament": "El Salvador",
         "eventTitle": "FAS vs. Luis Angel Firpo",
         "streams": [
@@ -4325,7 +1849,6 @@
     },
     {
         "time": "19:30",
-        "deporte": "SOCCER",
         "tournament": "MLS",
         "eventTitle": "Colorado Rapids vs. Toronto FC",
         "streams": [
@@ -4337,7 +1860,6 @@
     },
     {
         "time": "19:30",
-        "deporte": "SOCCER",
         "tournament": "MLS",
         "eventTitle": "Real Salt Lake vs. Portland Timbers",
         "streams": [
@@ -4349,7 +1871,6 @@
     },
     {
         "time": "19:30",
-        "deporte": "SOCCER",
         "tournament": "NWSL",
         "eventTitle": "Chicago Red Stars W vs. San Diego Wave W",
         "streams": [
@@ -4361,7 +1882,6 @@
     },
     {
         "time": "19:30",
-        "deporte": "SOCCER",
         "tournament": "Peru",
         "eventTitle": "Sport Boys vs. Alianza Lima",
         "streams": [
@@ -4372,56 +1892,7 @@
         ]
     },
     {
-        "time": "19:30",
-        "deporte": "MOTORCYCLE RACING",
-        "tournament": "Motocross",
-        "eventTitle": "Pro Motocross World Championship Final",
-        "streams": [
-            {
-                "url": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4YTkzOGRhMjhhOGI5Nzg3OTk4MzhhOTM4Yjk4OGE4Njk1Lmh0bWw=",
-                "optionText": "Opcion 1"
-            }
-        ]
-    },
-    {
-        "time": "19:45",
-        "deporte": "AMERICAN FOOTBALL",
-        "tournament": "NCAA",
-        "eventTitle": "Portland State vs. Boise State",
-        "streams": [
-            {
-                "url": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4YTkzOGRhMjhhOGM5Njg3OTk4MzhhOTM4Yzk4OGE4NzkxLmh0bWw=",
-                "optionText": "Opcion 1"
-            }
-        ]
-    },
-    {
         "time": "20:00",
-        "deporte": "BOXING",
-        "tournament": "Event",
-        "eventTitle": "Nelson Oliva vs. Alfonso Olvera",
-        "streams": [
-            {
-                "url": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4YTkzOGRhMjhiODM5NTg3OTk4MzhhOTM4ZDk4OGE4NzkyLmh0bWw=",
-                "optionText": "Opcion 1"
-            }
-        ]
-    },
-    {
-        "time": "20:00",
-        "deporte": "AMERICAN FOOTBALL",
-        "tournament": "NCAA",
-        "eventTitle": "Utah Tech vs. UC Davis",
-        "streams": [
-            {
-                "url": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4YTkzOGRhMjhiODM5NTg3OTk4MzhhOTM4ZTk4OGE4NzkzLmh0bWw=",
-                "optionText": "Opcion 1"
-            }
-        ]
-    },
-    {
-        "time": "20:00",
-        "deporte": "SOCCER",
         "tournament": "Costa Rica Primera Division",
         "eventTitle": "Herediano vs. Santa Ana",
         "streams": [
@@ -4433,7 +1904,6 @@
     },
     {
         "time": "20:00",
-        "deporte": "SOCCER",
         "tournament": "NISA",
         "eventTitle": "LA Force vs. Capo",
         "streams": [
@@ -4445,7 +1915,6 @@
     },
     {
         "time": "20:00",
-        "deporte": "SOCCER",
         "tournament": "USL",
         "eventTitle": "Monterey Bay vs. Orange County SC",
         "streams": [
@@ -4456,44 +1925,7 @@
         ]
     },
     {
-        "time": "20:05",
-        "deporte": "RUGBY",
-        "tournament": "New Zealand NPC",
-        "eventTitle": "Auckland vs. Southland",
-        "streams": [
-            {
-                "url": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4YTkzOGRhMjhiODM5ODg3OTk4MzhhOTQ4ODk4OGE4Nzk3Lmh0bWw=",
-                "optionText": "Opcion 1"
-            }
-        ]
-    },
-    {
-        "time": "20:05",
-        "deporte": "RUGBY",
-        "tournament": "New Zealand NPC",
-        "eventTitle": "Manawatu vs. Otago",
-        "streams": [
-            {
-                "url": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4YTkzOGRhMjhiODM5ODg3OTk4MzhhOTQ4OTk4OGE4Nzk4Lmh0bWw=",
-                "optionText": "Opcion 1"
-            }
-        ]
-    },
-    {
         "time": "20:30",
-        "deporte": "AMERICAN FOOTBALL",
-        "tournament": "NCAA",
-        "eventTitle": "#13 Kansas State vs. BYU",
-        "streams": [
-            {
-                "url": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4YTkzOGRhMjhiODU5Mzg3OTk4MzhhOTQ4YTk4OGE4Nzk5Lmh0bWw=",
-                "optionText": "Opcion 1"
-            }
-        ]
-    },
-    {
-        "time": "20:30",
-        "deporte": "SOCCER",
         "tournament": "MLS",
         "eventTitle": "Los Angeles Galaxy vs. Vancouver Whitecaps",
         "streams": [
@@ -4509,7 +1941,6 @@
     },
     {
         "time": "20:30",
-        "deporte": "SOCCER",
         "tournament": "MLS",
         "eventTitle": "San Jose Earthquakes vs. St. Louis City",
         "streams": [
@@ -4525,7 +1956,6 @@
     },
     {
         "time": "20:30",
-        "deporte": "SOCCER",
         "tournament": "USL",
         "eventTitle": "Las Vegas Lights vs. Sacramento Republic FC",
         "streams": [
@@ -4537,7 +1967,6 @@
     },
     {
         "time": "20:30",
-        "deporte": "SOCCER",
         "tournament": "USL",
         "eventTitle": "Phoenix Rising FC vs. San Antonio Scorpions",
         "streams": [
@@ -4548,20 +1977,7 @@
         ]
     },
     {
-        "time": "20:30",
-        "deporte": "VOLLEYBALL",
-        "tournament": "NCAA",
-        "eventTitle": "Kentucky W vs. Stanford W",
-        "streams": [
-            {
-                "url": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4YTkzOGRhMjhiODU5Mzg3OTk4MzhhOTU4Nzk4OGE4ODk2Lmh0bWw=",
-                "optionText": "Opcion 1"
-            }
-        ]
-    },
-    {
         "time": "21:05",
-        "deporte": "SOCCER",
         "tournament": "Mexico",
         "eventTitle": "Cruz Azul vs. Chivas Guadalajara",
         "streams": [
@@ -4572,18 +1988,6 @@
             {
                 "url": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4YTkzOGRhMjhiODc5NDg3OTk4MzhhOTU4OTk4OGE4ODk4Lmh0bWw=",
                 "optionText": "Opcion 2"
-            }
-        ]
-    },
-    {
-        "time": "21:59",
-        "deporte": "AMERICAN FOOTBALL",
-        "tournament": "NCAA",
-        "eventTitle": "Northern Iowa vs. Hawaii",
-        "streams": [
-            {
-                "url": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4YTkzOGRhMjhiOGE5NjhiOTk4MzhhOTU4YTk4OGE4ODk5Lmh0bWw=",
-                "optionText": "Opcion 1"
             }
         ]
     }

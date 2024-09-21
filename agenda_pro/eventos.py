@@ -5,7 +5,7 @@ import re
 import base64  # Importar el módulo base64
 
 # URL de la página
-url = "https://dp.mycraft.click/home.html?time=-6"
+url = "https://dp.mycraft.click/home.html?cat=soccer&time=-6"
 
 def obtener_datos():
     # Hacer la solicitud a la página
@@ -25,20 +25,18 @@ def obtener_datos():
             # Extraer la hora (solo la parte de la hora, sin UTC -6)
             hora = columnas[0].text.split(' ')[0]
             
-            # Extraer el nombre del deporte
-            deporte = columnas[1].text.strip()
-
             # Extraer el nombre de la liga
             liga = columnas[2].find('a').text
             liga = liga.replace('.', '')  # Eliminar los puntos del nombre de la liga
             # Eliminar apóstrofos en el nombre de la liga
             liga = liga.replace("'", "")
+            liga = liga.replace('3 Liga', 'Bundesliga 3')
+            liga = liga.replace('2 Bundesliga', 'Bundesliga 2')
 
 
             # Extraer los equipos y eliminar el texto entre corchetes
             equipos = columnas[3].text.strip()
             equipos = re.sub(r'\[.*?\]', '', equipos).strip()
-            equipos = re.sub(r'\(.*?\)', '', equipos).strip()
 
             # Reemplazar el guion que separa los equipos por " vs "
             equipos = equipos.replace(' - ', ' vs. ')
@@ -61,7 +59,6 @@ def obtener_datos():
                 # Si es un nuevo evento, agregarlo al diccionario con el primer enlace
                 eventos[equipos] = {
                     "time": hora,
-                    "deporte": deporte,
                     "tournament": liga,
                     "eventTitle": equipos,
                     "streams": [
@@ -84,4 +81,3 @@ def obtener_datos():
 # Ejecutar el script manualmente
 if __name__ == "__main__":
     obtener_datos()
-
