@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="refresh" content="120" />
+    <meta name='robots' content='noarchive' />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link crossorigin='anonymous' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css' integrity='sha512-3Z6dRsfEmxnUBom0tcX67d1jF5jPK/kPVIgY/jzTk7eRSjkcKD5GwCWYxz2NupR9CezF3UjfZslk4Q83gzBZQ==' referrerpolicy='no-referrer' rel='stylesheet'/>
+<script src='https://mexitv.webcindario.com/agenda/2/hora.js?' type='text/javascript'></script>
+    <title>Eventos Deportivos</title>
+    <link rel="stylesheet" href="styles.css"> <!-- Enlace al archivo CSS -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script> <!-- Enlace a jQuery -->
+    <script src="hora.js"></script>
+</head>
+<body>
+    <center>
+        <div class="header">
+        <select id="deporte-filter" style="width: 20%; padding: 5px; margin-top: 10px; font-size: .9em; margin-right: 20px;">
+            <option value="TODOS">Seleccionar deporte</option>
+            <option value="TODOS">Todos los deportes</option>
+            <option value="SOCCER">Futbol</option>
+            <option value="AMERICANFOOTBALL">Futbol Americano</option>
+            <option value="BASKETBALL">Basketball</option>
+            <option value="VOLLEYBALL">Volleyball</option>
+            <option value="BASEBALL">Baseball</option>
+            <option value="BOXING">Box</option>
+            <option value="COMBATSPORT">Combate</option>
+            <option value="MOTORSPORT">Motorsport</option>
+            <option value="MOTORCYCLERACING">Motorcycle Racing</option>
+            <option value="HOCKEY">Hockey</option>
+            <option value="FUTSAL">Futbol Sala</option>
+            <option value="HANDBALL">Handball</option>
+            <option value="TENNIS">Tennis</option>
+            <option value="GOLF">Golf</option>
+            <option value="BILLIARD">Billiard</option>
+            <option value="RUGBY">Rugby</option>
+            <option value="LACROSSE">Lacrosse</option>
+        </select>
+        <input type="text" id="search-bar" placeholder="Buscar evento" style="width: 20%; padding: 2px; margin-top: 10px; font-size: 1.2em;">
+    </div>
+    </center>
+    <ul class="menu" id="event-list"></ul>
+
+    <!-- Incluimos el archivo JavaScript -->
+    <script src="script.js"></script>
+    <script src="hora.js"></script>
+    <script src="search.js"></script>
+</body>
+</html>
