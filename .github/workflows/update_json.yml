@@ -1,0 +1,33 @@
+name: Actualizar eventos JSON
+
+on:
+  schedule:
+    - cron: '*/20 * * * *'
+    
+jobs:
+  actualizar_json:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checar el repositorio
+        uses: actions/checkout@v2
+
+      - name: Configurar Python
+        uses: actions/setup-python@v2
+        with:
+          python-version: '3.12.5'
+          
+      - name: Instalar dependencias
+        run: |
+          pip install requests beautifulsoup4
+
+      - name: Ejecutar el script Python
+        run: |
+          python agenda_pro/obtener_datos.py
+
+      - name: Subir archivo actualizado
+        run: |
+          git config --local user.email "tu_email@ejemplo.com"
+          git config --local user.name "Tu Nombre"
+          git add eventos.json
+          git commit -m "Actualización de eventos JSON"
+          git push
