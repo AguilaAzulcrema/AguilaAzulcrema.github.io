@@ -34,11 +34,12 @@ jobs:
         run: |
           git config --local user.email "lirikablazfema@gmail.com"
           git config --local user.name "Luis Olv"
-          
+
       - name: Realizar pull antes de push
         run: |
-          git pull origin main || echo "No se pudo hacer pull"
-
+          # Hacer pull para traer los cambios remotos
+          git pull origin main --rebase || echo "No se pudo hacer pull"
+          
       - name: Subir archivo actualizado
         run: |
           # Agregar archivos modificados
@@ -48,4 +49,18 @@ jobs:
           git commit --allow-empty -m "Actualización de eventos JSON" || echo "No hay cambios para hacer commit"
           
           # Empujar los cambios
+          git push || echo "No se pudo hacer push"
+
+      - name: Limpiar caché de Git y verificar cambios
+        run: |
+          # Limpiar caché para asegurarnos que git detecte los cambios
+          git rm --cached agenda_pro/eventos.json || true
+          
+          # Volver a agregar el archivo
+          git add agenda_pro/eventos.json
+          
+          # Hacer commit de los cambios
+          git commit --allow-empty -m "Forzar actualización de eventos JSON" || echo "No hay cambios para hacer commit"
+          
+          # Push a GitHub
           git push || echo "No se pudo hacer push"
