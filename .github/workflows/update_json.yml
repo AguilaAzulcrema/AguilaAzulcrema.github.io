@@ -30,30 +30,22 @@ jobs:
       - name: Mostrar contenido de eventos.json después de ejecutar el script
         run: cat agenda_pro/eventos.json
 
-      - name: Subir archivo actualizado
+      - name: Configurar credenciales de GitHub
         run: |
           git config --local user.email "lirikablazfema@gmail.com"
           git config --local user.name "Luis Olv"
           
-          # Forzar la inclusión de los archivos modificados
+      - name: Realizar pull antes de push
+        run: |
+          git pull origin main || echo "No se pudo hacer pull"
+
+      - name: Subir archivo actualizado
+        run: |
+          # Agregar archivos modificados
           git add -A
           
           # Forzar commit aunque los cambios sean triviales
           git commit --allow-empty -m "Actualización de eventos JSON" || echo "No hay cambios para hacer commit"
           
           # Empujar los cambios
-          git push || echo "No se pudo hacer push"
-
-      - name: Limpiar caché de Git y verificar cambios
-        run: |
-          # Limpiar caché para asegurarnos que git detecte los cambios
-          git rm --cached agenda_pro/eventos.json || true
-          
-          # Volver a agregar el archivo
-          git add agenda_pro/eventos.json
-          
-          # Hacer commit de los cambios
-          git commit --allow-empty -m "Forzar actualización de eventos JSON" || echo "No hay cambios para hacer commit"
-          
-          # Push a GitHub
           git push || echo "No se pudo hacer push"
