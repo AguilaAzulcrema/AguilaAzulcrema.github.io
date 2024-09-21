@@ -31,11 +31,17 @@ jobs:
     - name: Mostrar contenido de eventos.json después de ejecutar el script
       run: cat agenda_pro/eventos.json
 
+    # Agregar timestamp para forzar cambios en el archivo JSON
+    - name: Forzar actualización del archivo JSON
+      run: echo "Actualizado el: $(date)" >> agenda_pro/eventos.json
+
     - name: Subir archivo actualizado
+      env:
+        TOKEN: ${{ secrets.GITHUB_TOKEN }}
       run: |
         git config --local user.email "lirikablazfema@gmail.com"
         git config --local user.name "AguilaAzulcrema"
         git pull origin main
-        git add -A  # Cambiado a git add -A
+        git add -A  # Agregar todos los cambios
         git commit -m "Actualización de eventos JSON" || echo "No hay cambios para hacer commit"
         git push origin main || echo "No se pudo hacer push"
