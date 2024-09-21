@@ -32,6 +32,10 @@ jobs:
         run: |
           git config --local user.email "lirikablazfema@gmail.com"  # Usar tu correo primario
           git config --local user.name "Luis Olv"  # Usar tu nombre completo
-          git add agenda_pro/eventos.json  # Ruta correcta del archivo JSON
-          git commit -m "Actualización de eventos JSON"
+          git status  # Verificar qué archivos han cambiado
+          git add agenda_pro/eventos.json  # Asegúrate de que esta ruta sea correcta
+          git commit -m "Actualización de eventos JSON" || echo "No hay cambios para hacer commit"
           git push
+
+
+
