@@ -33,7 +33,8 @@ jobs:
 
     # Agregar timestamp para forzar cambios en el archivo JSON
     - name: Forzar actualización del archivo JSON
-      run: echo "Actualizado el: $(date)" >> agenda_pro/eventos.json
+      run: |
+        echo "Actualizado el: $(date)" >> agenda_pro/eventos.json
 
     - name: Subir archivo actualizado
       env:
