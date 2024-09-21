@@ -1,66 +1,39 @@
 name: Actualizar eventos JSON
 
 on:
-  schedule:
-    - cron: '*/5 * * * *' # Ejecuta cada 5 minutos
+  workflow_dispatch:
 
 jobs:
   actualizar_json:
     runs-on: ubuntu-latest
+
     steps:
-      - name: Checar el repositorio
-        uses: actions/checkout@v2
+    - name: Checar repositorio
+      uses: actions/checkout@v2
 
-      - name: Configurar Python
-        uses: actions/setup-python@v2
-        with:
-          python-version: '3.12.5'
+    - name: Configurar Python
+      uses: actions/setup-python@v2
+      with:
+        python-version: '3.x'
 
-      - name: Instalar dependencias
-        run: |
-          pip install requests beautifulsoup4
+    - name: Instalar dependencias
+      run: |
+        pip install requests beautifulsoup4
 
-      - name: Mostrar contenido de eventos.json antes de ejecutar el script
-        run: cat agenda_pro/eventos.json
+    - name: Mostrar contenido de eventos.json antes de ejecutar el script
+      run: cat agenda_pro/eventos.json
 
-      - name: Ejecutar el script Python
-        run: |
-          python agenda_pro/eventos.py
+    - name: Ejecutar el script Python
+      run: python agenda_pro/eventos.py
 
-      - name: Mostrar contenido de eventos.json después de ejecutar el script
-        run: cat agenda_pro/eventos.json
+    - name: Mostrar contenido de eventos.json después de ejecutar el script
+      run: cat agenda_pro/eventos.json
 
-      - name: Configurar credenciales de GitHub
-        run: |
-          git config --local user.email "lirikablazfema@gmail.com"
-          git config --local user.name "Luis Olv"
-
-      - name: Realizar pull antes de push
-        run: |
-          # Hacer pull para traer los cambios remotos
-          git pull origin main --rebase || echo "No se pudo hacer pull"
-          
-      - name: Subir archivo actualizado
-        run: |
-          # Agregar archivos modificados
-          git add -A
-          
-          # Forzar commit aunque los cambios sean triviales
-          git commit --allow-empty -m "Actualización de eventos JSON" || echo "No hay cambios para hacer commit"
-          
-          # Empujar los cambios
-          git push || echo "No se pudo hacer push"
-
-      - name: Limpiar caché de Git y verificar cambios
-        run: |
-          # Limpiar caché para asegurarnos que git detecte los cambios
-          git rm --cached agenda_pro/eventos.json || true
-          
-          # Volver a agregar el archivo
-          git add agenda_pro/eventos.json
-          
-          # Hacer commit de los cambios
-          git commit --allow-empty -m "Forzar actualización de eventos JSON" || echo "No hay cambios para hacer commit"
-          
-          # Push a GitHub
-          git push || echo "No se pudo hacer push"
+    - name: Subir archivo actualizado
+      run: |
+        git config --local user.email "lirikablazfema@gmail.com"
+        git config --local user.name "AguilaAzulcrema"
+        git pull origin main  # Agregar este comando para hacer pull
+        git add agenda_pro/eventos.json
+        git commit -m "Actualización de eventos JSON"
+        git push origin main
