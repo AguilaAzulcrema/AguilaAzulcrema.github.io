@@ -22,7 +22,7 @@ jobs:
 
       - name: Ejecutar el script Python
         run: |
-          python agenda_pro/eventos.py  # Ruta correcta de tu archivo Python
+          python agenda_pro/eventos.py  # Ruta y nombre correctos del archivo Python
 
       - name: Configurar credenciales de GitHub
         run: |
