@@ -2,7 +2,7 @@ name: Actualizar eventos JSON
 
 on:
   schedule:
-    - cron: '*/20 * * * *'  # Ejecutar cada 20 minutos
+    - cron: '*/20 * * * *'
 
 jobs:
   actualizar_json:
@@ -14,20 +14,25 @@ jobs:
       - name: Configurar Python
         uses: actions/setup-python@v2
         with:
-          python-version: '3.12.5'  # Usar la versión exacta de Python
+          python-version: '3.12.5'
 
       - name: Instalar dependencias
         run: |
           pip install requests beautifulsoup4
 
+      - name: Mostrar contenido de eventos.json antes de ejecutar el script
+        run: cat agenda_pro/eventos.json
+
       - name: Ejecutar el script Python
         run: |
-          python agenda_pro/eventos.py  # Ruta y nombre correctos del archivo Python
+          python agenda_pro/eventos.py
+
+      - name: Mostrar contenido de eventos.json después de ejecutar el script
+        run: cat agenda_pro/eventos.json
 
       - name: Configurar credenciales de GitHub
         run: |
           git remote set-url origin https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}.git
-
 
       - name: Subir archivo actualizado
         run: |
