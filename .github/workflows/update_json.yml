@@ -1,6 +1,8 @@
 name: Actualizar eventos JSON
 
 on:
+  schedule:
+    - cron: '*/30 * * * *'
   workflow_dispatch:
 
 jobs:
@@ -31,10 +33,9 @@ jobs:
 
     - name: Subir archivo actualizado
       run: |
-       git config --local user.email "lirikablazfema@gmail.com"
+        git config --local user.email "lirikablazfema@gmail.com"
         git config --local user.name "AguilaAzulcrema"
         git pull origin main
         git add -A  # Cambiado a git add -A
         git commit -m "Actualización de eventos JSON" || echo "No hay cambios para hacer commit"
         git push origin main || echo "No se pudo hacer push"
-
