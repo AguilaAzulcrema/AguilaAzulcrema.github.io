@@ -2,8 +2,8 @@ name: Actualizar eventos JSON
 
 on:
   schedule:
-    - cron: '*/20 * * * *'
-    
+    - cron: '*/20 * * * *'  # Ejecutar cada 20 minutos
+
 jobs:
   actualizar_json:
     runs-on: ubuntu-latest
@@ -14,20 +14,24 @@ jobs:
       - name: Configurar Python
         uses: actions/setup-python@v2
         with:
-          python-version: '3.12.5'
-          
+          python-version: '3.12.5'  # Usar la versión exacta de Python
+
       - name: Instalar dependencias
         run: |
           pip install requests beautifulsoup4
 
       - name: Ejecutar el script Python
         run: |
-          python agenda_pro/obtener_datos.py
+          python agenda_pro/eventos.py  # Ruta correcta de tu archivo Python
+
+      - name: Configurar credenciales de GitHub
+        run: |
+          git remote set-url origin https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}.git
 
       - name: Subir archivo actualizado
         run: |
-          git config --local user.email "tu_email@ejemplo.com"
-          git config --local user.name "Tu Nombre"
-          git add eventos.json
+          git config --local user.email "lirikablazfema@gmail.com"  # Usar tu correo primario
+          git config --local user.name "Luis Olv"  # Usar tu nombre completo
+          git add agenda_pro/eventos.json  # Ruta correcta del archivo JSON
           git commit -m "Actualización de eventos JSON"
           git push
