@@ -31,9 +31,10 @@ jobs:
 
     - name: Subir archivo actualizado
       run: |
-        git config --local user.email "lirikablazfema@gmail.com"
+       git config --local user.email "lirikablazfema@gmail.com"
         git config --local user.name "AguilaAzulcrema"
-        git pull origin main  # Agregar este comando para hacer pull
-        git add agenda_pro/eventos.json
-        git commit -m "Actualización de eventos JSON"
-        git push origin main
+        git pull origin main
+        git add -A  # Cambiado a git add -A
+        git commit -m "Actualización de eventos JSON" || echo "No hay cambios para hacer commit"
+        git push origin main || echo "No se pudo hacer push"
+
