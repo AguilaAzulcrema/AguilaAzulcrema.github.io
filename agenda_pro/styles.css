@@ -483,11 +483,19 @@ div.sombreada_css3 {
     background-image: url(https://mexitv.webcindario.com/banderas/py.png);
 }
 
-.JP>a:before {
+.J1-LEAGUE>a:before {
     background-image: url(https://mexitv.webcindario.com/banderas/jp.png);
 }
 
-.AUS>a:before {
+.J2-LEAGUE>a:before {
+    background-image: url(https://mexitv.webcindario.com/banderas/jp.png);
+}
+
+.J3-LEAGUE>a:before {
+    background-image: url(https://mexitv.webcindario.com/banderas/jp.png);
+}
+
+.AUSTRALIACUP>a:before {
     background-image: url(https://mexitv.webcindario.com/banderas/aus.png);
 }
 
