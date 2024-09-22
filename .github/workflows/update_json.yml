@@ -32,7 +32,8 @@ jobs:
         cat agenda_pro/eventos.json
 
     - name: Forzar actualización del archivo JSON
-      run: echo "Actualizado el: $(date)" >> agenda_pro/eventos.json
+      run: |
+        echo "Actualizado el: $(date)" >> agenda_pro/eventos.json
 
     - name: Configurar usuario Git
       run: |
