@@ -1,8 +1,8 @@
-name: Actualizar eventos JSON
+name: actualizar_json
 
 on:
   schedule:
-    - cron: '*/30 * * * *'
+    - cron: '0 * * * *'
   workflow_dispatch:
 
 jobs:
@@ -10,7 +10,7 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-    - name: Checar repositorio
+    - name: Checkout del repositorio
       uses: actions/checkout@v2
 
     - name: Configurar Python
@@ -22,27 +22,25 @@ jobs:
       run: |
         pip install requests beautifulsoup4
 
-    - name: Mostrar contenido de eventos.json antes de ejecutar el script
-      run: cat agenda_pro/eventos.json
-
-    - name: Ejecutar el script Python
-      run: python agenda_pro/eventos.py
-
-    - name: Mostrar contenido de eventos.json después de ejecutar el script
-      run: cat agenda_pro/eventos.json
-
-    # Agregar timestamp para forzar cambios en el archivo JSON
-    - name: Forzar actualización del archivo JSON
+    - name: Ejecutar script Python
       run: |
-        echo "Actualizado el: $(date)" >> agenda_pro/eventos.json
+        python agenda_pro/eventos.py
 
-    - name: Subir archivo actualizado
-      env:
-        TOKEN: ${{ secrets.GITHUB_TOKEN }}
+    - name: Verificar el tamaño y contenido del archivo JSON
+      run: |
+        ls -lh agenda_pro/eventos.json
+        cat agenda_pro/eventos.json
+
+    - name: Forzar actualización del archivo JSON
+      run: echo "Actualizado el: $(date)" >> agenda_pro/eventos.json
+
+    - name: Configurar usuario Git
       run: |
         git config --local user.email "lirikablazfema@gmail.com"
-        git config --local user.name "AguilaAzulcrema"
-        git pull origin main
-        git add -A  # Agregar todos los cambios
-        git commit -m "Actualización de eventos JSON" || echo "No hay cambios para hacer commit"
-        git push origin main || echo "No se pudo hacer push"
+        git config --local user.name "Nombre de usuario"
+
+    - name: Commit y push de cambios
+      run: |
+        git add agenda_pro/eventos.json
+        git commit -m "Actualización de eventos JSON"
+        git push
