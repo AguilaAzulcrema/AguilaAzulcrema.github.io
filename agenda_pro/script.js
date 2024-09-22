@@ -47,7 +47,7 @@ function addClickEvent() {
 }
 
 // Cargar el archivo JSON
-fetch('https://aguilaazulcrema.github.io/agenda_pro/eventos.json')
+fetch('https://aguilaazulcrema.github.io/json/eventos.json')
     .then(response => response.json())
     .then(events => {
         renderEvents(events);
