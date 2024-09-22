@@ -10,28 +10,13 @@ url = "https://dp.mycraft.click/home.html?cat=soccer&time=-6"
 def obtener_datos():
     # Hacer la solicitud a la página
     response = requests.get(url)
-    
-    # Verificar si la solicitud fue exitosa
-    if response.status_code != 200:
-        print(f"Error al acceder a la página, código de estado: {response.status_code}")
-        return
-    
-    # Parsear el contenido con BeautifulSoup
     soup = BeautifulSoup(response.content, 'html.parser')
-    
-    # Imprimir parte del contenido para verificar si la página se descargó correctamente
-    print(soup.prettify()[:1000])  # Muestra los primeros 1000 caracteres del HTML
-    
+
     # Diccionario para almacenar los eventos únicos por equipos
     eventos = {}
 
     # Encontrar todas las filas (tr) en la tabla
     filas = soup.find_all('tr')
-    
-    # Verificar si se encontraron filas
-    if not filas:
-        print("No se encontraron filas en la tabla.")
-        return
 
     # Iterar sobre cada fila y extraer los datos
     for fila in filas:
