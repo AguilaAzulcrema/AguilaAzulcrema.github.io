@@ -527,11 +527,23 @@ div.sombreada_css3 {
     background-image: url(https://mexitv.webcindario.com/banderas/usa.png);
 }
 
+.JAMAICA>a:before {
+    background-image: url(https://imagecache.365scores.com/image/upload/v15/Competitors/5421);
+}
+
+.HONDURAS>a:before {
+    background-image: url(https://imagecache.365scores.com/image/upload/v2/Competitions/5071);
+}
+
 .MLSNEXTPRO>a:before {
     background-image: url(https://mexitv.webcindario.com/banderas/usa.png);
 }
 
 .USL>a:before {
+    background-image: url(https://mexitv.webcindario.com/banderas/usa.png);
+}
+
+.USLSUPERLEAGUE>a:before {
     background-image: url(https://mexitv.webcindario.com/banderas/usa.png);
 }
 
