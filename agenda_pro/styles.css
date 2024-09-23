@@ -396,6 +396,10 @@ div.sombreada_css3 {
     background-image: url(https://mexitv.webcindario.com/banderas/ale.png);
 }
 
+.BUNDESLIGAWOMEN>a:before {
+    background-image: url(https://mexitv.webcindario.com/banderas/ale.png);
+}
+
 .BULGARIA>a:before {
     background-image: url(https://imagecache.365scores.com/image/upload/v1/Competitors/5062);
 }
@@ -575,12 +579,24 @@ div.sombreada_css3 {
     background-image: url(https://imagecache.365scores.com/image/upload/v1/Competitors/5032);
 }
 
+.SWISSCHALLENGELEAGUE>a:before {
+    background-image: url(https://imagecache.365scores.com/image/upload/v1/Competitors/5032);
+}
+
 .SUOMENCUP>a:before {
     background-image: url(https://imagecache.365scores.com/image/upload/v1/Competitors/5045);
 }
 
 .ISRAELLIGATHAAL>a:before {
     background-image: url(https://imagecache.365scores.com/image/upload/v1/Competitors/5034);
+}
+
+.ISRAELLEUMITLEAGUE>a:before {
+    background-image: url(https://imagecache.365scores.com/image/upload/v1/Competitors/5034);
+}
+
+.UKRAINE>a:before {
+    background-image: url(https://imagecache.365scores.com/image/upload/v1/Competitors/5057);
 }
 
 .EREDIVISIE>a:before {
