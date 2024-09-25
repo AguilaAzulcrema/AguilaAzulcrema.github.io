@@ -1,23 +1,38 @@
 {
     "events": [
         {
-            "time": "16:00",
-            "tournament": "concacaf-caribbean-cup",
-            "eventTitle": "Ouanaminthe vs. Grenades",
+            "time": "17:00",
+            "tournament": "mexico",
+            "eventTitle": "Queretaro (f) vs. Juarez (f)",
             "streams": [
                 {
-                    "url": "ch3.html?r=https://voodc.com/embed/858a938e9b85889387998388968998858998.html",
+                    "url": "ch3.html?r=https://voodc.com/embed/858a938e9c84889387998388998f98868396.html",
                     "optionText": "Opcion 1"
                 }
             ]
         },
         {
             "time": "17:30",
-            "tournament": "mls-next-pro",
-            "eventTitle": "Atlanta United 2 vs. Inter Miami II",
+            "tournament": "campeones-cup",
+            "eventTitle": "Columbus Crew vs. Club America",
             "streams": [
                 {
-                    "url": "ch3.html?r=https://voodc.com/embed/858a938e9b86839787998388998a98858c97.html",
+                    "url": "ch3.html?r=https://voodc.com/embed/858a938e9c848a9187998389928a98868498.html",
+                    "optionText": "Opcion 1"
+                },
+                {
+                    "url": "ch3.html?r=https://voodc.com/embed/858a938e9c848a9187998389928b98868499.html",
+                    "optionText": "Opcion 2"
+                }
+            ]
+        },
+        {
+            "time": "17:30",
+            "tournament": "usl-super-league",
+            "eventTitle": "Brooklyn (f) vs. Dallas Trinity (f)",
+            "streams": [
+                {
+                    "url": "ch3.html?r=https://voodc.com/embed/858a938e9c848a9187998389928e98868592.html",
                     "optionText": "Opcion 1"
                 }
             ]
@@ -25,10 +40,47 @@
         {
             "time": "18:00",
             "tournament": "concacaf-caribbean-cup",
-            "eventTitle": "Port Of Spain vs. Cibao",
+            "eventTitle": "Real Hope vs. Arnett Gardens",
             "streams": [
                 {
-                    "url": "ch3.html?r=https://voodc.com/embed/858a938e9b868595879983889a8998868398.html",
+                    "url": "ch3.html?r=https://voodc.com/embed/858a938e9c848b9987998389939098868696.html",
+                    "optionText": "Opcion 1"
+                }
+            ]
+        },
+        {
+            "time": "18:00",
+            "tournament": "concacaf-central-american-cup",
+            "eventTitle": "Esteli vs. Aguila",
+            "streams": [
+                {
+                    "url": "ch3.html?r=https://voodc.com/embed/858a938e9c848b9987998389948798868697.html",
+                    "optionText": "Opcion 1"
+                },
+                {
+                    "url": "ch3.html?r=https://voodc.com/embed/858a938e9c848b9987998389948898868698.html",
+                    "optionText": "Opcion 2"
+                }
+            ]
+        },
+        {
+            "time": "19:00",
+            "tournament": "mexico-liga-de-expansion",
+            "eventTitle": "Celaya vs. Atlante",
+            "streams": [
+                {
+                    "url": "ch3.html?r=https://voodc.com/embed/858a938e9c85859587998389958898868798.html",
+                    "optionText": "Opcion 1"
+                }
+            ]
+        },
+        {
+            "time": "20:00",
+            "tournament": "canada-championship",
+            "eventTitle": "Vancouver Whitecaps vs. Toronto FC",
+            "streams": [
+                {
+                    "url": "ch3.html?r=https://voodc.com/embed/858a938e9c85899187998389968c98868994.html",
                     "optionText": "Opcion 1"
                 }
             ]
@@ -36,15 +88,37 @@
         {
             "time": "20:00",
             "tournament": "concacaf-central-american-cup",
-            "eventTitle": "Antigua vs. Deportivo Saprissa",
+            "eventTitle": "Motagua vs. Herediano",
             "streams": [
                 {
-                    "url": "ch3.html?r=https://voodc.com/embed/858a938e9b868c9787998389948798868693.html",
+                    "url": "ch3.html?r=https://voodc.com/embed/858a938e9c85899187998389968d98868992.html",
                     "optionText": "Opcion 1"
                 },
                 {
-                    "url": "ch3.html?r=https://voodc.com/embed/858a938e9b868c9787998389948898868694.html",
+                    "url": "ch3.html?r=https://voodc.com/embed/858a938e9c85899187998389968e98868993.html",
                     "optionText": "Opcion 2"
+                }
+            ]
+        },
+        {
+            "time": "20:30",
+            "tournament": "us-open-cup",
+            "eventTitle": "Los Angeles FC vs. Sporting Kansas City",
+            "streams": [
+                {
+                    "url": "ch3.html?r=https://voodc.com/embed/858a938e9c858a9987998389978798868997.html",
+                    "optionText": "Opcion 1"
+                }
+            ]
+        },
+        {
+            "time": "20:30",
+            "tournament": "usl",
+            "eventTitle": "Orange County SC vs. Phoenix Rising FC",
+            "streams": [
+                {
+                    "url": "ch3.html?r=https://voodc.com/embed/858a938e9c858a9987998389978898868998.html",
+                    "optionText": "Opcion 1"
                 }
             ]
         }

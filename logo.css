@@ -22,6 +22,12 @@
     height: 25px;
 }
 
+.cell-color img.campeones-cup {
+    content: url('https://imagecache.365scores.com/image/upload/v2/Competitions/7259');
+    width: 30px;
+    height: 25px;
+}
+
 .cell-color img.costarica2 {
     content: url('https://imagecache.365scores.com/image/upload/v2/Competitions/7514');
     width: 30px;
@@ -107,6 +113,12 @@
     height: 25px;
 }
 
+.cell-color img.canada-championship {
+    content: url('https://upload.wikimedia.org/wikipedia/en/3/3a/Canadian_Championship_2021_logo.png');
+    width: 30px;
+    height: 25px;
+}
+
 .cell-color img.mls-next-pro {
     content: url('https://imagecache.365scores.com/image/upload/v2/Competitions/7826');
     width: 30px;
@@ -149,7 +161,7 @@
     height: 25px;
 }
 
-.cell-color img.usopen {
+.cell-color img.us-open-cup {
     content: url('https://imagecache.365scores.com/image/upload/v2/Competitions/348');
     width: 30px;
     height: 25px;
