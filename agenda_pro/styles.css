@@ -503,6 +503,10 @@ div.sombreada_css3 {
     background-image: url(https://imagecache.365scores.com/image/upload/v1/Competitors/2388);
 }
 
+.CANADACHAMPIONSHIP>a:before {
+    background-image: url(https://imagecache.365scores.com/image/upload/v1/Competitors/2388);
+}
+
 .COLOMBIAPRIMERAA>a:before {
     background-image: url(https://mexitv.webcindario.com/banderas/col.png);
 }
@@ -520,6 +524,10 @@ div.sombreada_css3 {
 }
 
 .URUGUAY>a:before {
+    background-image: url(https://mexitv.webcindario.com/banderas/uru.png);
+}
+
+.COPAURUGUAY>a:before {
     background-image: url(https://mexitv.webcindario.com/banderas/uru.png);
 }
 
@@ -585,6 +593,14 @@ div.sombreada_css3 {
 
 .NISA>a:before {
     background-image: url(https://mexitv.webcindario.com/banderas/usa.png);
+}
+
+.USOPENCUP>a:before {
+    background-image: url(https://mexitv.webcindario.com/banderas/usa.png);
+}
+
+.CAMPEONESCUP>a:before {
+    background-image: url(https://imagecache.365scores.com/image/upload/v2/Competitions/7259);
 }
 
 .JAMAICA>a:before {
