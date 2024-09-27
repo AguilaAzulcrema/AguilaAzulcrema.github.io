@@ -227,6 +227,10 @@ div.sombreada_css3 {
     background-image: url(https://mexitv.webcindario.com/banderas/ar.png);
 }
 
+.COPAARGENTINA>a:before {
+    background-image: url(https://mexitv.webcindario.com/banderas/ar.png);
+}
+
 .ARGENTINAPRIMERANACIONAL>a:before {
     background-image: url(https://mexitv.webcindario.com/banderas/ar.png);
 }
@@ -344,6 +348,14 @@ div.sombreada_css3 {
     background-image: url(https://imagecache.365scores.com/image/upload/v1/Competitors/2371);
 }
 
+.SWEDENDIV1>a:before {
+    background-image: url(https://imagecache.365scores.com/image/upload/v1/Competitors/2371);
+}
+
+.CAFSUPERCUP>a:before {
+    background-image: url(https://imagecache.365scores.com/image/upload/v1/Competitions/5581);
+}
+
 .SUPERETTAN>a:before {
     background-image: url(https://imagecache.365scores.com/image/upload/v1/Competitors/2371);
 }
@@ -439,6 +451,13 @@ div.sombreada_css3 {
 .ENGLAND>a:before {
     background-image: url(https://mexitv.webcindario.com/banderas/eng.png);
 }
+.EPL2>a:before {
+    background-image: url(https://mexitv.webcindario.com/banderas/eng.png);
+}
+
+.WOMENSSUPERLEAGUE>a:before {
+    background-image: url(https://mexitv.webcindario.com/banderas/eng.png);
+}
 
 .ENGLANDNATIONALLEAGUE>a:before {
     background-image: url(https://mexitv.webcindario.com/banderas/eng.png);
@@ -481,6 +500,10 @@ div.sombreada_css3 {
 }
 
 .FRANCE>a:before {
+    background-image: url(https://mexitv.webcindario.com/banderas/fra.png);
+}
+
+.FRANCEPREMIERELIGUE>a:before {
     background-image: url(https://mexitv.webcindario.com/banderas/fra.png);
 }
 
@@ -548,6 +571,9 @@ div.sombreada_css3 {
 }
 
 .ECUADOR>a:before {
+    background-image: url(https://mexitv.webcindario.com/banderas/ecua.png);
+
+}.ECUADORSERIEB>a:before {
     background-image: url(https://mexitv.webcindario.com/banderas/ecua.png);
 }
 
