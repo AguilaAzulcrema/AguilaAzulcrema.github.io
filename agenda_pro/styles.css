@@ -463,6 +463,10 @@ div.sombreada_css3 {
     background-image: url(https://imagecache.365scores.com/image/upload/v1/Competitors/5054);
 }
 
+.UEFACHAMPIONSLEAGUE>a:before {
+    background-image: url(https://imagecache.365scores.com/image/upload/v4/Competitions/572);
+}
+
 .WOMENSSUPERLEAGUE>a:before {
     background-image: url(https://imagecache.365scores.com/image/upload/v1/Competitors/5054);
 }
@@ -601,12 +605,21 @@ div.sombreada_css3 {
     background-image: url(https://imagecache.365scores.com/image/upload/v11/Competitors/5070);
 }
 
+.COPAPARAGUAY>a:before {
+    background-image: url(https://imagecache.365scores.com/image/upload/v11/Competitors/5070);
+}
+
+
 .J1-LEAGUE>a:before {
     background-image: url(https://imagecache.365scores.com/image/upload/v1/Competitors/2382);
 }
 
 .J2-LEAGUE>a:before {
     background-image: url(https://imagecache.365scores.com/image/upload/v1/Competitors/2382);
+}
+
+.CONCACAFWCHAMPIONSCUP>a:before {
+    background-image: url(https://imagecache.365scores.com/image/upload/v2/Competitions/8240);
 }
 
 .J3-LEAGUE>a:before {
@@ -955,7 +968,7 @@ div.sombreada_css3 {
     background-image: url(https://futbolgratisenhd.com/flags/sx.webp);
 }
 
-.UYL>a:before {
+.UEFAYOUTHLEAGUE>a:before {
     background-image: url(https://futbolgratisenhd.com/flags/uyl.png);
 }
 
@@ -1039,8 +1052,8 @@ div.sombreada_css3 {
     background-image: url(https://futbolgratisenhd.com/flags/kingsleague.png);
 }
 
-.AFC>a:before {
-    background-image: url(https://futbolgratisenhd.com/flags/afccha.png);
+.AFCCHAMPIONSLEAGUE2>a:before {
+    background-image: url(https://imagecache.365scores.com/image/upload/v6/Competitions/568);
 }
 
 .MLB>a:before {
