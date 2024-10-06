@@ -22,6 +22,8 @@ const imagenes = {
         fondo14: 'img/fondos/black2.png',
         fondo15: 'img/fondos/fondo5.jpg',
         fondo16: 'img/fondos/champions2.jpeg',
+        fondo17: 'img/fondos/libertadores.jpg',
+        fondo18: 'img/fondos/sudamericana.jpg',
 
         // Agrega más fondos
     },
