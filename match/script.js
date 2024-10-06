@@ -19,7 +19,6 @@ const imagenes = {
         fondo11: 'img/fondos/conferenceleague.jpeg',
         fondo12: 'img/fondos/uefanationsleague.jpeg',
         fondo13: 'img/fondos/conmebol.jpeg',
-        fondo14: 'img/fondos/black2.png',
         fondo15: 'img/fondos/fondo5.jpg',
         fondo16: 'img/fondos/champions2.jpeg',
         fondo17: 'img/fondos/libertadores.jpg',
