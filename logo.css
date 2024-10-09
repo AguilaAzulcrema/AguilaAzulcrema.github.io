@@ -107,7 +107,7 @@
     height: 25px;
 }
 
-.cell-color img.costaricacup {
+.cell-color img.copa-costa-rica {
     content: url('https://imagecache.365scores.com/image/upload/v3/Competitions/5669');
     width: 30px;
     height: 25px;
@@ -179,7 +179,19 @@
     height: 25px;
 }
 
-.cell-color img.concacafnations {
+.cell-color img.concacaf-nations-league-c {
+    content: url('https://imagecache.365scores.com/image/upload/v3/Competitions/7165');
+    width: 30px;
+    height: 25px;
+}
+
+.cell-color img.concacaf-nations-league-b {
+    content: url('https://imagecache.365scores.com/image/upload/v3/Competitions/7165');
+    width: 30px;
+    height: 25px;
+}
+
+.cell-color img.concacaf-nations-league-a {
     content: url('https://imagecache.365scores.com/image/upload/v3/Competitions/7165');
     width: 30px;
     height: 25px;
