@@ -1,208 +1,107 @@
-const flashcards = [
-    { 
-        image: 'img/bathtub.webp', 
-        answer: 'bathtub', 
-        audio: 'https://audio12.forvo.com/audios/mp3/o/8/o8_8985614_39_446374_1.mp3' 
-    },
-    { 
-        image: 'img/faucet.png', 
-        answer: 'faucet', 
-        audio: 'https://audio12.forvo.com/audios/mp3/k/u/ku_9054385_39_74213_30323.mp3' 
-    },
-    { 
-        image: 'img/toilet.jpg', 
-        answer: 'toilet', 
-        audio: 'https://audio12.forvo.com/audios/mp3/f/r/fr_8972856_39_14720_1.mp3' 
-    },
-    { 
-        image: 'img/shower.jpg', 
-        answer: 'shower', 
-        audio: 'https://audio12.forvo.com/audios/mp3/q/z/qz_9054385_39_400677_260462.mp3' 
-    },
-    { 
-        image: 'img/sink.jpg', 
-        answer: 'sink', 
-        audio: 'https://audio12.forvo.com/audios/mp3/k/m/km_9054385_39_337686_93907.mp3' 
-    },
-    { 
-        image: 'img/toothbrush.png', 
-        answer: 'toothbrush', 
-        audio: 'https://audio12.forvo.com/mp3/9487568/39/9487568_39_501186.mp3' 
-    },
-    { 
-        image: 'img/toothpaste.webp', 
-        answer: 'toothpaste', 
-        audio: 'https://audio12.forvo.com/audios/mp3/6/n/6n_8978439_39_398920_1.mp3' 
-    },
-    { 
-        image: 'img/towel.jpg', 
-        answer: 'towel', 
-        audio: 'https://audio12.forvo.com/audios/mp3/l/5/l5_9148783_39_64930_611966.mp3' 
-    },
-    { 
-        image: 'img/shampoo.png', 
-        answer: 'shampoo', 
-        audio: 'https://audio12.forvo.com/audios/mp3/d/v/dv_8971536_39_1194_993.mp3' 
-    },
-    { 
-        image: 'img/soap.webp', 
-        answer: 'soap', 
-        audio: 'https://audio12.forvo.com/audios/mp3/0/0/00_9054385_39_370300_96417.mp3' 
-    },
-    { 
-        image: 'img/showerhead.webp', 
-        answer: 'showerhead', 
-        audio: 'https://audio12.forvo.com/audios/mp3/7/t/7t_9431504_39_3383225.mp3' 
-    },
-    { 
-        image: 'img/toiletpaper.webp', 
-        answer: 'toilet paper', 
-        audio: 'https://audio12.forvo.com/audios/mp3/4/r/4r_9020175_39_637249_379210.mp3' 
-    },
-    { 
-        image: 'img/bathmat.webp', 
-        answer: 'bath mat', 
-        audio: 'https://audio12.forvo.com/mp3/10014426/39/10014426_39_7512973.mp3' 
-    },
-    { 
-        image: 'img/toiletbrush.webp', 
-        answer: 'toilet brush', 
-        audio: 'https://audio12.forvo.com/mp3/9971123/39/9971123_39_7977887.mp3' 
-    },
-    { 
-        image: 'img/plunger.webp', 
-        answer: 'plunger', 
-        audio: 'https://audio12.forvo.com/audios/mp3/3/u/3u_9459997_39_660487.mp3' 
-    },
-    { 
-        image: 'img/razor.png', 
-        answer: 'razor', 
-        audio: 'https://audio12.forvo.com/audios/mp3/8/d/8d_9378780_39_318527.mp3' 
-    },
-    { 
-        image: 'img/towelrack.jpg', 
-        answer: 'towel rack', 
-        audio: 'https://audio12.forvo.com/audios/mp3/y/z/yz_9196189_39_3750853.mp3' 
-    },
-    { 
-        image: 'img/bodywash.jpg', 
-        answer: 'body wash', 
-        audio: 'https://audio12.forvo.com/mp3/10096473/39/10096473_39_8151291.mp3' 
-    },
-    { 
-        image: 'img/showercurtain.jpg', 
-        answer: 'shower curtain', 
-        audio: 'https://audio12.forvo.com/audios/mp3/b/k/bk_9109660_39_1689715_1.mp3' 
-    }
-
-];
-
-let unusedCards = [...flashcards]; // Copia del array para las tarjetas no usadas
+let words = {};
+let audioLinks = {};
+let keys = [];
+let currentWordIndex = 0;
 let correctAnswers = 0;
-let incorrectAnswers = 0;
-let currentCardNumber = 1;
-const totalCards = flashcards.length;
+let incorrectAnswers = [];
 
-function updateCounter() {
-    document.getElementById('counter').textContent = `${currentCardNumber}/${totalCards}`;
+// Cargar palabras desde words.json
+fetch('words.json')
+    .then(response => response.json())
+    .then(data => {
+        words = data;
+        keys = Object.keys(words); // Obtener las claves (palabras en inglés)
+        return fetch('audio.json'); // Cargar el archivo de audio
+    })
+    .then(response => response.json())
+    .then(data => {
+        audioLinks = data; // Guardar los enlaces de audio
+        shuffleKeys(); // Barajar las claves
+        showFlashcard(); // Mostrar la primera flashcard
+    })
+    .catch(error => console.error('Error cargando el archivo JSON:', error));
+
+// Función para barajar las palabras
+function shuffleKeys() {
+    keys.sort(() => Math.random() - 0.5);
 }
 
-function showNextCard() {
-    if (unusedCards.length === 0) {
-        showSummary(); // Mostrar el resumen si ya no hay tarjetas
-        return;
-    }
+function showFlashcard() {
+    const currentWord = keys[currentWordIndex];
+    const imageFileName = currentWord.replace(/\s+/g, '_'); // Reemplaza los espacios por guiones bajos
+    document.getElementById("image").src = `images/${imageFileName}.png`; // Cargar imagen
+    document.getElementById("answer-input").value = ""; // Limpiar campo de texto
+    document.getElementById("result-message").textContent = ""; // Limpiar mensaje de resultado
+    document.getElementById("counter").textContent = `${currentWordIndex + 1}/${keys.length}`; // Actualizar contador
 
-    // Seleccionar una tarjeta aleatoria y eliminarla del array de tarjetas no usadas
-    const randomIndex = Math.floor(Math.random() * unusedCards.length);
-    const flashcard = unusedCards.splice(randomIndex, 1)[0];
-
-    document.getElementById('flashcard-image').src = flashcard.image;
-    document.getElementById('answer-input').value = '';
-    document.getElementById('result-message').textContent = '';
-    document.getElementById('flashcard-image').dataset.answer = flashcard.answer; // Guardar la respuesta correcta en el dataset
-    document.getElementById('flashcard-image').dataset.audio = flashcard.audio; // Guardar el audio en el dataset
-
-    // Actualizar el contador
-    updateCounter();
-
-    // Seleccionar automáticamente el campo de texto
-    document.getElementById('answer-input').focus();
+    // Seleccionar automáticamente el campo de texto al cargar la página
+    document.getElementById("answer-input").focus();
 }
 
-function checkAnswer() {
-    const userAnswer = document.getElementById('answer-input').value.toLowerCase().trim();
-    const correctAnswer = document.getElementById('flashcard-image').dataset.answer;
-    const audioSrc = document.getElementById('flashcard-image').dataset.audio;
-    
+
+// Función para pasar a la siguiente palabra
+function nextWord() {
+    const userAnswer = document.getElementById("answer-input").value.trim().toLowerCase();
+    const correctAnswer = keys[currentWordIndex]; // La palabra correcta es la clave actual
+
+    // Verifica la respuesta
     if (userAnswer === correctAnswer) {
-        document.getElementById('result-message').textContent = '¡Correcto!';
+        document.getElementById("result-message").textContent = "¡Correct!";
         document.getElementById('result-message').style.color = '#7bf777';
+        document.getElementById("result-message").classList.add("correct"); // Agregar clase de respuesta correcta
+        document.getElementById("result-message").classList.remove("incorrect"); // Asegurarse de quitar clase de incorrecta
         correctAnswers++;
-        // Cambia de tarjeta después de 2 segundos si la respuesta es correcta
-        setTimeout(showNextCard, 2000);
     } else {
-        document.getElementById('result-message').textContent = `Incorrecto. La respuesta es: ${correctAnswer}`;
+        document.getElementById("result-message").textContent = `Incorrect. The answer is: ${correctAnswer}`;
         document.getElementById('result-message').style.color = '#fc8f8f';
-        incorrectAnswers++;
-        // Cambia de tarjeta después de 4 segundos si la respuesta es incorrecta
-        setTimeout(showNextCard, 4000);
+        document.getElementById("result-message").classList.add("incorrect"); // Agregar clase de respuesta incorrecta
+        document.getElementById("result-message").classList.remove("correct"); // Asegurarse de quitar clase de correcta
+        incorrectAnswers.push(correctAnswer); // Guardar respuesta incorrecta
     }
 
-    // Reproducir el audio de la palabra
-    const audio = new Audio(audioSrc);
+    // Reproducir el audio
+    const audioUrl = audioLinks[correctAnswer]; // Obtener la URL del audio
+    const audio = new Audio(audioUrl);
     audio.play();
 
-    // Aumentar el número de la tarjeta actual
-    currentCardNumber++;
+    // Cambia a la siguiente flashcard después de 2 segundos
+    currentWordIndex++;
+    if (currentWordIndex < keys.length) {
+        setTimeout(showFlashcard, 2000);
+    } else {
+        setTimeout(showResult, 2000);
+    }
 }
 
-function showSummary() {
-    document.querySelector('.flashcard-container').innerHTML = `
-        <h2 style="color: white; font-weight: bold;">Resumen</h2>
-        <p style="color: #7bf777; font-weight: bold;">Respuestas correctas: ${correctAnswers}</p>
-        <p style="color: #fc8f8f; font-weight: bold;">Respuestas incorrectas: ${incorrectAnswers}</p>
-        <button class="retry-button">Reintentar</button>
-    `;
+// Evento para el botón "Siguiente"
+document.getElementById("next-btn").addEventListener("click", nextWord);
 
-    // Añadir evento al botón de reintentar
-    document.querySelector('.retry-button').addEventListener('click', resetGame);
-}
-
-function resetGame() {
-    unusedCards = [...flashcards]; // Reiniciar las tarjetas no usadas
-    correctAnswers = 0;
-    incorrectAnswers = 0;
-    currentCardNumber = 1;
-
-    // Reiniciar el contenido del contenedor de flashcards
-    document.querySelector('.flashcard-container').innerHTML = `
-        <img id="flashcard-image" src="" alt="Flashcard Image">
-        <input type="text" id="answer-input" placeholder="Escribe el nombre en inglés" autocomplete="off">
-        <button id="check-button">Comprobar</button>
-        <p id="result-message"></p>
-    `;
-
-    // Añadir eventos nuevamente
-    document.getElementById('check-button').addEventListener('click', checkAnswer);
-    document.getElementById('answer-input').addEventListener('keypress', function (e) {
-        if (e.key === 'Enter') {
-            document.getElementById('check-button').click();
-        }
-    });
-
-    // Mostrar la primera tarjeta
-    showNextCard();
-}
-
-// Añadir evento para escuchar la tecla "Enter"
-document.getElementById('answer-input').addEventListener('keypress', function (e) {
-    if (e.key === 'Enter') {
-        document.getElementById('check-button').click();
+// Evento para cambiar a la siguiente palabra al presionar "Enter"
+document.getElementById("answer-input").addEventListener("keypress", function(event) {
+    if (event.key === "Enter") {
+        nextWord();
     }
 });
 
-document.getElementById('check-button').addEventListener('click', checkAnswer);
+// Función para mostrar el resultado final
+function showResult() {
+    document.querySelector(".flashcard-container").style.display = "none"; // Ocultar la flashcard
+    document.getElementById("correct-count").textContent = `Correct: ${correctAnswers}`; // Mostrar correctas
+    if (incorrectAnswers.length > 0) {
+        document.getElementById("incorrect-count").textContent = `Incorrect: ${incorrectAnswers.length} (${incorrectAnswers.join(", ")})`; // Mostrar incorrectas
+    } else {
+        document.getElementById("incorrect-count").textContent = `Incorrect: ${incorrectAnswers.length}`; // Mostrar incorrectas sin paréntesis vacíos
+    }
+    document.getElementById("result-summary").style.display = "block"; // Mostrar resumen
+}
 
-// Mostrar la primera tarjeta al cargar la página
-showNextCard();
+// Reiniciar el juego
+document.getElementById("restart-btn").addEventListener("click", function() {
+    currentWordIndex = 0;
+    correctAnswers = 0;
+    incorrectAnswers = [];
+    shuffleKeys(); // Barajar las claves de nuevo
+    showFlashcard(); // Mostrar la primera flashcard
+    document.getElementById("result-summary").style.display = "none"; // Ocultar resumen
+    document.querySelector(".flashcard-container").style.display = "flex"; // Mostrar la flashcard
+});
