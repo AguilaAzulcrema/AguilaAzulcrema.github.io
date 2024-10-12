@@ -105,3 +105,8 @@ document.getElementById("restart-btn").addEventListener("click", function() {
     document.getElementById("result-summary").style.display = "none"; // Ocultar resumen
     document.querySelector(".flashcard-container").style.display = "flex"; // Mostrar la flashcard
 });
+
+// Evento para el botón "Menu"
+document.getElementById("menu-btn").addEventListener("click", function() {
+    window.location.href = "../index.html"; // Cambia la ruta para ir un nivel arriba
+});
