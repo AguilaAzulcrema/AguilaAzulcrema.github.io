@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bedroom</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="flashcard-container">
+        <h1>Body</h1>
+        <div id="counter-container">
+            <span id="counter"></span>
+        </div>
+        <img id="image" src="" alt="Flashcard Image" />
+        <input type="text" id="answer-input" placeholder="Write your answer here" autocomplete="off" />
+        <div id="result-message"></div>
+        <button id="next-btn">Next</button>
+    </div>
+    <div id="result-summary" style="display: none;">
+        <h2>Results</h2>
+        <div id="correct-count"></div>
+        <div id="incorrect-count"></div>
+        <button id="restart-btn">Try Again</button>
+        <button id="menu-btn">Menu</button> <!-- Botón para regresar al menú -->
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

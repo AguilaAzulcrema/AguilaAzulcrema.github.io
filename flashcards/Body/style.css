@@ -1,0 +1,139 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+    font-family: Arial, sans-serif;
+    background-image: url(https://img.freepik.com/vector-gratis/fondo-degradado-oscuro-espacio-copia_53876-99548.jpg);
+    margin: 0;
+    background-size: cover;
+    background-position: center;
+}
+
+.flashcard-container {
+    display: flex;  /* Usamos flexbox */
+    flex-direction: column;  /* Colocar elementos en columna */
+    justify-content: center;  /* Centrar verticalmente */
+    align-items: center;  /* Centrar horizontalmente */
+    background-color: rgba(0, 0, 0, 0.6);
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.1);
+    text-align: center;
+    width: 400px;  /* Ajustar ancho a la imagen */
+    backdrop-filter: blur(10px);
+}
+
+.header-container {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+h1 {
+    margin: 0;
+    font-size: 24px;
+    color: white;
+}
+
+h2 {
+    color: rgb(167, 167, 167);
+}
+
+#counter {
+    font-size: 18px;
+    color: white;
+    margin-top: 10px;
+}
+
+#counter-container {
+    font-size: 18px;
+    color: white;
+    margin-top: 10px;
+}
+
+#english-word {
+    font-size: 22px;
+    color: white;
+    margin-bottom: 15px;
+}
+
+#answer-input {
+    width: 100%;  /* Mantener el ancho completo */
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    border-radius: 5px;
+    background-color: rgba(255, 255, 255, 0.8);
+}
+
+#check-button, #next-btn, #prev-btn, #restart-btn, #menu-btn {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 15px 0;
+}
+
+#check-button:hover, #next-btn:hover, #prev-btn:hover, #restart-btn:hover, #menu-btn:hover {
+    background-color: #0056b3;
+}
+
+#result-message {
+    margin-top: 10px;
+    font-weight: bold;
+    color: white;
+    min-height: 30px; /* Ajusta este valor según sea necesario para tu diseño */
+    transition: opacity 0.3s ease; /* Efecto suave para la aparición del mensaje */
+}
+
+/* Mensaje correcto */
+.correct {
+    color: #7bf777; /* Verde para respuestas correctas */
+}
+
+/* Mensaje incorrecto */
+.incorrect {
+    color: #fc8f8f; /* Rojo para respuestas incorrectas */
+}
+
+#image {
+    width: 100%;  /* Mantener el ancho completo del contenedor */
+    height: 300px;  /* Establecer una altura fija */
+    object-fit: contain;  /* Asegura que la imagen se ajuste dentro del contenedor sin ser recortada */
+    margin-bottom: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+
+#spanish-translation {
+    color: rgb(190, 190, 190);
+    text-align: center;
+}
+
+#result-summary {
+    display: flex;  /* Usamos flexbox */
+    flex-direction: column;  /* Colocar elementos en columna */
+    justify-content: center;  /* Centrar verticalmente */
+    align-items: center;  /* Centrar horizontalmente */
+    background-color: rgba(0, 0, 0, 0.6);
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.1);
+    text-align: center;
+    width: 400px;  /* Ajustar ancho a la imagen */
+    backdrop-filter: blur(10px);
+    font-weight: bold; /* Hacer el texto del resumen más grueso */
+}
+
+#correct-count {
+    color: #7bf777; /* Verde para la cantidad de respuestas correctas */
+}
+
+#incorrect-count {
+    color: #fc8f8f; /* Rojo para la cantidad de respuestas incorrectas */
+    padding: 20px;
+}
