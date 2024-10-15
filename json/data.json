@@ -35,6 +35,21 @@
         },
         {
             "time": "17:30",
+            "tournament": "fifa",
+            "eventTitle": "Canada vs. Panama",
+            "streams": [
+                {
+                    "url": "emb2.html?r=https://voodc.com/embed/858a93909987889187998389948898868498.html",
+                    "optionText": "Opcion 1"
+                },
+                {
+                    "url": "emb2.html?r=https://voodc.com/embed/858a93909987889187998389948998868499.html",
+                    "optionText": "Opcion 2"
+                }
+            ]
+        },
+        {
+            "time": "17:30",
             "tournament": "concacaf-nations-league-b",
             "eventTitle": "Bermuda vs. Dominica",
             "streams": [
