@@ -1,16 +1,75 @@
 {
     "events": [
         {
-            "time": "18:00",
-            "tournament": "concacaf-caribbean-cup",
-            "eventTitle": "Moca vs. Cavalier",
+            "time": "17:00",
+            "tournament": "mexico-liga-de-expansion",
+            "eventTitle": "Cancun vs. Atletico Morelia",
             "streams": [
                 {
-                    "url": "emb2.html?r=https://voodc.com/embed/858a9390a185879587998387938f98868497.html",
+                    "url": "emb2.html?r=https://voodc.com/embed/858a9390a18d8a9387998387919098868796.html",
+                    "optionText": "Opcion 1"
+                }
+            ]
+        },
+        {
+            "time": "17:30",
+            "tournament": "usl-super-league",
+            "eventTitle": "DC Power (f) vs. Lexington (f)",
+            "streams": [
+                {
+                    "url": "emb2.html?r=https://voodc.com/embed/858a9390a18d8c9187998387958e98868997.html",
+                    "optionText": "Opcion 1"
+                }
+            ]
+        },
+        {
+            "time": "18:00",
+            "tournament": "usl-super-league",
+            "eventTitle": "Dallas Trinity (f) vs. Carolina Ascent (f)",
+            "streams": [
+                {
+                    "url": "emb2.html?r=https://voodc.com/embed/858a9390a284839987998387968f98868a99.html",
+                    "optionText": "Opcion 1"
+                }
+            ]
+        },
+        {
+            "time": "18:30",
+            "tournament": "mls",
+            "eventTitle": "Inter Miami vs. Atlanta United",
+            "streams": [
+                {
+                    "url": "emb2.html?r=https://voodc.com/embed/858a9390a284859787998387988898868c92.html",
                     "optionText": "Opcion 1"
                 },
                 {
-                    "url": "emb2.html?r=https://voodc.com/embed/858a9390a185879587998387939098868498.html",
+                    "url": "emb2.html?r=https://voodc.com/embed/858a9390a284859787998387988998868c93.html",
+                    "optionText": "Opcion 2"
+                }
+            ]
+        },
+        {
+            "time": "19:00",
+            "tournament": "costa-rica-primera-division",
+            "eventTitle": "Puntarenas FC vs. AD Santos",
+            "streams": [
+                {
+                    "url": "emb2.html?r=https://voodc.com/embed/858a9390a284879587998387998798878393.html",
+                    "optionText": "Opcion 1"
+                }
+            ]
+        },
+        {
+            "time": "19:00",
+            "tournament": "mexico",
+            "eventTitle": "Santos Laguna vs. Mazatlan FC",
+            "streams": [
+                {
+                    "url": "emb2.html?r=https://voodc.com/embed/858a9390a284879587998387998898878395.html",
+                    "optionText": "Opcion 1"
+                },
+                {
+                    "url": "emb2.html?r=https://voodc.com/embed/858a9390a284879587998387998998878396.html",
                     "optionText": "Opcion 2"
                 }
             ]
@@ -18,26 +77,53 @@
         {
             "time": "19:00",
             "tournament": "mexico-liga-de-expansion",
-            "eventTitle": "Correcaminos vs. Tapatio",
+            "eventTitle": "Zacatecas Mineros vs. Atlante",
             "streams": [
                 {
-                    "url": "emb2.html?r=https://voodc.com/embed/858a9390a1858b9187998387958a98868692.html",
+                    "url": "emb2.html?r=https://voodc.com/embed/858a9390a284879587998387998a98878394.html",
                     "optionText": "Opcion 1"
                 }
             ]
         },
         {
             "time": "20:00",
-            "tournament": "concacaf-central-american-cup",
-            "eventTitle": "Esteli vs. Herediano",
+            "tournament": "costa-rica-primera-division",
+            "eventTitle": "Zeledon vs. Santa Ana",
             "streams": [
                 {
-                    "url": "emb2.html?r=https://voodc.com/embed/858a9390a186849787998387968e98868797.html",
+                    "url": "emb2.html?r=https://voodc.com/embed/858a9390a2848b9187998388918998878596.html",
+                    "optionText": "Opcion 1"
+                }
+            ]
+        },
+        {
+            "time": "21:00",
+            "tournament": "mexico",
+            "eventTitle": "Puebla vs. Chivas Guadalajara",
+            "streams": [
+                {
+                    "url": "emb2.html?r=https://voodc.com/embed/858a9390a285849787998388928898878694.html",
                     "optionText": "Opcion 1"
                 },
                 {
-                    "url": "emb2.html?r=https://voodc.com/embed/858a9390a186849787998387968f98868798.html",
+                    "url": "emb2.html?r=https://voodc.com/embed/858a9390a285849787998388928998878695.html",
                     "optionText": "Opcion 2"
+                },
+                {
+                    "url": "emb2.html?r=https://voodc.com/embed/858a9390a285849787998388928a98878696.html",
+                    "optionText": "Opcion 3"
+                },
+                {
+                    "url": "lgmx2.html?id=AZ7_2",
+                    "optionText": "Opción 4"
+                },
+                {
+                    "url": "lgmx2.html?id=AZ7_3",
+                    "optionText": "Opción 5"
+                },
+                {
+                    "url": "lgmx2.html?id=AZ7_4",
+                    "optionText": "Opción 6"
                 }
             ]
         }
