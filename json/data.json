@@ -1,54 +1,58 @@
 {
     "events": [
         {
-            "time": "16:00",
-            "tournament": "jamaica",
-            "eventTitle": "Chapelton vs. Waterhouse",
-            "streams": [
-                {
-                    "url": "emb2.html?r=https://voodc.com/embed/858a94879a8985998799838a978c98858392.html",
-                    "optionText": "Opcion 1"
-                }
-            ]
-        },
-        {
             "time": "16:45",
             "tournament": "mls",
-            "eventTitle": "FC Cincinnati vs. New York City",
+            "eventTitle": "Columbus Crew vs. New York Red Bulls",
             "streams": [
                 {
-                    "url": "emb2.html?r=https://voodc.com/embed/858a94879a8988968799838a978f98858395.html",
+                    "url": "emb2.html?r=https://voodc.com/embed/858a94879b88849a8799838c938b98868791.html",
                     "optionText": "Opcion 1"
                 },
                 {
-                    "url": "emb2.html?r=https://voodc.com/embed/858a94879a8988968799838a979098858396.html",
+                    "url": "emb2.html?r=https://voodc.com/embed/858a94879b88849a8799838c938c98868792.html",
                     "optionText": "Opcion 2"
-                }
-            ]
-        },
-        {
-            "time": "18:30",
-            "tournament": "jamaica",
-            "eventTitle": "Racing United vs. Vere United",
-            "streams": [
-                {
-                    "url": "emb2.html?r=https://voodc.com/embed/858a94879a8a849987998387958c98858892.html",
-                    "optionText": "Opcion 1"
                 }
             ]
         },
         {
             "time": "18:50",
             "tournament": "mls",
-            "eventTitle": "Seattle Sounders vs. Houston Dynamo",
+            "eventTitle": "Real Salt Lake vs. Minnesota United",
             "streams": [
                 {
-                    "url": "emb2.html?r=https://voodc.com/embed/858a94879a8a869187998387958e98858893.html",
+                    "url": "emb2.html?r=https://voodc.com/embed/858a94879b888c9587998387958f98868c91.html",
                     "optionText": "Opcion 1"
                 },
                 {
-                    "url": "emb2.html?r=https://voodc.com/embed/858a94879a8a869187998387958f98858894.html",
+                    "url": "emb2.html?r=https://voodc.com/embed/858a94879b888c9587998387959098868c92.html",
                     "optionText": "Opcion 2"
+                }
+            ]
+        },
+        {
+            "time": "20:00",
+            "tournament": "concacaf-central-american-cup",
+            "eventTitle": "Deportivo Saprissa vs. CSD Comunicaciones",
+            "streams": [
+                {
+                    "url": "emb2.html?r=https://voodc.com/embed/858a94879b89869787998387978c98878399.html",
+                    "optionText": "Opcion 1"
+                },
+                {
+                    "url": "emb2.html?r=https://voodc.com/embed/858a94879b89869787998387978d9887839a.html",
+                    "optionText": "Opcion 2"
+                }
+            ]
+        },
+        {
+            "time": "21:00",
+            "tournament": "mexico-liga-de-expansion",
+            "eventTitle": "Dorados de Sinaloa vs. Cancun",
+            "streams": [
+                {
+                    "url": "emb2.html?r=https://voodc.com/embed/858a94879b898a9387998387978f98878491.html",
+                    "optionText": "Opcion 1"
                 }
             ]
         }
