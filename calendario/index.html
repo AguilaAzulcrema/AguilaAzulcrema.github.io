@@ -14,6 +14,7 @@
     <!-- Popup de Evento del Día -->
     <div id="eventPopup" class="popup">
         <div class="popup-content">
+            <img class="gif" src="img/evento.gif" alt="">
             <p id="eventMessage"></p>
             <button class="close-btn" onclick="closePopup()">Entendido</button>
         </div>
@@ -34,7 +35,7 @@
     <!-- Popup para Confirmación de Eliminación de Evento -->
 <div id="deleteEventPopup" class="popup">
     <div class="popup-content">
-        <img src="error.png" alt="">
+        <img src="img/error.png" alt="">
         <p>¿Quieres eliminar el evento en este día?</p>
         <div class="popup-buttons">
             <button onclick="deleteEvent()">Eliminar</button>
@@ -46,7 +47,7 @@
 <!-- Popup de Fecha Pasada -->
 <div id="pastDatePopup" class="popup">
     <div class="popup-content">
-        <img src="error.png" alt="">
+        <img src="img/error.png" alt="">
         <p>No se pueden crear eventos en días que ya pasaron.</p>
         <button class="close-btn" onclick="closePastDatePopup()">Aceptar</button>
     </div>
