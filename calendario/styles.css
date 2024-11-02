@@ -1,0 +1,214 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: linear-gradient(black, #00101F 90%);
+    color: #73afc583;
+}
+
+h1 {
+    margin: 20px 0;
+}
+
+#calendar {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    width: 80%;
+}
+
+.month {
+    border: 1px solid #cccccc27;
+    border-radius: 8px;
+    padding: 10px;
+    background-color: #001c38;
+    color: #6693a3;
+}
+
+.month h2 {
+    text-align: center;
+    cursor: default;
+}
+
+.days {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    gap: 5px;
+}
+
+.day {
+    padding: 8px;
+    text-align: center;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.day-names {
+    padding: 8px;
+    text-align: center;
+    border-radius: 4px;
+    cursor: default;
+}
+
+.day:hover {
+    box-shadow: 0 0 10px 0 #ff0000;
+}
+
+
+/* Estilo para todo el contenedor del mes actual */
+.current-month {
+    background-color: #00070e; /* Fondo para todo el recuadro del mes */
+    border: 2px solid #ff5353; /* Borde más grueso o de otro color */
+    border-radius: 10px; /* Redondea los bordes del contenedor */
+    padding: 10px;
+    box-shadow: 0 0 10px 0 #00f7ff60;
+    border: none; /* Añade una sombra suave */
+}
+
+/* Estilo para el título del mes actual */
+.current-month h2 {
+    color: #669db1; /* Cambia el color del nombre del mes */
+    font-weight: bold; /* Negrita para el nombre del mes */
+    font-size: 1.2em;
+    text-align: center;
+}
+
+img {
+    width: 25%;
+}
+
+.event-day {
+    color: #ffffff;
+    background-color: #620000;
+    /* box-shadow: 0 0 3px 0 #fefefe; */
+}
+
+.today {
+    font-weight: bold;
+    color: #81c9e4;
+    box-shadow: 0 0 10px 0 #00f7ff;
+}
+
+/* Estilos para el popup */
+.popup {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.7); /* Fondo semitransparente */
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+}
+
+.popup-content {
+    background-color: #00070e;
+    border-radius: 8px;
+    padding: 20px;
+    width: 80%;
+    max-width: 400px;
+    text-align: center;
+    box-shadow: 0 0 10px 0 #00f7ff;
+    color: #9ce4ff;
+    position: relative;
+}
+
+.popup-buttons {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 15px;
+}
+
+.close-btn {
+    background-color: #000000;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    box-shadow: 0 0 7px 0 #00f7ff;
+}
+
+.close-btn:hover {
+    background-color: #017377;
+    box-shadow: 0 0 7px 0 #000000;
+}
+
+.popup-buttons button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.popup-buttons button:first-child {
+    background-color: #000000;
+    color: white;
+    box-shadow: 0 0 7px 0 #00f7ff;
+}
+
+.popup-buttons button:first-child:hover {
+    background-color: #017377;
+    box-shadow: 0 0 7px 0 #000000;
+}
+
+.popup-buttons button:last-child {
+    background-color: #000000;
+    color: white;
+    box-shadow: 0 0 7px 0 #00f7ff;
+}
+
+.popup-buttons button:last-child:hover {
+    background-color: #017377;
+    box-shadow: 0 0 7px 0 #000000;
+}
+
+input {
+    width: 100%;
+    box-sizing: border-box;
+    padding: 6px 12px;
+    border: none;
+    border-left: 2px solid #90e1ff;
+    box-shadow: 0px 0px 15px #0001;
+    background-color: black;
+    color: #90e1ff;
+}
+
+
+/* Responsivo: Dispositivos con un ancho máximo de 768px */
+@media (max-width: 768px) {
+    #calendar {
+        grid-template-columns: repeat(2, 1fr); /* 2 columnas en lugar de 3 */
+        gap: 15px;
+        width: 100%;
+    }
+
+    .day {
+        padding: 6px;
+        font-size: 0.9em; /* Reduce el tamaño del texto */
+    }
+}
+
+/* Responsivo: Dispositivos con un ancho máximo de 480px */
+@media (max-width: 480px) {
+    #calendar {
+        grid-template-columns: 1fr; /* Una sola columna para móviles */
+        gap: 10px;
+    }
+
+    .days {
+        grid-template-columns: repeat(7, 1fr); /* Mantiene la cuadrícula de 7 columnas */
+    }
+
+    .day {
+        padding: 5px;
+        font-size: 0.8em; /* Ajusta el tamaño del texto en pantallas pequeñas */
+    }
+
+    .month h2 {
+        font-size: 1em; /* Ajusta el tamaño del título del mes */
+    }
+}

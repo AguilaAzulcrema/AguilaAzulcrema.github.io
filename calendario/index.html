@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta content='noarchive' name='robots'/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calendario Interactivo</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>Calendario Musical 2024</h1>
+    <div id="calendar"></div>
+    
+    <!-- Popup de Evento del Día -->
+    <div id="eventPopup" class="popup">
+        <div class="popup-content">
+            <p id="eventMessage"></p>
+            <button class="close-btn" onclick="closePopup()">Entendido</button>
+        </div>
+    </div>
+
+    <!-- Popup para Crear Evento -->
+    <div id="createEventPopup" class="popup">
+        <div class="popup-content">
+            <h3>Agregar Evento</h3>
+            <input type="text" id="eventInput" placeholder="Escribe la descripción del evento" />
+            <div class="popup-buttons">
+                <button onclick="addEvent()">Agregar Evento</button>
+                <button onclick="closeCreateEventPopup()">Cancelar</button>
+            </div>
+        </div>
+    </div>
+    
+    <!-- Popup para Confirmación de Eliminación de Evento -->
+<div id="deleteEventPopup" class="popup">
+    <div class="popup-content">
+        <img src="error.png" alt="">
+        <p>¿Quieres eliminar el evento en este día?</p>
+        <div class="popup-buttons">
+            <button onclick="deleteEvent()">Eliminar</button>
+            <button onclick="closeDeleteEventPopup()">Cancelar</button>
+        </div>
+    </div>
+</div>
+
+<!-- Popup de Fecha Pasada -->
+<div id="pastDatePopup" class="popup">
+    <div class="popup-content">
+        <img src="error.png" alt="">
+        <p>No se pueden crear eventos en días que ya pasaron.</p>
+        <button class="close-btn" onclick="closePastDatePopup()">Aceptar</button>
+    </div>
+</div>
+    
+    <script src="script.js"></script>
+</body>
+</html>
