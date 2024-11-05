@@ -1,35 +1,58 @@
 {
     "events": [
         {
-            "time": "10:00",
-            "tournament": "mexico-liga-de-expansion",
-            "eventTitle": "Atlante vs. Tampico Madero",
+            "time": "19:00",
+            "tournament": "mexico",
+            "eventTitle": "Club Leon vs. Mazatlan FC",
             "streams": [
                 {
-                    "url": "emb2.html?r=https://voodc.com/embed/858a9487a08789918799838a9190988585.html",
+                    "url": "emb2.html?r=https://voodc.com/embed/858a9487a189879987998387958b98858b98.html",
+                    "optionText": "Opcion 1"
+                },
+                {
+                    "url": "emb2.html?r=https://voodc.com/embed/858a9487a189879987998387958c98858b99.html",
+                    "optionText": "Opcion 2"
+                }
+            ]
+        },
+        {
+            "time": "19:00",
+            "tournament": "mexico",
+            "eventTitle": "Santos Laguna vs. Chivas Guadalajara",
+            "streams": [
+                {
+                    "url": "emb2.html?r=https://voodc.com/embed/858a9487a189879987998387958d98858b9a.html",
+                    "optionText": "Opcion 1"
+                },
+                {
+                    "url": "emb2.html?r=https://voodc.com/embed/858a9487a189879987998387958e98858c91.html",
+                    "optionText": "Opcion 2"
+                }
+            ]
+        },
+        {
+            "time": "20:00",
+            "tournament": "costa-rica-primera-division",
+            "eventTitle": "Cartagines vs. Liberia",
+            "streams": [
+                {
+                    "url": "emb2.html?r=https://voodc.com/embed/858a9487a1898b9587998387968a98858c98.html",
                     "optionText": "Opcion 1"
                 }
             ]
         },
         {
-            "time": "16:00",
-            "tournament": "jamaica",
-            "eventTitle": "Vere United vs. Mount Pleasant",
+            "time": "21:05",
+            "tournament": "mexico",
+            "eventTitle": "Pumas UNAM vs. Queretaro",
             "streams": [
                 {
-                    "url": "emb2.html?r=https://voodc.com/embed/858a9487a0898a978799838b918a98858496.html",
+                    "url": "emb2.html?r=https://voodc.com/embed/858a9487a18a859487998387978898868395.html",
                     "optionText": "Opcion 1"
-                }
-            ]
-        },
-        {
-            "time": "18:30",
-            "tournament": "jamaica",
-            "eventTitle": "Waterhouse vs. Montego Bay",
-            "streams": [
+                },
                 {
-                    "url": "emb2.html?r=https://voodc.com/embed/858a9487a08a899787998387998d98868593.html",
-                    "optionText": "Opcion 1"
+                    "url": "emb2.html?r=https://voodc.com/embed/858a9487a18a859487998387978998868396.html",
+                    "optionText": "Opcion 2"
                 }
             ]
         }
