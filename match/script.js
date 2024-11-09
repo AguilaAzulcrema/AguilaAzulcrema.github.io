@@ -979,7 +979,7 @@ function cargarLogos() {
     const logo2 = new Image();
 
     // Lista de fondos que usarán las medidas del fondo de colores
-    const fondosConMedidasDeColores = ['fondo14', 'fondo15'];  // Agrega más fondos aquí si es necesario
+    const fondosConMedidasDeColores = ['fondo15'];  // Agrega más fondos aquí si es necesario
 
     if (ligaSeleccionada === 'todos') {
         logo1.src = buscarLogoEnTodasLasLigas(logo1Seleccionado);
