@@ -1131,20 +1131,24 @@ div.sombreada_css3 {
     background-image: url(https://futbolgratisenhd.com/flags/rugby-union.webp);
 }
 
+.UEFANATIONSLEAGUE>a:before {
+    background-image: url(https://nowomi.quest/flags/nations.png);
+}
+
 .UEFANATIONSLEAGUEA>a:before {
-    background-image: url(https://futbolgratisenhd.com/flags/nationsleague.png);
+    background-image: url(https://nowomi.quest/flags/nations.png);
 }
 
 .UEFANATIONSLEAGUEB>a:before {
-    background-image: url(https://futbolgratisenhd.com/flags/nationsleague.png);
+    background-image: url(https://nowomi.quest/flags/nations.png);
 }
 
 .UEFANATIONSLEAGUEC>a:before {
-    background-image: url(https://futbolgratisenhd.com/flags/nationsleague.png);
+    background-image: url(https://nowomi.quest/flags/nations.png);
 }
 
 .UEFANATIONSLEAGUED>a:before {
-    background-image: url(https://futbolgratisenhd.com/flags/nationsleague.png);
+    background-image: url(https://nowomi.quest/flags/nations.png);
 }
 
 .AFRICACUPOFNATIONSQUALIFIER>a:before {
@@ -1232,6 +1236,10 @@ div.sombreada_css3 {
 }
 
 .CONCACAF_NATIONS>a:before {
+    background-image: url(https://imagecache.365scores.com/image/upload/v3/Competitions/7165);
+}
+
+.CONCACAFNATIONSLEAGUE>a:before {
     background-image: url(https://imagecache.365scores.com/image/upload/v3/Competitions/7165);
 }
 
@@ -1324,7 +1332,7 @@ div.sombreada_css3 {
 }
 
 .menu>li.FRIENDLY>a:before {
-    background-image: url(https://futbolgratisenhd.com/flags/fifa.webp);
+    background-image: url(https://nowomi.quest/flags/fifa.png);
     background-repeat: no-repeat;
     background-size: contain;
     background-position: center;
