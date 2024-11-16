@@ -58,6 +58,12 @@
     height: 25px;
 }
 
+.cell-color img.ncaa-tournament {
+    content: url('https://aguilaazulcrema.github.io/img/ncaa.png');
+    width: 30px;
+    height: 25px;
+}
+
 .cell-color img.concacaf-central-american-cup {
     content: url('https://imagecache.365scores.com/image/upload/v2/Competitions/7954');
     width: 30px;
@@ -204,6 +210,12 @@
 }
 
 .cell-color img.concacaf-nations-league-a {
+    content: url('https://imagecache.365scores.com/image/upload/v3/Competitions/7165');
+    width: 30px;
+    height: 25px;
+}
+
+.cell-color img.concacaf-nations-league {
     content: url('https://imagecache.365scores.com/image/upload/v3/Competitions/7165');
     width: 30px;
     height: 25px;
