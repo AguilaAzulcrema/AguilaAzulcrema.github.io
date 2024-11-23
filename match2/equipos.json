@@ -1,0 +1,418 @@
+{
+    "ligas": {
+      "liga_mx": {
+        "nombre": "Liga MX",
+        "equipos": [
+          { "nombre": "America", "logo": "./img/concacaf/ligamx/america.png" },
+          { "nombre": "Atlas", "logo": "./img/concacaf/ligamx/atlas.png" },
+          { "nombre": "Chivas", "logo": "./img/concacaf/ligamx/chivas.png" },
+          { "nombre": "Cruz Azul", "logo": "./img/concacaf/ligamx/cruzazul.png" },
+          { "nombre": "Juarez", "logo": "./img/concacaf/ligamx/juarez.png" },
+          { "nombre": "Leon", "logo": "./img/concacaf/ligamx/leon.png" },
+          { "nombre": "Mazatlan", "logo": "./img/concacaf/ligamx/mazatlan.png" },
+          { "nombre": "Monterrey", "logo": "./img/concacaf/ligamx/monterrey.png" },
+          { "nombre": "Necaxa", "logo": "./img/concacaf/ligamx/necaxa.png" },
+          { "nombre": "Pachuca", "logo": "./img/concacaf/ligamx/pachuca.png" },
+          { "nombre": "Puebla", "logo": "./img/concacaf/ligamx/puebla.png" },
+          { "nombre": "Pumas", "logo": "./img/concacaf/ligamx/pumas.png" },
+          { "nombre": "Queretaro", "logo": "./img/concacaf/ligamx/queretaro.png" },
+          { "nombre": "San Luis", "logo": "./img/concacaf/ligamx/sanluis.png" },
+          { "nombre": "Santos", "logo": "./img/concacaf/ligamx/santos.png" },
+          { "nombre": "Tigres", "logo": "./img/concacaf/ligamx/tigres.png" },
+          { "nombre": "Tijuana", "logo": "./img/concacaf/ligamx/tijuana.png" },
+          { "nombre": "Toluca", "logo": "./img/concacaf/ligamx/toluca.png" }
+        ]
+      },
+      "liga_mx_femenil": {
+        "nombre": "Liga MX Femenil",
+        "equipos": [
+          { "nombre": "America", "logo": "./img/concacaf/ligamxfemenil/america.png" },
+          { "nombre": "Atlas", "logo": "./img/concacaf/ligamxfemenil/atlas.png" },
+          { "nombre": "Chivas", "logo": "./img/concacaf/ligamxfemenil/chivas.png" },
+          { "nombre": "Cruz Azul", "logo": "./img/concacaf/ligamxfemenil/cruzazul.png" },
+          { "nombre": "Juarez", "logo": "./img/concacaf/ligamxfemenil/juarez.png" },
+          { "nombre": "Leon", "logo": "./img/concacaf/ligamxfemenil/leon.png" },
+          { "nombre": "Mazatlan", "logo": "./img/concacaf/ligamxfemenil/mazatlan.png" },
+          { "nombre": "Necaxa", "logo": "./img/concacaf/ligamxfemenil/necaxa.png" },
+          { "nombre": "Pachuca", "logo": "./img/concacaf/ligamxfemenil/pachuca.png" },
+          { "nombre": "Puebla", "logo": "./img/concacaf/ligamxfemenil/puebla.png" },
+          { "nombre": "Pumas", "logo": "./img/concacaf/ligamxfemenil/pumas.png" },
+          { "nombre": "Queretaro", "logo": "./img/concacaf/ligamxfemenil/queretaro.png" },
+          { "nombre": "Rayadas", "logo": "./img/concacaf/ligamxfemenil/rayadas.png" },
+          { "nombre": "San Luis", "logo": "./img/concacaf/ligamxfemenil/sanluis.png" },
+          { "nombre": "Santos", "logo": "./img/concacaf/ligamxfemenil/santos.png" },
+          { "nombre": "Tigres", "logo": "./img/concacaf/ligamxfemenil/tigres.png" },
+          { "nombre": "Tijuana", "logo": "./img/concacaf/ligamxfemenil/tijuana.png" },
+          { "nombre": "Toluca", "logo": "./img/concacaf/ligamxfemenil/toluca.png" }
+        ]
+      },
+      "liga_de_expansion_mx": {
+        "nombre": "Liga De Expansion MX",
+        "equipos": [
+          { "nombre": "Alebrijes", "logo": "./img/concacaf/expansionmx/alebrijes.png" },
+          { "nombre": "Atlante", "logo": "./img/concacaf/expansionmx/atlante.png" },
+          { "nombre": "Cancun", "logo": "./img/concacaf/expansionmx/cancun.png" },
+          { "nombre": "Celaya", "logo": "./img/concacaf/expansionmx/celaya.png" },
+          { "nombre": "Correcaminos", "logo": "./img/concacaf/expansionmx/correcaminos.png" },
+          { "nombre": "Dorados", "logo": "./img/concacaf/expansionmx/dorados.png" },
+          { "nombre": "La Paz", "logo": "./img/concacaf/expansionmx/lapaz.png" },
+          { "nombre": "Mineros", "logo": "./img/concacaf/expansionmx/mineros.png" },
+          { "nombre": "Morelia", "logo": "./img/concacaf/expansionmx/morelia.png" },
+          { "nombre": "Tampico", "logo": "./img/concacaf/expansionmx/tampico.png" },
+          { "nombre": "Tapatio", "logo": "./img/concacaf/expansionmx/tapatio.png" },
+          { "nombre": "Tepatitlan", "logo": "./img/concacaf/expansionmx/tepatitlan.png" },
+          { "nombre": "Tlaxcala", "logo": "./img/concacaf/expansionmx/tlaxcala.png" },
+          { "nombre": "UDG", "logo": "./img/concacaf/expansionmx/udg.png" },
+          { "nombre": "Venados", "logo": "./img/concacaf/expansionmx/venados.png" }
+        ]
+      },
+      "liga_premier_mx": {
+    "nombre": "Liga Premier MX",
+    "equipos": [
+        { "nombre": "Acatlán", "logo": "./img/concacaf/ligapremiermx/acatlan.png" },
+        { "nombre": "Agricultores de Guasave", "logo": "./img/concacaf/ligapremiermx/agricultoresdeguasave.png" },
+        { "nombre": "Aguacateros de Peribán", "logo": "./img/concacaf/ligapremiermx/aguacaterosdeperiban.png" },
+        { "nombre": "Atlético Aragón", "logo": "./img/concacaf/ligapremiermx/atleticoaragon.png" },
+        { "nombre": "Chilpancingo", "logo": "./img/concacaf/ligapremiermx/chilpancingo.png" },
+        { "nombre": "Cimarrones", "logo": "./img/concacaf/ligapremiermx/cimarrones.png" },
+        { "nombre": "Club Deportivo Uruapan", "logo": "./img/concacaf/ligapremiermx/clubdeportivouruapan.png" },
+        { "nombre": "Colima", "logo": "./img/concacaf/ligapremiermx/colima.png" },
+        { "nombre": "Correcaminos", "logo": "./img/concacaf/ligapremiermx/correcaminos2.png" },
+        { "nombre": "Deportiva Venados", "logo": "./img/concacaf/ligapremiermx/deportivavenados.png" },
+        { "nombre": "Durango", "logo": "./img/concacaf/ligapremiermx/durango.png" },
+        { "nombre": "Faraones Texcoco", "logo": "./img/concacaf/ligapremiermx/faraonestexcoco.png" },
+        { "nombre": "Gavilanes Matamoros", "logo": "./img/concacaf/ligapremiermx/gavilanesmatamoros.png" },
+        { "nombre": "Halcones", "logo": "./img/concacaf/ligapremiermx/halcones.png" },
+        { "nombre": "Inter Playa del Carmen", "logo": "./img/concacaf/ligapremiermx/interplayadelcarmen.png" },
+        { "nombre": "Irapuato", "logo": "./img/concacaf/ligapremiermx/irapuato.png" },
+        { "nombre": "Jaguares", "logo": "./img/concacaf/ligapremiermx/jaguares.png" },
+        { "nombre": "La Piedad", "logo": "./img/concacaf/ligapremiermx/lapiedad.png" },
+        { "nombre": "Leones Negros", "logo": "./img/concacaf/ligapremiermx/leonesnegros2.png" },
+        { "nombre": "Lobos ULMX", "logo": "./img/concacaf/ligapremiermx/lobosulmx.png" },
+        { "nombre": "Los Cabos United", "logo": "./img/concacaf/ligapremiermx/loscabosunited.png" },
+        { "nombre": "Mexicali", "logo": "./img/concacaf/ligapremiermx/mexicali.png" },
+        { "nombre": "Mineros de Fresnillo", "logo": "./img/concacaf/ligapremiermx/minerosdefresnillo.png" },
+        { "nombre": "Montañeses", "logo": "./img/concacaf/ligapremiermx/montañeses.png" },
+        { "nombre": "Pioneros Cancún", "logo": "./img/concacaf/ligapremiermx/pioneroscancun.png" },
+        { "nombre": "Racing de Veracruz", "logo": "./img/concacaf/ligapremiermx/racingdeveracruz.png" },
+        { "nombre": "Real Apodaca", "logo": "./img/concacaf/ligapremiermx/realapodaca.png" },
+        { "nombre": "Salamanca", "logo": "./img/concacaf/ligapremiermx/salamanca.png" },
+        { "nombre": "Sporting Canamy", "logo": "./img/concacaf/ligapremiermx/sportingcanamy.png" },
+        { "nombre": "Tapachula", "logo": "./img/concacaf/ligapremiermx/tapachula.png" },
+        { "nombre": "Tecos", "logo": "./img/concacaf/ligapremiermx/tecos.png" },
+        { "nombre": "Tigres de Alica", "logo": "./img/concacaf/ligapremiermx/tigresdealica.png" },
+        { "nombre": "Tritones Vallarta", "logo": "./img/concacaf/ligapremiermx/tritonesvallarta.png" },
+        { "nombre": "Universidad Autónoma de Zacatecas", "logo": "./img/concacaf/ligapremiermx/universidadautonomadezacatecas.png" },
+        { "nombre": "Zacatepec", "logo": "./img/concacaf/ligapremiermx/zacatepec.png" },
+        { "nombre": "Zitácuaro", "logo": "./img/concacaf/ligapremiermx/zitacuaro.png" }
+    ]
+},
+        "mls": {
+    "nombre": "MLS",
+    "equipos": [
+        { "nombre": "Atlanta United", "logo": "./img/concacaf/mls/atlantaunited.png" },
+        { "nombre": "Austin", "logo": "./img/concacaf/mls/austin.png" },
+        { "nombre": "Charlotte", "logo": "./img/concacaf/mls/charlotte.png" },
+        { "nombre": "Chicago Fire", "logo": "./img/concacaf/mls/chicagofire.png" },
+        { "nombre": "Cincinnati", "logo": "./img/concacaf/mls/cincinnati.png" },
+        { "nombre": "Colorado Rapids", "logo": "./img/concacaf/mls/coloradorapids.png" },
+        { "nombre": "Columbus Crew", "logo": "./img/concacaf/mls/columbuscrew.png" },
+        { "nombre": "DC United", "logo": "./img/concacaf/mls/dcunited.png" },
+        { "nombre": "FC Dallas", "logo": "./img/concacaf/mls/fcdallas.png" },
+        { "nombre": "Houston Dynamo", "logo": "./img/concacaf/mls/houstondynamo.png" },
+        { "nombre": "Inter Miami", "logo": "./img/concacaf/mls/intermiami.png" },
+        { "nombre": "Los Angeles FC", "logo": "./img/concacaf/mls/losangelesfc.png" },
+        { "nombre": "LA Galaxy", "logo": "./img/concacaf/mls/losangelesgalaxy.png" },
+        { "nombre": "Minnesota United", "logo": "./img/concacaf/mls/minnesotaunited.png" },
+        { "nombre": "Montreal", "logo": "./img/concacaf/mls/montreal.png" },
+        { "nombre": "Nashville", "logo": "./img/concacaf/mls/nashville.png" },
+        { "nombre": "New England Revolution", "logo": "./img/concacaf/mls/newenglandrevolution.png" },
+        { "nombre": "New York City", "logo": "./img/concacaf/mls/newyorkcity.png" },
+        { "nombre": "New York Red Bulls", "logo": "./img/concacaf/mls/newyorkredbulls.png" },
+        { "nombre": "Orlando City", "logo": "./img/concacaf/mls/orlandocity.png" },
+        { "nombre": "Philadelphia Union", "logo": "./img/concacaf/mls/philadelphiaunion.png" },
+        { "nombre": "Portland Timbers", "logo": "./img/concacaf/mls/portlandtimbers.png" },
+        { "nombre": "Real Salt Lake", "logo": "./img/concacaf/mls/realsaltlake.png" },
+        { "nombre": "San Diego", "logo": "./img/concacaf/mls/sandiegofc.png" },
+        { "nombre": "San Jose Earthquakes", "logo": "./img/concacaf/mls/sanjoseearthquakes.png" },
+        { "nombre": "Seattle Sounders", "logo": "./img/concacaf/mls/seattlesounders.png" },
+        { "nombre": "Sporting Kansas City", "logo": "./img/concacaf/mls/sportingkansascity.png" },
+        { "nombre": "St. Louis City", "logo": "./img/concacaf/mls/stlouiscity.png" },
+        { "nombre": "Toronto", "logo": "./img/concacaf/mls/toronto.png" },
+        { "nombre": "Vancouver Whitecaps", "logo": "./img/concacaf/mls/vancouverwhitecaps.png" }
+    ]
+},
+        "usl": {
+    "nombre": "USL",
+    "equipos": [
+        { "nombre": "Birmingham Legion", "logo": "./img/concacaf/usl/birminghamlegion.png" },
+        { "nombre": "Charleston Battery", "logo": "./img/concacaf/usl/charlestonbattery.png" },
+        { "nombre": "Detroit City", "logo": "./img/concacaf/usl/detroitcity.png" },
+        { "nombre": "El Paso Locomotive", "logo": "./img/concacaf/usl/elpasolocomotive.png" },
+        { "nombre": "Hartford Athletic", "logo": "./img/concacaf/usl/hartfordathletic.png" },
+        { "nombre": "Indy Eleven", "logo": "./img/concacaf/usl/indyeleven.png" },
+        { "nombre": "Las Vegas Lights", "logo": "./img/concacaf/usl/lasvegaslights.png" },
+        { "nombre": "Loudoun United", "logo": "./img/concacaf/usl/loudoununited.png" },
+        { "nombre": "Louisville City", "logo": "./img/concacaf/usl/louisvillecity.png" },
+        { "nombre": "Memphis 901", "logo": "./img/concacaf/usl/memphis901.png" },
+        { "nombre": "Miami", "logo": "./img/concacaf/usl/miami.png" },
+        { "nombre": "Monterey Bay", "logo": "./img/concacaf/usl/montereybay.png" },
+        { "nombre": "New Mexico United", "logo": "./img/concacaf/usl/newmexicounited.png" },
+        { "nombre": "North Carolina", "logo": "./img/concacaf/usl/northcarolina.png" },
+        { "nombre": "Oakland Roots", "logo": "./img/concacaf/usl/oaklandroots.png" },
+        { "nombre": "Orange County", "logo": "./img/concacaf/usl/orangecounty.png" },
+        { "nombre": "Phoenix Rising", "logo": "./img/concacaf/usl/phoenixrising.png" },
+        { "nombre": "Pittsburgh Riverhounds", "logo": "./img/concacaf/usl/pittsburghriverhounds.png" },
+        { "nombre": "Rhode Island", "logo": "./img/concacaf/usl/rhodeisland.png" },
+        { "nombre": "Sacramento Republic", "logo": "./img/concacaf/usl/sacramentorepublic.png" },
+        { "nombre": "San Antonio", "logo": "./img/concacaf/usl/sanantonio.png" },
+        { "nombre": "Switchbacks", "logo": "./img/concacaf/usl/switchbacks.png" },
+        { "nombre": "Tampa Bay Rowdies", "logo": "./img/concacaf/usl/tampabayrowdies.png" },
+        { "nombre": "Tulsa", "logo": "./img/concacaf/usl/tulsa.png" }
+    ]
+},
+        "nwsl": {
+    "nombre": "NWSL",
+    "equipos": [
+        { "nombre": "Angel City", "logo": "./img/concacaf/nwsl/angelcity.png" },
+        { "nombre": "Bay FC", "logo": "./img/concacaf/nwsl/bayfc.png" },
+        { "nombre": "Chicago Red Stars", "logo": "./img/concacaf/nwsl/chicagoredstars.png" },
+        { "nombre": "Houston Dash", "logo": "./img/concacaf/nwsl/houstondash.png" },
+        { "nombre": "Kansas City Current", "logo": "./img/concacaf/nwsl/kansascitycurrent.png" },
+        { "nombre": "NJ/NY Gotham", "logo": "./img/concacaf/nwsl/njnygotham.png" },
+        { "nombre": "North Carolina Courage", "logo": "./img/concacaf/nwsl/northcarolinacourage.png" },
+        { "nombre": "Orlando Pride", "logo": "./img/concacaf/nwsl/orlandopride.png" },
+        { "nombre": "Portland Thorns", "logo": "./img/concacaf/nwsl/portlandthorns.png" },
+        { "nombre": "Racing Louisville", "logo": "./img/concacaf/nwsl/racinglouisville.png" },
+        { "nombre": "San Diego Wave", "logo": "./img/concacaf/nwsl/sandiegowave.png" },
+        { "nombre": "Seattle Reign", "logo": "./img/concacaf/nwsl/seattlereign.png" },
+        { "nombre": "Utah Royals", "logo": "./img/concacaf/nwsl/utahroyals.png" },
+        { "nombre": "Washington Spirit", "logo": "./img/concacaf/nwsl/washingtonspirit.png" }
+    ]
+},
+        "cpl": {
+    "nombre": "Canadian Premier League",
+    "equipos": [
+        { "nombre": "Atlético Ottawa", "logo": "./img/concacaf/canadianpremierleague/atleticoottawa.png" },
+        { "nombre": "Cavalry", "logo": "./img/concacaf/canadianpremierleague/cavalry.png" },
+        { "nombre": "Forge", "logo": "./img/concacaf/canadianpremierleague/forge.png" },
+        { "nombre": "HFX Wanderers", "logo": "./img/concacaf/canadianpremierleague/hfxwanderers.png" },
+        { "nombre": "Pacific", "logo": "./img/concacaf/canadianpremierleague/pacific.png" },
+        { "nombre": "Valour", "logo": "./img/concacaf/canadianpremierleague/valour.png" },
+        { "nombre": "Vancouver", "logo": "./img/concacaf/canadianpremierleague/vancouver.png" },
+        { "nombre": "York United", "logo": "./img/concacaf/canadianpremierleague/yorkunited.png" }
+    ]
+},
+      "costarica": {
+    "nombre": "Liga Promerica CR",
+    "equipos": [
+        { "nombre": "Alajuelense", "logo": "./img/concacaf/costarica/alajuelense.png" },
+        { "nombre": "Cartaginés", "logo": "./img/concacaf/costarica/cartagines.png" },
+        { "nombre": "Guanacasteca", "logo": "./img/concacaf/costarica/guanacasteca.png" },
+        { "nombre": "Herediano", "logo": "./img/concacaf/costarica/herediano.png" },
+        { "nombre": "Liberia", "logo": "./img/concacaf/costarica/liberia.png" },
+        { "nombre": "Pérez Zeledón", "logo": "./img/concacaf/costarica/perezzeledon.png" },
+        { "nombre": "Puntarenas", "logo": "./img/concacaf/costarica/puntarenas.png" },
+        { "nombre": "San Carlos", "logo": "./img/concacaf/costarica/sancarlos.png" },
+        { "nombre": "Santa Ana", "logo": "./img/concacaf/costarica/santaana.png" },
+        { "nombre": "Santos de Guápiles", "logo": "./img/concacaf/costarica/santosdeguapiles.png" },
+        { "nombre": "Saprissa", "logo": "./img/concacaf/costarica/saprissa.png" },
+        { "nombre": "Sporting CR", "logo": "./img/concacaf/costarica/sporting.png" }
+    ]
+},
+      "honduras": {
+    "nombre": "Liga Hondubet",
+    "equipos": [
+        { "nombre": "Génesis", "logo": "./img/concacaf/honduras/genesis.png" },
+        { "nombre": "Juticalpa", "logo": "./img/concacaf/honduras/juticalpa.png" },
+        { "nombre": "Lobos UPNFM", "logo": "./img/concacaf/honduras/lobos.png" },
+        { "nombre": "Marathón", "logo": "./img/concacaf/honduras/marathon.png" },
+        { "nombre": "Motagua", "logo": "./img/concacaf/honduras/motagua.png" },
+        { "nombre": "Olancho", "logo": "./img/concacaf/honduras/olancho.png" },
+        { "nombre": "Olimpia", "logo": "./img/concacaf/honduras/olimpia.png" },
+        { "nombre": "Real España", "logo": "./img/concacaf/honduras/realespaña.png" },
+        { "nombre": "Real Sociedad", "logo": "./img/concacaf/honduras/realsociedad.png" },
+        { "nombre": "Victoria", "logo": "./img/concacaf/honduras/victoria.png" }
+    ]
+},
+      "guatemala": {
+    "nombre": "Liga Nacional Guatemala",
+    "equipos": [
+        { "nombre": "Achuapa", "logo": "./img/concacaf/guatemala/achuapa.png" },
+        { "nombre": "Antigua", "logo": "./img/concacaf/guatemala/antigua.png" },
+        { "nombre": "Coban Imperial", "logo": "./img/concacaf/guatemala/cobanimperial.png" },
+        { "nombre": "Comunicaciones", "logo": "./img/concacaf/guatemala/comunicaciones.png" },
+        { "nombre": "Guastatoya", "logo": "./img/concacaf/guatemala/guastatoya.png" },
+        { "nombre": "Malacateco", "logo": "./img/concacaf/guatemala/malacateco.png" },
+        { "nombre": "Marquense", "logo": "./img/concacaf/guatemala/marquense.png" },
+        { "nombre": "Mixco", "logo": "./img/concacaf/guatemala/mixco.png" },
+        { "nombre": "Municipal", "logo": "./img/concacaf/guatemala/municipal.png" },
+        { "nombre": "Xelajú", "logo": "./img/concacaf/guatemala/xelaju.png" },
+        { "nombre": "Xinabajul", "logo": "./img/concacaf/guatemala/xinabajul.png" },
+        { "nombre": "Zacapa", "logo": "./img/concacaf/guatemala/zacapa.png" }
+    ]
+},
+      "panama": {
+    "nombre": "Liga Panameña",
+    "equipos": [
+        { "nombre": "Alianza", "logo": "./img/concacaf/panama/alianza.png" },
+        { "nombre": "Árabe Unido", "logo": "./img/concacaf/panama/arabeunido.png" },
+        { "nombre": "Herrera", "logo": "./img/concacaf/panama/herrera.png" },
+        { "nombre": "Independiente", "logo": "./img/concacaf/panama/independiente.png" },
+        { "nombre": "Plaza Amador", "logo": "./img/concacaf/panama/plazaamador.png" },
+        { "nombre": "Potros del Este", "logo": "./img/concacaf/panama/potrosdeleste.png" },
+        { "nombre": "San Francisco", "logo": "./img/concacaf/panama/sanfrancisco.png" },
+        { "nombre": "Sporting San Miguelito", "logo": "./img/concacaf/panama/sportingsanmiguielito.png" },
+        { "nombre": "Tauro", "logo": "./img/concacaf/panama/tauro.png" },
+        { "nombre": "UMECIT", "logo": "./img/concacaf/panama/umecit.png" },
+        { "nombre": "Universitario", "logo": "./img/concacaf/panama/universitario.png" },
+        { "nombre": "Veraguas", "logo": "./img/concacaf/panama/veraguas.png" }
+    ]
+},
+      "dominicana": {
+    "nombre": "Liga Dominicana",
+    "equipos": [
+        { "nombre": "Atlántico", "logo": "./img/concacaf/dominicana/atlantico.png" },
+        { "nombre": "Atlético Pantoja", "logo": "./img/concacaf/dominicana/atleticopantoja.png" },
+        { "nombre": "Cibao", "logo": "./img/concacaf/dominicana/cibao.png" },
+        { "nombre": "Delfines del Este", "logo": "./img/concacaf/dominicana/delfinesdeleste.png" },
+        { "nombre": "Moca", "logo": "./img/concacaf/dominicana/moca.png" },
+        { "nombre": "San Cristóbal", "logo": "./img/concacaf/dominicana/sancristobal.png" },
+        { "nombre": "Universidad O&M", "logo": "./img/concacaf/dominicana/universidadoym.png" },
+        { "nombre": "Vega Real", "logo": "./img/concacaf/dominicana/vegareal.png" }
+    ]
+},
+      "nicaragua": {
+    "nombre": "Liga Nicaragua",
+    "equipos": [
+        { "nombre": "Diriángen", "logo": "./img/concacaf/nicaragua/diriangen.png" },
+        { "nombre": "Jalapa", "logo": "./img/concacaf/nicaragua/jalapa.png" },
+        { "nombre": "Managua", "logo": "./img/concacaf/nicaragua/managua.png" },
+        { "nombre": "Matagalpa", "logo": "./img/concacaf/nicaragua/matagalpa.png" },
+        { "nombre": "Ocotal", "logo": "./img/concacaf/nicaragua/ocotal.png" },
+        { "nombre": "Rancho Santana", "logo": "./img/concacaf/nicaragua/ranchosantana.png" },
+        { "nombre": "Real Estelí", "logo": "./img/concacaf/nicaragua/realesteli.png" },
+        { "nombre": "Sebaco", "logo": "./img/concacaf/nicaragua/sebaco.png" },
+        { "nombre": "UNAM Managua", "logo": "./img/concacaf/nicaragua/unammanagua.png" },
+        { "nombre": "Walter Ferretti", "logo": "./img/concacaf/nicaragua/walterferretti.png" }
+    ]
+},
+      "elsalvador": {
+    "nombre": "Liga El Salvador",
+    "equipos": [
+        { "nombre": "Águila", "logo": "./img/concacaf/elsalvador/aguila.png" },
+        { "nombre": "Alianza", "logo": "./img/concacaf/elsalvador/alianza.png" },
+        { "nombre": "Cacahuatique", "logo": "./img/concacaf/elsalvador/cacahuatique.png" },
+        { "nombre": "Dragón", "logo": "./img/concacaf/elsalvador/dragon.png" },
+        { "nombre": "FAS", "logo": "./img/concacaf/elsalvador/fas.png" },
+        { "nombre": "Firpo", "logo": "./img/concacaf/elsalvador/firpo.png" },
+        { "nombre": "Fuerte", "logo": "./img/concacaf/elsalvador/fuerte.png" },
+        { "nombre": "Limón", "logo": "./img/concacaf/elsalvador/limeno.png" },
+        { "nombre": "Metapán", "logo": "./img/concacaf/elsalvador/metapan.png" },
+        { "nombre": "Once Deportivo", "logo": "./img/concacaf/elsalvador/oncedeportivo.png" },
+        { "nombre": "Platense", "logo": "./img/concacaf/elsalvador/platense.png" }
+    ]
+},
+      "jamaica": {
+    "nombre": "Jamaica Premier League",
+    "equipos": [
+        { "nombre": "Arnett Gardens", "logo": "./img/concacaf/jamaica/arnettgardens.png" },
+        { "nombre": "Cavalier", "logo": "./img/concacaf/jamaica/cavalier.png" },
+        { "nombre": "Chapelton", "logo": "./img/concacaf/jamaica/chapelton.png" },
+        { "nombre": "Dunbeholden", "logo": "./img/concacaf/jamaica/dunbeholden.png" },
+        { "nombre": "Harbour View", "logo": "./img/concacaf/jamaica/harbourview.png" },
+        { "nombre": "Humble Lions", "logo": "./img/concacaf/jamaica/humblelions.png" },
+        { "nombre": "Molynes United", "logo": "./img/concacaf/jamaica/molynesunited.png" },
+        { "nombre": "Montego Bay United", "logo": "./img/concacaf/jamaica/montegobayunited.png" },
+        { "nombre": "Mount Pleasant", "logo": "./img/concacaf/jamaica/mountpleasant.png" },
+        { "nombre": "Portmore United", "logo": "./img/concacaf/jamaica/portmoreunited.png" },
+        { "nombre": "Racing United", "logo": "./img/concacaf/jamaica/racingunited.png" },
+        { "nombre": "Tivoli Gardens", "logo": "./img/concacaf/jamaica/tivoligardens.png" },
+        { "nombre": "Vere United", "logo": "./img/concacaf/jamaica/vereunited.png" },
+        { "nombre": "Waterhouse", "logo": "./img/concacaf/jamaica/waterhouse.png" }
+    ]
+},
+      "concacaf": {
+    "nombre": "SELECCIONES CONCACAF",
+    "equipos": [
+        { "nombre": "Anguila", "logo": "./img/concacaf/selecciones/anguila.png" },
+        { "nombre": "Antigua y Barbuda", "logo": "./img/concacaf/selecciones/antiguaybarbuda.png" },
+        { "nombre": "Aruba", "logo": "./img/concacaf/selecciones/aruba.png" },
+        { "nombre": "Bahamas", "logo": "./img/concacaf/selecciones/bahamas.png" },
+        { "nombre": "Barbados", "logo": "./img/concacaf/selecciones/barbados.png" },
+        { "nombre": "Belice", "logo": "./img/concacaf/selecciones/belice.png" },
+        { "nombre": "Bermudas", "logo": "./img/concacaf/selecciones/bermuda.png" },
+        { "nombre": "Bonaire", "logo": "./img/concacaf/selecciones/bonaire.png" },
+        { "nombre": "Canadá", "logo": "./img/concacaf/selecciones/canada.png" },
+        { "nombre": "Costa Rica", "logo": "./img/concacaf/selecciones/costarica.png" },
+        { "nombre": "Cuba", "logo": "./img/concacaf/selecciones/cuba.png" },
+        { "nombre": "Curazao", "logo": "./img/concacaf/selecciones/curazao.png" },
+        { "nombre": "Dominica", "logo": "./img/concacaf/selecciones/dominica.png" },
+        { "nombre": "El Salvador", "logo": "./img/concacaf/selecciones/elsalvador.png" },
+        { "nombre": "Estados Unidos", "logo": "./img/concacaf/selecciones/estadosunidos.png" },
+        { "nombre": "Granada", "logo": "./img/concacaf/selecciones/granada.png" },
+        { "nombre": "Guadalupe", "logo": "./img/concacaf/selecciones/guadalupe.png" },
+        { "nombre": "Guatemala", "logo": "./img/concacaf/selecciones/guatemala.png" },
+        { "nombre": "Guyana", "logo": "./img/concacaf/selecciones/guyana.png" },
+        { "nombre": "Guyana Francesa", "logo": "./img/concacaf/selecciones/guyanafrancesa.png" },
+        { "nombre": "Haití", "logo": "./img/concacaf/selecciones/haiti.png" },
+        { "nombre": "Honduras", "logo": "./img/concacaf/selecciones/honduras.png" },
+        { "nombre": "Islas Caimán", "logo": "./img/concacaf/selecciones/islascaiman.png" },
+        { "nombre": "Islas Turcas y Caicos", "logo": "./img/concacaf/selecciones/islasturcasycaicos.png" },
+        { "nombre": "Islas Vírgenes Británicas", "logo": "./img/concacaf/selecciones/islasvirgenesbritanicas.png" },
+        { "nombre": "Islas Vírgenes de Estados Unidos", "logo": "./img/concacaf/selecciones/islasvirgenesdeestadosunidos.png" },
+        { "nombre": "Jamaica", "logo": "./img/concacaf/selecciones/jamaica.png" },
+        { "nombre": "Martinica", "logo": "./img/concacaf/selecciones/martinica.png" },
+        { "nombre": "México", "logo": "./img/concacaf/selecciones/mexico.png" },
+        { "nombre": "Montserrat", "logo": "./img/concacaf/selecciones/montserrat.png" },
+        { "nombre": "Nicaragua", "logo": "./img/concacaf/selecciones/nicaragua.png" },
+        { "nombre": "Panamá", "logo": "./img/concacaf/selecciones/panama.png" },
+        { "nombre": "Puerto Rico", "logo": "./img/concacaf/selecciones/puertorico.png" },
+        { "nombre": "República Dominicana", "logo": "./img/concacaf/selecciones/republicadominicana.png" },
+        { "nombre": "Saint Martin", "logo": "./img/concacaf/selecciones/saintmartin.png" },
+        { "nombre": "Sint Maarten", "logo": "./img/concacaf/selecciones/sintmaarten.png" },
+        { "nombre": "San Cristóbal y Nieves", "logo": "./img/concacaf/selecciones/sancristobalynieves.png" },
+        { "nombre": "Santa Lucía", "logo": "./img/concacaf/selecciones/santalucia.png" },
+        { "nombre": "San Vicente", "logo": "./img/concacaf/selecciones/sanvicente.png" },
+        { "nombre": "Surinam", "logo": "./img/concacaf/selecciones/surinam.png" },
+        { "nombre": "Trinidad y Tobago", "logo": "./img/concacaf/selecciones/trinidadytobago.png" }
+    ]
+},
+
+
+      "premier_league": {
+        "nombre": "Premier League",
+        "equipos": [
+          { "nombre": "Manchester United", "logo": "manu.png" },
+          { "nombre": "Chelsea", "logo": "chelsea.png" }
+        ]
+      },
+      "amistoso": {
+        "nombre": "Amistoso",
+        "equipos": []
+      }
+    },
+    
+    "logos_ligas": {
+      "amistoso": "./img/ligas/amistoso.png",
+      "liga_mx": "./img/ligas/ligamx.png",
+      "liga_mx_femenil": "./img/ligas/ligamxfemenil.png",
+      "liga_de_expansion_mx": "./img/ligas/expansionmx.png",
+      "liga_premier_mx": "./img/ligas/ligapremiermx.png",
+      "mls": "./img/ligas/mls.png",
+      "usl": "./img/ligas/usl.png",
+      "nwsl": "./img/ligas/nwsl.png",
+      "cpl": "./img/ligas/cpl.png",
+      "costarica": "./img/ligas/ligapromerica.png",
+      "honduras": "./img/ligas/ligahondubet.png",
+      "guatemala": "./img/ligas/guatemala.png",
+      "panama": "./img/ligas/panama.png",
+      "dominicana": "./img/ligas/dominicana.png",
+      "nicaragua": "./img/ligas/nicaragua.png",
+      "elsalvador": "./img/ligas/elsalvador.png",
+      "jamaica": "./img/ligas/jamaica.png",
+      "concacaf": "./img/ligas/concacaf.png",
+      "premier_league": "logo_premier.png"
+    }
+  }
+  

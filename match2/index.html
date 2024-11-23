@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Generador de Imagen de Equipos</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <div class="controls">
+        <label for="liga">Liga:</label>
+        <select id="liga" onchange="actualizarEquipos()">
+            <!-- Ligas se llenarán dinámicamente -->
+        </select>
+
+        <label for="ligaLogo">Logo Liga:</label>
+        <select id="ligaLogo" onchange="generarImagen()"></select>
+
+        <label for="equipoLocal">Equipo Local:</label>
+        <select id="equipoLocal" onchange="generarImagen()"></select>
+
+        <label for="equipoVisitante">Equipo Visitante:</label>
+        <select id="equipoVisitante" onchange="generarImagen()"></select>
+
+        <label for="colorLocal">Color Local:</label>
+        <input type="color" id="colorLocal" value="#FFFFFF" onchange="generarImagen()">
+
+        <label for="colorVisitante">Color Visitante:</label>
+        <input type="color" id="colorVisitante" value="#000000" onchange="generarImagen()">
+
+        
+    </div>
+
+    <canvas id="canvas" width="1200" height="627"></canvas>
+    <button onclick="descargarImagen()">Descargar PNG</button>
+
+    <script src="script.js"></script>
+
+</body>
+</html>

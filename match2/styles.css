@@ -1,0 +1,82 @@
+#canvas {
+    border: 1px solid black;
+    display: block;
+    margin: 20px auto;
+}
+
+.controls {
+    text-align: center;
+    margin: 10px;
+}
+
+.controls select, .controls input {
+    margin: 5px;
+}
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+    background-color: #181818;
+    margin: 0;
+    color: rgb(167, 167, 167);
+  }
+  
+  #selectorsContainer {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 20px;
+    flex-wrap: wrap; /* Para que se ajusten en pantallas pequeñas */
+    justify-content: center;
+  }
+  
+  #miCanvas {
+    border: 1px solid #000;
+    max-width: 100%; /* Para que el canvas se ajuste en móviles */
+    height: auto; /* Mantiene la relación de aspecto en móviles */
+  }
+  
+  select {
+    background-color: #181818;
+    color: white;
+    padding: 8px;
+    border-radius: 5px;
+  }
+  
+  button {
+    color: rgb(146, 146, 146);
+    background-color: #000;
+    padding: 8px;
+    border-radius: 8px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    box-shadow: 0 0 10px rgb(165, 165, 165);
+    color: white;
+  }
+  
+  /* Estilos responsivos */
+  @media (max-width: 768px) {
+    body {
+      padding: 10px;
+    }
+  
+    #selectorsContainer {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    select {
+      width: 100%; /* Asegura que los selectores se ajusten en pantallas pequeñas */
+      max-width: 300px;
+      margin-bottom: 10px;
+    }
+  
+    #miCanvas {
+      max-width: 100%; /* Asegura que el canvas se ajuste en pantallas pequeñas */
+    }
+  }
+  
