@@ -25,6 +25,7 @@ const imagenes = {
         fondo17: 'img/fondos/libertadores.jpg',
         fondo18: 'img/fondos/sudamericana.jpg',
         fondo19: 'img/fondos/concacafnationsleague.jpeg',
+        fondo20: 'img/fondos/ligamxliguilla.jpeg',
 
         // Agrega más fondos
     },
