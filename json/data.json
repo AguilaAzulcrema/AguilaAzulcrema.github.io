@@ -1,31 +1,79 @@
 {
     "events": [
         {
-            "time": "17:00",
-            "tournament": "concacaf-caribbean-cup",
-            "eventTitle": "Real Hope vs. Moca",
+            "time": "13:00",
+            "tournament": "costa-rica-liga-de-ascenso",
+            "eventTitle": "ADR Jicaral vs. Escorpiones",
             "streams": [
                 {
-                    "url": "emb2.html?r=https://voodc.com/embed/858a94899f8a85918799838b978998858c92.html",
+                    "url": "emb2.html?r=https://voodc.com/embed/858a9489a08787918799838a9a8c98858594.html",
+                    "optionText": "Opcion 1"
+                }
+            ]
+        },
+        {
+            "time": "19:00",
+            "tournament": "concacaf-central-american-cup",
+            "eventTitle": "Esteli vs. Alajuelense",
+            "streams": [
+                {
+                    "url": "emb2.html?r=https://voodc.com/embed/858a9489a089889787998387988c98868a98.html",
                     "optionText": "Opcion 1"
                 },
                 {
-                    "url": "emb2.html?r=https://voodc.com/embed/858a94899f8a85918799838b978a98858c93.html",
+                    "url": "emb2.html?r=https://voodc.com/embed/858a9489a089889787998387988d98868a99.html",
                     "optionText": "Opcion 2"
                 }
             ]
         },
         {
             "time": "19:00",
-            "tournament": "concacaf-caribbean-cup",
-            "eventTitle": "Cavalier vs. Cibao",
+            "tournament": "costa-rica-liga-de-ascenso",
+            "eventTitle": "CS Uruguay vs. Quepos Cambute",
             "streams": [
                 {
-                    "url": "emb2.html?r=https://voodc.com/embed/858a94899f8a8c9387998387968898868891.html",
+                    "url": "emb2.html?r=https://voodc.com/embed/858a9489a089889787998387988e98868a9a.html",
+                    "optionText": "Opcion 1"
+                }
+            ]
+        },
+        {
+            "time": "19:00",
+            "tournament": "mexico",
+            "eventTitle": "Club America vs. Toluca",
+            "streams": [
+                {
+                    "url": "emb2.html?r=https://voodc.com/embed/858a9489a089889787998387988f98868b91.html",
                     "optionText": "Opcion 1"
                 },
                 {
-                    "url": "emb2.html?r=https://voodc.com/embed/858a94899f8a8c9387998387968998868892.html",
+                    "url": "emb2.html?r=https://voodc.com/embed/858a9489a089889787998387989098868b92.html",
+                    "optionText": "Opcion 2"
+                }
+            ]
+        },
+        {
+            "time": "20:30",
+            "tournament": "guatemala",
+            "eventTitle": "Xinabajul vs. Malacateco",
+            "streams": [
+                {
+                    "url": "emb2.html?r=https://voodc.com/embed/858a9489a08a849187998388918998878394.html",
+                    "optionText": "Opcion 1"
+                }
+            ]
+        },
+        {
+            "time": "21:10",
+            "tournament": "mexico",
+            "eventTitle": "Club Tijuana vs. Cruz Azul",
+            "streams": [
+                {
+                    "url": "emb2.html?r=https://voodc.com/embed/858a9489a08a869587998388928f9887849a.html",
+                    "optionText": "Opcion 1"
+                },
+                {
+                    "url": "emb2.html?r=https://voodc.com/embed/858a9489a08a869587998388929098878591.html",
                     "optionText": "Opcion 2"
                 }
             ]
