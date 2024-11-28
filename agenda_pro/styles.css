@@ -1381,6 +1381,20 @@ div.sombreada_css3 {
     margin: -0.5em 0 0;
 }
 
+.menu>li.FRIEND>a:before {
+    background-image: url(https://nowomi.quest/flags/fifa.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    font-size: 36px;
+    height: 0.9em;
+    width: 1.3em;
+    position: absolute;
+    left: 63px;
+    top: 55%;
+    margin: -0.5em 0 0;
+}
+
 .menu>li.FIFAINTERCONTINENTALCUP>a:before {
     background-image: url(https://futbolgratisenhd.com/flags/fifa.webp);
     background-repeat: no-repeat;
