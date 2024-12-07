@@ -1,3 +1,14 @@
+/* styles.css */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: row;
+    background-color: #121212;
+    color: white;
+}
 
 /* Contenedor principal */
 .container {
@@ -1296,7 +1307,13 @@ ul.menu > li a:before {
     .agenda {
         height: 50vh;
     }
+
+	#player-container {
+    flex: 2; /* Ocupa 75% del ancho */
 }
+}
+
+
 
 @media (max-width: 768px) {
     .container {
@@ -1306,8 +1323,12 @@ ul.menu > li a:before {
     .player {
         height: 50vh;
     }
-
+	
     .agenda {
         height: 50vh;
     }
+#player-container {
+    flex: 1; /* Ocupa 75% del ancho */
+}
+	
 }
