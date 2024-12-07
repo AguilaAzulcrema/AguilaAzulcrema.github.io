@@ -1320,3 +1320,21 @@ ul.menu > li a:before {
 }
 	
 }
+
+@media (max-width: 668px) {
+    .container {
+        flex-direction: column;
+    }
+
+    .player {
+        height: 50vh;
+    }
+	
+    .agenda {
+        height: 50vh;
+    }
+#player-container {
+    flex: 0.5; /* Ocupa 75% del ancho */
+}
+	
+}
