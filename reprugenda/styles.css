@@ -1334,7 +1334,7 @@ ul.menu > li a:before {
         height: 50vh;
     }
 #player-container {
-    flex: 0.5; /* Ocupa 75% del ancho */
+    flex: 0.9; /* Ocupa 75% del ancho */
 }
 	
 }
