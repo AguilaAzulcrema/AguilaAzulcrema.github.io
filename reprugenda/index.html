@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agenda Deportiva</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container" id="main-container">
+        <!-- Contenedor del reproductor -->
+        <div id="player-container">
+            <iframe src="" id="stream-frame" scrolling="no" allowfullscreen></iframe>
+        </div>
+
+        <!-- Contenedor de la agenda -->
+        <div id="agenda-container">
+            <h1>Agenda Deportiva</h1>
+            <center>
+                <div class="header">
+                <input type="text" id="search-bar" placeholder="Buscar evento" style="width: 90%; padding: 2px;  margin-bottom: 10px; font-size: 1.2em;">
+                </font></div></center>
+            <ul class="menu" id="events">
+                <!-- Los eventos se insertarán dinámicamente desde el JSON -->
+            </ul>
+        </div>
+    </div>
+    <script src="script.js"></script>
+    <script src="https://aguilaazulcrema.github.io/agenda_pro/search.js"></script>
+</body>
+</html>
