@@ -1297,26 +1297,6 @@ ul.menu > li a:before {
     }
 
 	#player-container {
-    flex: 2; /* Ocupa 75% del ancho */
-}
-}
-
-
-
-@media (max-width: 768px) {
-    .container {
-        flex-direction: column;
-    }
-
-    .player {
-        height: 50vh;
-    }
-	
-    .agenda {
-        height: 50vh;
-    }
-#player-container {
     flex: 1; /* Ocupa 75% del ancho */
 }
-	
 }
