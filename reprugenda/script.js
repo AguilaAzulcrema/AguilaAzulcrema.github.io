@@ -2,6 +2,9 @@
 const eventsContainer = document.getElementById('events');
 const playerFrame = document.getElementById('stream-frame');
 
+// Variable para guardar el evento abierto
+let currentOpenEvent = null;
+
 // Función para generar el HTML de un evento
 function generateEventHTML(event) {
     const listItem = document.createElement('li');
@@ -40,7 +43,18 @@ function generateEventHTML(event) {
     // Evento para mostrar/ocultar la sublista al hacer clic en el evento
     eventLink.addEventListener('click', function (e) {
         e.preventDefault();
+
+        // Si hay un evento abierto, cerrarlo
+        if (currentOpenEvent && currentOpenEvent !== listItem) {
+            const openSubList = currentOpenEvent.querySelector('ul');
+            openSubList.style.display = 'none'; // Cerrar la lista del evento previamente abierto
+        }
+
+        // Alternar la visibilidad de la sublista del evento actual
         subList.style.display = subList.style.display === 'none' ? 'block' : 'none';
+
+        // Actualizar el evento abierto
+        currentOpenEvent = subList.style.display === 'block' ? listItem : null;
     });
 
     listItem.appendChild(eventLink);
