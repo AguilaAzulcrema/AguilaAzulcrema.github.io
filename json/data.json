@@ -1,107 +1,36 @@
 {
     "events": [
         {
-            "time": "13:00",
+            "time": "16:00",
+            "tournament": "jamaica",
+            "eventTitle": "Humble Lions vs. Mount Pleasant",
+            "streams": [
+                {
+                    "url": "emb2.html?r=https://voodc.com/embed/858a948aa08c84978799838a978e988b8c.html",
+                    "optionText": "Opcion 1"
+                }
+            ]
+        },
+        {
+            "time": "18:45",
+            "tournament": "jamaica",
+            "eventTitle": "Arnett Gardens vs. Harbour View",
+            "streams": [
+                {
+                    "url": "emb2.html?r=https://voodc.com/embed/858a948aa08d849687998387938e9885849a.html",
+                    "optionText": "Opcion 1"
+                }
+            ]
+        },
+        {
+            "time": "19:00",
             "tournament": "costa-rica-liga-de-ascenso",
-            "eventTitle": "ADR Jicaral vs. CS Uruguay",
+            "eventTitle": "Guadalupe vs. Inter San Carlos",
             "streams": [
                 {
-                    "url": "emb2.html?r=https://voodc.com/embed/858a948a9f8c879587998387928998878493.html",
+                    "url": "emb2.html?r=https://voodc.com/embed/858a948aa08d859587998387948898858593.html",
                     "optionText": "Opcion 1"
                 }
-            ]
-        },
-        {
-            "time": "14:00",
-            "tournament": "jamaica",
-            "eventTitle": "Waterhouse vs. Dunbeholden",
-            "streams": [
-                {
-                    "url": "emb2.html?r=https://voodc.com/embed/858a948a9f8c8b9187998387958898878794.html",
-                    "optionText": "Opcion 1"
-                }
-            ]
-        },
-        {
-            "time": "14:30",
-            "tournament": "usl-super-league",
-            "eventTitle": "Dallas Trinity (f) vs. Tampa Bay Sun (f)",
-            "streams": [
-                {
-                    "url": "emb2.html?r=https://voodc.com/embed/858a948a9f8c8c9987998387978998878899.html",
-                    "optionText": "Opcion 1"
-                }
-            ]
-        },
-        {
-            "time": "15:00",
-            "tournament": "el-salvador",
-            "eventTitle": "Aguila vs. FAS",
-            "streams": [
-                {
-                    "url": "emb2.html?r=https://voodc.com/embed/858a948a9f8d849787998387988d98878a96.html",
-                    "optionText": "Opcion 1"
-                }
-            ]
-        },
-        {
-            "time": "15:00",
-            "tournament": "el-salvador",
-            "eventTitle": "Luis Angel Firpo vs. 11 Deportivo",
-            "streams": [
-                {
-                    "url": "emb2.html?r=https://voodc.com/embed/858a948a9f8d849787998387988e98878a97.html",
-                    "optionText": "Opcion 1"
-                }
-            ]
-        },
-        {
-            "time": "16:30",
-            "tournament": "jamaica",
-            "eventTitle": "Tivoli vs. Montego Bay",
-            "streams": [
-                {
-                    "url": "emb2.html?r=https://voodc.com/embed/858a948a9f8d8a9187998388918f98888397.html",
-                    "optionText": "Opcion 1"
-                }
-            ]
-        },
-        {
-            "time": "19:00",
-            "tournament": "guatemala",
-            "eventTitle": "Xelaju vs. Antigua",
-            "streams": [
-                {
-                    "url": "emb2.html?r=https://voodc.com/embed/858a948aa084899187998388958c98888797.html",
-                    "optionText": "Opcion 1"
-                }
-            ]
-        },
-        {
-            "time": "19:00",
-            "tournament": "mexico",
-            "eventTitle": "Cruz Azul vs. Club America",
-            "streams": [
-                {
-                    "url": "emb2.html?r=https://voodc.com/embed/858a948aa084899187998388958d98888798.html",
-                    "optionText": "Opcion 1"
-                },
-                {
-                    "url": "emb2.html?r=https://voodc.com/embed/858a948aa084899187998388958e98888799.html",
-                    "optionText": "Opcion 2"
-                },
-                {
-                    "url": "lgmx2.html?id=AZ7_2",
-                    "optionText": "Opción 3"
-                  },
-                  {
-                    "url": "lgmx2.html?id=AZ7_3",
-                    "optionText": "Opción 4"
-                  },
-                  {
-                    "url": "lgmx2.html?id=AZ7_4",
-                    "optionText": "Opción 5"
-                  }
             ]
         }
     ]
