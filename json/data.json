@@ -1,63 +1,33 @@
 {
     "events": [
         {
-            "time": "15:30",
-            "tournament": "el-salvador",
-            "eventTitle": "11 Deportivo vs. Cacahuatique",
+            "time": "16:00",
+            "tournament": "ncaa-tournament",
+            "eventTitle": "Vermont vs. Denver",
             "streams": [
                 {
-                    "url": "emb2.html?r=https://voodc.com/embed/858a948b99878c918799838b928798858696.html",
-                    "optionText": "Opcion 1"
-                }
-            ]
-        },
-        {
-            "time": "18:00",
-            "tournament": "jamaica",
-            "eventTitle": "Arnett Gardens vs. Cavalier",
-            "streams": [
-                {
-                    "url": "emb2.html?r=https://voodc.com/embed/858a948b99888b9187998387929098858a94.html",
-                    "optionText": "Opcion 1"
-                }
-            ]
-        },
-        {
-            "time": "19:30",
-            "tournament": "honduras",
-            "eventTitle": "Real Espana vs. Motagua",
-            "streams": [
-                {
-                    "url": "emb2.html?r=https://voodc.com/embed/858a948b9989869587998388918c98868397.html",
-                    "optionText": "Opcion 1"
-                }
-            ]
-        },
-        {
-            "time": "20:00",
-            "tournament": "mexico",
-            "eventTitle": "Club America vs. Monterrey",
-            "streams": [
-                {
-                    "url": "emb2.html?r=https://voodc.com/embed/858a948b9989889387998388928798868495.html",
+                    "url": "emb2.html?r=https://voodc.com/embed/858a948b9a868a938799838b958a98858997.html",
                     "optionText": "Opcion 1"
                 },
                 {
-                    "url": "emb2.html?r=https://voodc.com/embed/858a948b9989889387998388928898868496.html",
+                    "url": "emb2.html?r=https://voodc.com/embed/858a948b9a868a938799838b958b98858998.html",
                     "optionText": "Opcion 2"
+                }
+            ]
+        },
+        {
+            "time": "18:30",
+            "tournament": "ncaa-tournament",
+            "eventTitle": "Marshall vs. Ohio State",
+            "streams": [
+                {
+                    "url": "emb2.html?r=https://voodc.com/embed/858a948b9a87899387998387948b98868496.html",
+                    "optionText": "Opcion 1"
                 },
                 {
-                    "url": "lgmx2.html?id=AZ7_2",
-                    "optionText": "Opción 3"
-                  },
-                  {
-                    "url": "lgmx2.html?id=AZ7_3",
-                    "optionText": "Opción 4"
-                  },
-                  {
-                    "url": "lgmx2.html?id=AZ7_4",
-                    "optionText": "Opción 5"
-                  }
+                    "url": "emb2.html?r=https://voodc.com/embed/858a948b9a87899387998387948b98868497.html",
+                    "optionText": "Opcion 2"
+                }
             ]
         }
     ]
