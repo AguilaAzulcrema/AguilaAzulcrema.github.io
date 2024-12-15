@@ -1,80 +1,74 @@
 {
     "events": [
         {
-            "time": "11:00",
-            "tournament": "usl-super-league",
-            "eventTitle": "Lexington (f) vs. DC Power (f)",
+            "time": "13:00",
+            "tournament": "costa-rica-liga-de-ascenso",
+            "eventTitle": "ADR Jicaral vs. Guadalupe",
             "streams": [
                 {
-                    "url": "emb2.html?r=https://voodc.com/embed/858a948b9a8d88978799838b998798868391.html",
+                    "url": "emb2.html?r=https://voodc.com/embed/858a948b9b8c8c938799838b989098858b96.html",
                     "optionText": "Opcion 1"
                 }
             ]
         },
         {
-            "time": "14:30",
-            "tournament": "usl-super-league",
-            "eventTitle": "Dallas Trinity (f) vs. Brooklyn (f)",
+            "time": "14:45",
+            "tournament": "el-salvador",
+            "eventTitle": "Cacahuatique vs. 11 Deportivo",
             "streams": [
                 {
-                    "url": "emb2.html?r=https://voodc.com/embed/858a948b9b848b9387998387958898878799.html",
+                    "url": "emb2.html?r=https://voodc.com/embed/858a948b9b8d88968799838c938e98868693.html",
                     "optionText": "Opcion 1"
                 }
             ]
         },
         {
             "time": "15:00",
-            "tournament": "guatemala",
-            "eventTitle": "Coban Imperial vs. Xelaju",
+            "tournament": "jamaica",
+            "eventTitle": "Cavalier vs. Chapelton",
             "streams": [
                 {
-                    "url": "emb2.html?r=https://voodc.com/embed/858a948b9b85839187998387968e98878997.html",
+                    "url": "emb2.html?r=https://voodc.com/embed/858a948b9b8d89958799838c948b98868793.html",
                     "optionText": "Opcion 1"
                 }
             ]
         },
         {
-            "time": "18:00",
-            "tournament": "usl-super-league",
-            "eventTitle": "Tampa Bay Sun (f) vs. Spokane Zephyr (f)",
-            "streams": [
-                {
-                    "url": "emb2.html?r=https://voodc.com/embed/858a948b9b86839987998388938d98888792.html",
-                    "optionText": "Opcion 1"
-                }
-            ]
-        },
-        {
-            "time": "18:30",
-            "tournament": "usl-super-league",
-            "eventTitle": "Fort Lauderdale (f) vs. Carolina Ascent (f)",
-            "streams": [
-                {
-                    "url": "emb2.html?r=https://voodc.com/embed/858a948b9b86859787998388958a98888896.html",
-                    "optionText": "Opcion 1"
-                }
-            ]
-        },
-        {
-            "time": "19:15",
-            "tournament": "el-salvador",
-            "eventTitle": "AD Isidro Metapan vs. FAS",
-            "streams": [
-                {
-                    "url": "emb2.html?r=https://voodc.com/embed/858a948b9b86889487998388978f98888a95.html",
-                    "optionText": "Opcion 1"
-                }
-            ]
-        },
-        {
-            "time": "19:30",
+            "time": "17:00",
             "tournament": "honduras",
-            "eventTitle": "CD Olimpia vs. Olancho",
+            "eventTitle": "Motagua vs. Real Espana",
             "streams": [
                 {
-                    "url": "emb2.html?r=https://voodc.com/embed/858a948b9b86899387998388988b98888b91.html",
+                    "url": "emb2.html?r=https://voodc.com/embed/858a948b9c84869787998387928b98868c94.html",
                     "optionText": "Opcion 1"
                 }
+            ]
+        },
+        {
+            "time": "19:00",
+            "tournament": "mexico",
+            "eventTitle": "Monterrey vs. Club America",
+            "streams": [
+                {
+                    "url": "emb2.html?r=https://voodc.com/embed/858a948b9c85839987998387948c98878494.html",
+                    "optionText": "Opcion 1"
+                },
+                {
+                    "url": "emb2.html?r=https://voodc.com/embed/858a948b9c85839987998387948d98878495.html",
+                    "optionText": "Opcion 2"
+                },
+                {
+                    "url": "lgmx2.html?id=AZ7_2",
+                    "optionText": "Opción 2"
+                  },
+                  {
+                    "url": "lgmx2.html?id=AZ7_3",
+                    "optionText": "Opción 3"
+                  },
+                  {
+                    "url": "lgmx2.html?id=AZ7_4",
+                    "optionText": "Opción 4"
+                  }
             ]
         }
     ]
