@@ -2,11 +2,11 @@
     "events": [
         {
             "time": "17:00",
-            "tournament": "mexico",
-            "eventTitle": "Club America (f) vs. Queretaro (f)",
+            "tournament": "liga-de-expansion-mx",
+            "eventTitle": "Atletico Morelia vs. Tampico Madero",
             "streams": [
                 {
-                    "url": "emb2.html?r=https://voodc.com/embed/858a948d9e8983918799838a998998858a92.html",
+                    "url": "emb2.html?r=https://voodc.com/embed/858a948d9f87899587998388928f98888c96.html",
                     "optionText": "Opcion 1"
                 }
             ]
@@ -14,10 +14,25 @@
         {
             "time": "17:00",
             "tournament": "mexico",
-            "eventTitle": "Santos Laguna (f) vs. Guadalajara Chivas (f)",
+            "eventTitle": "Atletico San Luis vs. Tigres UANL",
             "streams": [
                 {
-                    "url": "emb2.html?r=https://voodc.com/embed/858a948d9e8983918799838a998a98858a93.html",
+                    "url": "emb2.html?r=https://voodc.com/embed/858a948d9f87899587998388929098888c97.html",
+                    "optionText": "Opcion 1"
+                },
+                {
+                    "url": "emb2.html?r=https://voodc.com/embed/858a948d9f87899587998388938798888c98.html",
+                    "optionText": "Opcion 2"
+                }
+            ]
+        },
+        {
+            "time": "17:00",
+            "tournament": "mexico",
+            "eventTitle": "Club Leon (f) vs. Atletico San Luis (f)",
+            "streams": [
+                {
+                    "url": "emb2.html?r=https://voodc.com/embed/858a948d9f87899587998388938898888c99.html",
                     "optionText": "Opcion 1"
                 }
             ]
@@ -25,10 +40,10 @@
         {
             "time": "19:00",
             "tournament": "costa-rica-primera-division",
-            "eventTitle": "Guanacasteca vs. Liberia",
+            "eventTitle": "San Carlos vs. Deportivo Saprissa",
             "streams": [
                 {
-                    "url": "emb2.html?r=https://voodc.com/embed/858a948d9e898a9387998387998b98868994.html",
+                    "url": "emb2.html?r=https://voodc.com/embed/858a948d9f88869787998389918c98898b95.html",
                     "optionText": "Opcion 1"
                 }
             ]
@@ -36,66 +51,77 @@
         {
             "time": "19:00",
             "tournament": "liga-de-expansion-mx",
-            "eventTitle": "Tepatitlan de Morelos vs. Venados",
+            "eventTitle": "Atlante vs. Celaya",
             "streams": [
                 {
-                    "url": "emb2.html?r=https://voodc.com/embed/858a948d9e898a9387998387998c98868995.html",
+                    "url": "emb2.html?r=https://voodc.com/embed/858a948d9f88869787998389918d98898b96.html",
                     "optionText": "Opcion 1"
                 }
             ]
         },
         {
             "time": "19:00",
-            "tournament": "mexico",
-            "eventTitle": "Queretaro vs. Club America",
-            "streams": [
-                {
-                    "url": "emb2.html?r=https://voodc.com/embed/858a948d9e898a9387998387998d98868996.html",
-                    "optionText": "Opcion 1"
-                },
-                {
-                    "url": "emb2.html?r=https://voodc.com/embed/858a948d9e898a9387998387998e98868997.html",
-                    "optionText": "Opcion 2"
-                }
-            ]
-        },
-        {
-            "time": "21:00",
             "tournament": "liga-de-expansion-mx",
-            "eventTitle": "Atletico La Paz vs. Tlaxcala",
+            "eventTitle": "Cancun vs. Correcaminos",
             "streams": [
                 {
-                    "url": "emb2.html?r=https://voodc.com/embed/858a948d9e8a879587998388919098868c91.html",
+                    "url": "emb2.html?r=https://voodc.com/embed/858a948d9f88869787998389918e98898b97.html",
                     "optionText": "Opcion 1"
                 }
             ]
         },
         {
-            "time": "21:00",
+            "time": "19:05",
             "tournament": "mexico",
-            "eventTitle": "Mazatlan FC vs. Juarez",
+            "eventTitle": "Chivas Guadalajara vs. Santos Laguna",
             "streams": [
                 {
-                    "url": "emb2.html?r=https://voodc.com/embed/858a948d9e8a879587998388928798868c92.html",
+                    "url": "emb2.html?r=https://voodc.com/embed/858a948d9f88869a87998389928c98898b99.html",
                     "optionText": "Opcion 1"
                 },
                 {
-                    "url": "emb2.html?r=https://voodc.com/embed/858a948d9e8a879587998388928898868c93.html",
+                    "url": "emb2.html?r=https://voodc.com/embed/858a948d9f88869a87998389928d98898b9a.html",
                     "optionText": "Opcion 2"
+                },
+                {
+                    "url": "emb2.html?r=https://voodc.com/embed/858a948d9f88869a87998389928e98898c91.html",
+                    "optionText": "Opcion 3"
+                }
+            ]
+        },
+        {
+            "time": "20:00",
+            "tournament": "costa-rica-primera-division",
+            "eventTitle": "Alajuelense vs. Santa Ana",
+            "streams": [
+                {
+                    "url": "emb2.html?r=https://voodc.com/embed/858a948d9f888a9387998389938f988a8394.html",
+                    "optionText": "Opcion 1"
+                }
+            ]
+        },
+        {
+            "time": "21:05",
+            "tournament": "liga-de-expansion-mx",
+            "eventTitle": "Dorados de Sinaloa vs. Zacatecas Mineros",
+            "streams": [
+                {
+                    "url": "emb2.html?r=https://voodc.com/embed/858a948d9f89849287998389968a988a8596.html",
+                    "optionText": "Opcion 1"
                 }
             ]
         },
         {
             "time": "21:05",
             "tournament": "mexico",
-            "eventTitle": "Club Tijuana vs. Toluca",
+            "eventTitle": "Cruz Azul vs. Atlas",
             "streams": [
                 {
-                    "url": "emb2.html?r=https://voodc.com/embed/858a948d9e8a879887998388928e98868c94.html",
+                    "url": "emb2.html?r=https://voodc.com/embed/858a948d9f89849287998389968b988a8597.html",
                     "optionText": "Opcion 1"
                 },
                 {
-                    "url": "emb2.html?r=https://voodc.com/embed/858a948d9e8a879887998388928f98868c95.html",
+                    "url": "emb2.html?r=https://voodc.com/embed/858a948d9f89849287998389968c988a8598.html",
                     "optionText": "Opcion 2"
                 }
             ]
