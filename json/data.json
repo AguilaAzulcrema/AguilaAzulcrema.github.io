@@ -1,12 +1,56 @@
 {
     "events": [
         {
-            "time": "17:00",
+            "time": "15:45",
             "tournament": "mexico",
-            "eventTitle": "UNAM Pumas (f) vs. Santos Laguna (f)",
+            "eventTitle": "Pachuca (f) vs. Cruz Azul (f)",
             "streams": [
                 {
-                    "url": "emb2.html?r=https://voodc.com/embed/858a948da18d88978799838a968898858696.html",
+                    "url": "emb2.html?r=https://voodc.com/embed/858a948da28b8a968799838a998798858996.html",
+                    "optionText": "Opcion 1"
+                }
+            ]
+        },
+        {
+            "time": "16:00",
+            "tournament": "costa-rica-primera-division",
+            "eventTitle": "AD Santos vs. San Carlos",
+            "streams": [
+                {
+                    "url": "emb2.html?r=https://voodc.com/embed/858a948da28b8b958799838a998898858997.html",
+                    "optionText": "Opcion 1"
+                }
+            ]
+        },
+        {
+            "time": "17:00",
+            "tournament": "costa-rica-primera-division",
+            "eventTitle": "Santa Ana vs. Puntarenas FC",
+            "streams": [
+                {
+                    "url": "emb2.html?r=https://voodc.com/embed/858a948da28c85918799838b918798858b96.html",
+                    "optionText": "Opcion 1"
+                }
+            ]
+        },
+        {
+            "time": "18:00",
+            "tournament": "mexico",
+            "eventTitle": "Atletico San Luis (f) vs. Monterrey (f)",
+            "streams": [
+                {
+                    "url": "emb2.html?r=https://voodc.com/embed/858a948da28c889787998387948f98868797.html",
+                    "optionText": "Opcion 1"
+                }
+            ]
+        },
+        {
+            "time": "19:00",
+            "tournament": "mexico",
+            "eventTitle": "Puebla (f) vs. Club Leon (f)",
+            "streams": [
+                {
+                    "url": "emb2.html?r=https://voodc.com/embed/858a948da28c8c9387998387998e98868b98.html",
                     "optionText": "Opcion 1"
                 }
             ]
@@ -14,10 +58,21 @@
         {
             "time": "20:00",
             "tournament": "costa-rica-primera-division",
-            "eventTitle": "Liberia vs. Alajuelense",
+            "eventTitle": "Herediano vs. Guanacasteca",
             "streams": [
                 {
-                    "url": "emb2.html?r=https://voodc.com/embed/858a948da2848995879983879a8c98868699.html",
+                    "url": "emb2.html?r=https://voodc.com/embed/858a948da28d859987998388928998878492.html",
+                    "optionText": "Opcion 1"
+                }
+            ]
+        },
+        {
+            "time": "20:00",
+            "tournament": "mexico",
+            "eventTitle": "Queretaro (f) vs. Mazatlan FC (f)",
+            "streams": [
+                {
+                    "url": "emb2.html?r=https://voodc.com/embed/858a948da28d859987998388928a98878493.html",
                     "optionText": "Opcion 1"
                 }
             ]
