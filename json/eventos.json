@@ -1,52 +1,569 @@
 [
     {
-        "time": "10:00",
-        "tournament": "CAF Champions League",
-        "eventTitle": "Al Ahly vs. Orlando Pirates",
+        "time": "07:00",
+        "tournament": "Greece",
+        "eventTitle": "Atromitos vs. Olympiacos Piraeus",
         "streams": [
             {
-                "url": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4YTk0OGU5Yjg1ODk5MTg3OTk4MzhhOTM4Zjk4ODU4NDk3Lmh0bWw=",
+                "url": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4YTk0OGU5YjhkODQ5Nzg3OTk4Mzg5OTM4Nzk4ODU4My5odG1s",
                 "optionText": "TV"
             }
         ]
     },
     {
-        "time": "10:00",
-        "tournament": "CAF Champions League",
-        "eventTitle": "CR Belouizdad vs. Stade d'Abidjan",
+        "time": "07:00",
+        "tournament": "LaLiga",
+        "eventTitle": "Celta Vigo vs. Athletic Bilbao",
         "streams": [
             {
-                "url": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4YTk0OGU5Yjg1ODk5MTg3OTk4MzhhOTM5MDk4ODU4NDk4Lmh0bWw=",
+                "url": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4YTk0OGU5YjhkODQ5Nzg3OTk4Mzg5OTM4ODk4ODU4NC5odG1s",
+                "optionText": "TV"
+            },
+            {
+                "url": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4YTk0OGU5YjhkODQ5Nzg3OTk4Mzg5OTM4OTk4ODU4NS5odG1s",
                 "optionText": "TV"
             }
         ]
     },
     {
-        "time": "10:00",
-        "tournament": "Israel Ligat haAl",
-        "eventTitle": "Maccabi Bnei Raina vs. Maccabi Petah Tikva",
+        "time": "07:00",
+        "tournament": "LaLiga2",
+        "eventTitle": "Burgos CF vs. Deportivo La Coruna",
         "streams": [
             {
-                "url": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4YTk0OGU5Yjg1ODk5MTg3OTk4MzhhOTQ4Nzk4ODU4NDk5Lmh0bWw=",
+                "url": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4YTk0OGU5YjhkODQ5Nzg3OTk4Mzg5OTM4YTk4ODU4Ni5odG1s",
                 "optionText": "TV"
             }
         ]
     },
     {
-        "time": "10:00",
+        "time": "07:00",
+        "tournament": "Turkey Super Lig",
+        "eventTitle": "Konyaspor vs. Kasimpasa",
+        "streams": [
+            {
+                "url": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4YTk0OGU5YjhkODQ5Nzg3OTk4Mzg5OTM4Yjk4ODU4Ny5odG1s",
+                "optionText": "TV"
+            }
+        ]
+    },
+    {
+        "time": "07:15",
+        "tournament": "Swiss Super League",
+        "eventTitle": "FC Zurich vs. Yverdon",
+        "streams": [
+            {
+                "url": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4YTk0OGU5YjhkODU5Njg3OTk4Mzg5OTQ4Yjk4ODU4OC5odG1s",
+                "optionText": "TV"
+            }
+        ]
+    },
+    {
+        "time": "07:30",
+        "tournament": "Eredivisie",
+        "eventTitle": "Almere City vs. Heracles",
+        "streams": [
+            {
+                "url": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4YTk0OGU5YjhkODY5NTg3OTk4Mzg5OTQ4Yzk4ODU4OS5odG1s",
+                "optionText": "TV"
+            }
+        ]
+    },
+    {
+        "time": "07:30",
+        "tournament": "Eredivisie",
+        "eventTitle": "Heerenveen vs. Ajax",
+        "streams": [
+            {
+                "url": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4YTk0OGU5YjhkODY5NTg3OTk4Mzg5OTQ4ZDk4ODU4YS5odG1s",
+                "optionText": "TV"
+            },
+            {
+                "url": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4YTk0OGU5YjhkODY5NTg3OTk4Mzg5OTQ4Zjk4ODU4Yy5odG1s",
+                "optionText": "TV"
+            }
+        ]
+    },
+    {
+        "time": "08:00",
+        "tournament": "EPL",
+        "eventTitle": "Everton vs. Tottenham",
+        "streams": [
+            {
+                "url": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4YTk0OGU5YjhkODg5Mzg3OTk4Mzg5OTQ5MDk4ODY4YS5odG1s",
+                "optionText": "TV"
+            },
+            {
+                "url": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4YTk0OGU5YjhkODg5Mzg3OTk4Mzg5OTU4Nzk4ODY4Yi5odG1s",
+                "optionText": "TV"
+            }
+        ]
+    },
+    {
+        "time": "08:00",
+        "tournament": "EPL",
+        "eventTitle": "Manchester United vs. Brighton",
+        "streams": [
+            {
+                "url": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4YTk0OGU5YjhkODg5Mzg3OTk4Mzg5OTU4ODk4ODY4Yy5odG1s",
+                "optionText": "TV"
+            },
+            {
+                "url": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4YTk0OGU5YjhkODg5Mzg3OTk4Mzg5OTU4OTk4ODc4My5odG1s",
+                "optionText": "TV"
+            },
+            {
+                "url": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4YTk0OGU5YjhkODg5Mzg3OTk4Mzg5OTU4YTk4ODc4NC5odG1s",
+                "optionText": "TV"
+            }
+        ]
+    },
+    {
+        "time": "08:00",
+        "tournament": "EPL",
+        "eventTitle": "Nottingham Forest vs. Southampton",
+        "streams": [
+            {
+                "url": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4YTk0OGU5YjhkODg5Mzg3OTk4Mzg5OTU4Yjk4ODc4NS5odG1s",
+                "optionText": "TV"
+            },
+            {
+                "url": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4YTk0OGU5YjhkODg5Mzg3OTk4Mzg5OTU4Yzk4ODc4Ni5odG1s",
+                "optionText": "TV"
+            }
+        ]
+    },
+    {
+        "time": "08:00",
+        "tournament": "Friendly",
+        "eventTitle": "Dukla Prague vs. Partizan Belgrade",
+        "streams": [
+            {
+                "url": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4YTk0OGU5YjhkODg5Mzg3OTk4Mzg5OTU4ZDk4ODc4Ny5odG1s",
+                "optionText": "TV"
+            }
+        ]
+    },
+    {
+        "time": "08:00",
+        "tournament": "Italy Serie C",
+        "eventTitle": "Alcione Milano vs. Padova",
+        "streams": [
+            {
+                "url": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4YTk0OGU5YjhkODg5Mzg3OTk4Mzg5OTU4ZTk4ODc4OC5odG1s",
+                "optionText": "TV"
+            }
+        ]
+    },
+    {
+        "time": "08:00",
+        "tournament": "Italy Serie C",
+        "eventTitle": "Arzignano vs. Trento",
+        "streams": [
+            {
+                "url": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4YTk0OGU5YjhkODg5Mzg3OTk4Mzg5OTU4Zjk4ODc4OS5odG1s",
+                "optionText": "TV"
+            }
+        ]
+    },
+    {
+        "time": "08:00",
+        "tournament": "Italy Serie C",
+        "eventTitle": "Juventus U23 vs. Monopoli",
+        "streams": [
+            {
+                "url": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4YTk0OGU5YjhkODg5Mzg3OTk4Mzg5OTU5MDk4ODc4YS5odG1s",
+                "optionText": "TV"
+            }
+        ]
+    },
+    {
+        "time": "08:00",
+        "tournament": "Italy Serie C",
+        "eventTitle": "Pergolettese vs. AlbinoLeffe",
+        "streams": [
+            {
+                "url": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4YTk0OGU5YjhkODg5Mzg3OTk4Mzg5OTY4Nzk4ODc4Yi5odG1s",
+                "optionText": "TV"
+            }
+        ]
+    },
+    {
+        "time": "08:00",
+        "tournament": "Italy Serie C",
+        "eventTitle": "Pianese vs. Pescara",
+        "streams": [
+            {
+                "url": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4YTk0OGU5YjhkODg5Mzg3OTk4Mzg5OTY4ODk4ODc4Yy5odG1s",
+                "optionText": "TV"
+            }
+        ]
+    },
+    {
+        "time": "08:00",
+        "tournament": "Italy Serie C",
+        "eventTitle": "Torres vs. Campobasso",
+        "streams": [
+            {
+                "url": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4YTk0OGU5YjhkODg5Mzg3OTk4Mzg5OTY4OTk4ODg4My5odG1s",
+                "optionText": "TV"
+            }
+        ]
+    },
+    {
+        "time": "08:00",
+        "tournament": "Liga Portugal 2",
+        "eventTitle": "Pacos Ferreira vs. Mafra",
+        "streams": [
+            {
+                "url": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4YTk0OGU5YjhkODg5Mzg3OTk4Mzg5OTY4YTk4ODg4NC5odG1s",
+                "optionText": "TV"
+            }
+        ]
+    },
+    {
+        "time": "08:00",
         "tournament": "Ligue 1",
-        "eventTitle": "Lens vs. PSG",
+        "eventTitle": "St Etienne vs. Nantes",
         "streams": [
             {
-                "url": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4YTk0OGU5Yjg1ODk5MTg3OTk4MzhhOTQ4ODk4ODU4NDlhLmh0bWw=",
+                "url": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4YTk0OGU5YjhkODg5Mzg3OTk4Mzg5OTY4Yzk4ODg4Ni5odG1s",
                 "optionText": "TV"
             },
             {
-                "url": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4YTk0OGU5Yjg1ODk5MTg3OTk4MzhhOTQ4OTk4ODU4NTkxLmh0bWw=",
+                "url": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4YTk0OGU5YjhkODg5Mzg3OTk4Mzg5OTY4Yjk4ODg4NS5odG1s",
+                "optionText": "TV"
+            }
+        ]
+    },
+    {
+        "time": "08:00",
+        "tournament": "Serie A",
+        "eventTitle": "Cagliari vs. Lecce",
+        "streams": [
+            {
+                "url": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4YTk0OGU5YjhkODg5Mzg3OTk4Mzg5OTY4ZDk4ODg4Ny5odG1s",
                 "optionText": "TV"
             },
             {
-                "url": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4YTk0OGU5Yjg1ODk5MTg3OTk4MzhhOTQ4YTk4ODU4NTkyLmh0bWw=",
+                "url": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4YTk0OGU5YjhkODg5Mzg3OTk4Mzg5OTY4ZTk4ODg4OC5odG1s",
+                "optionText": "TV"
+            },
+            {
+                "url": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4YTk0OGU5YjhkODg5Mzg3OTk4Mzg5OTY4Zjk4ODg4OS5odG1s",
+                "optionText": "TV"
+            }
+        ]
+    },
+    {
+        "time": "08:00",
+        "tournament": "Serie A",
+        "eventTitle": "Parma vs. Venezia",
+        "streams": [
+            {
+                "url": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4YTk0OGU5YjhkODg5Mzg3OTk4Mzg5OTY5MDk4ODg4YS5odG1s",
+                "optionText": "TV"
+            },
+            {
+                "url": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4YTk0OGU5YjhkODg5Mzg3OTk4Mzg5OTc4Nzk4ODg4Yi5odG1s",
+                "optionText": "TV"
+            },
+            {
+                "url": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4YTk0OGU5YjhkODg5Mzg3OTk4Mzg5OTc4ODk4ODg4Yy5odG1s",
+                "optionText": "TV"
+            }
+        ]
+    },
+    {
+        "time": "08:00",
+        "tournament": "Serie B",
+        "eventTitle": "Catanzaro vs. Pisa",
+        "streams": [
+            {
+                "url": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4YTk0OGU5YjhkODg5Mzg3OTk4Mzg5OTc4OTk4ODk4My5odG1s",
+                "optionText": "TV"
+            }
+        ]
+    },
+    {
+        "time": "08:00",
+        "tournament": "Serie B",
+        "eventTitle": "Palermo vs. Juve Stabia",
+        "streams": [
+            {
+                "url": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4YTk0OGU5YjhkODg5Mzg3OTk4Mzg5OTc4YTk4ODk4NC5odG1s",
+                "optionText": "TV"
+            }
+        ]
+    },
+    {
+        "time": "08:00",
+        "tournament": "Serie B",
+        "eventTitle": "Sassuolo vs. Sudtirol",
+        "streams": [
+            {
+                "url": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4YTk0OGU5YjhkODg5Mzg3OTk4Mzg5OTc4Yjk4ODk4NS5odG1s",
+                "optionText": "TV"
+            }
+        ]
+    },
+    {
+        "time": "08:15",
+        "tournament": "Scottish Cup",
+        "eventTitle": "Rangers vs. Fraserburgh",
+        "streams": [
+            {
+                "url": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4YTk0OGU5YjhkODk5Mjg3OTk4Mzg5OTg4ODk4ODk4Ni5odG1s",
+                "optionText": "TV"
+            }
+        ]
+    },
+    {
+        "time": "08:30",
+        "tournament": "Bundesliga",
+        "eventTitle": "Union Berlin vs. Mainz",
+        "streams": [
+            {
+                "url": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4YTk0OGU5YjhkOGE5MTg3OTk4Mzg5OTg4OTk4ODk4Yi5odG1s",
+                "optionText": "TV"
+            }
+        ]
+    },
+    {
+        "time": "08:30",
+        "tournament": "Friendly",
+        "eventTitle": "Slavia Prague vs. Philadelphia Union",
+        "streams": [
+            {
+                "url": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4YTk0OGU5YjhkOGE5MTg3OTk4Mzg5OTg4YTk4ODk4Yy5odG1s",
+                "optionText": "TV"
+            }
+        ]
+    },
+    {
+        "time": "08:30",
+        "tournament": "Greece",
+        "eventTitle": "Levadiakos vs. Asteras Tripolis",
+        "streams": [
+            {
+                "url": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4YTk0OGU5YjhkOGE5MTg3OTk4Mzg5OTg4Yjk4OGE4My5odG1s",
+                "optionText": "TV"
+            }
+        ]
+    },
+    {
+        "time": "08:30",
+        "tournament": "Greece",
+        "eventTitle": "Panetolikos vs. OFI Crete",
+        "streams": [
+            {
+                "url": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4YTk0OGU5YjhkOGE5MTg3OTk4Mzg5OTg4Yzk4OGE4NC5odG1s",
+                "optionText": "TV"
+            }
+        ]
+    },
+    {
+        "time": "08:30",
+        "tournament": "Italy Serie A Women",
+        "eventTitle": "AS Roma W vs. Juventus W",
+        "streams": [
+            {
+                "url": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4YTk0OGU5YjhkOGE5MTg3OTk4Mzg5OTg4ZDk4OGE4NS5odG1s",
+                "optionText": "TV"
+            }
+        ]
+    },
+    {
+        "time": "09:00",
+        "tournament": "Belgium 1A",
+        "eventTitle": "Royale Union SG vs. OH Leuven",
+        "streams": [
+            {
+                "url": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4YTk0OGU5YjhkOGI5OTg3OTk4Mzg5OTk4YTk4OGI4OC5odG1s",
+                "optionText": "TV"
+            }
+        ]
+    },
+    {
+        "time": "09:00",
+        "tournament": "Belgium 1B",
+        "eventTitle": "K. Lierse S.K. vs. Club Brugge KV U23",
+        "streams": [
+            {
+                "url": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4YTk0OGU5YjhkOGI5OTg3OTk4Mzg5OTk4Yjk4OGI4OS5odG1s",
+                "optionText": "TV"
+            }
+        ]
+    },
+    {
+        "time": "09:15",
+        "tournament": "LaLiga",
+        "eventTitle": "Real Madrid vs. Las Palmas",
+        "streams": [
+            {
+                "url": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4YTk0OGU5YjhkOGM5ODg3OTk4Mzg5OWE5MDk4OGM4Ny5odG1s",
+                "optionText": "TV"
+            },
+            {
+                "url": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4YTk0OGU5YjhkOGM5ODg3OTk4MzhhOTE4Nzk4OGM4OC5odG1s",
+                "optionText": "TV"
+            },
+            {
+                "url": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4YTk0OGU5YjhkOGM5ODg3OTk4MzhhOTE4ODk4OGM4OS5odG1s",
+                "optionText": "TV"
+            }
+        ]
+    },
+    {
+        "time": "09:15",
+        "tournament": "LaLiga2",
+        "eventTitle": "Racing Santander vs. Racing Club Ferrol",
+        "streams": [
+            {
+                "url": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4YTk0OGU5YjhkOGM5ODg3OTk4MzhhOTE4OTk4OGM4YS5odG1s",
+                "optionText": "TV"
+            }
+        ]
+    },
+    {
+        "time": "09:30",
+        "tournament": "Bundesliga 3",
+        "eventTitle": "Alemannia Aachen vs. RW Essen",
+        "streams": [
+            {
+                "url": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4YTk0OGU5Yzg0ODM5Nzg3OTk4MzhhOTE4ZTk4OGQ4Yi5odG1s",
+                "optionText": "TV"
+            }
+        ]
+    },
+    {
+        "time": "09:30",
+        "tournament": "Liga Portugal",
+        "eventTitle": "Moreirense vs. SC Farense",
+        "streams": [
+            {
+                "url": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4YTk0OGU5Yzg0ODM5Nzg3OTk4MzhhOTE4Zjk4ODU4MzkxLmh0bWw=",
+                "optionText": "TV"
+            }
+        ]
+    },
+    {
+        "time": "09:30",
+        "tournament": "Liga Portugal",
+        "eventTitle": "Nacional vs. AVS",
+        "streams": [
+            {
+                "url": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4YTk0OGU5Yzg0ODM5Nzg3OTk4MzhhOTE5MDk4ODU4MzkyLmh0bWw=",
+                "optionText": "TV"
+            }
+        ]
+    },
+    {
+        "time": "09:30",
+        "tournament": "Liga Portugal 2",
+        "eventTitle": "Tondela vs. Maritimo",
+        "streams": [
+            {
+                "url": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4YTk0OGU5Yzg0ODM5Nzg3OTk4MzhhOTI4Nzk4OGQ4Yy5odG1s",
+                "optionText": "TV"
+            }
+        ]
+    },
+    {
+        "time": "09:30",
+        "tournament": "Swiss Super League",
+        "eventTitle": "Lausanne vs. Luzern",
+        "streams": [
+            {
+                "url": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4YTk0OGU5Yzg0ODM5Nzg3OTk4MzhhOTI4ODk4ODU4MzkzLmh0bWw=",
+                "optionText": "TV"
+            }
+        ]
+    },
+    {
+        "time": "09:30",
+        "tournament": "Swiss Super League",
+        "eventTitle": "Lugano vs. Basel",
+        "streams": [
+            {
+                "url": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4YTk0OGU5Yzg0ODM5Nzg3OTk4MzhhOTI4OTk4ODU4Mzk0Lmh0bWw=",
+                "optionText": "TV"
+            }
+        ]
+    },
+    {
+        "time": "09:45",
+        "tournament": "Eredivisie",
+        "eventTitle": "NEC Nijmegen vs. Sittard",
+        "streams": [
+            {
+                "url": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4YTk0OGU5Yzg0ODQ5Njg3OTk4MzhhOTM4YTk4ODU4Mzk1Lmh0bWw=",
+                "optionText": "TV"
+            }
+        ]
+    },
+    {
+        "time": "09:45",
+        "tournament": "Eerste Divisie",
+        "eventTitle": "FC Emmen vs. Eindhoven FC",
+        "streams": [
+            {
+                "url": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4YTk0OGU5Yzg0ODQ5Njg3OTk4MzhhOTM4Yjk4ODU4Mzk3Lmh0bWw=",
+                "optionText": "TV"
+            }
+        ]
+    },
+    {
+        "time": "10:00",
+        "tournament": "CAF Champions League",
+        "eventTitle": "Mamelodi Sundowns vs. FAR Rabat",
+        "streams": [
+            {
+                "url": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4YTk0OGU5Yzg0ODU5NTg3OTk4MzhhOTM4Yzk4ODU4NDk1Lmh0bWw=",
+                "optionText": "TV"
+            }
+        ]
+    },
+    {
+        "time": "10:00",
+        "tournament": "CAF Champions League",
+        "eventTitle": "Raja Casablanca vs. Maniema",
+        "streams": [
+            {
+                "url": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4YTk0OGU5Yzg0ODU5NTg3OTk4MzhhOTM4ZDk4ODU4NDk2Lmh0bWw=",
+                "optionText": "TV"
+            }
+        ]
+    },
+    {
+        "time": "10:00",
+        "tournament": "CAF Confederation Cup",
+        "eventTitle": "Al Masry vs. Black Bulls",
+        "streams": [
+            {
+                "url": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4YTk0OGU5Yzg0ODU5NTg3OTk4MzhhOTM4ZTk4ODU4NDk3Lmh0bWw=",
+                "optionText": "TV"
+            }
+        ]
+    },
+    {
+        "time": "10:00",
+        "tournament": "CAF Confederation Cup",
+        "eventTitle": "Zamalek vs. Enyimba",
+        "streams": [
+            {
+                "url": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4YTk0OGU5Yzg0ODU5NTg3OTk4MzhhOTM4Zjk4ODU4NDk4Lmh0bWw=",
+                "optionText": "TV"
+            }
+        ]
+    },
+    {
+        "time": "10:00",
+        "tournament": "Romania",
+        "eventTitle": "FC Botosani vs. CFR Cluj",
+        "streams": [
+            {
+                "url": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4YTk0OGU5Yzg0ODU5NTg3OTk4MzhhOTM5MDk4ODU4NDk5Lmh0bWw=",
                 "optionText": "TV"
             }
         ]
@@ -54,10 +571,21 @@
     {
         "time": "10:00",
         "tournament": "Turkey Super Lig",
-        "eventTitle": "Besiktas vs. Samsunspor",
+        "eventTitle": "Adana Demirspor vs. Fenerbahce",
         "streams": [
             {
-                "url": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4YTk0OGU5Yjg1ODk5MTg3OTk4MzhhOTQ4Yjk4ODU4NTkzLmh0bWw=",
+                "url": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4YTk0OGU5Yzg0ODU5NTg3OTk4MzhhOTQ4Nzk4ODU4NDlhLmh0bWw=",
+                "optionText": "TV"
+            }
+        ]
+    },
+    {
+        "time": "10:00",
+        "tournament": "Turkey Super Lig",
+        "eventTitle": "Eyupspor vs. Alanyaspor",
+        "streams": [
+            {
+                "url": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4YTk0OGU5Yzg0ODU5NTg3OTk4MzhhOTQ4ODk4ODU4NTkxLmh0bWw=",
                 "optionText": "TV"
             }
         ]
@@ -65,10 +593,59 @@
     {
         "time": "10:00",
         "tournament": "Turkey 1 Lig",
-        "eventTitle": "Corum vs. Umraniyespor",
+        "eventTitle": "Manisa FK vs. Istanbulspor AS",
         "streams": [
             {
-                "url": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4YTk0OGU5Yjg1ODk5MTg3OTk4MzhhOTQ4Yzk4ODU4NTk0Lmh0bWw=",
+                "url": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4YTk0OGU5Yzg0ODU5NTg3OTk4MzhhOTQ4OTk4ODU4NTkyLmh0bWw=",
+                "optionText": "TV"
+            }
+        ]
+    },
+    {
+        "time": "10:10",
+        "tournament": "Scottish WPL Cup",
+        "eventTitle": "Celtic W vs. Rangers W",
+        "streams": [
+            {
+                "url": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4YTk0OGU5Yzg0ODY5MTg3OTk4MzhhOTU4Yzk4ODU4NTk4Lmh0bWw=",
+                "optionText": "TV"
+            }
+        ]
+    },
+    {
+        "time": "10:15",
+        "tournament": "Ligue 1",
+        "eventTitle": "Angers vs. Auxerre",
+        "streams": [
+            {
+                "url": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4YTk0OGU5Yzg0ODY5NDg3OTk4MzhhOTU4ZDk4ODU4NTk5Lmh0bWw=",
+                "optionText": "TV"
+            },
+            {
+                "url": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4YTk0OGU5Yzg0ODY5NDg3OTk4MzhhOTU4ZTk4ODU4NTlhLmh0bWw=",
+                "optionText": "TV"
+            },
+            {
+                "url": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4YTk0OGU5Yzg0ODY5NDg3OTk4MzhhOTU4Zjk4ODU4NjkxLmh0bWw=",
+                "optionText": "TV"
+            }
+        ]
+    },
+    {
+        "time": "10:15",
+        "tournament": "Ligue 1",
+        "eventTitle": "Reims vs. Le Havre",
+        "streams": [
+            {
+                "url": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4YTk0OGU5Yzg0ODY5NDg3OTk4MzhhOTU5MDk4ODU4NjkyLmh0bWw=",
+                "optionText": "TV"
+            },
+            {
+                "url": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4YTk0OGU5Yzg0ODY5NDg3OTk4MzhhOTY4Nzk4ODU4NjkzLmh0bWw=",
+                "optionText": "TV"
+            },
+            {
+                "url": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4YTk0OGU5Yzg0ODY5NDg3OTk4MzhhOTY4ODk4ODU4Njk0Lmh0bWw=",
                 "optionText": "TV"
             }
         ]
@@ -76,10 +653,52 @@
     {
         "time": "10:15",
         "tournament": "Serie B",
-        "eventTitle": "Bari vs. Brescia",
+        "eventTitle": "Carrarese vs. Spezia",
         "streams": [
             {
-                "url": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4YTk0OGU5Yjg1ODk5YTg3OTk4MzhhOTU4OTk4ODU4NTk1Lmh0bWw=",
+                "url": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4YTk0OGU5Yzg0ODY5NDg3OTk4MzhhOTY4OTk4ODU4Njk1Lmh0bWw=",
+                "optionText": "TV"
+            }
+        ]
+    },
+    {
+        "time": "10:30",
+        "tournament": "Bundesliga",
+        "eventTitle": "Werder Bremen vs. Augsburg",
+        "streams": [
+            {
+                "url": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4YTk0OGU5Yzg0ODc5Mzg3OTk4MzhhOTY4YTk4ODU4Njk4Lmh0bWw=",
+                "optionText": "TV"
+            },
+            {
+                "url": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4YTk0OGU5Yzg0ODc5Mzg3OTk4MzhhOTY4Yjk4ODU4Njk5Lmh0bWw=",
+                "optionText": "TV"
+            },
+            {
+                "url": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4YTk0OGU5Yzg0ODc5Mzg3OTk4MzhhOTY4Yzk4ODU4NjlhLmh0bWw=",
+                "optionText": "TV"
+            }
+        ]
+    },
+    {
+        "time": "10:30",
+        "tournament": "EPL",
+        "eventTitle": "Ipswich vs. Manchester City",
+        "streams": [
+            {
+                "url": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4YTk0OGU5Yzg0ODc5Mzg3OTk4MzhhOTY4ZDk4ODU4NzkxLmh0bWw=",
+                "optionText": "TV"
+            },
+            {
+                "url": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4YTk0OGU5Yzg0ODc5Mzg3OTk4MzhhOTY4ZTk4ODU4NzkyLmh0bWw=",
+                "optionText": "TV"
+            },
+            {
+                "url": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4YTk0OGU5Yzg0ODc5Mzg3OTk4MzhhOTY4Zjk4ODU4NzkzLmh0bWw=",
+                "optionText": "TV"
+            },
+            {
+                "url": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4YTk0OGU5Yzg0ODc5Mzg3OTk4MzhhOTY5MDk4ODU4Nzk0Lmh0bWw=",
                 "optionText": "TV"
             }
         ]
@@ -87,10 +706,10 @@
     {
         "time": "10:30",
         "tournament": "Italy Serie C",
-        "eventTitle": "Avellino vs. Cavese",
+        "eventTitle": "Carpi vs. Entella",
         "streams": [
             {
-                "url": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4YTk0OGU5Yjg1OGE5OTg3OTk4MzhhOTU4Yjk4ODU4NjkxLmh0bWw=",
+                "url": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4YTk0OGU5Yzg0ODc5Mzg3OTk4MzhhOTc4Nzk4ODU4Nzk1Lmh0bWw=",
                 "optionText": "TV"
             }
         ]
@@ -98,10 +717,10 @@
     {
         "time": "10:30",
         "tournament": "Italy Serie C",
-        "eventTitle": "Benevento vs. Altamura",
+        "eventTitle": "Lumezzane vs. Union Clodiense",
         "streams": [
             {
-                "url": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4YTk0OGU5Yjg1OGE5OTg3OTk4MzhhOTU4Yzk4ODU4NjkyLmh0bWw=",
+                "url": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4YTk0OGU5Yzg0ODc5Mzg3OTk4MzhhOTc4ODk4ODU4Nzk2Lmh0bWw=",
                 "optionText": "TV"
             }
         ]
@@ -109,10 +728,10 @@
     {
         "time": "10:30",
         "tournament": "Italy Serie C",
-        "eventTitle": "Rimini vs. Lucchese",
+        "eventTitle": "Picerno vs. Catania",
         "streams": [
             {
-                "url": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4YTk0OGU5Yjg1OGE5OTg3OTk4MzhhOTU4ZDk4ODU4NjkzLmh0bWw=",
+                "url": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4YTk0OGU5Yzg0ODc5Mzg3OTk4MzhhOTc4OTk4ODU4Nzk3Lmh0bWw=",
                 "optionText": "TV"
             }
         ]
@@ -120,10 +739,10 @@
     {
         "time": "10:30",
         "tournament": "Italy Serie C",
-        "eventTitle": "Sorrento vs. Potenza",
+        "eventTitle": "Pontedera vs. Vis Pesaro",
         "streams": [
             {
-                "url": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4YTk0OGU5Yjg1OGE5OTg3OTk4MzhhOTU4ZTk4ODU4Njk0Lmh0bWw=",
+                "url": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4YTk0OGU5Yzg0ODc5Mzg3OTk4MzhhOTc4YTk4ODU4Nzk4Lmh0bWw=",
                 "optionText": "TV"
             }
         ]
@@ -131,10 +750,54 @@
     {
         "time": "10:30",
         "tournament": "Italy Serie C",
-        "eventTitle": "Trapani vs. Taranto",
+        "eventTitle": "Pro Patria vs. L.R. Vicenza",
         "streams": [
             {
-                "url": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4YTk0OGU5Yjg1OGE5OTg3OTk4MzhhOTU4Zjk4ODU4Njk1Lmh0bWw=",
+                "url": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4YTk0OGU5Yzg0ODc5Mzg3OTk4MzhhOTc4Yjk4ODU4Nzk5Lmh0bWw=",
+                "optionText": "TV"
+            }
+        ]
+    },
+    {
+        "time": "10:30",
+        "tournament": "Spain Liga F",
+        "eventTitle": "Sevilla FC W vs. Betis W",
+        "streams": [
+            {
+                "url": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4YTk0OGU5Yzg0ODc5Mzg3OTk4MzhhOTc4Yzk4ODU4NzlhLmh0bWw=",
+                "optionText": "TV"
+            }
+        ]
+    },
+    {
+        "time": "11:00",
+        "tournament": "Costa Rica Primera Division",
+        "eventTitle": "Cartagines vs. Liberia",
+        "streams": [
+            {
+                "url": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4YTk0OGU5Yzg0ODk5MTg3OTk4MzhhOTg4ZDk4ODU4YTkxLmh0bWw=",
+                "optionText": "TV"
+            }
+        ]
+    },
+    {
+        "time": "11:00",
+        "tournament": "Friendly",
+        "eventTitle": "Chicago Fire vs. Fortaleza",
+        "streams": [
+            {
+                "url": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4YTk0OGU5Yzg0ODk5MTg3OTk4MzhhOTg4ZTk4ODU4YTkyLmh0bWw=",
+                "optionText": "TV"
+            }
+        ]
+    },
+    {
+        "time": "11:00",
+        "tournament": "Greece",
+        "eventTitle": "Aris vs. PAOK",
+        "streams": [
+            {
+                "url": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4YTk0OGU5Yzg0ODk5MTg3OTk4MzhhOTg4Zjk4ODU4YTkzLmh0bWw=",
                 "optionText": "TV"
             }
         ]
@@ -142,10 +805,10 @@
     {
         "time": "11:00",
         "tournament": "Italy Serie A Women",
-        "eventTitle": "Napoli W vs. Lazio W",
+        "eventTitle": "Fiorentina W vs. Sassuolo W",
         "streams": [
             {
-                "url": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4YTk0OGU5Yjg1OGM5Nzg3OTk4MzhhOTc4YTk4ODU4OTk1Lmh0bWw=",
+                "url": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4YTk0OGU5Yzg0ODk5MTg3OTk4MzhhOTg5MDk4ODU4YTk0Lmh0bWw=",
                 "optionText": "TV"
             }
         ]
@@ -153,104 +816,29 @@
     {
         "time": "11:00",
         "tournament": "Serie A",
-        "eventTitle": "Juventus vs. AC Milan",
+        "eventTitle": "Verona vs. Lazio",
         "streams": [
             {
-                "url": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4YTk0OGU5Yjg1OGM5Nzg3OTk4MzhhOTc4Yjk4ODU4OTk2Lmh0bWw=",
+                "url": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4YTk0OGU5Yzg0ODk5MTg3OTk4MzhhOTk4Nzk4ODU4YTk1Lmh0bWw=",
                 "optionText": "TV"
             },
             {
-                "url": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4YTk0OGU5Yjg1OGM5Nzg3OTk4MzhhOTc4Yzk4ODU4OTk3Lmh0bWw=",
+                "url": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4YTk0OGU5Yzg0ODk5MTg3OTk4MzhhOTk4ODk4ODU4YTk2Lmh0bWw=",
                 "optionText": "TV"
             },
             {
-                "url": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4YTk0OGU5Yjg1OGM5Nzg3OTk4MzhhOTc4ZDk4ODU4OTk4Lmh0bWw=",
+                "url": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4YTk0OGU5Yzg0ODk5MTg3OTk4MzhhOTk4OTk4ODU4YTk3Lmh0bWw=",
                 "optionText": "TV"
             }
         ]
     },
     {
-        "time": "11:00",
-        "tournament": "Swiss Super League",
-        "eventTitle": "FC Sion vs. Grasshoppers",
-        "streams": [
-            {
-                "url": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4YTk0OGU5Yjg1OGM5Nzg3OTk4MzhhOTc4ZTk4ODU4OTk5Lmh0bWw=",
-                "optionText": "TV"
-            }
-        ]
-    },
-    {
-        "time": "11:00",
-        "tournament": "Swiss Super League",
-        "eventTitle": "Young Boys vs. Winterthur",
-        "streams": [
-            {
-                "url": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4YTk0OGU5Yjg1OGM5Nzg3OTk4MzhhOTc4Zjk4ODU4OTlhLmh0bWw=",
-                "optionText": "TV"
-            }
-        ]
-    },
-    {
-        "time": "11:15",
+        "time": "11:30",
         "tournament": "Belgium 1A",
-        "eventTitle": "KV Mechelen vs. Genk",
+        "eventTitle": "Sint-Truidense vs. Standard Liege",
         "streams": [
             {
-                "url": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4YTk0OGU5Yjg2ODM5Njg3OTk4MzhhOTk4ZDk4ODU4YTkyLmh0bWw=",
-                "optionText": "TV"
-            }
-        ]
-    },
-    {
-        "time": "11:30",
-        "tournament": "Bundesliga",
-        "eventTitle": "Bayer Leverkusen vs. Borussia Monchengladbach",
-        "streams": [
-            {
-                "url": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4YTk0OGU5Yjg2ODQ5NTg3OTk4MzhhOWE4ODk4ODU4YjkyLmh0bWw=",
-                "optionText": "TV"
-            },
-            {
-                "url": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4YTk0OGU5Yjg2ODQ5NTg3OTk4MzhhOWE4OTk4ODU4YjkzLmh0bWw=",
-                "optionText": "TV"
-            },
-            {
-                "url": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4YTk0OGU5Yjg2ODQ5NTg3OTk4MzhhOWE4YTk4ODU4Yjk0Lmh0bWw=",
-                "optionText": "TV"
-            }
-        ]
-    },
-    {
-        "time": "11:30",
-        "tournament": "England National League",
-        "eventTitle": "Maidenhead vs. AFC Fylde",
-        "streams": [
-            {
-                "url": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4YTk0OGU5Yjg2ODQ5NTg3OTk4MzhhOWE4Yjk4ODU4Yjk5Lmh0bWw=",
-                "optionText": "TV"
-            }
-        ]
-    },
-    {
-        "time": "11:30",
-        "tournament": "EPL",
-        "eventTitle": "Arsenal vs. Aston Villa",
-        "streams": [
-            {
-                "url": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4YTk0OGU5Yjg2ODQ5NTg3OTk4MzhhOWE4Yzk4ODU4Yjk1Lmh0bWw=",
-                "optionText": "TV"
-            },
-            {
-                "url": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4YTk0OGU5Yjg2ODQ5NTg3OTk4MzhhOWE4ZDk4ODU4Yjk2Lmh0bWw=",
-                "optionText": "TV"
-            },
-            {
-                "url": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4YTk0OGU5Yjg2ODQ5NTg3OTk4MzhhOWE4ZTk4ODU4Yjk3Lmh0bWw=",
-                "optionText": "TV"
-            },
-            {
-                "url": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4YTk0OGU5Yjg2ODQ5NTg3OTk4MzhhOWE4Zjk4ODU4Yjk4Lmh0bWw=",
+                "url": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4YTk0OGU5Yzg0OGE5OTg3OTk4MzhhOWE4ZDk4ODU4Yjk2Lmh0bWw=",
                 "optionText": "TV"
             }
         ]
@@ -258,18 +846,18 @@
     {
         "time": "11:30",
         "tournament": "LaLiga",
-        "eventTitle": "Real Betis vs. CD Alaves",
+        "eventTitle": "Osasuna vs. Rayo Vallecano",
         "streams": [
             {
-                "url": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4YTk0OGU5Yjg2ODQ5NTg3OTk4MzhhOWE5MDk4ODU4YjlhLmh0bWw=",
+                "url": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4YTk0OGU5Yzg0OGE5OTg3OTk4MzhhOWE4ZTk4ODU4Yjk3Lmh0bWw=",
                 "optionText": "TV"
             },
             {
-                "url": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4YTk0OGU5Yjg2ODQ5NTg3OTk4MzhiOTE4Nzk4ODU4YzkxLmh0bWw=",
+                "url": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4YTk0OGU5Yzg0OGE5OTg3OTk4MzhhOWE4Zjk4ODU4Yjk4Lmh0bWw=",
                 "optionText": "TV"
             },
             {
-                "url": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4YTk0OGU5Yjg2ODQ5NTg3OTk4MzhiOTE4ODk4ODU4YzkyLmh0bWw=",
+                "url": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4YTk0OGU5Yzg0OGE5OTg3OTk4MzhhOWE5MDk4ODU4Yjk5Lmh0bWw=",
                 "optionText": "TV"
             }
         ]
@@ -277,10 +865,10 @@
     {
         "time": "11:30",
         "tournament": "LaLiga2",
-        "eventTitle": "Eibar vs. Albacete",
+        "eventTitle": "Castellon vs. Cordoba",
         "streams": [
             {
-                "url": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4YTk0OGU5Yjg2ODQ5NTg3OTk4MzhiOTE4OTk4ODU4YzkzLmh0bWw=",
+                "url": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4YTk0OGU5Yzg0OGE5OTg3OTk4MzhiOTE4Nzk4ODU4YjlhLmh0bWw=",
                 "optionText": "TV"
             }
         ]
@@ -288,76 +876,21 @@
     {
         "time": "11:30",
         "tournament": "LaLiga2",
-        "eventTitle": "Sporting Gijon vs. Elche",
+        "eventTitle": "Real Zaragoza vs. Tenerife",
         "streams": [
             {
-                "url": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4YTk0OGU5Yjg2ODQ5NTg3OTk4MzhiOTE4YTk4ODU4Yzk0Lmh0bWw=",
-                "optionText": "TV"
-            }
-        ]
-    },
-    {
-        "time": "11:30",
-        "tournament": "Romania",
-        "eventTitle": "Otelul vs. Petrolul",
-        "streams": [
-            {
-                "url": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4YTk0OGU5Yjg2ODQ5NTg3OTk4MzhiOTE4Yjk4ODU4Yzk1Lmh0bWw=",
-                "optionText": "TV"
-            }
-        ]
-    },
-    {
-        "time": "11:30",
-        "tournament": "Scottish Cup",
-        "eventTitle": "Celtic vs. Kilmarnock",
-        "streams": [
-            {
-                "url": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4YTk0OGU5Yjg2ODQ5NTg3OTk4MzhiOTE4Yzk4ODU4Yzk2Lmh0bWw=",
-                "optionText": "TV"
-            }
-        ]
-    },
-    {
-        "time": "11:30",
-        "tournament": "Spain Liga F",
-        "eventTitle": "Madrid C. W vs. Valencia W",
-        "streams": [
-            {
-                "url": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4YTk0OGU5Yjg2ODQ5NTg3OTk4MzhiOTE4ZDk4ODU4Yzk3Lmh0bWw=",
-                "optionText": "TV"
-            }
-        ]
-    },
-    {
-        "time": "11:45",
-        "tournament": "Eredivisie",
-        "eventTitle": "Utrecht vs. AZ Alkmaar",
-        "streams": [
-            {
-                "url": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4YTk0OGU5Yjg2ODU5NDg3OTk4MzhiOTI4OTk4ODU4Yzk4Lmh0bWw=",
+                "url": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4YTk0OGU5Yzg0OGE5OTg3OTk4MzhiOTE4ODk4ODU4YzkxLmh0bWw=",
                 "optionText": "TV"
             }
         ]
     },
     {
         "time": "12:00",
-        "tournament": "Friendly",
-        "eventTitle": "Sport Boys vs. Deportivo Junior",
+        "tournament": "Liga de Expansion MX",
+        "eventTitle": "Leones Negros vs. Dorados de Sinaloa",
         "streams": [
             {
-                "url": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4YTk0OGU5Yjg2ODY5Mzg3OTk4MzhiOTM4Yzk4ODY4NDk0Lmh0bWw=",
-                "optionText": "TV"
-            }
-        ]
-    },
-    {
-        "time": "12:00",
-        "tournament": "Israel Ligat haAl",
-        "eventTitle": "Maccabi Tel Aviv vs. Maccabi Netanya",
-        "streams": [
-            {
-                "url": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4YTk0OGU5Yjg2ODY5Mzg3OTk4MzhiOTM4ZDk4ODY4NDk1Lmh0bWw=",
+                "url": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4YTk0OGU5Yzg0OGM5Nzg3OTk4MzhiOTM4OTk4ODY4NDk4Lmh0bWw=",
                 "optionText": "TV"
             }
         ]
@@ -365,88 +898,117 @@
     {
         "time": "12:00",
         "tournament": "Liga Portugal",
-        "eventTitle": "Rio Ave vs. Sporting CP",
+        "eventTitle": "Estrela vs. Braga",
         "streams": [
             {
-                "url": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4YTk0OGU5Yjg2ODY5Mzg3OTk4MzhiOTM4ZTk4ODY4NDk2Lmh0bWw=",
+                "url": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4YTk0OGU5Yzg0OGM5Nzg3OTk4MzhiOTM4YTk4ODY4NDk2Lmh0bWw=",
                 "optionText": "TV"
             },
             {
-                "url": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4YTk0OGU5Yjg2ODY5Mzg3OTk4MzhiOTM4Zjk4ODY4NDk3Lmh0bWw=",
-                "optionText": "TV"
-            },
-            {
-                "url": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4YTk0OGU5Yjg2ODY5Mzg3OTk4MzhiOTM5MDk4ODY4NDk4Lmh0bWw=",
+                "url": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4YTk0OGU5Yzg0OGM5Nzg3OTk4MzhiOTM4Yjk4ODY4NDk3Lmh0bWw=",
                 "optionText": "TV"
             }
         ]
     },
     {
-        "time": "12:00",
-        "tournament": "Ligue 1",
-        "eventTitle": "Rennes vs. Brest",
+        "time": "12:15",
+        "tournament": "Belgium 1A",
+        "eventTitle": "Antwerp vs. Westerlo",
         "streams": [
             {
-                "url": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4YTk0OGU5Yjg2ODY5Mzg3OTk4MzhiOTQ4Nzk4ODY4NDk5Lmh0bWw=",
+                "url": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4YTk0OGU5Yzg1ODM5Njg3OTk4MzhiOTQ4Nzk4ODY4NTkzLmh0bWw=",
                 "optionText": "TV"
-            },
+            }
+        ]
+    },
+    {
+        "time": "12:15",
+        "tournament": "Belgium 1B",
+        "eventTitle": "Genk U23 vs. Seraing",
+        "streams": [
             {
-                "url": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4YTk0OGU5Yjg2ODY5Mzg3OTk4MzhiOTQ4ODk4ODY4NDlhLmh0bWw=",
+                "url": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4YTk0OGU5Yzg1ODM5Njg3OTk4MzhiOTQ4ODk4ODY4NTk0Lmh0bWw=",
+                "optionText": "TV"
+            }
+        ]
+    },
+    {
+        "time": "12:15",
+        "tournament": "Israel Ligat haAl",
+        "eventTitle": "Hapoel Jerusalem vs. Hapoel Beer Sheva",
+        "streams": [
+            {
+                "url": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4YTk0OGU5Yzg1ODM5Njg3OTk4MzhiOTQ4OTk4ODY4NTk1Lmh0bWw=",
                 "optionText": "TV"
             }
         ]
     },
     {
         "time": "12:30",
+        "tournament": "Bundesliga 3",
+        "eventTitle": "Mannheim vs. FC Ingolstadt",
+        "streams": [
+            {
+                "url": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4YTk0OGU5Yzg1ODQ5NTg3OTk4MzhiOTQ4ZTk4ODY4NTk2Lmh0bWw=",
+                "optionText": "TV"
+            }
+        ]
+    },
+    {
+        "time": "12:30",
+        "tournament": "Greece",
+        "eventTitle": "Panathinaikos vs. AEK Athens FC",
+        "streams": [
+            {
+                "url": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4YTk0OGU5Yzg1ODQ5NTg3OTk4MzhiOTQ4Zjk4ODY4NTk3Lmh0bWw=",
+                "optionText": "TV"
+            }
+        ]
+    },
+    {
+        "time": "12:30",
+        "tournament": "Italy Serie C",
+        "eventTitle": "Foggia vs. Latina",
+        "streams": [
+            {
+                "url": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4YTk0OGU5Yzg1ODQ5NTg3OTk4MzhiOTQ5MDk4ODY4NTk4Lmh0bWw=",
+                "optionText": "TV"
+            }
+        ]
+    },
+    {
+        "time": "12:30",
+        "tournament": "Romania",
+        "eventTitle": "Universitatea Craiova vs. Dinamo Bucuresti",
+        "streams": [
+            {
+                "url": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4YTk0OGU5Yzg1ODQ5NTg3OTk4MzhiOTU4Nzk4ODY4NTk5Lmh0bWw=",
+                "optionText": "TV"
+            }
+        ]
+    },
+    {
+        "time": "12:45",
+        "tournament": "Womens Super League",
+        "eventTitle": "Manchester City W vs. Manchester United W",
+        "streams": [
+            {
+                "url": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4YTk0OGU5Yzg1ODU5NDg3OTk4MzhiOTU4OTk4ODY4NjkxLmh0bWw=",
+                "optionText": "TV"
+            },
+            {
+                "url": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4YTk0OGU5Yzg1ODU5NDg3OTk4MzhiOTU4YTk4ODY4NjkyLmh0bWw=",
+                "optionText": "TV"
+            }
+        ]
+    },
+    {
+        "time": "13:00",
         "tournament": "Brazil Paranaense",
-        "eventTitle": "Sao Joseense vs. Cianorte",
+        "eventTitle": "Cascavel vs. Coritiba",
         "streams": [
             {
-                "url": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4YTk0OGU5Yjg2ODg5MTg3OTk4MzhiOTQ4ZDk4ODY4NTkyLmh0bWw=",
-                "optionText": "TV"
-            }
-        ]
-    },
-    {
-        "time": "13:00",
-        "tournament": "Belgium 1B",
-        "eventTitle": "Francs Borains vs. Beveren",
-        "streams": [
-            {
-                "url": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4YTk0OGU5Yjg2ODk5OTg3OTk4MzhiOTk4OTk4ODY4Yjk1Lmh0bWw=",
-                "optionText": "TV"
-            }
-        ]
-    },
-    {
-        "time": "13:00",
-        "tournament": "Belgium 1B",
-        "eventTitle": "RAAL La Louviere vs. Anderlecht U23",
-        "streams": [
-            {
-                "url": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4YTk0OGU5Yjg2ODk5OTg3OTk4MzhiOTk4YTk4ODY4Yjk2Lmh0bWw=",
-                "optionText": "TV"
-            }
-        ]
-    },
-    {
-        "time": "13:00",
-        "tournament": "Brazil Paranaense",
-        "eventTitle": "Azuriz vs. Athletico-PR",
-        "streams": [
-            {
-                "url": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4YTk0OGU5Yjg2ODk5OTg3OTk4MzhiOTk4Yjk4ODY4Yjk3Lmh0bWw=",
-                "optionText": "TV"
-            }
-        ]
-    },
-    {
-        "time": "13:00",
-        "tournament": "Brazil Paranaense",
-        "eventTitle": "Londrina vs. Maringa FC",
-        "streams": [
-            {
-                "url": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4YTk0OGU5Yjg2ODk5OTg3OTk4MzhiOTk4Yzk4ODY4Yjk4Lmh0bWw=",
+                "url": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4YTk0OGU5Yzg1ODY5Mzg3OTk4MzhiOTc4ODk4ODY4ODkzLmh0bWw=",
                 "optionText": "TV"
             }
         ]
@@ -454,32 +1016,65 @@
     {
         "time": "13:00",
         "tournament": "Brazil Paulista",
-        "eventTitle": "Inter de Limeira vs. Guarani",
+        "eventTitle": "Mirassol vs. Agua Santa",
         "streams": [
             {
-                "url": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4YTk0OGU5Yjg2ODk5OTg3OTk4MzhiOTk4ZDk4ODY4Yjk5Lmh0bWw=",
+                "url": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4YTk0OGU5Yzg1ODY5Mzg3OTk4MzhiOTc4OTk4ODY4ODk0Lmh0bWw=",
                 "optionText": "TV"
             }
         ]
     },
     {
         "time": "13:00",
-        "tournament": "CAF Champions League",
-        "eventTitle": "Esperance Tunis vs. Sagrada",
+        "tournament": "Brazil Paulista",
+        "eventTitle": "Sao Bernardo vs. Bragantino",
         "streams": [
             {
-                "url": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4YTk0OGU5Yjg2ODk5OTg3OTk4MzhiOTk4ZTk4ODY4YjlhLmh0bWw=",
+                "url": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4YTk0OGU5Yzg1ODY5Mzg3OTk4MzhiOTc4YTk4ODY4ODk1Lmh0bWw=",
                 "optionText": "TV"
             }
         ]
     },
     {
         "time": "13:00",
-        "tournament": "CAF Champions League",
-        "eventTitle": "Pyramids vs. Djoliba",
+        "tournament": "CAF Confederation Cup",
+        "eventTitle": "ASEC Mimosas vs. Orapa United",
         "streams": [
             {
-                "url": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4YTk0OGU5Yjg2ODk5OTg3OTk4MzhiOTk4Zjk4ODY4YzkxLmh0bWw=",
+                "url": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4YTk0OGU5Yzg1ODY5Mzg3OTk4MzhiOTc4Yjk4ODY4ODk2Lmh0bWw=",
+                "optionText": "TV"
+            }
+        ]
+    },
+    {
+        "time": "13:00",
+        "tournament": "CAF Confederation Cup",
+        "eventTitle": "Berkane vs. Stellenbosch",
+        "streams": [
+            {
+                "url": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4YTk0OGU5Yzg1ODY5Mzg3OTk4MzhiOTc4Yzk4ODY4ODk3Lmh0bWw=",
+                "optionText": "TV"
+            }
+        ]
+    },
+    {
+        "time": "13:00",
+        "tournament": "CAF Confederation Cup",
+        "eventTitle": "Stade Malien vs. CD Lunda Sul",
+        "streams": [
+            {
+                "url": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4YTk0OGU5Yzg1ODY5Mzg3OTk4MzhiOTc4ZDk4ODY4ODk4Lmh0bWw=",
+                "optionText": "TV"
+            }
+        ]
+    },
+    {
+        "time": "13:00",
+        "tournament": "CAF Confederation Cup",
+        "eventTitle": "USM Alger vs. Jaraaf",
+        "streams": [
+            {
+                "url": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4YTk0OGU5Yzg1ODY5Mzg3OTk4MzhiOTc4ZTk4ODY4ODk5Lmh0bWw=",
                 "optionText": "TV"
             }
         ]
@@ -487,77 +1082,29 @@
     {
         "time": "13:00",
         "tournament": "Eredivisie",
-        "eventTitle": "Willem II vs. Feyenoord",
+        "eventTitle": "Sparta Rotterdam vs. RKC Waalwijk",
         "streams": [
             {
-                "url": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4YTk0OGU5Yjg2ODk5OTg3OTk4MzhiOTk5MDk4ODY4YzkyLmh0bWw=",
-                "optionText": "TV"
-            },
-            {
-                "url": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4YTk0OGU5Yjg2ODk5OTg3OTk4MzhiOWE4Nzk4ODY4YzkzLmh0bWw=",
-                "optionText": "TV"
-            },
-            {
-                "url": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4YTk0OGU5Yjg2ODk5OTg3OTk4MzhiOWE4ODk4ODY4Yzk0Lmh0bWw=",
-                "optionText": "TV"
-            }
-        ]
-    },
-    {
-        "time": "13:00",
-        "tournament": "Ligue 2",
-        "eventTitle": "Dunkerque vs. Lorient",
-        "streams": [
-            {
-                "url": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4YTk0OGU5Yjg2ODk5OTg3OTk4MzhiOWE4OTk4ODY4Yzk1Lmh0bWw=",
-                "optionText": "TV"
-            }
-        ]
-    },
-    {
-        "time": "13:30",
-        "tournament": "Bundesliga 2",
-        "eventTitle": "Hamburger SV vs. FC Koln",
-        "streams": [
-            {
-                "url": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4YTk0OGU5Yjg2OGI5Nzg3OTk4MzhjOTE5MDk4ODc4Mzk0Lmh0bWw=",
-                "optionText": "TV"
-            },
-            {
-                "url": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4YTk0OGU5Yjg2OGI5Nzg3OTk4MzhjOTI4Nzk4ODc4Mzk1Lmh0bWw=",
-                "optionText": "TV"
-            }
-        ]
-    },
-    {
-        "time": "13:30",
-        "tournament": "Brazil Carioca",
-        "eventTitle": "Sampaio Correa FE vs. Botafogo RJ",
-        "streams": [
-            {
-                "url": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4YTk0OGU5Yjg2OGI5Nzg3OTk4MzhjOTI4ODk4ODc4Mzk2Lmh0bWw=",
-                "optionText": "TV"
-            }
-        ]
-    },
-    {
-        "time": "13:30",
-        "tournament": "Swiss Super League",
-        "eventTitle": "Servette vs. St. Gallen",
-        "streams": [
-            {
-                "url": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4YTk0OGU5Yjg2OGI5Nzg3OTk4MzhjOTI4OTk4ODc4Mzk3Lmh0bWw=",
+                "url": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4YTk0OGU5Yzg1ODY5Mzg3OTk4MzhiOTc4Zjk4ODY4ODlhLmh0bWw=",
                 "optionText": "TV"
             }
         ]
     },
     {
         "time": "13:45",
-        "tournament": "Belgium 1A",
-        "eventTitle": "Club Brugge KV vs. Beerschot VA",
+        "tournament": "Ligue 1",
+        "eventTitle": "Marseille vs. Strasbourg",
         "streams": [
             {
-                "url": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4YTk0OGU5Yjg2OGM5Njg3OTk4MzhjOTM4OTk4ODc4NDk0Lmh0bWw=",
+                "url": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4YTk0OGU5Yzg1ODg5YTg3OTk4MzhiOTg4Yjk4ODY4OTk0Lmh0bWw=",
+                "optionText": "TV"
+            },
+            {
+                "url": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4YTk0OGU5Yzg1ODg5YTg3OTk4MzhiOTg4Yzk4ODY4OTk1Lmh0bWw=",
+                "optionText": "TV"
+            },
+            {
+                "url": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4YTk0OGU5Yzg1ODg5YTg3OTk4MzhiOTg4ZDk4ODY4OTk2Lmh0bWw=",
                 "optionText": "TV"
             }
         ]
@@ -565,51 +1112,29 @@
     {
         "time": "13:45",
         "tournament": "Serie A",
-        "eventTitle": "Atalanta vs. Napoli",
+        "eventTitle": "Inter vs. Empoli",
         "streams": [
             {
-                "url": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4YTk0OGU5Yjg2OGM5Njg3OTk4MzhjOTM4YTk4ODc4NDk1Lmh0bWw=",
+                "url": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4YTk0OGU5Yzg1ODg5YTg3OTk4MzhiOTg4ZTk4ODY4OTk3Lmh0bWw=",
                 "optionText": "TV"
             },
             {
-                "url": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4YTk0OGU5Yjg2OGM5Njg3OTk4MzhjOTM4Yjk4ODc4NDk2Lmh0bWw=",
+                "url": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4YTk0OGU5Yzg1ODg5YTg3OTk4MzhiOTg4Zjk4ODY4OTk4Lmh0bWw=",
                 "optionText": "TV"
             },
             {
-                "url": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4YTk0OGU5Yjg2OGM5Njg3OTk4MzhjOTM4Yzk4ODc4NDk3Lmh0bWw=",
+                "url": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4YTk0OGU5Yzg1ODg5YTg3OTk4MzhiOTg5MDk4ODY4OTk5Lmh0bWw=",
                 "optionText": "TV"
             }
         ]
     },
     {
         "time": "14:00",
-        "tournament": "Brazil Mineiro",
-        "eventTitle": "Pouso Alegre vs. Athletic Club",
+        "tournament": "Brazil Carioca",
+        "eventTitle": "Portuguesa RJ vs. Madureira",
         "streams": [
             {
-                "url": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4YTk0OGU5Yjg3ODM5NTg3OTk4MzhjOTU4ZDk4ODc4NjlhLmh0bWw=",
-                "optionText": "TV"
-            }
-        ]
-    },
-    {
-        "time": "14:00",
-        "tournament": "Eredivisie",
-        "eventTitle": "G.A. Eagles vs. FC Groningen",
-        "streams": [
-            {
-                "url": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4YTk0OGU5Yjg3ODM5NTg3OTk4MzhjOTU4ZTk4ODc4NzkxLmh0bWw=",
-                "optionText": "TV"
-            }
-        ]
-    },
-    {
-        "time": "14:00",
-        "tournament": "France Premiere Ligue",
-        "eventTitle": "PSG W vs. Lyon W",
-        "streams": [
-            {
-                "url": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4YTk0OGU5Yjg3ODM5NTg3OTk4MzhjOTU4Zjk4ODc4NzkyLmh0bWw=",
+                "url": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4YTk0OGU5Yzg1ODk5OTg3OTk4MzhiOWE4ZTk4ODY4Yjk4Lmh0bWw=",
                 "optionText": "TV"
             }
         ]
@@ -617,25 +1142,21 @@
     {
         "time": "14:00",
         "tournament": "Friendly",
-        "eventTitle": "Atletico-MG vs. Cruzeiro",
+        "eventTitle": "Sao Paulo vs. Flamengo RJ",
         "streams": [
             {
-                "url": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4YTk0OGU5Yjg3ODM5NTg3OTk4MzhjOTU5MDk4ODc4NzkzLmh0bWw=",
+                "url": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4YTk0OGU5Yzg1ODk5OTg3OTk4MzhiOWE4Zjk4ODY4Yjk5Lmh0bWw=",
                 "optionText": "TV"
             }
         ]
     },
     {
         "time": "14:00",
-        "tournament": "Friendly",
-        "eventTitle": "USA vs. Venezuela",
+        "tournament": "Jamaica",
+        "eventTitle": "Mount Pleasant vs. Arnett Gardens",
         "streams": [
             {
-                "url": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4YTk0OGU5Yjg3ODM5NTg3OTk4MzhjOTY4Nzk4ODc4Nzk0Lmh0bWw=",
-                "optionText": "TV"
-            },
-            {
-                "url": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4YTk0OGU5Yjg3ODM5NTg3OTk4MzhjOTY4ODk4ODc4Nzk1Lmh0bWw=",
+                "url": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4YTk0OGU5Yzg1ODk5OTg3OTk4MzhiOWE5MDk4ODY4YjlhLmh0bWw=",
                 "optionText": "TV"
             }
         ]
@@ -643,18 +1164,18 @@
     {
         "time": "14:00",
         "tournament": "LaLiga",
-        "eventTitle": "Getafe vs. Barcelona",
+        "eventTitle": "Valencia vs. Real Sociedad",
         "streams": [
             {
-                "url": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4YTk0OGU5Yjg3ODM5NTg3OTk4MzhjOTY4OTk4ODc4Nzk2Lmh0bWw=",
+                "url": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4YTk0OGU5Yzg1ODk5OTg3OTk4MzhjOTE4Nzk4ODY4YzkxLmh0bWw=",
                 "optionText": "TV"
             },
             {
-                "url": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4YTk0OGU5Yjg3ODM5NTg3OTk4MzhjOTY4YTk4ODc4Nzk3Lmh0bWw=",
+                "url": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4YTk0OGU5Yzg1ODk5OTg3OTk4MzhjOTE4ODk4ODY4YzkyLmh0bWw=",
                 "optionText": "TV"
             },
             {
-                "url": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4YTk0OGU5Yjg3ODM5NTg3OTk4MzhjOTY4Yjk4ODc4Nzk4Lmh0bWw=",
+                "url": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4YTk0OGU5Yzg1ODk5OTg3OTk4MzhjOTE4OTk4ODY4YzkzLmh0bWw=",
                 "optionText": "TV"
             }
         ]
@@ -662,29 +1183,10 @@
     {
         "time": "14:00",
         "tournament": "LaLiga2",
-        "eventTitle": "Levante vs. Granada CF",
+        "eventTitle": "Almeria vs. Huesca",
         "streams": [
             {
-                "url": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4YTk0OGU5Yjg3ODM5NTg3OTk4MzhjOTY4Yzk4ODc4Nzk5Lmh0bWw=",
-                "optionText": "TV"
-            }
-        ]
-    },
-    {
-        "time": "14:05",
-        "tournament": "Ligue 1",
-        "eventTitle": "Lyon vs. Toulouse",
-        "streams": [
-            {
-                "url": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4YTk0OGU5Yjg3ODM5ODg3OTk4MzhjOTc4Nzk4ODc4NzlhLmh0bWw=",
-                "optionText": "TV"
-            },
-            {
-                "url": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4YTk0OGU5Yjg3ODM5ODg3OTk4MzhjOTc4ODk4ODc4ODkxLmh0bWw=",
-                "optionText": "TV"
-            },
-            {
-                "url": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4YTk0OGU5Yjg3ODM5ODg3OTk4MzhjOTc4OTk4ODc4ODkyLmh0bWw=",
+                "url": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4YTk0OGU5Yzg1ODk5OTg3OTk4MzhjOTE4YTk4ODY4Yzk0Lmh0bWw=",
                 "optionText": "TV"
             }
         ]
@@ -692,43 +1194,36 @@
     {
         "time": "14:30",
         "tournament": "Liga Portugal",
-        "eventTitle": "Vitoria Guimaraes vs. Arouca",
+        "eventTitle": "Gil Vicente vs. FC Porto",
         "streams": [
             {
-                "url": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4YTk0OGU5Yjg3ODU5Mzg3OTk4MzhjOTc5MDk4ODc4ODk5Lmh0bWw=",
+                "url": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4YTk0OGU5Yzg1OGI5Nzg3OTk4MzhjOTI4Nzk4ODY4YzlhLmh0bWw=",
+                "optionText": "TV"
+            },
+            {
+                "url": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4YTk0OGU5Yzg1OGI5Nzg3OTk4MzhjOTI4ODk4ODc4MzkxLmh0bWw=",
                 "optionText": "TV"
             }
         ]
     },
     {
-        "time": "15:00",
-        "tournament": "Costa Rica Primera Division",
-        "eventTitle": "Puntarenas FC vs. AD Santos",
+        "time": "15:30",
+        "tournament": "Brazil Paranaense",
+        "eventTitle": "Operario vs. Rio Branco PR",
         "streams": [
             {
-                "url": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4YTk0OGU5Yjg3ODc5MTg3OTk4Mzg3OTM4ODk4ODc4Yzk4Lmh0bWw=",
+                "url": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4YTk0OGU5Yzg2ODU5Mzg3OTk4MzhjOTM4Nzk4ODc4NDkzLmh0bWw=",
                 "optionText": "TV"
             }
         ]
     },
     {
-        "time": "15:00",
-        "tournament": "Guatemala",
-        "eventTitle": "Coban Imperial vs. Malacateco",
+        "time": "15:30",
+        "tournament": "Brazil Paranaense",
+        "eventTitle": "Parana vs. Andraus",
         "streams": [
             {
-                "url": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4YTk0OGU5Yjg3ODc5MTg3OTk4Mzg3OTM4OTk4ODc4Yzk5Lmh0bWw=",
-                "optionText": "TV"
-            }
-        ]
-    },
-    {
-        "time": "15:00",
-        "tournament": "Serie Rio de la Plata",
-        "eventTitle": "Cerro Largo vs. Gimnasia LP",
-        "streams": [
-            {
-                "url": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4YTk0OGU5Yjg3ODc5MTg3OTk4Mzg3OTM4YTk4ODc4YzlhLmh0bWw=",
+                "url": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4YTk0OGU5Yzg2ODU5Mzg3OTk4MzhjOTM4ODk4ODc4NDk0Lmh0bWw=",
                 "optionText": "TV"
             }
         ]
@@ -736,10 +1231,10 @@
     {
         "time": "15:30",
         "tournament": "Brazil Paulista",
-        "eventTitle": "Noroeste vs. Palmeiras",
+        "eventTitle": "Corinthians vs. Velo Clube",
         "streams": [
             {
-                "url": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4YTk0OGU5Yjg3ODg5OTg3OTk4Mzg3OTQ4ZDk4ODg4Mzk5Lmh0bWw=",
+                "url": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4YTk0OGU5Yzg2ODU5Mzg3OTk4MzhjOTM4OTk4ODc4NDk1Lmh0bWw=",
                 "optionText": "TV"
             }
         ]
@@ -747,21 +1242,10 @@
     {
         "time": "16:00",
         "tournament": "Brazil Carioca",
-        "eventTitle": "Fluminense vs. Marica",
+        "eventTitle": "Boavista vs. Vasco",
         "streams": [
             {
-                "url": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4YTk0OGU5Yjg3OGE5Nzg3OTk4Mzg3OTY4ZTk4ODg4NjkxLmh0bWw=",
-                "optionText": "TV"
-            }
-        ]
-    },
-    {
-        "time": "16:00",
-        "tournament": "Brazil Mineiro",
-        "eventTitle": "Itabirito vs. Betim",
-        "streams": [
-            {
-                "url": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4YTk0OGU5Yjg3OGE5Nzg3OTk4Mzg3OTY4Zjk4ODg4NjkyLmh0bWw=",
+                "url": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4YTk0OGU5Yzg2ODc5MTg3OTk4MzhjOTM4ZDk4ODc4NDlhLmh0bWw=",
                 "optionText": "TV"
             }
         ]
@@ -769,90 +1253,58 @@
     {
         "time": "16:00",
         "tournament": "Friendly",
-        "eventTitle": "Colo Colo vs. Racing Club",
+        "eventTitle": "Millonarios vs. America De Cali",
         "streams": [
             {
-                "url": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4YTk0OGU5Yjg3OGE5Nzg3OTk4Mzg3OTY5MDk4ODg4NjkzLmh0bWw=",
+                "url": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4YTk0OGU5Yzg2ODc5MTg3OTk4MzhjOTM4ZTk4ODc4NTkxLmh0bWw=",
                 "optionText": "TV"
             }
         ]
     },
     {
         "time": "17:00",
-        "tournament": "Guatemala",
-        "eventTitle": "CSD Comunicaciones vs. Deportivo Mixco",
+        "tournament": "Brazil Carioca",
+        "eventTitle": "Bangu vs. Volta Redonda",
         "streams": [
             {
-                "url": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4YTk0OGU5Yjg4ODQ5Mzg3OTk4Mzg3OTk4Nzk4ODg4ODk5Lmh0bWw=",
+                "url": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4YTk0OGU5Yzg2OGE5Nzg3OTk4MzhjOTQ4Yjk4ODc4NTk5Lmh0bWw=",
                 "optionText": "TV"
             }
         ]
     },
     {
         "time": "17:00",
-        "tournament": "Liga de Expansion MX",
-        "eventTitle": "Atlante vs. Atletico La Paz",
+        "tournament": "Brazil Mineiro",
+        "eventTitle": "Cruzeiro vs. Tombense",
         "streams": [
             {
-                "url": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4YTk0OGU5Yjg4ODQ5Mzg3OTk4Mzg3OTk4ODk4ODg4ODlhLmh0bWw=",
+                "url": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4YTk0OGU5Yzg2OGE5Nzg3OTk4MzhjOTQ4Yzk4ODc4NTlhLmh0bWw=",
                 "optionText": "TV"
-            },
-            {
-                "url": "aHR0cHM6Ly9tZXhpLXR2LmJsb2dzcG90LmNvbS9wL2xnbXgyLmh0bWw/aWQ9VFZDRA==",
-                "optionText": "TVC DEPORTES"
-            },
-            {
-                "url": "aHR0cHM6Ly9tZXhpLXR2LmJsb2dzcG90LmNvbS9wL2xnbXgyLmh0bWw/aWQ9VFZDRF8y",
-                "optionText": "TVC DEPORTES OP2"
-            },
-            {
-                "url": "aHR0cHM6Ly9tZXhpLXR2LmJsb2dzcG90LmNvbS9wL2xnbXgyLmh0bWw/aWQ9VFZDRF8z",
-                "optionText": "TVC DEPORTES OP3"
             }
         ]
     },
     {
         "time": "17:00",
         "tournament": "Mexico",
-        "eventTitle": "Juarez vs. Cruz Azul",
+        "eventTitle": "Queretaro vs. UNAM Pumas",
         "streams": [
             {
-                "url": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4YTk0OGU5Yjg4ODQ5Mzg3OTk4Mzg3OTk4OTk4ODg4OTkxLmh0bWw=",
+                "url": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4YTk0OGU5Yzg2OGE5Nzg3OTk4MzhjOTQ4ZDk4ODc4NjkxLmh0bWw=",
                 "optionText": "TV"
             },
             {
-                "url": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4YTk0OGU5Yjg4ODQ5Mzg3OTk4Mzg3OTk4YTk4ODg4OTkyLmh0bWw=",
+                "url": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4YTk0OGU5Yzg2OGE5Nzg3OTk4MzhjOTQ4ZTk4ODc4NjkyLmh0bWw=",
                 "optionText": "TV"
-            },
-            {
-                "url": "aHR0cHM6Ly9tZXhpLXR2LmJsb2dzcG90LmNvbS9wL2xnbXgyLmh0bWw/aWQ9QVo3XzI=",
-                "optionText": "AZTECA 7 OP2"
-            },
-            {
-                "url": "aHR0cHM6Ly9tZXhpLXR2LmJsb2dzcG90LmNvbS9wL2xnbXgyLmh0bWw/aWQ9QVo3XzM=",
-                "optionText": "AZTECA 7 OP3"
-            },
-            {
-                "url": "aHR0cHM6Ly9tZXhpLXR2LmJsb2dzcG90LmNvbS9wL2xnbXgyLmh0bWw/aWQ9QVo3XzQ=",
-                "optionText": "AZTECA 7 OP4"
-            },
-            {
-                "url": "aHR0cHM6Ly9tZXhpLXR2LmJsb2dzcG90LmNvbS9wL2xnbXgyLmh0bWw/aWQ9QVo3XzU=",
-                "optionText": "AZTECA 7 OP5"
-            },
-            {
-                "url": "aHR0cHM6Ly9tZXhpLXR2LmJsb2dzcG90LmNvbS9wL2xnbXgyLmh0bWw/aWQ9QVo3XzY=",
-                "optionText": "AZTECA 7 OP6"
             }
         ]
     },
     {
         "time": "17:00",
         "tournament": "Serie Rio de la Plata",
-        "eventTitle": "Montevideo Wanderers vs. Instituto",
+        "eventTitle": "Belgrano vs. Progreso",
         "streams": [
             {
-                "url": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4YTk0OGU5Yjg4ODQ5Mzg3OTk4Mzg3OTk4Yjk4ODg4OTkzLmh0bWw=",
+                "url": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4YTk0OGU5Yzg2OGE5Nzg3OTk4MzhjOTQ4Zjk4ODc4NjkzLmh0bWw=",
                 "optionText": "TV"
             }
         ]
@@ -860,21 +1312,10 @@
     {
         "time": "17:15",
         "tournament": "Honduras",
-        "eventTitle": "UPNFM vs. CD Olimpia",
+        "eventTitle": "Motagua vs. Real Sociedad",
         "streams": [
             {
-                "url": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4YTk0OGU5Yjg4ODU5Mjg3OTk4Mzg3OWE4YTk4ODg4OTk1Lmh0bWw=",
-                "optionText": "TV"
-            }
-        ]
-    },
-    {
-        "time": "17:30",
-        "tournament": "Brazil Copinha",
-        "eventTitle": "Sao Paulo U20 vs. Cruzeiro U20",
-        "streams": [
-            {
-                "url": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4YTk0OGU5Yjg4ODY5MTg3OTk4Mzg3OWE4Yjk4ODg4OTk2Lmh0bWw=",
+                "url": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4YTk0OGU5Yzg2OGI5Njg3OTk4MzhjOTU4ODk4ODc4Njk0Lmh0bWw=",
                 "optionText": "TV"
             }
         ]
@@ -882,10 +1323,43 @@
     {
         "time": "17:30",
         "tournament": "Brazil Paulista",
-        "eventTitle": "Portuguesa vs. Novorizontino",
+        "eventTitle": "Ponte Preta vs. Santos",
         "streams": [
             {
-                "url": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4YTk0OGU5Yjg4ODY5MTg3OTk4Mzg3OWE4Yzk4ODg4OTk3Lmh0bWw=",
+                "url": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4YTk0OGU5Yzg2OGM5NTg3OTk4MzhjOTU4Yjk4ODc4Njk4Lmh0bWw=",
+                "optionText": "TV"
+            }
+        ]
+    },
+    {
+        "time": "18:00",
+        "tournament": "Brazil Carioca",
+        "eventTitle": "Flamengo RJ vs. Nova Iguacu",
+        "streams": [
+            {
+                "url": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4YTk0OGU5Yzg3ODQ5Mzg3OTk4Mzg3OTE4Zjk4ODc4Nzk3Lmh0bWw=",
+                "optionText": "TV"
+            }
+        ]
+    },
+    {
+        "time": "18:00",
+        "tournament": "Brazil Mineiro",
+        "eventTitle": "Uberlandia vs. America MG",
+        "streams": [
+            {
+                "url": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4YTk0OGU5Yzg3ODQ5Mzg3OTk4Mzg3OTE5MDk4ODc4Nzk4Lmh0bWw=",
+                "optionText": "TV"
+            }
+        ]
+    },
+    {
+        "time": "18:00",
+        "tournament": "Costa Rica Primera Division",
+        "eventTitle": "Zeledon vs. Santa Ana",
+        "streams": [
+            {
+                "url": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4YTk0OGU5Yzg3ODQ5Mzg3OTk4Mzg3OTI4Nzk4ODc4Nzk5Lmh0bWw=",
                 "optionText": "TV"
             }
         ]
@@ -893,43 +1367,21 @@
     {
         "time": "18:30",
         "tournament": "Brazil Copinha",
-        "eventTitle": "Criciuma U20 vs. Ferroviaria U20",
+        "eventTitle": "Corinthians U20 vs. Vasco U20",
         "streams": [
             {
-                "url": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4YTk0OGU5Yjg4ODk5Nzg3OTk4Mzg4OTY4YTk4ODk4NTk4Lmh0bWw=",
+                "url": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4YTk0OGU5Yzg3ODY5MTg3OTk4Mzg3OTI4YTk4ODc4ODkyLmh0bWw=",
                 "optionText": "TV"
             }
         ]
     },
     {
-        "time": "19:00",
-        "tournament": "Friendly",
-        "eventTitle": "Cienciano vs. Wilstermann",
+        "time": "18:30",
+        "tournament": "Brazil Copinha",
+        "eventTitle": "Palmeiras U20 vs. Gremio U20",
         "streams": [
             {
-                "url": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4YTk0OGU5Yjg4OGI5NTg3OTk4Mzg4OTg4ZTk4ODk4ODk1Lmh0bWw=",
-                "optionText": "TV"
-            }
-        ]
-    },
-    {
-        "time": "19:00",
-        "tournament": "Friendly",
-        "eventTitle": "Once Caldas vs. Universitario de Deportes",
-        "streams": [
-            {
-                "url": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4YTk0OGU5Yjg4OGI5NTg3OTk4Mzg4OTg4Zjk4ODk4ODk2Lmh0bWw=",
-                "optionText": "TV"
-            }
-        ]
-    },
-    {
-        "time": "19:00",
-        "tournament": "Guatemala",
-        "eventTitle": "Antigua vs. Guastatoya",
-        "streams": [
-            {
-                "url": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4YTk0OGU5Yjg4OGI5NTg3OTk4Mzg4OTg5MDk4ODk4ODk3Lmh0bWw=",
+                "url": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4YTk0OGU5Yzg3ODY5MTg3OTk4Mzg3OTI4Yjk4ODc4ODkzLmh0bWw=",
                 "optionText": "TV"
             }
         ]
@@ -937,94 +1389,21 @@
     {
         "time": "19:00",
         "tournament": "Mexico",
-        "eventTitle": "Toluca vs. Monterrey",
+        "eventTitle": "Monterrey W vs. Puebla W",
         "streams": [
             {
-                "url": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4YTk0OGU5Yjg4OGI5NTg3OTk4Mzg4OTk4Nzk4ODk4ODk4Lmh0bWw=",
+                "url": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4YTk0OGU5Yzg3ODc5OTg3OTk4Mzg3OTI4ZDk4ODc4ODk2Lmh0bWw=",
                 "optionText": "TV"
-            },
-            {
-                "url": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4YTk0OGU5Yjg4OGI5NTg3OTk4Mzg4OTk4ODk4ODk4ODk5Lmh0bWw=",
-                "optionText": "TV"
-            },
-            {
-                "url": "aHR0cHM6Ly9tZXhpLXR2LmJsb2dzcG90LmNvbS9wL2xnbXgyLmh0bWw/aWQ9U1RBUlM=",
-                "optionText": "LAS ESTRELLAS"
-            },
-            {
-                "url": "aHR0cHM6Ly9tZXhpLXR2LmJsb2dzcG90LmNvbS9wL2xnbXgyLmh0bWw/aWQ9U1RBUlMy",
-                "optionText": "LAS ESTRELLAS OP2"
-            },
-            {
-                "url": "aHR0cHM6Ly9tZXhpLXR2LmJsb2dzcG90LmNvbS9wL2xnbXgyLmh0bWw/aWQ9MkROTVg=",
-                "optionText": "TUDN MX"
-            },
-            {
-                "url": "aHR0cHM6Ly9tZXhpLXR2LmJsb2dzcG90LmNvbS9wL2xnbXgyLmh0bWw/aWQ9MkROVVM=",
-                "optionText": "TUDN US"
-            },
-            {
-                "url": "aHR0cHM6Ly9tZXhpLXR2LmJsb2dzcG90LmNvbS9wL2xnbXgyLmh0bWw/aWQ9MkROVVNfMg==",
-                "optionText": "TUDN US OP2"
-            },
-            {
-                "url": "aHR0cHM6Ly9tZXhpLXR2LmJsb2dzcG90LmNvbS9wL2xnbXgyLmh0bWw/aWQ9MkROVVM=",
-                "optionText": "UNIVISION US"
-            },
-            {
-                "url": "aHR0cHM6Ly9sZWFndWVteC10di5ibG9nc3BvdC5jb20vcC9sZ214dHYyLmh0bWw/cj1VTklWSVNJT05fMg==",
-                "optionText": "UNIVISION US OP2"
             }
         ]
     },
     {
         "time": "19:00",
         "tournament": "Serie Rio de la Plata",
-        "eventTitle": "Defensor Sporting vs. Independiente",
+        "eventTitle": "San Lorenzo vs. Independiente del Valle",
         "streams": [
             {
-                "url": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4YTk0OGU5Yjg4OGI5NTg3OTk4Mzg4OTk4OTk4ODk4ODlhLmh0bWw=",
-                "optionText": "TV"
-            }
-        ]
-    },
-    {
-        "time": "19:30",
-        "tournament": "Honduras",
-        "eventTitle": "Real Espana vs. Genesis",
-        "streams": [
-            {
-                "url": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4YTk0OGU5Yjg5ODM5Mzg3OTk4Mzg4OWE4Nzk4ODk4OTk2Lmh0bWw=",
-                "optionText": "TV"
-            }
-        ]
-    },
-    {
-        "time": "21:00",
-        "tournament": "A-League Women",
-        "eventTitle": "Wellington Phoenix W vs. Newcastle W",
-        "streams": [
-            {
-                "url": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4YTk0OGU5Yjg5ODg5Nzg3OTk4Mzg5OTI4ZTk4ODk4Yzk4Lmh0bWw=",
-                "optionText": "TV"
-            }
-        ]
-    },
-    {
-        "time": "21:00",
-        "tournament": "Friendly",
-        "eventTitle": "Inter Miami vs. Club America",
-        "streams": [
-            {
-                "url": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4YTk0OGU5Yjg5ODg5Nzg3OTk4Mzg5OTI4Zjk4ODk4Yzk5Lmh0bWw=",
-                "optionText": "TV"
-            },
-            {
-                "url": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4YTk0OGU5Yjg5ODg5Nzg3OTk4Mzg5OTI5MDk4ODk4YzlhLmh0bWw=",
-                "optionText": "TV"
-            },
-            {
-                "url": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4YTk0OGU5Yjg5ODg5Nzg3OTk4Mzg5OTM4Nzk4OGE4MzkxLmh0bWw=",
+                "url": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4YTk0OGU5Yzg3ODc5OTg3OTk4Mzg3OTI4ZTk4ODc4ODk3Lmh0bWw=",
                 "optionText": "TV"
             }
         ]
@@ -1032,64 +1411,21 @@
     {
         "time": "21:00",
         "tournament": "Mexico",
-        "eventTitle": "Atlas vs. Club Leon",
+        "eventTitle": "Mazatlan FC W vs. Pachuca W",
         "streams": [
             {
-                "url": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4YTk0OGU5Yjg5ODg5Nzg3OTk4Mzg5OTM4ODk4OGE4MzkyLmh0bWw=",
-                "optionText": "TV"
-            },
-            {
-                "url": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4YTk0OGU5Yjg5ODg5Nzg3OTk4Mzg5OTM4OTk4OGE4MzkzLmh0bWw=",
-                "optionText": "TV"
-            },
-            {
-                "url": "aHR0cHM6Ly9tZXhpLXR2LmJsb2dzcG90LmNvbS9wL2xnbXgyLmh0bWw/aWQ9U1RBUlM=",
-                "optionText": "LAS ESTRELLAS"
-            },
-            {
-                "url": "aHR0cHM6Ly9tZXhpLXR2LmJsb2dzcG90LmNvbS9wL2xnbXgyLmh0bWw/aWQ9U1RBUlMy",
-                "optionText": "LAS ESTRELLAS OP2"
-            },
-            {
-                "url": "aHR0cHM6Ly9tZXhpLXR2LmJsb2dzcG90LmNvbS9wL2xnbXgyLmh0bWw/aWQ9MkROTVg=",
-                "optionText": "TUDN MX"
-            },
-            {
-                "url": "aHR0cHM6Ly9tZXhpLXR2LmJsb2dzcG90LmNvbS9wL2xnbXgyLmh0bWw/aWQ9MkROVVM=",
-                "optionText": "TUDN US"
-            },
-            {
-                "url": "aHR0cHM6Ly9tZXhpLXR2LmJsb2dzcG90LmNvbS9wL2xnbXgyLmh0bWw/aWQ9MkROVVNfMg==",
-                "optionText": "TUDN US OP2"
-            },
-            {
-                "url": "aHR0cHM6Ly9tZXhpLXR2LmJsb2dzcG90LmNvbS9wL2xnbXgyLmh0bWw/aWQ9MkROVVM=",
-                "optionText": "UNIVISION US"
-            },
-            {
-                "url": "aHR0cHM6Ly9sZWFndWVteC10di5ibG9nc3BvdC5jb20vcC9sZ214dHYyLmh0bWw/cj1VTklWSVNJT05fMg==",
-                "optionText": "UNIVISION US OP2"
-            }
-        ]
-    },
-    {
-        "time": "00:00",
-        "tournament": "A-League Women",
-        "eventTitle": "Sydney FC W vs. Central Coast Mariners W",
-        "streams": [
-            {
-                "url": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4YTk0OGU5YjhhODk5NTg3OTk4Mzg5OTQ4Nzk4OGE4Mzk5Lmh0bWw=",
+                "url": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4YTk0OGU5Yzg4ODU5MTg3OTk4Mzg3OTM4Yzk4ODc4OTk3Lmh0bWw=",
                 "optionText": "TV"
             }
         ]
     },
     {
-        "time": "01:00",
-        "tournament": "A-League Women",
-        "eventTitle": "Brisbane Roar W vs. Adelaide United W",
+        "time": "02:00",
+        "tournament": "A-League",
+        "eventTitle": "Macarthur FC vs. Wellington Phoenix",
         "streams": [
             {
-                "url": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4YTk0OGU5YjhiODM5MTg3OTk4Mzg5OTQ4ODk4OGE4NDkxLmh0bWw=",
+                "url": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4YTk0OGU5YzhhODM5MTg3OTk4Mzg3OTM4ZDk4ODc4OTk4Lmh0bWw=",
                 "optionText": "TV"
             }
         ]
