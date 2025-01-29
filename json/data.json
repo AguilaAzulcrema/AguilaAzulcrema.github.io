@@ -1,12 +1,56 @@
 {
     "events": [
         {
-            "time": "18:30",
+            "time": "15:30",
+            "tournament": "jamaica",
+            "eventTitle": "Chapelton vs. Dunbeholden",
+            "streams": [
+                {
+                    "url": "emb2.html?r=https://voodc.com/embed/857b948f9a8c8a769187988b8a7590889e87.html",
+                    "optionText": "Opcion 1"
+                }
+            ]
+        },
+        {
+            "time": "16:00",
             "tournament": "costa-rica-primera-division",
-            "eventTitle": "Sporting San Jose vs. Liberia",
+            "eventTitle": "Guanacasteca vs. Puntarenas FC",
             "streams": [
                 {
-                    "url": "emb2.html?r=https://voodc.com/embed/857b948f9a85847a9187988888749088a288.html",
+                    "url": "emb2.html?r=https://voodc.com/embed/857b948f9a8c8c749187988b8a7a90889f85.html",
+                    "optionText": "Opcion 1"
+                }
+            ]
+        },
+        {
+            "time": "18:00",
+            "tournament": "jamaica",
+            "eventTitle": "Racing United vs. Harbour View",
+            "streams": [
+                {
+                    "url": "emb2.html?r=https://voodc.com/embed/857b948f9a8d897691879888897d90899f87.html",
+                    "optionText": "Opcion 1"
+                }
+            ]
+        },
+        {
+            "time": "19:00",
+            "tournament": "costa-rica-primera-division",
+            "eventTitle": "San Carlos vs. Alajuelense",
+            "streams": [
+                {
+                    "url": "emb2.html?r=https://voodc.com/embed/857b948f9a8d8c7c91879889857d908a9a8b.html",
+                    "optionText": "Opcion 1"
+                }
+            ]
+        },
+        {
+            "time": "19:00",
+            "tournament": "guatemala",
+            "eventTitle": "Antigua vs. CSD Municipal",
+            "streams": [
+                {
+                    "url": "emb2.html?r=https://voodc.com/embed/857b948f9a8d8c7c918798898676908a9b84.html",
                     "optionText": "Opcion 1"
                 }
             ]
@@ -14,14 +58,14 @@
         {
             "time": "19:00",
             "tournament": "mexico",
-            "eventTitle": "Club America vs. Atletico San Luis",
+            "eventTitle": "Atlas vs. Monterrey",
             "streams": [
                 {
-                    "url": "emb2.html?r=https://voodc.com/embed/857b948f9a85867891879888897590899988.html",
+                    "url": "emb2.html?r=https://voodc.com/embed/857b948f9a8d8c7c918798898677908a9b85.html",
                     "optionText": "Opcion 1"
                 },
                 {
-                    "url": "emb2.html?r=https://voodc.com/embed/857b948f9a85867891879888897690899989.html",
+                    "url": "emb2.html?r=https://voodc.com/embed/857b948f9a8d8c7c918798898678908a9b86.html",
                     "optionText": "Opcion 2"
                 }
             ]
@@ -29,44 +73,51 @@
         {
             "time": "19:00",
             "tournament": "mexico",
-            "eventTitle": "Puebla vs. Mazatlan FC",
+            "eventTitle": "Queretaro vs. Pachuca",
             "streams": [
                 {
-                    "url": "emb2.html?r=https://voodc.com/embed/857b948f9a8586789187988889779089998a.html",
+                    "url": "emb2.html?r=https://voodc.com/embed/857b948f9a8d8c7c918798898679908a9b87.html",
                     "optionText": "Opcion 1"
                 },
                 {
-                    "url": "emb2.html?r=https://voodc.com/embed/857b948f9a8586789187988889789089998b.html",
+                    "url": "emb2.html?r=https://voodc.com/embed/857b948f9a8d8c7c91879889867a908a9b88.html",
                     "optionText": "Opcion 2"
+                }
+            ]
+        },
+        {
+            "time": "20:00",
+            "tournament": "costa-rica-primera-division",
+            "eventTitle": "Deportivo Saprissa vs. AD Santos",
+            "streams": [
+                {
+                    "url": "emb2.html?r=https://voodc.com/embed/857b948f9b848678918798898879908a9d86.html",
+                    "optionText": "Opcion 1"
+                }
+            ]
+        },
+        {
+            "time": "21:00",
+            "tournament": "guatemala",
+            "eventTitle": "CSD Comunicaciones vs. Marquense",
+            "streams": [
+                {
+                    "url": "emb2.html?r=https://voodc.com/embed/857b948f9b848a7491879889897d908a9e8d.html",
+                    "optionText": "Opcion 1"
                 }
             ]
         },
         {
             "time": "21:00",
             "tournament": "mexico",
-            "eventTitle": "Club Leon vs. Chivas Guadalajara",
+            "eventTitle": "Juarez vs. Santos Laguna",
             "streams": [
                 {
-                    "url": "emb2.html?r=https://voodc.com/embed/857b948f9a858d7a918798888b7c90899c86.html",
+                    "url": "emb2.html?r=https://voodc.com/embed/857b948f9b848a74918798898a74908a9f84.html",
                     "optionText": "Opcion 1"
                 },
                 {
-                    "url": "emb2.html?r=https://voodc.com/embed/857b948f9a858d7a918798888b7d90899c87.html",
-                    "optionText": "Opcion 2"
-                }
-            ]
-        },
-        {
-            "time": "21:00",
-            "tournament": "mexico",
-            "eventTitle": "Tigres UANL vs. Club Tijuana",
-            "streams": [
-                {
-                    "url": "emb2.html?r=https://voodc.com/embed/857b948f9a858d7a918798888c7490899c88.html",
-                    "optionText": "Opcion 1"
-                },
-                {
-                    "url": "emb2.html?r=https://voodc.com/embed/857b948f9a858d7a918798888c7590899c89.html",
+                    "url": "emb2.html?r=https://voodc.com/embed/857b948f9b848a74918798898a75908a9f85.html",
                     "optionText": "Opcion 2"
                 }
             ]
@@ -74,14 +125,14 @@
         {
             "time": "21:05",
             "tournament": "mexico",
-            "eventTitle": "Necaxa vs. Cruz Azul",
+            "eventTitle": "UNAM Pumas vs. Toluca",
             "streams": [
                 {
-                    "url": "emb2.html?r=https://voodc.com/embed/857b948f9a858d7d918798888c7790899c8a.html",
+                    "url": "emb2.html?r=https://voodc.com/embed/857b948f9b848a77918798898a7b908a9f86.html",
                     "optionText": "Opcion 1"
                 },
                 {
-                    "url": "emb2.html?r=https://voodc.com/embed/857b948f9a858d7d918798888c7890899c8b.html",
+                    "url": "emb2.html?r=https://voodc.com/embed/857b948f9b848a77918798898a7c908a9f87.html",
                     "optionText": "Opcion 2"
                 }
             ]
