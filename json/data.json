@@ -1,6 +1,21 @@
 {
     "events": [
         {
+            "time": "19:00",
+            "tournament": "concacaf-champions-cup",
+            "eventTitle": "Real Hope vs. Cruz Azul",
+            "streams": [
+                {
+                    "url": "emb2.html?r=https://voodc.com/embed/857b948fa0858b76918798888a759089998c.html",
+                    "optionText": "Opcion 1"
+                },
+                {
+                    "url": "emb2.html?r=https://voodc.com/embed/857b948fa0858b76918798888a769089998d.html",
+                    "optionText": "Opcion 2"
+                }
+            ]
+        },
+        {
             "time": "20:00",
             "tournament": "costa-rica-primera-division",
             "eventTitle": "Guanacasteca vs. Deportivo Saprissa",
