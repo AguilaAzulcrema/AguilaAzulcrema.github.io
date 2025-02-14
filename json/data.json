@@ -1,208 +1,124 @@
 {
     "events": [
         {
-            "time": "12:00",
-            "tournament": "concacaf-championship",
-            "eventTitle": "Dominica U17 vs. Nicaragua U17",
-            "streams": [
-                {
-                    "url": "emb2.html?r=https://voodc.com/embed/858f94909d8a8d8e9187988a8a8b908f99.html",
-                    "optionText": "Opcion 1"
-                }
-            ]
-        },
-        {
-            "time": "13:00",
-            "tournament": "concacaf-championship",
-            "eventTitle": "Curacao U17 vs. Canada U17",
-            "streams": [
-                {
-                    "url": "emb2.html?r=https://voodc.com/embed/858f94909d8b878a9187988a8c8890909a.html",
-                    "optionText": "Opcion 1"
-                }
-            ]
-        },
-        {
-            "time": "15:00",
-            "tournament": "concacaf-championship",
-            "eventTitle": "Barbados U17 vs. Mexico U17",
-            "streams": [
-                {
-                    "url": "emb2.html?r=https://voodc.com/embed/858f94909d8c848c9187988b869190889d84.html",
-                    "optionText": "Opcion 1"
-                }
-            ]
-        },
-        {
-            "time": "15:30",
-            "tournament": "jamaica",
-            "eventTitle": "Cavalier vs. Montego Bay",
-            "streams": [
-                {
-                    "url": "emb2.html?r=https://voodc.com/embed/858f94909d8c868a9187988b878a90889d87.html",
-                    "optionText": "Opcion 1"
-                }
-            ]
-        },
-        {
             "time": "16:00",
-            "tournament": "concacaf-championship",
-            "eventTitle": "Antigua and Barbuda U17 vs. Haiti U17",
-            "streams": [
-                {
-                    "url": "emb2.html?r=https://voodc.com/embed/858f94909d8c88889187988b878e90889d8d.html",
-                    "optionText": "Opcion 1"
-                }
-            ]
-        },
-        {
-            "time": "16:00",
-            "tournament": "concacaf-championship",
-            "eventTitle": "Sint Maarten U17 vs. Trinidad & Tobago U17",
-            "streams": [
-                {
-                    "url": "emb2.html?r=https://voodc.com/embed/858f94909d8c88889187988b878f90889e84.html",
-                    "optionText": "Opcion 1"
-                }
-            ]
-        },
-        {
-            "time": "17:15",
-            "tournament": "honduras",
-            "eventTitle": "UPNFM vs. Real Espana",
-            "streams": [
-                {
-                    "url": "emb2.html?r=https://voodc.com/embed/858f94909d8c8c8d9187988b898f90889f8d.html",
-                    "optionText": "Opcion 1"
-                }
-            ]
-        },
-        {
-            "time": "18:00",
-            "tournament": "concacaf-championship",
-            "eventTitle": "Turks and Caicos Islands U17 vs. Bermuda U17",
-            "streams": [
-                {
-                    "url": "emb2.html?r=https://voodc.com/embed/858f94909d8d858a91879888868a9089998a.html",
-                    "optionText": "Opcion 1"
-                }
-            ]
-        },
-        {
-            "time": "18:00",
-            "tournament": "jamaica",
-            "eventTitle": "Arnett Gardens vs. Waterhouse",
-            "streams": [
-                {
-                    "url": "emb2.html?r=https://voodc.com/embed/858f94909d8d858a91879888868b9089998b.html",
-                    "optionText": "Opcion 1"
-                }
-            ]
-        },
-        {
-            "time": "19:00",
-            "tournament": "concacaf-champions-cup",
-            "eventTitle": "UNAM Pumas vs. Cavalry",
-            "streams": [
-                {
-                    "url": "emb2.html?r=https://voodc.com/embed/858f94909d8d8890918798888b8b90899e85.html",
-                    "optionText": "Opcion 1"
-                },
-                {
-                    "url": "emb2.html?r=https://voodc.com/embed/858f94909d8d8890918798888b8c90899e86.html",
-                    "optionText": "Opcion 2"
-                },
-                {
-                    "url": "emb2.html?r=https://voodc.com/embed/858f94909d8d8890918798888b8d90899e87.html",
-                    "optionText": "Opcion 3"
-                }
-            ]
-        },
-        {
-            "time": "19:00",
-            "tournament": "concacaf-championship",
-            "eventTitle": "Guyana U17 vs. Costa Rica U17",
-            "streams": [
-                {
-                    "url": "emb2.html?r=https://voodc.com/embed/858f94909d8d8890918798888b8e90899e88.html",
-                    "optionText": "Opcion 1"
-                }
-            ]
-        },
-        {
-            "time": "19:00",
-            "tournament": "concacaf-championship",
-            "eventTitle": "Saint Vincent and the Grenadines U17 vs. Guatemala U17",
-            "streams": [
-                {
-                    "url": "emb2.html?r=https://voodc.com/embed/858f94909d8d8890918798888b8f90899e89.html",
-                    "optionText": "Opcion 1"
-                }
-            ]
-        },
-        {
-            "time": "19:00",
-            "tournament": "liga-de-expansion-mx",
-            "eventTitle": "Alebrijes Oaxaca vs. Atlante",
-            "streams": [
-                {
-                    "url": "emb2.html?r=https://voodc.com/embed/858f94909d8d8890918798888b9090899e8a.html",
-                    "optionText": "Opcion 1"
-                }
-            ]
-        },
-        {
-            "time": "19:00",
-            "tournament": "liga-de-expansion-mx",
-            "eventTitle": "Correcaminos vs. Leones Negros",
-            "streams": [
-                {
-                    "url": "emb2.html?r=https://voodc.com/embed/858f94909d8d8890918798888b9190899e8b.html",
-                    "optionText": "Opcion 1"
-                }
-            ]
-        },
-        {
-            "time": "19:30",
-            "tournament": "honduras",
-            "eventTitle": "Marathon vs. Olancho",
-            "streams": [
-                {
-                    "url": "emb2.html?r=https://voodc.com/embed/858f94909d8d8a8e918798888d919089a089.html",
-                    "optionText": "Opcion 1"
-                }
-            ]
-        },
-        {
-            "time": "20:00",
-            "tournament": "costa-rica-primera-division",
-            "eventTitle": "AD Santos vs. Herediano",
-            "streams": [
-                {
-                    "url": "emb2.html?r=https://voodc.com/embed/858f94909d8d8c8c918798898689908a9984.html",
-                    "optionText": "Opcion 1"
-                }
-            ]
-        },
-        {
-            "time": "20:00",
-            "tournament": "costa-rica-primera-division",
-            "eventTitle": "Cartagines vs. Santa Ana",
-            "streams": [
-                {
-                    "url": "emb2.html?r=https://voodc.com/embed/858f94909d8d8c8c91879889868a908a9985.html",
-                    "optionText": "Opcion 1"
-                }
-            ]
-        },
-        {
-            "time": "21:06",
             "tournament": "mexico",
-            "eventTitle": "Guadalajara Chivas (f) vs. Toluca (f)",
+            "eventTitle": "Necaxa (f) vs. Club Tijuana (f)",
             "streams": [
                 {
-                    "url": "emb2.html?r=https://voodc.com/embed/858f94909e84868b978798898889908a9a8c.html",
+                    "url": "emb2.html?r=https://voodc.com/embed/857d9f9a8ca08488769c908ea1898377a596.html",
                     "optionText": "Opcion 1"
+                }
+            ]
+        },
+        {
+            "time": "17:00",
+            "tournament": "mexico",
+            "eventTitle": "Santos Laguna (f) vs. Pachuca (f)",
+            "streams": [
+                {
+                    "url": "emb2.html?r=https://voodc.com/embed/857d9f9a8ca08884769c908f998583789d9a.html",
+                    "optionText": "Opcion 1"
+                }
+            ]
+        },
+        {
+            "time": "18:00",
+            "tournament": "mexico",
+            "eventTitle": "UNAM Pumas (f) vs. Club America (f)",
+            "streams": [
+                {
+                    "url": "emb2.html?r=https://voodc.com/embed/857d9f9a8ca08b8a769c908b9a8d8378a299.html",
+                    "optionText": "Opcion 1"
+                }
+            ]
+        },
+        {
+            "time": "19:00",
+            "tournament": "costa-rica-primera-division",
+            "eventTitle": "Liberia vs. Zeledon",
+            "streams": [
+                {
+                    "url": "emb2.html?r=https://voodc.com/embed/857d9f9a8ca18586769c908b9f878378a594.html",
+                    "optionText": "Opcion 1"
+                }
+            ]
+        },
+        {
+            "time": "19:00",
+            "tournament": "liga-de-expansion-mx",
+            "eventTitle": "Tepatitlan de Morelos vs. Tapatio",
+            "streams": [
+                {
+                    "url": "emb2.html?r=https://voodc.com/embed/857d9f9a8ca18586769c908b9f888378a595.html",
+                    "optionText": "Opcion 1"
+                }
+            ]
+        },
+        {
+            "time": "19:00",
+            "tournament": "liga-de-expansion-mx",
+            "eventTitle": "Zacatecas Mineros vs. Tampico Madero",
+            "streams": [
+                {
+                    "url": "emb2.html?r=https://voodc.com/embed/857d9f9a8ca18586769c908b9f898378a596.html",
+                    "optionText": "Opcion 1"
+                }
+            ]
+        },
+        {
+            "time": "20:10",
+            "tournament": "mexico",
+            "eventTitle": "Monterrey (f) vs. Tigres UANL (f)",
+            "streams": [
+                {
+                    "url": "emb2.html?r=https://voodc.com/embed/857d9f9a8ca18988769c908ba28483799d9a.html",
+                    "optionText": "Opcion 1"
+                }
+            ]
+        },
+        {
+            "time": "21:00",
+            "tournament": "mexico",
+            "eventTitle": "Club America vs. Necaxa",
+            "streams": [
+                {
+                    "url": "emb2.html?r=https://voodc.com/embed/857d9f9a8ca18c88769c908ba28b83799e96.html",
+                    "optionText": "Opcion 1"
+                },
+                {
+                    "url": "emb2.html?r=https://voodc.com/embed/857d9f9a8ca18c88769c908ba28c83799e97.html",
+                    "optionText": "Opcion 2"
+                }
+            ]
+        },
+        {
+            "time": "21:00",
+            "tournament": "mexico",
+            "eventTitle": "Club Tijuana vs. Juarez",
+            "streams": [
+                {
+                    "url": "emb2.html?r=https://voodc.com/embed/857d9f9a8ca18c88769c908ba28d83799e98.html",
+                    "optionText": "Opcion 1"
+                },
+                {
+                    "url": "emb2.html?r=https://voodc.com/embed/857d9f9a8ca18c88769c908c998483799e99.html",
+                    "optionText": "Opcion 2"
+                }
+            ]
+        },
+        {
+            "time": "21:00",
+            "tournament": "mexico",
+            "eventTitle": "Mazatlan FC vs. Santos Laguna",
+            "streams": [
+                {
+                    "url": "emb2.html?r=https://voodc.com/embed/857d9f9a8ca18c88769c908c998583799e9a.html",
+                    "optionText": "Opcion 1"
+                },
+                {
+                    "url": "emb2.html?r=https://voodc.com/embed/857d9f9a8ca18c88769c908c998683799f91.html",
+                    "optionText": "Opcion 2"
                 }
             ]
         }
