@@ -1,12 +1,45 @@
 {
     "events": [
         {
-            "time": "16:00",
+            "time": "14:30",
+            "tournament": "jamaica",
+            "eventTitle": "Portmore vs. Mount Pleasant",
+            "streams": [
+                {
+                    "url": "emb2.html?r=https://voodc.com/embed/857aa692a4889a888473a198a48f98858b74.html",
+                    "optionText": "Opcion 1"
+                }
+            ]
+        },
+        {
+            "time": "15:45",
+            "tournament": "mexico",
+            "eventTitle": "Club America (f) vs. Puebla (f)",
+            "streams": [
+                {
+                    "url": "emb2.html?r=https://voodc.com/embed/857aa692a4889e8d8473a198a58d98858b7c.html",
+                    "optionText": "Opcion 1"
+                }
+            ]
+        },
+        {
+            "time": "17:00",
+            "tournament": "usl1",
+            "eventTitle": "Greenville Triumph SC vs. Union Omaha",
+            "streams": [
+                {
+                    "url": "emb2.html?r=https://voodc.com/embed/857aa692a48999888473a1959c8d98868575.html",
+                    "optionText": "Opcion 1"
+                }
+            ]
+        },
+        {
+            "time": "17:15",
             "tournament": "honduras",
-            "eventTitle": "Juticalpa vs. CD Olimpia",
+            "eventTitle": "UPNFM vs. Genesis",
             "streams": [
                 {
-                    "url": "emb2.html?r=https://voodc.com/embed/857aa692a38a99888473a198a38a98858c73.html",
+                    "url": "emb2.html?r=https://voodc.com/embed/857aa692a4899a878473a1959e8a98868579.html",
                     "optionText": "Opcion 1"
                 }
             ]
@@ -14,33 +47,59 @@
         {
             "time": "18:30",
             "tournament": "concacaf-champions-cup",
-            "eventTitle": "Columbus Crew vs. Los Angeles FC",
+            "eventTitle": "Monterrey vs. Vancouver Whitecaps",
             "streams": [
                 {
-                    "url": "emb2.html?r=https://voodc.com/embed/857aa692a38aa2888473a195a18e98868875.html",
+                    "url": "emb2.html?r=https://voodc.com/embed/857aa692a4899e8c8473a195a28898868977.html",
                     "optionText": "Opcion 1"
                 },
                 {
-                    "url": "emb2.html?r=https://voodc.com/embed/857aa692a38aa2888473a195a18f98868876.html",
+                    "url": "emb2.html?r=https://voodc.com/embed/857aa692a4899e8c8473a195a28998868978.html",
                     "optionText": "Opcion 2"
+                },
+                {
+                    "url": "emb2.html?r=https://voodc.com/embed/857aa692a4899e8c8473a195a28a98868979.html",
+                    "optionText": "Opcion 3"
                 }
             ]
         },
         {
-            "time": "18:30",
-            "tournament": "concacaf-champions-cup",
-            "eventTitle": "Cruz Azul vs. Seattle Sounders",
+            "time": "19:00",
+            "tournament": "mexico",
+            "eventTitle": "Pachuca (f) vs. UNAM Pumas (f)",
             "streams": [
                 {
-                    "url": "emb2.html?r=https://voodc.com/embed/857aa692a38aa2888473a195a19098868877.html",
+                    "url": "emb2.html?r=https://voodc.com/embed/857aa692a489a08a8473a195a38b98868a7a.html",
+                    "optionText": "Opcion 1"
+                }
+            ]
+        },
+        {
+            "time": "19:30",
+            "tournament": "honduras",
+            "eventTitle": "Motagua vs. Olancho",
+            "streams": [
+                {
+                    "url": "emb2.html?r=https://voodc.com/embed/857aa692a489a2888473a195a39098868b76.html",
+                    "optionText": "Opcion 1"
+                }
+            ]
+        },
+        {
+            "time": "20:30",
+            "tournament": "concacaf-champions-cup",
+            "eventTitle": "Club America vs. Chivas Guadalajara",
+            "streams": [
+                {
+                    "url": "emb2.html?r=https://voodc.com/embed/857aa692a48a9c848473a195a58b98868c7a.html",
                     "optionText": "Opcion 1"
                 },
                 {
-                    "url": "emb2.html?r=https://voodc.com/embed/857aa692a38aa2888473a195a28798868878.html",
+                    "url": "emb2.html?r=https://voodc.com/embed/857aa692a48a9c848473a195a58c98868c7b.html",
                     "optionText": "Opcion 2"
                 },
                 {
-                    "url": "emb2.html?r=https://voodc.com/embed/857aa692a38aa2888473a195a28898868879.html",
+                    "url": "emb2.html?r=https://voodc.com/embed/857aa692a48a9c848473a195a58d98868c7c.html",
                     "optionText": "Opcion 3"
                 }
             ]
@@ -48,19 +107,15 @@
         {
             "time": "20:30",
             "tournament": "concacaf-champions-cup",
-            "eventTitle": "Tigres UANL vs. FC Cincinnati",
+            "eventTitle": "Los Angeles Galaxy vs. Herediano",
             "streams": [
                 {
-                    "url": "emb2.html?r=https://voodc.com/embed/857aa692a38b9f8a8473a195a58798868b79.html",
+                    "url": "emb2.html?r=https://voodc.com/embed/857aa692a48a9c848473a195a58e98868d73.html",
                     "optionText": "Opcion 1"
                 },
                 {
-                    "url": "emb2.html?r=https://voodc.com/embed/857aa692a38b9f8a8473a195a58898868b7a.html",
+                    "url": "emb2.html?r=https://voodc.com/embed/857aa692a48a9c848473a195a58f98868d74.html",
                     "optionText": "Opcion 2"
-                },
-                {
-                    "url": "emb2.html?r=https://voodc.com/embed/857aa692a38b9f8a8473a195a58998868b7b.html",
-                    "optionText": "Opcion 3"
                 }
             ]
         }
