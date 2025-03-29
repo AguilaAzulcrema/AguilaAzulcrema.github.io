@@ -1,69 +1,6 @@
 {
     "events": [
         {
-            "time": "12:00",
-            "tournament": "usl",
-            "eventTitle": "Hartford Athletic vs. El Paso",
-            "streams": [
-                {
-                    "url": "emb2.html?r=https://voodc.com/embed/857aa6949e8e9a868473a199a18d98878879.html",
-                    "optionText": "Opcion 1"
-                }
-            ]
-        },
-        {
-            "time": "12:30",
-            "tournament": "mls",
-            "eventTitle": "New England Revolution vs. New York Red Bulls",
-            "streams": [
-                {
-                    "url": "emb2.html?r=https://voodc.com/embed/857aa6949e8e9c848473a199a39098878a76.html",
-                    "optionText": "Opcion 1"
-                },
-                {
-                    "url": "emb2.html?r=https://voodc.com/embed/857aa6949e8e9c848473a199a48798878a77.html",
-                    "optionText": "Opcion 2"
-                }
-            ]
-        },
-        {
-            "time": "12:30",
-            "tournament": "mls",
-            "eventTitle": "Toronto FC vs. Vancouver Whitecaps",
-            "streams": [
-                {
-                    "url": "emb2.html?r=https://voodc.com/embed/857aa6949e8e9c848473a199a48898878a78.html",
-                    "optionText": "Opcion 1"
-                },
-                {
-                    "url": "emb2.html?r=https://voodc.com/embed/857aa6949e8e9c848473a199a48998878a79.html",
-                    "optionText": "Opcion 2"
-                }
-            ]
-        },
-        {
-            "time": "14:00",
-            "tournament": "usl",
-            "eventTitle": "Loudoun vs. Rhode Island",
-            "streams": [
-                {
-                    "url": "emb2.html?r=https://voodc.com/embed/857aa6949e8ea1888473a19a9f8d98888777.html",
-                    "optionText": "Opcion 1"
-                }
-            ]
-        },
-        {
-            "time": "14:00",
-            "tournament": "usl",
-            "eventTitle": "Louisville City FC vs. Detroit",
-            "streams": [
-                {
-                    "url": "emb2.html?r=https://voodc.com/embed/857aa6949e8ea1888473a19a9f8e98888778.html",
-                    "optionText": "Opcion 1"
-                }
-            ]
-        },
-        {
             "time": "14:30",
             "tournament": "mls",
             "eventTitle": "Colorado Rapids vs. Charlotte",
@@ -71,10 +8,6 @@
                 {
                     "url": "emb2.html?r=https://voodc.com/embed/857aa6949e8f99868473a19aa28998888974.html",
                     "optionText": "Opcion 1"
-                },
-                {
-                    "url": "emb2.html?r=https://voodc.com/embed/857aa6949e8f99868473a19aa28a98888975.html",
-                    "optionText": "Opcion 2"
                 }
             ]
         },
@@ -119,6 +52,495 @@
                 {
                     "url": "emb2.html?r=https://voodc.com/embed/857aa6949e8f9e8a8473a1959d8a98898474.html",
                     "optionText": "Opcion 1"
+                }
+            ]
+        },
+        {
+            "time": "17:00",
+            "tournament": "liga-de-expansion-mx",
+            "eventTitle": "Atlante vs. Cancun",
+            "streams": [
+                {
+                    "url": "emb2.html?r=https://voodc.com/embed/857aa6949e8fa2868473a1959f8b98898775.html",
+                    "optionText": "Opcion 1"
+                }
+            ]
+        },
+        {
+            "time": "17:00",
+            "tournament": "liga-de-expansion-mx",
+            "eventTitle": "Atletico Morelia vs. Correcaminos",
+            "streams": [
+                {
+                    "url": "emb2.html?r=https://voodc.com/embed/857aa6949e8fa2868473a1959f8c98898776.html",
+                    "optionText": "Opcion 1"
+                }
+            ]
+        },
+        {
+            "time": "17:00",
+            "tournament": "mexico",
+            "eventTitle": "Club Leon (f) vs. UNAM Pumas (f)",
+            "streams": [
+                {
+                    "url": "emb2.html?r=https://voodc.com/embed/857aa6949e8fa2868473a1959f8d98898778.html",
+                    "optionText": "Opcion 1"
+                }
+            ]
+        },
+        {
+            "time": "17:00",
+            "tournament": "mexico",
+            "eventTitle": "Juarez vs. Puebla",
+            "streams": [
+                {
+                    "url": "emb2.html?r=https://voodc.com/embed/857aa6949e8fa2868473a1959f8e98898779.html",
+                    "optionText": "Opcion 1"
+                },
+                {
+                    "url": "emb2.html?r=https://voodc.com/embed/857aa6949e8fa2868473a1959f8f9889877a.html",
+                    "optionText": "Opcion 2"
+                }
+            ]
+        },
+        {
+            "time": "17:00",
+            "tournament": "mexico",
+            "eventTitle": "Toluca vs. Pachuca",
+            "streams": [
+                {
+                    "url": "emb2.html?r=https://voodc.com/embed/857aa6949e8fa2868473a1959f909889877b.html",
+                    "optionText": "Opcion 1"
+                },
+                {
+                    "url": "emb2.html?r=https://voodc.com/embed/857aa6949e8fa2868473a195a0879889877c.html",
+                    "optionText": "Opcion 2"
+                }
+            ]
+        },
+        {
+            "time": "17:00",
+            "tournament": "mls-next-pro",
+            "eventTitle": "Vancouver Whitecaps 2 vs. Portland Timbers 2",
+            "streams": [
+                {
+                    "url": "emb2.html?r=https://voodc.com/embed/857aa6949e8fa2868473a195a08898898777.html",
+                    "optionText": "Opcion 1"
+                }
+            ]
+        },
+        {
+            "time": "17:00",
+            "tournament": "usl",
+            "eventTitle": "Indy Eleven vs. Colorado Springs Switchbacks",
+            "streams": [
+                {
+                    "url": "emb2.html?r=https://voodc.com/embed/857aa6949e8fa2868473a195a08a98898875.html",
+                    "optionText": "Opcion 1"
+                }
+            ]
+        },
+        {
+            "time": "17:00",
+            "tournament": "usl",
+            "eventTitle": "Lexington vs. San Antonio Scorpions",
+            "streams": [
+                {
+                    "url": "emb2.html?r=https://voodc.com/embed/857aa6949e8fa2868473a195a08b98898876.html",
+                    "optionText": "Opcion 1"
+                }
+            ]
+        },
+        {
+            "time": "17:00",
+            "tournament": "usl",
+            "eventTitle": "Miami FC vs. New Mexico United",
+            "streams": [
+                {
+                    "url": "emb2.html?r=https://voodc.com/embed/857aa6949e8fa2868473a195a08c98898877.html",
+                    "optionText": "Opcion 1"
+                }
+            ]
+        },
+        {
+            "time": "17:00",
+            "tournament": "usl",
+            "eventTitle": "North Carolina vs. Charleston Battery",
+            "streams": [
+                {
+                    "url": "emb2.html?r=https://voodc.com/embed/857aa6949e8fa2868473a195a08d98898878.html",
+                    "optionText": "Opcion 1"
+                }
+            ]
+        },
+        {
+            "time": "17:00",
+            "tournament": "usl",
+            "eventTitle": "Pittsburgh Riverhounds SC vs. Birmingham",
+            "streams": [
+                {
+                    "url": "emb2.html?r=https://voodc.com/embed/857aa6949e8fa2868473a195a08e98898879.html",
+                    "optionText": "Opcion 1"
+                }
+            ]
+        },
+        {
+            "time": "17:00",
+            "tournament": "usl-super-league",
+            "eventTitle": "Carolina Ascent (f) vs. Dallas Trinity (f)",
+            "streams": [
+                {
+                    "url": "emb2.html?r=https://voodc.com/embed/857aa6949e8fa2868473a195a08f98898874.html",
+                    "optionText": "Opcion 1"
+                }
+            ]
+        },
+        {
+            "time": "17:00",
+            "tournament": "usl1",
+            "eventTitle": "FC Naples vs. Portland Hearts of Pine",
+            "streams": [
+                {
+                    "url": "emb2.html?r=https://voodc.com/embed/857aa6949e8fa2868473a195a0909889887a.html",
+                    "optionText": "Opcion 1"
+                }
+            ]
+        },
+        {
+            "time": "17:00",
+            "tournament": "usl1",
+            "eventTitle": "Greenville Triumph SC vs. Spokane Velocity",
+            "streams": [
+                {
+                    "url": "emb2.html?r=https://voodc.com/embed/857aa6949e8fa2868473a195a1879889887b.html",
+                    "optionText": "Opcion 1"
+                }
+            ]
+        },
+        {
+            "time": "17:00",
+            "tournament": "usl1",
+            "eventTitle": "Tormenta vs. Union Omaha",
+            "streams": [
+                {
+                    "url": "emb2.html?r=https://voodc.com/embed/857aa6949e8fa2868473a195a1889889887c.html",
+                    "optionText": "Opcion 1"
+                }
+            ]
+        },
+        {
+            "time": "17:30",
+            "tournament": "mls",
+            "eventTitle": "Atlanta United vs. New York City",
+            "streams": [
+                {
+                    "url": "emb2.html?r=https://voodc.com/embed/857aa6949e909a848473a195a38d98898a79.html",
+                    "optionText": "Opcion 1"
+                },
+                {
+                    "url": "emb2.html?r=https://voodc.com/embed/857aa6949e909a848473a195a38e98898a7a.html",
+                    "optionText": "Opcion 2"
+                }
+            ]
+        },
+        {
+            "time": "17:30",
+            "tournament": "mls",
+            "eventTitle": "DC United vs. Columbus Crew",
+            "streams": [
+                {
+                    "url": "emb2.html?r=https://voodc.com/embed/857aa6949e909a848473a195a38f98898a7b.html",
+                    "optionText": "Opcion 1"
+                },
+                {
+                    "url": "emb2.html?r=https://voodc.com/embed/857aa6949e909a848473a195a39098898a7c.html",
+                    "optionText": "Opcion 2"
+                }
+            ]
+        },
+        {
+            "time": "17:30",
+            "tournament": "mls",
+            "eventTitle": "Inter Miami vs. Philadelphia Union",
+            "streams": [
+                {
+                    "url": "emb2.html?r=https://voodc.com/embed/857aa6949e909a848473a195a48798898b73.html",
+                    "optionText": "Opcion 1"
+                },
+                {
+                    "url": "emb2.html?r=https://voodc.com/embed/857aa6949e909a848473a195a48898898b74.html",
+                    "optionText": "Opcion 2"
+                }
+            ]
+        },
+        {
+            "time": "17:30",
+            "tournament": "nwsl",
+            "eventTitle": "Kansas City Current (f) vs. Utah Royals (f)",
+            "streams": [
+                {
+                    "url": "emb2.html?r=https://voodc.com/embed/857aa6949e909a848473a195a48998898b75.html",
+                    "optionText": "Opcion 1"
+                }
+            ]
+        },
+        {
+            "time": "18:00",
+            "tournament": "usl1",
+            "eventTitle": "Texoma vs. Westchester SC",
+            "streams": [
+                {
+                    "url": "emb2.html?r=https://voodc.com/embed/857aa6949e909b8c8473a1969c8d98898d7b.html",
+                    "optionText": "Opcion 1"
+                }
+            ]
+        },
+        {
+            "time": "18:30",
+            "tournament": "mls",
+            "eventTitle": "Chicago Fire vs. CF Montreal",
+            "streams": [
+                {
+                    "url": "emb2.html?r=https://voodc.com/embed/857aa6949e909d8a8473a1969d8e988a8479.html",
+                    "optionText": "Opcion 1"
+                },
+                {
+                    "url": "emb2.html?r=https://voodc.com/embed/857aa6949e909d8a8473a1969d8f988a847a.html",
+                    "optionText": "Opcion 2"
+                }
+            ]
+        },
+        {
+            "time": "18:30",
+            "tournament": "mls",
+            "eventTitle": "FC Dallas vs. Sporting Kansas City",
+            "streams": [
+                {
+                    "url": "emb2.html?r=https://voodc.com/embed/857aa6949e909d8a8473a1969d90988a847b.html",
+                    "optionText": "Opcion 1"
+                },
+                {
+                    "url": "emb2.html?r=https://voodc.com/embed/857aa6949e909d8a8473a1969e87988a847c.html",
+                    "optionText": "Opcion 2"
+                }
+            ]
+        },
+        {
+            "time": "18:30",
+            "tournament": "mls",
+            "eventTitle": "Minnesota United vs. Real Salt Lake",
+            "streams": [
+                {
+                    "url": "emb2.html?r=https://voodc.com/embed/857aa6949e909d8a8473a1969e88988a8573.html",
+                    "optionText": "Opcion 1"
+                },
+                {
+                    "url": "emb2.html?r=https://voodc.com/embed/857aa6949e909d8a8473a1969e89988a8574.html",
+                    "optionText": "Opcion 2"
+                }
+            ]
+        },
+        {
+            "time": "18:30",
+            "tournament": "mls",
+            "eventTitle": "Nashville SC vs. FC Cincinnati",
+            "streams": [
+                {
+                    "url": "emb2.html?r=https://voodc.com/embed/857aa6949e909d8a8473a1969e8a988a8575.html",
+                    "optionText": "Opcion 1"
+                },
+                {
+                    "url": "emb2.html?r=https://voodc.com/embed/857aa6949e909d8a8473a1969e8b988a8576.html",
+                    "optionText": "Opcion 2"
+                }
+            ]
+        },
+        {
+            "time": "19:00",
+            "tournament": "guatemala",
+            "eventTitle": "Antigua vs. CSD Comunicaciones",
+            "streams": [
+                {
+                    "url": "emb2.html?r=https://voodc.com/embed/857aa6949e909f888473a1969e8f988a867a.html",
+                    "optionText": "Opcion 1"
+                }
+            ]
+        },
+        {
+            "time": "19:00",
+            "tournament": "liga-de-expansion-mx",
+            "eventTitle": "Celaya vs. Alebrijes Oaxaca",
+            "streams": [
+                {
+                    "url": "emb2.html?r=https://voodc.com/embed/857aa6949e909f888473a1969e90988a867b.html",
+                    "optionText": "Opcion 1"
+                }
+            ]
+        },
+        {
+            "time": "19:00",
+            "tournament": "liga-de-expansion-mx",
+            "eventTitle": "Tlaxcala vs. Dorados de Sinaloa",
+            "streams": [
+                {
+                    "url": "emb2.html?r=https://voodc.com/embed/857aa6949e909f888473a1969f87988a867c.html",
+                    "optionText": "Opcion 1"
+                }
+            ]
+        },
+        {
+            "time": "19:05",
+            "tournament": "mexico",
+            "eventTitle": "Club America vs. Tigres UANL",
+            "streams": [
+                {
+                    "url": "emb2.html?r=https://voodc.com/embed/857aa6949e909f8b8473a1969f8f988a8773.html",
+                    "optionText": "Opcion 1"
+                },
+                {
+                    "url": "emb2.html?r=https://voodc.com/embed/857aa6949e909f8b8473a1969f90988a8774.html",
+                    "optionText": "Opcion 2"
+                }
+            ]
+        },
+        {
+            "time": "19:30",
+            "tournament": "honduras",
+            "eventTitle": "Marathon vs. Motagua",
+            "streams": [
+                {
+                    "url": "emb2.html?r=https://voodc.com/embed/857aa6949e90a1868473a196a08c988a877a.html",
+                    "optionText": "Opcion 1"
+                }
+            ]
+        },
+        {
+            "time": "20:00",
+            "tournament": "costa-rica-primera-division",
+            "eventTitle": "Guanacasteca vs. San Carlos",
+            "streams": [
+                {
+                    "url": "emb2.html?r=https://voodc.com/embed/857aa6949f8799848473a196a090988a8879.html",
+                    "optionText": "Opcion 1"
+                }
+            ]
+        },
+        {
+            "time": "20:00",
+            "tournament": "nwsl",
+            "eventTitle": "Portland Thorns (f) vs. North Carolina Courage (f)",
+            "streams": [
+                {
+                    "url": "emb2.html?r=https://voodc.com/embed/857aa6949f8799848473a196a187988a887a.html",
+                    "optionText": "Opcion 1"
+                }
+            ]
+        },
+        {
+            "time": "20:00",
+            "tournament": "usl",
+            "eventTitle": "Monterey Bay vs. Phoenix Rising FC",
+            "streams": [
+                {
+                    "url": "emb2.html?r=https://voodc.com/embed/857aa6949f8799848473a196a188988a887b.html",
+                    "optionText": "Opcion 1"
+                }
+            ]
+        },
+        {
+            "time": "20:00",
+            "tournament": "usl",
+            "eventTitle": "Oakland Roots vs. Las Vegas Lights",
+            "streams": [
+                {
+                    "url": "emb2.html?r=https://voodc.com/embed/857aa6949f8799848473a196a189988a887c.html",
+                    "optionText": "Opcion 1"
+                }
+            ]
+        },
+        {
+            "time": "20:30",
+            "tournament": "mls",
+            "eventTitle": "Los Angeles Galaxy vs. Orlando City",
+            "streams": [
+                {
+                    "url": "emb2.html?r=https://voodc.com/embed/857aa6949f879a8c8473a196a28a988a8978.html",
+                    "optionText": "Opcion 1"
+                },
+                {
+                    "url": "emb2.html?r=https://voodc.com/embed/857aa6949f879a8c8473a196a28b988a8979.html",
+                    "optionText": "Opcion 2"
+                }
+            ]
+        },
+        {
+            "time": "20:30",
+            "tournament": "mls",
+            "eventTitle": "San Diego FC vs. Los Angeles FC",
+            "streams": [
+                {
+                    "url": "emb2.html?r=https://voodc.com/embed/857aa6949f879a8c8473a196a28c988a897a.html",
+                    "optionText": "Opcion 1"
+                },
+                {
+                    "url": "emb2.html?r=https://voodc.com/embed/857aa6949f879a8c8473a196a28d988a897b.html",
+                    "optionText": "Opcion 2"
+                }
+            ]
+        },
+        {
+            "time": "20:30",
+            "tournament": "mls",
+            "eventTitle": "San Jose Earthquakes vs. Seattle Sounders",
+            "streams": [
+                {
+                    "url": "emb2.html?r=https://voodc.com/embed/857aa6949f879a8c8473a196a28e988a897c.html",
+                    "optionText": "Opcion 1"
+                },
+                {
+                    "url": "emb2.html?r=https://voodc.com/embed/857aa6949f879a8c8473a196a28f988a8a73.html",
+                    "optionText": "Opcion 2"
+                }
+            ]
+        },
+        {
+            "time": "21:00",
+            "tournament": "liga-de-expansion-mx",
+            "eventTitle": "Tampico Madero vs. Tepatitlan de Morelos",
+            "streams": [
+                {
+                    "url": "emb2.html?r=https://voodc.com/embed/857aa6949f879c8a8473a196a387988a8a76.html",
+                    "optionText": "Opcion 1"
+                }
+            ]
+        },
+        {
+            "time": "21:05",
+            "tournament": "mexico",
+            "eventTitle": "Chivas Guadalajara vs. Cruz Azul",
+            "streams": [
+                {
+                    "url": "emb2.html?r=https://voodc.com/embed/857aa6949f879c8d8473a196a388988a8a77.html",
+                    "optionText": "Opcion 1"
+                },
+                {
+                    "url": "emb2.html?r=https://voodc.com/embed/857aa6949f879c8d8473a196a389988a8a78.html",
+                    "optionText": "Opcion 2"
+                }
+            ]
+        },
+        {
+            "time": "21:10",
+            "tournament": "mexico",
+            "eventTitle": "Monterrey vs. Club Tijuana",
+            "streams": [
+                {
+                    "url": "emb2.html?r=https://voodc.com/embed/857aa6949f879d868473a196a38a988a8a79.html",
+                    "optionText": "Opcion 1"
+                },
+                {
+                    "url": "emb2.html?r=https://voodc.com/embed/857aa6949f879d868473a196a38b988a8a7a.html",
+                    "optionText": "Opcion 2"
                 }
             ]
         }
