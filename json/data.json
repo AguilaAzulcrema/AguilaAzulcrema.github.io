@@ -1,3 +1,53 @@
 {
-    "events": []
+    "events": [
+        {
+            "time": "17:30",
+            "tournament": "usl-super-league",
+            "eventTitle": "DC Power (f) vs. Carolina Ascent (f)",
+            "streams": [
+                {
+                    "url": "emb2.html?r=https://voodc.com/embed/85818a959d8c9e84847a85959f8c9886857c.html",
+                    "optionText": "Opcion 1"
+                }
+            ]
+        },
+        {
+            "time": "19:00",
+            "tournament": "concacaf-champions-cup",
+            "eventTitle": "Tigres UANL vs. Los Angeles Galaxy",
+            "streams": [
+                {
+                    "url": "emb2.html?r=https://voodc.com/embed/85818a959d8d9988847a8595a48998868a7b.html",
+                    "optionText": "Opcion 1"
+                },
+                {
+                    "url": "emb2.html?r=https://voodc.com/embed/85818a959d8d9988847a8595a48a98868a7c.html",
+                    "optionText": "Opcion 2"
+                },
+                {
+                    "url": "emb2.html?r=https://voodc.com/embed/85818a959d8d9988847a8595a48b98868a7d.html",
+                    "optionText": "Opcion 3"
+                }
+            ]
+        },
+        {
+            "time": "21:30",
+            "tournament": "concacaf-champions-cup",
+            "eventTitle": "Cruz Azul vs. Club America",
+            "streams": [
+                {
+                    "url": "emb2.html?r=https://voodc.com/embed/85818a959d8da288847a85969d8a98868c81.html",
+                    "optionText": "Opcion 1"
+                },
+                {
+                    "url": "emb2.html?r=https://voodc.com/embed/85818a959d8da288847a85969d8b98868c82.html",
+                    "optionText": "Opcion 2"
+                },
+                {
+                    "url": "emb2.html?r=https://voodc.com/embed/85818a959d8da288847a85969d8c98868c83.html",
+                    "optionText": "Opcion 3"
+                }
+            ]
+        }
+    ]
 }
