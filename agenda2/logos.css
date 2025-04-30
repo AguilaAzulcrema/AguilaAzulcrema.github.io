@@ -65,7 +65,8 @@
     background-image: url(https://imagecache.365scores.com/image/upload/v1/Competitors/5041);
 }
 
-.MOLDOVA > a .event-logo:before {
+.MOLDOVA >a:before,
+.MOLDOVANCUP >a:before {
     background-image: url(https://imagecache.365scores.com/image/upload/v1/Competitors/5031);
 }
 
