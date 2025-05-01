@@ -1,65 +1,80 @@
 {
     "events": [
         {
-            "time": "16:00",
-            "tournament": "guatemala",
-            "eventTitle": "Guastatoya vs. Antigua",
+            "time": "13:00",
+            "tournament": "costa-rica-liga-de-ascenso",
+            "eventTitle": "ADR Jicaral vs. Consultants Desamparados",
             "streams": [
                 {
-                    "url": "emb2.html?r=https://voodc.com/embed/85818a979c8c9988847a8597a58e9885847b.html",
+                    "url": "emb2.html?r=https://voodc.com/embed/85818a979d899f84847a85989f8d98858a7c.html",
                     "optionText": "Opcion 1"
                 }
             ]
         },
         {
-            "time": "17:00",
-            "tournament": "canada-championship",
-            "eventTitle": "Toronto FC vs. CF Montreal",
+            "time": "15:00",
+            "tournament": "guatemala",
+            "eventTitle": "Deportivo Mixco vs. CSD Municipal",
             "streams": [
                 {
-                    "url": "emb2.html?r=https://voodc.com/embed/85818a979c8c9d84847a85959c8b9885867d.html",
+                    "url": "emb2.html?r=https://voodc.com/embed/85818a979d8a9c86847a8598a08a98858b7b.html",
+                    "optionText": "Opcion 1"
+                }
+            ]
+        },
+        {
+            "time": "17:30",
+            "tournament": "guatemala",
+            "eventTitle": "Marquense vs. CSD Comunicaciones",
+            "streams": [
+                {
+                    "url": "emb2.html?r=https://voodc.com/embed/85818a979d8b9b86847a85959e8d98868482.html",
                     "optionText": "Opcion 1"
                 }
             ]
         },
         {
             "time": "18:00",
-            "tournament": "concacaf-champions-cup",
-            "eventTitle": "Inter Miami vs. Vancouver Whitecaps",
+            "tournament": "usl",
+            "eventTitle": "Louisville City FC vs. Lexington",
             "streams": [
                 {
-                    "url": "emb2.html?r=https://voodc.com/embed/85818a979c8ca08a847a85959f9098858980.html",
+                    "url": "emb2.html?r=https://voodc.com/embed/85818a979d8b9d84847a85959f879886857f.html",
+                    "optionText": "Opcion 1"
+                }
+            ]
+        },
+        {
+            "time": "19:05",
+            "tournament": "mexico",
+            "eventTitle": "Guadalajara Chivas (f) vs. Club America (f)",
+            "streams": [
+                {
+                    "url": "emb2.html?r=https://voodc.com/embed/85818a979d8ba08d847a85959f8f9886867a.html",
                     "optionText": "Opcion 1"
                 },
                 {
-                    "url": "emb2.html?r=https://voodc.com/embed/85818a979c8ca08a847a8595a08798858981.html",
+                    "url": "emb2.html?r=https://voodc.com/embed/85818a979d8ba08d847a85959f909886867b.html",
+                    "optionText": "Opcion 2"
+                }
+            ]
+        },
+        {
+            "time": "20:00",
+            "tournament": "concacaf-champions-cup",
+            "eventTitle": "Cruz Azul vs. Tigres UANL",
+            "streams": [
+                {
+                    "url": "emb2.html?r=https://voodc.com/embed/85818a979d8c9a86847a8595a2879886887f.html",
+                    "optionText": "Opcion 1"
+                },
+                {
+                    "url": "emb2.html?r=https://voodc.com/embed/85818a979d8c9a86847a8595a28898868880.html",
                     "optionText": "Opcion 2"
                 },
                 {
-                    "url": "emb2.html?r=https://voodc.com/embed/85818a979c8ca08a847a8595a08898858982.html",
+                    "url": "emb2.html?r=https://voodc.com/embed/85818a979d8c9a86847a8595a28998868881.html",
                     "optionText": "Opcion 3"
-                }
-            ]
-        },
-        {
-            "time": "20:00",
-            "tournament": "costa-rica-liga-de-ascenso",
-            "eventTitle": "Escorpiones vs. Inter San Carlos",
-            "streams": [
-                {
-                    "url": "emb2.html?r=https://voodc.com/embed/85818a979c8d9d8c847a8595a38798858c80.html",
-                    "optionText": "Opcion 1"
-                }
-            ]
-        },
-        {
-            "time": "20:00",
-            "tournament": "guatemala",
-            "eventTitle": "Malacateco vs. Coban Imperial",
-            "streams": [
-                {
-                    "url": "emb2.html?r=https://voodc.com/embed/85818a979c8d9d8c847a8595a38898858c81.html",
-                    "optionText": "Opcion 1"
                 }
             ]
         }

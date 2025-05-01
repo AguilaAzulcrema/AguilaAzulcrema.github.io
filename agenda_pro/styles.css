@@ -493,7 +493,8 @@ div.sombreada_css3 {
     background-image: url(https://imagecache.365scores.com/image/upload/v12/Competitors/5075);
 }
 
-.BOLIVIA >a:before {
+.BOLIVIA >a:before,
+.COPABOLIVIA >a:before {
     background-image: url(https://imagecache.365scores.com/image/upload/v11/Competitors/5077);
 }
 
@@ -541,7 +542,12 @@ div.sombreada_css3 {
     background-image: url(https://imagecache.365scores.com/image/upload/v2/Competitors/5056);
 }
 
+.ALBANIANCUP >a:before {
+    background-image: url(https://imagecache.365scores.com/image/upload/v1/Competitors/5029);
+}
+
 .MLS >a:before,
+.NSL >a:before,
 .NCAA >a:before,
 .NCAATOURNAMENT >a:before,
 .NISA >a:before,
