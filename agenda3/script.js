@@ -21,30 +21,83 @@ setInterval(updateDateTime, 60000);
 // Referencias DOM
 const eventsContainer = document.getElementById('events');
 const playerFrame = document.getElementById('stream-frame');
+const initialContent = document.getElementById('initial-content');
 const searchBar = document.getElementById('search-bar');
 const headerTitle = document.getElementById('header-title');
 
 // Variable para guardar el evento abierto
 let currentOpenEvent = null;
 let eventCounter = 0;
+let eventsData = []; // Almacenar todos los eventos para actualización de estado
 
-// Función para decodificar Base64
-function decodeBase64Url(base64) {
-    try {
-        return atob(base64);
-    } catch (e) {
-        console.error('Error al decodificar base64:', e);
-        return '';
+// El prefijo para las URLs de transmisión
+const streamUrlPrefix = "https://mexi-tv.blogspot.com/p/emb.html?r=";
+
+// Enumeración para estados de eventos
+const EventStatus = {
+    UPCOMING: 'upcoming',
+    LIVE: 'live',
+    ENDED: 'ended'
+};
+
+// Función para determinar el estado de un evento basado en su hora programada
+function getEventStatus(eventTime) {
+    const now = new Date();
+    const [hours, minutes] = eventTime.split(':').map(Number);
+    
+    // Crear una fecha con la hora del evento en zona horaria del usuario
+    const eventDate = new Date();
+    eventDate.setHours(hours, minutes, 0, 0);
+    
+    // Añadir buffer para eventos en vivo (5 minutos antes)
+    const liveBuffer = new Date(eventDate);
+    liveBuffer.setMinutes(liveBuffer.getMinutes() - 5);
+    
+    // Añadir buffer para eventos finalizados (2.5 horas después)
+    const endBuffer = new Date(eventDate);
+    endBuffer.setMinutes(endBuffer.getMinutes() + 129); // 2.5 horas = 150 minutos
+    
+    if (now < liveBuffer) {
+        return EventStatus.UPCOMING;
+    } else if (now >= liveBuffer && now < endBuffer) {
+        return EventStatus.LIVE;
+    } else {
+        return EventStatus.ENDED;
     }
+}
+
+// Actualizar estados de eventos periódicamente
+function updateEventStatuses() {
+    const eventItems = document.querySelectorAll('.event-item');
+    
+    eventItems.forEach((item, index) => {
+        const eventData = eventsData[index];
+        if (!eventData) return;
+        
+        const eventInfo = item.querySelector('.event-info');
+        const infoText = eventInfo.textContent;
+        const timePart = infoText.split('|')[0].trim();
+        
+        const status = getEventStatus(timePart);
+        
+        // Eliminar clases de estado anteriores
+        item.classList.remove(EventStatus.UPCOMING, EventStatus.LIVE, EventStatus.ENDED);
+        
+        // Añadir clase correspondiente al estado actual
+        item.classList.add(status);
+        
+        // Actualizar indicador de estado visual
+        const statusIndicator = item.querySelector('.status-indicator');
+        if (statusIndicator) {
+            statusIndicator.className = 'status-indicator ' + status;
+        }
+    });
 }
 
 // Función para generar el HTML de un evento
 function generateEventHTML(event, index) {
     const listItem = document.createElement('li');
     listItem.className = 'event-item';
-    
-    // Agregar un atributo de datos para el número del canal
-    listItem.setAttribute('data-channel-number', index);
     
     const eventLink = document.createElement('a');
     eventLink.className = 'event-link';
@@ -55,7 +108,11 @@ function generateEventHTML(event, index) {
     eventNumber.className = 'event-number';
     eventNumber.textContent = index;
     
-    // Logo del torneo - ahora configurado para usar la clase del torneo
+    // Indicador de estado (nuevo)
+    const statusIndicator = document.createElement('span');
+    statusIndicator.className = 'status-indicator';
+    
+    // Logo del torneo
     const eventLogo = document.createElement('div');
     eventLogo.className = 'event-logo';
     
@@ -76,6 +133,7 @@ function generateEventHTML(event, index) {
     eventDetails.appendChild(eventInfo);
     
     eventLink.appendChild(eventNumber);
+    eventLink.appendChild(statusIndicator);
     eventLink.appendChild(eventLogo);
     eventLink.appendChild(eventDetails);
     
@@ -84,9 +142,13 @@ function generateEventHTML(event, index) {
     streamList.className = 'stream-list';
     
     // Asignar clase para mostrar el logo (basado en el nombre del torneo)
-    // Ahora lo aplicamos al elemento li principal para que funcione con nuestro CSS
     const tournamentClass = event.tournament.toUpperCase().replace(/\s+/g, '');
     listItem.classList.add(tournamentClass);
+    
+    // Determinar estado inicial del evento
+    const initialStatus = getEventStatus(event.time);
+    listItem.classList.add(initialStatus);
+    statusIndicator.classList.add(initialStatus);
     
     // Evento para mostrar/ocultar la sublista al hacer clic en el evento
     eventLink.addEventListener('click', function(e) {
@@ -123,8 +185,8 @@ function generateEventHTML(event, index) {
         streamLink.appendChild(playIcon);
         streamLink.appendChild(document.createTextNode(stream.optionText));
         
-        // Decodificar la URL base64 directamente
-        const decodedURL = decodeBase64Url(stream.url);
+        // Usar el URL codificado con el prefijo
+        const streamURL = streamUrlPrefix + stream.url;
         
         // Evento para cambiar el reproductor al hacer clic
         streamLink.addEventListener('click', function(e) {
@@ -133,8 +195,12 @@ function generateEventHTML(event, index) {
             // Cambiar el título en la cabecera al nombre del evento
             headerTitle.textContent = event.eventTitle;
             
-            // Actualizar el iframe con la URL decodificada
-            playerFrame.src = decodedURL;
+            // Actualizar el iframe con la URL del stream
+            playerFrame.src = streamURL;
+            
+            // Ocultar contenido inicial y mostrar iframe
+            initialContent.style.display = 'none';
+            playerFrame.style.display = 'block';
         });
         
         streamItem.appendChild(streamLink);
@@ -153,10 +219,7 @@ function filterEvents(searchTerm) {
     
     events.forEach(event => {
         const eventInfo = event.querySelector('.event-details').textContent.toLowerCase();
-        const channelNumber = event.getAttribute('data-channel-number');
-        
-        // Incluye el número de canal en la búsqueda
-        if (eventInfo.includes(searchTerm) || channelNumber === searchTerm) {
+        if (eventInfo.includes(searchTerm)) {
             event.style.display = '';
         } else {
             event.style.display = 'none';
@@ -178,6 +241,11 @@ searchBar.addEventListener('input', function() {
     }
 });
 
+// Modificar el comportamiento del focus para que no limpie el campo
+searchBar.addEventListener('focus', function() {
+    // No limpiamos el valor aquí para mantener la búsqueda actual
+});
+
 // Cargar y renderizar los eventos desde eventos.json
 fetch('https://aguilaazulcrema.github.io/json/eventos.json')
     .then(response => {
@@ -187,11 +255,19 @@ fetch('https://aguilaazulcrema.github.io/json/eventos.json')
         return response.json();
     })
     .then(events => {
+        eventsData = events; // Guardar eventos para actualización de estado
         events.forEach((event, index) => {
             eventCounter++;
             const eventHTML = generateEventHTML(event, eventCounter);
             eventsContainer.appendChild(eventHTML);
         });
+        
+        // Realizar ajuste de horarios después de cargar los eventos
+        ajustarHorarios();
+        
+        // Iniciar actualización periódica de estados
+        updateEventStatuses();
+        setInterval(updateEventStatuses, 60000); // Actualizar cada minuto
     })
     .catch(error => {
         console.error('Error al cargar los eventos:', error);
@@ -211,7 +287,6 @@ document.querySelector('.nav-button.next').addEventListener('click', function() 
         behavior: 'smooth'
     });
 });
-
 
 // Función para mostrar la hora en formato AM/PM
 function formatoAMPM(date) { 
@@ -263,10 +338,7 @@ function ajustarHorarios() {
             cell.textContent = `${adjustedTime} | ${tournament}`;
         }
     });
+    
+    // Después de ajustar horarios, actualizamos los estados de los eventos
+    updateEventStatuses();
 }
-
-// Ejecuta la función cuando el DOM esté completamente cargado
-document.addEventListener('DOMContentLoaded', function() {
-    // Damos tiempo para que los eventos se carguen del JSON
-    setTimeout(ajustarHorarios, 1000);
-});
