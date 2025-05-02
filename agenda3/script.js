@@ -48,6 +48,17 @@ function getEventStatus(eventTime) {
     // Crear una fecha con la hora del evento en zona horaria del usuario
     const eventDate = new Date();
     eventDate.setHours(hours, minutes, 0, 0);
+
+
+    // Solo considerar que es un evento del día siguiente si:
+    // 1. La hora ya pasó hoy
+    // 2. Estamos más de 3 horas después del evento
+    // 3. El evento es de madrugada (entre 00:00 y 03:00)
+    if (eventDate < now && 
+        (now - eventDate) > 3 * 60 * 60 * 1000 && 
+        hours >= 0 && hours < 3) {
+        eventDate.setDate(eventDate.getDate() + 1);
+    }
     
     // Añadir buffer para eventos en vivo (5 minutos antes)
     const liveBuffer = new Date(eventDate);
