@@ -209,7 +209,8 @@
 
 .CANADA > a .event-logo:before,
 .CANADIANPREMIERLEAGUE > a .event-logo:before,
-.CANADACHAMPIONSHIP > a .event-logo:before {
+.CANADACHAMPIONSHIP,
+.CANADIANCHAMPIONSHIP > a .event-logo:before {
     background-image: url(https://imagecache.365scores.com/image/upload/v1/Competitors/2388);
 }
 
