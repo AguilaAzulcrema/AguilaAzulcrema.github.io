@@ -1,6 +1,6 @@
 <?php
 // Leer el archivo JSON donde están los canales
-$channels = json_decode(file_get_contents('chnls.json'), true);
+$channels = json_decode(file_get_contents('https://aguilaazulcrema.github.io/ch/chnls.json'), true);
 
 // Obtener el canal desde el parámetro de la URL
 $channel = $_GET['channel'] ?? null;
