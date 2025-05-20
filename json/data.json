@@ -2,11 +2,55 @@
     "events": [
         {
             "time": "17:00",
-            "tournament": "mls-next-pro",
-            "eventTitle": "Atlanta United 2 vs. Crown Legacy",
+            "tournament": "canadian-championship",
+            "eventTitle": "Forge vs. CF Montreal",
             "streams": [
                 {
-                    "url": "emb2.html?r=https://voodc.com/embed/85818a98a2909e8a847a85959c8a9886877b.html",
+                    "url": "emb2.html?r=https://voodc.com/embed/85818a98a38f9b84847a85959c8a98858d7e.html",
+                    "optionText": "Opcion 1"
+                }
+            ]
+        },
+        {
+            "time": "17:00",
+            "tournament": "usl-super-league",
+            "eventTitle": "DC Power (f) vs. Fort Lauderdale (f)",
+            "streams": [
+                {
+                    "url": "emb2.html?r=https://voodc.com/embed/85818a98a38f9b84847a85959c8b98858d7f.html",
+                    "optionText": "Opcion 1"
+                }
+            ]
+        },
+        {
+            "time": "17:30",
+            "tournament": "us-open-cup",
+            "eventTitle": "New England Revolution vs. Chicago Fire",
+            "streams": [
+                {
+                    "url": "emb2.html?r=https://voodc.com/embed/85818a98a38f9c8c847a85959d8f9886857d.html",
+                    "optionText": "Opcion 1"
+                }
+            ]
+        },
+        {
+            "time": "18:30",
+            "tournament": "canadian-championship",
+            "eventTitle": "Valour vs. Vancouver Whitecaps",
+            "streams": [
+                {
+                    "url": "emb2.html?r=https://voodc.com/embed/85818a98a38fa088847a8595a08a98868781.html",
+                    "optionText": "Opcion 1"
+                }
+            ]
+        },
+        {
+            "time": "20:30",
+            "tournament": "us-open-cup",
+            "eventTitle": "San Jose Earthquakes vs. Portland Timbers",
+            "streams": [
+                {
+                    "url": "emb2.html?r=https://voodc.com/embed/85818a98a3909d8a847a8595a18c9886897b.html",
                     "optionText": "Opcion 1"
                 }
             ]
