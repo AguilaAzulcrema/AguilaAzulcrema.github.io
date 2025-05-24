@@ -1,3 +1,26 @@
 {
-    "events": []
+    "events": [
+        {
+            "time": "12:00",
+            "tournament": "canada",
+            "eventTitle": "HFX Wanderers vs. Atletico Ottawa",
+            "streams": [
+                {
+                    "url": "emb2.html?r=https://voodc.com/embed/85818a999d87a28a847a85999d889886867f.html",
+                    "optionText": "Opcion 1"
+                }
+            ]
+        },
+        {
+            "time": "12:00",
+            "tournament": "usl-super-league",
+            "eventTitle": "Brooklyn (f) vs. Carolina Ascent (f)",
+            "streams": [
+                {
+                    "url": "emb2.html?r=https://voodc.com/embed/85818a999d87a28a847a85999e889886877f.html",
+                    "optionText": "Opcion 1"
+                }
+            ]
+        }
+    ]
 }
