@@ -64,7 +64,7 @@ $(document).ready(function() {
 
             $("#event-info").text(eventTitle + " | " + eventTime);
 
-            var iframeHtml = '<iframe src="' + videoUrl + '" width="100%" height="500" frameborder="0" allowfullscreen></iframe>';
+            var iframeHtml = '<iframe src="' + videoUrl + '" allow="autoplay; encrypted-media" width="100%" height="500" frameborder="0" allowfullscreen></iframe>';
             $("#video-player-container").html(iframeHtml);
 
             $("#iframe-code").val(iframeHtml);
