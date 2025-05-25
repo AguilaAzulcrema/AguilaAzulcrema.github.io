@@ -21,6 +21,32 @@
                     "optionText": "Opcion 1"
                 }
             ]
+        },
+        {
+            "time": "13:00",
+            "tournament": "mls",
+            "eventTitle": "New York City vs. Chicago Fire",
+            "streams": [
+                {
+                    "url": "emb2.html?r=https://voodc.com/embed/85818a999d90a28a847a8599a18898868d80.html",
+                    "optionText": "Opcion 1"
+                },
+                {
+                    "url": "emb2.html?r=https://voodc.com/embed/85818a999d90a28a847a8599a18998868d81.html",
+                    "optionText": "Opcion 2"
+                }
+            ]
+        },
+        {
+            "time": "13:00",
+            "tournament": "mls-next-pro",
+            "eventTitle": "Philadelphia Union II vs. Inter Miami II",
+            "streams": [
+                {
+                    "url": "emb2.html?r=https://voodc.com/embed/85818a999d90a28a847a8599a18a98868d7f.html",
+                    "optionText": "Opcion 1"
+                }
+            ]
         }
     ]
 }
