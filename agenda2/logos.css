@@ -198,12 +198,13 @@
     background-image: url(https://imagecache.365scores.com/image/upload/v1/Competitors/5061);
 }
 
-.MEXICO > a .event-logo:before,
-.MEXICOLIGAMX > a .event-logo:before,
-.LIGAMX > a .event-logo:before,
-.LIGAMXF > a .event-logo:before,
-.MEXICOLIGADEEXPANSION > a .event-logo:before,
-.LIGADEEXPANSIONMX > a .event-logo:before {
+.MEXICOLIGAMX >a:before,
+.MEXICO >a:before,
+.LIGAMX >a:before,
+.LIGAMXF >a:before,
+.MEXICOLIGADEEXPANSION >a:before,
+.LIGADEEXPANSIONMX >a:before,
+.LIGADEEXPANSIONMXSUPERFINAL >a:before {
     background-image: url(https://imagecache.365scores.com/image/upload/v14/Competitors/5106);
 }
 
@@ -504,8 +505,8 @@
     background-image: url(https://mexitv.webcindario.com/banderas/fifaclub.png);
 }
 
-.FIFAWORLDCUP > a .event-logo:before {
-    background-image: url(https://upload.wikimedia.org/wikipedia/commons/thumb/a/ad/2025_FIFA_Club_World_Cup.svg/1200px-2025_FIFA_Club_World_Cup.svg.png);
+.FIFAWORLDCUP >a:before {
+    background-image: url(https://images.seeklogo.com/logo-png/57/2/club-world-cup-2025-logo-png_seeklogo-577684.png);
 }
 
 .SAUDIPROFESSIONALLEAGUE > a .event-logo:before,
