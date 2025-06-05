@@ -1,3 +1,52 @@
 {
+<<<<<<< HEAD
     "events": []
+=======
+    "events": [
+        {
+            "time": "10:00",
+            "tournament": "canada",
+            "eventTitle": "Valour vs. Vancouver FC",
+            "streams": [
+                {
+                    "url": "emb2.html?r=https://voodc.com/embed/85818a9a9c8c9b8c847a85979d8c988889.html",
+                    "optionText": "Opcion 1"
+                }
+            ]
+        },
+        {
+            "time": "17:00",
+            "tournament": "mls-next-pro",
+            "eventTitle": "Crown Legacy vs. New York Red Bulls 2",
+            "streams": [
+                {
+                    "url": "emb2.html?r=https://voodc.com/embed/85818a9a9c8ea184847a85959c8898858683.html",
+                    "optionText": "Opcion 1"
+                }
+            ]
+        },
+        {
+            "time": "18:00",
+            "tournament": "mls-next-pro",
+            "eventTitle": "St. Louis City 2 vs. North Texas",
+            "streams": [
+                {
+                    "url": "emb2.html?r=https://voodc.com/embed/85818a9a9c8f9a8a847a85959f8e98858a7e.html",
+                    "optionText": "Opcion 1"
+                }
+            ]
+        },
+        {
+            "time": "18:00",
+            "tournament": "usl",
+            "eventTitle": "Birmingham vs. Indy Eleven",
+            "streams": [
+                {
+                    "url": "emb2.html?r=https://voodc.com/embed/85818a9a9c8f9a8a847a85959f9098858a80.html",
+                    "optionText": "Opcion 1"
+                }
+            ]
+        }
+    ]
+>>>>>>> 0104e0b1d707cc20749cc8b2e840ce1fe0dced56
 }
