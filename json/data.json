@@ -1,72 +1,61 @@
 {
     "events": [
         {
-            "time": "16:00",
-            "tournament": "mls-next-pro",
-            "eventTitle": "Columbus Crew 2 vs. New York City II",
+            "time": "16:30",
+            "tournament": "usl1",
+            "eventTitle": "One Knoxville vs. Richmond Kickers",
             "streams": [
                 {
-                    "url": "emb2.html?r=https://voodc.com/embed/85818a9aa38d9e8a847a8597a28d9885847b.html",
+                    "url": "emb2.html?r=https://voodc.com/embed/85818a9aa48c9c8c847a8597a48b98858682.html",
                     "optionText": "Opcion 1"
                 }
             ]
         },
         {
-            "time": "17:00",
-            "tournament": "mls-next-pro",
-            "eventTitle": "Toronto FC II vs. Inter Miami II",
+            "time": "18:00",
+            "tournament": "nwsl",
+            "eventTitle": "Houston Dash (f) vs. San Diego Wave (f)",
             "streams": [
                 {
-                    "url": "emb2.html?r=https://voodc.com/embed/85818a9aa38da286847a85959c889885857c.html",
+                    "url": "emb2.html?r=https://voodc.com/embed/85818a9aa48ca286847a85959e8998858a7b.html",
                     "optionText": "Opcion 1"
                 }
             ]
         },
         {
-            "time": "17:30",
+            "time": "19:30",
+            "tournament": "nwsl",
+            "eventTitle": "Utah Royals (f) vs. Gotham (f)",
+            "streams": [
+                {
+                    "url": "emb2.html?r=https://voodc.com/embed/85818a9aa48d9d8a847a8595a18c98858d7e.html",
+                    "optionText": "Opcion 1"
+                }
+            ]
+        },
+        {
+            "time": "20:00",
+            "tournament": "nwsl",
+            "eventTitle": "Bay FC (f) vs. Orlando Pride (f)",
+            "streams": [
+                {
+                    "url": "emb2.html?r=https://voodc.com/embed/85818a9aa48d9f88847a8595a19098858d80.html",
+                    "optionText": "Opcion 1"
+                }
+            ]
+        },
+        {
+            "time": "20:30",
             "tournament": "mls",
-            "eventTitle": "New York City vs. Atlanta United",
+            "eventTitle": "Portland Timbers vs. San Jose Earthquakes",
             "streams": [
                 {
-                    "url": "emb2.html?r=https://voodc.com/embed/85818a9aa38e9a84847a85959c8b9885857e.html",
+                    "url": "emb2.html?r=https://voodc.com/embed/85818a9aa48da186847a8595a28b9886847c.html",
                     "optionText": "Opcion 1"
                 },
                 {
-                    "url": "emb2.html?r=https://voodc.com/embed/85818a9aa38e9a84847a85959c8c9885857f.html",
+                    "url": "emb2.html?r=https://voodc.com/embed/85818a9aa48da186847a8595a28c9886847d.html",
                     "optionText": "Opcion 2"
-                }
-            ]
-        },
-        {
-            "time": "18:00",
-            "tournament": "mls-next-pro",
-            "eventTitle": "Minnesota United 2 vs. Houston Dynamo 2",
-            "streams": [
-                {
-                    "url": "emb2.html?r=https://voodc.com/embed/85818a9aa38e9b8c847a85959e889885877b.html",
-                    "optionText": "Opcion 1"
-                }
-            ]
-        },
-        {
-            "time": "18:00",
-            "tournament": "usl1",
-            "eventTitle": "Union Omaha vs. Greenville Triumph SC",
-            "streams": [
-                {
-                    "url": "emb2.html?r=https://voodc.com/embed/85818a9aa38e9b8c847a85959e899885877c.html",
-                    "optionText": "Opcion 1"
-                }
-            ]
-        },
-        {
-            "time": "19:00",
-            "tournament": "mls-next-pro",
-            "eventTitle": "Vancouver Whitecaps 2 vs. Los Angeles FC II",
-            "streams": [
-                {
-                    "url": "emb2.html?r=https://voodc.com/embed/85818a9aa38e9f88847a85959f8f9885897b.html",
-                    "optionText": "Opcion 1"
                 }
             ]
         }
