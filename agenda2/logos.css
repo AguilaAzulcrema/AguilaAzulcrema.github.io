@@ -238,6 +238,7 @@
 }
 
 .URUGUAY > a .event-logo:before,
+.LIGAAUFURUGUAYA > a .event-logo:before,
 .URUGUAYPRIMERADIVISION > a .event-logo:before,
 .COPAURUGUAY > a .event-logo:before,
 .URUGUAYSEGUNDADIV > a .event-logo:before,
@@ -246,6 +247,7 @@
 }
 
 .BRAZILCOPINHA > a .event-logo:before,
+.COPAPAULISTA > a .event-logo:before,
 .COPADONORDESTE > a .event-logo:before,
 .BRAZILCARIOCA > a .event-logo:before,
 .BRAZILPAULISTA > a .event-logo:before,
@@ -542,7 +544,8 @@
     background-image: url(https://imagecache.365scores.com/image/upload/v1/Competitions/620);
 }
 
-.CLUBWORLDCUP > a .event-logo:before {
+.CLUBWORLDCUP > a .event-logo:before,
+.FIFACLUBWORLDCUP > a .event-logo:before {
     background-image: url(https://imagecache.365scores.com/image/upload/v8/Competitions/5096);
 }
 
@@ -597,6 +600,7 @@
 }
 
 .GOLDCUP > a .event-logo:before,
+.CONCACAFGOLDCUP > a .event-logo:before,
 .CONCACAFGOLDCUPQUALIFIER > a .event-logo:before {
     background-image: url(https://imagecache.365scores.com/image/upload/v1/Competitions/589);
 }
