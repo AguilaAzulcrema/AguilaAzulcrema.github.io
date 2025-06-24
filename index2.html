@@ -1,0 +1,578 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Eventos Deportivos</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <style>
+        :root {
+            --color-hora: #FF6B6B;
+            --color-torneo: #4ECDC4;
+            --color-equipos: #F7FFF7;
+            --color-boton: #FF6B6B;
+            --color-boton2:#407da0;
+            --color-boton-hover: #FF5252;
+            --color-boton-hover2:#2f5a72;
+            --fondo-principal: #1A1A2E;
+            --fondo-tarjeta: #16213E;
+            --borde-tarjeta: #0F3460;
+            --color-buscador: #4ECDC4;
+            --color-buscador-focus: #FF6B6B;
+        }
+        
+        body {
+            background-color: var(--fondo-principal);
+            color: #f1f1f1;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            padding: 20px;
+            margin: 0;
+        }
+        
+        .header {
+            text-align: center;
+            margin-bottom: 30px;
+            padding-bottom: 15px;
+            border-bottom: 1px solid var(--borde-tarjeta);
+        }
+        
+        .header h1 {
+            margin: 0 0 20px 0;
+            color: #fff;
+            font-size: 2.2rem;
+        }
+        
+        .buscador-container {
+            max-width: 600px;
+            margin: 0 auto 30px auto;
+            position: relative;
+        }
+        
+        .buscador {
+            width: 100%;
+            padding: 12px 20px;
+            padding-left: 45px;
+            border-radius: 30px;
+            border: none;
+            background-color: rgba(255, 255, 255, 0.1);
+            color: white;
+            font-size: 16px;
+            outline: none;
+            transition: all 0.3s ease;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+        }
+        
+        .buscador:focus {
+            background-color: rgba(255, 255, 255, 0.15);
+            box-shadow: 0 2px 10px rgba(78, 205, 196, 0.3);
+        }
+        
+        .buscador::placeholder {
+            color: rgba(255, 255, 255, 0.5);
+        }
+        
+        .buscador-icon {
+            position: absolute;
+            left: 15px;
+            top: 50%;
+            transform: translateY(-50%);
+            color: var(--color-buscador);
+        }
+        
+        .evento-container {
+            max-width: 800px;
+            margin: 0 auto;
+        }
+        
+        .evento {
+            background-color: var(--fondo-tarjeta);
+            border-left: 4px solid var(--borde-tarjeta);
+            padding: 20px;
+            margin-bottom: 20px;
+            border-radius: 8px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            transition: all 0.3s ease;
+        }
+        
+        .evento.hidden {
+            display: none;
+        }
+        
+        .evento-info {
+            margin-bottom: 15px;
+        }
+        
+        .hora {
+            color: var(--color-hora);
+            font-weight: bold;
+            font-size: 1.1rem;
+            display: inline-block;
+            margin-right: 15px;
+        }
+        
+        .torneo {
+            color: var(--color-torneo);
+            font-weight: bold;
+            font-size: 1rem;
+            display: inline-block;
+            background-color: rgba(78, 205, 196, 0.1);
+            padding: 3px 8px;
+            border-radius: 4px;
+        }
+        
+        .equipos {
+            color: var(--color-equipos);
+            font-size: 1.2rem;
+            margin: 10px 0;
+            font-weight: 500;
+        }
+        
+        .botones {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+        }
+        
+        .btn {
+            padding: 8px 15px;
+            background-color: var(--color-boton);
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+            transition: all 0.3s ease;
+            font-size: 14px;
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+        }
+        
+        .btn:hover {
+            background-color: var(--color-boton-hover);
+            transform: translateY(-2px);
+            box-shadow: 0 4px 8px rgba(255, 107, 107, 0.3);
+        }
+        
+        .btn i {
+            margin-right: 6px;
+            font-size: 12px;
+        }
+
+        .btn2 {
+            padding: 8px 15px;
+            background-color: var(--color-boton2);
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+            transition: all 0.3s ease;
+            font-size: 14px;
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+        }
+        
+        .btn2:hover {
+            background-color: var(--color-boton-hover2);
+            transform: translateY(-2px);
+            box-shadow: 0 4px 8px rgba(78, 80, 185, 0.3);
+        }
+        
+        .btn2 i {
+            margin-right: 6px;
+            font-size: 12px;
+        }
+        
+        .no-resultados {
+            text-align: center;
+            padding: 40px;
+            color: rgba(255, 255, 255, 0.5);
+            font-size: 1.2rem;
+            display: none;
+        }
+        
+        .loading {
+            text-align: center;
+            padding: 20px;
+            color: var(--color-torneo);
+            font-size: 1.2rem;
+        }
+        
+        @media (max-width: 600px) {
+            .evento {
+                padding: 15px;
+            }
+            
+            .hora {
+                display: block;
+                margin-bottom: 5px;
+            }
+            
+            .torneo {
+                display: block;
+                margin-bottom: 10px;
+            }
+            
+            .btn {
+                padding: 10px 15px;
+                font-size: 15px;
+                flex-grow: 1;
+            }
+
+            .btn2 {
+                padding: 10px 15px;
+                font-size: 15px;
+                flex-grow: 1;
+            }
+            
+            .buscador {
+                padding: 10px 15px;
+                padding-left: 40px;
+                font-size: 14px;
+            }
+            
+            .buscador-icon {
+                left: 12px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <h1><i class="fas fa-futbol"></i> Transmisiones Deportivas</h1>
+    </div>
+    
+    <div class="buscador-container">
+        <i class="fas fa-search buscador-icon"></i>
+        <input type="text" class="buscador" id="buscador" placeholder="Buscar por liga, equipo u hora...">
+    </div>
+    
+    <div class="evento-container" id="evento-container">
+        <div class="loading" id="loading">
+            <i class="fas fa-spinner fa-spin"></i> Cargando eventos deportivos...
+        </div>
+        
+        <div class="no-resultados" id="no-resultados">
+            <i class="far fa-frown" style="font-size: 2rem; margin-bottom: 15px;"></i>
+            <p>No se encontraron resultados para tu búsqueda</p>
+        </div>
+    </div>
+
+    <script>
+    document.addEventListener('DOMContentLoaded', function() {
+    const eventoContainer = document.getElementById('evento-container');
+    const loadingElement = document.getElementById('loading');
+    const noResultados = document.getElementById('no-resultados');
+    const buscador = document.getElementById('buscador');
+    
+    // URL base para streams normales
+    const BASE_URL_NORMAL = 'https://leaguemx-tv.blogspot.com/p/emb.html?r=';
+    
+    // Función para convertir hora de Ciudad de México a zona horaria local
+    function convertirHoraAZonaLocal(horaMexico) {
+        try {
+            // Crear fecha para hoy con la hora de México
+            const hoy = new Date();
+            const [horas, minutos] = horaMexico.split(':').map(num => parseInt(num));
+            
+            // Crear fecha en zona horaria de Ciudad de México
+            const fechaMexico = new Date();
+            fechaMexico.setHours(horas, minutos, 0, 0);
+            
+            // Convertir a string con zona horaria de Ciudad de México
+            const fechaMexicoString = fechaMexico.toLocaleString('en-CA', {
+                timeZone: 'America/Mexico_City',
+                year: 'numeric',
+                month: '2-digit',
+                day: '2-digit',
+                hour: '2-digit',
+                minute: '2-digit',
+                hour12: false
+            });
+            
+            // Crear objeto Date interpretando la hora como si fuera de México
+            const fechaEnMexico = new Date(fechaMexicoString.replace(',', ''));
+            
+            // Ahora convertir a la zona horaria local del usuario
+            const horaLocal = fechaEnMexico.toLocaleTimeString('es-ES', {
+                hour: '2-digit',
+                minute: '2-digit',
+                hour12: false
+            });
+            
+            return horaLocal;
+        } catch (error) {
+            console.error('Error al convertir zona horaria:', error);
+            return horaMexico; // Devolver hora original si hay error
+        }
+    }
+    
+    // Función alternativa más simple y confiable
+    function convertirHoraSimple(horaMexico) {
+        try {
+            const [horas, minutos] = horaMexico.split(':').map(num => parseInt(num));
+            
+            // Crear fecha para hoy con la hora de México
+            const fechaHoy = new Date();
+            const year = fechaHoy.getFullYear();
+            const month = fechaHoy.getMonth();
+            const day = fechaHoy.getDate();
+            
+            // Crear fecha específica en zona horaria de México
+            const fechaMexico = new Date();
+            fechaMexico.setFullYear(year, month, day);
+            fechaMexico.setHours(horas, minutos, 0, 0);
+            
+            // Obtener offset de México (-6 horas UTC normalmente, -5 en horario de verano)
+            const offsetMexico = -6 * 60; // En minutos
+            const offsetLocal = fechaMexico.getTimezoneOffset();
+            
+            // Calcular diferencia
+            const diferenciaMinutos = offsetMexico - offsetLocal;
+            
+            // Aplicar diferencia
+            const fechaLocal = new Date(fechaMexico.getTime() + (diferenciaMinutos * 60000));
+            
+            // Formatear resultado
+            const horaLocal = fechaLocal.toLocaleTimeString('es-ES', {
+                hour: '2-digit',
+                minute: '2-digit',
+                hour12: false
+            });
+            
+            return horaLocal;
+        } catch (error) {
+            console.error('Error en conversión simple:', error);
+            return horaMexico;
+        }
+    }
+    
+    // Función más precisa usando Intl API
+    function convertirHoraPrecisa(horaMexico) {
+        try {
+            const [horas, minutos] = horaMexico.split(':').map(num => parseInt(num));
+            
+            // Crear fecha para hoy
+            const hoy = new Date();
+            
+            // Crear la misma fecha pero interpretada como hora de México
+            const fechaEnMexico = new Date(Date.UTC(
+                hoy.getFullYear(), 
+                hoy.getMonth(), 
+                hoy.getDate(), 
+                horas, 
+                minutos
+            ));
+            
+            // Ajustar por la diferencia de UTC
+            // México está en UTC-6 (estándar) o UTC-5 (horario de verano)
+            // Vamos a usar UTC-6 como base
+            fechaEnMexico.setUTCHours(fechaEnMexico.getUTCHours() + 6);
+            
+            // Convertir a hora local
+            const horaLocal = fechaEnMexico.toLocaleTimeString('es-ES', {
+                hour: '2-digit',
+                minute: '2-digit',
+                hour12: false
+            });
+            
+            return horaLocal;
+        } catch (error) {
+            console.error('Error en conversión precisa:', error);
+            return horaMexico;
+        }
+    }
+    
+    // Función principal que usa la librería de zonas horarias del navegador
+    function convertirHoraConIntl(horaMexico) {
+        try {
+            const [horas, minutos] = horaMexico.split(':').map(num => parseInt(num));
+            
+            // Crear fecha de hoy
+            const hoy = new Date();
+            
+            // Crear fecha con la hora especificada en zona horaria de México
+            const fechaMexico = new Date(hoy.getFullYear(), hoy.getMonth(), hoy.getDate(), horas, minutos);
+            
+            // Convertir de México a UTC
+            const fechaUTC = new Date(fechaMexico.toLocaleString('sv-SE', {timeZone: 'America/Mexico_City'}));
+            
+            // Convertir de UTC a zona local
+            const horaLocal = fechaUTC.toLocaleTimeString('es-ES', {
+                hour: '2-digit',
+                minute: '2-digit',
+                hour12: false
+            });
+            
+            return horaLocal;
+        } catch (error) {
+            console.error('Error con Intl:', error);
+            return horaMexico;
+        }
+    }
+    
+    // Función definitiva - corregida
+    function convertirHoraFinal(horaMexico) {
+        try {
+            const [horas, minutos] = horaMexico.split(':').map(num => parseInt(num));
+            
+            // Obtener la fecha actual
+            const ahora = new Date();
+            
+            // Método más directo: crear la fecha como si fuera UTC y luego ajustar
+            // Crear fecha en UTC con la hora de México
+            const fechaUTC = new Date(Date.UTC(
+                ahora.getFullYear(),
+                ahora.getMonth(),
+                ahora.getDate(),
+                horas + 6, // México está UTC-6, así que sumamos 6 para obtener UTC
+                minutos
+            ));
+            
+            // Ahora convertir a hora local
+            const horaLocal = fechaUTC.toLocaleTimeString('es-ES', {
+                hour: '2-digit',
+                minute: '2-digit',
+                hour12: false
+            });
+            
+            return horaLocal;
+            
+        } catch (error) {
+            console.error('Error en conversión final:', error);
+            return horaMexico;
+        }
+    }
+    
+    async function cargarEventos() {
+        try {
+            const response = await fetch('json/transmisiones.json');
+            if (!response.ok) throw new Error('No se pudo cargar el archivo JSON');
+            const data = await response.json();
+            
+            // Ordenar eventos por hora
+            const eventosOrdenados = Object.entries(data).sort((a, b) => {
+                return a[1].hora.localeCompare(b[1].hora);
+            });
+            
+            // Agrupar eventos por hora, torneo y equipos
+            const eventosAgrupados = {};
+            
+            eventosOrdenados.forEach(([key, evento]) => {
+                // Convertir la hora a zona local
+                const horaLocal = convertirHoraFinal(evento.hora);
+                const grupoKey = `${evento.hora}-${evento.torneo}-${evento.evento}`;
+                
+                if (!eventosAgrupados[grupoKey]) {
+                    eventosAgrupados[grupoKey] = {
+                        hora: evento.hora,
+                        horaLocal: horaLocal,
+                        torneo: evento.torneo,
+                        evento: evento.evento,
+                        streams: [],
+                        premiumStreams: []
+                    };
+                }
+                
+                // Determinar si es premium (por tipo o por formato de URL)
+                const esPremium = evento.tipo === 'premium' || 
+                                (evento.v && !evento.v.startsWith('aHR0') && 
+                                (evento.v.includes('http') || evento.v.includes('://')));
+                
+                if (esPremium) {
+                    eventosAgrupados[grupoKey].premiumStreams.push({
+                        id: key,
+                        url: evento.v // URL completa directa
+                    });
+                } else {
+                    eventosAgrupados[grupoKey].streams.push({
+                        id: key,
+                        url: evento.v // Base64 que se completará
+                    });
+                }
+            });
+            
+            // Generar HTML
+            let eventosHTML = '';
+            
+            Object.values(eventosAgrupados).forEach(grupo => {
+                // Mostrar la hora local, y opcionalmente la hora de México si es diferente
+                const horaDisplay = grupo.horaLocal !== grupo.hora ? 
+                    `${grupo.horaLocal} <small style="opacity: 0.7;">(MX: ${grupo.hora})</small>` : 
+                    grupo.horaLocal;
+                
+                eventosHTML += `
+                    <div class="evento" data-hora="${grupo.horaLocal}" data-torneo="${grupo.torneo}" data-equipos="${grupo.evento}">
+                        <div class="evento-info">
+                            <span class="hora"><i class="far fa-clock"></i> ${horaDisplay}</span>
+                            <span class="torneo"><i class="fas fa-trophy"></i> ${grupo.torneo}</span>
+                            <div class="equipos">${grupo.evento}</div>
+                        </div>
+                        <div class="botones">
+                `;
+                
+                // Streams normales (base64)
+                grupo.streams.forEach((stream, i) => {
+                    eventosHTML += `
+                        <a class="btn" href="${BASE_URL_NORMAL}${stream.id}" target="_blank">
+                            <i class="fas fa-play"></i> Stream ${i+1}
+                        </a>
+                    `;
+                });
+                
+                // Streams premium (URLs directas)
+                grupo.premiumStreams.forEach((stream, i) => {
+                    eventosHTML += `
+                        <a class="btn2" href="${stream.url}" target="_blank">
+                            <i class="fas fa-crown"></i> Stream ${i+1}
+                        </a>
+                    `;
+                });
+                
+                eventosHTML += `
+                        </div>
+                    </div>
+                `;
+            });
+            
+            loadingElement.style.display = 'none';
+            eventoContainer.insertAdjacentHTML('beforeend', eventosHTML);
+            configurarBuscador();
+            
+        } catch (error) {
+            console.error('Error:', error);
+            loadingElement.innerHTML = `
+                <i class="fas fa-exclamation-triangle"></i> Error al cargar los eventos. Recarga la página.
+            `;
+        }
+    }
+    
+    function configurarBuscador() {
+        const eventos = document.querySelectorAll('.evento');
+        
+        function filtrarEventos() {
+            const termino = buscador.value.toLowerCase();
+            let resultados = 0;
+            
+            eventos.forEach(evento => {
+                const hora = evento.getAttribute('data-hora').toLowerCase();
+                const torneo = evento.getAttribute('data-torneo').toLowerCase();
+                const equipos = evento.getAttribute('data-equipos').toLowerCase();
+                
+                if (!termino || hora.includes(termino) || torneo.includes(termino) || equipos.includes(termino)) {
+                    evento.classList.remove('hidden');
+                    resultados++;
+                } else {
+                    evento.classList.add('hidden');
+                }
+            });
+            
+            noResultados.style.display = resultados ? 'none' : 'block';
+        }
+        
+        buscador.addEventListener('input', filtrarEventos);
+    }
+    
+    cargarEventos();
+});
+    </script>
+</body>
+</html>
