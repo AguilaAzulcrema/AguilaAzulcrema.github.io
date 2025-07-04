@@ -801,14 +801,4 @@
 
 .FRIENDLY > a .event-logo:before {
     background-image: url(https://www.zerozero.com.mx//img/logos/competicoes/47_imgbank_ami_20150601153400.png);
-    background-repeat: no-repeat;
-    background-size: contain;
-    background-position: center;
-    font-size: 36px;
-    height: 0.9em;
-    width: 1.3em;
-    position: absolute;
-    left: 63px;
-    top: 55%;
-    margin: -0.5em 0 0;
 }
