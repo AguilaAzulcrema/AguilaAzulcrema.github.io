@@ -26,6 +26,8 @@ const imagenes = {
         fondo18: 'img/fondos/sudamericana.jpg',
         fondo19: 'img/fondos/concacafnationsleague.jpeg',
         fondo20: 'img/fondos/ligamxliguilla.jpeg',
+        fondo21: 'img/fondos/copaoro.jpeg',
+        fondo22: 'img/fondos/campeondecampeones.jpeg',
 
         // Agrega más fondos
     },
