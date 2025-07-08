@@ -1,3 +1,48 @@
 {
-    "events": []
+    "events": [
+        {
+            "time": "17:00",
+            "tournament": "canadian-championship",
+            "eventTitle": "York United vs. Atletico Ottawa",
+            "streams": [
+                {
+                    "url": "emb2.html?r=https://voodc.com/embed/85818b939c889e8a847a85959c889885867d.html",
+                    "optionText": "Opcion 1"
+                }
+            ]
+        },
+        {
+            "time": "18:00",
+            "tournament": "us-open-cup",
+            "eventTitle": "Minnesota United vs. Chicago Fire",
+            "streams": [
+                {
+                    "url": "emb2.html?r=https://voodc.com/embed/85818b939c88a286847a85959e9098858880.html",
+                    "optionText": "Opcion 1"
+                }
+            ]
+        },
+        {
+            "time": "19:30",
+            "tournament": "canadian-championship",
+            "eventTitle": "Cavalry vs. Vancouver FC",
+            "streams": [
+                {
+                    "url": "emb2.html?r=https://voodc.com/embed/85818b939c899d8a847a85959f8a9885897d.html",
+                    "optionText": "Opcion 1"
+                }
+            ]
+        },
+        {
+            "time": "20:30",
+            "tournament": "us-open-cup",
+            "eventTitle": "San Jose Earthquakes vs. Austin FC",
+            "streams": [
+                {
+                    "url": "emb2.html?r=https://voodc.com/embed/85818b939c89a186847a8595a08c98858a7f.html",
+                    "optionText": "Opcion 1"
+                }
+            ]
+        }
+    ]
 }
