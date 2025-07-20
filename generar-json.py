@@ -38,7 +38,7 @@ def generar_transmisiones_json():
         "Costa Rica Liga de Ascenso": "cr2-",
         "Guatemala": "gua",
         "El Salvador": "slv",
-        "Campeon de campeones": "mx-",
+        "Campeon de Campeones": "mx-",
         
         # === SUDAMÉRICA ===
         "Copa Libertadores": "lib",
