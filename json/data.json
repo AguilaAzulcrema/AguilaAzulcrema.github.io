@@ -1,12 +1,38 @@
 {
     "events": [
         {
-            "time": "19:00",
-            "tournament": "mexico",
-            "eventTitle": "Atletico San Luis (f) vs. Monterrey (f)",
+            "time": "18:30",
+            "tournament": "mls-next-pro",
+            "eventTitle": "Town FC vs. Minnesota United 2",
             "streams": [
                 {
-                    "url": "emb2.html?r=https://voodc.com/embed/85818b949d8b9f84847a85959e8d988b85.html",
+                    "url": "emb2.html?r=https://voodc.com/embed/85818b949e8a998a847a85959f8b98858781.html",
+                    "optionText": "Opcion 1"
+                }
+            ]
+        },
+        {
+            "time": "19:00",
+            "tournament": "mls",
+            "eventTitle": "MLS All-Star Skills Challenge",
+            "streams": [
+                {
+                    "url": "emb2.html?r=https://voodc.com/embed/85818b949e8a9b88847a85959f8f9885887b.html",
+                    "optionText": "Opcion 1"
+                },
+                {
+                    "url": "emb2.html?r=https://voodc.com/embed/85818b949e8a9b88847a85959f909885887c.html",
+                    "optionText": "Opcion 2"
+                }
+            ]
+        },
+        {
+            "time": "19:30",
+            "tournament": "honduras",
+            "eventTitle": "Real Espana vs. Olancho",
+            "streams": [
+                {
+                    "url": "emb2.html?r=https://voodc.com/embed/85818b949e8a9d86847a8595a0889885887e.html",
                     "optionText": "Opcion 1"
                 }
             ]
