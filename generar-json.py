@@ -39,6 +39,7 @@ def generar_transmisiones_json():
         "Guatemala": "gua",
         "El Salvador": "slv",
         "Campeon de Campeones": "mx-",
+        "Leagues Cup": "lc",
         
         # === SUDAMÉRICA ===
         "Copa Libertadores": "lib",
