@@ -1,0 +1,4020 @@
+{
+    "ligas": {
+      "todos": {
+  "nombre": "Amistoso",
+  "equipos": []
+},
+
+
+      "ligamx": {
+  "nombre": "Liga MX",
+  "equipos": [
+    {
+      "id": "america",
+      "nombre": "América",
+      "logo": "img/concacaf/ligamx/america.png"
+    },
+    {
+      "id": "atlas",
+      "nombre": "Atlas",
+      "logo": "img/concacaf/ligamx/atlas.png"
+    },
+    {
+      "id": "chivas",
+      "nombre": "Guadalajara",
+      "logo": "img/concacaf/ligamx/chivas.png"
+    },
+    {
+      "id": "cruz_azul",
+      "nombre": "Cruz Azul",
+      "logo": "img/concacaf/ligamx/cruzazul.png"
+    },
+    {
+      "id": "juarez",
+      "nombre": "FC Juárez",
+      "logo": "img/concacaf/ligamx/juarez.png"
+    },
+    {
+      "id": "leon",
+      "nombre": "León",
+      "logo": "img/concacaf/ligamx/leon.png"
+    },
+    {
+      "id": "mazatlan",
+      "nombre": "Mazatlán",
+      "logo": "img/concacaf/ligamx/mazatlan.png"
+    },
+    {
+      "id": "monterrey",
+      "nombre": "Monterrey",
+      "logo": "img/concacaf/ligamx/monterrey.png"
+    },
+    {
+      "id": "necaxa",
+      "nombre": "Necaxa",
+      "logo": "img/concacaf/ligamx/necaxa.png"
+    },
+    {
+      "id": "pachuca",
+      "nombre": "Pachuca",
+      "logo": "img/concacaf/ligamx/pachuca.png"
+    },
+    {
+      "id": "puebla",
+      "nombre": "Puebla",
+      "logo": "img/concacaf/ligamx/puebla.png"
+    },
+    {
+      "id": "pumas",
+      "nombre": "Pumas",
+      "logo": "img/concacaf/ligamx/pumas.png"
+    },
+    {
+      "id": "queretaro",
+      "nombre": "Querétaro",
+      "logo": "img/concacaf/ligamx/queretaro.png"
+    },
+    {
+      "id": "rayadas",
+      "nombre": "Rayadas",
+      "logo": "img/concacaf/ligamxfemenil/rayadas.png"
+    },
+    {
+      "id": "san_luis",
+      "nombre": "Atlético San Luis",
+      "logo": "img/concacaf/ligamx/sanluis.png"
+    },
+    {
+      "id": "santos",
+      "nombre": "Santos",
+      "logo": "img/concacaf/ligamx/santos.png"
+    },
+    {
+      "id": "tigres",
+      "nombre": "Tigres",
+      "logo": "img/concacaf/ligamx/tigres.png"
+    },
+    {
+      "id": "tijuana",
+      "nombre": "Tijuana",
+      "logo": "img/concacaf/ligamx/tijuana.png"
+    },
+    {
+      "id": "toluca",
+      "nombre": "Toluca",
+      "logo": "img/concacaf/ligamx/toluca.png"
+    }
+  ]
+},
+
+"ligamxf": {
+  "nombre": "Liga MX Femenil",
+  "equipos": [
+    {
+      "id": "america",
+      "nombre": "América",
+      "logo": "img/concacaf/ligamxfemenil/america.png"
+    },
+    {
+      "id": "atlas",
+      "nombre": "Atlas",
+      "logo": "img/concacaf/ligamxfemenil/atlas.png"
+    },
+    {
+      "id": "chivas",
+      "nombre": "Guadalajara",
+      "logo": "img/concacaf/ligamxfemenil/chivas.png"
+    },
+    {
+      "id": "cruz_azul",
+      "nombre": "Cruz Azul",
+      "logo": "img/concacaf/ligamxfemenil/cruzazul.png"
+    },
+    {
+      "id": "juarez",
+      "nombre": "FC Juárez",
+      "logo": "img/concacaf/ligamxfemenil/juarez.png"
+    },
+    {
+      "id": "leon",
+      "nombre": "León",
+      "logo": "img/concacaf/ligamxfemenil/leon.png"
+    },
+    {
+      "id": "mazatlan",
+      "nombre": "Mazatlán",
+      "logo": "img/concacaf/ligamxfemenil/mazatlan.png"
+    },
+    {
+      "id": "necaxa",
+      "nombre": "Necaxa",
+      "logo": "img/concacaf/ligamxfemenil/necaxa.png"
+    },
+    {
+      "id": "pachuca",
+      "nombre": "Pachuca",
+      "logo": "img/concacaf/ligamxfemenil/pachuca.png"
+    },
+    {
+      "id": "puebla",
+      "nombre": "Puebla",
+      "logo": "img/concacaf/ligamxfemenil/puebla.png"
+    },
+    {
+      "id": "pumas",
+      "nombre": "Pumas",
+      "logo": "img/concacaf/ligamxfemenil/pumas.png"
+    },
+    {
+      "id": "queretaro",
+      "nombre": "Querétaro",
+      "logo": "img/concacaf/ligamxfemenil/queretaro.png"
+    },
+    {
+      "id": "rayadas",
+      "nombre": "Rayadas",
+      "logo": "img/concacaf/ligamxfemenil/rayadas.png"
+    },
+    {
+      "id": "san_luis",
+      "nombre": "Atlético San Luis",
+      "logo": "img/concacaf/ligamxfemenil/sanluis.png"
+    },
+    {
+      "id": "santos",
+      "nombre": "Santos",
+      "logo": "img/concacaf/ligamxfemenil/santos.png"
+    },
+    {
+      "id": "tigres",
+      "nombre": "Tigres",
+      "logo": "img/concacaf/ligamxfemenil/tigres.png"
+    },
+    {
+      "id": "tijuana",
+      "nombre": "Tijuana",
+      "logo": "img/concacaf/ligamxfemenil/tijuana.png"
+    },
+    {
+      "id": "toluca",
+      "nombre": "Toluca",
+      "logo": "img/concacaf/ligamxfemenil/toluca.png"
+    }
+  ]
+},
+"expansionmx": {
+  "nombre": "Liga de Expansión MX",
+  "equipos": [
+    {
+      "id": "alebrijes",
+      "nombre": "Alebrijes de Oaxaca",
+      "logo": "img/concacaf/expansionmx/alebrijes.png"
+    },
+    {
+      "id": "atlante",
+      "nombre": "Atlante",
+      "logo": "img/concacaf/expansionmx/atlante.png"
+    },
+    {
+      "id": "cancun",
+      "nombre": "Cancún FC",
+      "logo": "img/concacaf/expansionmx/cancun.png"
+    },
+    {
+      "id": "celaya",
+      "nombre": "Celaya",
+      "logo": "img/concacaf/expansionmx/celaya.png"
+    },
+    {
+      "id": "correcaminos",
+      "nombre": "Correcaminos UAT",
+      "logo": "img/concacaf/expansionmx/correcaminos.png"
+    },
+    {
+      "id": "dorados",
+      "nombre": "Dorados",
+      "logo": "img/concacaf/expansionmx/dorados.png"
+    },
+    {
+      "id": "irapuato",
+      "nombre": "Irapuato",
+      "logo": "img/concacaf/expansionmx/irapuato.png"
+    },
+    {
+      "id": "la_paz",
+      "nombre": "Club La Paz",
+      "logo": "img/concacaf/expansionmx/lapaz.png"
+    },
+    {
+      "id": "mineros",
+      "nombre": "Mineros de Zacatecas",
+      "logo": "img/concacaf/expansionmx/mineros.png"
+    },
+    {
+      "id": "morelia",
+      "nombre": "Atlético Morelia",
+      "logo": "img/concacaf/expansionmx/morelia.png"
+    },
+    {
+      "id": "tampico",
+      "nombre": "Tampico Madero",
+      "logo": "img/concacaf/expansionmx/tampico.png"
+    },
+    {
+      "id": "tapatio",
+      "nombre": "Tapatío",
+      "logo": "img/concacaf/expansionmx/tapatio.png"
+    },
+    {
+      "id": "tepatitlan",
+      "nombre": "Tepatitlán FC",
+      "logo": "img/concacaf/expansionmx/tepatitlan.png"
+    },
+    {
+      "id": "tlaxcala",
+      "nombre": "Tlaxcala FC",
+      "logo": "img/concacaf/expansionmx/tlaxcala.png"
+    },
+    {
+      "id": "udg",
+      "nombre": "UDG",
+      "logo": "img/concacaf/expansionmx/udg.png"
+    },
+    {
+      "id": "venados",
+      "nombre": "Venados FC",
+      "logo": "img/concacaf/expansionmx/venados.png"
+    }
+  ]
+},
+"ligapremiermx": {
+  "nombre": "Liga Premier MX",
+  "equipos": [
+    {
+      "id": "acatlan",
+      "nombre": "Acatlán",
+      "logo": "img/concacaf/ligapremiermx/acatlan.png"
+    },
+    {
+      "id": "agricultores_de_guasave",
+      "nombre": "Agricultores de Guasave",
+      "logo": "img/concacaf/ligapremiermx/agricultoresdeguasave.png"
+    },
+    {
+      "id": "aguacateros_de_periban",
+      "nombre": "Aguacateros de Peribán",
+      "logo": "img/concacaf/ligapremiermx/aguacaterosdeperiban.png"
+    },
+    {
+      "id": "atletico_aragon",
+      "nombre": "Atlético Aragón",
+      "logo": "img/concacaf/ligapremiermx/atleticoaragon.png"
+    },
+    {
+      "id": "chilpancingo",
+      "nombre": "Chilpancingo",
+      "logo": "img/concacaf/ligapremiermx/chilpancingo.png"
+    },
+    {
+      "id": "cimarrones",
+      "nombre": "Cimarrones",
+      "logo": "img/concacaf/ligapremiermx/cimarrones.png"
+    },
+    {
+      "id": "club_deportivo_uruapan",
+      "nombre": "Club Deportivo Uruapan",
+      "logo": "img/concacaf/ligapremiermx/clubdeportivouruapan.png"
+    },
+    {
+      "id": "colima",
+      "nombre": "Colima",
+      "logo": "img/concacaf/ligapremiermx/colima.png"
+    },
+    {
+      "id": "correcaminos",
+      "nombre": "Correcaminos",
+      "logo": "img/concacaf/ligapremiermx/correcaminos2.png"
+    },
+    {
+      "id": "deportiva_venados",
+      "nombre": "Deportiva Venados",
+      "logo": "img/concacaf/ligapremiermx/deportivavenados.png"
+    },
+    {
+      "id": "durango",
+      "nombre": "Durango",
+      "logo": "img/concacaf/ligapremiermx/durango.png"
+    },
+    {
+      "id": "faraones_texcoco",
+      "nombre": "Faraones Texcoco",
+      "logo": "img/concacaf/ligapremiermx/faraonestexcoco.png"
+    },
+    {
+      "id": "gavilanes_matamoros",
+      "nombre": "Gavilanes Matamoros",
+      "logo": "img/concacaf/ligapremiermx/gavilanesmatamoros.png"
+    },
+    {
+      "id": "halcones",
+      "nombre": "Halcones",
+      "logo": "img/concacaf/ligapremiermx/halcones.png"
+    },
+    {
+      "id": "interplaya_del_carmen",
+      "nombre": "Inter Playa del Carmen",
+      "logo": "img/concacaf/ligapremiermx/interplayadelcarmen.png"
+    },
+    {
+      "id": "jaguares",
+      "nombre": "Jaguares",
+      "logo": "img/concacaf/ligapremiermx/jaguares.png"
+    },
+    {
+      "id": "la_piedad",
+      "nombre": "La Piedad",
+      "logo": "img/concacaf/ligapremiermx/lapiedad.png"
+    },
+    {
+      "id": "leones_negros",
+      "nombre": "Leones Negros",
+      "logo": "img/concacaf/ligapremiermx/leonesnegros2.png"
+    },
+    {
+      "id": "lobos_ulmx",
+      "nombre": "Lobos ULMX",
+      "logo": "img/concacaf/ligapremiermx/lobosulmx.png"
+    },
+    {
+      "id": "los_cabos_united",
+      "nombre": "Los Cabos United",
+      "logo": "img/concacaf/ligapremiermx/loscabosunited.png"
+    },
+    {
+      "id": "mexicali",
+      "nombre": "Mexicali",
+      "logo": "img/concacaf/ligapremiermx/mexicali.png"
+    },
+    {
+      "id": "mineros_de_fresnillo",
+      "nombre": "Mineros de Fresnillo",
+      "logo": "img/concacaf/ligapremiermx/minerosdefresnillo.png"
+    },
+    {
+      "id": "montañeses",
+      "nombre": "Montañeses",
+      "logo": "img/concacaf/ligapremiermx/montañeses.png"
+    },
+    {
+      "id": "pioneros_cancun",
+      "nombre": "Pioneros Cancún",
+      "logo": "img/concacaf/ligapremiermx/pioneroscancun.png"
+    },
+    {
+      "id": "racing_de_veracruz",
+      "nombre": "Racing de Veracruz",
+      "logo": "img/concacaf/ligapremiermx/racingdeveracruz.png"
+    },
+    {
+      "id": "real_apodaca",
+      "nombre": "Real Apodaca",
+      "logo": "img/concacaf/ligapremiermx/realapodaca.png"
+    },
+    {
+      "id": "salamanca",
+      "nombre": "Salamanca",
+      "logo": "img/concacaf/ligapremiermx/salamanca.png"
+    },
+    {
+      "id": "sporting_canamy",
+      "nombre": "Sporting Canamy",
+      "logo": "img/concacaf/ligapremiermx/sportingcanamy.png"
+    },
+    {
+      "id": "tapachula",
+      "nombre": "Tapachula",
+      "logo": "img/concacaf/ligapremiermx/tapachula.png"
+    },
+    {
+      "id": "tecos",
+      "nombre": "Tecos",
+      "logo": "img/concacaf/ligapremiermx/tecos.png"
+    },
+    {
+      "id": "tigres_de_alica",
+      "nombre": "Tigres de Alica",
+      "logo": "img/concacaf/ligapremiermx/tigresdealica.png"
+    },
+    {
+      "id": "tritones_vallarta",
+      "nombre": "Tritones Vallarta",
+      "logo": "img/concacaf/ligapremiermx/tritonesvallarta.png"
+    },
+    {
+      "id": "universidad_autonoma_de_zacatecas",
+      "nombre": "Universidad Autónoma de Zacatecas",
+      "logo": "img/concacaf/ligapremiermx/universidadautonomadezacatecas.png"
+    },
+    {
+      "id": "zacatepec",
+      "nombre": "Zacatepec",
+      "logo": "img/concacaf/ligapremiermx/zacatepec.png"
+    },
+    {
+      "id": "zitacuaro",
+      "nombre": "Zitácuaro",
+      "logo": "img/concacaf/ligapremiermx/zitacuaro.png"
+    }
+  ]
+},
+
+"mls": {
+  "nombre": "Major League Soccer",
+  "equipos": [
+    {
+      "id": "atlanta_united",
+      "nombre": "Atlanta United",
+      "logo": "img/concacaf/mls/atlantaunited.png"
+    },
+    {
+      "id": "austin",
+      "nombre": "Austin FC",
+      "logo": "img/concacaf/mls/austin.png"
+    },
+    {
+      "id": "charlotte",
+      "nombre": "Charlotte FC",
+      "logo": "img/concacaf/mls/charlotte.png"
+    },
+    {
+      "id": "chicago_fire",
+      "nombre": "Chicago Fire",
+      "logo": "img/concacaf/mls/chicagofire.png"
+    },
+    {
+      "id": "cincinnati",
+      "nombre": "FC Cincinnati",
+      "logo": "img/concacaf/mls/cincinnati.png"
+    },
+    {
+      "id": "colorado_rapids",
+      "nombre": "Colorado Rapids",
+      "logo": "img/concacaf/mls/coloradorapids.png"
+    },
+    {
+      "id": "columbus_crew",
+      "nombre": "Columbus Crew",
+      "logo": "img/concacaf/mls/columbuscrew.png"
+    },
+    {
+      "id": "dc_united",
+      "nombre": "D.C. United",
+      "logo": "img/concacaf/mls/dcunited.png"
+    },
+    {
+      "id": "fc_dallas",
+      "nombre": "FC Dallas",
+      "logo": "img/concacaf/mls/fcdallas.png"
+    },
+    {
+      "id": "houston_dynamo",
+      "nombre": "Houston Dynamo",
+      "logo": "img/concacaf/mls/houstondynamo.png"
+    },
+    {
+      "id": "inter_miami",
+      "nombre": "Inter Miami CF",
+      "logo": "img/concacaf/mls/intermiami.png"
+    },
+    {
+      "id": "lafc",
+      "nombre": "Los Angeles FC",
+      "logo": "img/concacaf/mls/losangelesfc.png"
+    },
+    {
+      "id": "la_galaxy",
+      "nombre": "LA Galaxy",
+      "logo": "img/concacaf/mls/losangelesgalaxy.png"
+    },
+    {
+      "id": "minnesota_united",
+      "nombre": "Minnesota United",
+      "logo": "img/concacaf/mls/minnesotaunited.png"
+    },
+    {
+      "id": "montreal",
+      "nombre": "CF Montréal",
+      "logo": "img/concacaf/mls/montreal.png"
+    },
+    {
+      "id": "nashville",
+      "nombre": "Nashville SC",
+      "logo": "img/concacaf/mls/nashville.png"
+    },
+    {
+      "id": "new_england_revolution",
+      "nombre": "New England Revolution",
+      "logo": "img/concacaf/mls/newenglandrevolution.png"
+    },
+    {
+      "id": "new_york_city",
+      "nombre": "New York City FC",
+      "logo": "img/concacaf/mls/newyorkcity.png"
+    },
+    {
+      "id": "new_york_red_bulls",
+      "nombre": "New York Red Bulls",
+      "logo": "img/concacaf/mls/newyorkredbulls.png"
+    },
+    {
+      "id": "orlando_city",
+      "nombre": "Orlando City SC",
+      "logo": "img/concacaf/mls/orlandocity.png"
+    },
+    {
+      "id": "philadelphia_union",
+      "nombre": "Philadelphia Union",
+      "logo": "img/concacaf/mls/philadelphiaunion.png"
+    },
+    {
+      "id": "portland_timbers",
+      "nombre": "Portland Timbers",
+      "logo": "img/concacaf/mls/portlandtimbers.png"
+    },
+    {
+      "id": "real_salt_lake",
+      "nombre": "Real Salt Lake",
+      "logo": "img/concacaf/mls/realsaltlake.png"
+    },
+    {
+      "id": "san_diego",
+      "nombre": "San Diego FC",
+      "logo": "img/concacaf/mls/sandiegofc.png"
+    },
+    {
+      "id": "san_jose_earthquakes",
+      "nombre": "San Jose Earthquakes",
+      "logo": "img/concacaf/mls/sanjoseearthquakes.png"
+    },
+    {
+      "id": "seattle_sounders",
+      "nombre": "Seattle Sounders FC",
+      "logo": "img/concacaf/mls/seattlesounders.png"
+    },
+    {
+      "id": "sporting_kansas_city",
+      "nombre": "Sporting Kansas City",
+      "logo": "img/concacaf/mls/sportingkansascity.png"
+    },
+    {
+      "id": "st_louis_city",
+      "nombre": "St. Louis City SC",
+      "logo": "img/concacaf/mls/Stlouiscity.png"
+    },
+    {
+      "id": "toronto",
+      "nombre": "Toronto FC",
+      "logo": "img/concacaf/mls/toronto.png"
+    },
+    {
+      "id": "vancouver_whitecaps",
+      "nombre": "Vancouver Whitecaps",
+      "logo": "img/concacaf/mls/vancouverwhitecaps.png"
+    }
+  ]
+},
+
+"leaguescup": {
+  "nombre": "Leagues Cup",
+  "equipos": []
+},
+
+"usl": {
+  "nombre": "United Soccer League",
+  "equipos": [
+    {
+      "id": "birmingham_legion",
+      "nombre": "Birmingham Legion",
+      "logo": "img/concacaf/usl/birminghamlegion.png"
+    },
+    {
+      "id": "charleston_battery",
+      "nombre": "Charleston Battery",
+      "logo": "img/concacaf/usl/charlestonbattery.png"
+    },
+    {
+      "id": "detroitcity",
+      "nombre": "Detroit City FC",
+      "logo": "img/concacaf/usl/detroitcity.png"
+    },
+    {
+      "id": "el_paso_locomotive",
+      "nombre": "El Paso Locomotive",
+      "logo": "img/concacaf/usl/elpasolocomotive.png"
+    },
+    {
+      "id": "hartford_athletic",
+      "nombre": "Hartford Athletic",
+      "logo": "img/concacaf/usl/hartfordathletic.png"
+    },
+    {
+      "id": "indy_eleven",
+      "nombre": "Indy Eleven",
+      "logo": "img/concacaf/usl/indyeleven.png"
+    },
+    {
+      "id": "las_vegas_lights",
+      "nombre": "Las Vegas Lights",
+      "logo": "img/concacaf/usl/lasvegaslights.png"
+    },
+    {
+      "id": "loudoun_united",
+      "nombre": "Loudoun United",
+      "logo": "img/concacaf/usl/loudoununited.png"
+    },
+    {
+      "id": "louisville_city",
+      "nombre": "Louisville City FC",
+      "logo": "img/concacaf/usl/louisvillecity.png"
+    },
+    {
+      "id": "memphis_901",
+      "nombre": "Memphis 901 FC",
+      "logo": "img/concacaf/usl/memphis901.png"
+    },
+    {
+      "id": "miami",
+      "nombre": "Miami FC",
+      "logo": "img/concacaf/usl/miami.png"
+    },
+    {
+      "id": "monterey_bay",
+      "nombre": "Monterey Bay FC",
+      "logo": "img/concacaf/usl/montereybay.png"
+    },
+    {
+      "id": "new_mexico_united",
+      "nombre": "New Mexico United",
+      "logo": "img/concacaf/usl/newmexicounited.png"
+    },
+    {
+      "id": "north_carolina",
+      "nombre": "North Carolina FC",
+      "logo": "img/concacaf/usl/northcarolina.png"
+    },
+    {
+      "id": "oakland_roots",
+      "nombre": "Oakland Roots SC",
+      "logo": "img/concacaf/usl/oaklandroots.png"
+    },
+    {
+      "id": "orange_county",
+      "nombre": "Orange County SC",
+      "logo": "img/concacaf/usl/orangecounty.png"
+    },
+    {
+      "id": "phoenix_rising",
+      "nombre": "Phoenix Rising FC",
+      "logo": "img/concacaf/usl/phoenixrising.png"
+    },
+    {
+      "id": "pittsburgh_riverhounds",
+      "nombre": "Pittsburgh Riverhounds SC",
+      "logo": "img/concacaf/usl/pittsburghriverhounds.png"
+    },
+    {
+      "id": "rhode_island",
+      "nombre": "Rhode Island FC",
+      "logo": "img/concacaf/usl/rhodeisland.png"
+    },
+    {
+      "id": "sacramento_republic",
+      "nombre": "Sacramento Republic FC",
+      "logo": "img/concacaf/usl/sacramentorepublic.png"
+    },
+    {
+      "id": "san_antonio_us",
+      "nombre": "San Antonio FC",
+      "logo": "img/concacaf/usl/sanantonio.png"
+    },
+    {
+      "id": "switchbacks",
+      "nombre": "Colorado Springs Switchbacks FC",
+      "logo": "img/concacaf/usl/switchbacks.png"
+    },
+    {
+      "id": "tampa_bay_rowdies",
+      "nombre": "Tampa Bay Rowdies",
+      "logo": "img/concacaf/usl/tampabayrowdies.png"
+    },
+    {
+      "id": "tulsa",
+      "nombre": "FC Tulsa",
+      "logo": "img/concacaf/usl/tulsa.png"
+    }
+  ]
+},
+
+"nwsl": {
+  "nombre": "National Women's Soccer League",
+  "equipos": [
+    {
+      "id": "angel_city",
+      "nombre": "Angel City FC",
+      "logo": "img/concacaf/nwsl/angelcity.png"
+    },
+    {
+      "id": "bay_fc",
+      "nombre": "Bay FC",
+      "logo": "img/concacaf/nwsl/bayfc.png"
+    },
+    {
+      "id": "chicago_red_stars",
+      "nombre": "Chicago Red Stars",
+      "logo": "img/concacaf/nwsl/chicagoredstars.png"
+    },
+    {
+      "id": "houston_dash",
+      "nombre": "Houston Dash",
+      "logo": "img/concacaf/nwsl/houstondash.png"
+    },
+    {
+      "id": "kansas_city_current",
+      "nombre": "Kansas City Current",
+      "logo": "img/concacaf/nwsl/kansascitycurrent.png"
+    },
+    {
+      "id": "nj_ny_gotham",
+      "nombre": "NJ/NY Gotham FC",
+      "logo": "img/concacaf/nwsl/njnygotham.png"
+    },
+    {
+      "id": "north_carolina_courage",
+      "nombre": "North Carolina Courage",
+      "logo": "img/concacaf/nwsl/northcarolinacourage.png"
+    },
+    {
+      "id": "orlando_pride",
+      "nombre": "Orlando Pride",
+      "logo": "img/concacaf/nwsl/orlandopride.png"
+    },
+    {
+      "id": "portland_thorns",
+      "nombre": "Portland Thorns FC",
+      "logo": "img/concacaf/nwsl/portlandthorns.png"
+    },
+    {
+      "id": "racing_louisville",
+      "nombre": "Racing Louisville FC",
+      "logo": "img/concacaf/nwsl/racinglouisville.png"
+    },
+    {
+      "id": "san_diego_wave",
+      "nombre": "San Diego Wave FC",
+      "logo": "img/concacaf/nwsl/sandiegowave.png"
+    },
+    {
+      "id": "seattle_reign",
+      "nombre": "Seattle Reign FC",
+      "logo": "img/concacaf/nwsl/seattlereign.png"
+    },
+    {
+      "id": "utah_royals",
+      "nombre": "Utah Royals",
+      "logo": "img/concacaf/nwsl/utahroyals.png"
+    },
+    {
+      "id": "washintong_spirit",
+      "nombre": "Washington Spirit",
+      "logo": "img/concacaf/nwsl/washingtonspirit.png"
+    }
+  ]
+},
+
+"cpl": {
+  "nombre": "Canadian Premier League",
+  "equipos": [
+    {
+      "id": "atletico_ottawa",
+      "nombre": "Atlético Ottawa",
+      "logo": "img/concacaf/canadianpremierleague/atleticoottawa.png"
+    },
+    {
+      "id": "cavalry",
+      "nombre": "Cavalry FC",
+      "logo": "img/concacaf/canadianpremierleague/cavalry.png"
+    },
+    {
+      "id": "forge",
+      "nombre": "Forge FC",
+      "logo": "img/concacaf/canadianpremierleague/forge.png"
+    },
+    {
+      "id": "hfx_wanderers",
+      "nombre": "HFX Wanderers FC",
+      "logo": "img/concacaf/canadianpremierleague/hfxwanderers.png"
+    },
+    {
+      "id": "pacific",
+      "nombre": "Pacific FC",
+      "logo": "img/concacaf/canadianpremierleague/pacific.png"
+    },
+    {
+      "id": "valour",
+      "nombre": "Valour FC",
+      "logo": "img/concacaf/canadianpremierleague/valour.png"
+    },
+    {
+      "id": "vancouver",
+      "nombre": "Vancouver FC",
+      "logo": "img/concacaf/canadianpremierleague/vancouver.png"
+    },
+    {
+      "id": "york_united",
+      "nombre": "York United FC",
+      "logo": "img/concacaf/canadianpremierleague/yorkunited.png"
+    }
+  ]
+},
+
+"costarica": {
+  "nombre": "Liga FPD de Costa Rica",
+  "equipos": [
+    {
+      "id": "alajuelense",
+      "nombre": "Alajuelense",
+      "logo": "img/concacaf/costarica/alajuelense.png"
+    },
+    {
+      "id": "cartagines",
+      "nombre": "Cartaginés",
+      "logo": "img/concacaf/costarica/cartagines.png"
+    },
+    {
+      "id": "guanacasteca",
+      "nombre": "Guanacasteca",
+      "logo": "img/concacaf/costarica/guanacasteca.png"
+    },
+    {
+      "id": "herediano",
+      "nombre": "Herediano",
+      "logo": "img/concacaf/costarica/herediano.png"
+    },
+    {
+      "id": "liberia",
+      "nombre": "Liberia",
+      "logo": "img/concacaf/costarica/liberia.png"
+    },
+    {
+      "id": "perez_zeledon",
+      "nombre": "Pérez Zeledón",
+      "logo": "img/concacaf/costarica/perezzeledon.png"
+    },
+    {
+      "id": "puntarenas",
+      "nombre": "Puntarenas",
+      "logo": "img/concacaf/costarica/puntarenas.png"
+    },
+    {
+      "id": "san_carlos",
+      "nombre": "San Carlos",
+      "logo": "img/concacaf/costarica/sancarlos.png"
+    },
+    {
+      "id": "santa_ana",
+      "nombre": "Santa Ana",
+      "logo": "img/concacaf/costarica/santaana.png"
+    },
+    {
+      "id": "santos_de_guapiles",
+      "nombre": "Santos de Guápiles",
+      "logo": "img/concacaf/costarica/santosdeguapiles.png"
+    },
+    {
+      "id": "saprissa",
+      "nombre": "Saprissa",
+      "logo": "img/concacaf/costarica/saprissa.png"
+    },
+    {
+      "id": "sporting_cr",
+      "nombre": "Sporting San José",
+      "logo": "img/concacaf/costarica/sporting.png"
+    }
+  ]
+},
+
+"honduras": {
+  "nombre": "Liga Nacional de Honduras",
+  "equipos": [
+    {
+      "id": "genesis",
+      "nombre": "Genesis (HO)",
+      "logo": "img/concacaf/honduras/genesis.png"
+    },
+    {
+      "id": "juticalpa",
+      "nombre": "Juticalpa (HO)",
+      "logo": "img/concacaf/honduras/juticalpa.png"
+    },
+    {
+      "id": "lobos_ho",
+      "nombre": "Lobos (HO)",
+      "logo": "img/concacaf/honduras/lobos.png"
+    },
+    {
+      "id": "marathon",
+      "nombre": "Marathón (HO)",
+      "logo": "img/concacaf/honduras/marathon.png"
+    },
+    {
+      "id": "motagua",
+      "nombre": "Motagua (HO)",
+      "logo": "img/concacaf/honduras/motagua.png"
+    },
+    {
+      "id": "olancho",
+      "nombre": "Olancho (HO)",
+      "logo": "img/concacaf/honduras/olancho.png"
+    },
+    {
+      "id": "olimpia_ho",
+      "nombre": "Olimpia (HO)",
+      "logo": "img/concacaf/honduras/olimpia.png"
+    },
+    {
+      "id": "real_españa",
+      "nombre": "Real España (HO)",
+      "logo": "img/concacaf/honduras/realespaña.png"
+    },
+    {
+      "id": "real_sociedad_ho",
+      "nombre": "Real Sociedad (HO)",
+      "logo": "img/concacaf/honduras/realsociedad.png"
+    },
+    {
+      "id": "victoria",
+      "nombre": "Victoria (HO)",
+      "logo": "img/concacaf/honduras/victoria.png"
+    }
+  ]
+},
+
+"guatemala": {
+  "nombre": "Liga Nacional de Guatemala",
+  "equipos": [
+    {
+      "id": "achuapa",
+      "nombre": "Achuapa",
+      "logo": "img/concacaf/guatemala/achuapa.png"
+    },
+    {
+      "id": "antigua",
+      "nombre": "Antigua GFC",
+      "logo": "img/concacaf/guatemala/antigua.png"
+    },
+    {
+      "id": "coban_imperial",
+      "nombre": "Cobán Imperial",
+      "logo": "img/concacaf/guatemala/cobanimperial.png"
+    },
+    {
+      "id": "comunicaciones",
+      "nombre": "Comunicaciones",
+      "logo": "img/concacaf/guatemala/comunicaciones.png"
+    },
+    {
+      "id": "guastatoya",
+      "nombre": "Guastatoya",
+      "logo": "img/concacaf/guatemala/guastatoya.png"
+    },
+    {
+      "id": "malacateco",
+      "nombre": "Malacateco",
+      "logo": "img/concacaf/guatemala/malacateco.png"
+    },
+    {
+      "id": "marquense",
+      "nombre": "Marquense",
+      "logo": "img/concacaf/guatemala/marquense.png"
+    },
+    {
+      "id": "mixco",
+      "nombre": "Mixco",
+      "logo": "img/concacaf/guatemala/mixco.png"
+    },
+    {
+      "id": "municipal",
+      "nombre": "Municipal",
+      "logo": "img/concacaf/guatemala/municipal.png"
+    },
+    {
+      "id": "xelaju",
+      "nombre": "Xelajú MC",
+      "logo": "img/concacaf/guatemala/xelaju.png"
+    },
+    {
+      "id": "xinabajul",
+      "nombre": "Xinabajul",
+      "logo": "img/concacaf/guatemala/xinabajul.png"
+    },
+    {
+      "id": "zacapa",
+      "nombre": "Zacapa",
+      "logo": "img/concacaf/guatemala/zacapa.png"
+    }
+  ]
+},
+
+"panama": {
+  "nombre": "Liga Panameña de Fútbol",
+  "equipos": [
+    {
+      "id": "alianza_pa",
+      "nombre": "Alianza (PA)",
+      "logo": "img/concacaf/panama/alianza.png"
+    },
+    {
+      "id": "arabe_unido",
+      "nombre": "Árabe Unido (PA)",
+      "logo": "img/concacaf/panama/arabeunido.png"
+    },
+    {
+      "id": "herrera",
+      "nombre": "Herrera (PA)",
+      "logo": "img/concacaf/panama/herrera.png"
+    },
+    {
+      "id": "independiente_pa",
+      "nombre": "Independiente (PA)",
+      "logo": "img/concacaf/panama/independiente.png"
+    },
+    {
+      "id": "plaza_amador",
+      "nombre": "Plaza Amador (PA)",
+      "logo": "img/concacaf/panama/plazaamador.png"
+    },
+    {
+      "id": "potros_del_este",
+      "nombre": "Potros del Este (PA)",
+      "logo": "img/concacaf/panama/potrosdeleste.png"
+    },
+    {
+      "id": "san_francisco",
+      "nombre": "San Francisco (PA)",
+      "logo": "img/concacaf/panama/sanfrancisco.png"
+    },
+    {
+      "id": "sporting_san_miguielito",
+      "nombre": "Sporting San Miguelito (PA)",
+      "logo": "img/concacaf/panama/sportingsanmiguielito.png"
+    },
+    {
+      "id": "tauro",
+      "nombre": "Tauro (PA)",
+      "logo": "img/concacaf/panama/tauro.png"
+    },
+    {
+      "id": "umecit",
+      "nombre": "UMECIT (PA)",
+      "logo": "img/concacaf/panama/umecit.png"
+    },
+    {
+      "id": "universitario_pa",
+      "nombre": "Universitario (PA)",
+      "logo": "img/concacaf/panama/universitario.png"
+    },
+    {
+      "id": "veraguas",
+      "nombre": "Veraguas (PA)",
+      "logo": "img/concacaf/panama/veraguas.png"
+    }
+  ]
+},
+
+"dominicana": {
+  "nombre": "Liga Dominicana de Fútbol",
+  "equipos": [
+    {
+      "id": "atlantico",
+      "nombre": "Atlético Atlántico (DO)",
+      "logo": "img/concacaf/dominicana/atlantico.png"
+    },
+    {
+      "id": "atletico_pantoja",
+      "nombre": "Atlético Pantoja (DO)",
+      "logo": "img/concacaf/dominicana/atleticopantoja.png"
+    },
+    {
+      "id": "cibao",
+      "nombre": "Cibao FC (DO)",
+      "logo": "img/concacaf/dominicana/cibao.png"
+    },
+    {
+      "id": "delfines_del_este",
+      "nombre": "Delfines del Este (DO)",
+      "logo": "img/concacaf/dominicana/delfinesdeleste.png"
+    },
+    {
+      "id": "moca",
+      "nombre": "Moca FC (DO)",
+      "logo": "img/concacaf/dominicana/moca.png"
+    },
+    {
+      "id": "san_cristobal",
+      "nombre": "San Cristóbal FC (DO)",
+      "logo": "img/concacaf/dominicana/sancristobal.png"
+    },
+    {
+      "id": "universidad_OM",
+      "nombre": "Universidad O&M (DO)",
+      "logo": "img/concacaf/dominicana/universidadoym.png"
+    },
+    {
+      "id": "vegareal",
+      "nombre": "Vega Real (DO)",
+      "logo": "img/concacaf/dominicana/vegareal.png"
+    }
+  ]
+},
+
+"nicaragua": {
+  "nombre": "Liga Primera de Nicaragua",
+  "equipos": [
+    {
+      "id": "diriangen",
+      "nombre": "Diriangén (NI)",
+      "logo": "img/concacaf/nicaragua/diriangen.png"
+    },
+    {
+      "id": "jalapa",
+      "nombre": "Jalapa (NI)",
+      "logo": "img/concacaf/nicaragua/jalapa.png"
+    },
+    {
+      "id": "managua",
+      "nombre": "Managua FC (NI)",
+      "logo": "img/concacaf/nicaragua/managua.png"
+    },
+    {
+      "id": "matagalpa",
+      "nombre": "Matagalpa (NI)",
+      "logo": "img/concacaf/nicaragua/matagalpa.png"
+    },
+    {
+      "id": "ocotal",
+      "nombre": "Ocotal (NI)",
+      "logo": "img/concacaf/nicaragua/ocotal.png"
+    },
+    {
+      "id": "rancho_santana",
+      "nombre": "Rancho Santana (NI)",
+      "logo": "img/concacaf/nicaragua/ranchosantana.png"
+    },
+    {
+      "id": "esteli_real",
+      "nombre": "Real Estelí (NI)",
+      "logo": "img/concacaf/nicaragua/realesteli.png"
+    },
+    {
+      "id": "sebaco",
+      "nombre": "Sebaco (NI)",
+      "logo": "img/concacaf/nicaragua/sebaco.png"
+    },
+    {
+      "id": "unam_managua",
+      "nombre": "UNAM Managua (NI)",
+      "logo": "img/concacaf/nicaragua/unammanagua.png"
+    },
+    {
+      "id": "walter_ferretti",
+      "nombre": "Walter Ferretti (NI)",
+      "logo": "img/concacaf/nicaragua/walterferretti.png"
+    }
+  ]
+},
+
+"elsalvador": {
+  "nombre": "Liga Pepsi de El Salvador",
+  "equipos": [
+    {
+      "id": "aguila",
+      "nombre": "Águila (SV)",
+      "logo": "img/concacaf/elsalvador/aguila.png"
+    },
+    {
+      "id": "alianza_sv",
+      "nombre": "Alianza (SV)",
+      "logo": "img/concacaf/elsalvador/alianza.png"
+    },
+    {
+      "id": "cacahuatique",
+      "nombre": "Cacahuatique (SV)",
+      "logo": "img/concacaf/elsalvador/cacahuatique.png"
+    },
+    {
+      "id": "dragon",
+      "nombre": "Dragón (SV)",
+      "logo": "img/concacaf/elsalvador/dragon.png"
+    },
+    {
+      "id": "fas",
+      "nombre": "FAS (SV)",
+      "logo": "img/concacaf/elsalvador/fas.png"
+    },
+    {
+      "id": "firpo",
+      "nombre": "Firpo (SV)",
+      "logo": "img/concacaf/elsalvador/firpo.png"
+    },
+    {
+      "id": "fuerte",
+      "nombre": "Fuerte San Francisco (SV)",
+      "logo": "img/concacaf/elsalvador/fuerte.png"
+    },
+    {
+      "id": "limeno",
+      "nombre": "Limeño (SV)",
+      "logo": "img/concacaf/elsalvador/limeno.png"
+    },
+    {
+      "id": "metapan",
+      "nombre": "Metapán (SV)",
+      "logo": "img/concacaf/elsalvador/metapan.png"
+    },
+    {
+      "id": "once_deportivo",
+      "nombre": "Once Deportivo (SV)",
+      "logo": "img/concacaf/elsalvador/oncedeportivo.png"
+    },
+    {
+      "id": "platense_sv",
+      "nombre": "Platense (SV)",
+      "logo": "img/concacaf/elsalvador/platense.png"
+    }
+  ]
+},
+
+"jamaica": {
+  "nombre": "Jamaica Premier League",
+  "equipos": [
+    {
+      "id": "arnett_gardens",
+      "nombre": "Arnett Gardens (JM)",
+      "logo": "img/concacaf/jamaica/arnettgardens.png"
+    },
+    {
+      "id": "cavalier",
+      "nombre": "Cavalier SC (JM)",
+      "logo": "img/concacaf/jamaica/cavalier.png"
+    },
+    {
+      "id": "chapelton",
+      "nombre": "Chapelton Maroons (JM)",
+      "logo": "img/concacaf/jamaica/chapelton.png"
+    },
+    {
+      "id": "dunbeholden",
+      "nombre": "Dunbeholden FC (JM)",
+      "logo": "img/concacaf/jamaica/dunbeholden.png"
+    },
+    {
+      "id": "harbour_view",
+      "nombre": "Harbour View (JM)",
+      "logo": "img/concacaf/jamaica/harbourview.png"
+    },
+    {
+      "id": "humble_lions",
+      "nombre": "Humble Lions (JM)",
+      "logo": "img/concacaf/jamaica/humblelions.png"
+    },
+    {
+      "id": "molynes_united",
+      "nombre": "Molynes United (JM)",
+      "logo": "img/concacaf/jamaica/molynesunited.png"
+    },
+    {
+      "id": "montego_bay_united",
+      "nombre": "Montego Bay United (JM)",
+      "logo": "img/concacaf/jamaica/montegobayunited.png"
+    },
+    {
+      "id": "mount_pleasant",
+      "nombre": "Mount Pleasant FA (JM)",
+      "logo": "img/concacaf/jamaica/mountpleasant.png"
+    },
+    {
+      "id": "portmore_united",
+      "nombre": "Portmore United (JM)",
+      "logo": "img/concacaf/jamaica/portmoreunited.png"
+    },
+    {
+      "id": "racing_united",
+      "nombre": "Racing United (JM)",
+      "logo": "img/concacaf/jamaica/racingunited.png"
+    },
+    {
+      "id": "tivoli_gardens",
+      "nombre": "Tivoli Gardens (JM)",
+      "logo": "img/concacaf/jamaica/tivoligardens.png"
+    },
+    {
+      "id": "vere_united",
+      "nombre": "Vere United (JM)",
+      "logo": "img/concacaf/jamaica/vereunited.png"
+    },
+    {
+      "id": "waterhouse",
+      "nombre": "Waterhouse FC (JM)",
+      "logo": "img/concacaf/jamaica/waterhouse.png"
+    }
+  ]
+},
+
+"concacaf": {
+  "nombre": "CONCACAF National Teams",
+  "equipos": [
+    {
+      "id": "anguila",
+      "nombre": "Anguila",
+      "logo": "img/concacaf/selecciones/anguila.png"
+    },
+    {
+      "id": "antigua_y_barbuda",
+      "nombre": "Antigua y Barbuda",
+      "logo": "img/concacaf/selecciones/antiguaybarbuda.png"
+    },
+    {
+      "id": "aruba",
+      "nombre": "Aruba",
+      "logo": "img/concacaf/selecciones/aruba.png"
+    },
+    {
+      "id": "bahamas",
+      "nombre": "Bahamas",
+      "logo": "img/concacaf/selecciones/bahamas.png"
+    },
+    {
+      "id": "barbados",
+      "nombre": "Barbados",
+      "logo": "img/concacaf/selecciones/barbados.png"
+    },
+    {
+      "id": "belice",
+      "nombre": "Belice",
+      "logo": "img/concacaf/selecciones/belice.png"
+    },
+    {
+      "id": "bermudas",
+      "nombre": "Bermudas",
+      "logo": "img/concacaf/selecciones/bermuda.png"
+    },
+    {
+      "id": "bonaire",
+      "nombre": "Bonaire",
+      "logo": "img/concacaf/selecciones/bonaire.png"
+    },
+    {
+      "id": "canada",
+      "nombre": "Canadá",
+      "logo": "img/concacaf/selecciones/canada.png"
+    },
+    {
+      "id": "costarica",
+      "nombre": "Costa Rica",
+      "logo": "img/concacaf/selecciones/costarica.png"
+    },
+    {
+      "id": "cuba",
+      "nombre": "Cuba",
+      "logo": "img/concacaf/selecciones/cuba.png"
+    },
+    {
+      "id": "curazao",
+      "nombre": "Curazao",
+      "logo": "img/concacaf/selecciones/curazao.png"
+    },
+    {
+      "id": "dominica",
+      "nombre": "Dominica",
+      "logo": "img/concacaf/selecciones/dominica.png"
+    },
+    {
+      "id": "el_salvador",
+      "nombre": "El Salvador",
+      "logo": "img/concacaf/selecciones/elsalvador.png"
+    },
+    {
+      "id": "estados_unidos",
+      "nombre": "Estados Unidos",
+      "logo": "img/concacaf/selecciones/estadosunidos.png"
+    },
+    {
+      "id": "granada",
+      "nombre": "Granada",
+      "logo": "img/concacaf/selecciones/granada.png"
+    },
+    {
+      "id": "guadalupe",
+      "nombre": "Guadalupe",
+      "logo": "img/concacaf/selecciones/guadalupe.png"
+    },
+    {
+      "id": "guatemala",
+      "nombre": "Guatemala",
+      "logo": "img/concacaf/selecciones/guatemala.png"
+    },
+    {
+      "id": "guatemala2",
+      "nombre": "Guatemala 2",
+      "logo": "img/concacaf/selecciones/guatemala2.png"
+    },
+    {
+      "id": "guyana",
+      "nombre": "Guyana",
+      "logo": "img/concacaf/selecciones/guyana.png"
+    },
+    {
+      "id": "guyana_francesa",
+      "nombre": "Guayana Francesa",
+      "logo": "img/concacaf/selecciones/guyanafrancesa.png"
+    },
+    {
+      "id": "haiti",
+      "nombre": "Haití",
+      "logo": "img/concacaf/selecciones/haiti.png"
+    },
+    {
+      "id": "honduras",
+      "nombre": "Honduras",
+      "logo": "img/concacaf/selecciones/honduras.png"
+    },
+    {
+      "id": "islas_caiman",
+      "nombre": "Islas Caimán",
+      "logo": "img/concacaf/selecciones/islascaiman.png"
+    },
+    {
+      "id": "islas_turcas_y_caicos",
+      "nombre": "Islas Turcas y Caicos",
+      "logo": "img/concacaf/selecciones/islasturcasycaicos.png"
+    },
+    {
+      "id": "islas_virgenes_britanicas",
+      "nombre": "Islas Vírgenes Británicas",
+      "logo": "img/concacaf/selecciones/islasvirgenesbritanicas.png"
+    },
+    {
+      "id": "islas_virgenes_de_estados_unidos",
+      "nombre": "Islas Vírgenes de EE.UU.",
+      "logo": "img/concacaf/selecciones/islasvirgenesdeestadosunidos.png"
+    },
+    {
+      "id": "jamaica",
+      "nombre": "Jamaica",
+      "logo": "img/concacaf/selecciones/jamaica.png"
+    },
+    {
+      "id": "martinica",
+      "nombre": "Martinica",
+      "logo": "img/concacaf/selecciones/martinica.png"
+    },
+    {
+      "id": "mexico",
+      "nombre": "México",
+      "logo": "img/concacaf/selecciones/mexico.png"
+    },
+    {
+      "id": "montserrat",
+      "nombre": "Montserrat",
+      "logo": "img/concacaf/selecciones/montserrat.png"
+    },
+    {
+      "id": "nicaragua",
+      "nombre": "Nicaragua",
+      "logo": "img/concacaf/selecciones/nicaragua.png"
+    },
+    {
+      "id": "panama",
+      "nombre": "Panamá",
+      "logo": "img/concacaf/selecciones/panama.png"
+    },
+    {
+      "id": "puerto_rico",
+      "nombre": "Puerto Rico",
+      "logo": "img/concacaf/selecciones/puertorico.png"
+    },
+    {
+      "id": "republica_dominicana",
+      "nombre": "República Dominicana",
+      "logo": "img/concacaf/selecciones/republicadominicana.png"
+    },
+    {
+      "id": "saint_martin",
+      "nombre": "Saint Martin",
+      "logo": "img/concacaf/selecciones/saintmartin.png"
+    },
+    {
+      "id": "sint_maarten",
+      "nombre": "Sint Maarten",
+      "logo": "img/concacaf/selecciones/sintmaarten.png"
+    },
+    {
+      "id": "san_cristobal_y_nieves",
+      "nombre": "San Cristóbal y Nieves",
+      "logo": "img/concacaf/selecciones/sancristobalynieves.png"
+    },
+    {
+      "id": "santa_lucia",
+      "nombre": "Santa Lucía",
+      "logo": "img/concacaf/selecciones/santalucia.png"
+    },
+    {
+      "id": "san_vicente",
+      "nombre": "San Vicente y las Granadinas",
+      "logo": "img/concacaf/selecciones/sanvicente.png"
+    },
+    {
+      "id": "surinam",
+      "nombre": "Surinam",
+      "logo": "img/concacaf/selecciones/surinam.png"
+    },
+    {
+      "id": "trinidad_y_tobago",
+      "nombre": "Trinidad y Tobago",
+      "logo": "img/concacaf/selecciones/trinidadytobago.png"
+    }
+  ]
+},
+
+"copaoro": {
+  "nombre": "Copa Oro",
+  "equipos": []
+},
+
+"argentina": {
+  "nombre": "Liga Profesional de Fútbol Argentino",
+  "equipos": [
+    {
+      "id": "argentinos_juniors",
+      "nombre": "Argentinos Juniors",
+      "logo": "img/conmebol/argentina/argentinosjuniors.png"
+    },
+    {
+      "id": "banfield",
+      "nombre": "Banfield",
+      "logo": "img/conmebol/argentina/banfield.png"
+    },
+    {
+      "id": "barracas_central",
+      "nombre": "Barracas Central",
+      "logo": "img/conmebol/argentina/barracascentral.png"
+    },
+    {
+      "id": "belgrano",
+      "nombre": "Belgrano",
+      "logo": "img/conmebol/argentina/belgrano.png"
+    },
+    {
+      "id": "boca_juniors",
+      "nombre": "Boca Juniors",
+      "logo": "img/conmebol/argentina/bocajuniors.png"
+    },
+    {
+      "id": "central_cordoba",
+      "nombre": "Central Córdoba",
+      "logo": "img/conmebol/argentina/centralcordoba.png"
+    },
+    {
+      "id": "defensa_y_justicia",
+      "nombre": "Defensa y Justicia",
+      "logo": "img/conmebol/argentina/defensayjusticia.png"
+    },
+    {
+      "id": "estudiantes",
+      "nombre": "Estudiantes de La Plata",
+      "logo": "img/conmebol/argentina/estudiantesdelaplata.png"
+    },
+    {
+      "id": "gimnasia_y_esgrima",
+      "nombre": "Gimnasia y Esgrima La Plata",
+      "logo": "img/conmebol/argentina/gimnasiayesgrimalaplata.png"
+    },
+    {
+      "id": "godoy_cruz",
+      "nombre": "Godoy Cruz",
+      "logo": "img/conmebol/argentina/godoycruz.png"
+    },
+    {
+      "id": "huracan",
+      "nombre": "Huracán",
+      "logo": "img/conmebol/argentina/huracan.png"
+    },
+    {
+      "id": "independiente",
+      "nombre": "Independiente",
+      "logo": "img/conmebol/argentina/independiente.png"
+    },
+    {
+      "id": "independiente_rivadavia",
+      "nombre": "Independiente Rivadavia",
+      "logo": "img/conmebol/argentina/independienterivadavia.png"
+    },
+    {
+      "id": "instituto_atletico_central_cordoba",
+      "nombre": "Instituto",
+      "logo": "img/conmebol/argentina/institutoatleticocentralcordoba.png"
+    },
+    {
+      "id": "lanus",
+      "nombre": "Lanús",
+      "logo": "img/conmebol/argentina/lanus.png"
+    },
+    {
+      "id": "newells_old_boys",
+      "nombre": "Newell's Old Boys",
+      "logo": "img/conmebol/argentina/newellsoldboys.png"
+    },
+    {
+      "id": "platense",
+      "nombre": "Platense",
+      "logo": "img/conmebol/argentina/platense.png"
+    },
+    {
+      "id": "racing",
+      "nombre": "Racing Club",
+      "logo": "img/conmebol/argentina/racing.png"
+    },
+    {
+      "id": "riestra",
+      "nombre": "Deportivo Riestra",
+      "logo": "img/conmebol/argentina/riestra.png"
+    },
+    {
+      "id": "river_plate",
+      "nombre": "River Plate",
+      "logo": "img/conmebol/argentina/riverplate.png"
+    },
+    {
+      "id": "rosario_central",
+      "nombre": "Rosario Central",
+      "logo": "img/conmebol/argentina/rosariocentral.png"
+    },
+    {
+      "id": "san_lorenzo",
+      "nombre": "San Lorenzo",
+      "logo": "img/conmebol/argentina/sanlorenzo.png"
+    },
+    {
+      "id": "sarmiento_junin",
+      "nombre": "Sarmiento de Junín",
+      "logo": "img/conmebol/argentina/sarmientodejunin.png"
+    },
+    {
+      "id": "talleres_de_cordoba",
+      "nombre": "Talleres de Córdoba",
+      "logo": "img/conmebol/argentina/talleresdecordoba.png"
+    },
+    {
+      "id": "tigre",
+      "nombre": "Tigre",
+      "logo": "img/conmebol/argentina/tigre.png"
+    },
+    {
+      "id": "tucuman",
+      "nombre": "Atlético Tucumán",
+      "logo": "img/conmebol/argentina/tucuman.png"
+    },
+    {
+      "id": "union_santa_fe",
+      "nombre": "Unión de Santa Fe",
+      "logo": "img/conmebol/argentina/unionsantafe.png"
+    },
+    {
+      "id": "velez_sarsfield",
+      "nombre": "Vélez Sarsfield",
+      "logo": "img/conmebol/argentina/velezsarsfield.png"
+    }
+  ]
+},
+
+"argentinab": {
+  "nombre": "Primera Nacional (Argentina)",
+  "equipos": [
+    {
+      "id": "agropecuario",
+      "nombre": "Agropecuario Argentino",
+      "logo": "img/conmebol/argentinab/agropecuario.png"
+    },
+    {
+      "id": "aldosivi",
+      "nombre": "Aldosivi",
+      "logo": "img/conmebol/argentinab/aldosivi.png"
+    },
+    {
+      "id": "all_boys",
+      "nombre": "All Boys",
+      "logo": "img/conmebol/argentinab/allboys.png"
+    },
+    {
+      "id": "almagro",
+      "nombre": "Almagro",
+      "logo": "img/conmebol/argentinab/almagro.png"
+    },
+    {
+      "id": "almirante_brown",
+      "nombre": "Almirante Brown",
+      "logo": "img/conmebol/argentinab/almirantebrown.png"
+    },
+    {
+      "id": "alvarado",
+      "nombre": "Alvarado",
+      "logo": "img/conmebol/argentinab/alvarado.png"
+    },
+    {
+      "id": "arsenal_ar",
+      "nombre": "Arsenal",
+      "logo": "img/conmebol/argentinab/arsenal.png"
+    },
+    {
+      "id": "atlanta",
+      "nombre": "Atlanta",
+      "logo": "img/conmebol/argentinab/atlanta.png"
+    },
+    {
+      "id": "atletico_rafaela",
+      "nombre": "Atlético Rafaela",
+      "logo": "img/conmebol/argentinab/atleticorafaela.png"
+    },
+    {
+      "id": "brown_de_adrogue",
+      "nombre": "Brown de Adrogué",
+      "logo": "img/conmebol/argentinab/browndeadrogue.png"
+    },
+    {
+      "id": "chacarita_juniors",
+      "nombre": "Chacarita Juniors",
+      "logo": "img/conmebol/argentinab/chacaritajuniors.png"
+    },
+    {
+      "id": "chaco_for_ever",
+      "nombre": "Chaco For Ever",
+      "logo": "img/conmebol/argentinab/chacoforever.png"
+    },
+    {
+      "id": "colon",
+      "nombre": "Colón",
+      "logo": "img/conmebol/argentinab/colon.png"
+    },
+    {
+      "id": "defensores_de_belgrano",
+      "nombre": "Defensores de Belgrano",
+      "logo": "img/conmebol/argentinab/defensoresdebelgrano.png"
+    },
+    {
+      "id": "defensores_unidos",
+      "nombre": "Defensores Unidos",
+      "logo": "img/conmebol/argentinab/defensoresunidos.png"
+    },
+    {
+      "id": "deportivo_madryn",
+      "nombre": "Deportivo Madryn",
+      "logo": "img/conmebol/argentinab/deportivomadryn.png"
+    },
+    {
+      "id": "deportivo_maipu",
+      "nombre": "Deportivo Maipú",
+      "logo": "img/conmebol/argentinab/deportivomaipu.png"
+    },
+    {
+      "id": "deportivo_moron",
+      "nombre": "Deportivo Morón",
+      "logo": "img/conmebol/argentinab/deportivomoron.png"
+    },
+    {
+      "id": "estudiantes_2",
+      "nombre": "Estudiantes BA",
+      "logo": "img/conmebol/argentinab/estudiantes.png"
+    },
+    {
+      "id": "estudiantes_rc",
+      "nombre": "Estudiantes RC",
+      "logo": "img/conmebol/argentinab/estudiantesrc.png"
+    },
+    {
+      "id": "ferro_carril",
+      "nombre": "Ferro Carril Oeste",
+      "logo": "img/conmebol/argentinab/ferrocarril.png"
+    },
+    {
+      "id": "gimnasia_de_jujuy",
+      "nombre": "Gimnasia de Jujuy",
+      "logo": "img/conmebol/argentinab/gimnasiadejujuy.png"
+    },
+    {
+      "id": "gimnasia_de_mendoza",
+      "nombre": "Gimnasia de Mendoza",
+      "logo": "img/conmebol/argentinab/gimnasiademendoza.png"
+    },
+    {
+      "id": "gimnasia_y_tiro",
+      "nombre": "Gimnasia y Tiro",
+      "logo": "img/conmebol/argentinab/gimnasiaytiro.png"
+    },
+    {
+      "id": "guemes",
+      "nombre": "Güemes",
+      "logo": "img/conmebol/argentinab/guemes.png"
+    },
+    {
+      "id": "guillermo_brown",
+      "nombre": "Guillermo Brown",
+      "logo": "img/conmebol/argentinab/guillermobrown.png"
+    },
+    {
+      "id": "mitre_sde",
+      "nombre": "Mitre de Santiago del Estero",
+      "logo": "img/conmebol/argentinab/mitresde.png"
+    },
+    {
+      "id": "nueva_chicago",
+      "nombre": "Nueva Chicago",
+      "logo": "img/conmebol/argentinab/nuevachicago.png"
+    },
+    {
+      "id": "patronato",
+      "nombre": "Patronato",
+      "logo": "img/conmebol/argentinab/patronato.png"
+    },
+    {
+      "id": "quilmes",
+      "nombre": "Quilmes",
+      "logo": "img/conmebol/argentinab/quilmes.png"
+    },
+    {
+      "id": "racing_de_cordoba",
+      "nombre": "Racing de Córdoba",
+      "logo": "img/conmebol/argentinab/racingdecordoba.png"
+    },
+    {
+      "id": "san_martin",
+      "nombre": "San Martín SJ",
+      "logo": "img/conmebol/argentinab/sanmartin.png"
+    },
+    {
+      "id": "san_martin_t",
+      "nombre": "San Martín T",
+      "logo": "img/conmebol/argentinab/sanmartint.png"
+    },
+    {
+      "id": "san_miguel",
+      "nombre": "San Miguel",
+      "logo": "img/conmebol/argentinab/sanmiguel.png"
+    },
+    {
+      "id": "san_telmo",
+      "nombre": "San Telmo",
+      "logo": "img/conmebol/argentinab/santelmo.png"
+    },
+    {
+      "id": "talleres_re",
+      "nombre": "Talleres RE",
+      "logo": "img/conmebol/argentinab/talleresre.png"
+    },
+    {
+      "id": "temperley",
+      "nombre": "Temperley",
+      "logo": "img/conmebol/argentinab/temperley.png"
+    },
+    {
+      "id": "tristan_suarez",
+      "nombre": "Tristán Suárez",
+      "logo": "img/conmebol/argentinab/tristansuarez.png"
+    }
+  ]
+},
+
+"bolivia": {
+  "nombre": "Division Profesional (Bolivia)",
+  "equipos": [
+    {
+      "id": "always_ready",
+      "nombre": "Always Ready",
+      "logo": "img/conmebol/ligatecno/alwaysready.png"
+    },
+    {
+      "id": "aurora",
+      "nombre": "Aurora",
+      "logo": "img/conmebol/ligatecno/aurora.png"
+    },
+    {
+      "id": "blooming",
+      "nombre": "Blooming",
+      "logo": "img/conmebol/ligatecno/blooming.png"
+    },
+    {
+      "id": "bolivar",
+      "nombre": "Bolívar",
+      "logo": "img/conmebol/ligatecno/bolivar.png"
+    },
+    {
+      "id": "fc_universitario",
+      "nombre": "Universitario de Vinto",
+      "logo": "img/conmebol/ligatecno/fcuniversitario.png"
+    },
+    {
+      "id": "guabira",
+      "nombre": "Guabirá",
+      "logo": "img/conmebol/ligatecno/guabira.png"
+    },
+    {
+      "id": "gv_san_jose",
+      "nombre": "GV San José",
+      "logo": "img/conmebol/ligatecno/gvsanjose.png"
+    },
+    {
+      "id": "independiente_petrolero",
+      "nombre": "Independiente Petrolero",
+      "logo": "img/conmebol/ligatecno/independientepetrolero.png"
+    },
+    {
+      "id": "jorge_wilstermann",
+      "nombre": "Jorge Wilstermann",
+      "logo": "img/conmebol/ligatecno/jorgewilstermann.png"
+    },
+    {
+      "id": "nacional_potosi",
+      "nombre": "Nacional Potosí",
+      "logo": "img/conmebol/ligatecno/nacionalpotosi.png"
+    },
+    {
+      "id": "oriente_petrolero",
+      "nombre": "Oriente Petrolero",
+      "logo": "img/conmebol/ligatecno/orientepetrolero.png"
+    },
+    {
+      "id": "real_santa_cruz",
+      "nombre": "Real Santa Cruz",
+      "logo": "img/conmebol/ligatecno/realsantacruz.png"
+    },
+    {
+      "id": "real_tomayapo",
+      "nombre": "Real Tomayapo",
+      "logo": "img/conmebol/ligatecno/realtomayapo.png"
+    },
+    {
+      "id": "royal_pari",
+      "nombre": "Royal Pari",
+      "logo": "img/conmebol/ligatecno/royalpari.png"
+    },
+    {
+      "id": "san_antonio",
+      "nombre": "San Antonio Bulo Bulo",
+      "logo": "img/conmebol/ligatecno/sanantonio.png"
+    },
+    {
+      "id": "the_strongest",
+      "nombre": "The Strongest",
+      "logo": "img/conmebol/ligatecno/thestrongest.png"
+    }
+  ]
+},
+
+"conmebol": {
+  "nombre": "CONMEBOL National Teams",
+  "equipos": [
+    {
+      "id": "argentina",
+      "nombre": "Argentina",
+      "logo": "img/conmebol/selecciones/argentina.png"
+    },
+    {
+      "id": "bolivia",
+      "nombre": "Bolivia",
+      "logo": "img/conmebol/selecciones/bolivia.png"
+    },
+    {
+      "id": "brasil",
+      "nombre": "Brasil",
+      "logo": "img/conmebol/selecciones/brasil.png"
+    },
+    {
+      "id": "chile",
+      "nombre": "Chile",
+      "logo": "img/conmebol/selecciones/chile.png"
+    },
+    {
+      "id": "colombia",
+      "nombre": "Colombia",
+      "logo": "img/conmebol/selecciones/colombia.png"
+    },
+    {
+      "id": "ecuador",
+      "nombre": "Ecuador",
+      "logo": "img/conmebol/selecciones/ecuador.png"
+    },
+    {
+      "id": "paraguay",
+      "nombre": "Paraguay",
+      "logo": "img/conmebol/selecciones/paraguay.png"
+    },
+    {
+      "id": "peru",
+      "nombre": "Perú",
+      "logo": "img/conmebol/selecciones/peru.png"
+    },
+    {
+      "id": "uruguay",
+      "nombre": "Uruguay",
+      "logo": "img/conmebol/selecciones/uruguay.png"
+    },
+    {
+      "id": "venezuela",
+      "nombre": "Venezuela",
+      "logo": "img/conmebol/selecciones/venezuela.png"
+    }
+  ]
+},
+
+"laliga": {
+  "nombre": "La Liga (Spain)",
+  "equipos": [
+    {
+      "id": "athletic_club",
+      "nombre": "Athletic Club",
+      "logo": "img/uefa/laliga/athleticclub.png"
+    },
+    {
+      "id": "atletico_de_madrid",
+      "nombre": "Atlético de Madrid",
+      "logo": "img/uefa/laliga/atleticodemadrid.png"
+    },
+    {
+      "id": "barcelona",
+      "nombre": "FC Barcelona",
+      "logo": "img/uefa/laliga/barcelona.png"
+    },
+    {
+      "id": "celta_de_vigo",
+      "nombre": "Celta de Vigo",
+      "logo": "img/uefa/laliga/celtadevigo.png"
+    },
+    {
+      "id": "deportivo_alaves",
+      "nombre": "Deportivo Alavés",
+      "logo": "img/uefa/laliga/deportivoalaves.png"
+    },
+    {
+      "id": "elche",
+      "nombre": "Elche CF",
+      "logo": "img/uefa/laliga2/elche.png"
+    },
+    {
+      "id": "espanyol",
+      "nombre": "RCD Espanyol",
+      "logo": "img/uefa/laliga/espanyol.png"
+    },
+    {
+      "id": "getafe",
+      "nombre": "Getafe CF",
+      "logo": "img/uefa/laliga/getafe.png"
+    },
+    {
+      "id": "girona",
+      "nombre": "Girona FC",
+      "logo": "img/uefa/laliga/girona.png"
+    },
+    {
+      "id": "levante",
+      "nombre": "Levante UD",
+      "logo": "img/uefa/laliga2/levante.png"
+    },
+    {
+      "id": "mallorca",
+      "nombre": "RCD Mallorca",
+      "logo": "img/uefa/laliga/mallorca.png"
+    },
+    {
+      "id": "osasuna",
+      "nombre": "CA Osasuna",
+      "logo": "img/uefa/laliga/osasuna.png"
+    },
+    {
+      "id": "rayo_vallecano",
+      "nombre": "Rayo Vallecano",
+      "logo": "img/uefa/laliga/rayovallecano.png"
+    },
+    {
+      "id": "real_betis",
+      "nombre": "Real Betis",
+      "logo": "img/uefa/laliga/realbetis.png"
+    },
+    {
+      "id": "real_madrid",
+      "nombre": "Real Madrid",
+      "logo": "img/uefa/laliga/realmadrid.png"
+    },
+    {
+      "id": "real_oviedo",
+      "nombre": "Real Oviedo",
+      "logo": "img/uefa/laliga2/realoviedo.png"
+    },
+    {
+      "id": "real_sociedad",
+      "nombre": "Real Sociedad",
+      "logo": "img/uefa/laliga/realsociedad.png"
+    },
+    {
+      "id": "sevilla",
+      "nombre": "Sevilla FC",
+      "logo": "img/uefa/laliga/sevilla.png"
+    },
+    {
+      "id": "valencia",
+      "nombre": "Valencia CF",
+      "logo": "img/uefa/laliga/valencia.png"
+    },
+    {
+      "id": "villarreal",
+      "nombre": "Villarreal CF",
+      "logo": "img/uefa/laliga/villarreal.png"
+    }
+  ]
+},
+
+"laliga2": {
+  "nombre": "La Liga 2 (Spain)",
+  "equipos": [
+    {
+      "id": "albacete",
+      "nombre": "Albacete Balompié",
+      "logo": "img/uefa/laliga2/albacete.png"
+    },
+    {
+      "id": "almeria",
+      "nombre": "UD Almería",
+      "logo": "img/uefa/laliga2/almeria.png"
+    },
+    {
+      "id": "andorra_cf",
+      "nombre": "Andorra CF",
+      "logo": "img/uefa/laliga2/andorracf.png"
+    },
+    {
+      "id": "burgos",
+      "nombre": "Burgos CF",
+      "logo": "img/uefa/laliga2/burgos.png"
+    },
+    {
+      "id": "cadiz",
+      "nombre": "Cádiz CF",
+      "logo": "img/uefa/laliga2/cadiz.png"
+    },
+    {
+      "id": "castellon",
+      "nombre": "CD Castellón",
+      "logo": "img/uefa/laliga2/castellon.png"
+    },
+    {
+      "id": "ceuta",
+      "nombre": "Ceuta",
+      "logo": "img/uefa/laliga2/ceuta.png"
+    },
+    {
+      "id": "cordoba",
+      "nombre": "Córdoba CF",
+      "logo": "img/uefa/laliga2/cordoba.png"
+    },
+    {
+      "id": "cultural_leonesa",
+      "nombre": "Cultural Leonesa",
+      "logo": "img/uefa/laliga2/culturalleonesa.png"
+    },
+    {
+      "id": "deportivo_la_coruna",
+      "nombre": "Deportivo La Coruña",
+      "logo": "img/uefa/laliga2/deportivodelacoruna.png"
+    },
+    {
+      "id": "eibar",
+      "nombre": "SD Eibar",
+      "logo": "img/uefa/laliga2/eibar.png"
+    },
+    {
+      "id": "granada_es",
+      "nombre": "Granada CF",
+      "logo": "img/uefa/laliga2/granada.png"
+    },
+    {
+      "id": "huesca",
+      "nombre": "SD Huesca",
+      "logo": "img/uefa/laliga2/huesca.png"
+    },
+    {
+      "id": "las_palmas",
+      "nombre": "UD Las Palmas",
+      "logo": "img/uefa/laliga/laspalmas.png"
+    },
+    {
+      "id": "leganes",
+      "nombre": "CD Leganés",
+      "logo": "img/uefa/laliga/leganes.png"
+    },
+    {
+      "id": "malaga",
+      "nombre": "Málaga CF",
+      "logo": "img/uefa/laliga2/malaga.png"
+    },
+    {
+      "id": "mirandes",
+      "nombre": "CD Mirandés",
+      "logo": "img/uefa/laliga2/mirandes.png"
+    },
+    {
+      "id": "racing_de_santander",
+      "nombre": "Racing de Santander",
+      "logo": "img/uefa/laliga2/racingdesantander.png"
+    },
+    {
+      "id": "real_sociedad_b",
+      "nombre": "Real Sociedad B",
+      "logo": "img/uefa/laliga2/realsociedadb.png"
+    },
+    {
+      "id": "real_zaragoza",
+      "nombre": "Real Zaragoza",
+      "logo": "img/uefa/laliga2/realzaragoza.png"
+    },
+    {
+      "id": "sporting_de_gijon",
+      "nombre": "Sporting de Gijón",
+      "logo": "img/uefa/laliga2/sportingdegijon.png"
+    },
+    {
+      "id": "real_valladolid",
+      "nombre": "Real Valladolid",
+      "logo": "img/uefa/laliga/realvalladolid.png"
+    }
+  ]
+},
+
+"premierleague": {
+  "nombre": "Premier League (England)",
+  "equipos": [
+    {
+      "id": "arsenal",
+      "nombre": "Arsenal",
+      "logo": "img/uefa/premierleague/arsenal.png"
+    },
+    {
+      "id": "aston_villa",
+      "nombre": "Aston Villa",
+      "logo": "img/uefa/premierleague/astonvilla.png"
+    },
+    {
+      "id": "bournemouth",
+      "nombre": "AFC Bournemouth",
+      "logo": "img/uefa/premierleague/bournemouth.png"
+    },
+    {
+      "id": "brentford",
+      "nombre": "Brentford FC",
+      "logo": "img/uefa/premierleague/brentford.png"
+    },
+    {
+      "id": "brighton",
+      "nombre": "Brighton & Hove Albion",
+      "logo": "img/uefa/premierleague/brighton.png"
+    },
+    {
+      "id": "burnley",
+      "nombre": "Burnley FC",
+      "logo": "img/uefa/championship/burnley.png"
+    },
+    {
+      "id": "chelsea",
+      "nombre": "Chelsea FC",
+      "logo": "img/uefa/premierleague/chelsea.png"
+    },
+    {
+      "id": "crystal_palace",
+      "nombre": "Crystal Palace",
+      "logo": "img/uefa/premierleague/crystalpalace.png"
+    },
+    {
+      "id": "everton",
+      "nombre": "Everton FC",
+      "logo": "img/uefa/premierleague/everton.png"
+    },
+    {
+      "id": "fulham",
+      "nombre": "Fulham FC",
+      "logo": "img/uefa/premierleague/fulham.png"
+    },
+    {
+      "id": "leeds_united",
+      "nombre": "Leeds United",
+      "logo": "img/uefa/championship/leedsunited.png"
+    },
+    {
+      "id": "liverpool",
+      "nombre": "Liverpool FC",
+      "logo": "img/uefa/premierleague/liverpool.png"
+    },
+    {
+      "id": "manchester_city",
+      "nombre": "Manchester City",
+      "logo": "img/uefa/premierleague/manchestercity.png"
+    },
+    {
+      "id": "manchester_united",
+      "nombre": "Manchester United",
+      "logo": "img/uefa/premierleague/manchesterunited.png"
+    },
+    {
+      "id": "newcastle",
+      "nombre": "Newcastle United",
+      "logo": "img/uefa/premierleague/newcastle.png"
+    },
+    {
+      "id": "nottingham_forest",
+      "nombre": "Nottingham Forest",
+      "logo": "img/uefa/premierleague/nottinghamforest.png"
+    },
+    {
+      "id": "sunderland",
+      "nombre": "Sunderland AFC",
+      "logo": "img/uefa/championship/sunderland.png"
+    },
+    {
+      "id": "tottenham",
+      "nombre": "Tottenham Hotspur",
+      "logo": "img/uefa/premierleague/tottenham.png"
+    },
+    {
+      "id": "west_ham",
+      "nombre": "West Ham United",
+      "logo": "img/uefa/premierleague/westham.png"
+    },
+    {
+      "id": "wolverhampton",
+      "nombre": "Wolverhampton Wanderers",
+      "logo": "img/uefa/premierleague/wolverhampton.png"
+    }
+  ]
+},
+
+"championship": {
+  "nombre": "EFL Championship (England)",
+  "equipos": [
+    {
+      "id": "birmingham",
+      "nombre": "Birmingham",
+      "logo": "img/uefa/championship/birmingham.png"
+    },
+    {
+      "id": "blackburn",
+      "nombre": "Blackburn Rovers",
+      "logo": "img/uefa/championship/blackburn.png"
+    },
+    {
+      "id": "bristol_city",
+      "nombre": "Bristol City",
+      "logo": "img/uefa/championship/bristolcity.png"
+    },
+    {
+      "id": "charlton",
+      "nombre": "Charlton Athletic FC",
+      "logo": "img/uefa/championship/charlton.png"
+    },
+    {
+      "id": "coventry",
+      "nombre": "Coventry City",
+      "logo": "img/uefa/championship/coventry.png"
+    },
+    {
+      "id": "derby_county",
+      "nombre": "Derby County",
+      "logo": "img/uefa/championship/derbycounty.png"
+    },
+    {
+      "id": "hullcity",
+      "nombre": "Hull City",
+      "logo": "img/uefa/championship/hullcity.png"
+    },
+    {
+      "id": "ipswich",
+      "nombre": "Ipswich Town",
+      "logo": "img/uefa/premierleague/ipswich.png"
+    },
+    {
+      "id": "leicester_city",
+      "nombre": "Leicester City",
+      "logo": "img/uefa/premierleague/leicestercity.png"
+    },
+    {
+      "id": "middlesbrough",
+      "nombre": "Middlesbrough FC",
+      "logo": "img/uefa/championship/middlesbrough.png"
+    },
+    {
+      "id": "millwall",
+      "nombre": "Millwall FC",
+      "logo": "img/uefa/championship/millwall.png"
+    },
+    {
+      "id": "norwich",
+      "nombre": "Norwich City",
+      "logo": "img/uefa/championship/norwich.png"
+    },
+    {
+      "id": "oxford_united",
+      "nombre": "Oxford United",
+      "logo": "img/uefa/championship/oxfordunited.png"
+    },
+    {
+      "id": "portsmouth",
+      "nombre": "Portsmouth FC",
+      "logo": "img/uefa/championship/portsmouth.png"
+    },
+    {
+      "id": "preston",
+      "nombre": "Preston North End",
+      "logo": "img/uefa/championship/preston.png"
+    },
+    {
+      "id": "qpr",
+      "nombre": "Queens Park Rangers",
+      "logo": "img/uefa/championship/qpr.png"
+    },
+    {
+      "id": "sheffield_united",
+      "nombre": "Sheffield United",
+      "logo": "img/uefa/championship/sheffieldunited.png"
+    },
+    {
+      "id": "sheffield_wednesday",
+      "nombre": "Sheffield Wednesday",
+      "logo": "img/uefa/championship/sheffieldwednesday.png"
+    },
+    {
+      "id": "southampton",
+      "nombre": "Southampton FC",
+      "logo": "img/uefa/premierleague/southampton.png"
+    },
+    {
+      "id": "stoke_city",
+      "nombre": "Stoke City",
+      "logo": "img/uefa/championship/stokecity.png"
+    },
+    {
+      "id": "swansea_city",
+      "nombre": "Swansea City",
+      "logo": "img/uefa/championship/swanseacity.png"
+    },
+    {
+      "id": "watford",
+      "nombre": "Watford FC",
+      "logo": "img/uefa/championship/watford.png"
+    },
+    {
+      "id": "west_bromwich",
+      "nombre": "West Bromwich Albion",
+      "logo": "img/uefa/championship/westbromwich.png"
+    },
+    {
+      "id": "wrexham",
+      "nombre": "Wrexham",
+      "logo": "img/uefa/championship/wrexham.png"
+    }
+  ]
+},
+
+"facup": {
+  "nombre": "FA Cup",
+  "equipos": []
+},
+
+"seriea": {
+  "nombre": "Serie A (Italy)",
+  "equipos": [
+    {
+      "id": "ac_milan",
+      "nombre": "AC Milan",
+      "logo": "img/uefa/seriea/acmilan.png"
+    },
+    {
+      "id": "atalanta",
+      "nombre": "Atalanta",
+      "logo": "img/uefa/seriea/atalanta.png"
+    },
+    {
+      "id": "bologna",
+      "nombre": "Bologna FC",
+      "logo": "img/uefa/seriea/bologna.png"
+    },
+    {
+      "id": "cagliari",
+      "nombre": "Cagliari Calcio",
+      "logo": "img/uefa/seriea/cagliari.png"
+    },
+    {
+      "id": "como",
+      "nombre": "Como 1907",
+      "logo": "img/uefa/seriea/como.png"
+    },
+    {
+      "id": "cremonese",
+      "nombre": "Cremonese",
+      "logo": "img/uefa/serieb/cremonese.png"
+    },
+    {
+      "id": "fiorentina",
+      "nombre": "Fiorentina",
+      "logo": "img/uefa/seriea/fiorentina.png"
+    },
+    {
+      "id": "genoa",
+      "nombre": "Genoa CFC",
+      "logo": "img/uefa/seriea/genoa.png"
+    },
+    {
+      "id": "hellas_verona",
+      "nombre": "Hellas Verona",
+      "logo": "img/uefa/seriea/hellasverona.png"
+    },
+    {
+      "id": "internazionale",
+      "nombre": "Inter Milan",
+      "logo": "img/uefa/seriea/internazionale.png"
+    },
+    {
+      "id": "juventus",
+      "nombre": "Juventus (Black)",
+      "logo": "img/uefa/seriea/juventus.png"
+    },
+    {
+      "id": "juventus_2",
+      "nombre": "Juventus (White)",
+      "logo": "img/uefa/seriea/juventus2.png"
+    },
+    {
+      "id": "lazio",
+      "nombre": "Lazio",
+      "logo": "img/uefa/seriea/lazio.png"
+    },
+    {
+      "id": "lecce",
+      "nombre": "US Lecce",
+      "logo": "img/uefa/seriea/lecce.png"
+    },
+    {
+      "id": "napoli",
+      "nombre": "Napoli",
+      "logo": "img/uefa/seriea/napoli.png"
+    },
+    {
+      "id": "parma",
+      "nombre": "Parma Calcio 1913",
+      "logo": "img/uefa/seriea/parma.png"
+    },
+    {
+      "id": "pisa",
+      "nombre": "Pisa",
+      "logo": "img/uefa/serieb/pisa.png"
+    },
+    {
+      "id": "roma",
+      "nombre": "AS Roma",
+      "logo": "img/uefa/seriea/roma.png"
+    },
+    {
+      "id": "sassuolo",
+      "nombre": "Sassuolo",
+      "logo": "img/uefa/serieb/sassuolo.png"
+    },
+    {
+      "id": "torino",
+      "nombre": "Torino FC",
+      "logo": "img/uefa/seriea/torino.png"
+    },
+    {
+      "id": "udinese",
+      "nombre": "Udinese Calcio",
+      "logo": "img/uefa/seriea/udinese.png"
+    }
+  ]
+},
+
+"serieb": {
+  "nombre": "Serie B (Italy)",
+  "equipos": [
+    {
+      "id": "avellino",
+      "nombre": "Avellino",
+      "logo": "img/uefa/serieb/avellino.png"
+    },
+    {
+      "id": "bari",
+      "nombre": "Bari",
+      "logo": "img/uefa/serieb/bari.png"
+    },
+    {
+      "id": "carrarese",
+      "nombre": "Carrarese",
+      "logo": "img/uefa/serieb/carrarese.png"
+    },
+    {
+      "id": "catanzaro",
+      "nombre": "Catanzaro",
+      "logo": "img/uefa/serieb/catanzaro.png"
+    },
+    {
+      "id": "cesena",
+      "nombre": "Cesena",
+      "logo": "img/uefa/serieb/cesena.png"
+    },
+    {
+      "id": "empoli",
+      "nombre": "Empoli FC",
+      "logo": "img/uefa/seriea/empoli.png"
+    },
+    {
+      "id": "frosinone",
+      "nombre": "Frosinone",
+      "logo": "img/uefa/serieb/frosinone.png"
+    },
+    {
+      "id": "juve_stabia",
+      "nombre": "Juve Stabia",
+      "logo": "img/uefa/serieb/juvestabia.png"
+    },
+    {
+      "id": "mantova",
+      "nombre": "Mantova",
+      "logo": "img/uefa/serieb/mantova.png"
+    },
+    {
+      "id": "modena",
+      "nombre": "Modena",
+      "logo": "img/uefa/serieb/modena.png"
+    },
+    {
+      "id": "monza",
+      "nombre": "AC Monza",
+      "logo": "img/uefa/seriea/monza.png"
+    },
+    {
+      "id": "padova",
+      "nombre": "Padova",
+      "logo": "img/uefa/serieb/padova.png"
+    },
+    {
+      "id": "palermo",
+      "nombre": "Palermo",
+      "logo": "img/uefa/serieb/palermo.png"
+    },
+    {
+      "id": "pescara",
+      "nombre": "Pescara",
+      "logo": "img/uefa/serieb/pescara.png"
+    },
+    {
+      "id": "reggiana",
+      "nombre": "Reggiana",
+      "logo": "img/uefa/serieb/reggiana.png"
+    },
+    {
+      "id": "sampdoria",
+      "nombre": "Sampdoria",
+      "logo": "img/uefa/serieb/sampdoria.png"
+    },
+    {
+      "id": "spezia_calcio",
+      "nombre": "Spezia (Black)",
+      "logo": "img/uefa/serieb/speziacalcio.png"
+    },
+    {
+      "id": "spezia_calcio_2",
+      "nombre": "Spezia (White)",
+      "logo": "img/uefa/serieb/speziacalcio2.png"
+    },
+    {
+      "id": "sudtirol",
+      "nombre": "Sudtirol",
+      "logo": "img/uefa/serieb/sudtirol.png"
+    },
+    {
+      "id": "venezia",
+      "nombre": "Venezia FC",
+      "logo": "img/uefa/seriea/venezia.png"
+    },
+    {
+      "id": "virtus_entella",
+      "nombre": "Virtus Entella",
+      "logo": "img/uefa/serieb/virtusentella.png"
+    }
+  ]
+},
+
+"bundesliga": {
+  "nombre": "Bundesliga (Germany)",
+  "equipos": [
+    {
+      "id": "bayer_leverkusen",
+      "nombre": "Bayer Leverkusen",
+      "logo": "img/uefa/bundesliga/bayerleverkusen.png"
+    },
+    {
+      "id": "bayern_munchen",
+      "nombre": "Bayern München",
+      "logo": "img/uefa/bundesliga/bayernmunchen.png"
+    },
+    {
+      "id": "borussia_dortmund",
+      "nombre": "Borussia Dortmund",
+      "logo": "img/uefa/bundesliga/borussiadortmund.png"
+    },
+    {
+      "id": "borussia_monchengladbach",
+      "nombre": "Borussia Mönchengladbach",
+      "logo": "img/uefa/bundesliga/borussiamonchengladbach.png"
+    },
+    {
+      "id": "eintracht_frankfurt",
+      "nombre": "Eintracht Frankfurt",
+      "logo": "img/uefa/bundesliga/eintrachtfrankfurt.png"
+    },
+    {
+      "id": "fc_augsburg",
+      "nombre": "FC Augsburg",
+      "logo": "img/uefa/bundesliga/fcaugsburg.png"
+    },
+    {
+      "id": "fc_heidenheim",
+      "nombre": "FC Heidenheim",
+      "logo": "img/uefa/bundesliga/fcheidenheim.png"
+    },
+    {
+      "id": "friburgo",
+      "nombre": "SC Freiburg",
+      "logo": "img/uefa/bundesliga/friburgo.png"
+    },
+    {
+      "id": "hoffenheim",
+      "nombre": "TSG Hoffenheim",
+      "logo": "img/uefa/bundesliga/hoffenheim.png"
+    },
+    {
+      "id": "holstein_kiel",
+      "nombre": "Holstein Kiel",
+      "logo": "img/uefa/bundesliga/holsteinkiel.png"
+    },
+    {
+      "id": "mainz",
+      "nombre": "Mainz 05",
+      "logo": "img/uefa/bundesliga/mainz.png"
+    },
+    {
+      "id": "rb_leipzig",
+      "nombre": "RB Leipzig",
+      "logo": "img/uefa/bundesliga/rbleipzig.png"
+    },
+    {
+      "id": "st_pauli",
+      "nombre": "FC St. Pauli",
+      "logo": "img/uefa/bundesliga/stpauli.png"
+    },
+    {
+      "id": "stuttgart",
+      "nombre": "VfB Stuttgart",
+      "logo": "img/uefa/bundesliga/stuttgart.png"
+    },
+    {
+      "id": "union_berlin",
+      "nombre": "Union Berlin",
+      "logo": "img/uefa/bundesliga/unionberlin.png"
+    },
+    {
+      "id": "vfl_bochum",
+      "nombre": "VfL Bochum",
+      "logo": "img/uefa/bundesliga/vflbochum.png"
+    },
+    {
+      "id": "werder_bremen",
+      "nombre": "Werder Bremen",
+      "logo": "img/uefa/bundesliga/werderbremen.png"
+    },
+    {
+      "id": "wolfsburg",
+      "nombre": "VfL Wolfsburg",
+      "logo": "img/uefa/bundesliga/wolfsburg.png"
+    }
+  ]
+},
+
+"bundesliga2": {
+  "nombre": "2. Bundesliga (Germany)",
+  "equipos": [
+    {
+      "id": "braunschweig",
+      "nombre": "Eintracht Braunschweig",
+      "logo": "img/uefa/bundesliga2/braunschweig.png"
+    },
+    {
+      "id": "darmstadt_98",
+      "nombre": "SV Darmstadt 98",
+      "logo": "img/uefa/bundesliga2/darmstadt98.png"
+    },
+    {
+      "id": "fortuna_dusseldorf",
+      "nombre": "Fortuna Düsseldorf",
+      "logo": "img/uefa/bundesliga2/fortunadusseldorf.png"
+    },
+    {
+      "id": "greuther_furth",
+      "nombre": "Greuther Fürth",
+      "logo": "img/uefa/bundesliga2/greutherfurth.png"
+    },
+    {
+      "id": "hamburger_sv",
+      "nombre": "Hamburger SV",
+      "logo": "img/uefa/bundesliga2/hamburgersv.png"
+    },
+    {
+      "id": "hannover",
+      "nombre": "Hannover 96",
+      "logo": "img/uefa/bundesliga2/hannover.png"
+    },
+    {
+      "id": "hertha_bsc",
+      "nombre": "Hertha BSC",
+      "logo": "img/uefa/bundesliga2/herthabsc.png"
+    },
+    {
+      "id": "kaiserslautern",
+      "nombre": "1. FC Kaiserslautern",
+      "logo": "img/uefa/bundesliga2/kaiserslautern.png"
+    },
+    {
+      "id": "karlsruher",
+      "nombre": "Karlsruher SC",
+      "logo": "img/uefa/bundesliga2/karlsruher.png"
+    },
+    {
+      "id": "koln",
+      "nombre": "1. FC Köln",
+      "logo": "img/uefa/bundesliga2/koln.png"
+    },
+    {
+      "id": "magdeburg",
+      "nombre": "1. FC Magdeburg",
+      "logo": "img/uefa/bundesliga2/magdeburg.png"
+    },
+    {
+      "id": "nurnberg",
+      "nombre": "1. FC Nürnberg",
+      "logo": "img/uefa/bundesliga2/nurnberg.png"
+    },
+    {
+      "id": "preuben_munster",
+      "nombre": "Preußen Münster",
+      "logo": "img/uefa/bundesliga2/preubenmunster.png"
+    },
+    {
+      "id": "regensburg",
+      "nombre": "SSV Jahn Regensburg",
+      "logo": "img/uefa/bundesliga2/regensburg.png"
+    },
+    {
+      "id": "schalke_04",
+      "nombre": "FC Schalke 04",
+      "logo": "img/uefa/bundesliga2/schalke04.png"
+    },
+    {
+      "id": "sc_paderborn",
+      "nombre": "SC Paderborn",
+      "logo": "img/uefa/bundesliga2/scpaderborn.png"
+    },
+    {
+      "id": "sv_elversberg",
+      "nombre": "SV Elversberg",
+      "logo": "img/uefa/bundesliga2/svelversberg.png"
+    },
+    {
+      "id": "ulm",
+      "nombre": "SSV Ulm",
+      "logo": "img/uefa/bundesliga2/ulm.png"
+    }
+  ]
+},
+
+"ligue1": {
+  "nombre": "Ligue 1 (France)",
+  "equipos": [
+    {
+      "id": "angers",
+      "nombre": "Angers SCO",
+      "logo": "img/uefa/ligue1/angers.png"
+    },
+    {
+      "id": "as_monaco",
+      "nombre": "AS Monaco",
+      "logo": "img/uefa/ligue1/asonaco.png"
+    },
+    {
+      "id": "auxerre",
+      "nombre": "AJ Auxerre",
+      "logo": "img/uefa/ligue1/auxerre.png"
+    },
+    {
+      "id": "brestois",
+      "nombre": "Stade Brestois",
+      "logo": "img/uefa/ligue1/brestois.png"
+    },
+    {
+      "id": "clermont",
+      "nombre": "Clermont Foot",
+      "logo": "img/uefa/ligue1/clermont.png"
+    },
+    {
+      "id": "lens",
+      "nombre": "RC Lens",
+      "logo": "img/uefa/ligue1/lens.png"
+    },
+    {
+      "id": "lille",
+      "nombre": "LOSC Lille",
+      "logo": "img/uefa/ligue1/lille.png"
+    },
+    {
+      "id": "montpellier",
+      "nombre": "Montpellier HSC",
+      "logo": "img/uefa/ligue1/montpellier.png"
+    },
+    {
+      "id": "nantes",
+      "nombre": "FC Nantes (Primary)",
+      "logo": "img/uefa/ligue1/nantes.png"
+    },
+    {
+      "id": "nantes2",
+      "nombre": "FC Nantes (Alternate)",
+      "logo": "img/uefa/ligue1/nantes2.png"
+    },
+    {
+      "id": "nice",
+      "nombre": "OGC Nice",
+      "logo": "img/uefa/ligue1/nice.png"
+    },
+    {
+      "id": "olympique_de_marsella",
+      "nombre": "Olympique de Marseille",
+      "logo": "img/uefa/ligue1/olympiquedemarsella.png"
+    },
+    {
+      "id": "olympique_lyonnais",
+      "nombre": "Olympique Lyonnais",
+      "logo": "img/uefa/ligue1/olympiquelyonnais.png"
+    },
+    {
+      "id": "paris_saint_germain",
+      "nombre": "Paris Saint-Germain",
+      "logo": "img/uefa/ligue1/parissaintgermain.png"
+    },
+    {
+      "id": "reims",
+      "nombre": "Stade de Reims",
+      "logo": "img/uefa/ligue1/reims.png"
+    },
+    {
+      "id": "rennais",
+      "nombre": "Stade Rennais",
+      "logo": "img/uefa/ligue1/rennais.png"
+    },
+    {
+      "id": "saint_etienne",
+      "nombre": "AS Saint-Étienne",
+      "logo": "img/uefa/ligue1/saintetienne.png"
+    },
+    {
+      "id": "strasbourg",
+      "nombre": "RC Strasbourg",
+      "logo": "img/uefa/ligue1/strasbourg.png"
+    },
+    {
+      "id": "toulouse",
+      "nombre": "FC Toulouse",
+      "logo": "img/uefa/ligue1/toulouse.png"
+    }
+  ]
+},
+
+"ligue2": {
+  "nombre": "Ligue 2 (France)",
+  "equipos": [
+    {
+      "id": "ajaccio",
+      "nombre": "AC Ajaccio",
+      "logo": "img/uefa/ligue2/ajaccio.png"
+    },
+    {
+      "id": "amiens",
+      "nombre": "Amiens SC",
+      "logo": "img/uefa/ligue2/amiens.png"
+    },
+    {
+      "id": "bastia",
+      "nombre": "SC Bastia",
+      "logo": "img/uefa/ligue2/bastia.png"
+    },
+    {
+      "id": "caen",
+      "nombre": "SM Caen",
+      "logo": "img/uefa/ligue2/caen.png"
+    },
+    {
+      "id": "clermont_foot",
+      "nombre": "Clermont Foot",
+      "logo": "img/uefa/ligue2/clermontfoot.png"
+    },
+    {
+      "id": "dunkerque",
+      "nombre": "USL Dunkerque",
+      "logo": "img/uefa/ligue2/dunkerque.png"
+    },
+    {
+      "id": "fc_annecy",
+      "nombre": "FC Annecy",
+      "logo": "img/uefa/ligue2/fcannecy.png"
+    },
+    {
+      "id": "grenoble",
+      "nombre": "Grenoble Foot 38",
+      "logo": "img/uefa/ligue2/grenoble.png"
+    },
+    {
+      "id": "guingamp",
+      "nombre": "EA Guingamp",
+      "logo": "img/uefa/ligue2/guingamp.png"
+    },
+    {
+      "id": "lorient",
+      "nombre": "FC Lorient",
+      "logo": "img/uefa/ligue2/lorient.png"
+    },
+    {
+      "id": "martigues",
+      "nombre": "FC Martigues",
+      "logo": "img/uefa/ligue2/martigues.png"
+    },
+    {
+      "id": "metz",
+      "nombre": "FC Metz (Primary)",
+      "logo": "img/uefa/ligue2/metz.png"
+    },
+    {
+      "id": "metz2",
+      "nombre": "FC Metz (Alternate)",
+      "logo": "img/uefa/ligue2/metz2.png"
+    },
+    {
+      "id": "paris_fc",
+      "nombre": "Paris FC",
+      "logo": "img/uefa/ligue2/parisfc.png"
+    },
+    {
+      "id": "pau_fc",
+      "nombre": "Pau FC",
+      "logo": "img/uefa/ligue2/paufc.png"
+    },
+    {
+      "id": "red_star_fc",
+      "nombre": "Red Star FC",
+      "logo": "img/uefa/ligue2/redstarfc.png"
+    },
+    {
+      "id": "rodez_af",
+      "nombre": "Rodez AF",
+      "logo": "img/uefa/ligue2/rodezaf.png"
+    },
+    {
+      "id": "stade_lavallois",
+      "nombre": "Stade Lavallois",
+      "logo": "img/uefa/ligue2/stadelavallois.png"
+    },
+    {
+      "id": "troyesac",
+      "nombre": "ESTAC Troyes",
+      "logo": "img/uefa/ligue2/troyesac.png"
+    }
+  ]
+},
+
+"coupedefrance": {
+  "nombre": "Coupe De France",
+  "equipos": []
+},
+
+"primeiraliga": {
+  "nombre": "Primeira Liga (Portugal)",
+  "equipos": [
+    {
+      "id": "amadora",
+      "nombre": "Estrela da Amadora",
+      "logo": "img/uefa/primeiraliga/amadora.png"
+    },
+    {
+      "id": "arouca",
+      "nombre": "FC Arouca",
+      "logo": "img/uefa/primeiraliga/arouca.png"
+    },
+    {
+      "id": "avs",
+      "nombre": "AVS Futebol SAD",
+      "logo": "img/uefa/primeiraliga/avs.png"
+    },
+    {
+      "id": "benfica",
+      "nombre": "SL Benfica",
+      "logo": "img/uefa/primeiraliga/benfica.png"
+    },
+    {
+      "id": "boavista",
+      "nombre": "Boavista FC",
+      "logo": "img/uefa/primeiraliga/boavista.png"
+    },
+    {
+      "id": "casa_pia",
+      "nombre": "Casa Pia AC",
+      "logo": "img/uefa/primeiraliga/casapia.png"
+    },
+    {
+      "id": "estoril",
+      "nombre": "GD Estoril Praia",
+      "logo": "img/uefa/primeiraliga/estoril.png"
+    },
+    {
+      "id": "famalicao",
+      "nombre": "FC Famalicão",
+      "logo": "img/uefa/primeiraliga/famalicao.png"
+    },
+    {
+      "id": "farense",
+      "nombre": "SC Farense",
+      "logo": "img/uefa/primeiraliga/farense.png"
+    },
+    {
+      "id": "gil_vicente",
+      "nombre": "Gil Vicente FC",
+      "logo": "img/uefa/primeiraliga/gilvicente.png"
+    },
+    {
+      "id": "moreirense",
+      "nombre": "Moreirense FC",
+      "logo": "img/uefa/primeiraliga/moreirense.png"
+    },
+    {
+      "id": "nacional_madeira",
+      "nombre": "CD Nacional",
+      "logo": "img/uefa/primeiraliga/nacionalmadeira.png"
+    },
+    {
+      "id": "porto",
+      "nombre": "FC Porto",
+      "logo": "img/uefa/primeiraliga/porto.png"
+    },
+    {
+      "id": "rio_ave",
+      "nombre": "Rio Ave FC",
+      "logo": "img/uefa/primeiraliga/rioave.png"
+    },
+    {
+      "id": "santa_clara",
+      "nombre": "CD Santa Clara",
+      "logo": "img/uefa/primeiraliga/santaclara.png"
+    },
+    {
+      "id": "sporting_braga",
+      "nombre": "SC Braga",
+      "logo": "img/uefa/primeiraliga/sportingbraga.png"
+    },
+    {
+      "id": "sporting_cp",
+      "nombre": "Sporting CP",
+      "logo": "img/uefa/primeiraliga/sportingcp.png"
+    },
+    {
+      "id": "vitoria_guimaraes",
+      "nombre": "Vitória SC",
+      "logo": "img/uefa/primeiraliga/vitoriaguimaraes.png"
+    }
+  ]
+},
+
+"segundaliga": {
+  "nombre": "Liga Portugal 2 (Segunda Liga)",
+  "equipos": [
+    {
+      "id": "alverca",
+      "nombre": "FC Alverca",
+      "logo": "img/uefa/segundaliga/alverca.png"
+    },
+    {
+      "id": "benfica",
+      "nombre": "SL Benfica B",
+      "logo": "img/uefa/segundaliga/benfica.png"
+    },
+    {
+      "id": "cd_feirense",
+      "nombre": "CD Feirense",
+      "logo": "img/uefa/segundaliga/cdfeirense.png"
+    },
+    {
+      "id": "desportivo_de_chaves",
+      "nombre": "GD Chaves",
+      "logo": "img/uefa/segundaliga/desportivodechaves.png"
+    },
+    {
+      "id": "fc_penafiel",
+      "nombre": "FC Penafiel",
+      "logo": "img/uefa/segundaliga/fcpenafiel.png"
+    },
+    {
+      "id": "felgueiras",
+      "nombre": "FC Felgueiras 1932",
+      "logo": "img/uefa/segundaliga/felgueiras.png"
+    },
+    {
+      "id": "leiria",
+      "nombre": "UD Leiria",
+      "logo": "img/uefa/segundaliga/leiria.png"
+    },
+    {
+      "id": "leixoes",
+      "nombre": "Leixões SC",
+      "logo": "img/uefa/segundaliga/leixoes.png"
+    },
+    {
+      "id": "mafra",
+      "nombre": "CD Mafra",
+      "logo": "img/uefa/segundaliga/mafra.png"
+    },
+    {
+      "id": "maritimo",
+      "nombre": "CS Marítimo",
+      "logo": "img/uefa/segundaliga/maritimo.png"
+    },
+    {
+      "id": "oliveirense",
+      "nombre": "UD Oliveirense",
+      "logo": "img/uefa/segundaliga/oliveirense.png"
+    },
+    {
+      "id": "pacos_de_ferreira",
+      "nombre": "FC Paços de Ferreira",
+      "logo": "img/uefa/segundaliga/pacosdeferreira.png"
+    },
+    {
+      "id": "portimonense",
+      "nombre": "Portimonense SC",
+      "logo": "img/uefa/segundaliga/portimonense.png"
+    },
+    {
+      "id": "porto",
+      "nombre": "FC Porto B",
+      "logo": "img/uefa/segundaliga/porto.png"
+    },
+    {
+      "id": "tondela",
+      "nombre": "CD Tondela",
+      "logo": "img/uefa/segundaliga/tondela.png"
+    },
+    {
+      "id": "torreense",
+      "nombre": "SCU Torreense",
+      "logo": "img/uefa/segundaliga/torreense.png"
+    },
+    {
+      "id": "viseu",
+      "nombre": "Académico de Viseu FC",
+      "logo": "img/uefa/segundaliga/viseu.png"
+    },
+    {
+      "id": "vizela",
+      "nombre": "FC Vizela",
+      "logo": "img/uefa/segundaliga/vizela.png"
+    }
+  ]
+},
+
+"tacadeportugal": {
+  "nombre": "TaTaça De Portugal",
+  "equipos": []
+},
+
+"eredivisie": {
+  "nombre": "Eredivisie (Netherlands)",
+  "equipos": [
+    {
+      "id": "ajax",
+      "nombre": "AFC Ajax",
+      "logo": "img/uefa/eredivisie/ajax.png"
+    },
+    {
+      "id": "almere_city",
+      "nombre": "Almere City FC",
+      "logo": "img/uefa/eredivisie/almerecity.png"
+    },
+    {
+      "id": "az_alkmaar",
+      "nombre": "AZ Alkmaar",
+      "logo": "img/uefa/eredivisie/azalkmaar.png"
+    },
+    {
+      "id": "breda",
+      "nombre": "NAC Breda",
+      "logo": "img/uefa/eredivisie/breda.png"
+    },
+    {
+      "id": "feyenoord",
+      "nombre": "Feyenoord",
+      "logo": "img/uefa/eredivisie/feyenoord.png"
+    },
+    {
+      "id": "fortuna_sittard",
+      "nombre": "Fortuna Sittard",
+      "logo": "img/uefa/eredivisie/fortunasittard.png"
+    },
+    {
+      "id": "go_ahead_eagles",
+      "nombre": "Go Ahead Eagles",
+      "logo": "img/uefa/eredivisie/goaheadeagles.png"
+    },
+    {
+      "id": "groningen",
+      "nombre": "FC Groningen",
+      "logo": "img/uefa/eredivisie/groningen.png"
+    },
+    {
+      "id": "heerenveen",
+      "nombre": "SC Heerenveen",
+      "logo": "img/uefa/eredivisie/heerenveen.png"
+    },
+    {
+      "id": "heracles",
+      "nombre": "Heracles Almelo",
+      "logo": "img/uefa/eredivisie/heracles.png"
+    },
+    {
+      "id": "nec",
+      "nombre": "NEC Nijmegen",
+      "logo": "img/uefa/eredivisie/nec.png"
+    },
+    {
+      "id": "pec_zwolle",
+      "nombre": "PEC Zwolle",
+      "logo": "img/uefa/eredivisie/peczwolle.png"
+    },
+    {
+      "id": "psv",
+      "nombre": "PSV Eindhoven",
+      "logo": "img/uefa/eredivisie/psv.png"
+    },
+    {
+      "id": "rkc_waalwijk",
+      "nombre": "RKC Waalwijk",
+      "logo": "img/uefa/eredivisie/rkcwaalwijk.png"
+    },
+    {
+      "id": "sparta_rotterdam",
+      "nombre": "Sparta Rotterdam",
+      "logo": "img/uefa/eredivisie/spartarotterdam.png"
+    },
+    {
+      "id": "twente",
+      "nombre": "FC Twente",
+      "logo": "img/uefa/eredivisie/twente.png"
+    },
+    {
+      "id": "utrecht",
+      "nombre": "FC Utrecht",
+      "logo": "img/uefa/eredivisie/utrecht.png"
+    },
+    {
+      "id": "willem_ii",
+      "nombre": "Willem II",
+      "logo": "img/uefa/eredivisie/willemiiI.png"
+    }
+  ]
+},
+
+"eerstedivisie": {
+  "nombre": "Eerste Divisie (Netherlands)",
+  "equipos": [
+    {
+      "id": "ado_den_haag",
+      "nombre": "ADO Den Haag",
+      "logo": "img/uefa/eerstedivisie/adodenhaag.png"
+    },
+    {
+      "id": "de_graafschap",
+      "nombre": "De Graafschap",
+      "logo": "img/uefa/eerstedivisie/degraafschap.png"
+    },
+    {
+      "id": "de_nbosch",
+      "nombre": "FC Den Bosch",
+      "logo": "img/uefa/eerstedivisie/denbosch.png"
+    },
+    {
+      "id": "emmen",
+      "nombre": "FC Emmen",
+      "logo": "img/uefa/eerstedivisie/emmen.png"
+    },
+    {
+      "id": "excelsior",
+      "nombre": "Excelsior Rotterdam",
+      "logo": "img/uefa/eerstedivisie/excelsior.png"
+    },
+    {
+      "id": "fc_dordrecht",
+      "nombre": "FC Dordrecht",
+      "logo": "img/uefa/eerstedivisie/fcdordrecht.png"
+    },
+    {
+      "id": "fc_eindhoven",
+      "nombre": "FC Eindhoven",
+      "logo": "img/uefa/eerstedivisie/fceindhoven.png"
+    },
+    {
+      "id": "helmond_sport",
+      "nombre": "Helmond Sport",
+      "logo": "img/uefa/eerstedivisie/helmondsport.png"
+    },
+    {
+      "id": "jong_ajax",
+      "nombre": "Jong Ajax",
+      "logo": "img/uefa/eerstedivisie/jongajax.png"
+    },
+    {
+      "id": "jong_az_alkmaar",
+      "nombre": "Jong AZ",
+      "logo": "img/uefa/eerstedivisie/jongazalkmaar.png"
+    },
+    {
+      "id": "jong_psv",
+      "nombre": "Jong PSV",
+      "logo": "img/uefa/eerstedivisie/jongpsv.png"
+    },
+    {
+      "id": "jong_utrecht",
+      "nombre": "Jong FC Utrecht",
+      "logo": "img/uefa/eerstedivisie/jongutrecht.png"
+    },
+    {
+      "id": "mvv_maastricht",
+      "nombre": "MVV Maastricht",
+      "logo": "img/uefa/eerstedivisie/mvvmaastricht.png"
+    },
+    {
+      "id": "roda",
+      "nombre": "Roda JC Kerkrade",
+      "logo": "img/uefa/eerstedivisie/roda.png"
+    },
+    {
+      "id": "telstar",
+      "nombre": "Telstar",
+      "logo": "img/uefa/eerstedivisie/telstar.png"
+    },
+    {
+      "id": "top_oss",
+      "nombre": "TOP Oss",
+      "logo": "img/uefa/eerstedivisie/toposs.png"
+    },
+    {
+      "id": "cambuur",
+      "nombre": "SC Cambuur",
+      "logo": "img/uefa/eerstedivisie/cambuur.png"
+    },
+    {
+      "id": "vitesse",
+      "nombre": "Vitesse",
+      "logo": "img/uefa/eerstedivisie/vitesse.png"
+    },
+    {
+      "id": "volendam",
+      "nombre": "FC Volendam",
+      "logo": "img/uefa/eerstedivisie/volendam.png"
+    },
+    {
+      "id": "vvv_venlo",
+      "nombre": "VVV-Venlo",
+      "logo": "img/uefa/eerstedivisie/vvvvenlo.png"
+    }
+  ]
+},
+
+"johancruijff": {
+  "nombre": "Johan Cruijff",
+  "equipos": []
+},
+
+"uefa": {
+  "nombre": "UEFA National Teams",
+  "equipos": [
+    {
+      "id": "albania",
+      "nombre": "Albania",
+      "logo": "img/uefa/selecciones/albania.png"
+    },
+    {
+      "id": "alemania",
+      "nombre": "Alemania",
+      "logo": "img/uefa/selecciones/alemania.png"
+    },
+    {
+      "id": "andorra",
+      "nombre": "Andorra",
+      "logo": "img/uefa/selecciones/andorra.png"
+    },
+    {
+      "id": "armenia",
+      "nombre": "Armenia",
+      "logo": "img/uefa/selecciones/armenia.png"
+    },
+    {
+      "id": "austria",
+      "nombre": "Austria (Primary)",
+      "logo": "img/uefa/selecciones/austria.png"
+    },
+    {
+      "id": "austria_2",
+      "nombre": "Austria (Alternate)",
+      "logo": "img/uefa/selecciones/austria2.png"
+    },
+    {
+      "id": "azerbaiyan",
+      "nombre": "Azerbaiyán",
+      "logo": "img/uefa/selecciones/azerbaiyan.png"
+    },
+    {
+      "id": "belgica",
+      "nombre": "Bélgica",
+      "logo": "img/uefa/selecciones/belgica.png"
+    },
+    {
+      "id": "bielorrusia",
+      "nombre": "Bielorrusia",
+      "logo": "img/uefa/selecciones/bielorrusia.png"
+    },
+    {
+      "id": "bosnia_y_herzegovina",
+      "nombre": "Bosnia y Herzegovina",
+      "logo": "img/uefa/selecciones/bosniayherzegovina.png"
+    },
+    {
+      "id": "bulgaria",
+      "nombre": "Bulgaria",
+      "logo": "img/uefa/selecciones/bulgaria.png"
+    },
+    {
+      "id": "chipre",
+      "nombre": "Chipre",
+      "logo": "img/uefa/selecciones/chipre.png"
+    },
+    {
+      "id": "croacia",
+      "nombre": "Croacia",
+      "logo": "img/uefa/selecciones/croacia.png"
+    },
+    {
+      "id": "dinamarca",
+      "nombre": "Dinamarca",
+      "logo": "img/uefa/selecciones/dinamarca.png"
+    },
+    {
+      "id": "escocia",
+      "nombre": "Escocia",
+      "logo": "img/uefa/selecciones/escocia.png"
+    },
+    {
+      "id": "eslovaquia",
+      "nombre": "Eslovaquia",
+      "logo": "img/uefa/selecciones/eslovaquia.png"
+    },
+    {
+      "id": "eslovenia",
+      "nombre": "Eslovenia",
+      "logo": "img/uefa/selecciones/eslovenia.png"
+    },
+    {
+      "id": "espana",
+      "nombre": "España",
+      "logo": "img/uefa/selecciones/espana.png"
+    },
+    {
+      "id": "estonia",
+      "nombre": "Estonia",
+      "logo": "img/uefa/selecciones/estonia.png"
+    },
+    {
+      "id": "finlandia",
+      "nombre": "Finlandia",
+      "logo": "img/uefa/selecciones/finlandia.png"
+    },
+    {
+      "id": "francia",
+      "nombre": "Francia (Primary)",
+      "logo": "img/uefa/selecciones/francia.png"
+    },
+    {
+      "id": "francia_2",
+      "nombre": "Francia (Alternate)",
+      "logo": "img/uefa/selecciones/francia2.png"
+    },
+    {
+      "id": "gales",
+      "nombre": "Gales",
+      "logo": "img/uefa/selecciones/gales.png"
+    },
+    {
+      "id": "georgia",
+      "nombre": "Georgia",
+      "logo": "img/uefa/selecciones/georgia.png"
+    },
+    {
+      "id": "gibraltar",
+      "nombre": "Gibraltar",
+      "logo": "img/uefa/selecciones/gibraltar.png"
+    },
+    {
+      "id": "grecia",
+      "nombre": "Grecia",
+      "logo": "img/uefa/selecciones/grecia.png"
+    },
+    {
+      "id": "hungria",
+      "nombre": "Hungría",
+      "logo": "img/uefa/selecciones/hungria.png"
+    },
+    {
+      "id": "inglaterra",
+      "nombre": "Inglaterra",
+      "logo": "img/uefa/selecciones/inglaterra.png"
+    },
+    {
+      "id": "irlanda",
+      "nombre": "Irlanda",
+      "logo": "img/uefa/selecciones/irlanda.png"
+    },
+    {
+      "id": "irlanda_del_norte",
+      "nombre": "Irlanda del Norte",
+      "logo": "img/uefa/selecciones/irlandadelnorte.png"
+    },
+    {
+      "id": "islandia",
+      "nombre": "Islandia (Primary)",
+      "logo": "img/uefa/selecciones/islandia.png"
+    },
+    {
+      "id": "islandia_2",
+      "nombre": "Islandia (Alternate)",
+      "logo": "img/uefa/selecciones/islandia2.png"
+    },
+    {
+      "id": "islas_feroe",
+      "nombre": "Islas Feroe",
+      "logo": "img/uefa/selecciones/islasferoe.png"
+    },
+    {
+      "id": "israel",
+      "nombre": "Israel",
+      "logo": "img/uefa/selecciones/israel.png"
+    },
+    {
+      "id": "italia",
+      "nombre": "Italia",
+      "logo": "img/uefa/selecciones/italia.png"
+    },
+    {
+      "id": "kazajistan",
+      "nombre": "Kazajistán",
+      "logo": "img/uefa/selecciones/kazajistan.png"
+    },
+    {
+      "id": "kosovo",
+      "nombre": "Kosovo",
+      "logo": "img/uefa/selecciones/kosovo.png"
+    },
+    {
+      "id": "letonia",
+      "nombre": "Letonia",
+      "logo": "img/uefa/selecciones/letonia.png"
+    },
+    {
+      "id": "liechtenstein",
+      "nombre": "Liechtenstein",
+      "logo": "img/uefa/selecciones/liechtenstein.png"
+    },
+    {
+      "id": "lituania",
+      "nombre": "Lituania",
+      "logo": "img/uefa/selecciones/lituania.png"
+    },
+    {
+      "id": "luxemburgo",
+      "nombre": "Luxemburgo",
+      "logo": "img/uefa/selecciones/luxemburgo.png"
+    },
+    {
+      "id": "malta",
+      "nombre": "Malta",
+      "logo": "img/uefa/selecciones/malta.png"
+    },
+    {
+      "id": "moldavia",
+      "nombre": "Moldavia",
+      "logo": "img/uefa/selecciones/moldavia.png"
+    },
+    {
+      "id": "montenegro",
+      "nombre": "Montenegro",
+      "logo": "img/uefa/selecciones/montenegro.png"
+    },
+    {
+      "id": "noruega",
+      "nombre": "Noruega",
+      "logo": "img/uefa/selecciones/noruega.png"
+    },
+    {
+      "id": "paises_bajos",
+      "nombre": "Países Bajos (Primary)",
+      "logo": "img/uefa/selecciones/paisesbajos.png"
+    },
+    {
+      "id": "paises_bajos_2",
+      "nombre": "Países Bajos (Alternate)",
+      "logo": "img/uefa/selecciones/paisesbajos2.png"
+    },
+    {
+      "id": "polonia",
+      "nombre": "Polonia",
+      "logo": "img/uefa/selecciones/polonia.png"
+    },
+    {
+      "id": "portugal",
+      "nombre": "Portugal",
+      "logo": "img/uefa/selecciones/portugal.png"
+    },
+    {
+      "id": "republica_checa",
+      "nombre": "República Checa",
+      "logo": "img/uefa/selecciones/republicacheca.png"
+    },
+    {
+      "id": "republica_de_macedonia",
+      "nombre": "Macedonia del Norte",
+      "logo": "img/uefa/selecciones/republicadmacedonia.png"
+    },
+    {
+      "id": "rumania",
+      "nombre": "Rumania",
+      "logo": "img/uefa/selecciones/rumania.png"
+    },
+    {
+      "id": "rusia",
+      "nombre": "Rusia",
+      "logo": "img/uefa/selecciones/rusia.png"
+    },
+    {
+      "id": "sanmarino",
+      "nombre": "San Marino",
+      "logo": "img/uefa/selecciones/sanmarino.png"
+    },
+    {
+      "id": "serbia",
+      "nombre": "Serbia",
+      "logo": "img/uefa/selecciones/serbia.png"
+    },
+    {
+      "id": "suecia",
+      "nombre": "Suecia",
+      "logo": "img/uefa/selecciones/suecia.png"
+    },
+    {
+      "id": "suiza",
+      "nombre": "Suiza",
+      "logo": "img/uefa/selecciones/suiza.png"
+    },
+    {
+      "id": "turquia",
+      "nombre": "Turquía",
+      "logo": "img/uefa/selecciones/turquia.png"
+    },
+    {
+      "id": "ucrania",
+      "nombre": "Ucrania",
+      "logo": "img/uefa/selecciones/ucrania.png"
+    }
+  ]
+},
+
+"ofc": {
+  "nombre": "OFC",
+  "equipos": [
+    {
+      "id": "fiji",
+      "nombre": "Fiji",
+      "logo": "img/ofc/selecciones/fiji.png"
+    },
+    {
+      "id": "islas_cook",
+      "nombre": "Islas Cook",
+      "logo": "img/ofc/selecciones/islascook.png"
+    },
+    {
+      "id": "islas_salomon",
+      "nombre": "Islas Salomón",
+      "logo": "img/ofc/selecciones/islassalomon.png"
+    },
+    {
+      "id": "kiribati",
+      "nombre": "Kiribati",
+      "logo": "img/ofc/selecciones/kiribati.png"
+    },
+    {
+      "id": "niue",
+      "nombre": "Niue",
+      "logo": "img/ofc/selecciones/niue.png"
+    },
+    {
+      "id": "nueva_caledonia",
+      "nombre": "Nueva Caledonia",
+      "logo": "img/ofc/selecciones/nuevacaledonia.png"
+    },
+    {
+      "id": "nueva_zelanda",
+      "nombre": "Nueva Zelanda",
+      "logo": "img/ofc/selecciones/nuevazelanda.png"
+    },
+    {
+      "id": "nueva_zelanda_2",
+      "nombre": "Nueva Zelanda 2",
+      "logo": "img/ofc/selecciones/nuevazelanda2.png"
+    },
+    {
+      "id": "papua_nueva_guinea",
+      "nombre": "Papúa Nueva Guinea",
+      "logo": "img/ofc/selecciones/papuanuevaguinea.png"
+    },
+    {
+      "id": "samoa",
+      "nombre": "Samoa",
+      "logo": "img/ofc/selecciones/samoa.png"
+    },
+    {
+      "id": "samoa_americana",
+      "nombre": "Samoa Americana",
+      "logo": "img/ofc/selecciones/samoaamericana.png"
+    },
+    {
+      "id": "tahiti",
+      "nombre": "Tahití",
+      "logo": "img/ofc/selecciones/tahiti.png"
+    },
+    {
+      "id": "tonga",
+      "nombre": "Tonga",
+      "logo": "img/ofc/selecciones/tonga.png"
+    },
+    {
+      "id": "tuvalu",
+      "nombre": "Tuvalu",
+      "logo": "img/ofc/selecciones/tuvalu.png"
+    },
+    {
+      "id": "vanatu",
+      "nombre": "Vanuatu",
+      "logo": "img/ofc/selecciones/vanatu.png"
+    }
+  ]
+},
+
+"afc": {
+  "nombre": "AFC",
+  "equipos": [
+    {
+      "id": "arabia_saudita",
+      "nombre": "Arabia Saudita",
+      "logo": "img/afc/arabiasaudita.png"
+    }
+  ]
+},
+
+"caf": {
+  "nombre": "CAF",
+  "equipos": [
+    {
+      "id": "arabia_saudita",
+      "nombre": "Arabia Saudita",
+      "logo": "img/afc/arabiasaudita.png"
+    }
+  ]
+}
+
+
+
+
+
+    },
+    "logos_ligas": {
+      "todos": "img/ligas/amistoso.png",
+      "concacaf": "img/ligas/concacaf.png",
+      "copaoro": "img/ligas/copaoro.png", 
+      "ligamx": "img/ligas/ligamx.png",
+      "expansionmx": "img/ligas/expansionmx.png",
+      "ligamxf": "img/ligas/ligamxfemenil.png",
+      "ligapremiermx": "img/ligas/ligapremiermx.png",
+      "leaguescup": "img/ligas/leaguescup.png",
+      "mls": "img/ligas/mls.png",
+      "usl": "img/ligas/usl.png",
+      "nwsl": "img/ligas/nwsl.png",
+      "cpl": "img/ligas/cpl.png",
+      "guatemala": "img/ligas/guatemala.png",
+      "panama": "img/ligas/panama.png",
+      "dominicana": "img/ligas/dominicana.png",
+      "nicaragua": "img/ligas/nicaragua.png",
+      "elsalvador": "img/ligas/elsalvador.png",
+      "jamaica": "img/ligas/jamaica.png",
+      "honduras": "img/ligas/ligahondubet.png",
+      "costarica": "img/ligas/ligapromerica.png",
+      "argentina": "img/ligas/argentina.png",
+      "argentinab": "img/ligas/argentinab.png",
+      "bolivia": "img/ligas/bolivia.png",
+      "conmebol": "img/ligas/conmebol.png",
+      "laliga": "img/ligas/laliga.png",
+      "laliga2": "img/ligas/laliga2.png",
+      "premierleague": "img/ligas/premierleague.png",
+      "championship": "img/ligas/championship.png",
+      "facup": "img/ligas/facup.png",
+      "seriea": "img/ligas/seriea.png",
+      "serieb": "img/ligas/serieb.png",
+      "bundesliga": "img/ligas/bundesliga.png",
+      "bundesliga2": "img/ligas/bundesliga2.png",
+      "ligue1": "img/ligas/ligue1.png",
+      "ligue2": "img/ligas/ligue2.png",
+      "coupedefrance": "img/ligas/coupedefrance.png",
+      "primeiraliga": "img/ligas/primeiraliga.png",
+      "segundaliga": "img/ligas/segundaliga.png",
+      "tacadeportugal": "img/ligas/tacadeportugal.png",
+      "eredivisie": "img/ligas/eredivisie.png",
+      "eerstedivisie": "img/ligas/eerstedivisie.png",
+      "johancruijff": "img/ligas/johancruijff.png",
+      "uefa": "img/ligas/uefa.png",
+      "ofc": "img/ligas/ofc.png",
+      "afc": "img/ligas/afc.png",
+      "caf": "img/ligas/caf.png"
+    }
+    
+  }

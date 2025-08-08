@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Generador de Partidos</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<div id="selectorsContainer">
+    <!-- Radio buttons para elegir entre fondo de imagen y fondo con colores de equipos -->
+    <label>
+        <input type="radio" name="fondoTipo" value="imagen" checked onchange="cambiarModoFondo()"> Fondo Imagen
+    </label>
+    <label>
+        <input type="radio" name="fondoTipo" value="colores" onchange="cambiarModoFondo()"> Fondo Colores
+    </label>
+
+    <!-- Contenedor para modo de fondo imagen -->
+    <div id="fondoImagenContainer">
+        <select id="fondoSelector" onchange="cargarImagenes()">
+            <option value="azul">Fondo Azul</option>
+            <option value="fondo5">Fondo Azul 2</option>
+            <option value="red">Fondo Rojo</option>
+            <option value="black">Fondo Negro</option>
+            <option value="ligamx">Liga MX</option>
+            <option value="ligamxliguilla">Liga MX Liguilla</option>
+            <option value="campeondecampeones">Campeon De Campeones</option>
+            <option value="ligamxf">Liga MX Femenil</option>
+            <option value="expansion">Liga De Expansion MX</option>
+            <option value="championscup">Champions Cup</option>
+            <option value="verde">Mexico</option>
+            <option value="leaguescup">Leagues Cup</option>
+            <option value="champions">Champions League</option>
+            <option value="champions2">Champions League 2</option>
+            <option value="europaleague">Europa League</option>
+            <option value="conferenceleague">Conference League</option>
+            <option value="concacafnationsleague">CONCACAF NL</option>
+            <option value="copaoro">Copa Oro</option>
+            <option value="uefanationsleague">UEFA NL</option>
+            <option value="conmebol">Conmebol</option>
+            <option value="libertadores">Libertadores</option>
+            <option value="sudamericana">Sudamericana</option>
+        </select>
+
+        <select id="ligaSelector" onchange="filtrarLogosPorLiga()">
+            <option value="todos">Todos</option>
+            <!-- Las ligas se cargarán dinámicamente desde el JSON -->
+        </select>
+
+        <select id="logo1Selector" onchange="cargarImagenes()">
+            <!-- Los logos se cargarán dinámicamente -->
+        </select>
+
+        <select id="logo2Selector" onchange="cargarImagenes()">
+            <!-- Los logos se cargarán dinámicamente -->
+        </select>
+    </div>
+
+    <!-- Contenedor para modo de colores de equipos -->
+    <div id="fondoColoresContainer" style="display:none;">
+        <select id="liga" onchange="cargarEquiposPorLiga()">
+            <!-- Las ligas se cargarán dinámicamente desde el JSON -->
+        </select>
+
+        <select id="ligaLogo" onchange="generarImagenColores()"></select>
+
+        <select id="equipoLocal" onchange="generarImagenColores()"></select>
+
+        <select id="equipoVisitante" onchange="generarImagenColores()"></select>
+
+        <input type="color" id="colorLocal" value="#FFFFFF">
+
+        <input type="color" id="colorVisitante" value="#000000">
+    </div>
+</div>
+
+<canvas id="miCanvas" width="1200" height="627"></canvas>
+<br>
+<button id="descargarImagen">DOWNLOAD</button>
+
+<script src="script.js"></script>
+<script type='text/javascript'>
+    document.oncontextmenu = function(){return false}
+</script>
+</body>
+</html>
