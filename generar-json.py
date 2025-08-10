@@ -23,6 +23,7 @@ def generar_transmisiones_json():
         },
         "Mexico Liga MX": "mx",
         "Liga de Expansion MX": "exp",
+        "Mexico Liga de Expansion MX": "exp",
         "Liga de Expansion MX Super Final": "exp",
         "CONCACAF Gold Cup": "gc",
         "Gold Cup": "gc",
