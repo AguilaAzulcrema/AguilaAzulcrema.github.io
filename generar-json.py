@@ -59,6 +59,7 @@ def generar_transmisiones_json():
         "Colombia Primera B": "col2-",
         "Chile Primera A": "chl",
         "Paraguay": "py",
+        "Liga AUF Uruguaya": "uy",
         "Venezuela": "ven",
         "Bolivia": "bol",
         "Copa Bolivia": "bol",
@@ -105,6 +106,7 @@ def generar_transmisiones_json():
         "Romania": "rom",
         "Romanian Cup": "rom",
         "Switzerland Super League": "sui",
+        "Swiss Super League": "sui",
         "Swiss Challenge League": "sui2-",
         "Ekstraklasa": "pol",
         "Poland Div 1": "pol2-",
@@ -132,6 +134,7 @@ def generar_transmisiones_json():
         "Lithuania A Lyga": "ltu",
         "Cyprus": "cyp",
         "Eliteserien": "nor",
+        "OBOS-ligaen": "nor",
         "Faroe Islands": "far",
         "Landspokal Cup": "dnk",
         
@@ -152,6 +155,7 @@ def generar_transmisiones_json():
         # === ÁFRICA ===
         "CAF Champions League": "caf",
         "Africa Cup of Nations": "acn",
+        "African Nations Championship": "acn",
         
         # === OTROS ===
         "otros": "tv",
