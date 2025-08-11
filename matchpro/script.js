@@ -1,6 +1,23 @@
 const canvas = document.getElementById('miCanvas');
 const ctx = canvas.getContext('2d');
 
+// =============================
+// CONFIG: ligas compuestas
+// =============================
+// Aquí defines torneos/ligas que combinan equipos de varias ligas (usar ids del JSON)
+const ligasCompuestas = {
+    leaguescup: ['ligamx', 'mls'],
+    copaoro: ['concacaf'], 
+    facup: ['premierleague', 'championship'], 
+    // agrega más si necesitas...
+};
+
+// =============================
+// Ligas excluidas en el selector modo imagen
+// (si no quieres que aparezcan en el select de fondo-imagen)
+// =============================
+const ligasExcluidas = ['amistoso', 'mundialdeclubes', 'facup'];
+
 // Inicializar variables globales
 let jsonData; // Para los datos de equipos cargados del JSON
 let ligaSeleccionada = 'todos'; // Liga por defecto para modo imagen
@@ -10,7 +27,9 @@ let modoActual = 'imagen'; // Modo por defecto (imagen o colores)
 const fondoImagenContainer = document.getElementById('fondoImagenContainer');
 const fondoColoresContainer = document.getElementById('fondoColoresContainer');
 
-// Función para cargar el archivo JSON
+// -----------------------------
+// Cargar JSON
+// -----------------------------
 function cargarDatosJSON() {
     fetch('equipos.json')
         .then(response => response.json())
@@ -23,7 +42,9 @@ function cargarDatosJSON() {
         .catch(error => console.error('Error al cargar el JSON:', error));
 }
 
-// Función para cargar las ligas en ambos selectores
+// -----------------------------
+// Cargar ligas en ambos selectores
+// -----------------------------
 function cargarLigasEnSelectores() {
     const ligaSelector = document.getElementById('ligaSelector');
     const ligaModoColores = document.getElementById('liga');
@@ -31,9 +52,6 @@ function cargarLigasEnSelectores() {
     // Limpiar selectores
     ligaSelector.innerHTML = '<option value="todos">Todos</option>';
     ligaModoColores.innerHTML = '<option value="todos">Todos</option>';
-    
-    // Array de ligas a excluir en el modo imagen
-    const ligasExcluidas = ['amistoso', 'mundialdeclubes', 'copaoro', 'leaguescup', 'facup'];
     
     // Llenar selectores con las ligas del JSON
     for (const liga in jsonData.ligas) {
@@ -53,7 +71,9 @@ function cargarLigasEnSelectores() {
     }
 }
 
-// Función para cambiar entre los modos de fondo
+// -----------------------------
+// Cambiar entre modos de fondo
+// -----------------------------
 function cambiarModoFondo() {
     modoActual = document.querySelector('input[name="fondoTipo"]:checked').value;
     
@@ -68,7 +88,60 @@ function cambiarModoFondo() {
     }
 }
 
-// FUNCIONES PARA MODO IMAGEN //
+// =============================
+// HELPERS para ligas compuestas
+// =============================
+
+// Devuelve array con todos los equipos (sin duplicados)
+function obtenerTodosEquipos() {
+    const resultado = [];
+    for (const ligaKey in jsonData.ligas) {
+        const equipos = jsonData.ligas[ligaKey].equipos || [];
+        equipos.forEach(eq => {
+            if (!resultado.some(e => e.id === eq.id)) resultado.push(eq);
+        });
+    }
+    return resultado;
+}
+
+// Devuelve array con equipos combinados de varias ligas (lista de ids)
+function obtenerEquiposDeLigas(listaLigas) {
+    const resultado = [];
+    listaLigas.forEach(idLiga => {
+        if (jsonData.ligas[idLiga] && Array.isArray(jsonData.ligas[idLiga].equipos)) {
+            jsonData.ligas[idLiga].equipos.forEach(eq => {
+                if (!resultado.some(e => e.id === eq.id)) resultado.push(eq);
+            });
+        }
+    });
+    return resultado;
+}
+
+// Buscar logo en un conjunto de ligas (si ligasArray es undefined busca en todas)
+function buscarLogoEnLigas(equipoId, ligasArray) {
+    if (!jsonData) return '';
+    if (!ligasArray) {
+        // buscar en todas
+        for (const liga in jsonData.ligas) {
+            const equipos = jsonData.ligas[liga].equipos || [];
+            const encontrado = equipos.find(eq => eq.id === equipoId);
+            if (encontrado) return encontrado.logo;
+        }
+    } else {
+        // buscar solo en las ligas pasadas
+        for (const liga of ligasArray) {
+            if (!jsonData.ligas[liga]) continue;
+            const equipos = jsonData.ligas[liga].equipos || [];
+            const encontrado = equipos.find(eq => eq.id === equipoId);
+            if (encontrado) return encontrado.logo;
+        }
+    }
+    return '';
+}
+
+// =============================
+// FUNCIONES PARA MODO IMAGEN
+// =============================
 
 // Función para cargar imágenes en modo fondo de imagen
 function cargarImagenes() {
@@ -102,9 +175,10 @@ function cargarLogos() {
     const logo2Selector = document.getElementById('logo2Selector');
     const fondoSeleccionado = document.getElementById('fondoSelector').value;
     
+    if (!logo1Selector || !logo2Selector) return;
     if (logo1Selector.options.length === 0 || logo2Selector.options.length === 0) return;
     
-    const logo1Seleccionado = logo1Selector.value;
+    const logo1Seleccionado = logo1Selector.value; // estos valores son los IDs de equipo
     const logo2Seleccionado = logo2Selector.value;
     
     const logo1 = new Image();
@@ -113,14 +187,19 @@ function cargarLogos() {
     // Lista de fondos que usarán medidas especiales
     const fondosConMedidasEspeciales = ['fondo5'];
     
-    // Buscar las rutas de los logos
+    // Buscar las rutas de los logos teniendo en cuenta ligas compuestas
     if (ligaSeleccionada === 'todos') {
-        logo1.src = buscarLogoEnTodasLasLigas(logo1Seleccionado);
-        logo2.src = buscarLogoEnTodasLasLigas(logo2Seleccionado);
+        logo1.src = buscarLogoEnLigas(logo1Seleccionado);
+        logo2.src = buscarLogoEnLigas(logo2Seleccionado);
+    } else if (ligasCompuestas[ligaSeleccionada]) {
+        // buscar solo dentro de las ligas que conforman la liga compuesta
+        const arr = ligasCompuestas[ligaSeleccionada];
+        logo1.src = buscarLogoEnLigas(logo1Seleccionado, arr);
+        logo2.src = buscarLogoEnLigas(logo2Seleccionado, arr);
     } else {
         // Buscar en el equipo específico en la liga seleccionada
-        const equipos1 = jsonData.ligas[ligaSeleccionada].equipos;
-        const equipos2 = jsonData.ligas[ligaSeleccionada].equipos;
+        const equipos1 = jsonData.ligas[ligaSeleccionada] ? jsonData.ligas[ligaSeleccionada].equipos : [];
+        const equipos2 = jsonData.ligas[ligaSeleccionada] ? jsonData.ligas[ligaSeleccionada].equipos : [];
         
         const equipo1 = equipos1.find(eq => eq.id === logo1Seleccionado);
         const equipo2 = equipos2.find(eq => eq.id === logo2Seleccionado);
@@ -168,7 +247,7 @@ function cargarLogos() {
     };
 }
 
-// Función para ajustar tamaño manteniendo proporción
+// Ajustar tamaño manteniendo proporción (sin cambiar)
 function ajustarTamañoProporcional(img, targetWidth, targetHeight) {
     const aspectRatio = img.width / img.height;
     let newWidth = targetWidth;
@@ -183,20 +262,16 @@ function ajustarTamañoProporcional(img, targetWidth, targetHeight) {
     return { width: newWidth, height: newHeight };
 }
 
-// Función para buscar un logo en todas las ligas
+// -----------------------------
+// Buscar logo en todas las ligas (método heredado para compatibilidad)
+// -----------------------------
 function buscarLogoEnTodasLasLigas(equipoId) {
-    if (!jsonData) return '';
-    
-    for (const liga in jsonData.ligas) {
-        const equipoEncontrado = jsonData.ligas[liga].equipos.find(eq => eq.id === equipoId);
-        if (equipoEncontrado) {
-            return equipoEncontrado.logo;
-        }
-    }
-    return ''; // Si no se encuentra el logo
+    return buscarLogoEnLigas(equipoId); // wrapper
 }
 
-// Función para filtrar logos según la liga seleccionada (modo imagen)
+// -----------------------------
+// Filtrar logos según la liga seleccionada (modo imagen)
+// -----------------------------
 function filtrarLogosPorLiga() {
     if (!jsonData) return;
     
@@ -212,23 +287,19 @@ function filtrarLogosPorLiga() {
 
     if (ligaSeleccionada === 'todos') {
         // Obtener todos los equipos de todas las ligas
-        for (const liga in jsonData.ligas) {
-            jsonData.ligas[liga].equipos.forEach(equipo => {
-                // Verificar si el equipo ya está en la lista para evitar duplicados
-                if (!equipos.some(e => e.id === equipo.id)) {
-                    equipos.push(equipo);
-                }
-            });
-        }
+        equipos = obtenerTodosEquipos();
+    } else if (ligasCompuestas[ligaSeleccionada]) {
+        // Si la liga seleccionada es compuesta, obtener equipos combinados
+        equipos = obtenerEquiposDeLigas(ligasCompuestas[ligaSeleccionada]);
     } else {
         // Obtener solo los equipos de la liga seleccionada
-        equipos = jsonData.ligas[ligaSeleccionada].equipos;
+        equipos = jsonData.ligas[ligaSeleccionada] ? jsonData.ligas[ligaSeleccionada].equipos : [];
     }
 
     // Ordenar alfabéticamente
     equipos.sort((a, b) => a.nombre.localeCompare(b.nombre));
 
-    // Agregar opciones a los selectores
+    // Agregar opciones a los selectores (valor = id del equipo, para mantener compatibilidad)
     equipos.forEach(equipo => {
         const option1 = document.createElement('option');
         const option2 = document.createElement('option');
@@ -252,7 +323,9 @@ function filtrarLogosPorLiga() {
     cargarImagenes();
 }
 
-// FUNCIONES PARA MODO COLORES //
+// =============================
+// FUNCIONES PARA MODO COLORES (sin cambiar mucho tu lógica)
+// =============================
 
 // Función para cargar equipos según la liga seleccionada (modo colores)
 function cargarEquiposPorLiga() {
@@ -272,14 +345,7 @@ function cargarEquiposPorLiga() {
 
     // Si se selecciona la opción "Todos", combinar equipos de todas las ligas
     if (ligaSeleccionada === "todos") {
-        for (const liga in jsonData.ligas) {
-            jsonData.ligas[liga].equipos.forEach(equipo => {
-                // Verificar si el equipo ya está en la lista para evitar duplicados
-                if (!equipos.some(e => e.id === equipo.id)) {
-                    equipos.push(equipo);
-                }
-            });
-        }
+        equipos = obtenerTodosEquipos();
         
         // Agregar todos los logos de ligas
         for (const liga in jsonData.ligas) {
@@ -290,9 +356,30 @@ function cargarEquiposPorLiga() {
                 selectLigaLogo.appendChild(option);
             }
         }
+    } else if (ligasCompuestas[ligaSeleccionada]) {
+        // Si es una liga compuesta, obtener equipos combinados de las ligas que la forman
+        equipos = obtenerEquiposDeLigas(ligasCompuestas[ligaSeleccionada]);
+
+        // Agregar logo del torneo/combinado si existe, si no agrega los logos de las ligas hijas
+        if (jsonData.logos_ligas && jsonData.logos_ligas[ligaSeleccionada]) {
+            const option = document.createElement('option');
+            option.value = jsonData.logos_ligas[ligaSeleccionada];
+            option.textContent = jsonData.ligas[ligaSeleccionada].nombre || ligaSeleccionada;
+            selectLigaLogo.appendChild(option);
+        } else {
+            // Agregar logos de ligas que componen el torneo (opcional)
+            ligasCompuestas[ligaSeleccionada].forEach(idLiga => {
+                if (jsonData.logos_ligas && jsonData.logos_ligas[idLiga]) {
+                    const option = document.createElement('option');
+                    option.value = jsonData.logos_ligas[idLiga];
+                    option.textContent = jsonData.ligas[idLiga] ? jsonData.ligas[idLiga].nombre : idLiga;
+                    selectLigaLogo.appendChild(option);
+                }
+            });
+        }
     } else {
-        // Si no es "Todos", cargar solo los equipos de la liga seleccionada
-        equipos = jsonData.ligas[ligaSeleccionada].equipos;
+        // Si no es "Todos" ni compuesta, cargar solo los equipos de la liga seleccionada
+        equipos = jsonData.ligas[ligaSeleccionada] ? jsonData.ligas[ligaSeleccionada].equipos : [];
         
         // Agregar solo el logo de la liga seleccionada
         if (jsonData.logos_ligas && jsonData.logos_ligas[ligaSeleccionada]) {
@@ -397,7 +484,9 @@ function cargarImagenEquipo(src, x, y, maxWidth, maxHeight) {
     };
 }
 
-// Función para descargar la imagen del canvas
+// -----------------------------
+// Descargar imagen del canvas
+// -----------------------------
 function descargarImagen() {
     const link = document.createElement('a');
     link.href = canvas.toDataURL('image/png');
@@ -405,13 +494,14 @@ function descargarImagen() {
     link.click();
 }
 
-// Función para leer parámetros de la URL
+// -----------------------------
+// Leer parámetros URL / preselección
+// -----------------------------
 function obtenerParametroUrl(nombre) {
     const urlParams = new URLSearchParams(window.location.search);
     return urlParams.get(nombre);
 }
 
-// Función para preseleccionar equipos desde parámetros de URL
 function preseleccionarEquiposDesdeUrl() {
     // Obtener parámetros de la URL
     const ligaParam = obtenerParametroUrl('liga');
@@ -505,7 +595,9 @@ function preseleccionarEquiposDesdeUrl() {
     }, 500);
 }
 
-// Event Listeners
+// -----------------------------
+// EVENT LISTENERS
+// -----------------------------
 document.getElementById('descargarImagen').addEventListener('click', descargarImagen);
 
 // Evento para cambiar entre imagen y color
@@ -518,8 +610,8 @@ const colorLocal = document.getElementById('colorLocal');
 const colorVisitante = document.getElementById('colorVisitante');
 
 // Añadir evento 'input' para actualización en tiempo real mientras se selecciona el color
-colorLocal.addEventListener('input', generarImagenColores);
-colorVisitante.addEventListener('input', generarImagenColores);
+if (colorLocal) colorLocal.addEventListener('input', generarImagenColores);
+if (colorVisitante) colorVisitante.addEventListener('input', generarImagenColores);
 
 // Cargar JSON al iniciar la página
 window.addEventListener('load', () => {
