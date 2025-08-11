@@ -1,1465 +1,415 @@
 {
-  "cz1": {
-    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThiOTVhNDhhOTk4Yzg0N2E4NTk3OWM4Yjk4ODUuaHRtbA==",
-    "hora": "07:00",
-    "torneo": "Czech Republic",
-    "evento": "Bohemians vs. FK Baumit Jablonec",
-    "tipo": "normal"
-  },
-  "cz2": {
-    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThiOTVhNDhhOTk4Yzg0N2E4NTk3OWM4Yzk4ODYuaHRtbA==",
-    "hora": "07:00",
-    "torneo": "Czech Republic",
-    "evento": "Hradec Kralove vs. FK Pardubice",
-    "tipo": "normal"
-  },
-  "bel1": {
-    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThiOTVhNDhhOWQ4ODg0N2E4NTk3OWM4ZDk4OGMuaHRtbA==",
-    "hora": "08:00",
-    "torneo": "Belgium 1A",
-    "evento": "Anderlecht vs. Zulte-Waregem",
-    "tipo": "normal"
-  },
-  "tv1": {
-    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThiOTVhNDhhOWQ4ODg0N2E4NTk3OWM4ZTk4OGQuaHRtbA==",
-    "hora": "08:00",
-    "torneo": "Belgium 1B",
-    "evento": "Club Brugge KV U23 vs. Francs Borains",
-    "tipo": "normal"
-  },
-  "bra3-1": {
-    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThiOTVhNDhhOWQ4ODg0N2E4NTk3OWM4Zjk4ODU4NC5odG1s",
-    "hora": "08:00",
-    "torneo": "Brazil Serie C",
-    "evento": "Londrina vs. Nautico",
-    "tipo": "normal"
-  },
-  "bra1": {
-    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThiOTVhNDhhOWQ4ODg0N2E4NTk3OWM5MDk4ODU4NS5odG1s",
-    "hora": "08:00",
-    "torneo": "Copa Paulista",
-    "evento": "Primavera vs. Piracicaba",
-    "tipo": "normal"
-  },
-  "dnk1": {
-    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThiOTVhNDhhOWQ4ODg0N2E4NTk3OWQ4Nzk4ODU4Ni5odG1s",
-    "hora": "08:00",
-    "torneo": "Denmark",
-    "evento": "Silkeborg vs. Nordsjaelland",
-    "tipo": "normal"
-  },
-  "dnk2-1": {
-    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThiOTVhNDhhOWQ4ODg0N2E4NTk3OWQ4ODk4ODU4Ny5odG1s",
-    "hora": "08:00",
-    "torneo": "Denmark 1st Division",
-    "evento": "Koge vs. AaB Aalborg",
-    "tipo": "normal"
-  },
-  "en1": {
-    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThiOTVhNDhhOWQ4ODg0N2E4NTk3OWQ4OTk4ODU4OC5odG1s",
-    "hora": "08:00",
-    "torneo": "FA Community Shield",
-    "evento": "Crystal Palace vs. Liverpool ",
-    "tipo": "normal"
-  },
-  "en2": {
-    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThiOTVhNDhhOWQ4ODg0N2E4NTk3OWQ4YTk4ODU4OS5odG1s",
-    "hora": "08:00",
-    "torneo": "FA Community Shield",
-    "evento": "Crystal Palace vs. Liverpool ",
-    "tipo": "normal"
-  },
-  "en3": {
-    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThiOTVhNDhhOWQ4ODg0N2E4NTk3OWQ4Yjk4ODU4YS5odG1s",
-    "hora": "08:00",
-    "torneo": "FA Community Shield",
-    "evento": "Crystal Palace vs. Liverpool ",
-    "tipo": "normal"
-  },
-  "en4": {
-    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThiOTVhNDhhOWQ4ODg0N2E4NTk3OWQ4Yzk4ODU4Yi5odG1s",
-    "hora": "08:00",
-    "torneo": "FA Community Shield",
-    "evento": "Crystal Palace vs. Liverpool ",
-    "tipo": "normal"
-  },
-  "en5": {
-    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThiOTVhNDhhOWQ4ODg0N2E4NTk3OWQ4ZDk4ODU4Yy5odG1s",
-    "hora": "08:00",
-    "torneo": "FA Community Shield",
-    "evento": "Crystal Palace vs. Liverpool ",
-    "tipo": "normal"
-  },
-  "far1": {
-    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThiOTVhNDhhOWQ4ODg0N2E4NTk3OWQ4ZTk4ODU4ZC5odG1s",
-    "hora": "08:00",
-    "torneo": "Faroe Islands",
-    "evento": "HB Torshavn vs. Streymur",
-    "tipo": "normal"
-  },
-  "far2": {
-    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThiOTVhNDhhOWQ4ODg0N2E4NTk3OWQ4Zjk4ODY4NC5odG1s",
-    "hora": "08:00",
-    "torneo": "Faroe Islands",
-    "evento": "TB Tvoroyri vs. FC Suduroy",
-    "tipo": "normal"
-  },
-  "far3": {
-    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThiOTVhNDhhOWQ4ODg0N2E4NTk3OWQ5MDk4ODY4NS5odG1s",
-    "hora": "08:00",
-    "torneo": "Faroe Islands",
-    "evento": "Vikingur vs. B36 Torshavn",
-    "tipo": "normal"
-  },
-  "tv2": {
-    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThiOTVhNDhhOWQ4ODg0N2E4NTk3OWU4Nzk4ODY4Ni5odG1s",
-    "hora": "08:00",
-    "torneo": "Friendly",
-    "evento": "Chelsea vs. AC Milan ",
-    "tipo": "normal"
-  },
-  "tv3": {
-    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThiOTVhNDhhOWQ4ODg0N2E4NTk3OWU4ODk4ODY4Ny5odG1s",
-    "hora": "08:00",
-    "torneo": "Friendly",
-    "evento": "Chelsea vs. AC Milan ",
-    "tipo": "normal"
-  },
-  "tv4": {
-    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThiOTVhNDhhOWQ4ODg0N2E4NTk3OWU4OTk4ODY4OC5odG1s",
-    "hora": "08:00",
-    "torneo": "Friendly",
-    "evento": "Chelsea vs. AC Milan ",
-    "tipo": "normal"
-  },
-  "isl1": {
-    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThiOTVhNDhhOWQ4ODg0N2E4NTk3OWU4YTk4ODY4OS5odG1s",
-    "hora": "08:00",
-    "torneo": "Iceland",
-    "evento": "Vestri vs. Fram",
-    "tipo": "normal"
-  },
-  "uy1": {
-    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThiOTVhNDhhOWQ4ODg0N2E4NTk3OWU4Yjk4ODY4YS5odG1s",
-    "hora": "08:00",
-    "torneo": "Liga AUF Uruguaya",
-    "evento": "CA Cerro vs. Racing Montevideo",
-    "tipo": "normal"
-  },
-  "sco1": {
-    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThiOTVhNDhhOWQ4ODg0N2E4NTk3OWU4Yzk4ODY4Yi5odG1s",
-    "hora": "08:00",
-    "torneo": "Scotland",
-    "evento": "Dundee United vs. Hearts",
-    "tipo": "normal"
-  },
-  "sco2": {
-    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThiOTVhNDhhOWQ4ODg0N2E4NTk3OWU4ZDk4ODY4Yy5odG1s",
-    "hora": "08:00",
-    "torneo": "Scotland",
-    "evento": "Hibernian vs. Kilmarnock",
-    "tipo": "normal"
-  },
-  "swe3-1": {
-    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThiOTVhNDhhOWQ4ODg0N2E4NTk3OWU4ZTk4ODY4ZC5odG1s",
-    "hora": "08:00",
-    "torneo": "Sweden Div 1",
-    "evento": "Norrby vs. Oskarshamn",
-    "tipo": "normal"
-  },
-  "swe3-2": {
-    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThiOTVhNDhhOWQ4ODg0N2E4NTk3OWU4Zjk4ODc4NC5odG1s",
-    "hora": "08:00",
-    "torneo": "Sweden Div 1",
-    "evento": "Vasalund vs. Gefle",
-    "tipo": "normal"
-  },
-  "ger3-1": {
-    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThiOTVhNDhhOWY4Njg0N2E4NTk3OWY4YTk4ODc4Ny5odG1s",
-    "hora": "08:30",
-    "torneo": "Bundesliga 3",
-    "evento": "Hansa Rostock vs. Mannheim",
-    "tipo": "normal"
-  },
-  "swe1": {
-    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThiOTVhNDhhOWY4Njg0N2E4NTk3OWY4Yjk4ODc4OC5odG1s",
-    "hora": "08:30",
-    "torneo": "Allsvenskan",
-    "evento": "Norrkoping vs. Hammarby",
-    "tipo": "normal"
-  },
-  "swe2": {
-    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThiOTVhNDhhOWY4Njg0N2E4NTk3OWY4Yzk4ODc4OS5odG1s",
-    "hora": "08:30",
-    "torneo": "Allsvenskan",
-    "evento": "Oster vs. Brommapojkarna",
-    "tipo": "normal"
-  },
-  "por2-1": {
-    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThiOTVhNDhhOWY4Njg0N2E4NTk3OWY4ZDk4ODc4YS5odG1s",
-    "hora": "08:30",
-    "torneo": "Liga Portugal 2",
-    "evento": "Leixoes vs. Felgueiras",
-    "tipo": "normal"
-  },
-  "sui1": {
-    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThiOTVhNDhhOWY4Njg0N2E4NTk3OWY4ZTk4ODc4Yi5odG1s",
-    "hora": "08:30",
-    "torneo": "Swiss Super League",
-    "evento": "Lausanne vs. FC Zurich",
-    "tipo": "normal"
-  },
-  "sui2": {
-    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThiOTVhNDhhOWY4Njg0N2E4NTk3OWY4Zjk4ODc4Yy5odG1s",
-    "hora": "08:30",
-    "torneo": "Swiss Super League",
-    "evento": "Lugano vs. Basel",
-    "tipo": "normal"
-  },
-  "sui3": {
-    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThiOTVhNDhhOWY4Njg0N2E4NTk3OWY5MDk4ODc4ZC5odG1s",
-    "hora": "08:30",
-    "torneo": "Swiss Super League",
-    "evento": "Servette vs. Grasshoppers",
-    "tipo": "normal"
-  },
-  "ned2-1": {
-    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThiOTVhNDhhYTA4NTg0N2E4NTk3YTA4Nzk4ODg4NC5odG1s",
-    "hora": "08:45",
-    "torneo": "Eerste Divisie",
-    "evento": "Den Haag vs. Willem II",
-    "tipo": "normal"
-  },
-  "ned1": {
-    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThiOTVhNDhhYTA4NTg0N2E4NTk3YTA4ODk4ODg4NS5odG1s",
-    "hora": "08:45",
-    "torneo": "Eredivisie",
-    "evento": "Utrecht vs. Heracles",
-    "tipo": "normal"
-  },
   "acn1": {
-    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThiOTVhNDhhYTE4NDg0N2E4NTk3YTA4OTk4ODg4OC5odG1s",
-    "hora": "09:00",
+    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThiOTVhNTg5OTk4Yzg0N2E4NTk3OWM4Yjk4ODY4NC5odG1s",
+    "hora": "08:00",
     "torneo": "African Nations Championship",
-    "evento": "Zambia vs. Angola",
-    "tipo": "normal"
-  },
-  "tv5": {
-    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThiOTVhNDhhYTE4NDg0N2E4NTk3YTA4YTk4ODg4OS5odG1s",
-    "hora": "09:00",
-    "torneo": "Austria Bundesliga",
-    "evento": "Austria Vienna vs. Wolfsberger AC",
-    "tipo": "normal"
-  },
-  "tv6": {
-    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThiOTVhNDhhYTE4NDg0N2E4NTk3YTA4Yjk4ODg4YS5odG1s",
-    "hora": "09:00",
-    "torneo": "Austria Bundesliga",
-    "evento": "Sturm Graz vs. SK Rapid",
-    "tipo": "normal"
-  },
-  "tv7": {
-    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThiOTVhNDhhYTE4NDg0N2E4NTk3YTA4Yzk4ODg4Yi5odG1s",
-    "hora": "09:00",
-    "torneo": "Austria Bundesliga",
-    "evento": "Tirol vs. LASK",
-    "tipo": "normal"
-  },
-  "egy1": {
-    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThiOTVhNDhhYTE4NDg0N2E4NTk3YTA4ZDk4ODg4Yy5odG1s",
-    "hora": "09:00",
-    "torneo": "Egypt",
-    "evento": "Kahrabaa Ismailia vs. El Gouna",
-    "tipo": "normal"
-  },
-  "nor1": {
-    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThiOTVhNDhhYTE4NDg0N2E4NTk3YTA4ZTk4ODg4ZC5odG1s",
-    "hora": "09:00",
-    "torneo": "Eliteserien",
-    "evento": "Bryne vs. KFUM Oslo",
-    "tipo": "normal"
-  },
-  "nor2": {
-    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThiOTVhNDhhYTE4NDg0N2E4NTk3YTA4Zjk4ODk4NC5odG1s",
-    "hora": "09:00",
-    "torneo": "Eliteserien",
-    "evento": "Haugesund vs. Sarpsborg 08",
-    "tipo": "normal"
-  },
-  "lva1": {
-    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThiOTVhNDhhYTE4NDg0N2E4NTk3YTA5MDk4ODk4NS5odG1s",
-    "hora": "09:00",
-    "torneo": "Latvia Virsliga",
-    "evento": "Riga FC vs. Grobina",
-    "tipo": "normal"
-  },
-  "lva2": {
-    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThiOTVhNDhhYTE4NDg0N2E4NTk3YTE4Nzk4ODk4Ni5odG1s",
-    "hora": "09:00",
-    "torneo": "Latvia Virsliga",
-    "evento": "Tukums 2000 vs. Auda",
-    "tipo": "normal"
-  },
-  "nor3": {
-    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThiOTVhNDhhYTE4NDg0N2E4NTk3YTE4ODk4ODk4Ny5odG1s",
-    "hora": "09:00",
-    "torneo": "OBOS-ligaen",
-    "evento": "Hodd vs. Start",
-    "tipo": "normal"
-  },
-  "nor4": {
-    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThiOTVhNDhhYTE4NDg0N2E4NTk3YTE4OTk4ODk4OC5odG1s",
-    "hora": "09:00",
-    "torneo": "OBOS-ligaen",
-    "evento": "Kongsvinger vs. Stabaek",
-    "tipo": "normal"
-  },
-  "nor5": {
-    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThiOTVhNDhhYTE4NDg0N2E4NTk3YTE4YTk4ODk4OS5odG1s",
-    "hora": "09:00",
-    "torneo": "OBOS-ligaen",
-    "evento": "Lyn vs. Ranheim",
-    "tipo": "normal"
-  },
-  "nor6": {
-    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThiOTVhNDhhYTE4NDg0N2E4NTk3YTE4Yjk4ODk4YS5odG1s",
-    "hora": "09:00",
-    "torneo": "OBOS-ligaen",
-    "evento": "Mjondalen vs. Sogndal",
-    "tipo": "normal"
-  },
-  "nor7": {
-    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThiOTVhNDhhYTE4NDg0N2E4NTk3YTE4Yzk4ODk4Yi5odG1s",
-    "hora": "09:00",
-    "torneo": "OBOS-ligaen",
-    "evento": "Moss vs. Asane",
-    "tipo": "normal"
-  },
-  "nor8": {
-    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThiOTVhNDhhYTE4NDg0N2E4NTk3YTE4ZDk4ODk4Yy5odG1s",
-    "hora": "09:00",
-    "torneo": "OBOS-ligaen",
-    "evento": "Odd vs. Raufoss",
-    "tipo": "normal"
-  },
-  "nor9": {
-    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThiOTVhNDhhYTE4NDg0N2E4NTk3YTE4ZTk4ODk4ZC5odG1s",
-    "hora": "09:00",
-    "torneo": "OBOS-ligaen",
-    "evento": "Skeid vs. Egersund",
-    "tipo": "normal"
-  },
-  "pol2-1": {
-    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThiOTVhNDhhYTE4NDg0N2E4NTk3YTE4Zjk4OGE4NC5odG1s",
-    "hora": "09:00",
-    "torneo": "Poland Div 1",
-    "evento": "Odra Opole vs. Tychy",
-    "tipo": "normal"
-  },
-  "rus1": {
-    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThiOTVhNDhhYTE4NDg0N2E4NTk3YTE5MDk4OGE4NS5odG1s",
-    "hora": "09:00",
-    "torneo": "Russia",
-    "evento": "Sochi vs. Dynamo Moscow",
-    "tipo": "normal"
-  },
-  "svk1": {
-    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThiOTVhNDhhYTE4NDg0N2E4NTk3YTI4Nzk4OGE4Ni5odG1s",
-    "hora": "09:00",
-    "torneo": "Slovakia",
-    "evento": "Kosice vs. Trencin",
-    "tipo": "normal"
-  },
-  "ltu1": {
-    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThiOTVhNDhhYTI4OTg0N2E4NTk3YTI4Yjk4OGE4OC5odG1s",
-    "hora": "09:25",
-    "torneo": "Lithuania A Lyga",
-    "evento": "Hegelmann vs. Dainava Alytus",
-    "tipo": "normal"
-  },
-  "cz3": {
-    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThiOTVhNDhhYTI4Yzg0N2E4NTk3YTI4Yzk4OGE4YS5odG1s",
-    "hora": "09:30",
-    "torneo": "Czech Republic",
-    "evento": "Banik Ostrava vs. Karvina",
-    "tipo": "normal"
-  },
-  "pol1": {
-    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThiOTVhNDhhYTI4Yzg0N2E4NTk3YTI4ZDk4OGE4Yi5odG1s",
-    "hora": "09:30",
-    "torneo": "Ekstraklasa",
-    "evento": "Jagiellonia Bialystok vs. Cracovia Krakow",
-    "tipo": "normal"
-  },
-  "en2-1": {
-    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThiOTVhNDhhYTI4Yzg0N2E4NTk3YTI4ZTk4OGE4Yy5odG1s",
-    "hora": "09:30",
-    "torneo": "England Championship",
-    "evento": "Leicester City vs. Sheffield Wednesday ",
-    "tipo": "normal"
-  },
-  "en2-2": {
-    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThiOTVhNDhhYTI4Yzg0N2E4NTk3YTI4Zjk4OGE4ZC5odG1s",
-    "hora": "09:30",
-    "torneo": "England Championship",
-    "evento": "Leicester City vs. Sheffield Wednesday ",
-    "tipo": "normal"
-  },
-  "tv8": {
-    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThiOTVhNDhhYTI4Yzg0N2E4NTk3YTI5MDk4OGI4NC5odG1s",
-    "hora": "09:30",
-    "torneo": "Finland Veikkausliiga",
-    "evento": "VPS vs. SJK",
-    "tipo": "normal"
-  },
-  "tv9": {
-    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThiOTVhNDhhYTI4Yzg0N2E4NTk3YTM4Nzk4OGI4NS5odG1s",
-    "hora": "09:30",
-    "torneo": "Friendly",
-    "evento": "Aarau vs. Al Hilal",
-    "tipo": "normal"
-  },
-  "tv10": {
-    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThiOTVhNDhhYTI4Yzg0N2E4NTk3YTM4ODk4OGI4Ni5odG1s",
-    "hora": "09:30",
-    "torneo": "Friendly",
-    "evento": "Borussia Dortmund vs. Juventus ",
-    "tipo": "normal"
-  },
-  "tv11": {
-    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThiOTVhNDhhYTI4Yzg0N2E4NTk3YTM4OTk4OGI4Ny5odG1s",
-    "hora": "09:30",
-    "torneo": "Friendly",
-    "evento": "Borussia Dortmund vs. Juventus ",
-    "tipo": "normal"
-  },
-  "tv12": {
-    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThiOTVhNDhhYTI4Yzg0N2E4NTk3YTM4YTk4OGI4OC5odG1s",
-    "hora": "09:30",
-    "torneo": "Friendly",
-    "evento": "Sunderland vs. Rayo Vallecano",
-    "tipo": "normal"
-  },
-  "rom1": {
-    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThiOTVhNDhhYTI4Yzg0N2E4NTk3YTM4Yjk4OGI4OS5odG1s",
-    "hora": "09:30",
-    "torneo": "Romania",
-    "evento": "Universitatea Craiova vs. FC Hermannstadt",
+    "evento": "South Africa vs. Guinea",
     "tipo": "normal"
   },
   "bul1": {
-    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThiOTVhNDhiOWE4YTg0N2E4NTk3YTM5MDk4OGM4ZC5odG1s",
+    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThiOTVhNTg5YTE4NDg0N2E4NTk3OWQ4Nzk4ODc4OC5odG1s",
     "hora": "10:00",
     "torneo": "Bulgaria",
-    "evento": "Levski Sofia vs. Spartak Varna",
+    "evento": "Septemvri Sofia vs. Beroe Stara Zagora",
     "tipo": "normal"
   },
-  "dnk2": {
-    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThiOTVhNDhiOWE4YTg0N2E4NTk3YTQ4Nzk4OGQ4NC5odG1s",
+  "tv1": {
+    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThiOTVhNTg5YTE4NDg0N2E4NTk3OWQ4ODk4ODc4OS5odG1s",
     "hora": "10:00",
-    "torneo": "Denmark",
-    "evento": "Brondby vs. Vejle",
+    "torneo": "Finland Veikkausliiga",
+    "evento": "HJK Helsinki vs. Ilves",
     "tipo": "normal"
   },
-  "irl1": {
-    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThiOTVhNDhiOWE4YTg0N2E4NTk3YTQ4ODk4OGQ4NS5odG1s",
-    "hora": "10:00",
-    "torneo": "Ireland",
-    "evento": "Galway vs. Shamrock Rovers",
-    "tipo": "normal"
-  },
-  "por1": {
-    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThiOTVhNDhiOWE4YTg0N2E4NTk3YTQ4OTk4OGQ4Ni5odG1s",
-    "hora": "10:00",
-    "torneo": "Liga Portugal",
-    "evento": "Famalicao vs. Santa Clara",
-    "tipo": "normal"
-  },
-  "ltu2": {
-    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThiOTVhNDhiOWE4YTg0N2E4NTk3YTQ4YTk4OGQ4Ny5odG1s",
+  "ltu1": {
+    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThiOTVhNTg5YTE4NDg0N2E4NTk3OWQ4OTk4ODc4YS5odG1s",
     "hora": "10:00",
     "torneo": "Lithuania A Lyga",
-    "evento": "Banga vs. Riteriai",
+    "evento": "Siauliai FA vs. Zalgiris",
     "tipo": "normal"
   },
-  "ltu3": {
-    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThiOTVhNDhiOWE4YTg0N2E4NTk3YTQ4Yjk4OGQ4OC5odG1s",
+  "rom1": {
+    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThiOTVhNTg5YTE4NDg0N2E4NTk3OWQ4YTk4ODc4Yi5odG1s",
     "hora": "10:00",
-    "torneo": "Lithuanian Cup",
-    "evento": "Kauno Zalgiris vs. Suduva",
+    "torneo": "Romania",
+    "evento": "FC Botosani vs. FC Arges",
     "tipo": "normal"
   },
-  "mol1": {
-    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThiOTVhNDhiOWE4YTg0N2E4NTk3YTQ4Yzk4OGQ4OS5odG1s",
-    "hora": "10:00",
-    "torneo": "Moldova",
-    "evento": "Sheriff Tiraspol vs. Politehnica UTM",
-    "tipo": "normal"
-  },
-  "bol1": {
-    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThiOTVhNDhiOWE4YTg0N2E4NTk3YTQ4ZDk4OGQ4YS5odG1s",
-    "hora": "10:00",
-    "torneo": "Peru",
-    "evento": "Sporting Cristal vs. FBC Melgar",
-    "tipo": "normal"
-  },
-  "swe3-3": {
-    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThiOTVhNDhiOWE4YTg0N2E4NTk3YTQ4ZTk4OGQ4Yi5odG1s",
-    "hora": "10:00",
+  "swe3-1": {
+    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThiOTVhNTg5YTI4Yzg0N2E4NTk3OWQ4ZDk4ODg4YS5odG1s",
+    "hora": "10:30",
     "torneo": "Sweden Div 1",
-    "evento": "Nordic United vs. Assyriska FF",
+    "evento": "Olympic vs. Hassleholms IF",
     "tipo": "normal"
   },
-  "tur1": {
-    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThiOTVhNDhiOWE4YTg0N2E4NTk3YTQ4Zjk4OGQ4Yy5odG1s",
-    "hora": "10:00",
-    "torneo": "Turkey Super Lig",
-    "evento": "Rizespor vs. Goztepe",
-    "tipo": "normal"
-  },
-  "tur2": {
-    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThiOTVhNDhiOWE4YTg0N2E4NTk3YTQ5MDk4OGQ4ZC5odG1s",
-    "hora": "10:00",
-    "torneo": "Turkey 1 Lig",
-    "evento": "Boluspor vs. Vanspor FK",
-    "tipo": "normal"
-  },
-  "far4": {
-    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThiOTVhNDhiOWI4OTg0N2E4NTk3YTU4YTk4ODU4NDdjLmh0bWw=",
-    "hora": "10:15",
-    "torneo": "Faroe Islands",
-    "evento": "NSI Runavik vs. 07 Vestur Sorvagur",
-    "tipo": "normal"
-  },
-  "bel2": {
-    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThiOTVhNDhiOWM4ODg0N2E4NTk4OWM4ODk4ODU4NDdmLmh0bWw=",
-    "hora": "10:30",
-    "torneo": "Belgium 1A",
-    "evento": "Standard Liege vs. Genk",
-    "tipo": "normal"
-  },
-  "chl1": {
-    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThiOTVhNDhiOWM4ODg0N2E4NTk4OWM4OTk4ODU4NDgwLmh0bWw=",
-    "hora": "10:30",
-    "torneo": "Chile Primera A",
-    "evento": "Everton vs. Colo Colo",
-    "tipo": "normal"
-  },
-  "isl2": {
-    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThiOTVhNDhiOWM4ODg0N2E4NTk4OWM4YTk4ODU4NDgxLmh0bWw=",
-    "hora": "10:30",
-    "torneo": "Iceland",
-    "evento": "KA Akureyri vs. Vestmannaeyjar",
-    "tipo": "normal"
-  },
-  "uy2": {
-    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThiOTVhNDhiOWM4ODg0N2E4NTk4OWM4Yjk4ODU4NDgyLmh0bWw=",
-    "hora": "10:30",
-    "torneo": "Liga AUF Uruguaya",
-    "evento": "Danubio vs. Juventud De Las Piedras",
-    "tipo": "normal"
-  },
-  "hr1": {
-    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThiOTVhNDhiOWQ4Nzg0N2E4NTk4OWM4ZDk4ODU4NTdiLmh0bWw=",
-    "hora": "10:45",
-    "torneo": "Croatia HNL",
-    "evento": "Slaven Belupo vs. Varazdin",
-    "tipo": "normal"
-  },
-  "bih1": {
-    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThiOTVhNDhiOWQ4Nzg0N2E4NTk4OWM4ZTk4ODU4NTdjLmh0bWw=",
-    "hora": "10:45",
-    "torneo": "Liga BiH",
-    "evento": "Radnik Bijeljina vs. Posusje",
-    "tipo": "normal"
-  },
-  "cr1": {
-    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThiOTVhNDhiOWU4Njg0N2E4NTk4OWQ4Nzk4ODU4NTgwLmh0bWw=",
+  "acn2": {
+    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThiOTVhNThhOWE4YTg0N2E4NTk3OWU4ODk4ODk4NS5odG1s",
     "hora": "11:00",
-    "torneo": "Costa Rica Primera Division",
-    "evento": "Cartagines vs. Deportivo Saprissa",
+    "torneo": "African Nations Championship",
+    "evento": "Uganda vs. Niger",
     "tipo": "normal"
   },
-  "tv13": {
-    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThiOTVhNDhiOWU4Njg0N2E4NTk4OWQ4ODk4ODU4NTgxLmh0bWw=",
+  "swe1": {
+    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThiOTVhNThhOWE4YTg0N2E4NTk3OWU4OTk4ODk4Ni5odG1s",
     "hora": "11:00",
-    "torneo": "Friendly",
-    "evento": "Almeria vs. Al Nassr",
+    "torneo": "Allsvenskan",
+    "evento": "Elfsborg vs. Varnamo",
     "tipo": "normal"
   },
-  "tv14": {
-    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThiOTVhNDhiOWU4Njg0N2E4NTk4OWQ4OTk4ODU4NTgyLmh0bWw=",
+  "swe2": {
+    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThiOTVhNThhOWE4YTg0N2E4NTk3OWU4YTk4ODk4Ny5odG1s",
     "hora": "11:00",
-    "torneo": "Friendly",
-    "evento": "Toulouse vs. Sevilla",
+    "torneo": "Allsvenskan",
+    "evento": "GAIS vs. Goteborg",
     "tipo": "normal"
   },
-  "irl2": {
-    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThiOTVhNDhiOWU4Njg0N2E4NTk4OWQ4YTk4ODU4NTgzLmh0bWw=",
+  "dnk1": {
+    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThiOTVhNThhOWE4YTg0N2E4NTk3OWU4Yjk4ODk4OC5odG1s",
     "hora": "11:00",
-    "torneo": "Ireland",
-    "evento": "St. Patricks vs. Sligo Rovers",
+    "torneo": "Denmark",
+    "evento": "Odense vs. Randers FC",
     "tipo": "normal"
   },
-  "tv15": {
-    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThiOTVhNDhiOWU4Njg0N2E4NTk4OWQ4Yjk4ODU4NjdhLmh0bWw=",
+  "pol1": {
+    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThiOTVhNThhOWE4YTg0N2E4NTk3OWU4Yzk4ODk4OS5odG1s",
     "hora": "11:00",
-    "torneo": "Israel Toto Cup",
-    "evento": "Kiryat Shmona vs. Ironi Tiberias",
+    "torneo": "Ekstraklasa",
+    "evento": "Lechia Gdansk vs. Motor Lublin",
     "tipo": "normal"
   },
-  "tv16": {
-    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThiOTVhNDhiOWU4Njg0N2E4NTk4OWQ4Yzk4ODU4NjdiLmh0bWw=",
-    "hora": "11:00",
-    "torneo": "Israel Toto Cup",
-    "evento": "Maccabi Bnei Raina vs. Bnei Sakhnin",
-    "tipo": "normal"
-  },
-  "lva3": {
-    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThiOTVhNDhiOWU4Njg0N2E4NTk4OWQ4ZDk4ODU4NjdjLmh0bWw=",
-    "hora": "11:00",
-    "torneo": "Latvia Virsliga",
-    "evento": "Rigas FS vs. Super Nova",
-    "tipo": "normal"
-  },
-  "por2-2": {
-    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThiOTVhNDhiOWU4Njg0N2E4NTk4OWQ4ZTk4ODU4NjdkLmh0bWw=",
+  "por2-1": {
+    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThiOTVhNThhOWE4YTg0N2E4NTk3OWU4ZDk4ODk4YS5odG1s",
     "hora": "11:00",
     "torneo": "Liga Portugal 2",
-    "evento": "FC Porto B vs. Feirense",
+    "evento": "Oliveirense vs. SC Farense",
     "tipo": "normal"
   },
-  "por2-3": {
-    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThiOTVhNDhiOWU4Njg0N2E4NTk4OWQ4Zjk4ODU4NjdlLmh0bWw=",
+  "pol2-1": {
+    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThiOTVhNThhOWE4YTg0N2E4NTk3OWU4ZTk4ODk4Yi5odG1s",
     "hora": "11:00",
-    "torneo": "Liga Portugal 2",
-    "evento": "Leiria vs. Academico Viseu",
-    "tipo": "normal"
-  },
-  "svk2": {
-    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThiOTVhNDhiOWU4Njg0N2E4NTk4OWQ5MDk4ODU4NjdmLmh0bWw=",
-    "hora": "11:00",
-    "torneo": "Slovakia",
-    "evento": "Trnava vs. Presov",
-    "tipo": "normal"
-  },
-  "bel3": {
-    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThiOTVhNDhiOWY4NTg0N2E4NTk4OWU4YTk4ODU4NjgyLmh0bWw=",
-    "hora": "11:15",
-    "torneo": "Belgium 1A",
-    "evento": "Antwerp vs. OH Leuven",
-    "tipo": "normal"
-  },
-  "nor10": {
-    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThiOTVhNDhiOWY4NTg0N2E4NTk4OWU4Yjk4ODU4NjgzLmh0bWw=",
-    "hora": "11:15",
-    "torneo": "Eliteserien",
-    "evento": "Sandefjord vs. Viking",
-    "tipo": "normal"
-  },
-  "ger3-2": {
-    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThiOTVhNDhiYTA4NDg0N2E4NTk4OWU4Yzk4ODU4NzdkLmh0bWw=",
-    "hora": "11:30",
-    "torneo": "Bundesliga 3",
-    "evento": "Stuttgart II vs. FC Ingolstadt",
-    "tipo": "normal"
-  },
-  "pol2-2": {
-    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThiOTVhNDhiYTA4NDg0N2E4NTk4OWU4ZDk4ODU4NzdlLmh0bWw=",
-    "hora": "11:30",
     "torneo": "Poland Div 1",
-    "evento": "Pruszkow vs. Polonia Warszawa",
-    "tipo": "normal"
-  },
-  "pol3-1": {
-    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThiOTVhNDhiYTA4NDg0N2E4NTk4OWU4ZTk4ODU4NzdmLmh0bWw=",
-    "hora": "11:30",
-    "torneo": "Poland Div 2",
-    "evento": "Zaglebie Sosnowiec vs. Skierniewice",
-    "tipo": "normal"
-  },
-  "rus2": {
-    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThiOTVhNDhiYTA4NDg0N2E4NTk4OWU4Zjk4ODU4NzgwLmh0bWw=",
-    "hora": "11:30",
-    "torneo": "Russia",
-    "evento": "FK Rostov vs. Pari NN",
-    "tipo": "normal"
-  },
-  "tv17": {
-    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThiOTVhNDhiYTE4Yzg0N2E4NTk4YTA4Yzk4ODU4OTgyLmh0bWw=",
-    "hora": "12:00",
-    "torneo": "Argentina Liga Profesional",
-    "evento": "Barracas Central vs. CA Aldosivi",
-    "tipo": "normal"
-  },
-  "ar1": {
-    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThiOTVhNDhiYTE4Yzg0N2E4NTk4YTA4ZDk4ODU4OTgxLmh0bWw=",
-    "hora": "12:00",
-    "torneo": "Argentina Primera Nacional",
-    "evento": "Alvarado vs. Club A. Guemes",
-    "tipo": "normal"
-  },
-  "cz4": {
-    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThiOTVhNDhiYTE4Yzg0N2E4NTk4YTA4ZTk4ODU4OTgzLmh0bWw=",
-    "hora": "12:00",
-    "torneo": "Czech Republic",
-    "evento": "Sparta Prague vs. Sigma Olomouc",
-    "tipo": "normal"
-  },
-  "ecu1": {
-    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThiOTVhNDhiYTE4Yzg0N2E4NTk4YTA4Zjk4ODU4YTdhLmh0bWw=",
-    "hora": "12:00",
-    "torneo": "Ecuador",
-    "evento": "Vinotinto vs. Tecnico Universitario",
-    "tipo": "normal"
-  },
-  "egy2": {
-    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThiOTVhNDhiYTE4Yzg0N2E4NTk4YTA5MDk4ODU4YTdiLmh0bWw=",
-    "hora": "12:00",
-    "torneo": "Egypt",
-    "evento": "National Bank Egypt vs. Ghazl El Mahallah",
-    "tipo": "normal"
-  },
-  "egy3": {
-    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThiOTVhNDhiYTE4Yzg0N2E4NTk4YTE4Nzk4ODU4YTdjLmh0bWw=",
-    "hora": "12:00",
-    "torneo": "Egypt",
-    "evento": "Pharco vs. Enppi",
-    "tipo": "normal"
-  },
-  "tv18": {
-    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThiOTVhNDhiYTE4Yzg0N2E4NTk4YTE4ODk4ODU4YTdkLmh0bWw=",
-    "hora": "12:00",
-    "torneo": "Mexico Liga de Expansion",
-    "evento": "Leones Negros vs. Irapuato",
-    "tipo": "normal"
-  },
-  "mol2": {
-    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThiOTVhNDhiYTE4Yzg0N2E4NTk4YTE4OTk4ODU4YTdlLmh0bWw=",
-    "hora": "12:00",
-    "torneo": "Moldova",
-    "evento": "Zimbru Chisinau vs. Milsami",
-    "tipo": "normal"
-  },
-  "mon1": {
-    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThiOTVhNDhiYTE4Yzg0N2E4NTk4YTE4YTk4ODU4YTdmLmh0bWw=",
-    "hora": "12:00",
-    "torneo": "Montenegro",
-    "evento": "Bokelj vs. Mladost DG",
-    "tipo": "normal"
-  },
-  "mon2": {
-    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThiOTVhNDhiYTE4Yzg0N2E4NTk4YTE4Yjk4ODU4YTgwLmh0bWw=",
-    "hora": "12:00",
-    "torneo": "Montenegro",
-    "evento": "Buducnost vs. Sutjeska",
-    "tipo": "normal"
-  },
-  "mon3": {
-    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThiOTVhNDhiYTE4Yzg0N2E4NTk4YTE4Yzk4ODU4YTgxLmh0bWw=",
-    "hora": "12:00",
-    "torneo": "Montenegro",
-    "evento": "Mornar Bar vs. Arsenal Tivat",
-    "tipo": "normal"
-  },
-  "mon4": {
-    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThiOTVhNDhiYTE4Yzg0N2E4NTk4YTE4ZDk4ODU4YTgyLmh0bWw=",
-    "hora": "12:00",
-    "torneo": "Montenegro",
-    "evento": "Petrovac vs. Jezero",
-    "tipo": "normal"
-  },
-  "usa-f1": {
-    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThiOTVhNDhiYTE4Yzg0N2E4NTk4YTE4ZTk4ODU4YTgzLmh0bWw=",
-    "hora": "12:00",
-    "torneo": "NWSL",
-    "evento": "Chicago Red Stars W vs. Bay FC W",
+    "evento": "Puszcza vs. KS Wieczysta Krakow",
     "tipo": "normal"
   },
   "rs1": {
-    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThiOTVhNDhiYTE4Yzg0N2E4NTk4YTE4Zjk4ODU4YjdhLmh0bWw=",
-    "hora": "12:00",
+    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThiOTVhNThhOWE4YTg0N2E4NTk3OWU4Zjk4ODk4Yy5odG1s",
+    "hora": "11:00",
     "torneo": "Serbia",
-    "evento": "Radnicki Nis vs. Novi Pazar",
-    "tipo": "normal"
-  },
-  "bul2": {
-    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThiOTVhNDhiYTI4Yjg0N2E4NTk4YTI4ZTk4ODU4YjgwLmh0bWw=",
-    "hora": "12:15",
-    "torneo": "Bulgaria",
-    "evento": "Botev Plovdiv vs. Lokomotiv Sofia",
-    "tipo": "normal"
-  },
-  "pol2": {
-    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThiOTVhNDhiYTI4Yjg0N2E4NTk4YTI4Zjk4ODU4YjgxLmh0bWw=",
-    "hora": "12:15",
-    "torneo": "Ekstraklasa",
-    "evento": "Legia Warsaw vs. GKS Katowice",
-    "tipo": "normal"
-  },
-  "bol2": {
-    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThiOTVhNDhiYTI4Yjg0N2E4NTk4YTI5MDk4ODU4YjgyLmh0bWw=",
-    "hora": "12:15",
-    "torneo": "Peru",
-    "evento": "Los Chankas vs. Grau",
-    "tipo": "normal"
-  },
-  "slo1": {
-    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThiOTVhNDhiYTI4Yjg0N2E4NTk4YTM4Nzk4ODU4YjgzLmh0bWw=",
-    "hora": "12:15",
-    "torneo": "Slovenia",
-    "evento": "NK Celje vs. Mura",
-    "tipo": "normal"
-  },
-  "slo2": {
-    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThiOTVhNDhiYTI4Yjg0N2E4NTk4YTM4ODk4ODU4YzdhLmh0bWw=",
-    "hora": "12:15",
-    "torneo": "Slovenia",
-    "evento": "Primorje vs. NK Maribor",
-    "tipo": "normal"
-  },
-  "ar2-1": {
-    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThiOTVhNDhjOTk4YTg0N2E4NTk4YTM4OTk4ODU4YzdiLmh0bWw=",
-    "hora": "12:30",
-    "torneo": "Argentina Primera B",
-    "evento": "Argentino de Merlo vs. Dock Sud",
-    "tipo": "normal"
-  },
-  "ar2-2": {
-    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThiOTVhNDhjOTk4YTg0N2E4NTk4YTM4YTk4ODU4YzdjLmh0bWw=",
-    "hora": "12:30",
-    "torneo": "Argentina Primera B",
-    "evento": "Fenix vs. Deportivo Armenio",
-    "tipo": "normal"
-  },
-  "ar2-3": {
-    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThiOTVhNDhjOTk4YTg0N2E4NTk4YTM4Yjk4ODU4YzdkLmh0bWw=",
-    "hora": "12:30",
-    "torneo": "Argentina Primera B",
-    "evento": "Villa Dalmine vs. Sacachispas",
-    "tipo": "normal"
-  },
-  "ar2": {
-    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThiOTVhNDhjOTk4YTg0N2E4NTk4YTM4Yzk4ODU4YzdlLmh0bWw=",
-    "hora": "12:30",
-    "torneo": "Argentina Primera Nacional",
-    "evento": "Almirante Brown vs. Central Norte",
-    "tipo": "normal"
-  },
-  "ar3": {
-    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThiOTVhNDhjOTk4YTg0N2E4NTk4YTM4ZDk4ODU4YzdmLmh0bWw=",
-    "hora": "12:30",
-    "torneo": "Argentina Primera Nacional",
-    "evento": "CA Mitre vs. Gimnasia Jujuy",
-    "tipo": "normal"
-  },
-  "ar4": {
-    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThiOTVhNDhjOTk4YTg0N2E4NTk4YTM4ZTk4ODU4YzgwLmh0bWw=",
-    "hora": "12:30",
-    "torneo": "Argentina Primera Nacional",
-    "evento": "Deportivo Madryn vs. San Martin T.",
-    "tipo": "normal"
-  },
-  "ar5": {
-    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThiOTVhNDhjOTk4YTg0N2E4NTk4YTM4Zjk4ODU4YzgxLmh0bWw=",
-    "hora": "12:30",
-    "torneo": "Argentina Primera Nacional",
-    "evento": "Temperley vs. San Telmo",
-    "tipo": "normal"
-  },
-  "rom2": {
-    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThiOTVhNDhjOTk4YTg0N2E4NTk4YTM5MDk4ODU4YzgyLmh0bWw=",
-    "hora": "12:30",
-    "torneo": "Romania",
-    "evento": "FCSB vs. Unirea Slobozia",
+    "evento": "IMT Novi Beograd vs. Zeleznicar Pancevo",
     "tipo": "normal"
   },
   "rs2": {
-    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThiOTVhNDhjOTk4YTg0N2E4NTk4YTQ4Nzk4ODU4YzgzLmh0bWw=",
-    "hora": "12:30",
+    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThiOTVhNThhOWE4YTg0N2E4NTk3OWU5MDk4ODk4ZC5odG1s",
+    "hora": "11:00",
     "torneo": "Serbia",
-    "evento": "Napredak vs. Partizan Belgrade",
+    "evento": "Javor vs. Radnicki 1923",
     "tipo": "normal"
   },
-  "tur3": {
-    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThiOTVhNDhjOTk4YTg0N2E4NTk4YTQ4ODk4ODU4ZDdhLmh0bWw=",
+  "swe3-2": {
+    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThiOTVhNThhOWE4YTg0N2E4NTk3OWY4Nzk4OGE4NC5odG1s",
+    "hora": "11:00",
+    "torneo": "Sweden Div 1",
+    "evento": "Hammarby TFF vs. Stockholm Internazionale",
+    "tipo": "normal"
+  },
+  "tv2": {
+    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThiOTVhNThhOWE4YTg0N2E4NTk3OWY4ODk4OGE4NS5odG1s",
+    "hora": "11:00",
+    "torneo": "Uruguay Segunda Div",
+    "evento": "Central Espanol vs. Uruguay Montevideo",
+    "tipo": "normal"
+  },
+  "por1": {
+    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThiOTVhNThhOWQ4Nzg0N2E4NTk3OWY4ZDk4OGE4Ni5odG1s",
+    "hora": "11:45",
+    "torneo": "Liga Portugal",
+    "evento": "Estoril vs. Estrela",
+    "tipo": "normal"
+  },
+  "ned2-1": {
+    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThiOTVhNThhOWU4Njg0N2E4NTk3OWY4ZTk4OGE4Ny5odG1s",
+    "hora": "12:00",
+    "torneo": "Eerste Divisie",
+    "evento": "Jong AZ vs. RKC Waalwijk",
+    "tipo": "normal"
+  },
+  "ned2-2": {
+    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThiOTVhNThhOWU4Njg0N2E4NTk3OWY4Zjk4OGE4OC5odG1s",
+    "hora": "12:00",
+    "torneo": "Eerste Divisie",
+    "evento": "Jong PSV vs. FC Emmen",
+    "tipo": "normal"
+  },
+  "bul2": {
+    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThiOTVhNThhOWY4NTg0N2E4NTk3OWY5MDk4OGE4OS5odG1s",
+    "hora": "12:15",
+    "torneo": "Bulgaria",
+    "evento": "Arda vs. Lokomotiv Plovdiv",
+    "tipo": "normal"
+  },
+  "rom2": {
+    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThiOTVhNThhYTA4NDg0N2E4NTk3YTA4Nzk4OGE4Yy5odG1s",
+    "hora": "12:30",
+    "torneo": "Romania",
+    "evento": "Otelul vs. FC Rapid Bucuresti",
+    "tipo": "normal"
+  },
+  "tur1": {
+    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThiOTVhNThhYTA4NDg0N2E4NTk3YTA4ODk4OGE4ZC5odG1s",
     "hora": "12:30",
     "torneo": "Turkey Super Lig",
-    "evento": "Eyupspor vs. Konyaspor",
+    "evento": "Trabzonspor vs. Kocaelispor",
     "tipo": "normal"
   },
-  "tur4": {
-    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThiOTVhNDhjOTk4YTg0N2E4NTk4YTQ4OTk4ODU4ZDdiLmh0bWw=",
+  "tur2": {
+    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThiOTVhNThhYTA4NDg0N2E4NTk3YTA4OTk4OGI4NC5odG1s",
     "hora": "12:30",
     "torneo": "Turkey 1 Lig",
-    "evento": "Bodrumspor vs. Pendikspor",
+    "evento": "Erokspor vs. Adana Demirspor",
     "tipo": "normal"
   },
-  "tur5": {
-    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThiOTVhNDhjOTk4YTg0N2E4NTk4YTQ4YTk4ODU4ZDdjLmh0bWw=",
-    "hora": "12:30",
-    "torneo": "Turkey 1 Lig",
-    "evento": "Corum vs. Amedspor",
+  "fr2-1": {
+    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThiOTVhNThhYTA4ZDg0N2E4NTk3YTA4Yzk4OGI4NS5odG1s",
+    "hora": "12:45",
+    "torneo": "Ligue 2",
+    "evento": "Amiens vs. Reims",
     "tipo": "normal"
   },
-  "ar6": {
-    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThiOTVhNDhjOWI4ODg0N2E4NTk4YTQ4ZDk4ODU4ZDgxLmh0bWw=",
-    "hora": "13:00",
-    "torneo": "Argentina Primera Nacional",
-    "evento": "Colon Santa Fe vs. Agropecuario",
-    "tipo": "normal"
-  },
-  "bol3": {
-    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThiOTVhNDhjOWI4ODg0N2E4NTk4YTQ4ZTk4ODU4ZDgyLmh0bWw=",
-    "hora": "13:00",
-    "torneo": "Bolivia",
-    "evento": "GV San Jose vs. Independiente",
-    "tipo": "normal"
-  },
-  "bra2": {
-    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThiOTVhNDhjOWI4ODg0N2E4NTk4YTQ4Zjk4ODU4ZDgzLmh0bWw=",
-    "hora": "13:00",
-    "torneo": "Brazil Serie A",
-    "evento": "Palmeiras vs. Ceara",
-    "tipo": "normal"
-  },
-  "bra3": {
-    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThiOTVhNDhjOWI4ODg0N2E4NTk4YTQ5MDk4ODY4NDdhLmh0bWw=",
-    "hora": "13:00",
-    "torneo": "Brazil Serie A",
-    "evento": "Vasco vs. Atletico-MG",
-    "tipo": "normal"
-  },
-  "bra2-1": {
-    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThiOTVhNDhjOWI4ODg0N2E4NTk4YTU4Nzk4ODY4NDdiLmh0bWw=",
-    "hora": "13:00",
-    "torneo": "Brazil Serie B",
-    "evento": "Avai vs. Cuiaba",
-    "tipo": "normal"
-  },
-  "can1": {
-    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThiOTVhNDhjOWI4ODg0N2E4NTk4YTU4ODk4ODY4NDdjLmh0bWw=",
-    "hora": "13:00",
-    "torneo": "Canada",
-    "evento": "Valour vs. Atletico Ottawa",
-    "tipo": "normal"
-  },
-  "chl2": {
-    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThiOTVhNDhjOWI4ODg0N2E4NTk4YTU4OTk4ODY4NDdkLmh0bWw=",
-    "hora": "13:00",
-    "torneo": "Chile Primera A",
-    "evento": "Cobresal vs. Coquimbo",
-    "tipo": "normal"
-  },
-  "hr2": {
-    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThiOTVhNDhjOWI4ODg0N2E4NTk4YTU4YTk4ODY4NDdlLmh0bWw=",
-    "hora": "13:00",
-    "torneo": "Croatia HNL",
-    "evento": "Hajduk Split vs. Gorica",
-    "tipo": "normal"
-  },
-  "tv19": {
-    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThiOTVhNDhjOWI4ODg0N2E4NTk4YTU4Yjk4ODY4NDdmLmh0bWw=",
-    "hora": "13:00",
-    "torneo": "Friendly",
-    "evento": "Barcelona vs. Como",
-    "tipo": "normal"
-  },
-  "tv20": {
-    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThiOTVhNDhjOWI4ODg0N2E4NTk4YTU4Yzk4ODY4NDgwLmh0bWw=",
-    "hora": "13:00",
-    "torneo": "Friendly",
-    "evento": "Villarreal vs. Aston Villa",
-    "tipo": "normal"
-  },
-  "tv21": {
-    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThiOTVhNDhjOWI4ODg0N2E4NTk2YTE4Yzk4ODc4NzgzLmh0bWw=",
-    "hora": "13:00",
-    "torneo": "Friendly",
-    "evento": "Villarreal vs. Aston Villa ",
-    "tipo": "normal"
-  },
-  "uy3": {
-    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThiOTVhNDhjOWI4ODg0N2E4NTk4YTU4ZDk4ODY4NDgxLmh0bWw=",
-    "hora": "13:00",
-    "torneo": "Liga AUF Uruguaya",
-    "evento": "Montevideo Wanderers vs. Plaza Colonia",
-    "tipo": "normal"
-  },
-  "bih2": {
-    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThiOTVhNDhjOWI4ODg0N2E4NTk4YTU4ZTk4ODY4NDgyLmh0bWw=",
-    "hora": "13:00",
-    "torneo": "Liga BiH",
-    "evento": "Siroki Brijeg vs. Velez Mostar",
-    "tipo": "normal"
-  },
-  "mon5": {
-    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThiOTVhNDhjOWI4ODg0N2E4NTk4YTU4Zjk4ODY4NDgzLmh0bWw=",
-    "hora": "13:00",
-    "torneo": "Montenegro",
-    "evento": "Jedinstvo vs. Decic",
-    "tipo": "normal"
-  },
-  "py1": {
-    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThiOTVhNDhjOWI4ODg0N2E4NTk4YTU5MDk4ODY4NTdhLmh0bWw=",
-    "hora": "13:00",
-    "torneo": "Paraguay",
-    "evento": "Guarani vs. Olimpia Asuncion",
-    "tipo": "normal"
-  },
-  "isl3": {
-    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThiOTVhNDhjOWM4Nzg0N2E4NTk5OWM4ODk4ODY4NTdiLmh0bWw=",
+  "isl1": {
+    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThiOTVhNThhYTI4Yjg0N2E4NTk3YTA4ZDk4OGI4Ni5odG1s",
     "hora": "13:15",
     "torneo": "Iceland",
-    "evento": "Valur vs. Breidablik",
+    "evento": "FH Hafnarfjordur vs. IA Akranes",
     "tipo": "normal"
   },
-  "isl4": {
-    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThiOTVhNDhjOWM4Nzg0N2E4NTk5OWM4OTk4ODY4NTdjLmh0bWw=",
+  "isl2": {
+    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThiOTVhNThhYTI4Yjg0N2E4NTk3YTA4ZTk4OGI4Ny5odG1s",
     "hora": "13:15",
     "torneo": "Iceland",
-    "evento": "Vikingur Reykjavik vs. Stjarnan",
-    "tipo": "normal"
-  },
-  "ar7": {
-    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThiOTVhNDhjOWQ4Njg0N2E4NTk5OWM4YTk4ODY4NTdkLmh0bWw=",
-    "hora": "13:30",
-    "torneo": "Argentina Primera Nacional",
-    "evento": "Chaco For Ever vs. Gimnasia Mendoza",
-    "tipo": "normal"
-  },
-  "bra3-2": {
-    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThiOTVhNDhjOWQ4Njg0N2E4NTk5OWM4Yjk4ODY4NTdlLmh0bWw=",
-    "hora": "13:30",
-    "torneo": "Brazil Serie C",
-    "evento": "Anapolis vs. Brusque",
-    "tipo": "normal"
-  },
-  "bra3-3": {
-    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThiOTVhNDhjOWQ4Njg0N2E4NTk5OWM4Yzk4ODY4NTdmLmh0bWw=",
-    "hora": "13:30",
-    "torneo": "Brazil Serie C",
-    "evento": "Floresta EC vs. Tombense",
+    "evento": "KR Reykjavik vs. Afturelding",
     "tipo": "normal"
   },
   "por2": {
-    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThiOTVhNDhjOWQ4Njg0N2E4NTk5OWM4ZDk4ODY4NTgwLmh0bWw=",
-    "hora": "13:30",
+    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThiOTVhNThiOWE4OTg0N2E4NTk3YTA4Zjk4OGI4OC5odG1s",
+    "hora": "13:45",
     "torneo": "Liga Portugal",
-    "evento": "Braga vs. Tondela ",
+    "evento": "FC Porto vs. Vitoria Guimaraes",
     "tipo": "normal"
   },
-  "por3": {
-    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThiOTVhNDhjOWQ4Njg0N2E4NTk5OWM4ZTk4ODY4NTgxLmh0bWw=",
-    "hora": "13:30",
-    "torneo": "Liga Portugal",
-    "evento": "Braga vs. Tondela ",
-    "tipo": "normal"
-  },
-  "por4": {
-    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThiOTVhNDhjOWQ4Njg0N2E4NTk5OWM4Zjk4ODY4NTgyLmh0bWw=",
-    "hora": "13:30",
-    "torneo": "Liga Portugal",
-    "evento": "Moreirense vs. Alverca",
-    "tipo": "normal"
-  },
-  "tv22": {
-    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThiOTVhNDhjOWY4NDg0N2E4NTk5OWQ4ODk4ODY4NjdiLmh0bWw=",
+  "bol1": {
+    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThiOTVhNThiOWI4ODg0N2E4NTk3YTA5MDk4OGI4OS5odG1s",
     "hora": "14:00",
-    "torneo": "Argentina Liga Profesional",
-    "evento": "Instituto vs. Platense",
-    "tipo": "normal"
-  },
-  "ar8": {
-    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThiOTVhNDhjOWY4NDg0N2E4NTk5OWQ4OTk4ODY4NjdhLmh0bWw=",
-    "hora": "14:00",
-    "torneo": "Argentina Primera Nacional",
-    "evento": "Gimnasia y Tiro vs. Los Andes",
-    "tipo": "normal"
-  },
-  "col1": {
-    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThiOTVhNDhjOWY4NDg0N2E4NTk5OWQ4YTk4ODY4NjdjLmh0bWw=",
-    "hora": "14:00",
-    "torneo": "Colombia Primera A",
-    "evento": "Envigado vs. Deportivo Junior",
-    "tipo": "normal"
-  },
-  "gua1": {
-    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThiOTVhNDhjOWY4NDg0N2E4NTk5OWQ4Yjk4ODY4NjdkLmh0bWw=",
-    "hora": "14:00",
-    "torneo": "Guatemala",
-    "evento": "Deportivo Achuapa vs. Aurora F.C.",
-    "tipo": "normal"
-  },
-  "usa-f2": {
-    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThiOTVhNDhjOWY4NDg0N2E4NTk5OWQ4Yzk4ODY4NjdlLmh0bWw=",
-    "hora": "14:00",
-    "torneo": "NWSL",
-    "evento": "Portland Thorns W vs. Seattle Reign W",
+    "torneo": "Peru",
+    "evento": "Alianza Atletico vs. UTC Cajamarca",
     "tipo": "normal"
   },
   "col2-1": {
-    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThiOTVhNDhjYTA4Yzg0N2E4NTk5OWU5MDk4ODY4NzgzLmh0bWw=",
+    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThiOTVhNThiOWQ4Njg0N2E4NTk3YTE4Nzk4OGI4YS5odG1s",
     "hora": "14:30",
     "torneo": "Colombia Primera B",
-    "evento": "Bogota vs. Inter Palmira",
+    "evento": "Leones vs. Tigres",
     "tipo": "normal"
   },
-  "ecu2": {
-    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThiOTVhNDhjYTA4Yzg0N2E4NTk5OWY4Nzk4ODY4ODgwLmh0bWw=",
-    "hora": "14:30",
+  "ecu1": {
+    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThiOTVhNThiOWY4NDg0N2E4NTk3YTE4ODk4OGI4Yi5odG1s",
+    "hora": "15:00",
     "torneo": "Ecuador",
-    "evento": "Macara vs. Delfin",
-    "tipo": "normal"
-  },
-  "ecu2-1": {
-    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThiOTVhNDhjYTA4Yzg0N2E4NTk5OWY4ODk4ODY4ODdhLmh0bWw=",
-    "hora": "14:30",
-    "torneo": "Ecuador Serie B",
-    "evento": "Cumbaya vs. Chacaritas",
-    "tipo": "normal"
-  },
-  "ecu2-2": {
-    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThiOTVhNDhjYTA4Yzg0N2E4NTk5OWY4OTk4ODY4ODdiLmh0bWw=",
-    "hora": "14:30",
-    "torneo": "Ecuador Serie B",
-    "evento": "Gualaceo vs. Guayaquil City",
-    "tipo": "normal"
-  },
-  "ecu2-3": {
-    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThiOTVhNDhjYTA4Yzg0N2E4NTk5OWY4YTk4ODY4ODdjLmh0bWw=",
-    "hora": "14:30",
-    "torneo": "Ecuador Serie B",
-    "evento": "Imbabura vs. 22 de Julio",
-    "tipo": "normal"
-  },
-  "ecu2-4": {
-    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThiOTVhNDhjYTA4Yzg0N2E4NTk5OWY4Yjk4ODY4ODdkLmh0bWw=",
-    "hora": "14:30",
-    "torneo": "Ecuador Serie B",
-    "evento": "Nueve de Octubre vs. Atletico Vinotinto",
-    "tipo": "normal"
-  },
-  "ecu2-5": {
-    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThiOTVhNDhjYTA4Yzg0N2E4NTk5OWY4Yzk4ODY4ODdlLmh0bWw=",
-    "hora": "14:30",
-    "torneo": "Ecuador Serie B",
-    "evento": "San Antonio Scorpions vs. Leones del Norte",
-    "tipo": "normal"
-  },
-  "ecu2-6": {
-    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThiOTVhNDhjYTA4Yzg0N2E4NTk5OWY4ZDk4ODY4ODdmLmh0bWw=",
-    "hora": "14:30",
-    "torneo": "Ecuador Serie B",
-    "evento": "Vargas Torres vs. Ind. Juniors",
-    "tipo": "normal"
-  },
-  "bol4": {
-    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThiOTVhNDhjYTA4Yzg0N2E4NTk5OWY4ZTk4ODY4ODgxLmh0bWw=",
-    "hora": "14:30",
-    "torneo": "Peru",
-    "evento": "Juan Pablo II vs. Binacional",
-    "tipo": "normal"
-  },
-  "ar9": {
-    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThiOTVhNDhjYTE4Yjg0N2E4NTk5OWY4Zjk4ODY4ODgyLmh0bWw=",
-    "hora": "14:45",
-    "torneo": "Argentina Primera Nacional",
-    "evento": "CA Estudiantes vs. Defensores de Belgrano",
-    "tipo": "normal"
-  },
-  "slv1": {
-    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThiOTVhNDhjYTI4YTg0N2E4NTk5OWY5MDk4ODY4ODgzLmh0bWw=",
-    "hora": "15:00",
-    "torneo": "El Salvador",
-    "evento": "Cacahuatique vs. Luis Angel Firpo",
-    "tipo": "normal"
-  },
-  "hon1": {
-    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThiOTVhNDhjYTI4YTg0N2E4NTk5YTA4Nzk4ODY4OTdhLmh0bWw=",
-    "hora": "15:00",
-    "torneo": "Honduras",
-    "evento": "Platense vs. UPNFM",
+    "evento": "Emelec vs. Deportivo Cuenca",
     "tipo": "normal"
   },
   "ven1": {
-    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThiOTVhNDhjYTI4YTg0N2E4NTk5YTA4ODk4ODY4OTdiLmh0bWw=",
+    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThiOTVhNThiOWY4NDg0N2E4NTk3YTE4OTk4OGI4Yy5odG1s",
     "hora": "15:00",
     "torneo": "Venezuela",
-    "evento": "Metropolitanos vs. Deportivo La Guaira",
+    "evento": "Yaracuyanos vs. Monagas",
     "tipo": "normal"
   },
-  "bol5": {
-    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThiOTVhNDhkOTk4OTg0N2E4NTk5YTA4OTk4ODY4OTdjLmh0bWw=",
-    "hora": "15:15",
-    "torneo": "Bolivia",
-    "evento": "Blooming vs. Always Ready",
+  "tv3": {
+    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThiOTVhNThiYTI4YTg0N2E4NTk3YTE4YTk4OGI4ZC5odG1s",
+    "hora": "16:00",
+    "torneo": "Argentina Liga Profesional",
+    "evento": "Defensa y Justicia vs. Deportivo Riestra",
+    "tipo": "normal"
+  },
+  "bra2-1": {
+    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThiOTVhNThiYTI4YTg0N2E4NTk3YTE4Yjk4OGM4NC5odG1s",
+    "hora": "16:00",
+    "torneo": "Brazil Serie B",
+    "evento": "Criciuma vs. Athletico-PR",
+    "tipo": "normal"
+  },
+  "col2-2": {
+    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThiOTVhNThiYTI4YTg0N2E4NTk3YTE4Yzk4OGM4NS5odG1s",
+    "hora": "16:00",
+    "torneo": "Colombia Primera B",
+    "evento": "Jaguares de Cordoba vs. Real Santander",
+    "tipo": "normal"
+  },
+  "bra1": {
+    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThiOTVhNThiYTI4YTg0N2E4NTk3YTE4ZDk4OGM4Ni5odG1s",
+    "hora": "16:00",
+    "torneo": "Copa Paulista",
+    "evento": "Guarani B vs. Sao Bento",
+    "tipo": "normal"
+  },
+  "bra2": {
+    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThiOTVhNThiYTI4YTg0N2E4NTk3YTE4ZTk4OGM4Ny5odG1s",
+    "hora": "16:00",
+    "torneo": "Copa Paulista",
+    "evento": "Oeste vs. Sao Jose EC",
+    "tipo": "normal"
+  },
+  "uy1": {
+    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThiOTVhNThiYTI4YTg0N2E4NTk3YTE4Zjk4OGM4OC5odG1s",
+    "hora": "16:00",
+    "torneo": "Liga AUF Uruguaya",
+    "evento": "Defensor Sporting vs. River Plate",
+    "tipo": "normal"
+  },
+  "ar1": {
+    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThiOTVhNThjOTk4Njg0N2E4NTk3YTI4ODk4OGM4Yi5odG1s",
+    "hora": "16:10",
+    "torneo": "Argentina Primera Nacional",
+    "evento": "All Boys vs. Patronato",
+    "tipo": "normal"
+  },
+  "bra3-1": {
+    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThiOTVhNThjOWE4ODg0N2E4NTk3YTI4OTk4OGM4Yy5odG1s",
+    "hora": "16:30",
+    "torneo": "Brazil Serie C",
+    "evento": "Figueirense vs. Maringa FC",
+    "tipo": "normal"
+  },
+  "bra3-2": {
+    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThiOTVhNThjOWE4ODg0N2E4NTk3YTI4YTk4OGM4ZC5odG1s",
+    "hora": "16:30",
+    "torneo": "Brazil Serie C",
+    "evento": "Itabaiana vs. CSA",
+    "tipo": "normal"
+  },
+  "bra3": {
+    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThiOTVhNThjOWM4Njg0N2E4NTk1OWM4Nzk4OGQ4NS5odG1s",
+    "hora": "17:00",
+    "torneo": "Brazil Serie A",
+    "evento": "Juventude vs. Corinthians",
+    "tipo": "normal"
+  },
+  "chl1": {
+    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThiOTVhNThjOWM4Njg0N2E4NTk1OWM4ODk4OGQ4Ni5odG1s",
+    "hora": "17:00",
+    "torneo": "Chile Primera A",
+    "evento": "Limache vs. Audax Italiano",
+    "tipo": "normal"
+  },
+  "col2-3": {
+    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThiOTVhNThjOWM4Njg0N2E4NTk1OWM4OTk4OGQ4Ny5odG1s",
+    "hora": "17:00",
+    "torneo": "Colombia Primera B",
+    "evento": "Huila vs. Atletico F.C.",
     "tipo": "normal"
   },
   "bra4": {
-    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThiOTVhNDhkOWE4ODg0N2E4NTk5YTA4YTk4ODY4OTdkLmh0bWw=",
-    "hora": "15:30",
-    "torneo": "Brazil Serie A",
-    "evento": "Cruzeiro vs. Santos",
-    "tipo": "normal"
-  },
-  "bra2-2": {
-    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThiOTVhNDhkOWE4ODg0N2E4NTk5YTA4Yjk4ODY4OTdlLmh0bWw=",
-    "hora": "15:30",
-    "torneo": "Brazil Serie B",
-    "evento": "Atletico GO vs. Botafogo SP",
-    "tipo": "normal"
-  },
-  "uy4": {
-    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThiOTVhNDhkOWE4ODg0N2E4NTk5YTA4Yzk4ODY4OTdmLmh0bWw=",
-    "hora": "15:30",
-    "torneo": "Liga AUF Uruguaya",
-    "evento": "Miramar vs. Liverpool Montevideo",
-    "tipo": "normal"
-  },
-  "py2": {
-    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThiOTVhNDhkOWE4ODg0N2E4NTk5YTA4ZDk4ODY4OTgwLmh0bWw=",
-    "hora": "15:30",
-    "torneo": "Paraguay",
-    "evento": "Libertad Asuncion vs. Recoleta",
-    "tipo": "normal"
-  },
-  "bra3-4": {
-    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThiOTVhNDhkOWM4Njg0N2E4NTk5YTA4Zjk4ODY4OTgyLmh0bWw=",
-    "hora": "16:00",
-    "torneo": "Brazil Serie C",
-    "evento": "Retro vs. Sao Bernardo",
-    "tipo": "normal"
-  },
-  "can2": {
-    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThiOTVhNDhkOWM4Njg0N2E4NTk5YTA5MDk4ODY4OTgzLmh0bWw=",
-    "hora": "16:00",
-    "torneo": "Canada",
-    "evento": "Vancouver FC vs. Pacific FC",
-    "tipo": "normal"
-  },
-  "usa1": {
-    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThiOTVhNDhkOWM4Njg0N2E4NTk5YTE4Nzk4ODY4YTdhLmh0bWw=",
-    "hora": "16:00",
-    "torneo": "MLS",
-    "evento": "FC Cincinnati vs. Charlotte ",
-    "tipo": "normal"
-  },
-  "usa2": {
-    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThiOTVhNDhkOWM4Njg0N2E4NTk5YTE4ODk4ODY4YTdiLmh0bWw=",
-    "hora": "16:00",
-    "torneo": "MLS",
-    "evento": "FC Cincinnati vs. Charlotte ",
-    "tipo": "normal"
-  },
-  "usa3": {
-    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThiOTVhNDhkOWM4Njg0N2E4NTk5YTE4OTk4ODY4YTdjLmh0bWw=",
-    "hora": "16:00",
-    "torneo": "MLS",
-    "evento": "Minnesota United vs. Colorado Rapids ",
-    "tipo": "normal"
-  },
-  "usa4": {
-    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThiOTVhNDhkOWM4Njg0N2E4NTk5YTE4YTk4ODY4YTdkLmh0bWw=",
-    "hora": "16:00",
-    "torneo": "MLS",
-    "evento": "Minnesota United vs. Colorado Rapids ",
-    "tipo": "normal"
-  },
-  "usa5": {
-    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThiOTVhNDhkOWM4Njg0N2E4NTk5YTE4Yjk4ODY4YTdlLmh0bWw=",
-    "hora": "16:00",
-    "torneo": "MLS",
-    "evento": "New York Red Bulls vs. Real Salt Lake ",
-    "tipo": "normal"
-  },
-  "usa6": {
-    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThiOTVhNDhkOWM4Njg0N2E4NTk5YTE4Yzk4ODY4YTdmLmh0bWw=",
-    "hora": "16:00",
-    "torneo": "MLS",
-    "evento": "New York Red Bulls vs. Real Salt Lake ",
-    "tipo": "normal"
-  },
-  "ven2": {
-    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThiOTVhNDhkOWM4Njg0N2E4NTk5YTE4ZDk4ODY4YTgwLmh0bWw=",
-    "hora": "16:00",
-    "torneo": "Venezuela",
-    "evento": "Estudiantes Merida vs. Caracas",
-    "tipo": "normal"
-  },
-  "col2": {
-    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThiOTVhNDhkOWQ4NTg0N2E4NTk5YTE4Zjk4ODY4YTgyLmh0bWw=",
-    "hora": "16:15",
-    "torneo": "Colombia Primera A",
-    "evento": "Fortaleza vs. Pereira",
-    "tipo": "normal"
-  },
-  "tv23": {
-    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThiOTVhNDhkOWY4Yzg0N2E4NTk1OWM4Nzk4ODY4YjdlLmh0bWw=",
+    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThiOTVhNThjOWM4Njg0N2E4NTk1OWM4YTk4OGQ4OC5odG1s",
     "hora": "17:00",
-    "torneo": "Argentina Liga Profesional",
-    "evento": "Argentinos Jrs vs. Union de Santa Fe",
-    "tipo": "normal"
-  },
-  "ar10": {
-    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThiOTVhNDhkOWY4Yzg0N2E4NTk1OWM4ODk4ODY4YjdkLmh0bWw=",
-    "hora": "17:00",
-    "torneo": "Argentina Primera Nacional",
-    "evento": "Arsenal Sarandi vs. Ferro",
-    "tipo": "normal"
-  },
-  "cr2": {
-    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThiOTVhNDhkOWY4Yzg0N2E4NTk1OWM4OTk4ODY4YjdmLmh0bWw=",
-    "hora": "17:00",
-    "torneo": "Costa Rica Primera Division",
-    "evento": "Alajuelense vs. Herediano",
-    "tipo": "normal"
-  },
-  "ecu3": {
-    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThiOTVhNDhkOWY4Yzg0N2E4NTk1OWM4YTk4ODY4YjgwLmh0bWw=",
-    "hora": "17:00",
-    "torneo": "Ecuador",
-    "evento": "El Nacional vs. Barcelona Guayaquil",
-    "tipo": "normal"
-  },
-  "gua2": {
-    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThiOTVhNDhkOWY4Yzg0N2E4NTk1OWM4Yjk4ODY4YjgxLmh0bWw=",
-    "hora": "17:00",
-    "torneo": "Guatemala",
-    "evento": "CSD Municipal vs. CSD Comunicaciones",
+    "torneo": "Copa Paulista",
+    "evento": "Comercial vs. Inter de Limeira",
     "tipo": "normal"
   },
   "usa3-1": {
-    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThiOTVhNDhkOWY4Yzg0N2E4NTk1OWM4Yzk4ODY4YjgyLmh0bWw=",
+    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThiOTVhNThjOWM4Njg0N2E4NTk1OWM4Yjk4OGQ4OS5odG1s",
     "hora": "17:00",
     "torneo": "MLS Next Pro",
-    "evento": "Huntsville vs. Carolina Core",
+    "evento": "New York Red Bulls 2 vs. Philadelphia Union II",
     "tipo": "normal"
   },
   "usa3-2": {
-    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThiOTVhNDhkOWY4Yzg0N2E4NTk1OWM4ZDk4ODY4YjgzLmh0bWw=",
-    "hora": "17:00",
+    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThiOTVhNThjOWU4NDg0N2E4NTk1OWM5MDk4OGQ4ZC5odG1s",
+    "hora": "17:30",
     "torneo": "MLS Next Pro",
-    "evento": "St. Louis City 2 vs. Colorado Rapids 2",
+    "evento": "Cincinnati 2 vs. Crown Legacy",
     "tipo": "normal"
   },
-  "tv24": {
-    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThiOTVhNDhkOWY4Yzg0N2E4NTk1OWM4ZTk4ODY4YzdhLmh0bWw=",
-    "hora": "17:00",
-    "torneo": "USL1",
-    "evento": "Westchester SC vs. Tormenta",
-    "tipo": "normal"
-  },
-  "hon2": {
-    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThiOTVhNDhkYTA4Yjg0N2E4NTk1OWQ4YTk4ODY4YzdkLmh0bWw=",
-    "hora": "17:15",
-    "torneo": "Honduras",
-    "evento": "CD Olimpia vs. Juticalpa",
-    "tipo": "normal"
-  },
-  "bol6": {
-    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThiOTVhNDhkYTE4YTg0N2E4NTk1OWQ4Yjk4ODY4YzdlLmh0bWw=",
+  "ven2": {
+    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThiOTVhNThjOWU4NDg0N2E4NTk1OWQ4Nzk4ODU4NDdhLmh0bWw=",
     "hora": "17:30",
-    "torneo": "Bolivia",
-    "evento": "Aurora vs. Guabira",
+    "torneo": "Venezuela",
+    "evento": "Portuguesa vs. Rayo Zuliano",
     "tipo": "normal"
   },
-  "bra5": {
-    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThiOTVhNDhkYTE4YTg0N2E4NTk1OWQ4Yzk4ODY4YzdmLmh0bWw=",
-    "hora": "17:30",
-    "torneo": "Brazil Serie A",
-    "evento": "Gremio vs. Sport Recife",
+  "bol2": {
+    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThiOTVhNThjOWY4Yzg0N2E4NTk1OWU4Nzk4ODU4NDgzLmh0bWw=",
+    "hora": "18:00",
+    "torneo": "Peru",
+    "evento": "Deportivo Garcilaso vs. Alianza Huanuco",
+    "tipo": "normal"
+  },
+  "ar2": {
+    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThiOTVhNThjYTA4ODg0N2E4NTk1OWU4Yzk4ODU4NTdmLmh0bWw=",
+    "hora": "18:10",
+    "torneo": "Argentina Primera Nacional",
+    "evento": "Racing Cordoba vs. Quilmes",
+    "tipo": "normal"
+  },
+  "bra2-2": {
+    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThiOTVhNThjYTE4YTg0N2E4NTk1OWU4ZDk4ODU4NTgxLmh0bWw=",
+    "hora": "18:30",
+    "torneo": "Brazil Serie B",
+    "evento": "Paysandu PA vs. Vila Nova FC",
+    "tipo": "normal"
+  },
+  "col1": {
+    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThiOTVhNThkOTk4ODg0N2E4NTk1OWU5MDk4ODU4NTgzLmh0bWw=",
+    "hora": "19:00",
+    "torneo": "Colombia Primera A",
+    "evento": "Chico vs. La Equidad",
     "tipo": "normal"
   },
   "mx1": {
-    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThiOTVhNDhlOTk4ODg0N2E4NTk1OWQ4ZTk4ODY4ZDdhLmh0bWw=",
-    "hora": "18:00",
+    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThiOTVhNThkOTk4ODg0N2E4NTk1OWY4Nzk4ODU4NjdhLmh0bWw=",
+    "hora": "19:00",
     "torneo": "Mexico",
-    "evento": "UNAM Pumas vs. Necaxa ",
+    "evento": "Club Leon vs. Monterrey ",
     "tipo": "normal"
   },
   "mx2": {
-    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThiOTVhNDhlOTk4ODg0N2E4NTk1OWQ4Zjk4ODY4ZDdiLmh0bWw=",
-    "hora": "18:00",
-    "torneo": "Mexico",
-    "evento": "UNAM Pumas vs. Necaxa ",
-    "tipo": "normal"
-  },
-  "usa7": {
-    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThiOTVhNDhlOTk4ODg0N2E4NTk1OWQ5MDk4ODY4YzgyLmh0bWw=",
-    "hora": "18:00",
-    "torneo": "MLS",
-    "evento": "Orlando City vs. Inter Miami ",
-    "tipo": "normal"
-  },
-  "usa8": {
-    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThiOTVhNDhlOTk4ODg0N2E4NTk1OWU4Nzk4ODY4YzgzLmh0bWw=",
-    "hora": "18:00",
-    "torneo": "MLS",
-    "evento": "Orlando City vs. Inter Miami ",
-    "tipo": "normal"
-  },
-  "usa3-3": {
-    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThiOTVhNDhlOTk4ODg0N2E4NTk1OWU4ODk4ODY4YzgxLmh0bWw=",
-    "hora": "18:00",
-    "torneo": "MLS Next Pro",
-    "evento": "New England Revolution II vs. Columbus Crew 2",
-    "tipo": "normal"
-  },
-  "col3": {
-    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThiOTVhNDhlOWI4Njg0N2E4NTk1OWU4YTk4ODY4ZDdkLmh0bWw=",
-    "hora": "18:30",
-    "torneo": "Colombia Primera A",
-    "evento": "Llaneros vs. Independiente Medellin",
-    "tipo": "normal"
-  },
-  "ven3": {
-    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThiOTVhNDhlOWI4Njg0N2E4NTk1OWU4Yjk4ODY4ZDdlLmh0bWw=",
-    "hora": "18:30",
-    "torneo": "Venezuela",
-    "evento": "Puerto Cabello vs. Universidad Central",
-    "tipo": "normal"
-  },
-  "gua3": {
-    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThiOTVhNDhlOWQ4NDg0N2E4NTk1OWU4ZTk4ODY4ZDdmLmh0bWw=",
+    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThiOTVhNThkOTk4ODg0N2E4NTk1OWY4ODk4ODU4NjdiLmh0bWw=",
     "hora": "19:00",
-    "torneo": "Guatemala",
-    "evento": "Marquense vs. Coban Imperial",
-    "tipo": "normal"
-  },
-  "usa9": {
-    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThiOTVhNDhlYTA4YTg0N2E4NTk1OWU4Zjk4ODY4ZDgyLmh0bWw=",
-    "hora": "20:00",
-    "torneo": "MLS",
-    "evento": "Los Angeles Galaxy vs. Seattle Sounders ",
-    "tipo": "normal"
-  },
-  "usa10": {
-    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThiOTVhNDhlYTA4YTg0N2E4NTk1OWU5MDk4ODY4ZDgzLmh0bWw=",
-    "hora": "20:00",
-    "torneo": "MLS",
-    "evento": "Los Angeles Galaxy vs. Seattle Sounders ",
+    "torneo": "Mexico",
+    "evento": "Club Leon vs. Monterrey ",
     "tipo": "normal"
   },
   "mx3": {
-    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThiOTVhNDhlYTA4ZDg0N2E4NTk1OWY4Nzk4ODc4NDdhLmh0bWw=",
-    "hora": "20:05",
+    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThiOTVhNThkYTA4YTg0N2E4NTk1YTA4Nzk4ODU4NzdhLmh0bWw=",
+    "hora": "21:00",
     "torneo": "Mexico",
-    "evento": "Santos Laguna vs. Chivas Guadalajara ",
+    "evento": "Juarez vs. Toluca ",
     "tipo": "normal"
   },
   "mx4": {
-    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThiOTVhNDhlYTA4ZDg0N2E4NTk1OWY4ODk4ODc4NDdiLmh0bWw=",
-    "hora": "20:05",
+    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThiOTVhNThkYTA4YTg0N2E4NTk1YTA4ODk4ODU4NzdiLmh0bWw=",
+    "hora": "21:00",
     "torneo": "Mexico",
-    "evento": "Santos Laguna vs. Chivas Guadalajara ",
+    "evento": "Juarez vs. Toluca ",
     "tipo": "normal"
   },
-  "usa3-4": {
-    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThiOTVhNDhmOWE4Njg0N2E4NTk1OWY4OTk4ODc4NDdjLmh0bWw=",
+  "mx5": {
+    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThiOTVhNThkYTA4YTg0N2E4NTk1YTA4OTk4ODU4NzdjLmh0bWw=",
     "hora": "21:00",
-    "torneo": "MLS Next Pro",
-    "evento": "Tacoma Defiance vs. Los Angeles FC II",
+    "torneo": "Mexico",
+    "evento": "Juarez vs. Toluca ",
+    "tipo": "normal"
+  },
+  "mx6": {
+    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThiOTVhNThkYTA4ZDg0N2E4NTk2OWM4YTk4ODU4NzgwLmh0bWw=",
+    "hora": "21:05",
+    "torneo": "Mexico",
+    "evento": "Atletico San Luis vs. Cruz Azul ",
+    "tipo": "normal"
+  },
+  "mx7": {
+    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThiOTVhNThkYTA4ZDg0N2E4NTk2OWM4Yjk4ODU4NzgxLmh0bWw=",
+    "hora": "21:05",
+    "torneo": "Mexico",
+    "evento": "Atletico San Luis vs. Cruz Azul ",
     "tipo": "normal"
   }
 }
