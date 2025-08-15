@@ -2800,14 +2800,19 @@
       "logo": "img/uefa/bundesliga/friburgo.png"
     },
     {
+      "id": "hamburger_sv",
+      "nombre": "Hamburger SV",
+      "logo": "img/uefa/bundesliga2/hamburgersv.png"
+    },
+    {
       "id": "hoffenheim",
       "nombre": "TSG Hoffenheim",
       "logo": "img/uefa/bundesliga/hoffenheim.png"
     },
     {
-      "id": "holstein_kiel",
-      "nombre": "Holstein Kiel",
-      "logo": "img/uefa/bundesliga/holsteinkiel.png"
+      "id": "koln",
+      "nombre": "1. FC Köln",
+      "logo": "img/uefa/bundesliga2/koln.png"
     },
     {
       "id": "mainz",
@@ -2833,11 +2838,6 @@
       "id": "union_berlin",
       "nombre": "Union Berlin",
       "logo": "img/uefa/bundesliga/unionberlin.png"
-    },
-    {
-      "id": "vfl_bochum",
-      "nombre": "VfL Bochum",
-      "logo": "img/uefa/bundesliga/vflbochum.png"
     },
     {
       "id": "werder_bremen",
@@ -2876,11 +2876,6 @@
       "logo": "img/uefa/bundesliga2/greutherfurth.png"
     },
     {
-      "id": "hamburger_sv",
-      "nombre": "Hamburger SV",
-      "logo": "img/uefa/bundesliga2/hamburgersv.png"
-    },
-    {
       "id": "hannover",
       "nombre": "Hannover 96",
       "logo": "img/uefa/bundesliga2/hannover.png"
@@ -2891,6 +2886,11 @@
       "logo": "img/uefa/bundesliga2/herthabsc.png"
     },
     {
+      "id": "holstein_kiel",
+      "nombre": "Holstein Kiel",
+      "logo": "img/uefa/bundesliga/holsteinkiel.png"
+    },
+    {
       "id": "kaiserslautern",
       "nombre": "1. FC Kaiserslautern",
       "logo": "img/uefa/bundesliga2/kaiserslautern.png"
@@ -2899,11 +2899,6 @@
       "id": "karlsruher",
       "nombre": "Karlsruher SC",
       "logo": "img/uefa/bundesliga2/karlsruher.png"
-    },
-    {
-      "id": "koln",
-      "nombre": "1. FC Köln",
-      "logo": "img/uefa/bundesliga2/koln.png"
     },
     {
       "id": "magdeburg",
@@ -2921,11 +2916,6 @@
       "logo": "img/uefa/bundesliga2/preubenmunster.png"
     },
     {
-      "id": "regensburg",
-      "nombre": "SSV Jahn Regensburg",
-      "logo": "img/uefa/bundesliga2/regensburg.png"
-    },
-    {
       "id": "schalke_04",
       "nombre": "FC Schalke 04",
       "logo": "img/uefa/bundesliga2/schalke04.png"
@@ -2941,9 +2931,9 @@
       "logo": "img/uefa/bundesliga2/svelversberg.png"
     },
     {
-      "id": "ulm",
-      "nombre": "SSV Ulm",
-      "logo": "img/uefa/bundesliga2/ulm.png"
+      "id": "vfl_bochum",
+      "nombre": "VfL Bochum",
+      "logo": "img/uefa/bundesliga/vflbochum.png"
     }
   ]
 },
@@ -2972,14 +2962,14 @@
       "logo": "img/uefa/ligue1/brestois.png"
     },
     {
-      "id": "clermont",
-      "nombre": "Clermont Foot",
-      "logo": "img/uefa/ligue1/clermont.png"
-    },
-    {
       "id": "lens",
       "nombre": "RC Lens",
       "logo": "img/uefa/ligue1/lens.png"
+    },
+    {
+      "id": "havre",
+      "nombre": "Le Havre",
+      "logo": "img/uefa/ligue1/havre.png"
     },
     {
       "id": "lille",
@@ -2987,9 +2977,19 @@
       "logo": "img/uefa/ligue1/lille.png"
     },
     {
-      "id": "montpellier",
-      "nombre": "Montpellier HSC",
-      "logo": "img/uefa/ligue1/montpellier.png"
+      "id": "lorient",
+      "nombre": "FC Lorient",
+      "logo": "img/uefa/ligue2/lorient.png"
+    },
+    {
+      "id": "metz",
+      "nombre": "FC Metz (Primary)",
+      "logo": "img/uefa/ligue2/metz.png"
+    },
+    {
+      "id": "metz2",
+      "nombre": "FC Metz (Alternate)",
+      "logo": "img/uefa/ligue2/metz2.png"
     },
     {
       "id": "nantes",
@@ -3017,24 +3017,19 @@
       "logo": "img/uefa/ligue1/olympiquelyonnais.png"
     },
     {
+      "id": "paris_fc",
+      "nombre": "Paris FC",
+      "logo": "img/uefa/ligue2/parisfc.png"
+    },
+    {
       "id": "paris_saint_germain",
       "nombre": "Paris Saint-Germain",
       "logo": "img/uefa/ligue1/parissaintgermain.png"
     },
     {
-      "id": "reims",
-      "nombre": "Stade de Reims",
-      "logo": "img/uefa/ligue1/reims.png"
-    },
-    {
       "id": "rennais",
       "nombre": "Stade Rennais",
       "logo": "img/uefa/ligue1/rennais.png"
-    },
-    {
-      "id": "saint_etienne",
-      "nombre": "AS Saint-Étienne",
-      "logo": "img/uefa/ligue1/saintetienne.png"
     },
     {
       "id": "strasbourg",
@@ -3063,14 +3058,14 @@
       "logo": "img/uefa/ligue2/amiens.png"
     },
     {
+      "id": "nancy",
+      "nombre": "AS Nancy",
+      "logo": "img/uefa/ligue2/nancy.png"
+    },
+    {
       "id": "bastia",
       "nombre": "SC Bastia",
       "logo": "img/uefa/ligue2/bastia.png"
-    },
-    {
-      "id": "caen",
-      "nombre": "SM Caen",
-      "logo": "img/uefa/ligue2/caen.png"
     },
     {
       "id": "clermont_foot",
@@ -3098,34 +3093,24 @@
       "logo": "img/uefa/ligue2/guingamp.png"
     },
     {
-      "id": "lorient",
-      "nombre": "FC Lorient",
-      "logo": "img/uefa/ligue2/lorient.png"
+      "id": "lemans",
+      "nombre": "Le Mans",
+      "logo": "img/uefa/ligue2/lemans.png"
     },
     {
-      "id": "martigues",
-      "nombre": "FC Martigues",
-      "logo": "img/uefa/ligue2/martigues.png"
-    },
-    {
-      "id": "metz",
-      "nombre": "FC Metz (Primary)",
-      "logo": "img/uefa/ligue2/metz.png"
-    },
-    {
-      "id": "metz2",
-      "nombre": "FC Metz (Alternate)",
-      "logo": "img/uefa/ligue2/metz2.png"
-    },
-    {
-      "id": "paris_fc",
-      "nombre": "Paris FC",
-      "logo": "img/uefa/ligue2/parisfc.png"
+      "id": "montpellier",
+      "nombre": "Montpellier HSC",
+      "logo": "img/uefa/ligue1/montpellier.png"
     },
     {
       "id": "pau_fc",
       "nombre": "Pau FC",
       "logo": "img/uefa/ligue2/paufc.png"
+    },
+    {
+      "id": "reims",
+      "nombre": "Stade de Reims",
+      "logo": "img/uefa/ligue1/reims.png"
     },
     {
       "id": "red_star_fc",
@@ -3136,6 +3121,11 @@
       "id": "rodez_af",
       "nombre": "Rodez AF",
       "logo": "img/uefa/ligue2/rodezaf.png"
+    },
+    {
+      "id": "saint_etienne",
+      "nombre": "AS Saint-Étienne",
+      "logo": "img/uefa/ligue1/saintetienne.png"
     },
     {
       "id": "stade_lavallois",
