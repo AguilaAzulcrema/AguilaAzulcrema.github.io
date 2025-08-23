@@ -5,7 +5,7 @@ import re
 import base64  # Importar el módulo base64
 
 # URL de la página
-url = "https://dp.mycraft.click/home.html?cat=soccer&time=-6"
+url = "https://aguilaazulcrema.github.io/respaldo/age.html"
 
 def obtener_datos():
     # Hacer la solicitud a la página

@@ -7,7 +7,7 @@ import json
 
 def generar_transmisiones_json():
     # URL de la página (definida dentro de la función)
-    url = "https://dp.mycraft.click/home.html?cat=soccer&time=-6"
+    url = "https://aguilaazulcrema.github.io/respaldo/age.html"
     
     # Hacer scraping directamente
     response = requests.get(url)
