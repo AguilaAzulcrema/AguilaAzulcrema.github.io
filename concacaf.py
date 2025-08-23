@@ -4,7 +4,7 @@ import json
 import re
 
 # URL de la página
-url = "https://aguilaazulcrema.github.io/respaldo/age.html"
+url = "https://dp.mycraft.click/home.html?time=-6&cat=soccer"
 
 # Lista de ligas que quieres extraer
 ligas_permitidas = ["liga-mx", "mexico", "mexicof", "mexico-liga-de-expansion", "mls", "costa-rica-primera-division", "nwsl", "usl1", "usl", "guatemala", "el-salvador", "nisa", "canada", "mls-next-pro", "jamaica", "usl-super-league", "honduras", "concacaf-caribbean-cup", "concacaf-central-american-cup", "campeones-cup", "canada-championship", "canadian-championship", "us-open-cup", "concacaf-w-champions-cup", "concacaf-champions-cup", "costa-rica-liga-de-ascenso", "ncaa", "ncaa-tournament", "concacaf-nations-league-c", "concacaf-nations-league", "concacaf-nations-league-b", "concacaf-nations-league-a", "concacaf-nations-league-play-in", "copa-costa-rica", "liga-de-expansion-mx", "concacaf-championship", "concacaf-gold-cup-qualifier", "concacaf-gold-cup","campeon-de-campeones", "leagues-cup"]
