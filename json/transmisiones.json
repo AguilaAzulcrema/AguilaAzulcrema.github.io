@@ -180,5 +180,341 @@
     "torneo": "Landspokal Cup",
     "evento": "Horsens vs. Viborg",
     "tipo": "normal"
+  },
+  "tv12": {
+    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThiOTg5Yzg3OWU4Njg0N2E4NTk3YTE4Yjk4OGI4OS5odG1s",
+    "hora": "11:00",
+    "torneo": "Euro Qualifier",
+    "evento": "Iceland U21 vs. Faroe Islands U21",
+    "tipo": "normal"
+  },
+  "tv13": {
+    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThiOTg5Yzg3OWU4Njg0N2E4NTk3YTE4Yzk4OGI4YS5odG1s",
+    "hora": "11:00",
+    "torneo": "Friendly",
+    "evento": "Russia vs. Jordan",
+    "tipo": "normal"
+  },
+  "isl1": {
+    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThiOTg5Yzg3YTE4Yzg0N2E4NTk3YTI4OTk4OGI4ZC5odG1s",
+    "hora": "12:00",
+    "torneo": "Iceland",
+    "evento": "Tindastoll W vs. Fram W",
+    "tipo": "normal"
+  },
+  "isl2": {
+    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThiOTg5Yzg3YTE4Yzg0N2E4NTk3YTI4YTk4OGM4NC5odG1s",
+    "hora": "12:00",
+    "torneo": "Iceland",
+    "evento": "Vikingur Reykjavik W vs. Valur W",
+    "tipo": "normal"
+  },
+  "wc15": {
+    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThiOTg5Yzg4OWE4OTg0N2E4NTk3YTM4ODk4OGM4YS5odG1s",
+    "hora": "12:45",
+    "torneo": "World Cup Qualifier",
+    "evento": "Bulgaria vs. Spain ",
+    "tipo": "normal"
+  },
+  "wc16": {
+    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThiOTg5Yzg4OWE4OTg0N2E4NTk3YTM4OTk4OGM4Yi5odG1s",
+    "hora": "12:45",
+    "torneo": "World Cup Qualifier",
+    "evento": "Bulgaria vs. Spain ",
+    "tipo": "normal"
+  },
+  "wc17": {
+    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThiOTg5Yzg4OWE4OTg0N2E4NTk3YTM4YTk4OGM4Yy5odG1s",
+    "hora": "12:45",
+    "torneo": "World Cup Qualifier",
+    "evento": "Bulgaria vs. Spain ",
+    "tipo": "normal"
+  },
+  "wc18": {
+    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThiOTg5Yzg4OWE4OTg0N2E4NTk3YTM4Yjk4OGM4ZC5odG1s",
+    "hora": "12:45",
+    "torneo": "World Cup Qualifier",
+    "evento": "Liechtenstein vs. Belgium ",
+    "tipo": "normal"
+  },
+  "wc19": {
+    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThiOTg5Yzg4OWE4OTg0N2E4NTk3YTM4Yzk4OGQ4NC5odG1s",
+    "hora": "12:45",
+    "torneo": "World Cup Qualifier",
+    "evento": "Liechtenstein vs. Belgium ",
+    "tipo": "normal"
+  },
+  "wc20": {
+    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThiOTg5Yzg4OWE4OTg0N2E4NTk3YTM4ZDk4OGQ4NS5odG1s",
+    "hora": "12:45",
+    "torneo": "World Cup Qualifier",
+    "evento": "Luxembourg vs. Northern Ireland ",
+    "tipo": "normal"
+  },
+  "wc21": {
+    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThiOTg5Yzg4OWE4OTg0N2E4NTk3YTM4ZTk4OGQ4Ni5odG1s",
+    "hora": "12:45",
+    "torneo": "World Cup Qualifier",
+    "evento": "Luxembourg vs. Northern Ireland ",
+    "tipo": "normal"
+  },
+  "wc22": {
+    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThiOTg5Yzg4OWE4OTg0N2E4NTk3YTM4Zjk4OGQ4Ny5odG1s",
+    "hora": "12:45",
+    "torneo": "World Cup Qualifier",
+    "evento": "Luxembourg vs. Northern Ireland ",
+    "tipo": "normal"
+  },
+  "wc23": {
+    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThiOTg5Yzg4OWE4OTg0N2E4NTk3YTM5MDk4OGQ4OC5odG1s",
+    "hora": "12:45",
+    "torneo": "World Cup Qualifier",
+    "evento": "Netherlands vs. Poland ",
+    "tipo": "normal"
+  },
+  "wc24": {
+    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThiOTg5Yzg4OWE4OTg0N2E4NTk3YTQ4Nzk4OGQ4OS5odG1s",
+    "hora": "12:45",
+    "torneo": "World Cup Qualifier",
+    "evento": "Netherlands vs. Poland ",
+    "tipo": "normal"
+  },
+  "wc25": {
+    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThiOTg5Yzg4OWE4OTg0N2E4NTk3YTQ4ODk4OGQ4YS5odG1s",
+    "hora": "12:45",
+    "torneo": "World Cup Qualifier",
+    "evento": "Netherlands vs. Poland ",
+    "tipo": "normal"
+  },
+  "wc26": {
+    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThiOTg5Yzg4OWE4OTg0N2E4NTk3YTQ4OTk4OGQ4Yi5odG1s",
+    "hora": "12:45",
+    "torneo": "World Cup Qualifier",
+    "evento": "Netherlands vs. Poland ",
+    "tipo": "normal"
+  },
+  "wc27": {
+    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThiOTg5Yzg4OWE4OTg0N2E4NTk3YTQ4YTk4OGQ4Yy5odG1s",
+    "hora": "12:45",
+    "torneo": "World Cup Qualifier",
+    "evento": "Slovakia vs. Germany ",
+    "tipo": "normal"
+  },
+  "wc28": {
+    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThiOTg5Yzg4OWE4OTg0N2E4NTk3YTQ4Yjk4OGQ4ZC5odG1s",
+    "hora": "12:45",
+    "torneo": "World Cup Qualifier",
+    "evento": "Slovakia vs. Germany ",
+    "tipo": "normal"
+  },
+  "wc29": {
+    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThiOTg5Yzg4OWE4OTg0N2E4NTk3YTQ4Yzk4ODU4NDdhLmh0bWw=",
+    "hora": "12:45",
+    "torneo": "World Cup Qualifier",
+    "evento": "Slovakia vs. Germany ",
+    "tipo": "normal"
+  },
+  "wc30": {
+    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThiOTg5Yzg4OWE4OTg0N2E4NTk3YTQ4ZDk4ODU4NDdiLmh0bWw=",
+    "hora": "12:45",
+    "torneo": "World Cup Qualifier",
+    "evento": "Slovakia vs. Germany ",
+    "tipo": "normal"
+  },
+  "wc31": {
+    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThiOTg5Yzg4OWI4ODg0N2E4NTk3YTQ4ZTk4ODU4NDdmLmh0bWw=",
+    "hora": "13:00",
+    "torneo": "World Cup Qualifier",
+    "evento": "Algeria vs. Botswana",
+    "tipo": "normal"
+  },
+  "wc32": {
+    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThiOTg5Yzg4OWI4ODg0N2E4NTk3YTQ4Zjk4ODU4NDgwLmh0bWw=",
+    "hora": "13:00",
+    "torneo": "World Cup Qualifier",
+    "evento": "Cameroon vs. Eswatini",
+    "tipo": "normal"
+  },
+  "wc33": {
+    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThiOTg5Yzg4OWI4ODg0N2E4NTk3YTQ5MDk4ODU4NDgxLmh0bWw=",
+    "hora": "13:00",
+    "torneo": "World Cup Qualifier",
+    "evento": "Mali vs. Comoros",
+    "tipo": "normal"
+  },
+  "wc34": {
+    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThiOTg5Yzg4OWI4ODg0N2E4NTk3YTU4Nzk4ODU4NDgyLmh0bWw=",
+    "hora": "13:00",
+    "torneo": "World Cup Qualifier",
+    "evento": "Tunisia vs. Liberia",
+    "tipo": "normal"
+  },
+  "isl3": {
+    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThiOTg5Yzg4OWM4Nzg0N2E4NTk3YTU4Yjk4ODU4NDgzLmh0bWw=",
+    "hora": "13:15",
+    "torneo": "Iceland",
+    "evento": "Breidablik W vs. Hafnarfjordur W",
+    "tipo": "normal"
+  },
+  "bra1": {
+    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThiOTg5Yzg4OWY4NDg0N2E4NTk4OWM4Nzk4ODU4NTdiLmh0bWw=",
+    "hora": "14:00",
+    "torneo": "Brazil Paulista",
+    "evento": "Bragantino W vs. Corinthians W",
+    "tipo": "normal"
+  },
+  "ecu1": {
+    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThiOTg5Yzg4YTA4Yzg0N2E4NTk4OWM4Yjk4ODU4NTdlLmh0bWw=",
+    "hora": "14:30",
+    "torneo": "Ecuador Serie B",
+    "evento": "Gualaceo vs. Guayaquil City",
+    "tipo": "normal"
+  },
+  "wc35": {
+    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThiOTg5Yzg5OWE4ODg0N2E4NTk4OWM4Yzk4ODU4NTdmLmh0bWw=",
+    "hora": "15:30",
+    "torneo": "World Cup Qualifier",
+    "evento": "Suriname vs. Panama ",
+    "tipo": "normal"
+  },
+  "wc36": {
+    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThiOTg5Yzg5OWE4ODg0N2E4NTk4OWM4ZDk4ODU4NTgwLmh0bWw=",
+    "hora": "15:30",
+    "torneo": "World Cup Qualifier",
+    "evento": "Suriname vs. Panama ",
+    "tipo": "normal"
+  },
+  "bra2": {
+    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThiOTg5Yzg5OWM4Njg0N2E4NTk4OWM4ZTk4ODU4NTgyLmh0bWw=",
+    "hora": "16:00",
+    "torneo": "Brazil Paulista",
+    "evento": "Palmeiras W vs. Realidade Jovem W",
+    "tipo": "normal"
+  },
+  "wc37": {
+    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThiOTg5Yzg5YTE4YTg0N2E4NTk1OWM4ODk4ODU4NjdiLmh0bWw=",
+    "hora": "17:30",
+    "torneo": "World Cup Qualifier",
+    "evento": "Argentina vs. Venezuela ",
+    "tipo": "normal"
+  },
+  "wc38": {
+    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThiOTg5Yzg5YTE4YTg0N2E4NTk1OWM4OTk4ODU4NjdjLmh0bWw=",
+    "hora": "17:30",
+    "torneo": "World Cup Qualifier",
+    "evento": "Argentina vs. Venezuela ",
+    "tipo": "normal"
+  },
+  "wc39": {
+    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThiOTg5Yzg5YTE4YTg0N2E4NTk1OWM4YTk4ODU4NjdkLmh0bWw=",
+    "hora": "17:30",
+    "torneo": "World Cup Qualifier",
+    "evento": "Argentina vs. Venezuela ",
+    "tipo": "normal"
+  },
+  "wc40": {
+    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThiOTg5Yzg5YTE4YTg0N2E4NTk1OWM4Yjk4ODU4NjdlLmh0bWw=",
+    "hora": "17:30",
+    "torneo": "World Cup Qualifier",
+    "evento": "Colombia vs. Bolivia ",
+    "tipo": "normal"
+  },
+  "wc41": {
+    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThiOTg5Yzg5YTE4YTg0N2E4NTk1OWM4Yjk4ODU4NjdmLmh0bWw=",
+    "hora": "17:30",
+    "torneo": "World Cup Qualifier",
+    "evento": "Colombia vs. Bolivia ",
+    "tipo": "normal"
+  },
+  "wc42": {
+    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThiOTg5Yzg5YTE4YTg0N2E4NTk1OWM4Yzk4ODU4NjgwLmh0bWw=",
+    "hora": "17:30",
+    "torneo": "World Cup Qualifier",
+    "evento": "Paraguay vs. Ecuador ",
+    "tipo": "normal"
+  },
+  "wc43": {
+    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThiOTg5Yzg5YTE4YTg0N2E4NTk1OWM4ZDk4ODU4NjgxLmh0bWw=",
+    "hora": "17:30",
+    "torneo": "World Cup Qualifier",
+    "evento": "Paraguay vs. Ecuador ",
+    "tipo": "normal"
+  },
+  "wc44": {
+    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThiOTg5Yzg5YTE4YTg0N2E4NTk1OWM4ZTk4ODU4NjgyLmh0bWw=",
+    "hora": "17:30",
+    "torneo": "World Cup Qualifier",
+    "evento": "Uruguay vs. Peru ",
+    "tipo": "normal"
+  },
+  "wc45": {
+    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThiOTg5Yzg5YTE4YTg0N2E4NTk1OWM4Zjk4ODU4NjgzLmh0bWw=",
+    "hora": "17:30",
+    "torneo": "World Cup Qualifier",
+    "evento": "Uruguay vs. Peru ",
+    "tipo": "normal"
+  },
+  "ecu2": {
+    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThiOTg5YzhhOTk4ODg0N2E4NTk1OWQ5MDk4ODU4ODdhLmh0bWw=",
+    "hora": "18:00",
+    "torneo": "Ecuador Serie B",
+    "evento": "Imbabura vs. Atletico Vinotinto",
+    "tipo": "normal"
+  },
+  "wc46": {
+    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThiOTg5YzhhOWI4Njg0N2E4NTk1OWU4YTk4ODU4ODdmLmh0bWw=",
+    "hora": "18:30",
+    "torneo": "World Cup Qualifier",
+    "evento": "Brazil vs. Chile ",
+    "tipo": "normal"
+  },
+  "wc47": {
+    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThiOTg5YzhhOWI4Njg0N2E4NTk1OWU4Yjk4ODU4ODgwLmh0bWw=",
+    "hora": "18:30",
+    "torneo": "World Cup Qualifier",
+    "evento": "Brazil vs. Chile ",
+    "tipo": "normal"
+  },
+  "wc48": {
+    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThiOTg5YzhhOWI4Njg0N2E4NTk1OWU4Yzk4ODU4ODgxLmh0bWw=",
+    "hora": "18:30",
+    "torneo": "World Cup Qualifier",
+    "evento": "Brazil vs. Chile ",
+    "tipo": "normal"
+  },
+  "wc49": {
+    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThiOTg5YzhhOWI4Njg0N2E4NTk1OWU4ZDk4ODU4ODgyLmh0bWw=",
+    "hora": "18:30",
+    "torneo": "World Cup Qualifier",
+    "evento": "Brazil vs. Chile ",
+    "tipo": "normal"
+  },
+  "fem1": {
+    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThiOTg5YzhhOWQ4NDg0N2E4NTk1OWU4Zjk4ODU4OTdiLmh0bWw=",
+    "hora": "19:00",
+    "torneo": "Mexico",
+    "evento": "Santos Laguna W vs. Necaxa W",
+    "tipo": "normal"
+  },
+  "tv14": {
+    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThiOTg5YzhhOWQ4NDg0N2E4NTk1OWU5MDk4ODU4OTdhLmh0bWw=",
+    "hora": "19:00",
+    "torneo": "Mexico Liga de Expansion",
+    "evento": "Venados vs. Atletico Morelia",
+    "tipo": "normal"
+  },
+  "wc50": {
+    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThiOTg5YzhhYTA4YTg0N2E4NTk1OWY4YTk4ODU4OTdkLmh0bWw=",
+    "hora": "20:00",
+    "torneo": "World Cup Qualifier",
+    "evento": "Guatemala vs. El Salvador ",
+    "tipo": "normal"
+  },
+  "wc51": {
+    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThiOTg5YzhhYTA4YTg0N2E4NTk1OWY4Yjk4ODU4OTdlLmh0bWw=",
+    "hora": "20:00",
+    "torneo": "World Cup Qualifier",
+    "evento": "Guatemala vs. El Salvador ",
+    "tipo": "normal"
   }
 }
