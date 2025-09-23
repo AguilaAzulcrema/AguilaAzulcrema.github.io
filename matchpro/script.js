@@ -185,7 +185,7 @@ function cargarLogos() {
     const logo2 = new Image();
     
     // Lista de fondos que usarán medidas especiales
-    const fondosConMedidasEspeciales = ['fondo5'];
+    const fondosConMedidasEspeciales = ['fondo5', 'fondorosa'];
     
     // Buscar las rutas de los logos teniendo en cuenta ligas compuestas
     if (ligaSeleccionada === 'todos') {
