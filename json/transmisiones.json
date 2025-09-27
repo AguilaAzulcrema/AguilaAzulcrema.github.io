@@ -1510,5 +1510,544 @@
     "torneo": "Paraguay",
     "evento": "Nacional Asuncion vs. Libertad Asuncion",
     "tipo": "normal"
+  },
+  "wc3": {
+    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThiOWE5Yzg4OWQ4NDg0N2E4NTk1YTE4Zjk4ODk4NzdlLmh0bWw=",
+    "hora": "17:00",
+    "torneo": "FIFA World Cup",
+    "evento": "Chile U20 vs. New Zealand U20",
+    "tipo": "normal"
+  },
+  "wc4": {
+    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThiOWE5Yzg4OWQ4NDg0N2E4NTk1YTE5MDk4ODk4NzdmLmh0bWw=",
+    "hora": "17:00",
+    "torneo": "FIFA World Cup",
+    "evento": "Paraguay U20 vs. Panama U20",
+    "tipo": "normal"
+  },
+  "gua2": {
+    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThiOWE5Yzg4OWQ4NDg0N2E4NTk1YTI4Nzk4ODk4NzgwLmh0bWw=",
+    "hora": "17:00",
+    "torneo": "Guatemala",
+    "evento": "CSD Municipal vs. Deportivo Achuapa",
+    "tipo": "normal"
+  },
+  "mx1": {
+    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThiOWE5Yzg4OWQ4NDg0N2E4NTk1YTI4ODk4ODk4NzgxLmh0bWw=",
+    "hora": "17:00",
+    "torneo": "Mexico",
+    "evento": "Atlas vs. Necaxa ",
+    "tipo": "normal"
+  },
+  "mx2": {
+    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThiOWE5Yzg4OWQ4NDg0N2E4NTk1YTI4OTk4ODk4NzgyLmh0bWw=",
+    "hora": "17:00",
+    "torneo": "Mexico",
+    "evento": "Atlas vs. Necaxa ",
+    "tipo": "normal"
+  },
+  "mx3": {
+    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThiOWE5Yzg4OWQ4NDg0N2E4NTk1YTI4YTk4ODk4NzgzLmh0bWw=",
+    "hora": "17:00",
+    "torneo": "Mexico",
+    "evento": "Pachuca vs. Atletico San Luis ",
+    "tipo": "normal"
+  },
+  "mx4": {
+    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThiOWE5Yzg4OWQ4NDg0N2E4NTk1YTI4Yjk4ODk4ODdhLmh0bWw=",
+    "hora": "17:00",
+    "torneo": "Mexico",
+    "evento": "Pachuca vs. Atletico San Luis ",
+    "tipo": "normal"
+  },
+  "mx5": {
+    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThiOWE5Yzg4OWQ4NDg0N2E4NTk1YTI4Yzk4ODk4ODdiLmh0bWw=",
+    "hora": "17:00",
+    "torneo": "Mexico",
+    "evento": "Puebla vs. Chivas Guadalajara ",
+    "tipo": "normal"
+  },
+  "mx6": {
+    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThiOWE5Yzg4OWQ4NDg0N2E4NTk1YTI4ZDk4ODk4ODdjLmh0bWw=",
+    "hora": "17:00",
+    "torneo": "Mexico",
+    "evento": "Puebla vs. Chivas Guadalajara ",
+    "tipo": "normal"
+  },
+  "bol4": {
+    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThiOWE5Yzg4OWQ4NDg0N2E4NTk1YTI4ZTk4ODk4ODdkLmh0bWw=",
+    "hora": "17:00",
+    "torneo": "Peru",
+    "evento": "Universitario de Deportes vs. Cusco",
+    "tipo": "normal"
+  },
+  "usa4": {
+    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThiOWE5Yzg4OWQ4NDg0N2E4NTk1YTI4Zjk4ODk4ODdlLmh0bWw=",
+    "hora": "17:00",
+    "torneo": "USL",
+    "evento": "Detroit vs. Louisville City FC",
+    "tipo": "normal"
+  },
+  "usa5": {
+    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThiOWE5Yzg4OWQ4NDg0N2E4NTk1YTI5MDk4ODk4ODdmLmh0bWw=",
+    "hora": "17:00",
+    "torneo": "USL",
+    "evento": "Indy Eleven vs. FC Tulsa",
+    "tipo": "normal"
+  },
+  "tv40": {
+    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThiOWE5Yzg4OWQ4NDg0N2E4NTk1YTM4Nzk4ODk4ODgwLmh0bWw=",
+    "hora": "17:00",
+    "torneo": "USL1",
+    "evento": "Chattanooga Red Wolves vs. Union Omaha",
+    "tipo": "normal"
+  },
+  "tv41": {
+    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThiOWE5Yzg4OWQ4NDg0N2E4NTk1YTM4ODk4ODk4ODgxLmh0bWw=",
+    "hora": "17:00",
+    "torneo": "USL1",
+    "evento": "FC Naples vs. AV Alta",
+    "tipo": "normal"
+  },
+  "tv42": {
+    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThiOWE5Yzg4OWQ4NDg0N2E4NTk1YTM4OTk4ODk4ODgyLmh0bWw=",
+    "hora": "17:00",
+    "torneo": "USL1",
+    "evento": "Tormenta vs. Richmond Kickers",
+    "tipo": "normal"
+  },
+  "hon2": {
+    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThiOWE5Yzg4OWQ4ZDg0N2E4NTk1YTM4Zjk4ODk4OTdlLmh0bWw=",
+    "hora": "17:15",
+    "torneo": "Honduras",
+    "evento": "Genesis vs. UPNFM",
+    "tipo": "normal"
+  },
+  "col3": {
+    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThiOWE5Yzg4OWU4Njg0N2E4NTk1YTM5MDk4ODk4OTdmLmh0bWw=",
+    "hora": "17:20",
+    "torneo": "Colombia Primera A",
+    "evento": "Deportes Tolima vs. Independiente Medellin",
+    "tipo": "normal"
+  },
+  "bra6": {
+    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThiOWE5Yzg4OWU4Yzg0N2E4NTk1YTQ4ZTk4ODk4YTdjLmh0bWw=",
+    "hora": "17:30",
+    "torneo": "Brazil Serie B",
+    "evento": "Athletico-PR vs. Operario-PR",
+    "tipo": "normal"
+  },
+  "usa6": {
+    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThiOWE5Yzg4OWU4Yzg0N2E4NTk1YTQ4Zjk4ODk4YTdlLmh0bWw=",
+    "hora": "17:30",
+    "torneo": "MLS",
+    "evento": "Charlotte vs. CF Montreal ",
+    "tipo": "normal"
+  },
+  "usa7": {
+    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThiOWE5Yzg4OWU4Yzg0N2E4NTk1YTQ5MDk4ODk4YTdmLmh0bWw=",
+    "hora": "17:30",
+    "torneo": "MLS",
+    "evento": "Charlotte vs. CF Montreal ",
+    "tipo": "normal"
+  },
+  "usa8": {
+    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThiOWE5Yzg4OWU4Yzg0N2E4NTk1YTU4Nzk4ODk4YTgwLmh0bWw=",
+    "hora": "17:30",
+    "torneo": "MLS",
+    "evento": "DC United vs. Philadelphia Union ",
+    "tipo": "normal"
+  },
+  "usa9": {
+    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThiOWE5Yzg4OWU4Yzg0N2E4NTk1YTU4ODk4ODk4YTgxLmh0bWw=",
+    "hora": "17:30",
+    "torneo": "MLS",
+    "evento": "DC United vs. Philadelphia Union ",
+    "tipo": "normal"
+  },
+  "usa10": {
+    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThiOWE5Yzg4OWU4Yzg0N2E4NTk1YTU4OTk4ODk4YTgyLmh0bWw=",
+    "hora": "17:30",
+    "torneo": "MLS",
+    "evento": "New England Revolution vs. Atlanta United ",
+    "tipo": "normal"
+  },
+  "usa11": {
+    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThiOWE5Yzg4OWU4Yzg0N2E4NTk1YTU4YTk4ODk4YTgzLmh0bWw=",
+    "hora": "17:30",
+    "torneo": "MLS",
+    "evento": "New England Revolution vs. Atlanta United ",
+    "tipo": "normal"
+  },
+  "usa12": {
+    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThiOWE5Yzg4OWU4Yzg0N2E4NTk1YTU4Yjk4ODk4YjdhLmh0bWw=",
+    "hora": "17:30",
+    "torneo": "MLS",
+    "evento": "New York Red Bulls vs. New York City ",
+    "tipo": "normal"
+  },
+  "usa13": {
+    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThiOWE5Yzg4OWU4Yzg0N2E4NTk1YTU4Yzk4ODk4YjdiLmh0bWw=",
+    "hora": "17:30",
+    "torneo": "MLS",
+    "evento": "New York Red Bulls vs. New York City ",
+    "tipo": "normal"
+  },
+  "usa14": {
+    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThiOWE5Yzg4OWU4Yzg0N2E4NTk1YTU4ZDk4ODk4YTdkLmh0bWw=",
+    "hora": "17:30",
+    "torneo": "MLS Next Pro",
+    "evento": "Carolina Core vs. Orlando City B",
+    "tipo": "normal"
+  },
+  "usa15": {
+    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThiOWE5Yzg4OWU4Yzg0N2E4NTk1YTU4ZTk4ODk4YjdjLmh0bWw=",
+    "hora": "17:30",
+    "torneo": "NWSL",
+    "evento": "Racing Louisville W vs. Angel City W",
+    "tipo": "normal"
+  },
+  "ar14": {
+    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThiOWE5Yzg4YTA4YTg0N2E4NTk2OWM4ZDk4ODk4YjgyLmh0bWw=",
+    "hora": "18:00",
+    "torneo": "Argentina Primera Nacional",
+    "evento": "Deportivo Moron vs. CA Mitre",
+    "tipo": "normal"
+  },
+  "bra7": {
+    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThiOWE5Yzg4YTA4YTg0N2E4NTk2OWM4ZTk4ODk4YjgzLmh0bWw=",
+    "hora": "18:00",
+    "torneo": "Brazil Serie A",
+    "evento": "Atletico-MG vs. Mirassol",
+    "tipo": "normal"
+  },
+  "ecu4": {
+    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThiOWE5Yzg4YTA4YTg0N2E4NTk2OWM4Zjk4ODk4YzdhLmh0bWw=",
+    "hora": "18:00",
+    "torneo": "Ecuador",
+    "evento": "Barcelona Guayaquil vs. SD Aucas",
+    "tipo": "normal"
+  },
+  "usa16": {
+    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThiOWE5Yzg4YTA4YTg0N2E4NTk2OWM5MDk4ODk4YzdiLmh0bWw=",
+    "hora": "18:00",
+    "torneo": "USL",
+    "evento": "Colorado Springs Switchbacks vs. Hartford Athletic",
+    "tipo": "normal"
+  },
+  "ar15": {
+    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThiOWE5Yzg4YTE4OTg0N2E4NTk2OWQ4Nzk4ODk4YzdjLmh0bWw=",
+    "hora": "18:15",
+    "torneo": "Argentina Liga Profesional",
+    "evento": "Talleres Cordoba vs. Sarmiento Junin",
+    "tipo": "normal"
+  },
+  "usa17": {
+    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThiOWE5Yzg4YTI4ODg0N2E4NTk2OWQ4OTk4ODk4YzdmLmh0bWw=",
+    "hora": "18:30",
+    "torneo": "MLS",
+    "evento": "Chicago Fire vs. Columbus Crew ",
+    "tipo": "normal"
+  },
+  "usa18": {
+    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThiOWE5Yzg4YTI4ODg0N2E4NTk2OWQ4YTk4ODk4YzgwLmh0bWw=",
+    "hora": "18:30",
+    "torneo": "MLS",
+    "evento": "Chicago Fire vs. Columbus Crew ",
+    "tipo": "normal"
+  },
+  "usa19": {
+    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThiOWE5Yzg4YTI4ODg0N2E4NTk2OWQ4Yjk4ODk4YzgxLmh0bWw=",
+    "hora": "18:30",
+    "torneo": "MLS",
+    "evento": "Nashville SC vs. Houston Dynamo ",
+    "tipo": "normal"
+  },
+  "usa20": {
+    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThiOWE5Yzg4YTI4ODg0N2E4NTk2OWQ4Yzk4ODk4YzgyLmh0bWw=",
+    "hora": "18:30",
+    "torneo": "MLS",
+    "evento": "Nashville SC vs. Houston Dynamo ",
+    "tipo": "normal"
+  },
+  "usa21": {
+    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThiOWE5Yzg4YTI4ODg0N2E4NTk2OWQ4ZDk4ODk4YzgzLmh0bWw=",
+    "hora": "18:30",
+    "torneo": "MLS",
+    "evento": "St. Louis City vs. Los Angeles FC ",
+    "tipo": "normal"
+  },
+  "usa22": {
+    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThiOWE5Yzg4YTI4ODg0N2E4NTk2OWQ4ZTk4ODk4ZDdhLmh0bWw=",
+    "hora": "18:30",
+    "torneo": "MLS",
+    "evento": "St. Louis City vs. Los Angeles FC ",
+    "tipo": "normal"
+  },
+  "usa23": {
+    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThiOWE5Yzg4YTI4ODg0N2E4NTk2OWQ4Zjk4ODk4YzdlLmh0bWw=",
+    "hora": "18:30",
+    "torneo": "MLS Next Pro",
+    "evento": "North Texas vs. Real Monarchs SLC",
+    "tipo": "normal"
+  },
+  "usa24": {
+    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThiOWE5Yzg4YTI4ODg0N2E4NTk2OWQ5MDk4ODk4ZDdiLmh0bWw=",
+    "hora": "18:30",
+    "torneo": "USL",
+    "evento": "San Antonio Scorpions vs. Birmingham",
+    "tipo": "normal"
+  },
+  "ven4": {
+    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThiOWE5Yzg4YTI4ODg0N2E4NTk2OWU4Nzk4ODk4ZDdjLmh0bWw=",
+    "hora": "18:30",
+    "torneo": "Venezuela",
+    "evento": "Metropolitanos vs. Portuguesa",
+    "tipo": "normal"
+  },
+  "slv1": {
+    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThiOWE5Yzg5OWE4Njg0N2E4NTk2OWU4Yzk4ODk4ZDgxLmh0bWw=",
+    "hora": "19:00",
+    "torneo": "El Salvador",
+    "evento": "AD Isidro Metapan vs. Municipal Limeno",
+    "tipo": "normal"
+  },
+  "mx7": {
+    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThiOWE5Yzg5OWE4Njg0N2E4NTk2OWU4ZDk4OGE4NDdhLmh0bWw=",
+    "hora": "19:00",
+    "torneo": "Mexico",
+    "evento": "Monterrey vs. Santos Laguna ",
+    "tipo": "normal"
+  },
+  "mx8": {
+    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThiOWE5Yzg5OWE4Njg0N2E4NTk2OWU4ZTk4OGE4NDdiLmh0bWw=",
+    "hora": "19:00",
+    "torneo": "Mexico",
+    "evento": "Monterrey vs. Santos Laguna ",
+    "tipo": "normal"
+  },
+  "mx9": {
+    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThiOWE5Yzg5OWE4Njg0N2E4NTk2OWU4Zjk4OGE4NDdjLmh0bWw=",
+    "hora": "19:00",
+    "torneo": "Mexico",
+    "evento": "Toluca vs. Mazatlan FC ",
+    "tipo": "normal"
+  },
+  "mx10": {
+    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThiOWE5Yzg5OWE4Njg0N2E4NTk2OWU5MDk4OGE4NDdkLmh0bWw=",
+    "hora": "19:00",
+    "torneo": "Mexico",
+    "evento": "Toluca vs. Mazatlan FC ",
+    "tipo": "normal"
+  },
+  "tv43": {
+    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThiOWE5Yzg5OWE4Njg0N2E4NTk2OWY4Nzk4ODk4ZDgyLmh0bWw=",
+    "hora": "19:00",
+    "torneo": "Mexico Liga de Expansion",
+    "evento": "Atletico Morelia vs. Atlante",
+    "tipo": "normal"
+  },
+  "tv44": {
+    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThiOWE5Yzg5OWE4Njg0N2E4NTk2OWY4ODk4ODk4ZDgzLmh0bWw=",
+    "hora": "19:00",
+    "torneo": "Mexico Liga de Expansion",
+    "evento": "Cancun vs. Tapatio",
+    "tipo": "normal"
+  },
+  "tv45": {
+    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThiOWE5Yzg5OWE4Njg0N2E4NTk2OWY4OTk4OGE4NDdlLmh0bWw=",
+    "hora": "19:00",
+    "torneo": "USL1",
+    "evento": "Spokane Velocity vs. Greenville Triumph SC",
+    "tipo": "normal"
+  },
+  "col4": {
+    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThiOWE5Yzg5OWM4NDg0N2E4NTk2OWY4Yzk4OGE4NDgxLmh0bWw=",
+    "hora": "19:30",
+    "torneo": "Colombia Primera A",
+    "evento": "Atletico Nacional vs. Millonarios",
+    "tipo": "normal"
+  },
+  "hon3": {
+    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThiOWE5Yzg5OWM4NDg0N2E4NTk2OWY4ZDk4OGE4NDgyLmh0bWw=",
+    "hora": "19:30",
+    "torneo": "Honduras",
+    "evento": "Olancho vs. Real Espana",
+    "tipo": "normal"
+  },
+  "usa25": {
+    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThiOWE5Yzg5OWM4NDg0N2E4NTk2OWY4ZTk4OGE4NDgzLmh0bWw=",
+    "hora": "19:30",
+    "torneo": "MLS",
+    "evento": "Colorado Rapids vs. Minnesota United ",
+    "tipo": "normal"
+  },
+  "usa26": {
+    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThiOWE5Yzg5OWM4NDg0N2E4NTk2OWY4Zjk4OGE4NTdhLmh0bWw=",
+    "hora": "19:30",
+    "torneo": "MLS",
+    "evento": "Colorado Rapids vs. Minnesota United ",
+    "tipo": "normal"
+  },
+  "usa27": {
+    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThiOWE5Yzg5OWM4NDg0N2E4NTk2OWY5MDk4OGE4NTdiLmh0bWw=",
+    "hora": "19:30",
+    "torneo": "MLS",
+    "evento": "Real Salt Lake vs. Austin FC ",
+    "tipo": "normal"
+  },
+  "usa28": {
+    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThiOWE5Yzg5OWM4NDg0N2E4NTk2YTA4Nzk4OGE4NTdjLmh0bWw=",
+    "hora": "19:30",
+    "torneo": "MLS",
+    "evento": "Real Salt Lake vs. Austin FC ",
+    "tipo": "normal"
+  },
+  "cr1": {
+    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThiOWE5Yzg5OWQ4Yzg0N2E4NTk2YTA4Yzk4OGE4NTgxLmh0bWw=",
+    "hora": "20:00",
+    "torneo": "Costa Rica Primera Division",
+    "evento": "Herediano vs. Guadalupe",
+    "tipo": "normal"
+  },
+  "usa29": {
+    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThiOWE5Yzg5OWQ4Yzg0N2E4NTk2YTA4ZDk4OGE4NTgyLmh0bWw=",
+    "hora": "20:00",
+    "torneo": "NWSL",
+    "evento": "Bay FC W vs. Utah Royals W",
+    "tipo": "normal"
+  },
+  "usa30": {
+    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThiOWE5Yzg5OWQ4Yzg0N2E4NTk2YTA4ZTk4OGE4NTgzLmh0bWw=",
+    "hora": "20:00",
+    "torneo": "USL",
+    "evento": "Monterey Bay vs. Sacramento Republic FC",
+    "tipo": "normal"
+  },
+  "usa31": {
+    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThiOWE5Yzg5OWQ4Yzg0N2E4NTk2YTA4Zjk4OGE4NjdhLmh0bWw=",
+    "hora": "20:00",
+    "torneo": "USL",
+    "evento": "Orange County SC vs. Charleston Battery",
+    "tipo": "normal"
+  },
+  "usa32": {
+    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThiOWE5Yzg5OWQ4Yzg0N2E4NTk2YTA5MDk4OGE4NjdiLmh0bWw=",
+    "hora": "20:00",
+    "torneo": "USL",
+    "evento": "Phoenix Rising FC vs. Oakland Roots",
+    "tipo": "normal"
+  },
+  "usa33": {
+    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThiOWE5Yzg5OWY4YTg0N2E4NTk2YTE4Yjk4OGE4NjdlLmh0bWw=",
+    "hora": "20:30",
+    "torneo": "MLS",
+    "evento": "Los Angeles Galaxy vs. Sporting Kansas City ",
+    "tipo": "normal"
+  },
+  "usa34": {
+    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThiOWE5Yzg5OWY4YTg0N2E4NTk2YTE4Yzk4OGE4NjdmLmh0bWw=",
+    "hora": "20:30",
+    "torneo": "MLS",
+    "evento": "Los Angeles Galaxy vs. Sporting Kansas City ",
+    "tipo": "normal"
+  },
+  "usa35": {
+    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThiOWE5Yzg5OWY4YTg0N2E4NTk2YTE4ZDk4OGE4NjgwLmh0bWw=",
+    "hora": "20:30",
+    "torneo": "MLS",
+    "evento": "Portland Timbers vs. FC Dallas ",
+    "tipo": "normal"
+  },
+  "usa36": {
+    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThiOWE5Yzg5OWY4YTg0N2E4NTk2YTE4ZTk4OGE4NjgxLmh0bWw=",
+    "hora": "20:30",
+    "torneo": "MLS",
+    "evento": "Portland Timbers vs. FC Dallas ",
+    "tipo": "normal"
+  },
+  "usa37": {
+    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThiOWE5Yzg5OWY4YTg0N2E4NTk2YTE4Zjk4OGE4NjgyLmh0bWw=",
+    "hora": "20:30",
+    "torneo": "MLS",
+    "evento": "San Diego FC vs. San Jose Earthquakes ",
+    "tipo": "normal"
+  },
+  "usa38": {
+    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThiOWE5Yzg5OWY4YTg0N2E4NTk2YTE5MDk4OGE4NjgzLmh0bWw=",
+    "hora": "20:30",
+    "torneo": "MLS",
+    "evento": "San Diego FC vs. San Jose Earthquakes ",
+    "tipo": "normal"
+  },
+  "usa39": {
+    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThiOWE5Yzg5OWY4YTg0N2E4NTk2YTI4Nzk4OGE4NzdhLmh0bWw=",
+    "hora": "20:30",
+    "torneo": "MLS",
+    "evento": "Seattle Sounders vs. Vancouver Whitecaps ",
+    "tipo": "normal"
+  },
+  "usa40": {
+    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThiOWE5Yzg5OWY4YTg0N2E4NTk2YTI4ODk4OGE4NzdiLmh0bWw=",
+    "hora": "20:30",
+    "torneo": "MLS",
+    "evento": "Seattle Sounders vs. Vancouver Whitecaps ",
+    "tipo": "normal"
+  },
+  "tv46": {
+    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThiOWE5Yzg5YTE4ODg0N2E4NTk2YTI4OTk4OGE4NzdjLmh0bWw=",
+    "hora": "21:00",
+    "torneo": "Mexico Liga de Expansion",
+    "evento": "Dorados de Sinaloa vs. Tampico Madero",
+    "tipo": "normal"
+  },
+  "mx11": {
+    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThiOWE5Yzg5YTE4Yjg0N2E4NTk2YTI4YTk4OGE4NzdkLmh0bWw=",
+    "hora": "21:05",
+    "torneo": "Mexico",
+    "evento": "Club America vs. UNAM Pumas ",
+    "tipo": "normal"
+  },
+  "mx12": {
+    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThiOWE5Yzg5YTE4Yjg0N2E4NTk2YTI4Yjk4OGE4NzdlLmh0bWw=",
+    "hora": "21:05",
+    "torneo": "Mexico",
+    "evento": "Club America vs. UNAM Pumas ",
+    "tipo": "normal"
+  },
+  "jpn1": {
+    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThiOWE5YzhhOWI4NDg0N2E4NTk2YTI4Zjk4OGE4NzgxLmh0bWw=",
+    "hora": "22:00",
+    "torneo": "J2-League",
+    "evento": "Blaublitz vs. V-Varen Nagasaki",
+    "tipo": "normal"
+  },
+  "jpn2": {
+    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThiOWE5YzhhOWI4NDg0N2E4NTk2YTI5MDk4OGE4NzgyLmh0bWw=",
+    "hora": "22:00",
+    "torneo": "J3-League",
+    "evento": "Fukushima Utd vs. Nagano",
+    "tipo": "normal"
+  },
+  "jpn3": {
+    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThiOWE5YzhhOWI4NDg0N2E4NTk2YTM4Nzk4OGE4NzgzLmh0bWw=",
+    "hora": "22:00",
+    "torneo": "J3-League",
+    "evento": "Yamaga vs. Tochigi SC",
+    "tipo": "normal"
+  },
+  "jpn4": {
+    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThiOWE5YzhhOWU4YTg0N2E4NTk2YTM4OTk4OGE4ODdiLmh0bWw=",
+    "hora": "23:00",
+    "torneo": "J2-League",
+    "evento": "Mito HollyHock vs. Fujieda MYFC",
+    "tipo": "normal"
+  },
+  "jpn5": {
+    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThiOWE5YzhhYTI4Njg0N2E4NTk2YTM4YTk4OGE4ODdjLmh0bWw=",
+    "hora": "00:00",
+    "torneo": "J2-League",
+    "evento": "Toyama vs. Tokushima Vortis",
+    "tipo": "normal"
   }
 }
