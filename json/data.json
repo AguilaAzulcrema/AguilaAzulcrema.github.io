@@ -1,3 +1,82 @@
 {
-    "events": []
+    "events": [
+        {
+            "time": "17:30",
+            "tournament": "mls",
+            "eventTitle": "Inter Miami vs. Chicago Fire",
+            "streams": [
+                {
+                    "url": "emb2.html?r=https://voodc.com/embed/85818b9a9e8e9e84847a85959d8798858c81.html",
+                    "optionText": "Opcion 1"
+                },
+                {
+                    "url": "emb2.html?r=https://voodc.com/embed/85818b9a9e8e9e84847a85959d8898858c82.html",
+                    "optionText": "Opcion 2"
+                }
+            ]
+        },
+        {
+            "time": "18:00",
+            "tournament": "concacaf-caribbean-cup",
+            "eventTitle": "Moca vs. Robinhood",
+            "streams": [
+                {
+                    "url": "emb2.html?r=https://voodc.com/embed/85818b9a9e8e9f8c847a85959d9098858d80.html",
+                    "optionText": "Opcion 1"
+                }
+            ]
+        },
+        {
+            "time": "18:00",
+            "tournament": "concacaf-caribbean-cup",
+            "eventTitle": "Mount Pleasant vs. Universidad O&M",
+            "streams": [
+                {
+                    "url": "emb2.html?r=https://voodc.com/embed/85818b9a9e8e9f8c847a85959e8798858d81.html",
+                    "optionText": "Opcion 1"
+                }
+            ]
+        },
+        {
+            "time": "19:00",
+            "tournament": "concacaf-w-champions-cup",
+            "eventTitle": "Club America (f) vs. Orlando Pride (f)",
+            "streams": [
+                {
+                    "url": "emb2.html?r=https://voodc.com/embed/85818b9a9e8f9988847a85959e8e9886847f.html",
+                    "optionText": "Opcion 1"
+                },
+                {
+                    "url": "emb2.html?r=https://voodc.com/embed/85818b9a9e8f9988847a85959e8f98868480.html",
+                    "optionText": "Opcion 2"
+                }
+            ]
+        },
+        {
+            "time": "19:00",
+            "tournament": "mexico",
+            "eventTitle": "Mazatlan FC (f) vs. Guadalajara Chivas (f)",
+            "streams": [
+                {
+                    "url": "emb2.html?r=https://voodc.com/embed/85818b9a9e8f9988847a85959e9098868481.html",
+                    "optionText": "Opcion 1"
+                }
+            ]
+        },
+        {
+            "time": "20:00",
+            "tournament": "concacaf-central-american-cup",
+            "eventTitle": "Motagua vs. Alajuelense",
+            "streams": [
+                {
+                    "url": "emb2.html?r=https://voodc.com/embed/85818b9a9e8f9d84847a85959f8d9886857c.html",
+                    "optionText": "Opcion 1"
+                },
+                {
+                    "url": "emb2.html?r=https://voodc.com/embed/85818b9a9e8f9d84847a85959f8e9886857d.html",
+                    "optionText": "Opcion 2"
+                }
+            ]
+        }
+    ]
 }
