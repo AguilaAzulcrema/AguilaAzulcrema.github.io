@@ -1,18 +1,36 @@
-import requests
+# concacaf.py
+import cloudscraper
 from bs4 import BeautifulSoup
 import json
 import re
+import os
 
 # URL de la página
 url = "https://dp.mycraft.click/home.html?time=-6&cat=soccer"
 
 # Lista de ligas que quieres extraer
-ligas_permitidas = ["liga-mx", "mexico", "mexicof", "mexico-liga-de-expansion", "mls", "costa-rica-primera-division", "nwsl", "usl1", "usl", "guatemala", "el-salvador", "nisa", "canada", "mls-next-pro", "jamaica", "usl-super-league", "honduras", "concacaf-caribbean-cup", "concacaf-central-american-cup", "campeones-cup", "canada-championship", "canadian-championship", "us-open-cup", "concacaf-w-champions-cup", "concacaf-champions-cup", "costa-rica-liga-de-ascenso", "ncaa", "ncaa-tournament", "concacaf-nations-league-c", "concacaf-nations-league", "concacaf-nations-league-b", "concacaf-nations-league-a", "concacaf-nations-league-play-in", "copa-costa-rica", "liga-de-expansion-mx", "concacaf-championship", "concacaf-gold-cup-qualifier", "concacaf-gold-cup","campeon-de-campeones", "leagues-cup"]
+ligas_permitidas = [
+    "liga-mx", "mexico", "mexicof", "mexico-liga-de-expansion", "mls", "costa-rica-primera-division",
+    "nwsl", "usl1", "usl", "guatemala", "el-salvador", "nisa", "canada", "mls-next-pro",
+    "jamaica", "usl-super-league", "honduras", "concacaf-caribbean-cup", "concacaf-central-american-cup",
+    "campeones-cup", "canada-championship", "canadian-championship", "us-open-cup",
+    "concacaf-w-champions-cup", "concacaf-champions-cup", "costa-rica-liga-de-ascenso",
+    "ncaa", "ncaa-tournament", "concacaf-nations-league-c", "concacaf-nations-league",
+    "concacaf-nations-league-b", "concacaf-nations-league-a", "concacaf-nations-league-play-in",
+    "copa-costa-rica", "liga-de-expansion-mx", "concacaf-championship",
+    "concacaf-gold-cup-qualifier", "concacaf-gold-cup", "campeon-de-campeones", "leagues-cup"
+]
+
+# Crear scraper que pueda pasar Cloudflare
+scraper = cloudscraper.create_scraper()
 
 def obtener_datos():
-    # Hacer la solicitud a la página
-    response = requests.get(url)
-    soup = BeautifulSoup(response.content, 'html.parser')
+    # Hacer la solicitud con cloudscraper
+    response = scraper.get(url, timeout=15)
+    response.encoding = "utf-8"
+    html = response.text
+
+    soup = BeautifulSoup(html, 'html.parser')
 
     # Diccionario para almacenar los eventos únicos por equipos
     eventos = {}
@@ -28,7 +46,7 @@ def obtener_datos():
             hora = columnas[0].text.split(' ')[0]
 
             # Extraer el nombre de la liga
-            liga = columnas[2].find('a').text
+            liga = columnas[2].find('a').text.strip()
 
             if liga == "Mexico" and "(f)" in columnas[3].text:
                 liga = "mexicof"  # Nombre para la liga femenil
@@ -37,27 +55,22 @@ def obtener_datos():
 
             # Verificar si la liga está en la lista de ligas permitidas
             if liga in ligas_permitidas:
-                # Extraer los equipos y eliminar el texto entre corchetes
+                # Extraer los equipos y limpiar texto
                 equipos = columnas[3].text.strip()
                 equipos = re.sub(r'\[.*?\]', '', equipos).strip()
-                # Reemplazar el guion que separa los equipos por " vs "
                 equipos = equipos.replace(' - ', ' vs. ')
-                # Reemplazar todas las 'W' que están al final de cada equipo
                 equipos = re.sub(r'\bW\b', '(f)', equipos)
-                
-                # Extraer el enlace de transmisión y agregar "ch3.html?r=" al inicio del enlace
+
+                # Extraer el enlace de transmisión
                 enlace = "emb2.html?r=" + columnas[4].find('input')['value']
 
-                # Si los equipos ya están en el diccionario, agregar el nuevo enlace al arreglo de streams
                 if equipos in eventos:
-                    # Contar cuántas transmisiones ya hay y agregar una nueva opción
                     contador = len(eventos[equipos]['streams']) + 1
                     eventos[equipos]['streams'].append({
                         "url": enlace,
                         "optionText": f"Opcion {contador}"
                     })
                 else:
-                    # Si es un nuevo evento, agregarlo al diccionario con el primer enlace
                     eventos[equipos] = {
                         "time": hora,
                         "tournament": liga,
@@ -70,16 +83,19 @@ def obtener_datos():
                         ]
                     }
 
-    # Formatear los datos para que se guarden en la estructura con la clave "events"
+    # Formatear los datos en estructura con clave "events"
     eventos_formateados = {
         "events": list(eventos.values())
     }
 
-    # Guardar los datos en un archivo JSON
-    with open('json/data.json', 'w') as archivo_json:
-        json.dump(eventos_formateados, archivo_json, indent=4)
+    # Crear carpeta json si no existe
+    os.makedirs("json", exist_ok=True)
 
-    print("Datos extraídos y guardados en data.json")
+    # Guardar los datos en un archivo JSON
+    with open('json/data.json', 'w', encoding='utf-8') as archivo_json:
+        json.dump(eventos_formateados, archivo_json, indent=4, ensure_ascii=False)
+
+    print(f"[OK] Datos extraídos y guardados en data.json ({len(eventos_formateados['events'])} eventos)")
 
 # Ejecutar el script manualmente
 if __name__ == "__main__":

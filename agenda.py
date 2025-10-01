@@ -1,81 +1,82 @@
-import requests
+# agenda.py
+import cloudscraper
 from bs4 import BeautifulSoup
 import json
 import re
-import base64  # Importar el módulo base64
+import base64
+import os
 
 # URL de la página
 url = "https://dp.mycraft.click/home.html?time=-6&cat=soccer"
 
-def obtener_datos():
-    # Hacer la solicitud a la página
-    response = requests.get(url)
-    soup = BeautifulSoup(response.content, 'html.parser')
+# Crear scraper que pueda pasar Cloudflare
+scraper = cloudscraper.create_scraper()
 
-    # Diccionario para almacenar los eventos únicos por equipos
+def obtener_datos():
+    # Hacer la solicitud con cloudscraper
+    response = scraper.get(url, timeout=15)
+    response.encoding = "utf-8"
+    html = response.text
+
+    soup = BeautifulSoup(html, 'html.parser')
+
+    # Diccionario para almacenar eventos
     eventos = {}
 
     # Encontrar todas las filas (tr) en la tabla
     filas = soup.find_all('tr')
 
-    # Iterar sobre cada fila y extraer los datos
     for fila in filas:
         columnas = fila.find_all('td')
         if len(columnas) >= 5:
-            # Extraer la hora (solo la parte de la hora, sin UTC -6)
-            hora = columnas[0].text.split(' ')[0]
-            
-            # Extraer el nombre de la liga
-            liga = columnas[2].find('a').text
-            liga = liga.replace('.', '')  # Eliminar los puntos del nombre de la liga
-            # Eliminar apóstrofos en el nombre de la liga
+            # Hora
+            hora = columnas[0].get_text(strip=True).split(' ')[0]
+
+            # Liga
+            liga = columnas[2].get_text(strip=True)
+            liga = liga.replace('.', '')
             liga = liga.replace("'", "")
             liga = liga.replace('3 Liga', 'Bundesliga 3')
             liga = liga.replace('2 Bundesliga', 'Bundesliga 2')
 
-
-            # Extraer los equipos y eliminar el texto entre corchetes
-            equipos = columnas[3].text.strip()
+            # Equipos
+            equipos = columnas[3].get_text(strip=True)
             equipos = re.sub(r'\[.*?\]', '', equipos).strip()
-
-            # Reemplazar el guion que separa los equipos por " vs "
             equipos = equipos.replace(' - ', ' vs. ')
 
-            # Extraer el enlace de transmisión
+            # Enlace
             enlace = columnas[4].find('input')['value']
-            
-            # Codificar el enlace a Base64
             enlace_base64 = base64.b64encode(enlace.encode('utf-8')).decode('utf-8')
 
-            # Si los equipos ya están en el diccionario, agregar el nuevo enlace al arreglo de streams
             if equipos in eventos:
                 eventos[equipos]['streams'].append({
-                    "url": enlace_base64,  # Usar el enlace codificado
-                    "optionText": "TV"  # Asignar siempre el valor "TV"
+                    "url": enlace_base64,
+                    "optionText": "TV"
                 })
             else:
-            # Si es un nuevo evento, agregarlo al diccionario con el primer enlace
                 eventos[equipos] = {
                     "time": hora,
                     "tournament": liga,
                     "eventTitle": equipos,
                     "streams": [
                         {
-                            "url": enlace_base64,  # Usar el enlace codificado
-                            "optionText": "TV"  # Asignar siempre el valor "TV"
-            }
-        ]
-    }
+                            "url": enlace_base64,
+                            "optionText": "TV"
+                        }
+                    ]
+                }
 
-    # Formatear los datos para que se guarden en el archivo JSON
+    # Convertir a lista
     eventos_formateados = list(eventos.values())
 
-    # Guardar los datos en un archivo JSON
-    with open('json/eventos.json', 'w') as archivo_json:
-        json.dump(eventos_formateados, archivo_json, indent=4)
+    # Crear carpeta json si no existe
+    os.makedirs("json", exist_ok=True)
 
-    print("Datos extraídos y guardados en eventos.json")
+    # Guardar en JSON
+    with open('json/eventos.json', 'w', encoding='utf-8') as archivo_json:
+        json.dump(eventos_formateados, archivo_json, indent=4, ensure_ascii=False)
 
-# Ejecutar el script manualmente
+    print(f"[OK] Datos extraídos y guardados en eventos.json ({len(eventos_formateados)} eventos)")
+
 if __name__ == "__main__":
     obtener_datos()

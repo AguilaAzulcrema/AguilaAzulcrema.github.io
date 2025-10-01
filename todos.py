@@ -1,4 +1,4 @@
-import requests
+import cloudscraper
 from bs4 import BeautifulSoup
 import re
 import base64
@@ -9,8 +9,9 @@ def generar_transmisiones_json():
     # URL de la página
     url = "https://dp.mycraft.click/home.html?time=-6"
     
-    # Hacer scraping directamente
-    response = requests.get(url)
+    # Crear scraper que pasa Cloudflare
+    scraper = cloudscraper.create_scraper()
+    response = scraper.get(url)
     soup = BeautifulSoup(response.content, 'html.parser')
     
     # Diccionario para almacenar eventos únicos

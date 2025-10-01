@@ -1,4 +1,4 @@
-import requests
+import cloudscraper
 from bs4 import BeautifulSoup
 import re
 import base64
@@ -9,8 +9,9 @@ def generar_transmisiones_json():
     # URL de la página (definida dentro de la función)
     url = "https://dp.mycraft.click/home.html?time=-6&cat=soccer"
     
-    # Hacer scraping directamente
-    response = requests.get(url)
+    # Crear scraper para evitar Cloudflare
+    scraper = cloudscraper.create_scraper()
+    response = scraper.get(url)
     soup = BeautifulSoup(response.content, 'html.parser')
     
     # Mapeo completo de ligas a prefijos
@@ -210,11 +211,9 @@ def generar_transmisiones_json():
             hora_completa = columnas[0].text.strip()
             hora = hora_completa.split(' ')[0]  # Extraer solo la parte de la hora
             
-            # Extraer nombre del torneo
             torneo_element = columnas[2].find('a')
             torneo = torneo_element.text.strip() if torneo_element else "Desconocido"
             
-            # Limpiar nombre del torneo
             torneo = torneo.replace('.', '').replace("'", "")
             torneo = torneo.replace('3 Liga', 'Bundesliga 3')
             torneo = torneo.replace('2 Bundesliga', 'Bundesliga 2')
@@ -226,7 +225,6 @@ def generar_transmisiones_json():
             prefijo = None
             if torneo in ligas_a_prefijos:
                 config = ligas_a_prefijos[torneo]
-                
                 if torneo == "Mexico":
                     if re.search(config["regex"], equipos, re.IGNORECASE):
                         prefijo = config["prefijo_femenil"]
@@ -235,18 +233,15 @@ def generar_transmisiones_json():
                 else:
                     prefijo = config
             else:
-                prefijo = "tv"  # Valor por defecto si no se encuentra el torneo
+                prefijo = "tv"
 
             # Procesar enlaces
             for enlace in columnas[4].find_all('input'):
-                url_base64 = base64.b64encode(
-                    enlace['value'].encode('utf-8')
-                ).decode('utf-8')
+                url_base64 = base64.b64encode(enlace['value'].encode('utf-8')).decode('utf-8')
                 
                 evento_completo = f"{hora}|{torneo}|{equipos}"
                 clave_unica = f"{url_base64}|{evento_completo}"
                 
-                # Si es un evento nuevo, lo añadimos
                 if clave_unica not in eventos_unicos:
                     eventos_unicos[clave_unica] = {
                         "url": url_base64,
@@ -254,7 +249,7 @@ def generar_transmisiones_json():
                         "torneo": torneo,
                         "evento": equipos,
                         "prefijo": prefijo,
-                        "tipo": "normal"  # <-- Aquí agregamos el tipo normal por defecto
+                        "tipo": "normal"
                     }
         except Exception as e:
             print(f"Error procesando fila: {e}")
@@ -264,8 +259,6 @@ def generar_transmisiones_json():
     transmisiones_json = {}
     for evento in eventos_unicos.values():
         prefijo = evento["prefijo"]
-        
-        # Encontrar el próximo número disponible para este prefijo
         i = 1
         while f"{prefijo}{i}" in transmisiones_json:
             i += 1
@@ -275,13 +268,11 @@ def generar_transmisiones_json():
             "hora": evento["hora"],
             "torneo": evento["torneo"],
             "evento": evento["evento"],
-            "tipo": evento["tipo"]  # <-- Incluimos el tipo en el JSON final
+            "tipo": evento["tipo"]
         }
 
-    # Crear carpeta si no existe
     os.makedirs('json', exist_ok=True)
     
-    # Guardar como JSON
     with open('json/transmisiones.json', 'w', encoding='utf-8') as f:
         json.dump(transmisiones_json, f, indent=2, ensure_ascii=False)
     
