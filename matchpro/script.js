@@ -508,30 +508,50 @@ function preseleccionarEquiposDesdeUrl() {
     const equipo1Param = obtenerParametroUrl('equipo1');
     const equipo2Param = obtenerParametroUrl('equipo2');
     const modoParam = obtenerParametroUrl('modo');
+    const fondoParam = obtenerParametroUrl('fondo'); // para modo imagen
+    const color1Param = obtenerParametroUrl('color'); // para modo colores
+    const color2Param = obtenerParametroUrl('color2'); // para modo colores
     
-    // Si no hay parámetros, no hacer nada
+    // Si no hay parámetros básicos, salir
     if (!ligaParam || !equipo1Param || !equipo2Param) {
         return;
     }
-    
-    // Esperar a que los datos JSON se carguen
+
+    // Esperar a que el JSON esté cargado
     setTimeout(() => {
+        // ========================
+        // 🔹 MODO IMAGEN
+        // ========================
         if (modoParam === 'imagen') {
-            // Modo imagen (código existente, sin cambios)
             const ligaSelector = document.getElementById('ligaSelector');
             if (ligaSelector) {
                 for (let i = 0; i < ligaSelector.options.length; i++) {
                     if (ligaSelector.options[i].value === ligaParam) {
                         ligaSelector.selectedIndex = i;
-                        const event = new Event('change');
-                        ligaSelector.dispatchEvent(event);
+                        ligaSelector.dispatchEvent(new Event('change'));
                         break;
                     }
                 }
             }
-            
+
             setTimeout(() => {
+                // Fondo desde URL
+                if (fondoParam) {
+                    const fondoSelector = document.getElementById('fondoSelector');
+                    if (fondoSelector) {
+                        for (let i = 0; i < fondoSelector.options.length; i++) {
+                            if (fondoSelector.options[i].value === fondoParam) {
+                                fondoSelector.selectedIndex = i;
+                                break;
+                            }
+                        }
+                    }
+                }
+
+                // Equipos locales y visitantes
                 const logo1Selector = document.getElementById('logo1Selector');
+                const logo2Selector = document.getElementById('logo2Selector');
+
                 if (logo1Selector) {
                     for (let i = 0; i < logo1Selector.options.length; i++) {
                         if (logo1Selector.options[i].value === equipo1Param) {
@@ -540,8 +560,7 @@ function preseleccionarEquiposDesdeUrl() {
                         }
                     }
                 }
-                
-                const logo2Selector = document.getElementById('logo2Selector');
+
                 if (logo2Selector) {
                     for (let i = 0; i < logo2Selector.options.length; i++) {
                         if (logo2Selector.options[i].value === equipo2Param) {
@@ -550,27 +569,30 @@ function preseleccionarEquiposDesdeUrl() {
                         }
                     }
                 }
-                
+
                 cargarImagenes();
-            }, 300);
-        } else {
-            // Modo colores (código corregido)
+            }, 400);
+        }
+
+        // ========================
+        // 🔹 MODO COLORES
+        // ========================
+        else if (modoParam === 'colores') {
             const ligaSelector = document.getElementById('liga');
             if (ligaSelector) {
                 for (let i = 0; i < ligaSelector.options.length; i++) {
                     if (ligaSelector.options[i].value === ligaParam) {
                         ligaSelector.selectedIndex = i;
-                        const event = new Event('change');
-                        ligaSelector.dispatchEvent(event);
+                        ligaSelector.dispatchEvent(new Event('change'));
                         break;
                     }
                 }
             }
-            
+
             setTimeout(() => {
                 const selectLocal = document.getElementById('equipoLocal');
                 const selectVisitante = document.getElementById('equipoVisitante');
-                
+
                 if (selectLocal) {
                     for (let i = 0; i < selectLocal.options.length; i++) {
                         if (selectLocal.options[i].dataset.id === equipo1Param) {
@@ -579,7 +601,7 @@ function preseleccionarEquiposDesdeUrl() {
                         }
                     }
                 }
-                
+
                 if (selectVisitante) {
                     for (let i = 0; i < selectVisitante.options.length; i++) {
                         if (selectVisitante.options[i].dataset.id === equipo2Param) {
@@ -588,12 +610,17 @@ function preseleccionarEquiposDesdeUrl() {
                         }
                     }
                 }
-                
+
+                // Colores desde la URL
+                if (color1Param) document.getElementById('colorLocal').value = '#' + color1Param;
+                if (color2Param) document.getElementById('colorVisitante').value = '#' + color2Param;
+
                 generarImagenColores();
-            }, 300);
+            }, 400);
         }
-    }, 500);
+    }, 600);
 }
+
 
 // -----------------------------
 // EVENT LISTENERS
