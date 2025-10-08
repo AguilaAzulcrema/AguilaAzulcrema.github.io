@@ -13,7 +13,7 @@ function obtenerParametroUrl(nombre) {
 
 function obtenerAnchoDesdeUrl() {
   const match = window.location.search.match(/w[-=](\d+)/);
-  return match ? parseInt(match[1]) : 1200; // ancho por defecto
+  return match ? parseInt(match[1]) : 1200;
 }
 
 function ajustarTamañoCanvas() {
@@ -49,12 +49,11 @@ function procesarURL() {
 // 🔹 MODO IMAGEN
 // ================================
 function generarModoImagen() {
-  const liga = obtenerParametroUrl("liga");
   const fondo = obtenerParametroUrl("fondo") || "azul";
   const eq1 = obtenerParametroUrl("equipo1");
   const eq2 = obtenerParametroUrl("equipo2");
 
-  if (!liga || !eq1 || !eq2) {
+  if (!eq1 || !eq2) {
     console.warn("Faltan parámetros en la URL");
     return;
   }
@@ -66,72 +65,82 @@ function generarModoImagen() {
   fondoImg.onload = () => {
     ctx.clearRect(0, 0, canvas.width, canvas.height);
     ctx.drawImage(fondoImg, 0, 0, canvas.width, canvas.height);
-    dibujarLogosImagen(liga, eq1, eq2, fondo);
+    dibujarLogosImagen(eq1, eq2, fondo);
   };
 }
 
-function dibujarLogosImagen(liga, eq1, eq2, fondoSeleccionado) {
-  const logo1 = buscarLogo(liga, eq1);
-  const logo2 = buscarLogo(liga, eq2);
+function dibujarLogosImagen(eq1, eq2, fondoSeleccionado) {
+  const logo1 = buscarLogoGlobal(eq1);
+  const logo2 = buscarLogoGlobal(eq2);
 
   if (!logo1 || !logo2) return;
 
-  // Fondos con medidas especiales (igual que tu script original)
   const fondosConMedidasEspeciales = ["fondo5", "fondorosa"];
-
   const esEspecial = fondosConMedidasEspeciales.includes(fondoSeleccionado);
+
   const refW = canvas.width / 1200;
   const refH = canvas.height / 627;
 
-  // LOGO 1 (izquierda)
   const logo1Pos = esEspecial
     ? { x: 100 * refW, y: 103 * refH, w: 392 * refW, h: 420 * refH }
     : { x: 162 * refW, y: 103 * refH, w: 392 * refW, h: 420 * refH };
 
-  // LOGO 2 (derecha)
   const logo2Pos = esEspecial
     ? { x: 708 * refW, y: 103 * refH, w: 392 * refW, h: 420 * refH }
     : { x: 646 * refW, y: 103 * refH, w: 392 * refW, h: 420 * refH };
 
-  // DIBUJAR logos
   cargarYdibujar(logo1, logo1Pos.x, logo1Pos.y, logo1Pos.w, logo1Pos.h);
   cargarYdibujar(logo2, logo2Pos.x, logo2Pos.y, logo2Pos.w, logo2Pos.h);
 }
 
 // ================================
-// 🔹 MODO COLORES
+// 🔹 MODO COLORES (con soporte de color en JSON)
 // ================================
 function generarModoColores() {
-  const liga = obtenerParametroUrl("liga");
+  const liga = obtenerParametroUrl("liga") || "";
   const eq1 = obtenerParametroUrl("equipo1");
   const eq2 = obtenerParametroUrl("equipo2");
-  const color1 = "#" + (obtenerParametroUrl("color") || "ffffff");
-  const color2 = "#" + (obtenerParametroUrl("color2") || "000000");
 
-  if (!liga || !eq1 || !eq2) {
+  if (!eq1 || !eq2) {
     console.warn("Faltan parámetros en la URL");
     return;
   }
 
-  const logoLiga = jsonData.logos_ligas[liga] || "";
-  const logo1 = buscarLogo(liga, eq1);
-  const logo2 = buscarLogo(liga, eq2);
+  // Buscar datos completos del equipo (logo + color)
+  const equipo1Data = buscarEquipoGlobal(eq1);
+  const equipo2Data = buscarEquipoGlobal(eq2);
+
+  // Prioridad: color URL > color JSON > blanco/negro
+  const color1 =
+    "#" +
+    (obtenerParametroUrl("color") ||
+      (equipo1Data?.color ? equipo1Data.color.replace("#", "") : "ffffff"));
+
+  const color2 =
+    "#" +
+    (obtenerParametroUrl("color2") ||
+      (equipo2Data?.color ? equipo2Data.color.replace("#", "") : "000000"));
+
+  const logoLiga =
+    liga && jsonData.logos_ligas[liga] ? jsonData.logos_ligas[liga] : "";
+  const logo1 = equipo1Data?.logo || "";
+  const logo2 = equipo2Data?.logo || "";
+
+  ctx.clearRect(0, 0, canvas.width, canvas.height);
 
   // Fondo por colores
-  ctx.clearRect(0, 0, canvas.width, canvas.height);
   ctx.fillStyle = color1;
   ctx.fillRect(0, 0, canvas.width / 2, canvas.height);
   ctx.fillStyle = color2;
   ctx.fillRect(canvas.width / 2, 0, canvas.width / 2, canvas.height);
 
-  // Logos (mantiene proporciones del original)
   const refW = canvas.width / 1200;
   const refH = canvas.height / 627;
 
   cargarYdibujar(logo1, 159 * refW, 176 * refH, 275 * refW, 275 * refH);
   cargarYdibujar(logo2, 766 * refW, 176 * refH, 275 * refW, 275 * refH);
 
-  // En modo colores SÍ se dibuja el logo de la liga
+  // En modo colores sí se muestra el logo de la liga (si existe)
   if (logoLiga)
     cargarYdibujar(logoLiga, 500 * refW, 214 * refH, 200 * refW, 200 * refH);
 }
@@ -139,11 +148,24 @@ function generarModoColores() {
 // ================================
 // 🔹 FUNCIONES AUXILIARES
 // ================================
-function buscarLogo(liga, equipoId) {
-  if (!jsonData || !jsonData.ligas[liga]) return "";
-  const equipos = jsonData.ligas[liga].equipos || [];
-  const eq = equipos.find((e) => e.id === equipoId);
-  return eq ? eq.logo : "";
+function buscarLogoGlobal(equipoId) {
+  if (!jsonData) return "";
+  for (const liga in jsonData.ligas) {
+    const equipos = jsonData.ligas[liga].equipos || [];
+    const eq = equipos.find((e) => e.id === equipoId);
+    if (eq) return eq.logo;
+  }
+  return "";
+}
+
+function buscarEquipoGlobal(equipoId) {
+  if (!jsonData) return null;
+  for (const liga in jsonData.ligas) {
+    const equipos = jsonData.ligas[liga].equipos || [];
+    const eq = equipos.find((e) => e.id === equipoId);
+    if (eq) return eq;
+  }
+  return null;
 }
 
 function cargarYdibujar(src, x, y, w, h) {

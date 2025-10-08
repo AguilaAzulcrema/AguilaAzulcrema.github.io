@@ -7,100 +7,118 @@
 
 
       "ligamx": {
-  "nombre": "Liga MX",
-  "equipos": [
-    {
-      "id": "america",
-      "nombre": "América",
-      "logo": "img/concacaf/ligamx/america.png"
-    },
-    {
-      "id": "atlas",
-      "nombre": "Atlas",
-      "logo": "img/concacaf/ligamx/atlas.png"
-    },
-    {
-      "id": "chivas",
-      "nombre": "Guadalajara",
-      "logo": "img/concacaf/ligamx/chivas.png"
-    },
-    {
-      "id": "cruz_azul",
-      "nombre": "Cruz Azul",
-      "logo": "img/concacaf/ligamx/cruzazul.png"
-    },
-    {
-      "id": "juarez",
-      "nombre": "FC Juárez",
-      "logo": "img/concacaf/ligamx/juarez.png"
-    },
-    {
-      "id": "leon",
-      "nombre": "León",
-      "logo": "img/concacaf/ligamx/leon.png"
-    },
-    {
-      "id": "mazatlan",
-      "nombre": "Mazatlán",
-      "logo": "img/concacaf/ligamx/mazatlan.png"
-    },
-    {
-      "id": "monterrey",
-      "nombre": "Monterrey",
-      "logo": "img/concacaf/ligamx/monterrey.png"
-    },
-    {
-      "id": "necaxa",
-      "nombre": "Necaxa",
-      "logo": "img/concacaf/ligamx/necaxa.png"
-    },
-    {
-      "id": "pachuca",
-      "nombre": "Pachuca",
-      "logo": "img/concacaf/ligamx/pachuca.png"
-    },
-    {
-      "id": "puebla",
-      "nombre": "Puebla",
-      "logo": "img/concacaf/ligamx/puebla.png"
-    },
-    {
-      "id": "pumas",
-      "nombre": "Pumas",
-      "logo": "img/concacaf/ligamx/pumas.png"
-    },
-    {
-      "id": "queretaro",
-      "nombre": "Querétaro",
-      "logo": "img/concacaf/ligamx/queretaro.png"
-    },
-    {
-      "id": "san_luis",
-      "nombre": "Atlético San Luis",
-      "logo": "img/concacaf/ligamx/sanluis.png"
-    },
-    {
-      "id": "santos",
-      "nombre": "Santos",
-      "logo": "img/concacaf/ligamx/santos.png"
-    },
-    {
-      "id": "tigres",
-      "nombre": "Tigres",
-      "logo": "img/concacaf/ligamx/tigres.png"
-    },
-    {
-      "id": "tijuana",
-      "nombre": "Tijuana",
-      "logo": "img/concacaf/ligamx/tijuana.png"
-    },
-    {
-      "id": "toluca",
-      "nombre": "Toluca",
-      "logo": "img/concacaf/ligamx/toluca.png"
-    }
-  ]
-},
+    "nombre": "Liga MX",
+    "equipos": [
+      {
+        "id": "america",
+        "nombre": "América",
+        "logo": "img/concacaf/ligamx/america.png",
+        "color": "#fff200"
+      },
+      {
+        "id": "atlas",
+        "nombre": "Atlas",
+        "logo": "img/concacaf/ligamx/atlas.png",
+        "color": "#000000"
+      },
+      {
+        "id": "chivas",
+        "nombre": "Guadalajara",
+        "logo": "img/concacaf/ligamx/chivas.png",
+        "color": "#de0b16"
+      },
+      {
+        "id": "cruz_azul",
+        "nombre": "Cruz Azul",
+        "logo": "img/concacaf/ligamx/cruzazul.png",
+        "color": "#0033a0"
+      },
+      {
+        "id": "juarez",
+        "nombre": "FC Juárez",
+        "logo": "img/concacaf/ligamx/juarez.png",
+        "color": "#21cb35"
+      },
+      {
+        "id": "leon",
+        "nombre": "León",
+        "logo": "img/concacaf/ligamx/leon.png",
+        "color": "#007a33"
+      },
+      {
+        "id": "mazatlan",
+        "nombre": "Mazatlán",
+        "logo": "img/concacaf/ligamx/mazatlan.png",
+        "color": "#6e2c91"
+      },
+      {
+        "id": "monterrey",
+        "nombre": "Monterrey",
+        "logo": "img/concacaf/ligamx/monterrey.png",
+        "color": "#13294b"
+      },
+      {
+        "id": "necaxa",
+        "nombre": "Necaxa",
+        "logo": "img/concacaf/ligamx/necaxa.png",
+        "color": "#df001b"
+      },
+      {
+        "id": "pachuca",
+        "nombre": "Pachuca",
+        "logo": "img/concacaf/ligamx/pachuca.png",
+        "color": "#00207a"
+      },
+      {
+        "id": "puebla",
+        "nombre": "Puebla",
+        "logo": "img/concacaf/ligamx/puebla.png",
+        "color": "#1c345b"
+      },
+      {
+        "id": "pumas",
+        "nombre": "Pumas",
+        "logo": "img/concacaf/ligamx/pumas.png",
+        "color": "#070c24"
+      },
+      {
+        "id": "queretaro",
+        "nombre": "Querétaro",
+        "logo": "img/concacaf/ligamx/queretaro.png",
+        "color": "#ffffff"
+      },
+      {
+        "id": "san_luis",
+        "nombre": "Atlético San Luis",
+        "logo": "img/concacaf/ligamx/sanluis.png",
+        "color": "#d22630"
+      },
+      {
+        "id": "santos",
+        "nombre": "Santos",
+        "logo": "img/concacaf/ligamx/santos.png",
+        "color": "#009a44"
+      },
+      {
+        "id": "tigres",
+        "nombre": "Tigres",
+        "logo": "img/concacaf/ligamx/tigres.png",
+        "color": "#fdb927"
+      },
+      {
+        "id": "tijuana",
+        "nombre": "Tijuana",
+        "logo": "img/concacaf/ligamx/tijuana.png",
+        "color": "#c8102e"
+      },
+      {
+        "id": "toluca",
+        "nombre": "Toluca",
+        "logo": "img/concacaf/ligamx/toluca.png",
+        "color": "#cf112b"
+      }
+    ]
+  },
 
 "ligamxf": {
   "nombre": "Liga MX Femenil",
@@ -168,7 +186,8 @@
     {
       "id": "rayadas",
       "nombre": "Rayadas",
-      "logo": "img/concacaf/ligamxfemenil/rayadas.png"
+      "logo": "img/concacaf/ligamxfemenil/rayadas.png",
+      "color": "#13294b"
     },
     {
       "id": "san_luis",
@@ -203,82 +222,98 @@
     {
       "id": "alebrijes",
       "nombre": "Alebrijes de Oaxaca",
-      "logo": "img/concacaf/expansionmx/alebrijes.png"
+      "logo": "img/concacaf/expansionmx/alebrijes.png",
+      "color": "#ff5904"
     },
     {
       "id": "atlante",
       "nombre": "Atlante",
-      "logo": "img/concacaf/expansionmx/atlante.png"
+      "logo": "img/concacaf/expansionmx/atlante.png",
+      "color": "#111331"
     },
     {
       "id": "cancun",
       "nombre": "Cancún FC",
-      "logo": "img/concacaf/expansionmx/cancun.png"
+      "logo": "img/concacaf/expansionmx/cancun.png",
+      "color": "#00b5e2"
     },
     {
       "id": "celaya",
       "nombre": "Celaya",
-      "logo": "img/concacaf/expansionmx/celaya.png"
+      "logo": "img/concacaf/expansionmx/celaya.png",
+      "color": "#001a5d"
     },
     {
       "id": "correcaminos",
       "nombre": "Correcaminos UAT",
-      "logo": "img/concacaf/expansionmx/correcaminos.png"
+      "logo": "img/concacaf/expansionmx/correcaminos.png",
+      "color": "#d63600"
     },
     {
       "id": "dorados",
       "nombre": "Dorados",
-      "logo": "img/concacaf/expansionmx/dorados.png"
+      "logo": "img/concacaf/expansionmx/dorados.png",
+      "color": "#aa7f1d"
     },
     {
       "id": "irapuato",
       "nombre": "Irapuato",
-      "logo": "img/concacaf/expansionmx/irapuato.png"
+      "logo": "img/concacaf/expansionmx/irapuato.png",
+      "color": "#ee1b2f"
     },
     {
       "id": "la_paz",
       "nombre": "Club La Paz",
-      "logo": "img/concacaf/expansionmx/lapaz.png"
+      "logo": "img/concacaf/expansionmx/lapaz.png",
+      "color": "#010101"
     },
     {
       "id": "mineros",
       "nombre": "Mineros de Zacatecas",
-      "logo": "img/concacaf/expansionmx/mineros.png"
+      "logo": "img/concacaf/expansionmx/mineros.png",
+      "color": "#8b0834"
     },
     {
       "id": "morelia",
       "nombre": "Atlético Morelia",
-      "logo": "img/concacaf/expansionmx/morelia.png"
+      "logo": "img/concacaf/expansionmx/morelia.png",
+      "color": "#ddd100"
     },
     {
       "id": "tampico",
       "nombre": "Tampico Madero",
-      "logo": "img/concacaf/expansionmx/tampico.png"
+      "logo": "img/concacaf/expansionmx/tampico.png",
+      "color": "#00acf8"
     },
     {
       "id": "tapatio",
       "nombre": "Tapatío",
-      "logo": "img/concacaf/expansionmx/tapatio.png"
+      "logo": "img/concacaf/expansionmx/tapatio.png",
+      "color": "#b1122e"
     },
     {
       "id": "tepatitlan",
       "nombre": "Tepatitlán FC",
-      "logo": "img/concacaf/expansionmx/tepatitlan.png"
+      "logo": "img/concacaf/expansionmx/tepatitlan.png",
+      "color": "#06113d"
     },
     {
       "id": "tlaxcala",
       "nombre": "Tlaxcala FC",
-      "logo": "img/concacaf/expansionmx/tlaxcala.png"
+      "logo": "img/concacaf/expansionmx/tlaxcala.png",
+      "color": "#7e171a"
     },
     {
       "id": "udg",
       "nombre": "UDG",
-      "logo": "img/concacaf/expansionmx/udg.png"
+      "logo": "img/concacaf/expansionmx/udg.png",
+      "color": "#241f20"
     },
     {
       "id": "venados",
       "nombre": "Venados FC",
-      "logo": "img/concacaf/expansionmx/venados.png"
+      "logo": "img/concacaf/expansionmx/venados.png",
+      "color": "#f8bd00"
     }
   ]
 },
