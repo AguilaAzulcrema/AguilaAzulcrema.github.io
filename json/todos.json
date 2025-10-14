@@ -1,1 +1,562 @@
-{}
+{
+  "tv1": {
+    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThjOTFhMDhjOWQ4NDg0N2E4NTk3OWM4Nzk4ODUuaHRtbA==",
+    "hora": "09:00",
+    "categoria": "SOCCER",
+    "torneo": "Euro Qualifier",
+    "evento": "Azerbaijan U21 vs. Scotland U21",
+    "tipo": "normal"
+  },
+  "tv2": {
+    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThjOTFhMDhjOWQ4NDg0N2E4NTk3OWM4ODk4ODYuaHRtbA==",
+    "hora": "09:00",
+    "categoria": "SOCCER",
+    "torneo": "Euro Qualifier",
+    "evento": "Iceland U21 vs. Luxembourg U21",
+    "tipo": "normal"
+  },
+  "tv3": {
+    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThjOTFhMDhjOWU4Yzg0N2E4NTk3OWM4OTk4ODcuaHRtbA==",
+    "hora": "09:30",
+    "categoria": "HOCKEY",
+    "torneo": "CHL",
+    "evento": "Ilves vs. FC Zurich",
+    "tipo": "normal"
+  },
+  "tv4": {
+    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThjOTFhMDhjOWU4Yzg0N2E4NTk3OWM4YTk4ODguaHRtbA==",
+    "hora": "09:30",
+    "categoria": "HOCKEY",
+    "torneo": "Mestis",
+    "evento": "K-Vantaa vs. Kettera",
+    "tipo": "normal"
+  },
+  "tv5": {
+    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThjOTFhMDhjOWU4Yzg0N2E4NTk3OWM4Yjk4ODkuaHRtbA==",
+    "hora": "09:30",
+    "categoria": "VOLLEYBALL",
+    "torneo": "Poland",
+    "evento": "Bielsko-Biala W vs. Rzeszow W",
+    "tipo": "normal"
+  },
+  "tv6": {
+    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThjOTFhMDhjYTA4YTg0N2E4NTk3OWM4Yzk4ODU4NC5odG1s",
+    "hora": "10:00",
+    "categoria": "SOCCER",
+    "torneo": "Euro Qualifier",
+    "evento": "Austria U21 vs. Wales U21",
+    "tipo": "normal"
+  },
+  "tv7": {
+    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThjOTFhMDhjYTA4YTg0N2E4NTk3OWM4ZDk4ODU4NS5odG1s",
+    "hora": "10:00",
+    "categoria": "SOCCER",
+    "torneo": "Euro Qualifier",
+    "evento": "Bulgaria U21 vs. Czech Republic U21",
+    "tipo": "normal"
+  },
+  "tv8": {
+    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThjOTFhMDhjYTA4YTg0N2E4NTk3OWM4ZTk4ODU4Ni5odG1s",
+    "hora": "10:00",
+    "categoria": "SOCCER",
+    "torneo": "Euro Qualifier",
+    "evento": "Croatia U21 vs. Ukraine U21",
+    "tipo": "normal"
+  },
+  "tv9": {
+    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThjOTFhMDhjYTA4YTg0N2E4NTk3OWM4Zjk4ODU4Ny5odG1s",
+    "hora": "10:00",
+    "categoria": "SOCCER",
+    "torneo": "Euro Qualifier",
+    "evento": "Hungary U21 vs. Turkey U21",
+    "tipo": "normal"
+  },
+  "tv10": {
+    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThjOTFhMDhjYTA4YTg0N2E4NTk3OWM5MDk4ODU4OC5odG1s",
+    "hora": "10:00",
+    "categoria": "SOCCER",
+    "torneo": "Euro Qualifier",
+    "evento": "Kosovo U21 vs. San Marino U21",
+    "tipo": "normal"
+  },
+  "tv11": {
+    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThjOTFhMDhjYTA4YTg0N2E4NTk3OWQ4Nzk4ODU4OS5odG1s",
+    "hora": "10:00",
+    "categoria": "SOCCER",
+    "torneo": "Euro Qualifier",
+    "evento": "Montenegro U21 vs. North Macedonia U21",
+    "tipo": "normal"
+  },
+  "tv12": {
+    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThjOTFhMDhjYTA4YTg0N2E4NTk3OWQ4ODk4ODU4YS5odG1s",
+    "hora": "10:00",
+    "categoria": "SOCCER",
+    "torneo": "Euro Qualifier",
+    "evento": "Romania U21 vs. Cyprus U21",
+    "tipo": "normal"
+  },
+  "tv13": {
+    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThjOTFhMDhjYTA4YTg0N2E4NTk3OWQ4OTk4ODU4Yi5odG1s",
+    "hora": "10:00",
+    "categoria": "SOCCER",
+    "torneo": "Euro Qualifier",
+    "evento": "Slovakia U21 vs. Moldova U21",
+    "tipo": "normal"
+  },
+  "tv14": {
+    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThjOTFhMDhjYTA4YTg0N2E4NTk3OWQ4YTk4ODU4Yy5odG1s",
+    "hora": "10:00",
+    "categoria": "SOCCER",
+    "torneo": "Euro Qualifier",
+    "evento": "Slovenia U21 vs. Bosnia & Herzegovina U21",
+    "tipo": "normal"
+  },
+  "tv15": {
+    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThjOTFhMDhjYTA4YTg0N2E4NTk3OWQ4Yjk4ODU4ZC5odG1s",
+    "hora": "10:00",
+    "categoria": "SOCCER",
+    "torneo": "Euro Qualifier",
+    "evento": "Sweden U21 vs. Poland U21",
+    "tipo": "normal"
+  },
+  "tv16": {
+    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThjOTFhMDhjYTA4YTg0N2E4NTk3OWQ4Yzk4ODY4NC5odG1s",
+    "hora": "10:00",
+    "categoria": "SOCCER",
+    "torneo": "Friendly",
+    "evento": "Norway vs. New Zealand ",
+    "tipo": "normal"
+  },
+  "tv17": {
+    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThjOTFhMDhjYTA4YTg0N2E4NTk3OWQ4ZDk4ODY4NS5odG1s",
+    "hora": "10:00",
+    "categoria": "SOCCER",
+    "torneo": "Friendly",
+    "evento": "Norway vs. New Zealand ",
+    "tipo": "normal"
+  },
+  "tv18": {
+    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThjOTFhMDhjYTA4YTg0N2E4NTk3OWQ4ZTk4ODY4Ni5odG1s",
+    "hora": "10:00",
+    "categoria": "SOCCER",
+    "torneo": "Friendly",
+    "evento": "Norway vs. New Zealand ",
+    "tipo": "normal"
+  },
+  "tv19": {
+    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThjOTFhMDhjYTA4YTg0N2E4NTk3OWQ4Zjk4ODY4Ny5odG1s",
+    "hora": "10:00",
+    "categoria": "SOCCER",
+    "torneo": "World Cup Qualifier",
+    "evento": "Algeria vs. Uganda",
+    "tipo": "normal"
+  },
+  "tv20": {
+    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThjOTFhMDhjYTA4YTg0N2E4NTk3OWQ5MDk4ODY4OC5odG1s",
+    "hora": "10:00",
+    "categoria": "SOCCER",
+    "torneo": "World Cup Qualifier",
+    "evento": "Estonia vs. Moldova ",
+    "tipo": "normal"
+  },
+  "tv21": {
+    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThjOTFhMDhjYTA4YTg0N2E4NTk3OWU4Nzk4ODY4OS5odG1s",
+    "hora": "10:00",
+    "categoria": "SOCCER",
+    "torneo": "World Cup Qualifier",
+    "evento": "Estonia vs. Moldova ",
+    "tipo": "normal"
+  },
+  "tv22": {
+    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThjOTFhMDhjYTA4YTg0N2E4NTk3OWU4ODk4ODY4YS5odG1s",
+    "hora": "10:00",
+    "categoria": "SOCCER",
+    "torneo": "World Cup Qualifier",
+    "evento": "Guinea vs. Botswana",
+    "tipo": "normal"
+  },
+  "tv23": {
+    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThjOTFhMDhjYTA4YTg0N2E4NTk3OWU4OTk4ODY4Yi5odG1s",
+    "hora": "10:00",
+    "categoria": "SOCCER",
+    "torneo": "World Cup Qualifier",
+    "evento": "Nigeria vs. Benin",
+    "tipo": "normal"
+  },
+  "tv24": {
+    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThjOTFhMDhjYTA4YTg0N2E4NTk3OWU4YTk4ODY4Yy5odG1s",
+    "hora": "10:00",
+    "categoria": "SOCCER",
+    "torneo": "World Cup Qualifier",
+    "evento": "Somalia vs. Mozambique",
+    "tipo": "normal"
+  },
+  "tv25": {
+    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThjOTFhMDhjYTA4YTg0N2E4NTk3OWU4Yjk4ODY4ZC5odG1s",
+    "hora": "10:00",
+    "categoria": "SOCCER",
+    "torneo": "World Cup Qualifier",
+    "evento": "South Africa vs. Rwanda",
+    "tipo": "normal"
+  },
+  "tv26": {
+    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThjOTFhMDhjYTA4YTg0N2E4NTk3OWU4Yzk4OGQuaHRtbA==",
+    "hora": "10:00",
+    "categoria": "HOCKEY",
+    "torneo": "Maxa liga",
+    "evento": "Poruba vs. Sokolov",
+    "tipo": "normal"
+  },
+  "tv27": {
+    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThjOTFhMDhjYTA4YTg0N2E4NTk3OWU4ZDk4OGEuaHRtbA==",
+    "hora": "10:00",
+    "categoria": "BASKETBALL",
+    "torneo": "Champions League",
+    "evento": "VEF Riga vs. Levice",
+    "tipo": "normal"
+  },
+  "tv28": {
+    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThjOTFhMDhjYTA4YTg0N2E4NTk3OWU4ZTk4OGIuaHRtbA==",
+    "hora": "10:00",
+    "categoria": "BASKETBALL",
+    "torneo": "Eurocup",
+    "evento": "Turk Telekom vs. Buducnost",
+    "tipo": "normal"
+  },
+  "tv29": {
+    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThjOTFhMDhjYTA4YTg0N2E4NTk3OWU4Zjk4OGMuaHRtbA==",
+    "hora": "10:00",
+    "categoria": "BASKETBALL",
+    "torneo": "Europe Cup",
+    "evento": "Rostock vs. Tartu Ulikool",
+    "tipo": "normal"
+  },
+  "tv30": {
+    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThjOTFhMDhjYTE4Njg0N2E4NTk3OWU5MDk4ODc4NC5odG1s",
+    "hora": "10:10",
+    "categoria": "HOCKEY",
+    "torneo": "KHL",
+    "evento": "Dinamo Minsk vs. Nizhny Novgorod",
+    "tipo": "normal"
+  },
+  "tv31": {
+    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThjOTFhMDhjYTE4OTg0N2E4NTk3OWY4Nzk4ODc4NS5odG1s",
+    "hora": "10:15",
+    "categoria": "SOCCER",
+    "torneo": "Euro Qualifier",
+    "evento": "Italy U21 vs. Armenia U21",
+    "tipo": "normal"
+  },
+  "tv32": {
+    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThjOTFhMDhjYTI4ODg0N2E4NTk3OWY4ODk4ODg4NC5odG1s",
+    "hora": "10:30",
+    "categoria": "SOCCER",
+    "torneo": "Euro Qualifier",
+    "evento": "Northern Ireland U21 vs. Germany U21",
+    "tipo": "normal"
+  },
+  "tv33": {
+    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThjOTFhMDhjYTI4ODg0N2E4NTk3OWY4OTk4ODg4NS5odG1s",
+    "hora": "10:30",
+    "categoria": "SOCCER",
+    "torneo": "Euro Qualifier",
+    "evento": "Spain U21 vs. Finland U21",
+    "tipo": "normal"
+  },
+  "tv34": {
+    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThjOTFhMDhjYTI4ODg0N2E4NTk2YTE4Yzk4ODk4NC5odG1s",
+    "hora": "10:30",
+    "categoria": "SOCCER",
+    "torneo": "Friendly",
+    "evento": "Netherlands U21 vs. Lithuania U21",
+    "tipo": "normal"
+  },
+  "tv35": {
+    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThjOTFhMDhjYTI4ODg0N2E4NTk3OWY4YTk4ODc4Yi5odG1s",
+    "hora": "10:30",
+    "categoria": "HOCKEY",
+    "torneo": "CHL",
+    "evento": "Sparta Prague vs. Grenoble ",
+    "tipo": "normal"
+  },
+  "tv36": {
+    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThjOTFhMDhjYTI4ODg0N2E4NTk3OWY4Yjk4ODc4Yy5odG1s",
+    "hora": "10:30",
+    "categoria": "HOCKEY",
+    "torneo": "CHL",
+    "evento": "Sparta Prague vs. Grenoble ",
+    "tipo": "normal"
+  },
+  "tv37": {
+    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThjOTFhMDhjYTI4ODg0N2E4NTk3OWY4Yzk4ODc4ZC5odG1s",
+    "hora": "10:30",
+    "categoria": "HOCKEY",
+    "torneo": "KHL",
+    "evento": "Shanghai vs. Dynamo Moscow",
+    "tipo": "normal"
+  },
+  "tv38": {
+    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThjOTFhMDhjYTI4ODg0N2E4NTk3OWY4ZDk4ODc4Ni5odG1s",
+    "hora": "10:30",
+    "categoria": "BASKETBALL",
+    "torneo": "Champions League",
+    "evento": "Bursaspor vs. Cholet",
+    "tipo": "normal"
+  },
+  "tv39": {
+    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThjOTFhMDhjYTI4ODg0N2E4NTk3OWY4ZTk4ODc4Ny5odG1s",
+    "hora": "10:30",
+    "categoria": "BASKETBALL",
+    "torneo": "Champions League",
+    "evento": "CEZ Nymburk vs. Chalon/Saone",
+    "tipo": "normal"
+  },
+  "tv40": {
+    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThjOTFhMDhjYTI4ODg0N2E4NTk3OWY4Zjk4ODc4OC5odG1s",
+    "hora": "10:30",
+    "categoria": "BASKETBALL",
+    "torneo": "Champions League",
+    "evento": "Hapoel Holon vs. Joventut Badalona",
+    "tipo": "normal"
+  },
+  "tv41": {
+    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThjOTFhMDhjYTI4ODg0N2E4NTk3OWY5MDk4ODc4OS5odG1s",
+    "hora": "10:30",
+    "categoria": "BASKETBALL",
+    "torneo": "Champions League",
+    "evento": "Wurzburg vs. Igokea",
+    "tipo": "normal"
+  },
+  "tv42": {
+    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThjOTFhMDhjYTI4ODg0N2E4NTk3YTA4Nzk4ODc4YS5odG1s",
+    "hora": "10:30",
+    "categoria": "BASKETBALL",
+    "torneo": "Eurocup",
+    "evento": "Cedevita Olimpija vs. Aris",
+    "tipo": "normal"
+  },
+  "tv43": {
+    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThjOTFhMDhkOTk4Nzg0N2E4NTk3YTA4ODk4ODg4Ni5odG1s",
+    "hora": "10:45",
+    "categoria": "HANDBALL",
+    "torneo": "European League",
+    "evento": "Ferencvaros vs. Karlskrona",
+    "tipo": "normal"
+  },
+  "tv44": {
+    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThjOTFhMDhkOTk4Nzg0N2E4NTk3YTA4OTk4ODg4Ny5odG1s",
+    "hora": "10:45",
+    "categoria": "HANDBALL",
+    "torneo": "European League",
+    "evento": "Fredericia vs. TSV Hannover-Burgdorf",
+    "tipo": "normal"
+  },
+  "tv45": {
+    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThjOTFhMDhkOTk4Nzg0N2E4NTk3YTA4YTk4ODg4OC5odG1s",
+    "hora": "10:45",
+    "categoria": "HANDBALL",
+    "torneo": "European League",
+    "evento": "Kadetten Schaffhausen vs. Ademar",
+    "tipo": "normal"
+  },
+  "tv46": {
+    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThjOTFhMDhkOTk4Nzg0N2E4NTk3YTA4Yjk4ODg4YS5odG1s",
+    "hora": "10:45",
+    "categoria": "HANDBALL",
+    "torneo": "European League",
+    "evento": "Montpellier vs. Kiel",
+    "tipo": "normal"
+  },
+  "tv47": {
+    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThjOTFhMDhkOTk4Nzg0N2E4NTk3YTA4Yzk4ODg4OS5odG1s",
+    "hora": "10:45",
+    "categoria": "HANDBALL",
+    "torneo": "European League",
+    "evento": "MT Melsungen vs. Benfica",
+    "tipo": "normal"
+  },
+  "tv48": {
+    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThjOTFhMDhkOTk4Nzg0N2E4NTk3YTA4ZDk4ODg4Yi5odG1s",
+    "hora": "10:45",
+    "categoria": "HANDBALL",
+    "torneo": "European League",
+    "evento": "Potaissa Turda vs. CD Bidasoa Irun",
+    "tipo": "normal"
+  },
+  "tv49": {
+    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThjOTFhMDhkOTk4Nzg0N2E4NTk3YTA4ZTk4ODg4Yy5odG1s",
+    "hora": "10:45",
+    "categoria": "HANDBALL",
+    "torneo": "European League",
+    "evento": "Presov vs. Savehof",
+    "tipo": "normal"
+  },
+  "tv50": {
+    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThjOTFhMDhkOTk4Nzg0N2E4NTk3YTA4Zjk4ODg4ZC5odG1s",
+    "hora": "10:45",
+    "categoria": "HANDBALL",
+    "torneo": "European League",
+    "evento": "Vardar 1961 vs. Sesvete",
+    "tipo": "normal"
+  },
+  "tv51": {
+    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThjOTFhMDhkOWE4Njg0N2E4NTk3YTA5MDk4ODk4ZC5odG1s",
+    "hora": "11:00",
+    "categoria": "SOCCER",
+    "torneo": "Euro Qualifier",
+    "evento": "Faroe Islands U21 vs. Switzerland U21",
+    "tipo": "normal"
+  },
+  "tv52": {
+    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThjOTFhMDhkOWE4Njg0N2E4NTk3YTE4Nzk4OGE4NC5odG1s",
+    "hora": "11:00",
+    "categoria": "SOCCER",
+    "torneo": "Euro Qualifier",
+    "evento": "Gibraltar U21 vs. Portugal U21",
+    "tipo": "normal"
+  },
+  "tv53": {
+    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThjOTFhMDhkOWE4Njg0N2E4NTk3YTE4ODk4OGE4NS5odG1s",
+    "hora": "11:00",
+    "categoria": "SOCCER",
+    "torneo": "Euro Qualifier",
+    "evento": "Malta U21 vs. Georgia U21",
+    "tipo": "normal"
+  },
+  "tv54": {
+    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThjOTFhMDhkOWE4Njg0N2E4NTk3YTE4OTk4OGE4Ni5odG1s",
+    "hora": "11:00",
+    "categoria": "SOCCER",
+    "torneo": "Friendly",
+    "evento": "Albania vs. Jordan",
+    "tipo": "normal"
+  },
+  "tv55": {
+    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThjOTFhMDhkOWE4Njg0N2E4NTk3YTE4YTk4OGE4Ny5odG1s",
+    "hora": "11:00",
+    "categoria": "SOCCER",
+    "torneo": "Friendly",
+    "evento": "Russia vs. Bolivia",
+    "tipo": "normal"
+  },
+  "tv56": {
+    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThjOTFhMDhkOWE4Njg0N2E4NTk3YTE4Yjk4OGE4OC5odG1s",
+    "hora": "11:00",
+    "categoria": "SOCCER",
+    "torneo": "World Cup Qualifier",
+    "evento": "Qatar vs. United Arab Emirates",
+    "tipo": "normal"
+  },
+  "tv57": {
+    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThjOTFhMDhkOWE4Njg0N2E4NTk3YTE4Yzk4ODk4OS5odG1s",
+    "hora": "11:00",
+    "categoria": "HOCKEY",
+    "torneo": "CHL",
+    "evento": "Frolunda Gothenburg vs. SC Bern",
+    "tipo": "normal"
+  },
+  "tv58": {
+    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThjOTFhMDhkOWE4Njg0N2E4NTk3YTE4ZDk4ODk4YS5odG1s",
+    "hora": "11:00",
+    "categoria": "HOCKEY",
+    "torneo": "CHL",
+    "evento": "Lulea Hockey vs. Bolzano",
+    "tipo": "normal"
+  },
+  "tv59": {
+    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThjOTFhMDhkOWE4Njg0N2E4NTk3YTE4ZTk4ODk4Yi5odG1s",
+    "hora": "11:00",
+    "categoria": "HOCKEY",
+    "torneo": "CHL",
+    "evento": "Storhamar Hamar vs. Fischtown Pinguins ",
+    "tipo": "normal"
+  },
+  "tv60": {
+    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThjOTFhMDhkOWE4Njg0N2E4NTk3YTE4Zjk4ODk4Yy5odG1s",
+    "hora": "11:00",
+    "categoria": "HOCKEY",
+    "torneo": "CHL",
+    "evento": "Storhamar Hamar vs. Fischtown Pinguins ",
+    "tipo": "normal"
+  },
+  "tv61": {
+    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThjOTFhMDhkOWE4Njg0N2E4NTk3YTE5MDk4ODk4NS5odG1s",
+    "hora": "11:00",
+    "categoria": "BASKETBALL",
+    "torneo": "Champions League",
+    "evento": "AS Karditsas vs. Unicaja",
+    "tipo": "normal"
+  },
+  "tv62": {
+    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThjOTFhMDhkOWE4Njg0N2E4NTk3YTI4Nzk4ODk4Ni5odG1s",
+    "hora": "11:00",
+    "categoria": "BASKETBALL",
+    "torneo": "EuroLeague",
+    "evento": "Maccabi Tel Aviv vs. Barcelona ",
+    "tipo": "normal"
+  },
+  "tv63": {
+    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThjOTFhMDhkOWE4Njg0N2E4NTk3YTI4ODk4ODk4Ny5odG1s",
+    "hora": "11:00",
+    "categoria": "BASKETBALL",
+    "torneo": "EuroLeague",
+    "evento": "Maccabi Tel Aviv vs. Barcelona ",
+    "tipo": "normal"
+  },
+  "tv64": {
+    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThjOTFhMDhkOWE4Njg0N2E4NTk3YTI4OTk4ODk4OC5odG1s",
+    "hora": "11:00",
+    "categoria": "CYCLING",
+    "torneo": "UCI",
+    "evento": "Tour of Holland",
+    "tipo": "normal"
+  },
+  "tv65": {
+    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThjOTFhMDhkOWE4ODg4N2E4NTk3YTI4YTk4OGE4OS5odG1s",
+    "hora": "11:04",
+    "categoria": "BASKETBALL",
+    "torneo": "Sweden Basketligan",
+    "evento": "Jamtland vs. Norrkoping",
+    "tipo": "normal"
+  },
+  "tv66": {
+    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThjOTFhMDhkOWE4ODg4N2E4NTk3YTI4Yjk4OGE4YS5odG1s",
+    "hora": "11:04",
+    "categoria": "BASKETBALL",
+    "torneo": "Sweden Basketligan",
+    "evento": "Koping Stars vs. Sodertalje",
+    "tipo": "normal"
+  },
+  "tv67": {
+    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThjOTFhMDhkOWE4ODg4N2E4NTk3YTI4Yzk4OGE4Yi5odG1s",
+    "hora": "11:04",
+    "categoria": "BASKETBALL",
+    "torneo": "Sweden Basketligan",
+    "evento": "Nassjo vs. Uppsala",
+    "tipo": "normal"
+  },
+  "tv68": {
+    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThjOTFhMDhkOWE4ODg4N2E4NTk3YTI4ZDk4OGE4Yy5odG1s",
+    "hora": "11:04",
+    "categoria": "BASKETBALL",
+    "torneo": "Sweden Basketligan",
+    "evento": "Umea vs. BC Lulea",
+    "tipo": "normal"
+  },
+  "tv69": {
+    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThjOTFhMDhkOWM4NDg0N2E4NTk3YTI4ZTk4OGE4ZC5odG1s",
+    "hora": "11:30",
+    "categoria": "BASKETBALL",
+    "torneo": "Eurocup",
+    "evento": "Hamburg vs. Bahcesehir Koleji",
+    "tipo": "normal"
+  },
+  "tv70": {
+    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThjOTFhMDhkOWM4ZDg0N2E4NTk3YTI4Zjk4OGI4NC5odG1s",
+    "hora": "11:45",
+    "categoria": "BASKETBALL",
+    "torneo": "EuroLeague",
+    "evento": "Fenerbahce vs. Dubai",
+    "tipo": "normal"
+  }
+}
