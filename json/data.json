@@ -1,75 +1,34 @@
 {
     "events": [
         {
-            "time": "15:00",
-            "tournament": "honduras",
-            "eventTitle": "Platense vs. Victoria",
-            "streams": [
-                {
-                    "url": "emb2.html?r=https://voodc.com/embed/85818c91a18d9b84847a85989e8e9885867d.html",
-                    "optionText": "Opcion 1"
-                }
-            ]
-        },
-        {
-            "time": "16:15",
-            "tournament": "concacaf-w-champions-cup",
-            "eventTitle": "Washington Spirit (f) vs. Monterrey (f)",
-            "streams": [
-                {
-                    "url": "emb2.html?r=https://voodc.com/embed/85818c91a18d9f89847a85989e909885867f.html",
-                    "optionText": "Opcion 1"
-                },
-                {
-                    "url": "emb2.html?r=https://voodc.com/embed/85818c91a18d9f89847a85989f8798858680.html",
-                    "optionText": "Opcion 2"
-                }
-            ]
-        },
-        {
             "time": "16:30",
-            "tournament": "costa-rica-primera-division",
-            "eventTitle": "Sporting San Jose vs. Zeledon",
+            "tournament": "usl-super-league",
+            "eventTitle": "Lexington (f) vs. Fort Lauderdale (f)",
             "streams": [
                 {
-                    "url": "emb2.html?r=https://voodc.com/embed/85818c91a18da088847a85989f8998858682.html",
+                    "url": "emb2.html?r=https://voodc.com/embed/85818c91a28c9c8c847a8597a4909885887c.html",
                     "optionText": "Opcion 1"
                 }
             ]
         },
         {
-            "time": "18:15",
-            "tournament": "concacaf-w-champions-cup",
-            "eventTitle": "Orlando Pride (f) vs. Pachuca (f)",
+            "time": "17:15",
+            "tournament": "honduras",
+            "eventTitle": "Olancho vs. Juticalpa",
             "streams": [
                 {
-                    "url": "emb2.html?r=https://voodc.com/embed/85818c91a18e9c8b847a85959f8798858983.html",
+                    "url": "emb2.html?r=https://voodc.com/embed/85818c91a28c9f89847a85959d9098858a7c.html",
                     "optionText": "Opcion 1"
-                },
-                {
-                    "url": "emb2.html?r=https://voodc.com/embed/85818c91a18e9c8b847a85959f8898858a7a.html",
-                    "optionText": "Opcion 2"
                 }
             ]
         },
         {
-            "time": "19:00",
+            "time": "18:00",
             "tournament": "mexico",
-            "eventTitle": "Atlas (f) vs. Club America (f)",
+            "eventTitle": "UNAM Pumas (f) vs. Juarez (f)",
             "streams": [
                 {
-                    "url": "emb2.html?r=https://voodc.com/embed/85818c91a18e9f88847a85959f8c98858a7e.html",
-                    "optionText": "Opcion 1"
-                }
-            ]
-        },
-        {
-            "time": "19:30",
-            "tournament": "costa-rica-primera-division",
-            "eventTitle": "San Carlos vs. Deportivo Saprissa",
-            "streams": [
-                {
-                    "url": "emb2.html?r=https://voodc.com/embed/85818c91a18ea186847a8595a08898858b7a.html",
+                    "url": "emb2.html?r=https://voodc.com/embed/85818c91a28ca286847a85959f8c98858b82.html",
                     "optionText": "Opcion 1"
                 }
             ]
@@ -77,54 +36,36 @@
         {
             "time": "19:30",
             "tournament": "honduras",
-            "eventTitle": "Marathon vs. Real Espana",
+            "eventTitle": "CD Olimpia vs. Motagua",
             "streams": [
                 {
-                    "url": "emb2.html?r=https://voodc.com/embed/85818c91a18ea186847a8595a08998858b7b.html",
+                    "url": "emb2.html?r=https://voodc.com/embed/85818c91a28d9d8a847a8595a18d98858d83.html",
                     "optionText": "Opcion 1"
+                }
+            ]
+        },
+        {
+            "time": "20:00",
+            "tournament": "concacaf-w-champions-cup",
+            "eventTitle": "Vancouver Rise (f) vs. Alianza FC (f)",
+            "streams": [
+                {
+                    "url": "emb2.html?r=https://voodc.com/embed/85818c91a28d9f88847a8595a28b98868481.html",
+                    "optionText": "Opcion 1"
+                },
+                {
+                    "url": "emb2.html?r=https://voodc.com/embed/85818c91a28d9f88847a8595a28c98868482.html",
+                    "optionText": "Opcion 2"
                 }
             ]
         },
         {
             "time": "20:00",
             "tournament": "costa-rica-primera-division",
-            "eventTitle": "Cartagines vs. Guadalupe",
+            "eventTitle": "Herediano vs. Alajuelense",
             "streams": [
                 {
-                    "url": "emb2.html?r=https://voodc.com/embed/85818c91a18f9984847a8595a08b98858b7e.html",
-                    "optionText": "Opcion 1"
-                }
-            ]
-        },
-        {
-            "time": "20:00",
-            "tournament": "guatemala",
-            "eventTitle": "Marquense vs. Antigua",
-            "streams": [
-                {
-                    "url": "emb2.html?r=https://voodc.com/embed/85818c91a18f9984847a8595a08c98858b7f.html",
-                    "optionText": "Opcion 1"
-                }
-            ]
-        },
-        {
-            "time": "20:00",
-            "tournament": "usl",
-            "eventTitle": "Orange County SC vs. San Antonio Scorpions",
-            "streams": [
-                {
-                    "url": "emb2.html?r=https://voodc.com/embed/85818c91a18f9984847a8595a08d98858b80.html",
-                    "optionText": "Opcion 1"
-                }
-            ]
-        },
-        {
-            "time": "21:00",
-            "tournament": "mexico-liga-de-expansion",
-            "eventTitle": "Tampico Madero vs. Zacatecas Mineros",
-            "streams": [
-                {
-                    "url": "emb2.html?r=https://voodc.com/embed/85818c91a18f9c8a847a8595a18998858c7d.html",
+                    "url": "emb2.html?r=https://voodc.com/embed/85818c91a28d9f88847a8595a28d98868483.html",
                     "optionText": "Opcion 1"
                 }
             ]
