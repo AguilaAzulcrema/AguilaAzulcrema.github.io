@@ -276,7 +276,8 @@ def generar_transmisiones_json():
     with open('json/transmisiones.json', 'w', encoding='utf-8') as f:
         json.dump(transmisiones_json, f, indent=2, ensure_ascii=False)
     
-    print("Archivo JSON generado exitosamente!")
+    # ✅ Línea agregada:
+    print(f"[OK] Archivo generado con {len(transmisiones_json)} transmisiones")
 
 if __name__ == "__main__":
     generar_transmisiones_json()
