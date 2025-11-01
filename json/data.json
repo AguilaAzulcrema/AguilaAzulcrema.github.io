@@ -1,3 +1,19 @@
 {
-    "events": []
+    "events": [
+        {
+            "time": "13:30",
+            "tournament": "mls",
+            "eventTitle": "New York City vs. Charlotte",
+            "streams": [
+                {
+                    "url": "emb2.html?r=https://voodc.com/embed/85818c939c899e88847a85959d9098888580.html",
+                    "optionText": "Opcion 1"
+                },
+                {
+                    "url": "emb2.html?r=https://voodc.com/embed/85818c939c899e88847a85959e8798888581.html",
+                    "optionText": "Opcion 2"
+                }
+            ]
+        }
+    ]
 }
