@@ -4,7 +4,7 @@ function generateEventHTML(event) {
     const eventInfo = `${event.tournament}: ${event.eventTitle}`;
     const time = event.time;
     const streamsList = event.streams.map(stream => {
-        const finalUrl = `https://leaguemx-tv.blogspot.com/p/evento.html?r=${stream.url}`; // Usar el enlace codificado del JSON
+        const finalUrl = `https://lgmxtv.blogspot.com/p/evento.html?r=${stream.url}`; // Usar el enlace codificado del JSON
         return `
             <li class="subitem1">
                 <a href="${finalUrl}" target="_blank">${stream.optionText}<span>Calidad 1080p</span></a>

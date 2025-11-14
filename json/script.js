@@ -58,7 +58,7 @@ $(document).ready(function() {
         $(".btn-stream").click(function(event) {
             event.stopPropagation();
             var streamUrl = $(this).data("stream");
-            var videoUrl = 'https://mexi-tv.blogspot.com/p/' + streamUrl;
+            var videoUrl = 'https://azulcremastv.blogspot.com/p/' + streamUrl;
             var eventTitle = $(this).closest("tr").prev(".cell-color").find(".event-title").text();
             var eventTime = $(this).closest("tr").prev(".cell-color").find("td:first-child").text();
 
