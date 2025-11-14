@@ -1,0 +1,567 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8"/>
+<meta name="viewport" content="width=device-width,initial-scale=1"/>
+<title>Scoreboard + Controles (LIGA MX)</title>
+<style>
+  :root{
+    --bg:#111;
+    --panel:#0f0f0f;
+    --accent:#e50914;
+    --text:#fff;
+  }
+  html,body{height:100%;margin:0;background:transparent;font-family:Inter,Arial,Helvetica,sans-serif;color:var(--text)}
+  .container{padding:14px;}
+
+  /* SCOREBOARD exact look (unchanged visual) */
+  .wrap{
+    display:flex;
+    align-items:center;
+    gap:16px;
+    padding:0;
+    width:380px; /* same width as you liked */
+  }
+  .scoreboard{
+    width:380px;
+    background:linear-gradient(180deg,#1b1b1b,#0d0d0d);
+    border-radius:6px;
+    overflow:hidden;
+    color:var(--text);
+    box-shadow:0 6px 18px rgba(0,0,0,0.45);
+  }
+
+  /* Top bar */
+  .topbar{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding:8px 12px;
+    background:#202020;
+    font-weight:700;
+    font-size:14px;
+    letter-spacing:.6px;
+  }
+  .topbar .league{max-width:240px; overflow:hidden; white-space:nowrap; text-overflow:ellipsis}
+  .topbar .clock{font-weight:900; font-size:16px; background:transparent; padding:2px 6px; border-radius:3px; color:#fff}
+
+  /* rows teams */
+  .team-row{
+    display:flex;
+    align-items:center;
+    gap:10px;
+    background:#101010;
+    padding:10px 12px;
+    border-bottom:1px solid #222;
+  }
+  .team-row .kit{width:8px;height:36px;border-radius:4px;}
+  .crest{width:36px;height:36px;border-radius:6px;overflow:hidden;background:#222;display:flex;align-items:center;justify-content:center}
+  .crest img{width:100%;height:100%;object-fit:contain}
+  .abbr{font-weight:800;font-size:20px;margin-left:6px}
+  .score{margin-left:auto;font-weight:800;font-size:28px;min-width:28px;text-align:center}
+
+  /* bottom global */
+  .globalbar{background:#181818;padding:8px 12px;font-size:13px;border-top:1px solid #222}
+  .hidden{display:none}
+
+  /* goal blink */
+.blink {
+    animation: flash 0.4s infinite alternate;
+}
+
+@keyframes flash {
+    0% { color: white; }
+    100% { color: yellow; }
+}
+
+  /* --- Controls area (below) --- */
+  .controls{
+    margin-top:50px;
+    max-width:980px;
+    display:block;
+  }
+  .panel{
+    background:#f5f5f5;
+    color:#111;
+    padding:12px;
+    border-radius:8px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+  }
+  .row{display:flex;gap:8px;align-items:center;margin:8px 0;flex-wrap:wrap}
+  label{min-width:130px;font-size:13px;color:#333}
+  input[type=text], input[type=number], select{padding:6px;border-radius:6px;border:1px solid #ccc;background:#fff}
+  input[type=color]{width:48px;height:32px;border:none;background:transparent;padding:0}
+  button{padding:7px 10px;border-radius:6px;border:1px solid #aaa;background:#eee;cursor:pointer}
+  button.primary{background:#e50914;color:#fff;border-color:#c30}
+  .small{padding:6px 8px;font-size:13px}
+  .spacer{height:8px}
+  .note{font-size:12px;color:#666;margin-top:8px}
+
+  /* layout small screens */
+  @media(max-width:600px){
+    .wrap{width:100%}
+    .scoreboard{width:100%}
+    label{min-width:110px}
+  }
+</style>
+</head>
+<body>
+<div class="container">
+
+  <!-- SCOREBOARD (exact visual) -->
+  <div class="wrap">
+    <div class="scoreboard" id="scoreboard">
+      <div class="topbar">
+        <div class="league" id="leagueText">LIGA MX CUARTOS DE FINAL</div>
+        <div style="display:flex;align-items:center;gap:8px">
+          <div class="clock" id="clock">00:00</div>
+          <div id="addedDisplay" style="color:#fff;font-weight:700;display:none">+0</div>
+        </div>
+      </div>
+
+      <div class="team-row" id="localRow">
+        <div class="kit" id="kitLocal" style="background:#c41919"></div>
+        <div class="crest"><img id="logoLocal" src="" alt=""></div>
+        <div class="abbr" id="abbrLocal">GDL</div>
+        <div class="score" id="scoreLocal">0</div>
+      </div>
+
+      <div class="team-row" id="awayRow">
+        <div class="kit" id="kitAway" style="background:#f7d000"></div>
+        <div class="crest"><img id="logoAway" src="" alt=""></div>
+        <div class="abbr" id="abbrAway">AME</div>
+        <div class="score" id="scoreAway">0</div>
+      </div>
+
+      <div class="globalbar hidden" id="globalBar">
+        MARCADOR GLOBAL: <span id="globalText">GDL 0 - 0 AME</span>
+      </div>
+    </div>
+  </div>
+
+  <!-- CONTROLES ABAJO (lo pediste debajo) -->
+  <div class="controls">
+    <div class="panel">
+      <!-- League / time controls -->
+      <div class="row">
+        <label>Nombre del torneo / jornada</label>
+        <input id="inputLeague" type="text" value="LIGA MX CUARTOS DE FINAL" style="width:240px">
+        <label>Tiempo manual (MM:SS)</label>
+        <input id="manualTime" type="text" value="00:00" style="width:90px">
+        <button id="applyManual" class="small">Aplicar</button>
+      </div>
+
+      <div class="row">
+        <label>Presets de tiempo</label>
+        <button class="small" data-pres="0">1T 00:00</button>
+        <button class="small" data-pres="2700">2T 45:00</button>
+        <button class="small" data-pres="5400">ET1 90:00</button>
+        <button class="small" data-pres="6300">ET2 105:00</button>
+        <label style="margin-left:12px">Controles reloj</label>
+        <button id="btnStart" class="small primary">Iniciar</button>
+        <button id="btnStop" class="small">Detener</button>
+        <button id="btnReset" class="small">Reiniciar</button>
+      </div>
+
+      <div class="spacer"></div>
+
+      <!-- Team 1 controls -->
+      <div style="font-weight:700;margin-top:6px">Equipo Local</div>
+      <div class="row">
+        <label>Nombre abreviado</label>
+        <input id="inLocalAbbr" type="text" value="GDL">
+        <label>Color franja</label>
+        <input id="inLocalColor" type="color" value="#c41919">
+        <label>Logo (subir)</label>
+        <input id="inLocalLogo" type="file" accept="image/*">
+        <label>Goles</label>
+        <input id="inLocalScore" type="number" value="0" min="0" style="width:80px">
+        <button id="btnLocalMinus" class="small">-1</button>
+        <button id="btnLocalPlus" class="small">+1</button>
+      </div>
+
+      <!-- Team 2 controls -->
+      <div style="font-weight:700;margin-top:6px">Equipo Visitante</div>
+      <div class="row">
+        <label>Nombre abreviado</label>
+        <input id="inAwayAbbr" type="text" value="AME">
+        <label>Color franja</label>
+        <input id="inAwayColor" type="color" value="#f7d000">
+        <label>Logo (subir)</label>
+        <input id="inAwayLogo" type="file" accept="image/*">
+        <label>Goles</label>
+        <input id="inAwayScore" type="number" value="0" min="0" style="width:80px">
+        <button id="btnAwayMinus" class="small">-1</button>
+        <button id="btnAwayPlus" class="small">+1</button>
+      </div>
+
+      <div class="spacer"></div>
+
+      <!-- Added time and global -->
+      <div class="row">
+        <label>Tiempo agregado (min)</label>
+        <input id="inAddedMins" type="number" value="3" min="0" style="width:80px">
+        <label>Mostrar tiempo agregado</label>
+        <input id="toggleAdded" type="checkbox">
+        <button id="applyAdded" class="small">Aplicar</button>
+
+        <label style="margin-left:16px">Mostrar marcador global</label>
+        <input id="toggleGlobal" type="checkbox">
+        <label>Global Local</label>
+        <input id="inGlobalL" type="number" value="0" style="width:60px">
+        <label>Global Visita</label>
+        <input id="inGlobalV" type="number" value="0" style="width:60px">
+        <button id="applyGlobal" class="small">Aplicar</button>
+      </div>
+
+      <div class="note">
+        Nota: los logos subidos se convierten a imágenes en memoria para que OBS los muestre. Para usar rutas locales en vez de subir, deja vacío y pon la ruta en el campo del archivo en el HTML.
+      </div>
+    </div>
+  </div>
+
+</div>
+
+<script>
+/* ---------- Estado en memoria (no necesitas localStorage porque todo está en una sola página)
+   Pero también guardamos en localStorage para que si recargas, mantenga valores. */
+const STORAGE_KEY = 'sb_single_state_v1';
+
+const defaults = {
+  league: 'LIGA MX CUARTOS DE FINAL',
+  clockRunning: false,
+  startTimestamp: null, // ms
+  offsetSeconds: 0,     // seconds when stopped
+  addedMins: 3,
+  showAdded: false,
+  showGlobal: false,
+  baseGlobalL: 0,
+  baseGlobalV: 0,
+  // local team
+  localAbbr: 'GDL',
+  localColor: '#c41919',
+  localLogoData: '', // dataURL
+  scoreLocal: 0,
+  // away
+  awayAbbr: 'AME',
+  awayColor: '#f7d000',
+  awayLogoData: '',
+  scoreAway: 0
+};
+
+let state = loadState();
+
+// ---------- helpers ----------
+function saveState(){
+  try{ localStorage.setItem(STORAGE_KEY, JSON.stringify(state)); }catch(e){}
+}
+function loadState(){
+  try{
+    const raw = localStorage.getItem(STORAGE_KEY);
+    if(!raw) return JSON.parse(JSON.stringify(defaults));
+    const parsed = JSON.parse(raw);
+    return Object.assign(JSON.parse(JSON.stringify(defaults)), parsed);
+  }catch(e){
+    return JSON.parse(JSON.stringify(defaults));
+  }
+}
+
+function formatMMSS(totalSec){
+  if(totalSec < 0) totalSec = 0;
+  const mm = Math.floor(totalSec/60);
+  const ss = totalSec % 60;
+  return String(mm).padStart(2,'0') + ':' + String(ss).padStart(2,'0');
+}
+
+// ---------- UI elements ----------
+const el = {
+  leagueText: document.getElementById('leagueText'),
+  clock: document.getElementById('clock'),
+  addedDisplay: document.getElementById('addedDisplay'),
+  kitLocal: document.getElementById('kitLocal'),
+  kitAway: document.getElementById('kitAway'),
+  logoLocal: document.getElementById('logoLocal'),
+  logoAway: document.getElementById('logoAway'),
+  abbrLocal: document.getElementById('abbrLocal'),
+  abbrAway: document.getElementById('abbrAway'),
+  scoreLocal: document.getElementById('scoreLocal'),
+  scoreAway: document.getElementById('scoreAway'),
+  globalBar: document.getElementById('globalBar'),
+  globalText: document.getElementById('globalText'),
+  // controls
+  inputLeague: document.getElementById('inputLeague'),
+  manualTime: document.getElementById('manualTime'),
+  applyManual: document.getElementById('applyManual'),
+  btnStart: document.getElementById('btnStart'),
+  btnStop: document.getElementById('btnStop'),
+  btnReset: document.getElementById('btnReset'),
+  presButtons: document.querySelectorAll('button[data-pres]'),
+  // local controls
+  inLocalAbbr: document.getElementById('inLocalAbbr'),
+  inLocalColor: document.getElementById('inLocalColor'),
+  inLocalLogo: document.getElementById('inLocalLogo'),
+  inLocalScore: document.getElementById('inLocalScore'),
+  btnLocalPlus: document.getElementById('btnLocalPlus'),
+  btnLocalMinus: document.getElementById('btnLocalMinus'),
+  // away
+  inAwayAbbr: document.getElementById('inAwayAbbr'),
+  inAwayColor: document.getElementById('inAwayColor'),
+  inAwayLogo: document.getElementById('inAwayLogo'),
+  inAwayScore: document.getElementById('inAwayScore'),
+  btnAwayPlus: document.getElementById('btnAwayPlus'),
+  btnAwayMinus: document.getElementById('btnAwayMinus'),
+  // added & global
+  inAddedMins: document.getElementById('inAddedMins'),
+  toggleAdded: document.getElementById('toggleAdded'),
+  applyAdded: document.getElementById('applyAdded'),
+  toggleGlobal: document.getElementById('toggleGlobal'),
+  inGlobalL: document.getElementById('inGlobalL'),
+  inGlobalV: document.getElementById('inGlobalV'),
+  applyGlobal: document.getElementById('applyGlobal'),
+  inputManualTime: document.getElementById('manualTime')
+};
+
+// ---------- render function ----------
+function renderAll(){
+  el.leagueText.textContent = state.league;
+  el.kitLocal.style.background = state.localColor;
+  el.kitAway.style.background = state.awayColor;
+  el.abbrLocal.textContent = state.localAbbr;
+  el.abbrAway.textContent = state.awayAbbr;
+  el.scoreLocal.textContent = state.scoreLocal;
+  el.scoreAway.textContent = state.scoreAway;
+
+  if(state.localLogoData) el.logoLocal.src = state.localLogoData; else el.logoLocal.src = '';
+  if(state.awayLogoData) el.logoAway.src = state.awayLogoData; else el.logoAway.src = '';
+
+  // global display: shown only if toggle active
+  if(state.showGlobal){
+    el.globalBar.classList.remove('hidden');
+    const gl = (state.baseGlobalL||0) + (state.scoreLocal||0);
+    const gv = (state.baseGlobalV||0) + (state.scoreAway||0);
+    el.globalText.textContent = `${state.localAbbr} ${gl} - ${gv} ${state.awayAbbr}`;
+  } else {
+    el.globalBar.classList.add('hidden');
+  }
+
+  // added time
+  if(state.showAdded && (state.addedMins>0)){
+    el.addedDisplay.style.display = 'inline-block';
+    el.addedDisplay.textContent = `+${state.addedMins}`;
+  } else {
+    el.addedDisplay.style.display = 'none';
+  }
+
+  // controls reflect current state
+  el.inputLeague.value = state.league;
+  el.inLocalAbbr.value = state.localAbbr;
+  el.inLocalColor.value = state.localColor;
+  el.inLocalScore.value = state.scoreLocal;
+  el.inAwayAbbr.value = state.awayAbbr;
+  el.inAwayColor.value = state.awayColor;
+  el.inAwayScore.value = state.scoreAway;
+  el.inAddedMins.value = state.addedMins;
+  el.toggleAdded.checked = state.showAdded;
+  el.toggleGlobal.checked = state.showGlobal;
+  el.inGlobalL.value = state.baseGlobalL;
+  el.inGlobalV.value = state.baseGlobalV;
+}
+
+// ---------- Clock logic (robust) ----------
+function getCurrentMatchSeconds(){
+  if(state.clockRunning && state.startTimestamp){
+    const elapsedMs = Date.now() - state.startTimestamp;
+    return state.offsetSeconds + Math.floor(elapsedMs / 1000);
+  } else {
+    return Math.floor(state.offsetSeconds);
+  }
+}
+
+function updateClockDisplay(){
+  const s = getCurrentMatchSeconds();
+  el.clock.textContent = formatMMSS(s);
+  requestAnimationFrame(updateClockDisplay); // continuous and robust
+}
+
+// ---------- operations ----------
+function startClock(){
+  if(!state.clockRunning){
+    state.startTimestamp = Date.now();
+    state.clockRunning = true;
+    saveState();
+    renderAll();
+  }
+}
+function stopClock(){
+  if(state.clockRunning){
+    const elapsedS = Math.floor((Date.now() - state.startTimestamp)/1000);
+    state.offsetSeconds = state.offsetSeconds + elapsedS;
+    state.startTimestamp = null;
+    state.clockRunning = false;
+    saveState();
+    renderAll();
+  }
+}
+function resetClock(){
+  state.offsetSeconds = 0;
+  state.startTimestamp = null;
+  state.clockRunning = false;
+  saveState();
+  renderAll();
+}
+function setClockToSeconds(sec){
+  // stop and set offset
+  state.offsetSeconds = Math.max(0, Math.floor(sec));
+  state.startTimestamp = null;
+  state.clockRunning = false;
+  saveState();
+  renderAll();
+}
+function applyPreset(seconds){
+  setClockToSeconds(seconds);
+}
+
+// manual apply time button
+el.applyManual.addEventListener('click', ()=>{
+  const text = (el.inputManualTime||el.manualTime).value.trim(); // supports both refs
+  const parts = text.split(':');
+  if(parts.length===2){
+    const mm = parseInt(parts[0]||0);
+    const ss = parseInt(parts[1]||0);
+    const total = mm*60 + ss;
+    setClockToSeconds(total);
+  } else {
+    alert('Formato MM:SS');
+  }
+});
+
+// ---------- scores ----------
+function setLocalScore(n, flash=true){
+  state.scoreLocal = Math.max(0, Math.floor(n));
+  if(state.showGlobal){
+    // global shown updates automatically in renderAll
+  }
+  saveState();
+  renderAll();
+  if(flash) flashScore('local');
+}
+function setAwayScore(n, flash=true){
+  state.scoreAway = Math.max(0, Math.floor(n));
+  saveState(); renderAll();
+  if(flash) flashScore('away');
+}
+function flashScore(side){
+  const elScore = (side==='local') ? document.getElementById('scoreLocal') : document.getElementById('scoreAway');
+  elScore.classList.remove('blink');
+  void elScore.offsetWidth;
+  elScore.classList.add('blink');
+  setTimeout(()=> elScore.classList.remove('blink'), 900);
+}
+
+// ---------- file -> dataURL helpers for logos ----------
+function fileToDataURL(file, cb){
+  const fr = new FileReader();
+  fr.onload = ()=> cb(fr.result);
+  fr.readAsDataURL(file);
+}
+
+// ---------- event wiring ----------
+// league name
+el.inputLeague.addEventListener('input', ()=>{ state.league = el.inputLeague.value; saveState(); renderAll(); });
+
+// presets buttons
+document.querySelectorAll('button[data-pres]').forEach(btn=>{
+  btn.addEventListener('click', ()=> applyPreset(parseInt(btn.dataset.pres)));
+});
+
+// start/stop/reset
+el.btnStart.addEventListener('click', ()=>{ startClock(); });
+el.btnStop.addEventListener('click', ()=>{ stopClock(); });
+el.btnReset.addEventListener('click', ()=>{ resetClock(); });
+
+// local team controls
+el.inLocalAbbr.addEventListener('input', ()=>{ state.localAbbr = el.inLocalAbbr.value || ''; saveState(); renderAll(); });
+el.inLocalColor.addEventListener('input', ()=>{ state.localColor = el.inLocalColor.value; saveState(); renderAll(); });
+el.inLocalScore.addEventListener('change', ()=>{ setLocalScore(parseInt(el.inLocalScore.value||0), false); });
+
+// local file upload
+el.inLocalLogo.addEventListener('change', (ev)=>{
+  const f = ev.target.files[0];
+  if(!f) return;
+  fileToDataURL(f, (data)=>{
+    state.localLogoData = data;
+    saveState();
+    renderAll();
+  });
+});
+
+// away team controls
+el.inAwayAbbr.addEventListener('input', ()=>{ state.awayAbbr = el.inAwayAbbr.value || ''; saveState(); renderAll(); });
+el.inAwayColor.addEventListener('input', ()=>{ state.awayColor = el.inAwayColor.value; saveState(); renderAll(); });
+el.inAwayScore.addEventListener('change', ()=>{ setAwayScore(parseInt(el.inAwayScore.value||0), false); });
+
+el.inAwayLogo.addEventListener('change', (ev)=>{
+  const f = ev.target.files[0];
+  if(!f) return;
+  fileToDataURL(f, (data)=>{
+    state.awayLogoData = data;
+    saveState();
+    renderAll();
+  });
+});
+
+// plus/minus buttons
+el.btnLocalPlus.addEventListener('click', ()=>{ setLocalScore(state.scoreLocal+1, true); el.inLocalScore.value = state.scoreLocal; });
+el.btnLocalMinus.addEventListener('click', ()=>{ setLocalScore(state.scoreLocal-1, true); el.inLocalScore.value = state.scoreLocal; });
+el.btnAwayPlus.addEventListener('click', ()=>{ setAwayScore(state.scoreAway+1, true); el.inAwayScore.value = state.scoreAway; });
+el.btnAwayMinus.addEventListener('click', ()=>{ setAwayScore(state.scoreAway-1, true); el.inAwayScore.value = state.scoreAway; });
+
+// added time apply / toggle
+el.applyAdded.addEventListener('click', ()=>{
+  const m = Math.max(0, parseInt(el.inAddedMins.value||0));
+  state.addedMins = m;
+  state.showAdded = !!el.toggleAdded.checked;
+  saveState();
+  renderAll();
+});
+
+// toggle global
+el.applyGlobal.addEventListener('click', ()=>{
+  state.showGlobal = !!el.toggleGlobal.checked;
+  state.baseGlobalL = Math.max(0, parseInt(el.inGlobalL.value||0));
+  state.baseGlobalV = Math.max(0, parseInt(el.inGlobalV.value||0));
+  saveState();
+  renderAll();
+});
+el.toggleGlobal.addEventListener('change', ()=>{
+  state.showGlobal = !!el.toggleGlobal.checked;
+  saveState();
+  renderAll();
+});
+
+// manual goal via number inputs apply when changed
+// already wired via change listeners for the numeric inputs
+
+// storage save when numbers typed:
+el.inLocalScore.addEventListener('change', ()=>{ setLocalScore(parseInt(el.inLocalScore.value||0), false); });
+el.inAwayScore.addEventListener('change', ()=>{ setAwayScore(parseInt(el.inAwayScore.value||0), false); });
+
+// apply manual time on Enter key in the manualTime field
+el.manualTime.addEventListener('keydown', (e)=>{
+  if(e.key === 'Enter'){ el.applyManual.click(); }
+});
+
+// initialize UI
+renderAll();
+updateClockDisplay(); // start RAF loop
+
+// load initial images if any default logos provided outside state
+// (we left state logos empty by default; if you want a default, set state.localLogoData = 'dataurl' or a relative path)
+
+
+// quick save whenever a change is made frequently
+setInterval(()=> saveState(), 2000);
+
+</script>
+</body>
+</html>
