@@ -1,184 +1,65 @@
 {
-  "bra1": {
-    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThjOTQ5ZThjOWE4Njg0N2E4NTk1YTI4Zjk4ODk4NTgwLmh0bWw=",
-    "hora": "18:00",
-    "torneo": "Brazil Serie A",
-    "evento": "Santos vs. Palmeiras",
+  "wc1": {
+    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThjOTQ5Zjg3OWE4YTg0N2E4NTk3OWM4Yjk4OGMuaHRtbA==",
+    "hora": "08:00",
+    "torneo": "World Cup Qualifier",
+    "evento": "Hungary vs. Ireland ",
+    "tipo": "normal"
+  },
+  "wc2": {
+    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThjOTQ5Zjg3OWE4YTg0N2E4NTk3OWM4Yzk4OGQuaHRtbA==",
+    "hora": "08:00",
+    "torneo": "World Cup Qualifier",
+    "evento": "Hungary vs. Ireland ",
+    "tipo": "normal"
+  },
+  "wc3": {
+    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThjOTQ5Zjg3OWE4YTg0N2E4NTk3OWM4ZDk4ODU4NC5odG1s",
+    "hora": "08:00",
+    "torneo": "World Cup Qualifier",
+    "evento": "Portugal vs. Armenia ",
+    "tipo": "normal"
+  },
+  "wc4": {
+    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThjOTQ5Zjg3OWE4YTg0N2E4NTk3OWM4ZTk4ODU4NS5odG1s",
+    "hora": "08:00",
+    "torneo": "World Cup Qualifier",
+    "evento": "Portugal vs. Armenia ",
+    "tipo": "normal"
+  },
+  "wc5": {
+    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThjOTQ5Zjg3OWE4YTg0N2E4NTk3OWM4Zjk4ODU4Ni5odG1s",
+    "hora": "08:00",
+    "torneo": "World Cup Qualifier",
+    "evento": "Portugal vs. Armenia ",
+    "tipo": "normal"
+  },
+  "es1": {
+    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThjOTQ5Zjg3OWU4Njg0N2E4NTk3OWQ5MDk4ODY4OS5odG1s",
+    "hora": "09:00",
+    "torneo": "Spain Liga F",
+    "evento": "Sevilla FC W vs. DUX Logrono W",
+    "tipo": "normal"
+  },
+  "es2": {
+    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThjOTQ5Zjg3OWY4NTg0N2E4NTk3OWU4ZDk4ODY4YS5odG1s",
+    "hora": "09:15",
+    "torneo": "LaLiga2",
+    "evento": "Almeria vs. Cadiz CF",
+    "tipo": "normal"
+  },
+  "es3": {
+    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThjOTQ5Zjg3OWY4NTg0N2E4NTk3OWU4ZTk4ODY4Yi5odG1s",
+    "hora": "09:15",
+    "torneo": "LaLiga2",
+    "evento": "Sporting Gijon vs. Eibar",
     "tipo": "normal"
   },
   "tv1": {
-    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThjOTQ5ZThjOWE4Njg0N2E4NTk1YTI5MDk4ODk4NTgxLmh0bWw=",
-    "hora": "18:00",
-    "torneo": "CONCACAF Series",
-    "evento": "Cayman Islands vs. Anguilla",
-    "tipo": "normal"
-  },
-  "ar1": {
-    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThjOTQ5ZThjOWM4NDg0N2E4NTk2OWM4Nzk4ODk4NzdmLmh0bWw=",
-    "hora": "18:30",
-    "torneo": "Argentina Liga Profesional",
-    "evento": "Independiente vs. Rosario Central",
-    "tipo": "normal"
-  },
-  "bol1": {
-    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThjOTQ5ZThjOWM4NDg0N2E4NTk2OWM4ODk4ODk4NzgwLmh0bWw=",
-    "hora": "18:30",
-    "torneo": "Copa Bolivia",
-    "evento": "Aurora vs. The Strongest",
-    "tipo": "normal"
-  },
-  "tv2": {
-    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThjOTQ5ZThjOWM4NDg0N2E4NTk2OWM4OTk4ODk4NzgxLmh0bWw=",
-    "hora": "18:30",
-    "torneo": "Friendly",
-    "evento": "Colombia vs. New Zealand ",
-    "tipo": "normal"
-  },
-  "tv3": {
-    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThjOTQ5ZThjOWM4NDg0N2E4NTk2OWM4YTk4ODk4NzgyLmh0bWw=",
-    "hora": "18:30",
-    "torneo": "Friendly",
-    "evento": "Colombia vs. New Zealand ",
-    "tipo": "normal"
-  },
-  "tv4": {
-    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThjOTQ5ZThjOWM4NDg0N2E4NTk2OWM4Yjk4ODk4NzgzLmh0bWw=",
-    "hora": "18:30",
-    "torneo": "USL Super League",
-    "evento": "Fort Lauderdale W vs. Tampa Bay Sun W",
-    "tipo": "normal"
-  },
-  "tv5": {
-    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThjOTQ5ZThjOWQ4Yzg0N2E4NTk2OWU4ZDk4ODk4YTdlLmh0bWw=",
-    "hora": "19:00",
-    "torneo": "Friendly",
-    "evento": "Mexico vs. Uruguay ",
-    "tipo": "normal"
-  },
-  "tv6": {
-    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThjOTQ5ZThjOWQ4Yzg0N2E4NTk2OWU4ZTk4ODk4YTdmLmh0bWw=",
-    "hora": "19:00",
-    "torneo": "Friendly",
-    "evento": "Mexico vs. Uruguay ",
-    "tipo": "normal"
-  },
-  "tv7": {
-    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThjOTQ5ZThjOWQ4Yzg0N2E4NTk2OWU4Zjk4ODk4YTgwLmh0bWw=",
-    "hora": "19:00",
-    "torneo": "Friendly",
-    "evento": "Mexico vs. Uruguay ",
-    "tipo": "normal"
-  },
-  "exp1": {
-    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThjOTQ5ZThjOWQ4Yzg0N2E4NTk2OWU5MDk4ODk4YTgxLmh0bWw=",
-    "hora": "19:00",
-    "torneo": "Liga de Expansion MX",
-    "evento": "Irapuato vs. Zacatecas Mineros",
-    "tipo": "normal"
-  },
-  "tv8": {
-    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThjOTQ5ZThjOWQ4Yzg0N2E4NTk2OWY4Nzk4ODk4YTgyLmh0bWw=",
-    "hora": "19:00",
-    "torneo": "NCAA Tournament",
-    "evento": "Illinois W vs. Memphis W",
-    "tipo": "normal"
-  },
-  "usa1": {
-    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThjOTQ5ZThjOWY4YTg0N2E4NTk2OWY5MDk4ODk4YjdlLmh0bWw=",
-    "hora": "19:30",
-    "torneo": "USL",
-    "evento": "FC Tulsa vs. New Mexico United",
-    "tipo": "normal"
-  },
-  "gua1": {
-    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThjOTQ5ZThjYTE4ODg0N2E4NTk2YTE4Nzk4ODk4YzgzLmh0bWw=",
-    "hora": "20:00",
-    "torneo": "Guatemala",
-    "evento": "Marquense vs. Deportivo Mixco",
-    "tipo": "normal"
-  },
-  "tv9": {
-    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThjOTQ5ZThjYTE4ODg0N2E4NTk2YTE4ODk4ODk4ZDdhLmh0bWw=",
-    "hora": "20:00",
-    "torneo": "NCAA Tournament",
-    "evento": "Pepperdine W vs. UCLA W",
-    "tipo": "normal"
-  },
-  "tv10": {
-    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThjOTQ5ZThjYTE4ODg0N2E4NTk2YTE4OTk4ODk4ZDdiLmh0bWw=",
-    "hora": "20:00",
-    "torneo": "USL Super League",
-    "evento": "Spokane Zephyr W vs. Dallas Trinity W",
-    "tipo": "normal"
-  },
-  "tv11": {
-    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThjOTQ5ZThkOTk4Njg0N2E4NTk2YTI4ODk4ODk4ZDgxLmh0bWw=",
-    "hora": "20:30",
-    "torneo": "Friendly",
-    "evento": "Los Angeles Galaxy vs. Club America",
-    "tipo": "normal"
-  },
-  "tv12": {
-    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThjOTQ5ZThkOWI4NDg0N2E4NTk2YTM4ODk4OGE4NDgzLmh0bWw=",
-    "hora": "21:00",
-    "torneo": "A-League Women",
-    "evento": "Wellington Phoenix W vs. Newcastle W",
-    "tipo": "normal"
-  },
-  "tv13": {
-    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThjOTQ5ZThkYTI4Njg0N2E4NTk2YTQ4ODk4OGE4NTgyLmh0bWw=",
-    "hora": "23:00",
-    "torneo": "A-League Women",
-    "evento": "Brisbane Roar W vs. Western Sydney Wanderers W",
-    "tipo": "normal"
-  },
-  "jpn1": {
-    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThjOTQ5ZThkYTI4Njg0N2E4NTk2YTQ4OTk4OGE4NTgzLmh0bWw=",
-    "hora": "23:00",
-    "torneo": "J3-League",
-    "evento": "Azul Claro Numazu vs. Thespa Kusatsu",
-    "tipo": "normal"
-  },
-  "jpn2": {
-    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThjOTQ5ZThkYTI4Njg0N2E4NTk2YTQ4YTk4OGE4NjdhLmh0bWw=",
-    "hora": "23:00",
-    "torneo": "J3-League",
-    "evento": "Fukushima Utd vs. Nara Club",
-    "tipo": "normal"
-  },
-  "jpn3": {
-    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThjOTQ5ZThkYTI4Njg0N2E4NTk2YTQ4Yjk4OGE4NjdiLmh0bWw=",
-    "hora": "23:00",
-    "torneo": "J3-League",
-    "evento": "Gainare Tottori vs. Giravanz Kitakyushu",
-    "tipo": "normal"
-  },
-  "jpn4": {
-    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThjOTQ5ZThkYTI4Njg0N2E4NTk2YTQ4Yzk4OGE4NjdjLmh0bWw=",
-    "hora": "23:00",
-    "torneo": "J3-League",
-    "evento": "Kamatamare Sanuki vs. Kagoshima Utd",
-    "tipo": "normal"
-  },
-  "jpn5": {
-    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThjOTQ5ZThkYTI4Njg0N2E4NTk2YTQ4ZDk4OGE4NjdkLmh0bWw=",
-    "hora": "23:00",
-    "torneo": "J3-League",
-    "evento": "Kanazawa vs. Tochigi SC",
-    "tipo": "normal"
-  },
-  "jpn6": {
-    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThjOTQ5ZThkYTI4Njg0N2E4NTk2YTQ4ZTk4OGE4NjdlLmh0bWw=",
-    "hora": "23:00",
-    "torneo": "J3-League",
-    "evento": "Sagamihara vs. Ryukyu",
-    "tipo": "normal"
-  },
-  "jpn7": {
-    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThjOTQ5ZThkYTI4Njg0N2E4NTk2YTQ4Zjk4OGE4NjdmLmh0bWw=",
-    "hora": "23:00",
-    "torneo": "J3-League",
-    "evento": "Yamaga vs. Osaka",
+    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThjOTQ5Zjg3YTA4NDg0N2E4NTk3OWU4Zjk4ODc4YS5odG1s",
+    "hora": "09:30",
+    "torneo": "UAE League Cup",
+    "evento": "Al Jazira vs. Al Wasl",
     "tipo": "normal"
   }
 }
