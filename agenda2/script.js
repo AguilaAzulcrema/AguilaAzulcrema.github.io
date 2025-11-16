@@ -29,7 +29,7 @@ let currentOpenEvent = null;
 let eventCounter = 0;
 
 // El prefijo para las URLs de transmisión
-const streamUrlPrefix = "https://mexi-tv.blogspot.com/p/emb.html?r=";
+const streamUrlPrefix = "https://azulcremastv.blogspot.com/p/emb.html?r=";
 
 // Función para generar el HTML de un evento
 function generateEventHTML(event, index) {

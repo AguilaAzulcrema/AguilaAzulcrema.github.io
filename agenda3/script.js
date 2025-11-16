@@ -31,7 +31,7 @@ let eventCounter = 0;
 let eventsData = []; // Almacenar todos los eventos para actualización de estado
 
 // El prefijo para las URLs de transmisión
-const streamUrlPrefix = "https://mexi-tv.blogspot.com/p/emb.html?r=";
+const streamUrlPrefix = "https://azulcremastv.blogspot.com/p/emb.html?r=";
 
 // Enumeración para estados de eventos
 const EventStatus = {
