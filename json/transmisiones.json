@@ -951,13 +951,6 @@
     "evento": "Aarau vs. Stade Nyonnais",
     "tipo": "normal"
   },
-  "sui4": {
-    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThjOTRhNDhhOTk4Yzg0N2E4NTk4YTA4Yjk4ODY4YTdhLmh0bWw=",
-    "hora": "11:00",
-    "torneo": "Swiss Challenge League",
-    "evento": "Lausanne Ouchy vs. Xamax",
-    "tipo": "normal"
-  },
   "tur3": {
     "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThjOTRhNDhhOTk4Yzg0N2E4NTk4YTA4Yzk4ODY4YTdiLmh0bWw=",
     "hora": "11:00",
@@ -1075,6 +1068,97 @@
     "hora": "11:45",
     "torneo": "Eredivisie",
     "evento": "FC Volendam vs. FC Twente",
+    "tipo": "normal"
+  },
+  "tv28": {
+    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThjOTRhNDhhOWQ4ODg0N2E4NTk5OWU4Nzk4ODc4NjdkLmh0bWw=",
+    "hora": "12:00",
+    "torneo": "Greece",
+    "evento": "Olympiacos Piraeus vs. Atromitos",
+    "tipo": "normal"
+  },
+  "fr3": {
+    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThjOTRhNDhhOWQ4ODg0N2E4NTk5OWU4ODk4ODc4NjdlLmh0bWw=",
+    "hora": "12:00",
+    "torneo": "Ligue 1",
+    "evento": "Rennes vs. Monaco ",
+    "tipo": "normal"
+  },
+  "fr4": {
+    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThjOTRhNDhhOWQ4ODg0N2E4NTk5OWU4OTk4ODc4NjdmLmh0bWw=",
+    "hora": "12:00",
+    "torneo": "Ligue 1",
+    "evento": "Rennes vs. Monaco ",
+    "tipo": "normal"
+  },
+  "por2": {
+    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThjOTRhNDhhOWQ4ODg0N2E4NTk5OWQ4ZTk4ODc4NjgxLmh0bWw=",
+    "hora": "12:00",
+    "torneo": "Taca de Portugal",
+    "evento": "Estoril vs. Famalicao",
+    "tipo": "normal"
+  },
+  "por3": {
+    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThjOTRhNDhhOWQ4ODg0N2E4NTk5OWQ4Zjk4ODc4NjgyLmh0bWw=",
+    "hora": "12:00",
+    "torneo": "Taca de Portugal",
+    "evento": "Sporting CP vs. Marinhense ",
+    "tipo": "normal"
+  },
+  "por4": {
+    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThjOTRhNDhhOWQ4ODg0N2E4NTk5OWQ5MDk4ODc4NjgzLmh0bWw=",
+    "hora": "12:00",
+    "torneo": "Taca de Portugal",
+    "evento": "Sporting CP vs. Marinhense ",
+    "tipo": "normal"
+  },
+  "tv29": {
+    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThjOTRhNDhhOWQ4ODg0N2E4NTk5OWU4YTk4ODc4NjgwLmh0bWw=",
+    "hora": "12:00",
+    "torneo": "USL Super League",
+    "evento": "Brooklyn W vs. Spokane Zephyr W",
+    "tipo": "normal"
+  },
+  "pol3": {
+    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThjOTRhNDhhOWY4Njg0N2E4NTk5OWY4OTk4ODc4NzgwLmh0bWw=",
+    "hora": "12:30",
+    "torneo": "Poland Div 1",
+    "evento": "Chrobry Glogow vs. KS Wieczysta Krakow",
+    "tipo": "normal"
+  },
+  "pol4": {
+    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThjOTRhNDhhOWY4Njg0N2E4NTk5OWY4YTk4ODc4NzgxLmh0bWw=",
+    "hora": "12:30",
+    "torneo": "Poland Div 1",
+    "evento": "Polonia Bytom vs. Stal Mielec",
+    "tipo": "normal"
+  },
+  "pol5": {
+    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThjOTRhNDhhOWY4Njg0N2E4NTk5OWY4Yjk4ODc4NzgyLmh0bWw=",
+    "hora": "12:30",
+    "torneo": "Poland Div 1",
+    "evento": "S. Rzeszow vs. Tychy",
+    "tipo": "normal"
+  },
+  "rom1": {
+    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThjOTRhNDhhOWY4Njg0N2E4NTk5OWY4Yzk4ODc4NzgzLmh0bWw=",
+    "hora": "12:30",
+    "torneo": "Romania",
+    "evento": "FCSB vs. Petrolul",
+    "tipo": "normal"
+  },
+  "rs3": {
+    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThjOTRhNDhhOWY4Njg0N2E4NTk5OWY4ZDk4ODc4ODdhLmh0bWw=",
+    "hora": "12:30",
+    "torneo": "Serbia",
+    "evento": "Spartak Subotica vs. OFK Beograd Mozzart Bet",
+    "tipo": "normal"
+  },
+  "it15": {
+    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThjOTRhNDhhOWY4Njg0N2E4NTk5OWY4ZTk4ODc4ODdiLmh0bWw=",
+    "hora": "12:30",
+    "torneo": "Serie B",
+    "evento": "Bari vs. Frosinone",
     "tipo": "normal"
   }
 }
