@@ -1,72 +1,24 @@
 {
     "events": [
         {
-            "time": "13:00",
-            "tournament": "ncaa-tournament",
-            "eventTitle": "North Carolina (f) vs. TCU (f)",
-            "streams": [
-                {
-                    "url": "emb2.html?r=https://voodc.com/embed/85818c959c88998c847a8597a18e988a88.html",
-                    "optionText": "Opcion 1"
-                }
-            ]
-        },
-        {
-            "time": "14:00",
-            "tournament": "ncaa-tournament",
-            "eventTitle": "LSU (f) vs. Vanderbilt (f)",
-            "streams": [
-                {
-                    "url": "emb2.html?r=https://voodc.com/embed/85818c959c889d88847a8597a38e988c86.html",
-                    "optionText": "Opcion 1"
-                }
-            ]
-        },
-        {
             "time": "15:00",
-            "tournament": "ncaa-tournament",
-            "eventTitle": "BYU (f) vs. Stanford (f)",
+            "tournament": "concacaf-caribbean-cup",
+            "eventTitle": "Defence Force vs. Cibao",
             "streams": [
                 {
-                    "url": "emb2.html?r=https://voodc.com/embed/85818c959c88a184847a8597a488988c8a.html",
+                    "url": "emb2.html?r=https://voodc.com/embed/85818c959d879d88847a8598a28898858c7d.html",
                     "optionText": "Opcion 1"
                 }
             ]
         },
         {
-            "time": "19:00",
-            "tournament": "costa-rica-liga-de-ascenso",
-            "eventTitle": "Cofutpa vs. Escorpiones",
+            "time": "17:00",
+            "tournament": "concacaf-caribbean-cup",
+            "eventTitle": "Universidad O&M vs. Mount Pleasant",
             "streams": [
                 {
-                    "url": "emb2.html?r=https://voodc.com/embed/85818c959c8a9b88847a8595a28998858b83.html",
+                    "url": "emb2.html?r=https://voodc.com/embed/85818c959d889a8a847a8598a48b98868482.html",
                     "optionText": "Opcion 1"
-                }
-            ]
-        },
-        {
-            "time": "20:00",
-            "tournament": "costa-rica-primera-division",
-            "eventTitle": "Zeledon vs. Cartagines",
-            "streams": [
-                {
-                    "url": "emb2.html?r=https://voodc.com/embed/85818c959c8a9f84847a8595a48798858d82.html",
-                    "optionText": "Opcion 1"
-                }
-            ]
-        },
-        {
-            "time": "21:00",
-            "tournament": "mls",
-            "eventTitle": "San Diego FC vs. Minnesota United",
-            "streams": [
-                {
-                    "url": "emb2.html?r=https://voodc.com/embed/85818c959c8aa28a847a8595a58798868482.html",
-                    "optionText": "Opcion 1"
-                },
-                {
-                    "url": "emb2.html?r=https://voodc.com/embed/85818c959c8aa28a847a8595a58898868483.html",
-                    "optionText": "Opcion 2"
                 }
             ]
         }
