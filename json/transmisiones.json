@@ -447,13 +447,6 @@
     "evento": "Germany W vs. Spain W ",
     "tipo": "normal"
   },
-  "tv23": {
-    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThjOTU5ZjhjYTI4NTg0N2E4NTk5OWM4OTk4ODY4NzgyLmh0bWw=",
-    "hora": "13:45",
-    "torneo": "",
-    "evento": "Linlithgow Rose vs. Queen's Park",
-    "tipo": "normal"
-  },
   "bel3": {
     "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThjOTU5ZjhjYTI4NTg0N2E4NTk5OWM4YTk4ODY4NzdiLmh0bWw=",
     "hora": "13:45",
@@ -461,14 +454,14 @@
     "evento": "KV Mechelen vs. Standard Liege",
     "tipo": "normal"
   },
-  "tv24": {
+  "tv23": {
     "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThjOTU5ZjhjYTI4NTg0N2E4NTk5OWM4Yjk4ODY4NzdjLmh0bWw=",
     "hora": "13:45",
     "torneo": "Friendly",
     "evento": "Portugal W vs. Netherlands W ",
     "tipo": "normal"
   },
-  "tv25": {
+  "tv24": {
     "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThjOTU5ZjhjYTI4NTg0N2E4NTk5OWM4Yzk4ODY4NzdkLmh0bWw=",
     "hora": "13:45",
     "torneo": "Friendly",
@@ -487,6 +480,13 @@
     "hora": "13:45",
     "torneo": "Ligue 1",
     "evento": "Metz vs. Rennes ",
+    "tipo": "normal"
+  },
+  "tv25": {
+    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThjOTU5ZjhjYTI4NTg0N2E4NTk5OWM4OTk4ODY4NzgyLmh0bWw=",
+    "hora": "13:45",
+    "torneo": "Scottish Cup",
+    "evento": "Linlithgow Rose vs. Queen's Park",
     "tipo": "normal"
   },
   "it3": {
@@ -550,6 +550,55 @@
     "hora": "14:15",
     "torneo": "Liga Portugal",
     "evento": "Vitoria Guimaraes vs. AFS",
+    "tipo": "normal"
+  },
+  "tv26": {
+    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThjOTU5ZjhkOWM4YTg0N2E4NTk5YTM4OTk4ODc4NDdhLmh0bWw=",
+    "hora": "15:00",
+    "torneo": "CONMEBOL Nations League",
+    "evento": "Bolivia W vs. Colombia W ",
+    "tipo": "normal"
+  },
+  "tv27": {
+    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThjOTU5ZjhkOWM4YTg0N2E4NTk5YTM4YTk4ODc4NDdiLmh0bWw=",
+    "hora": "15:00",
+    "torneo": "CONMEBOL Nations League",
+    "evento": "Bolivia W vs. Colombia W ",
+    "tipo": "normal"
+  },
+  "tv28": {
+    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThjOTU5ZjhkOWM4YTg0N2E4NTk5YTM4Yjk4ODc4NDdjLmh0bWw=",
+    "hora": "15:00",
+    "torneo": "CONMEBOL Nations League",
+    "evento": "Peru W vs. Chile W",
+    "tipo": "normal"
+  },
+  "chl1": {
+    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThjOTU5ZjhkOWU4ODg0N2E4NTk5YTQ4Yzk4ODc4NDgzLmh0bWw=",
+    "hora": "15:30",
+    "torneo": "Chile Primera A",
+    "evento": "Cobresal vs. Colo Colo",
+    "tipo": "normal"
+  },
+  "bol1": {
+    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThjOTU5ZjhkYTA4Njg0N2E4NTlhOWM4Nzk4ODc4NjgwLmh0bWw=",
+    "hora": "16:00",
+    "torneo": "Bolivia",
+    "evento": "Real Oruro vs. Tomayapo",
+    "tipo": "normal"
+  },
+  "bra1": {
+    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThjOTU5ZjhkYTA4Njg0N2E4NTlhOWM4ODk4ODc4NjgxLmh0bWw=",
+    "hora": "16:00",
+    "torneo": "Brazil Serie A",
+    "evento": "Juventude vs. EC Bahia",
+    "tipo": "normal"
+  },
+  "bra2": {
+    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThjOTU5ZjhkYTI4NDg0N2E4NTlhOWQ4ODk4ODc4NzdlLmh0bWw=",
+    "hora": "16:30",
+    "torneo": "Brazil Serie A",
+    "evento": "Vasco vs. Internacional",
     "tipo": "normal"
   }
 }

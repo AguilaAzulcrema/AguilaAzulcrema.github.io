@@ -1800,14 +1800,6 @@
     "tipo": "normal"
   },
   "tv226": {
-    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThjOTU5ZjhjYTI4NTg0N2E4NTk5OWM4OTk4ODY4NzgyLmh0bWw=",
-    "hora": "13:45",
-    "categoria": "SOCCER",
-    "torneo": "",
-    "evento": "Linlithgow Rose vs. Queen's Park",
-    "tipo": "normal"
-  },
-  "tv227": {
     "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThjOTU5ZjhjYTI4NTg0N2E4NTk5OWM4YTk4ODY4NzdiLmh0bWw=",
     "hora": "13:45",
     "categoria": "SOCCER",
@@ -1815,7 +1807,7 @@
     "evento": "KV Mechelen vs. Standard Liege",
     "tipo": "normal"
   },
-  "tv228": {
+  "tv227": {
     "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThjOTU5ZjhjYTI4NTg0N2E4NTk5OWM4Yjk4ODY4NzdjLmh0bWw=",
     "hora": "13:45",
     "categoria": "SOCCER",
@@ -1823,7 +1815,7 @@
     "evento": "Portugal W vs. Netherlands W ",
     "tipo": "normal"
   },
-  "tv229": {
+  "tv228": {
     "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThjOTU5ZjhjYTI4NTg0N2E4NTk5OWM4Yzk4ODY4NzdkLmh0bWw=",
     "hora": "13:45",
     "categoria": "SOCCER",
@@ -1831,7 +1823,7 @@
     "evento": "Portugal W vs. Netherlands W ",
     "tipo": "normal"
   },
-  "tv230": {
+  "tv229": {
     "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThjOTU5ZjhjYTI4NTg0N2E4NTk5OWM4ZDk4ODY4NzdlLmh0bWw=",
     "hora": "13:45",
     "categoria": "SOCCER",
@@ -1839,12 +1831,20 @@
     "evento": "Metz vs. Rennes ",
     "tipo": "normal"
   },
-  "tv231": {
+  "tv230": {
     "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThjOTU5ZjhjYTI4NTg0N2E4NTk5OWM4ZTk4ODY4NzdmLmh0bWw=",
     "hora": "13:45",
     "categoria": "SOCCER",
     "torneo": "Ligue 1",
     "evento": "Metz vs. Rennes ",
+    "tipo": "normal"
+  },
+  "tv231": {
+    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThjOTU5ZjhjYTI4NTg0N2E4NTk5OWM4OTk4ODY4NzgyLmh0bWw=",
+    "hora": "13:45",
+    "categoria": "SOCCER",
+    "torneo": "Scottish Cup",
+    "evento": "Linlithgow Rose vs. Queen's Park",
     "tipo": "normal"
   },
   "tv232": {
@@ -2141,6 +2141,542 @@
     "categoria": "AMERICAN FOOTBALL",
     "torneo": "NCAA",
     "evento": "San Diego State vs. New Mexico",
+    "tipo": "normal"
+  },
+  "tv269": {
+    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThjOTU5ZjhkOWM4YTg0N2E4NTk5YTA4Yjk4ODY4YzdlLmh0bWw=",
+    "hora": "15:00",
+    "categoria": "HOCKEY",
+    "torneo": "NHL",
+    "evento": "Calgary Flames vs. Florida Panthers ",
+    "tipo": "normal"
+  },
+  "tv270": {
+    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThjOTU5ZjhkOWM4YTg0N2E4NTk5YTA4Yzk4ODY4YzdmLmh0bWw=",
+    "hora": "15:00",
+    "categoria": "HOCKEY",
+    "torneo": "NHL",
+    "evento": "Calgary Flames vs. Florida Panthers ",
+    "tipo": "normal"
+  },
+  "tv271": {
+    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThjOTU5ZjhkOWM4YTg0N2E4NTk5YTA4ZDk4ODY4YzgwLmh0bWw=",
+    "hora": "15:00",
+    "categoria": "HOCKEY",
+    "torneo": "NHL",
+    "evento": "Los Angeles Kings vs. Anaheim Ducks ",
+    "tipo": "normal"
+  },
+  "tv272": {
+    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThjOTU5ZjhkOWM4YTg0N2E4NTk5YTA4ZTk4ODY4YzgxLmh0bWw=",
+    "hora": "15:00",
+    "categoria": "HOCKEY",
+    "torneo": "NHL",
+    "evento": "Los Angeles Kings vs. Anaheim Ducks ",
+    "tipo": "normal"
+  },
+  "tv273": {
+    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThjOTU5ZjhkOWM4YTg0N2E4NTk5YTA4Zjk4ODY4YzgyLmh0bWw=",
+    "hora": "15:00",
+    "categoria": "HOCKEY",
+    "torneo": "NHL",
+    "evento": "Montreal Canadiens vs. Vegas Golden Knights ",
+    "tipo": "normal"
+  },
+  "tv274": {
+    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThjOTU5ZjhkOWM4YTg0N2E4NTk5YTA5MDk4ODY4ZDdhLmh0bWw=",
+    "hora": "15:00",
+    "categoria": "HOCKEY",
+    "torneo": "NHL",
+    "evento": "Montreal Canadiens vs. Vegas Golden Knights ",
+    "tipo": "normal"
+  },
+  "tv275": {
+    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThjOTU5ZjhkOWM4YTg0N2E4NTk5YTE4Nzk4ODY4YzgzLmh0bWw=",
+    "hora": "15:00",
+    "categoria": "HOCKEY",
+    "torneo": "NHL",
+    "evento": "Montreal Canadiens vs. Vegas Golden Knights ",
+    "tipo": "normal"
+  },
+  "tv276": {
+    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThjOTU5ZjhkOWM4YTg0N2E4NTk5YTE4ODk4ODY4ZDdiLmh0bWw=",
+    "hora": "15:00",
+    "categoria": "HOCKEY",
+    "torneo": "NHL",
+    "evento": "New Jersey Devils vs. Buffalo Sabres ",
+    "tipo": "normal"
+  },
+  "tv277": {
+    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThjOTU5ZjhkOWM4YTg0N2E4NTk5YTE4OTk4ODY4ZDdjLmh0bWw=",
+    "hora": "15:00",
+    "categoria": "HOCKEY",
+    "torneo": "NHL",
+    "evento": "New Jersey Devils vs. Buffalo Sabres ",
+    "tipo": "normal"
+  },
+  "tv278": {
+    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThjOTU5ZjhkOWM4YTg0N2E4NTk5YTE4YTk4ODY4ZDdkLmh0bWw=",
+    "hora": "15:00",
+    "categoria": "HOCKEY",
+    "torneo": "NHL",
+    "evento": "Ottawa Senators vs. St. Louis Blues ",
+    "tipo": "normal"
+  },
+  "tv279": {
+    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThjOTU5ZjhkOWM4YTg0N2E4NTk5YTE4Yjk4ODY4ZDdmLmh0bWw=",
+    "hora": "15:00",
+    "categoria": "HOCKEY",
+    "torneo": "NHL",
+    "evento": "Ottawa Senators vs. St. Louis Blues ",
+    "tipo": "normal"
+  },
+  "tv280": {
+    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThjOTU5ZjhkOWM4YTg0N2E4NTk5YTE4Yzk4ODY4ZDdlLmh0bWw=",
+    "hora": "15:00",
+    "categoria": "HOCKEY",
+    "torneo": "NHL",
+    "evento": "Ottawa Senators vs. St. Louis Blues ",
+    "tipo": "normal"
+  },
+  "tv281": {
+    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThjOTU5ZjhkOWM4YTg0N2E4NTk5YTE4ZDk4ODY4ZDgwLmh0bWw=",
+    "hora": "15:00",
+    "categoria": "HOCKEY",
+    "torneo": "NHL",
+    "evento": "Philadelphia Flyers vs. New York Islanders ",
+    "tipo": "normal"
+  },
+  "tv282": {
+    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThjOTU5ZjhkOWM4YTg0N2E4NTk5YTE4ZTk4ODY4ZDgxLmh0bWw=",
+    "hora": "15:00",
+    "categoria": "HOCKEY",
+    "torneo": "NHL",
+    "evento": "Philadelphia Flyers vs. New York Islanders ",
+    "tipo": "normal"
+  },
+  "tv283": {
+    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThjOTU5ZjhkOWM4YTg0N2E4NTk5YTE4Zjk4ODY4ZDgyLmh0bWw=",
+    "hora": "15:00",
+    "categoria": "HOCKEY",
+    "torneo": "NHL",
+    "evento": "Vancouver Canucks vs. San Jose Sharks ",
+    "tipo": "normal"
+  },
+  "tv284": {
+    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThjOTU5ZjhkOWM4YTg0N2E4NTk5YTE5MDk4ODY4ZDgzLmh0bWw=",
+    "hora": "15:00",
+    "categoria": "HOCKEY",
+    "torneo": "NHL",
+    "evento": "Vancouver Canucks vs. San Jose Sharks ",
+    "tipo": "normal"
+  },
+  "tv285": {
+    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThjOTU5ZjhkOWM4YTg0N2E4NTk5YTI4Nzk4ODY4YjgzLmh0bWw=",
+    "hora": "15:00",
+    "categoria": "AMERICAN FOOTBALL",
+    "torneo": "NCAA",
+    "evento": "Boise State vs. Utah State",
+    "tipo": "normal"
+  },
+  "tv286": {
+    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThjOTU5ZjhkOWM4YTg0N2E4NTk5YTI4ODk4ODY4YjgyLmh0bWw=",
+    "hora": "15:00",
+    "categoria": "BASKETBALL",
+    "torneo": "NCAA",
+    "evento": "Queens University vs. Virginia",
+    "tipo": "normal"
+  },
+  "tv287": {
+    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThjOTU5ZjhkOWM4YTg0N2E4NTk5YTI4OTk4ODY4YjdjLmh0bWw=",
+    "hora": "15:00",
+    "categoria": "BASKETBALL",
+    "torneo": "NCAA",
+    "evento": "Charleston Southern vs. South Carolina",
+    "tipo": "normal"
+  },
+  "tv288": {
+    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThjOTU5ZjhkOWM4YTg0N2E4NTk5YTI4YTk4ODY4YjdkLmh0bWw=",
+    "hora": "15:00",
+    "categoria": "BASKETBALL",
+    "torneo": "NCAA",
+    "evento": "Jarvis Christian vs. Abilene Christian",
+    "tipo": "normal"
+  },
+  "tv289": {
+    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThjOTU5ZjhkOWM4YTg0N2E4NTk5YTI4Yjk4ODY4YjdlLmh0bWw=",
+    "hora": "15:00",
+    "categoria": "BASKETBALL",
+    "torneo": "NCAA",
+    "evento": "Maine vs. American University",
+    "tipo": "normal"
+  },
+  "tv290": {
+    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThjOTU5ZjhkOWM4YTg0N2E4NTk5YTI4Yzk4ODY4YjdmLmh0bWw=",
+    "hora": "15:00",
+    "categoria": "BASKETBALL",
+    "torneo": "NCAA",
+    "evento": "Missouri Baptist vs. SIU Edwardsville",
+    "tipo": "normal"
+  },
+  "tv291": {
+    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThjOTU5ZjhkOWM4YTg0N2E4NTk5YTI4ZDk4ODY4YjgwLmh0bWw=",
+    "hora": "15:00",
+    "categoria": "BASKETBALL",
+    "torneo": "NCAA",
+    "evento": "NJIT vs. Eastern Michigan",
+    "tipo": "normal"
+  },
+  "tv292": {
+    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThjOTU5ZjhkOWM4YTg0N2E4NTk5YTI4ZTk4ODY4YjgxLmh0bWw=",
+    "hora": "15:00",
+    "categoria": "BASKETBALL",
+    "torneo": "NCAA",
+    "evento": "North Carolina A&T vs. Davidson",
+    "tipo": "normal"
+  },
+  "tv293": {
+    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThjOTU5ZjhkOWM4YTg0N2E4NTk5YTI4Zjk4ODY4YzdjLmh0bWw=",
+    "hora": "15:00",
+    "categoria": "BASKETBALL",
+    "torneo": "NCAAW",
+    "evento": "UC Davis (W) vs. Jacksonville State (W)",
+    "tipo": "normal"
+  },
+  "tv294": {
+    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThjOTU5ZjhkOWM4YTg0N2E4NTk5YTI5MDk4ODY4YzdhLmh0bWw=",
+    "hora": "15:00",
+    "categoria": "BASKETBALL",
+    "torneo": "NCAAW",
+    "evento": "Florida State (W) vs. Missouri State (W)",
+    "tipo": "normal"
+  },
+  "tv295": {
+    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThjOTU5ZjhkOWM4YTg0N2E4NTk5YTM4Nzk4ODY4YzdiLmh0bWw=",
+    "hora": "15:00",
+    "categoria": "BASKETBALL",
+    "torneo": "NCAAW",
+    "evento": "Southern Miss (W) vs. #25 NC State (W)",
+    "tipo": "normal"
+  },
+  "tv296": {
+    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThjOTU5ZjhkOWM4YTg0N2E4NTk5YTM4ODk4ODY4YzdkLmh0bWw=",
+    "hora": "15:00",
+    "categoria": "BASKETBALL",
+    "torneo": "NCAAW",
+    "evento": "Western Carolina (W) vs. Clemson (W)",
+    "tipo": "normal"
+  },
+  "tv297": {
+    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThjOTU5ZjhkOWM4YTg0N2E4NTk5YTM4OTk4ODc4NDdhLmh0bWw=",
+    "hora": "15:00",
+    "categoria": "SOCCER",
+    "torneo": "CONMEBOL Nations League",
+    "evento": "Bolivia W vs. Colombia W ",
+    "tipo": "normal"
+  },
+  "tv298": {
+    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThjOTU5ZjhkOWM4YTg0N2E4NTk5YTM4YTk4ODc4NDdiLmh0bWw=",
+    "hora": "15:00",
+    "categoria": "SOCCER",
+    "torneo": "CONMEBOL Nations League",
+    "evento": "Bolivia W vs. Colombia W ",
+    "tipo": "normal"
+  },
+  "tv299": {
+    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThjOTU5ZjhkOWM4YTg0N2E4NTk5YTM4Yjk4ODc4NDdjLmh0bWw=",
+    "hora": "15:00",
+    "categoria": "SOCCER",
+    "torneo": "CONMEBOL Nations League",
+    "evento": "Peru W vs. Chile W",
+    "tipo": "normal"
+  },
+  "tv300": {
+    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThjOTU5ZjhkOWM4YTg0N2E4NTk5YTM4Yzk4ODY4YTgyLmh0bWw=",
+    "hora": "15:00",
+    "categoria": "HOCKEY",
+    "torneo": "AHL",
+    "evento": "Charlotte Checkers vs. Toronto Marlies",
+    "tipo": "normal"
+  },
+  "tv301": {
+    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThjOTU5ZjhkOWM4YTg0N2E4NTk5YTM4ZDk4ODY4YTgzLmh0bWw=",
+    "hora": "15:00",
+    "categoria": "HOCKEY",
+    "torneo": "NCAA",
+    "evento": "Alaska Nanooks vs. St. Lawrence Saints",
+    "tipo": "normal"
+  },
+  "tv302": {
+    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThjOTU5ZjhkOWM4YTg0N2E4NTk5YTM4ZTk4ODY4YjdhLmh0bWw=",
+    "hora": "15:00",
+    "categoria": "HOCKEY",
+    "torneo": "NCAA",
+    "evento": "Michigan State Spartans vs. Colgate Raiders",
+    "tipo": "normal"
+  },
+  "tv303": {
+    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThjOTU5ZjhkOWM4YTg0N2E4NTk5YTM4Zjk4ODY4YjdiLmh0bWw=",
+    "hora": "15:00",
+    "categoria": "HOCKEY",
+    "torneo": "PWHL",
+    "evento": "Seattle Torrent W vs. Minnesota Frost W",
+    "tipo": "normal"
+  },
+  "tv304": {
+    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThjOTU5ZjhkOWU4ODg0N2E4NTk5YTM5MDk4ODc4NDgxLmh0bWw=",
+    "hora": "15:30",
+    "categoria": "BASKETBALL",
+    "torneo": "NCAA",
+    "evento": "Washington vs. Colorado",
+    "tipo": "normal"
+  },
+  "tv305": {
+    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThjOTU5ZjhkOWU4ODg0N2E4NTk5YTQ4Nzk4ODc4NDdkLmh0bWw=",
+    "hora": "15:30",
+    "categoria": "BASKETBALL",
+    "torneo": "NCAA",
+    "evento": "Colorado State vs. South Florida",
+    "tipo": "normal"
+  },
+  "tv306": {
+    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThjOTU5ZjhkOWU4ODg0N2E4NTk5YTQ4ODk4ODc4NDdlLmh0bWw=",
+    "hora": "15:30",
+    "categoria": "BASKETBALL",
+    "torneo": "NCAA",
+    "evento": "Le Moyne vs. Lafayette",
+    "tipo": "normal"
+  },
+  "tv307": {
+    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThjOTU5ZjhkOWU4ODg0N2E4NTk5YTQ4OTk4ODc4NDgwLmh0bWw=",
+    "hora": "15:30",
+    "categoria": "BASKETBALL",
+    "torneo": "NCAA",
+    "evento": "Merrimack vs. Pennsylvania",
+    "tipo": "normal"
+  },
+  "tv308": {
+    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThjOTU5ZjhkOWU4ODg0N2E4NTk5YTQ4YTk4ODc4NDdmLmh0bWw=",
+    "hora": "15:30",
+    "categoria": "BASKETBALL",
+    "torneo": "NCAA",
+    "evento": "Lehigh vs. UC Santa Barbara",
+    "tipo": "normal"
+  },
+  "tv309": {
+    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThjOTU5ZjhkOWU4ODg0N2E4NTk5YTQ4Yjk4ODc4NDgyLmh0bWw=",
+    "hora": "15:30",
+    "categoria": "BASKETBALL",
+    "torneo": "NCAAW",
+    "evento": "East Tennessee State (W) vs. Bellarmine (W)",
+    "tipo": "normal"
+  },
+  "tv310": {
+    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThjOTU5ZjhkOWU4ODg0N2E4NTk5YTQ4Yzk4ODc4NDgzLmh0bWw=",
+    "hora": "15:30",
+    "categoria": "SOCCER",
+    "torneo": "Chile Primera A",
+    "evento": "Cobresal vs. Colo Colo",
+    "tipo": "normal"
+  },
+  "tv311": {
+    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThjOTU5ZjhkOWU4ODg0N2E4NTk5YTQ4ZDk4ODc4NTdhLmh0bWw=",
+    "hora": "15:30",
+    "categoria": "VOLLEYBALL",
+    "torneo": "Brazil SuperLiga",
+    "evento": "Barueri W vs. Praia Clube W",
+    "tipo": "normal"
+  },
+  "tv312": {
+    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThjOTU5ZjhkOWU4ODg0N2E4NTk5YTQ4ZTk4ODc4NTdiLmh0bWw=",
+    "hora": "15:30",
+    "categoria": "VOLLEYBALL",
+    "torneo": "Brazil SuperLiga",
+    "evento": "Fluminense W vs. Osasco W",
+    "tipo": "normal"
+  },
+  "tv313": {
+    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThjOTU5ZjhkYTA4Njg0N2E4NTk5YTQ4Zjk4ODc4NjdiLmh0bWw=",
+    "hora": "16:00",
+    "categoria": "HOCKEY",
+    "torneo": "NHL",
+    "evento": "Toronto Maple Leafs vs. Washington Capitals ",
+    "tipo": "normal"
+  },
+  "tv314": {
+    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThjOTU5ZjhkYTA4Njg0N2E4NTk5YTQ5MDk4ODc4NjdkLmh0bWw=",
+    "hora": "16:00",
+    "categoria": "HOCKEY",
+    "torneo": "NHL",
+    "evento": "Toronto Maple Leafs vs. Washington Capitals ",
+    "tipo": "normal"
+  },
+  "tv315": {
+    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThjOTU5ZjhkYTA4Njg0N2E4NTk5YTU4Nzk4ODc4NjdjLmh0bWw=",
+    "hora": "16:00",
+    "categoria": "HOCKEY",
+    "torneo": "NHL",
+    "evento": "Toronto Maple Leafs vs. Washington Capitals ",
+    "tipo": "normal"
+  },
+  "tv316": {
+    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThjOTU5ZjhkYTA4Njg0N2E4NTk5YTU4ODk4ODc4NjdlLmh0bWw=",
+    "hora": "16:00",
+    "categoria": "HOCKEY",
+    "torneo": "NHL",
+    "evento": "Winnipeg Jets vs. Carolina Hurricanes ",
+    "tipo": "normal"
+  },
+  "tv317": {
+    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThjOTU5ZjhkYTA4Njg0N2E4NTk5YTU4OTk4ODc4NjdmLmh0bWw=",
+    "hora": "16:00",
+    "categoria": "HOCKEY",
+    "torneo": "NHL",
+    "evento": "Winnipeg Jets vs. Carolina Hurricanes ",
+    "tipo": "normal"
+  },
+  "tv318": {
+    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThjOTU5ZjhkYTA4Njg0N2E4NTk5YTU4YTk4ODc4NTgwLmh0bWw=",
+    "hora": "16:00",
+    "categoria": "BASKETBALL",
+    "torneo": "NCAA",
+    "evento": "Texas A&M vs. Florida State",
+    "tipo": "normal"
+  },
+  "tv319": {
+    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThjOTU5ZjhkYTA4Njg0N2E4NTk5YTU4Yjk4ODc4NTdmLmh0bWw=",
+    "hora": "16:00",
+    "categoria": "BASKETBALL",
+    "torneo": "NCAA",
+    "evento": "Midwestern State vs. Tarleton State",
+    "tipo": "normal"
+  },
+  "tv320": {
+    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThjOTU5ZjhkYTA4Njg0N2E4NTk5YTU4Yzk4ODc4NTdlLmh0bWw=",
+    "hora": "16:00",
+    "categoria": "BASKETBALL",
+    "torneo": "NCAA",
+    "evento": "Franklin Pierce vs. Fordham",
+    "tipo": "normal"
+  },
+  "tv321": {
+    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThjOTU5ZjhkYTA4Njg0N2E4NTk5YTU4ZDk4ODc4NTgxLmh0bWw=",
+    "hora": "16:00",
+    "categoria": "BASKETBALL",
+    "torneo": "NCAAW",
+    "evento": "#18 USC (W) vs. Pepperdine (W)",
+    "tipo": "normal"
+  },
+  "tv322": {
+    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThjOTU5ZjhkYTA4Njg0N2E4NTk5YTU4ZTk4ODc4NjdhLmh0bWw=",
+    "hora": "16:00",
+    "categoria": "BASKETBALL",
+    "torneo": "NCAAW",
+    "evento": "UC Irvine (W) vs. Wichita State (W)",
+    "tipo": "normal"
+  },
+  "tv323": {
+    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThjOTU5ZjhkYTA4Njg0N2E4NTk5YTU4Zjk4ODc4NTgyLmh0bWw=",
+    "hora": "16:00",
+    "categoria": "BASKETBALL",
+    "torneo": "NCAAW",
+    "evento": "Dayton (W) vs. Butler (W)",
+    "tipo": "normal"
+  },
+  "tv324": {
+    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThjOTU5ZjhkYTA4Njg0N2E4NTk5YTU5MDk4ODc4NTgzLmh0bWw=",
+    "hora": "16:00",
+    "categoria": "BASKETBALL",
+    "torneo": "NCAAW",
+    "evento": "St. John's (W) vs. Georgia Tech (W)",
+    "tipo": "normal"
+  },
+  "tv325": {
+    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThjOTU5ZjhkYTA4Njg0N2E4NTlhOWM4Nzk4ODc4NjgwLmh0bWw=",
+    "hora": "16:00",
+    "categoria": "SOCCER",
+    "torneo": "Bolivia",
+    "evento": "Real Oruro vs. Tomayapo",
+    "tipo": "normal"
+  },
+  "tv326": {
+    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThjOTU5ZjhkYTA4Njg0N2E4NTlhOWM4ODk4ODc4NjgxLmh0bWw=",
+    "hora": "16:00",
+    "categoria": "SOCCER",
+    "torneo": "Brazil Serie A",
+    "evento": "Juventude vs. EC Bahia",
+    "tipo": "normal"
+  },
+  "tv327": {
+    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThjOTU5ZjhkYTA4Njg0N2E4NTlhOWM4OTk4ODc4NTdjLmh0bWw=",
+    "hora": "16:00",
+    "categoria": "HOCKEY",
+    "torneo": "AHL",
+    "evento": "Tucson Roadrunners vs. Abbotsford Canucks",
+    "tipo": "normal"
+  },
+  "tv328": {
+    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThjOTU5ZjhkYTA4Njg0N2E4NTlhOWM4YTk4ODc4NTdkLmh0bWw=",
+    "hora": "16:00",
+    "categoria": "HOCKEY",
+    "torneo": "NCAA",
+    "evento": "Arizona State Sun Devils vs. Ohio State Buckeyes",
+    "tipo": "normal"
+  },
+  "tv329": {
+    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThjOTU5ZjhkYTI4NDg0N2E4NTlhOWM4Yjk4ODc4NjgzLmh0bWw=",
+    "hora": "16:30",
+    "categoria": "BASKETBALL",
+    "torneo": "NCAA",
+    "evento": "Wisconsin vs. TCU",
+    "tipo": "normal"
+  },
+  "tv330": {
+    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThjOTU5ZjhkYTI4NDg0N2E4NTlhOWM4Yzk4ODc4NjgyLmh0bWw=",
+    "hora": "16:30",
+    "categoria": "BASKETBALL",
+    "torneo": "NCAA",
+    "evento": "Texas A&M-Corpus Christi vs. Xavier",
+    "tipo": "normal"
+  },
+  "tv331": {
+    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThjOTU5ZjhkYTI4NDg0N2E4NTlhOWM4ZDk4ODc4NzdhLmh0bWw=",
+    "hora": "16:30",
+    "categoria": "BASKETBALL",
+    "torneo": "NCAAW",
+    "evento": "Chattanooga (W) vs. Sacramento State (W)",
+    "tipo": "normal"
+  },
+  "tv332": {
+    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThjOTU5ZjhkYTI4NDg0N2E4NTlhOWM4ZTk4ODc4NzdkLmh0bWw=",
+    "hora": "16:30",
+    "categoria": "BASKETBALL",
+    "torneo": "NCAAW",
+    "evento": "Washington State (W) vs. Miami (OH) (W)",
+    "tipo": "normal"
+  },
+  "tv333": {
+    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThjOTU5ZjhkYTI4NDg0N2E4NTlhOWM4Zjk4ODc4NzdiLmh0bWw=",
+    "hora": "16:30",
+    "categoria": "BASKETBALL",
+    "torneo": "NCAAW",
+    "evento": "Morgan State (W) vs. #16 Kentucky (W)",
+    "tipo": "normal"
+  },
+  "tv334": {
+    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThjOTU5ZjhkYTI4NDg0N2E4NTlhOWM5MDk4ODc4NzdjLmh0bWw=",
+    "hora": "16:30",
+    "categoria": "BASKETBALL",
+    "torneo": "NCAAW",
+    "evento": "UNLV (W) vs. Northern Iowa (W)",
+    "tipo": "normal"
+  },
+  "tv335": {
+    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThjOTU5ZjhkYTI4NDg0N2E4NTlhOWQ4ODk4ODc4NzdlLmh0bWw=",
+    "hora": "16:30",
+    "categoria": "SOCCER",
+    "torneo": "Brazil Serie A",
+    "evento": "Vasco vs. Internacional",
     "tipo": "normal"
   }
 }
