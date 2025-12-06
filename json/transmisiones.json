@@ -734,13 +734,6 @@
     "evento": "RB Leipzig vs. Eintracht Frankfurt ",
     "tipo": "normal"
   },
-  "tv16": {
-    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThjOTY5YzhiOWI4Njg0N2E4NTk4YTI5MDk4ODY4YjdmLmh0bWw=",
-    "hora": "11:30",
-    "torneo": "England National League",
-    "evento": "Scunthorpe vs. Tamworth",
-    "tipo": "normal"
-  },
   "en22": {
     "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThjOTY5YzhiOWI4Njg0N2E4NTk4YTM4Nzk4ODY4YjdjLmh0bWw=",
     "hora": "11:30",
@@ -762,7 +755,7 @@
     "evento": "Leeds vs. Liverpool ",
     "tipo": "normal"
   },
-  "tv17": {
+  "tv16": {
     "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThjOTY5YzhiOWI4Njg0N2E4NTk4YTM4YTk4ODY4YjgwLmh0bWw=",
     "hora": "11:30",
     "torneo": "Israel Ligat haAl",
@@ -809,6 +802,76 @@
     "hora": "11:45",
     "torneo": "Eredivisie",
     "evento": "Sittard vs. Ajax ",
+    "tipo": "normal"
+  },
+  "por3": {
+    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThjOTY5YzhiOWQ4NDg0N2E4NTk4YTU4Yzk4ODc4NDdiLmh0bWw=",
+    "hora": "12:00",
+    "torneo": "Liga Portugal",
+    "evento": "AFS vs. Rio Ave",
+    "tipo": "normal"
+  },
+  "por4": {
+    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThjOTY5YzhiOWQ4NDg0N2E4NTk4YTU4ZDk4ODY4ZDgzLmh0bWw=",
+    "hora": "12:00",
+    "torneo": "Liga Portugal 2",
+    "evento": "Benfica B vs. Oliveirense",
+    "tipo": "normal"
+  },
+  "por5": {
+    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThjOTY5YzhiOWQ4NDg0N2E4NTk4YTU4ZTk4ODc4NDdhLmh0bWw=",
+    "hora": "12:00",
+    "torneo": "Liga Portugal 2",
+    "evento": "Leixoes vs. FC Porto B",
+    "tipo": "normal"
+  },
+  "fr3": {
+    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThjOTY5YzhiOWQ4NDg0N2E4NTk4YTU4Zjk4ODc4NDdjLmh0bWw=",
+    "hora": "12:00",
+    "torneo": "Ligue 1",
+    "evento": "Toulouse vs. Strasbourg ",
+    "tipo": "normal"
+  },
+  "fr4": {
+    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThjOTY5YzhiOWQ4NDg0N2E4NTk4YTU5MDk4ODc4NDdkLmh0bWw=",
+    "hora": "12:00",
+    "torneo": "Ligue 1",
+    "evento": "Toulouse vs. Strasbourg ",
+    "tipo": "normal"
+  },
+  "tv17": {
+    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThjOTY5YzhiOWQ4NDg0N2E4NTk5OWM4Nzk4ODc4NDdlLmh0bWw=",
+    "hora": "12:00",
+    "torneo": "NCAA Tournament",
+    "evento": "Saint Louis vs. Akron",
+    "tipo": "normal"
+  },
+  "tv18": {
+    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThjOTY5YzhiOWQ4NDg0N2E4NTk5OWM4ODk4ODc4NDdmLmh0bWw=",
+    "hora": "12:00",
+    "torneo": "NCAA Tournament",
+    "evento": "Washington vs. Maryland",
+    "tipo": "normal"
+  },
+  "es13": {
+    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThjOTY5YzhiOWQ4NDg0N2E4NTk5OWM4OTk4ODc4NDgwLmh0bWw=",
+    "hora": "12:00",
+    "torneo": "Spain Liga F",
+    "evento": "Real Madrid W vs. Real Sociedad W",
+    "tipo": "normal"
+  },
+  "tv19": {
+    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThjOTY5YzhiOWU4Yzg0N2E4NTk5OWQ4Nzk4ODc4NTdjLmh0bWw=",
+    "hora": "12:30",
+    "torneo": "Greece",
+    "evento": "Volos vs. Kifisia",
+    "tipo": "normal"
+  },
+  "rom2": {
+    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThjOTY5YzhiOWU4Yzg0N2E4NTk5OWQ4ODk4ODc4NTdkLmh0bWw=",
+    "hora": "12:30",
+    "torneo": "Romania",
+    "evento": "FCSB vs. Dinamo Bucuresti",
     "tipo": "normal"
   }
 }
