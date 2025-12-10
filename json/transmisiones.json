@@ -145,5 +145,383 @@
     "torneo": "UEFA Champions League",
     "evento": "Valerenga W vs. Paris FC W ",
     "tipo": "normal"
+  },
+  "ger1": {
+    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThjOTY5ZjkwOWE4ODg0N2E4NTk3YTQ4Zjk4OGQ4NS5odG1s",
+    "hora": "12:30",
+    "torneo": "Bundesliga Women",
+    "evento": "1.FC Nurnberg W vs. Eintracht Frankfurt W",
+    "tipo": "normal"
+  },
+  "bol1": {
+    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThjOTY5ZjkwOWM4Njg0N2E4NTk4OWM4Nzk4ODU4NDdhLmh0bWw=",
+    "hora": "13:00",
+    "torneo": "Bolivia",
+    "evento": "Blooming vs. Aurora",
+    "tipo": "normal"
+  },
+  "ned1": {
+    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThjOTY5ZjkwOWM4Njg0N2E4NTk4OWM4ODk4ODU4NDdiLmh0bWw=",
+    "hora": "13:00",
+    "torneo": "Eerste Divisie",
+    "evento": "Vitesse vs. RKC Waalwijk",
+    "tipo": "normal"
+  },
+  "en1": {
+    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThjOTY5ZjkwOWU4ZDg0N2E4NTk4OWQ4Yjk4ODU4NDgzLmh0bWw=",
+    "hora": "13:45",
+    "torneo": "England Championship",
+    "evento": "Bristol City vs. Leicester City",
+    "tipo": "normal"
+  },
+  "en2": {
+    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThjOTY5ZjkwOWU4ZDg0N2E4NTk4OWQ4Yzk4ODU4NTdhLmh0bWw=",
+    "hora": "13:45",
+    "torneo": "England Championship",
+    "evento": "Derby County vs. Millwall",
+    "tipo": "normal"
+  },
+  "en3": {
+    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThjOTY5ZjkwOWU4ZDg0N2E4NTk4OWQ4ZDk4ODU4NTdiLmh0bWw=",
+    "hora": "13:45",
+    "torneo": "England Championship",
+    "evento": "Ipswich vs. Stoke City",
+    "tipo": "normal"
+  },
+  "tv8": {
+    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThjOTY5ZjkwOWU4ZDg0N2E4NTk4OWQ4ZTk4ODU4NTdjLmh0bWw=",
+    "hora": "13:45",
+    "torneo": "England League One",
+    "evento": "Rotherham vs. Blackpool",
+    "tipo": "normal"
+  },
+  "tv9": {
+    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThjOTY5ZjkwOWU4ZDg0N2E4NTk4OWQ4Zjk4ODU4NTdkLmh0bWw=",
+    "hora": "13:45",
+    "torneo": "England League Two",
+    "evento": "Crewe vs. Newport Count",
+    "tipo": "normal"
+  },
+  "tv10": {
+    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThjOTY5ZjkwOWU4ZDg0N2E4NTk4OWQ5MDk4ODU4NTdlLmh0bWw=",
+    "hora": "13:45",
+    "torneo": "England League Two",
+    "evento": "Oldham vs. Walsall",
+    "tipo": "normal"
+  },
+  "cl14": {
+    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThjOTY5ZjkwOWY4Yzg0N2E4NTk4OWU4ODk4ODU4ODdhLmh0bWw=",
+    "hora": "14:00",
+    "torneo": "UEFA Champions League",
+    "evento": "Simulcast",
+    "tipo": "normal"
+  },
+  "cl15": {
+    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThjOTY5ZjkwOWY4Yzg0N2E4NTk4OWU4OTk4ODU4NTgwLmh0bWw=",
+    "hora": "14:00",
+    "torneo": "UEFA Champions League",
+    "evento": "Athletic Bilbao vs. PSG ",
+    "tipo": "normal"
+  },
+  "cl16": {
+    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThjOTY5ZjkwOWY4Yzg0N2E4NTk4OWU4YTk4ODU4NTgxLmh0bWw=",
+    "hora": "14:00",
+    "torneo": "UEFA Champions League",
+    "evento": "Athletic Bilbao vs. PSG ",
+    "tipo": "normal"
+  },
+  "cl17": {
+    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThjOTY5ZjkwOWY4Yzg0N2E4NTk4OWU4Yjk4ODU4NTgyLmh0bWw=",
+    "hora": "14:00",
+    "torneo": "UEFA Champions League",
+    "evento": "Athletic Bilbao vs. PSG ",
+    "tipo": "normal"
+  },
+  "cl18": {
+    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThjOTY5ZjkwOWY4Yzg0N2E4NTk4OWU4Yzk4ODU4NTgzLmh0bWw=",
+    "hora": "14:00",
+    "torneo": "UEFA Champions League",
+    "evento": "Athletic Bilbao vs. PSG ",
+    "tipo": "normal"
+  },
+  "cl19": {
+    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThjOTY5ZjkwOWY4Yzg0N2E4NTk4OWU4ZDk4ODU4NjdhLmh0bWw=",
+    "hora": "14:00",
+    "torneo": "UEFA Champions League",
+    "evento": "Bayer Leverkusen vs. Newcastle ",
+    "tipo": "normal"
+  },
+  "cl20": {
+    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThjOTY5ZjkwOWY4Yzg0N2E4NTk4OWU4ZTk4ODU4NjdiLmh0bWw=",
+    "hora": "14:00",
+    "torneo": "UEFA Champions League",
+    "evento": "Bayer Leverkusen vs. Newcastle ",
+    "tipo": "normal"
+  },
+  "cl21": {
+    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThjOTY5ZjkwOWY4Yzg0N2E4NTk4OWU4Zjk4ODU4NjdjLmh0bWw=",
+    "hora": "14:00",
+    "torneo": "UEFA Champions League",
+    "evento": "Bayer Leverkusen vs. Newcastle ",
+    "tipo": "normal"
+  },
+  "cl22": {
+    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThjOTY5ZjkwOWY4Yzg0N2E4NTk4OWU5MDk4ODU4NjdkLmh0bWw=",
+    "hora": "14:00",
+    "torneo": "UEFA Champions League",
+    "evento": "Benfica vs. Napoli ",
+    "tipo": "normal"
+  },
+  "cl23": {
+    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThjOTY5ZjkwOWY4Yzg0N2E4NTk4OWY4Nzk4ODU4NjdlLmh0bWw=",
+    "hora": "14:00",
+    "torneo": "UEFA Champions League",
+    "evento": "Benfica vs. Napoli ",
+    "tipo": "normal"
+  },
+  "cl24": {
+    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThjOTY5ZjkwOWY4Yzg0N2E4NTk4OWY4ODk4ODU4NjdmLmh0bWw=",
+    "hora": "14:00",
+    "torneo": "UEFA Champions League",
+    "evento": "Benfica vs. Napoli ",
+    "tipo": "normal"
+  },
+  "cl25": {
+    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThjOTY5ZjkwOWY4Yzg0N2E4NTk4OWY4OTk4ODU4NjgwLmh0bWw=",
+    "hora": "14:00",
+    "torneo": "UEFA Champions League",
+    "evento": "Benfica vs. Napoli ",
+    "tipo": "normal"
+  },
+  "cl26": {
+    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThjOTY5ZjkwOWY4Yzg0N2E4NTk4OWY4YTk4ODU4NjgxLmh0bWw=",
+    "hora": "14:00",
+    "torneo": "UEFA Champions League",
+    "evento": "Borussia Dortmund vs. Bodo/Glimt ",
+    "tipo": "normal"
+  },
+  "cl27": {
+    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThjOTY5ZjkwOWY4Yzg0N2E4NTk4OWY4Yjk4ODU4NjgyLmh0bWw=",
+    "hora": "14:00",
+    "torneo": "UEFA Champions League",
+    "evento": "Borussia Dortmund vs. Bodo/Glimt ",
+    "tipo": "normal"
+  },
+  "cl28": {
+    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThjOTY5ZjkwOWY4Yzg0N2E4NTk4OWY4Yzk4ODU4NjgzLmh0bWw=",
+    "hora": "14:00",
+    "torneo": "UEFA Champions League",
+    "evento": "Borussia Dortmund vs. Bodo/Glimt ",
+    "tipo": "normal"
+  },
+  "cl29": {
+    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThjOTY5ZjkwOWY4Yzg0N2E4NTk4OWY4ZTk4ODU4NzdiLmh0bWw=",
+    "hora": "14:00",
+    "torneo": "UEFA Champions League",
+    "evento": "Club Brugge KV vs. Arsenal ",
+    "tipo": "normal"
+  },
+  "cl30": {
+    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThjOTY5ZjkwOWY4Yzg0N2E4NTk4OWY4Zjk4ODU4NzdjLmh0bWw=",
+    "hora": "14:00",
+    "torneo": "UEFA Champions League",
+    "evento": "Club Brugge KV vs. Arsenal ",
+    "tipo": "normal"
+  },
+  "cl31": {
+    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThjOTY5ZjkwOWY4Yzg0N2E4NTk4OWY4ZDk4ODU4NzdhLmh0bWw=",
+    "hora": "14:00",
+    "torneo": "UEFA Champions League",
+    "evento": "Club Brugge KV vs. Arsenal ",
+    "tipo": "normal"
+  },
+  "cl32": {
+    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThjOTY5ZjkwOWY4Yzg0N2E4NTk4OWY5MDk4ODU4NzdkLmh0bWw=",
+    "hora": "14:00",
+    "torneo": "UEFA Champions League",
+    "evento": "Juventus vs. Pafos ",
+    "tipo": "normal"
+  },
+  "cl33": {
+    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThjOTY5ZjkwOWY4Yzg0N2E4NTk4YTA4Nzk4ODU4NzdlLmh0bWw=",
+    "hora": "14:00",
+    "torneo": "UEFA Champions League",
+    "evento": "Juventus vs. Pafos ",
+    "tipo": "normal"
+  },
+  "cl34": {
+    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThjOTY5ZjkwOWY4Yzg0N2E4NTk4YTA4ODk4ODU4NzdmLmh0bWw=",
+    "hora": "14:00",
+    "torneo": "UEFA Champions League",
+    "evento": "Juventus vs. Pafos ",
+    "tipo": "normal"
+  },
+  "cl35": {
+    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThjOTY5ZjkwOWY4Yzg0N2E4NTk4YTA4OTk4ODU4NzgwLmh0bWw=",
+    "hora": "14:00",
+    "torneo": "UEFA Champions League",
+    "evento": "Real Madrid vs. Manchester City ",
+    "tipo": "normal"
+  },
+  "cl36": {
+    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThjOTY5ZjkwOWY4Yzg0N2E4NTk4YTA4YTk4ODU4NzgxLmh0bWw=",
+    "hora": "14:00",
+    "torneo": "UEFA Champions League",
+    "evento": "Real Madrid vs. Manchester City ",
+    "tipo": "normal"
+  },
+  "cl37": {
+    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThjOTY5ZjkwOWY4Yzg0N2E4NTk4YTA4Yjk4ODU4NzgyLmh0bWw=",
+    "hora": "14:00",
+    "torneo": "UEFA Champions League",
+    "evento": "Real Madrid vs. Manchester City ",
+    "tipo": "normal"
+  },
+  "cl38": {
+    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThjOTY5ZjkwOWY4Yzg0N2E4NTk4YTA4Yzk4ODU4NzgzLmh0bWw=",
+    "hora": "14:00",
+    "torneo": "UEFA Champions League",
+    "evento": "Real Madrid vs. Manchester City ",
+    "tipo": "normal"
+  },
+  "en4": {
+    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThjOTY5ZjkwOWY4Yzg0N2E4NTk4YTA4ZDk4ODU4ODdiLmh0bWw=",
+    "hora": "14:00",
+    "torneo": "England Championship",
+    "evento": "Hull City vs. Wrexham",
+    "tipo": "normal"
+  },
+  "gua1": {
+    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThjOTY5ZjkwOWY4Yzg0N2E4NTk4YTA4ZTk4ODU4ODdjLmh0bWw=",
+    "hora": "14:00",
+    "torneo": "Guatemala",
+    "evento": "Aurora F.C. vs. Malacateco",
+    "tipo": "normal"
+  },
+  "cl39": {
+    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThjOTY5ZjkwOWY4Yzg0N2E4NTk4YTA4Zjk4ODU4ODdkLmh0bWw=",
+    "hora": "14:00",
+    "torneo": "UEFA Champions League",
+    "evento": "Atletico Madrid W vs. Bayern Munich W ",
+    "tipo": "normal"
+  },
+  "cl40": {
+    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThjOTY5ZjkwOWY4Yzg0N2E4NTk4YTA5MDk4ODU4ODdlLmh0bWw=",
+    "hora": "14:00",
+    "torneo": "UEFA Champions League",
+    "evento": "Atletico Madrid W vs. Bayern Munich W ",
+    "tipo": "normal"
+  },
+  "cl41": {
+    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThjOTY5ZjkwOWY4Yzg0N2E4NTk4YTE4Nzk4ODU4ODdmLmh0bWw=",
+    "hora": "14:00",
+    "torneo": "UEFA Champions League",
+    "evento": "Chelsea W vs. AS Roma W ",
+    "tipo": "normal"
+  },
+  "cl42": {
+    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThjOTY5ZjkwOWY4Yzg0N2E4NTk4YTE4ODk4ODU4ODgwLmh0bWw=",
+    "hora": "14:00",
+    "torneo": "UEFA Champions League",
+    "evento": "Chelsea W vs. AS Roma W ",
+    "tipo": "normal"
+  },
+  "cl43": {
+    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThjOTY5ZjkwOWY4Yzg0N2E4NTk4YTE4OTk4ODU4ODgxLmh0bWw=",
+    "hora": "14:00",
+    "torneo": "UEFA Champions League",
+    "evento": "Manchester United W vs. Lyon W ",
+    "tipo": "normal"
+  },
+  "cl44": {
+    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThjOTY5ZjkwOWY4Yzg0N2E4NTk4YTE4YTk4ODU4ODgyLmh0bWw=",
+    "hora": "14:00",
+    "torneo": "UEFA Champions League",
+    "evento": "Manchester United W vs. Lyon W ",
+    "tipo": "normal"
+  },
+  "bol2": {
+    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThjOTZhMDg3OWI4Njg0N2E4NTk4YTE4ZTk4ODU4OTdiLmh0bWw=",
+    "hora": "15:30",
+    "torneo": "Bolivia",
+    "evento": "Universitario de Vinto vs. Independiente",
+    "tipo": "normal"
+  },
+  "ecu1": {
+    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThjOTZhMDg3OWQ4NDg0N2E4NTk4YTI4Nzk4ODU4OTdlLmh0bWw=",
+    "hora": "16:00",
+    "torneo": "Ecuador",
+    "evento": "Independiente del Valle vs. LDU Quito",
+    "tipo": "normal"
+  },
+  "ar1": {
+    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThjOTZhMDg3YTA4YTg0N2E4NTk4YTM4ODk4ODU4YTgwLmh0bWw=",
+    "hora": "17:00",
+    "torneo": "Argentina Primera B",
+    "evento": "Argentino de Merlo vs. Deportivo Armenio",
+    "tipo": "normal"
+  },
+  "tv11": {
+    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThjOTZhMDg3YTA4YTg0N2E4NTk4YTM4OTk4ODU4YTgxLmh0bWw=",
+    "hora": "17:00",
+    "torneo": "Copa Chile",
+    "evento": "Huachipato vs. Limache",
+    "tipo": "normal"
+  },
+  "ar2": {
+    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThjOTZhMDg3YTI4ODg0N2E4NTk4YTM4Yzk4ODU4YTgzLmh0bWw=",
+    "hora": "17:30",
+    "torneo": "Argentina Primera B",
+    "evento": "Real Pilar vs. Acassuso",
+    "tipo": "normal"
+  },
+  "bra1": {
+    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThjOTZhMDg4OWM4NDg0N2E4NTk1YTA5MDk4ODY4NjdjLmh0bWw=",
+    "hora": "18:30",
+    "torneo": "Copa do Brasil",
+    "evento": "Cruzeiro vs. Corinthians ",
+    "tipo": "normal"
+  },
+  "bra2": {
+    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThjOTZhMDg4OWM4NDg0N2E4NTk1YTE4Nzk4ODY4NjdkLmh0bWw=",
+    "hora": "18:30",
+    "torneo": "Copa do Brasil",
+    "evento": "Cruzeiro vs. Corinthians ",
+    "tipo": "normal"
+  },
+  "bra3": {
+    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThjOTZhMDg4OWM4NDg0N2E4NTk1YTE4ODk4ODY4NjdlLmh0bWw=",
+    "hora": "18:30",
+    "torneo": "Copa do Brasil",
+    "evento": "Cruzeiro vs. Corinthians ",
+    "tipo": "normal"
+  },
+  "hon1": {
+    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThjOTZhMDg4OWQ4Yzg0N2E4NTk1YTI4ZTk4ODY4NzgzLmh0bWw=",
+    "hora": "19:00",
+    "torneo": "Honduras",
+    "evento": "Real Espana vs. CD Olimpia",
+    "tipo": "normal"
+  },
+  "bol3": {
+    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThjOTZhMDg4OWQ4Yzg0N2E4NTk1YTI4Zjk4ODY4ODdhLmh0bWw=",
+    "hora": "19:00",
+    "torneo": "Peru",
+    "evento": "Sporting Cristal vs. Cusco",
+    "tipo": "normal"
+  },
+  "tv12": {
+    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThjOTZhMDg4YTE4ODg0N2E4NTk1YTQ4OTk4ODY4OTdmLmh0bWw=",
+    "hora": "20:00",
+    "torneo": "Costa Rica",
+    "evento": "Liberia vs. Alajuelense",
+    "tipo": "normal"
+  },
+  "gua2": {
+    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThjOTZhMDg4YTE4ODg0N2E4NTk1YTQ4YTk4ODY4OTgwLmh0bWw=",
+    "hora": "20:00",
+    "torneo": "Guatemala",
+    "evento": "CSD Municipal vs. Mictlan",
+    "tipo": "normal"
   }
 }
