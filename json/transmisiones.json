@@ -1,184 +1,107 @@
 {
-  "por1": {
-    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThjOTZhNTg3OWQ4ODg0N2E4NTk3OWY4OTk4ODk4Ni5odG1s",
-    "hora": "11:00",
-    "torneo": "Liga Portugal 2",
-    "evento": "Maritimo vs. Benfica B",
-    "tipo": "normal"
-  },
   "tv1": {
-    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThjOTZhNTg3YTA4NTg0N2E4NTk3YTA4YTk4ODk4Yy5odG1s",
-    "hora": "11:45",
-    "torneo": "KNVB Beker",
-    "evento": "Heracles vs. Hoogeveen",
-    "tipo": "normal"
-  },
-  "es1": {
-    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThjOTZhNTg3YTE4NDg0N2E4NTk3YTA4ZDk4OGE4Ni5odG1s",
-    "hora": "12:00",
-    "torneo": "Copa del Rey",
-    "evento": "Deportivo La Coruna vs. Mallorca",
-    "tipo": "normal"
-  },
-  "es2": {
-    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThjOTZhNTg3YTE4NDg0N2E4NTk3YTA4ZTk4OGE4Ny5odG1s",
-    "hora": "12:00",
-    "torneo": "Copa del Rey",
-    "evento": "Eibar vs. Elche ",
-    "tipo": "normal"
-  },
-  "es3": {
-    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThjOTZhNTg3YTE4NDg0N2E4NTk3YTA4Zjk4OGE4OC5odG1s",
-    "hora": "12:00",
-    "torneo": "Copa del Rey",
-    "evento": "Eibar vs. Elche ",
-    "tipo": "normal"
-  },
-  "bel1": {
-    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThjOTZhNTg4OWE4YTg0N2E4NTk3YTE4Zjk4OGM4NS5odG1s",
-    "hora": "13:00",
-    "torneo": "Belgium 1B",
-    "evento": "Beerschot VA vs. Gent U23",
-    "tipo": "normal"
-  },
-  "bel2": {
-    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThjOTZhNTg4OWE4YTg0N2E4NTk3YTE5MDk4OGM4Ni5odG1s",
-    "hora": "13:00",
-    "torneo": "Belgium 1B",
-    "evento": "K. Lierse S.K. vs. KV Kortrijk",
-    "tipo": "normal"
-  },
-  "bel3": {
-    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThjOTZhNTg4OWE4YTg0N2E4NTk3YTI4Nzk4OGM4Ny5odG1s",
-    "hora": "13:00",
-    "torneo": "Belgium 1B",
-    "evento": "OC Charleroi vs. Lommel SK",
-    "tipo": "normal"
-  },
-  "bol1": {
-    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThjOTZhNTg4OWE4YTg0N2E4NTk3YTI4ODk4OGM4OC5odG1s",
-    "hora": "13:00",
-    "torneo": "Copa Bolivia",
-    "evento": "Blooming vs. Bolivar",
+    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThjOTZhNThlOWI4Yzg0N2E4NTlhOWM4ODk4ODcuaHRtbA==",
+    "hora": "06:00",
+    "torneo": "Turkish Cup",
+    "evento": "Karagumruk vs. Istanbulspor AS",
     "tipo": "normal"
   },
   "tv2": {
-    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThjOTZhNTg4OWE4YTg0N2E4NTk3YTI4OTk4OGM4OS5odG1s",
-    "hora": "13:00",
-    "torneo": "KNVB Beker",
-    "evento": "AFC vs. NEC Nijmegen",
+    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThjOTZhNThmOTk4NDg0N2E4NTlhOWM4OTk4ODkuaHRtbA==",
+    "hora": "08:00",
+    "torneo": "Greek Cup",
+    "evento": "Kavala vs. Panathinaikos",
+    "tipo": "normal"
+  },
+  "por1": {
+    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThjOTZhNThmOTk4NDg0N2E4NTlhOWM4YTk4OGEuaHRtbA==",
+    "hora": "08:00",
+    "torneo": "Taca de Portugal",
+    "evento": "Vila Mea vs. Leiria",
+    "tipo": "normal"
+  },
+  "bih1": {
+    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThjOTZhNThmOWM4YTg0N2E4NTlhOWM4Yjk4OGMuaHRtbA==",
+    "hora": "09:00",
+    "torneo": "Liga BiH",
+    "evento": "Zeljeznicar vs. Sloga Doboj",
     "tipo": "normal"
   },
   "tv3": {
-    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThjOTZhNTg4OWE4YTg0N2E4NTk3YTI4YTk4OGM4YS5odG1s",
-    "hora": "13:00",
-    "torneo": "KNVB Beker",
-    "evento": "Simulcast",
+    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThjOTZhNThmOWM4YTg0N2E4NTlhOWM4ODk4OGQuaHRtbA==",
+    "hora": "09:00",
+    "torneo": "Turkish Cup",
+    "evento": "Rizespor vs. Gaziantep",
     "tipo": "normal"
   },
-  "sui1": {
-    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThjOTZhNTg4OWM4ODg0N2E4NTk3YTM4Zjk4OGQ4Yy5odG1s",
-    "hora": "13:30",
-    "torneo": "Swiss Super League",
-    "evento": "St. Gallen vs. FC Sion",
-    "tipo": "normal"
-  },
-  "sui2": {
-    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThjOTZhNTg4OWM4ODg0N2E4NTk3YTM5MDk4OGQ4ZC5odG1s",
-    "hora": "13:30",
-    "torneo": "Swiss Super League",
-    "evento": "Winterthur vs. Thun",
-    "tipo": "normal"
-  },
-  "es4": {
-    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThjOTZhNTg4OWU4Njg0N2E4NTk4OWM4Nzk4ODU4NDdkLmh0bWw=",
-    "hora": "14:00",
-    "torneo": "Copa del Rey",
-    "evento": "Eldense vs. Real Sociedad",
-    "tipo": "normal"
-  },
-  "es5": {
-    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThjOTZhNTg4OWU4Njg0N2E4NTk4OWM4ODk4ODU4NDdlLmh0bWw=",
-    "hora": "14:00",
-    "torneo": "Copa del Rey",
-    "evento": "Guadalajara vs. Barcelona ",
-    "tipo": "normal"
-  },
-  "es6": {
-    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThjOTZhNTg4OWU4Njg0N2E4NTk4OWM4OTk4ODU4NDdmLmh0bWw=",
-    "hora": "14:00",
-    "torneo": "Copa del Rey",
-    "evento": "Guadalajara vs. Barcelona ",
-    "tipo": "normal"
-  },
-  "es7": {
-    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThjOTZhNTg4OWU4Njg0N2E4NTk4OWM4YTk4ODU4NDgwLmh0bWw=",
-    "hora": "14:00",
-    "torneo": "Copa del Rey",
-    "evento": "Sporting Gijon vs. Valencia ",
-    "tipo": "normal"
-  },
-  "es8": {
-    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThjOTZhNTg4OWU4Njg0N2E4NTk4OWM4Yjk4ODU4NDgxLmh0bWw=",
-    "hora": "14:00",
-    "torneo": "Copa del Rey",
-    "evento": "Sporting Gijon vs. Valencia ",
-    "tipo": "normal"
-  },
-  "en1": {
-    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThjOTZhNTg4OWU4Njg0N2E4NTk4OWM4Yzk4ODU4NDgyLmh0bWw=",
-    "hora": "14:00",
-    "torneo": "EFL Cup",
-    "evento": "Cardiff City vs. Chelsea ",
-    "tipo": "normal"
-  },
-  "en2": {
-    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThjOTZhNTg4OWU4Njg0N2E4NTk4OWM4ZDk4ODU4NDgzLmh0bWw=",
-    "hora": "14:00",
-    "torneo": "EFL Cup",
-    "evento": "Cardiff City vs. Chelsea ",
+  "rs1": {
+    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThjOTZhNThmOWU4ODg0N2E4NTlhOWM4ZDk4ODU4NS5odG1s",
+    "hora": "09:30",
+    "torneo": "Serbia",
+    "evento": "Radnicki 1923 vs. Cukaricki",
     "tipo": "normal"
   },
   "tv4": {
-    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThjOTZhNTg4OWU4Njg0N2E4NTk4OWM4ZTk4ODU4NTdhLmh0bWw=",
-    "hora": "14:00",
-    "torneo": "KNVB Beker",
-    "evento": "PSV vs. GVVV ",
+    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThjOTZhNThmYTA4Njg0N2E4NTk3OWQ4OTk4ODc4OC5odG1s",
+    "hora": "10:00",
+    "torneo": "Greek Cup",
+    "evento": "Olympiacos Piraeus vs. Iraklis 1908",
+    "tipo": "normal"
+  },
+  "es1": {
+    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThjOTZhNTkwOTk4Yzg0N2E4NTk3OWY4YTk4OGE4ZC5odG1s",
+    "hora": "11:00",
+    "torneo": "Copa del Rey",
+    "evento": "Cultural Leonesa vs. Levante",
     "tipo": "normal"
   },
   "tv5": {
-    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThjOTZhNTg4OWU4Njg0N2E4NTk4OWM4Zjk4ODU4NTdiLmh0bWw=",
-    "hora": "14:00",
-    "torneo": "KNVB Beker",
-    "evento": "PSV vs. GVVV ",
-    "tipo": "normal"
-  },
-  "bol2": {
-    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThjOTZhNTg5OWY4NDg0N2E4NTk4OWU4Yjk4ODU4NjgzLmh0bWw=",
-    "hora": "17:00",
-    "torneo": "Copa Bolivia",
-    "evento": "The Strongest vs. Nacional Potosi",
-    "tipo": "normal"
-  },
-  "col1": {
-    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThjOTZhNThhOWE4ODg0N2E4NTk1YTA4OTk4ODU4YzdiLmh0bWw=",
-    "hora": "18:30",
-    "torneo": "Colombia Primera A",
-    "evento": "Deportes Tolima vs. Deportivo Junior",
-    "tipo": "normal"
-  },
-  "cr1": {
-    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThjOTZhNThhOWY4Yzg0N2E4NTk1YTM4YTk4ODY4NTdkLmh0bWw=",
-    "hora": "20:00",
-    "torneo": "Costa Rica Liga de Ascenso",
-    "evento": "Cofutpa vs. Cariari Pococi",
+    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThjOTZhNTkwOTk4Yzg0N2E4NTk3OWY4Yjk4OGI4NC5odG1s",
+    "hora": "11:00",
+    "torneo": "FIFA Intercontinental Cup",
+    "evento": "PSG vs. Flamengo RJ ",
     "tipo": "normal"
   },
   "tv6": {
-    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThjOTZhNThjOWM4NDg0N2E4NTk1YTQ4ZTk4ODY4NjgwLmh0bWw=",
-    "hora": "00:30",
-    "torneo": "A-League Women",
-    "evento": "Melbourne City W vs. Adelaide United W",
+    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThjOTZhNTkwOTk4Yzg0N2E4NTk3OWY4Yzk4OGI4NS5odG1s",
+    "hora": "11:00",
+    "torneo": "FIFA Intercontinental Cup",
+    "evento": "PSG vs. Flamengo RJ ",
+    "tipo": "normal"
+  },
+  "tv7": {
+    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThjOTZhNTkwOTk4Yzg0N2E4NTk3OWY4ZTk4OGI4Ni5odG1s",
+    "hora": "11:00",
+    "torneo": "FIFA Intercontinental Cup",
+    "evento": "PSG vs. Flamengo RJ ",
+    "tipo": "normal"
+  },
+  "tv8": {
+    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThjOTZhNTkwOTk4Yzg0N2E4NTk3OWY4Zjk4OGI4Ny5odG1s",
+    "hora": "11:00",
+    "torneo": "FIFA Intercontinental Cup",
+    "evento": "PSG vs. Flamengo RJ ",
+    "tipo": "normal"
+  },
+  "tv9": {
+    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThjOTZhNTkwOWI4YTg0N2E4NTk3YTI4Nzk4OGM4Ny5odG1s",
+    "hora": "11:30",
+    "torneo": "Turkish Cup",
+    "evento": "Trabzonspor vs. Alanyaspor",
+    "tipo": "normal"
+  },
+  "tv10": {
+    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThjOTZhNTkwOWM4OTg0N2E4NTk3YTI4ZTk4OGM4OS5odG1s",
+    "hora": "11:45",
+    "torneo": "KNVB Beker",
+    "evento": "Excelsior Maassluis vs. Ajax ",
+    "tipo": "normal"
+  },
+  "tv11": {
+    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThjOTZhNTkwOWM4OTg0N2E4NTk3YTI4Zjk4OGM4YS5odG1s",
+    "hora": "11:45",
+    "torneo": "KNVB Beker",
+    "evento": "Excelsior Maassluis vs. Ajax ",
     "tipo": "normal"
   }
 }
