@@ -1,81 +1,4 @@
 {
-  "aus1": {
-    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThjOTc5ZDg5YTA4YTg0N2E4NTk2OWQ4YTk4ODYuaHRtbA==",
-    "hora": "01:00",
-    "torneo": "A-League",
-    "evento": "Macarthur FC vs. Brisbane Roar",
-    "tipo": "normal"
-  },
-  "tv1": {
-    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThjOTc5ZDhhOWE4Njg0N2E4NTk2OWQ4Yjk4ODcuaHRtbA==",
-    "hora": "02:00",
-    "torneo": "A-League Women",
-    "evento": "Newcastle W vs. Melbourne Victory W",
-    "tipo": "normal"
-  },
-  "aus2": {
-    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThjOTc5ZDhhOWQ4Yzg0N2E4NTk3OWM4Nzk4OGIuaHRtbA==",
-    "hora": "03:00",
-    "torneo": "A-League",
-    "evento": "Western Sydney Wanderers vs. Auckland FC",
-    "tipo": "normal"
-  },
-  "tv2": {
-    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThjOTc5ZDhiYTI4Njg0N2E4NTlhOWM4ZDk4ODU4OS5odG1s",
-    "hora": "07:00",
-    "torneo": "Israel Leumit League",
-    "evento": "Bnei Yehuda vs. Hapoel Rishon LeZion",
-    "tipo": "normal"
-  },
-  "tv3": {
-    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThjOTc5ZDhiYTI4Njg0N2E4NTlhOWM4OTk4ODU4YS5odG1s",
-    "hora": "07:00",
-    "torneo": "Israel Leumit League",
-    "evento": "Maccabi Jaffa vs. Hapoel Kfar Saba",
-    "tipo": "normal"
-  },
-  "tv4": {
-    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThjOTc5ZDhiYTI4Njg0N2E4NTlhOWM4ZTk4ODU4Yi5odG1s",
-    "hora": "07:00",
-    "torneo": "Israel Leumit League",
-    "evento": "Simulcast",
-    "tipo": "normal"
-  },
-  "tv5": {
-    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThjOTc5ZDhjOTk4NTg0N2E4NTlhOWM4Zjk4ODU4Yy5odG1s",
-    "hora": "07:15",
-    "torneo": "Bahrain Premier League",
-    "evento": "Al-Hidd vs. Al Khalidiyah",
-    "tipo": "normal"
-  },
-  "tv6": {
-    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThjOTc5ZDhjOTk4NTg0N2E4NTlhOWM5MDk4ODU4ZC5odG1s",
-    "hora": "07:15",
-    "torneo": "Bahrain Premier League",
-    "evento": "Sitra vs. Aali Club",
-    "tipo": "normal"
-  },
-  "hr1": {
-    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThjOTc5ZDhjOWY4ODg0N2E4NTlhOWQ4ODk4ODY4Ni5odG1s",
-    "hora": "09:00",
-    "torneo": "Croatia HNL",
-    "evento": "Varazdin vs. Istra 1961",
-    "tipo": "normal"
-  },
-  "bul1": {
-    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThjOTc5ZDhjYTE4Njg0N2E4NTlhOWQ4YTk4ODY4OC5odG1s",
-    "hora": "09:30",
-    "torneo": "Bulgaria",
-    "evento": "Beroe Stara Zagora vs. Ludogorets",
-    "tipo": "normal"
-  },
-  "tv7": {
-    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThjOTc5ZDhkOTk4NDg0N2E4NTk3OWQ4Yzk4ODg4OC5odG1s",
-    "hora": "10:00",
-    "torneo": "Bahrain Premier League",
-    "evento": "Al-Budaiya vs. Al-Muharraq",
-    "tipo": "normal"
-  },
   "tur1": {
     "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThjOTc5ZDhkOWM4YTg0N2E4NTk3OWY4Yzk4OGI4OS5odG1s",
     "hora": "11:00",
@@ -130,6 +53,300 @@
     "hora": "12:30",
     "torneo": "Swiss Challenge League",
     "evento": "Stade Nyonnais vs. Xamax",
+    "tipo": "normal"
+  },
+  "bel1": {
+    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThjOTc5ZDhlOTk4Yzg0N2E4NTk4OWM4Zjk4ODU4ODdhLmh0bWw=",
+    "hora": "13:00",
+    "torneo": "Belgium 1B",
+    "evento": "Gent U23 vs. Seraing",
+    "tipo": "normal"
+  },
+  "bel2": {
+    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThjOTc5ZDhlOTk4Yzg0N2E4NTk4OWM5MDk4ODU4ODdiLmh0bWw=",
+    "hora": "13:00",
+    "torneo": "Belgium 1B",
+    "evento": "Lommel SK vs. K. Lierse S.K.",
+    "tipo": "normal"
+  },
+  "ned1": {
+    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThjOTc5ZDhlOTk4Yzg0N2E4NTk4OWQ4Nzk4ODU4ODdjLmh0bWw=",
+    "hora": "13:00",
+    "torneo": "Eerste Divisie",
+    "evento": "Cambuur Leeuwarden vs. MVV Maastricht",
+    "tipo": "normal"
+  },
+  "ned2": {
+    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThjOTc5ZDhlOTk4Yzg0N2E4NTk4OWQ4ODk4ODU4ODdkLmh0bWw=",
+    "hora": "13:00",
+    "torneo": "Eerste Divisie",
+    "evento": "Den Haag vs. Jong PSV",
+    "tipo": "normal"
+  },
+  "ned3": {
+    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThjOTc5ZDhlOTk4Yzg0N2E4NTk4OWQ4OTk4ODU4ODdlLmh0bWw=",
+    "hora": "13:00",
+    "torneo": "Eerste Divisie",
+    "evento": "Eindhoven FC vs. Jong AZ",
+    "tipo": "normal"
+  },
+  "ned4": {
+    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThjOTc5ZDhlOTk4Yzg0N2E4NTk4OWQ4YTk4ODU4ODdmLmh0bWw=",
+    "hora": "13:00",
+    "torneo": "Eerste Divisie",
+    "evento": "VVV Venlo vs. Dordrecht",
+    "tipo": "normal"
+  },
+  "tv1": {
+    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThjOTc5ZDhlOTk4Yzg0N2E4NTk4OWQ4Yjk4ODU4ODgwLmh0bWw=",
+    "hora": "13:00",
+    "torneo": "Italian Super Cup",
+    "evento": "Bologna vs. Inter ",
+    "tipo": "normal"
+  },
+  "tv2": {
+    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThjOTc5ZDhlOTk4Yzg0N2E4NTk4OWQ4Yzk4ODU4ODgxLmh0bWw=",
+    "hora": "13:00",
+    "torneo": "Italian Super Cup",
+    "evento": "Bologna vs. Inter ",
+    "tipo": "normal"
+  },
+  "tv3": {
+    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThjOTc5ZDhlOTk4Yzg0N2E4NTk4OWQ4ZDk4ODU4ODgyLmh0bWw=",
+    "hora": "13:00",
+    "torneo": "Italian Super Cup",
+    "evento": "Bologna vs. Inter ",
+    "tipo": "normal"
+  },
+  "tv4": {
+    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThjOTc5ZDhlOTk4Yzg0N2E4NTk4OWQ4ZTk4ODU4ODgzLmh0bWw=",
+    "hora": "13:00",
+    "torneo": "Premier League International Cup",
+    "evento": "Manchester United U21 vs. Dortmund II",
+    "tipo": "normal"
+  },
+  "sui2": {
+    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThjOTc5ZDhlOWE4Yjg0N2E4NTk4OWU4Yjk4ODU4OTdmLmh0bWw=",
+    "hora": "13:15",
+    "torneo": "Swiss Challenge League",
+    "evento": "Etoile-Carouge vs. Lausanne Ouchy",
+    "tipo": "normal"
+  },
+  "sui3": {
+    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThjOTc5ZDhlOWE4Yjg0N2E4NTk4OWU4Yzk4ODU4OTgwLmh0bWw=",
+    "hora": "13:15",
+    "torneo": "Swiss Challenge League",
+    "evento": "FC Vaduz vs. Aarau",
+    "tipo": "normal"
+  },
+  "ger5": {
+    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThjOTc5ZDhlOWI4YTg0N2E4NTk4OWY4ODk4ODU4YTgyLmh0bWw=",
+    "hora": "13:30",
+    "torneo": "Bundesliga",
+    "evento": "Borussia Dortmund vs. Borussia Monchengladbach ",
+    "tipo": "normal"
+  },
+  "ger6": {
+    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThjOTc5ZDhlOWI4YTg0N2E4NTk4OWY4OTk4ODU4YTgzLmh0bWw=",
+    "hora": "13:30",
+    "torneo": "Bundesliga",
+    "evento": "Borussia Dortmund vs. Borussia Monchengladbach ",
+    "tipo": "normal"
+  },
+  "ger7": {
+    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThjOTc5ZDhlOWI4YTg0N2E4NTk4OWY4YTk4ODU4YjdhLmh0bWw=",
+    "hora": "13:30",
+    "torneo": "Bundesliga",
+    "evento": "Borussia Dortmund vs. Borussia Monchengladbach ",
+    "tipo": "normal"
+  },
+  "it1": {
+    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThjOTc5ZDhlOWI4YTg0N2E4NTk4OWY4Yjk4ODU4YjdiLmh0bWw=",
+    "hora": "13:30",
+    "torneo": "Italy Serie C",
+    "evento": "Audace Cerignola vs. Benevento",
+    "tipo": "normal"
+  },
+  "it2": {
+    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThjOTc5ZDhlOWI4YTg0N2E4NTk4OWY4Yzk4ODU4YjdjLmh0bWw=",
+    "hora": "13:30",
+    "torneo": "Italy Serie C",
+    "evento": "Cosenza vs. Cavese",
+    "tipo": "normal"
+  },
+  "it3": {
+    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThjOTc5ZDhlOWI4YTg0N2E4NTk4OWY4ZDk4ODU4YjdkLmh0bWw=",
+    "hora": "13:30",
+    "torneo": "Italy Serie C",
+    "evento": "Giugliano vs. Casertana",
+    "tipo": "normal"
+  },
+  "es1": {
+    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThjOTc5ZDhlOWI4YTg0N2E4NTk4OWY4ZTk4ODU4YjdlLmh0bWw=",
+    "hora": "13:30",
+    "torneo": "LaLiga2",
+    "evento": "Eibar vs. Valladolid",
+    "tipo": "normal"
+  },
+  "it4": {
+    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThjOTc5ZDhlOWI4YTg0N2E4NTk4OWY4Zjk4ODU4YjdmLmh0bWw=",
+    "hora": "13:30",
+    "torneo": "Serie B",
+    "evento": "Bari vs. Catanzaro",
+    "tipo": "normal"
+  },
+  "bel3": {
+    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThjOTc5ZDhlOWM4OTg0N2E4NTk4YTA4Zjk4ODU4YzdjLmh0bWw=",
+    "hora": "13:45",
+    "torneo": "Belgium 1A",
+    "evento": "Charleroi vs. Genk",
+    "tipo": "normal"
+  },
+  "tv5": {
+    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThjOTc5ZDhlOWM4OTg0N2E4NTk4YTA5MDk4ODU4YzdkLmh0bWw=",
+    "hora": "13:45",
+    "torneo": "Coupe de France",
+    "evento": "Avranches vs. Brest",
+    "tipo": "normal"
+  },
+  "tv6": {
+    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThjOTc5ZDhlOWM4OTg0N2E4NTk4YTE4Nzk4ODU4YzdlLmh0bWw=",
+    "hora": "13:45",
+    "torneo": "Coupe de France",
+    "evento": "Canet Roussillon vs. Montpellier",
+    "tipo": "normal"
+  },
+  "tv7": {
+    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThjOTc5ZDhlOWM4OTg0N2E4NTk4YTE4ODk4ODU4YzdmLmh0bWw=",
+    "hora": "13:45",
+    "torneo": "Coupe de France",
+    "evento": "Guingamp vs. Laval",
+    "tipo": "normal"
+  },
+  "tv8": {
+    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThjOTc5ZDhlOWM4OTg0N2E4NTk4YTE4OTk4ODU4YzgwLmh0bWw=",
+    "hora": "13:45",
+    "torneo": "Coupe de France",
+    "evento": "IC Croix vs. Reims",
+    "tipo": "normal"
+  },
+  "tv9": {
+    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThjOTc5ZDhlOWM4OTg0N2E4NTk4YTE4YTk4ODU4YzgxLmh0bWw=",
+    "hora": "13:45",
+    "torneo": "Coupe de France",
+    "evento": "Les Herbiers vs. Angers",
+    "tipo": "normal"
+  },
+  "tv10": {
+    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThjOTc5ZDhlOWM4OTg0N2E4NTk4YTE4Yjk4ODU4YzgyLmh0bWw=",
+    "hora": "13:45",
+    "torneo": "Coupe de France",
+    "evento": "Perigny vs. Le Mans",
+    "tipo": "normal"
+  },
+  "tv11": {
+    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThjOTc5ZDhlOWM4OTg0N2E4NTk4YTE4Yzk4ODU4YzgzLmh0bWw=",
+    "hora": "13:45",
+    "torneo": "England League One",
+    "evento": "Northampton vs. AFC Wimbledon",
+    "tipo": "normal"
+  },
+  "tv12": {
+    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThjOTc5ZDhlOWM4OTg0N2E4NTk4YTE4ZDk4ODU4ZDdhLmh0bWw=",
+    "hora": "13:45",
+    "torneo": "England League Two",
+    "evento": "Barrow vs. Cheltenham",
+    "tipo": "normal"
+  },
+  "tv13": {
+    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThjOTc5ZDhlOWM4OTg0N2E4NTk4YTE4ZTk4ODU4ZDdiLmh0bWw=",
+    "hora": "13:45",
+    "torneo": "England League Two",
+    "evento": "Cambridge United vs. Accrington",
+    "tipo": "normal"
+  },
+  "tv14": {
+    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThjOTc5ZDhlOWM4OTg0N2E4NTk4YTE4Zjk4ODU4ZDdjLmh0bWw=",
+    "hora": "13:45",
+    "torneo": "England League Two",
+    "evento": "Crewe vs. Bristol Rovers",
+    "tipo": "normal"
+  },
+  "tv15": {
+    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThjOTc5ZDhlOWM4OTg0N2E4NTk4YTE5MDk4ODU4ZDdkLmh0bWw=",
+    "hora": "13:45",
+    "torneo": "England National League",
+    "evento": "Altrincham vs. Rochdale",
+    "tipo": "normal"
+  },
+  "tv16": {
+    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThjOTc5ZDhlOWQ4ODg0N2E4NTk4YTI5MDk4ODU4ZDgyLmh0bWw=",
+    "hora": "14:00",
+    "torneo": "Coupe de France",
+    "evento": "Lens vs. Feignies-Aulnoye",
+    "tipo": "normal"
+  },
+  "en1": {
+    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThjOTc5ZDhlOWQ4ODg0N2E4NTk4YTM4Nzk4ODU4ZDgzLmh0bWw=",
+    "hora": "14:00",
+    "torneo": "England Championship",
+    "evento": "Swansea City vs. Wrexham ",
+    "tipo": "normal"
+  },
+  "en2": {
+    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThjOTc5ZDhlOWQ4ODg0N2E4NTk4YTM4ODk4ODY4NDdhLmh0bWw=",
+    "hora": "14:00",
+    "torneo": "England Championship",
+    "evento": "Swansea City vs. Wrexham ",
+    "tipo": "normal"
+  },
+  "es2": {
+    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThjOTc5ZDhlOWQ4ODg0N2E4NTk4YTM4OTk4ODY4NDdiLmh0bWw=",
+    "hora": "14:00",
+    "torneo": "LaLiga",
+    "evento": "Valencia vs. Mallorca ",
+    "tipo": "normal"
+  },
+  "es3": {
+    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThjOTc5ZDhlOWQ4ODg0N2E4NTk4YTM4YTk4ODY4NDdjLmh0bWw=",
+    "hora": "14:00",
+    "torneo": "LaLiga",
+    "evento": "Valencia vs. Mallorca ",
+    "tipo": "normal"
+  },
+  "por1": {
+    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThjOTc5ZDhlOWU4Nzg0N2E4NTk4YTM4Yzk4ODY4NDdkLmh0bWw=",
+    "hora": "14:15",
+    "torneo": "Liga Portugal",
+    "evento": "Estoril vs. Braga",
+    "tipo": "normal"
+  },
+  "tv17": {
+    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThjOTc5ZDkwYTI4YTg0N2E4NTk1YTQ4ZTk4ODc4NTdmLmh0bWw=",
+    "hora": "21:00",
+    "torneo": "A-League Women",
+    "evento": "Wellington Phoenix W vs. Sydney FC W",
+    "tipo": "normal"
+  },
+  "aus1": {
+    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThjOTc5ZTg4OTk4ODg0N2E4NTk1YTU4OTk4ODc4NTgzLmh0bWw=",
+    "hora": "00:00",
+    "torneo": "A-League",
+    "evento": "Newcastle Jets vs. Sydney FC",
+    "tipo": "normal"
+  },
+  "tv18": {
+    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThjOTc5ZTg4OTk4ODg0N2E4NTk1YTU4YTk4ODc4NTgyLmh0bWw=",
+    "hora": "00:00",
+    "torneo": "A-League Women",
+    "evento": "Canberra W vs. Central Coast Mariners W",
+    "tipo": "normal"
+  },
+  "aus2": {
+    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThjOTc5ZTg4YTI4Yjg0N2E4NTk1YTU4Zjk4ODc4NjdlLmh0bWw=",
+    "hora": "02:35",
+    "torneo": "A-League",
+    "evento": "Melbourne City vs. Melbourne Victory",
     "tipo": "normal"
   }
 }
