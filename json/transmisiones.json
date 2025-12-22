@@ -1,25 +1,4 @@
 {
-  "acn1": {
-    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThjOTdhMDg4OWI4NDg0N2E4NTlhOWM4ODk4ODguaHRtbA==",
-    "hora": "08:00",
-    "torneo": "Africa Cup of Nations",
-    "evento": "Mali vs. Zambia ",
-    "tipo": "normal"
-  },
-  "acn2": {
-    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThjOTdhMDg4OWI4NDg0N2E4NTlhOWM4OTk4ODkuaHRtbA==",
-    "hora": "08:00",
-    "torneo": "Africa Cup of Nations",
-    "evento": "Mali vs. Zambia ",
-    "tipo": "normal"
-  },
-  "tur1": {
-    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThjOTdhMDg4OWI4NDg0N2E4NTlhOWM4YTk4OGEuaHRtbA==",
-    "hora": "08:00",
-    "torneo": "Turkey Super Lig",
-    "evento": "Basaksehir vs. Gaziantep",
-    "tipo": "normal"
-  },
   "afc1": {
     "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThjOTdhMDg4YTI4Njg0N2E4NTlhOWM4ZDk4ODU4NC5odG1s",
     "hora": "10:00",
@@ -41,14 +20,14 @@
     "evento": "Panserraikos vs. Levadiakos",
     "tipo": "normal"
   },
-  "acn3": {
+  "acn1": {
     "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThjOTdhMDg5OWI4Yzg0N2E4NTk3OWQ4OTk4ODY4ZC5odG1s",
     "hora": "11:00",
     "torneo": "Africa Cup of Nations",
     "evento": "South Africa vs. Angola ",
     "tipo": "normal"
   },
-  "acn4": {
+  "acn2": {
     "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThjOTdhMDg5OWI4Yzg0N2E4NTk3OWQ4YTk4ODc4NC5odG1s",
     "hora": "11:00",
     "torneo": "Africa Cup of Nations",
@@ -97,18 +76,207 @@
     "evento": "Maccabi Petah Tikva vs. Hapoel Kfar Shalem",
     "tipo": "normal"
   },
-  "tur2": {
+  "tur1": {
     "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThjOTdhMDg5OWI4Yzg0N2E4NTk3OWU4Nzk4ODc4Yi5odG1s",
     "hora": "11:00",
     "torneo": "Turkey Super Lig",
     "evento": "Genclerbirligi vs. Trabzonspor",
     "tipo": "normal"
   },
-  "tur3": {
+  "tur2": {
     "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThjOTdhMDg5OWI4Yzg0N2E4NTk3OWU4ODk4ODc4Yy5odG1s",
     "hora": "11:00",
     "torneo": "Turkey 1 Lig",
     "evento": "Bodrumspor vs. Amedspor",
+    "tipo": "normal"
+  },
+  "por1": {
+    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThjOTdhMDg5OWY4ODg0N2E4NTk3OWY4Nzk4ODg4Yy5odG1s",
+    "hora": "12:00",
+    "torneo": "Liga Portugal 2",
+    "evento": "Benfica B vs. Sporting CP B",
+    "tipo": "normal"
+  },
+  "rom1": {
+    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThjOTdhMDg5OWY4ODg0N2E4NTk3OWY4ODk4ODg4ZC5odG1s",
+    "hora": "12:00",
+    "torneo": "Romania",
+    "evento": "Universitatea Craiova vs. Csikszereda M. Ciuc",
+    "tipo": "normal"
+  },
+  "rs1": {
+    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThjOTdhMDg5OWY4ODg0N2E4NTk3OWY4OTk4ODk4NC5odG1s",
+    "hora": "12:00",
+    "torneo": "Serbia",
+    "evento": "Napredak vs. Radnicki 1923",
+    "tipo": "normal"
+  },
+  "afc3": {
+    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThjOTdhMDg5YTA4Nzg0N2E4NTk3OWY4ZDk4ODk4NS5odG1s",
+    "hora": "12:15",
+    "torneo": "AFC Champions League",
+    "evento": "Al Shorta vs. Al Ahli SC",
+    "tipo": "normal"
+  },
+  "afc4": {
+    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThjOTdhMDg5YTA4Nzg0N2E4NTk3OWY4ZTk4ODk4Ni5odG1s",
+    "hora": "12:15",
+    "torneo": "AFC Champions League",
+    "evento": "Al-Gharafa vs. Al Wahda",
+    "tipo": "normal"
+  },
+  "tv5": {
+    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThjOTdhMDg5YTE4Njg0N2E4NTk3OWY4Zjk4ODk4OC5odG1s",
+    "hora": "12:30",
+    "torneo": "Israel Ligat haAl",
+    "evento": "Maccabi Haifa vs. Beitar Jerusalem",
+    "tipo": "normal"
+  },
+  "por2": {
+    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThjOTdhMDg5YTI4NTg0N2E4NTk3YTA4Nzk4ODk4Yi5odG1s",
+    "hora": "12:45",
+    "torneo": "Liga Portugal",
+    "evento": "Alverca vs. FC Porto ",
+    "tipo": "normal"
+  },
+  "por3": {
+    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThjOTdhMDg5YTI4NTg0N2E4NTk3YTA4ODk4ODk4Yy5odG1s",
+    "hora": "12:45",
+    "torneo": "Liga Portugal",
+    "evento": "Alverca vs. FC Porto ",
+    "tipo": "normal"
+  },
+  "ned1": {
+    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThjOTdhMDhhOTk4NDg0N2E4NTk3YTE4Yzk4OGI4OS5odG1s",
+    "hora": "13:00",
+    "torneo": "Eerste Divisie",
+    "evento": "Jong Ajax vs. RKC Waalwijk",
+    "tipo": "normal"
+  },
+  "ned2": {
+    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThjOTdhMDhhOTk4NDg0N2E4NTk3YTE4ZDk4OGI4YS5odG1s",
+    "hora": "13:00",
+    "torneo": "Eerste Divisie",
+    "evento": "Jong Utrecht vs. Roda JC",
+    "tipo": "normal"
+  },
+  "tv6": {
+    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThjOTdhMDhhOTk4NDg0N2E4NTk3YTE4ZTk4OGI4Yi5odG1s",
+    "hora": "13:00",
+    "torneo": "Italian Super Cup",
+    "evento": "Napoli vs. Bologna ",
+    "tipo": "normal"
+  },
+  "tv7": {
+    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThjOTdhMDhhOTk4NDg0N2E4NTk3YTE4Zjk4OGI4Yy5odG1s",
+    "hora": "13:00",
+    "torneo": "Italian Super Cup",
+    "evento": "Napoli vs. Bologna ",
+    "tipo": "normal"
+  },
+  "tv8": {
+    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThjOTdhMDhhOTk4NDg0N2E4NTk3YTE5MDk4OGI4ZC5odG1s",
+    "hora": "13:00",
+    "torneo": "Italian Super Cup",
+    "evento": "Napoli vs. Bologna ",
+    "tipo": "normal"
+  },
+  "it1": {
+    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThjOTdhMDhhOWE4Yzg0N2E4NTk3YTI4ZTk4OGM4OS5odG1s",
+    "hora": "13:30",
+    "torneo": "Italy Serie C",
+    "evento": "Brescia vs. Inter U23",
+    "tipo": "normal"
+  },
+  "acn3": {
+    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThjOTdhMDhhOWM4YTg0N2E4NTk3YTM4ZDk4OGQ4Ni5odG1s",
+    "hora": "14:00",
+    "torneo": "Africa Cup of Nations",
+    "evento": "Egypt vs. Zimbabwe ",
+    "tipo": "normal"
+  },
+  "acn4": {
+    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThjOTdhMDhhOWM4YTg0N2E4NTk3YTM4ZTk4OGQ4Ny5odG1s",
+    "hora": "14:00",
+    "torneo": "Africa Cup of Nations",
+    "evento": "Egypt vs. Zimbabwe ",
+    "tipo": "normal"
+  },
+  "acn5": {
+    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThjOTdhMDhhOWM4YTg0N2E4NTk2YTU5MDk4ODU4ZDdkLmh0bWw=",
+    "hora": "14:00",
+    "torneo": "Africa Cup of Nations",
+    "evento": "Egypt vs. Zimbabwe ",
+    "tipo": "normal"
+  },
+  "en1": {
+    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThjOTdhMDhhOWM4YTg0N2E4NTk3YTM4Zjk4OGQ4OC5odG1s",
+    "hora": "14:00",
+    "torneo": "EPL",
+    "evento": "Fulham vs. Nottingham Forest ",
+    "tipo": "normal"
+  },
+  "en2": {
+    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThjOTdhMDhhOWM4YTg0N2E4NTk3YTM5MDk4OGQ4OS5odG1s",
+    "hora": "14:00",
+    "torneo": "EPL",
+    "evento": "Fulham vs. Nottingham Forest ",
+    "tipo": "normal"
+  },
+  "es1": {
+    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThjOTdhMDhhOWM4YTg0N2E4NTk3YTQ4Nzk4OGQ4YS5odG1s",
+    "hora": "14:00",
+    "torneo": "LaLiga",
+    "evento": "Athletic Bilbao vs. Espanyol ",
+    "tipo": "normal"
+  },
+  "es2": {
+    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThjOTdhMDhhOWM4YTg0N2E4NTk3YTQ4ODk4OGQ4Yi5odG1s",
+    "hora": "14:00",
+    "torneo": "LaLiga",
+    "evento": "Athletic Bilbao vs. Espanyol ",
+    "tipo": "normal"
+  },
+  "por4": {
+    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThjOTdhMDhhOWY4Nzg0N2E4NTk3YTQ4OTk4OGQ4ZC5odG1s",
+    "hora": "14:45",
+    "torneo": "Liga Portugal",
+    "evento": "Benfica vs. Famalicao ",
+    "tipo": "normal"
+  },
+  "por5": {
+    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThjOTdhMDhhOWY4Nzg0N2E4NTk3YTQ4YTk4ODU4NDdhLmh0bWw=",
+    "hora": "14:45",
+    "torneo": "Liga Portugal",
+    "evento": "Benfica vs. Famalicao ",
+    "tipo": "normal"
+  },
+  "por6": {
+    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThjOTdhMDhhOWY4Nzg0N2E4NTk3YTQ4Yjk4OGQ4Yy5odG1s",
+    "hora": "14:45",
+    "torneo": "Liga Portugal 2",
+    "evento": "Lusitania FC vs. Oliveirense",
+    "tipo": "normal"
+  },
+  "bol1": {
+    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThjOTdhMDhiOWQ4ODg0N2E4NTk4OWM4ZDk4ODU4NTgxLmh0bWw=",
+    "hora": "17:00",
+    "torneo": "Copa Bolivia",
+    "evento": "Bolivar vs. Nacional Potosi",
+    "tipo": "normal"
+  },
+  "tv9": {
+    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThjOTdhMDhkYTA4Yzg0N2E4NTk1YTI4ZTk4ODU4ZDdhLmh0bWw=",
+    "hora": "23:30",
+    "torneo": "A-League Women",
+    "evento": "Melbourne City W vs. Melbourne Victory W",
+    "tipo": "normal"
+  },
+  "aus1": {
+    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThjOTdhMDhlYTA4Yjg0N2E4NTk1YTI5MDk4ODU4ZDdjLmh0bWw=",
+    "hora": "02:15",
+    "torneo": "A-League",
+    "evento": "Melbourne City vs. Macarthur FC",
     "tipo": "normal"
   }
 }
