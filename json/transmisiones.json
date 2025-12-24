@@ -1,177 +1,72 @@
 {
-  "tv1": {
-    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThjOTdhMThlOTk4ODg0N2E4NTlhOWM4Nzk4ODUuaHRtbA==",
-    "hora": "04:00",
-    "torneo": "Turkish Cup",
-    "evento": "Igdir FK vs. Aliaga",
-    "tipo": "normal"
-  },
-  "tv2": {
-    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThjOTdhMThlOWQ4NDg0N2E4NTlhOWM4ODk4ODYuaHRtbA==",
-    "hora": "05:00",
-    "torneo": "Thailand League 1",
-    "evento": "Ratchaburi vs. Chiangrai Utd",
-    "tipo": "normal"
-  },
-  "tv3": {
-    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThjOTdhMThlOWQ4NDg0N2E4NTlhOWM4OTk4ODcuaHRtbA==",
-    "hora": "05:00",
-    "torneo": "Thailand League 1",
-    "evento": "Sukhothai vs. Buriram",
-    "tipo": "normal"
-  },
-  "tv4": {
-    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThjOTdhMThlYTA4YTg0N2E4NTlhOWM4YTk4ODguaHRtbA==",
-    "hora": "06:00",
-    "torneo": "Thailand League 1",
-    "evento": "Pathum United vs. Kanchanaburi",
-    "tipo": "normal"
-  },
-  "tv5": {
-    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThjOTdhMThlYTE4OTg0N2E4NTlhOWM4Yjk4ODkuaHRtbA==",
-    "hora": "06:15",
-    "torneo": "Malaysia Super League",
-    "evento": "Kuala Lumpur City vs. Kuching City FC",
-    "tipo": "normal"
-  },
   "acn1": {
-    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThjOTdhMThlYTI4ODg0N2E4NTlhOWM4Yzk4OGEuaHRtbA==",
-    "hora": "06:30",
-    "torneo": "Africa Cup of Nations",
-    "evento": "Burkina Faso vs. Equatorial Guinea ",
-    "tipo": "normal"
-  },
-  "acn2": {
-    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThjOTdhMThlYTI4ODg0N2E4NTlhOWM4ZDk4OGIuaHRtbA==",
-    "hora": "06:30",
-    "torneo": "Africa Cup of Nations",
-    "evento": "Burkina Faso vs. Equatorial Guinea ",
-    "tipo": "normal"
-  },
-  "tv6": {
-    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThjOTdhMThlYTI4ODg0N2E4NTlhOWM4ZTk4OGMuaHRtbA==",
-    "hora": "06:30",
-    "torneo": "Albania",
-    "evento": "Vora vs. Bylis",
-    "tipo": "normal"
-  },
-  "tv7": {
-    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThjOTdhMThlYTI4ODg0N2E4NTlhOWM4Nzk4OGQuaHRtbA==",
-    "hora": "06:30",
-    "torneo": "Turkish Cup",
-    "evento": "Boluspor vs. Fethiyespor",
-    "tipo": "normal"
-  },
-  "tv8": {
-    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThjOTdhMThmOWE4Njg0N2E4NTlhOWM4Zjk4ODU4NC5odG1s",
-    "hora": "07:00",
-    "torneo": "Malaysia Super League",
-    "evento": "Kelantan The Real Warriors vs. Negeri Sembilan",
-    "tipo": "normal"
-  },
-  "tv9": {
-    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThjOTdhMThmOWE4Njg0N2E4NTlhOWM5MDk4ODU4NS5odG1s",
-    "hora": "07:00",
-    "torneo": "Malaysia Super League",
-    "evento": "Melaka FC vs. Imigresen",
-    "tipo": "normal"
-  },
-  "acn3": {
-    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThjOTdhMThmYTE4ODg0N2E4NTlhOWM4Yzk4ODU4Ny5odG1s",
-    "hora": "09:00",
-    "torneo": "Africa Cup of Nations",
-    "evento": "Algeria vs. Sudan ",
-    "tipo": "normal"
-  },
-  "acn4": {
-    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThjOTdhMThmYTE4ODg0N2E4NTlhOWM4ZDk4ODU4OC5odG1s",
-    "hora": "09:00",
-    "torneo": "Africa Cup of Nations",
-    "evento": "Algeria vs. Sudan ",
-    "tipo": "normal"
-  },
-  "tv10": {
-    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThjOTdhMThmYTE4ODg0N2E4NTlhOWM4Nzk4ODU4OS5odG1s",
-    "hora": "09:00",
-    "torneo": "Turkish Cup",
-    "evento": "Keciorengucu vs. Beyoglu Yeni Carsi",
-    "tipo": "normal"
-  },
-  "tv11": {
-    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThjOTdhMTkwOTk4Njg0N2E4NTlhOWQ4ODk4ODU4YS5odG1s",
-    "hora": "09:30",
-    "torneo": "Albania",
-    "evento": "AF Elbasani vs. KF Tirana",
-    "tipo": "normal"
-  },
-  "tv12": {
-    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThjOTdhMTkwOTk4Njg0N2E4NTlhOWQ4OTk4ODU4Yi5odG1s",
-    "hora": "09:30",
-    "torneo": "Albania",
-    "evento": "Vllaznia vs. Flamurtari",
-    "tipo": "normal"
-  },
-  "tv13": {
-    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThjOTdhMTkwOWI4NDg0N2E4NTlhOWQ4YTk4ODU4Yy5odG1s",
-    "hora": "10:00",
-    "torneo": "AFC Champions League 2",
-    "evento": "Al Ahli Doha vs. Andijan",
-    "tipo": "normal"
-  },
-  "tv14": {
-    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThjOTdhMTkwOWI4NDg0N2E4NTlhOWQ4Yjk4ODU4ZC5odG1s",
-    "hora": "10:00",
-    "torneo": "AFC Champions League 2",
-    "evento": "Al Nassr vs. Al Zawraa",
-    "tipo": "normal"
-  },
-  "tv15": {
-    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThjOTdhMTkwOWI4NDg0N2E4NTlhOWQ4Yzk4ODY4NC5odG1s",
-    "hora": "10:00",
-    "torneo": "AFC Champions League 2",
-    "evento": "Al Wasl vs. Al Wehdat",
-    "tipo": "normal"
-  },
-  "tv16": {
-    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThjOTdhMTkwOWI4NDg0N2E4NTlhOWQ4ZDk4ODY4NS5odG1s",
-    "hora": "10:00",
-    "torneo": "AFC Champions League 2",
-    "evento": "Al-Muharraq vs. Esteghlal F.C.",
-    "tipo": "normal"
-  },
-  "tv17": {
-    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThjOTdhMTkwOWI4NDg0N2E4NTlhOWQ4ZTk4ODY4Ni5odG1s",
-    "hora": "10:00",
-    "torneo": "AFC Champions League 2",
-    "evento": "Arkadag vs. Al Khalidiyah",
-    "tipo": "normal"
-  },
-  "tv18": {
-    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThjOTdhMTkwOWI4NDg0N2E4NTlhOWQ4Zjk4ODY4Ny5odG1s",
-    "hora": "10:00",
-    "torneo": "AFC Champions League 2",
-    "evento": "FC Goa vs. Istiqlol Dushanbe",
-    "tipo": "normal"
-  },
-  "acn5": {
     "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThjOTdhMTkwYTA4ODg0N2E4NTlhOWM4Yzk4ODY4Yy5odG1s",
     "hora": "11:30",
     "torneo": "Africa Cup of Nations",
     "evento": "Ivory Coast vs. Mozambique ",
     "tipo": "normal"
   },
-  "acn6": {
+  "acn2": {
     "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThjOTdhMTkwYTA4ODg0N2E4NTlhOWM4ZDk4ODY4ZC5odG1s",
     "hora": "11:30",
     "torneo": "Africa Cup of Nations",
     "evento": "Ivory Coast vs. Mozambique ",
     "tipo": "normal"
   },
-  "tv19": {
+  "tv1": {
     "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThjOTdhMTkwYTA4ODg0N2E4NTlhOWM4Nzk4ODc4NC5odG1s",
     "hora": "11:30",
     "torneo": "Turkish Cup",
     "evento": "Samsunspor vs. Eyupspor",
+    "tipo": "normal"
+  },
+  "acn3": {
+    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThjOTdhMjg3OWY4ODg0N2E4NTk1OWM4Nzk4ODg4Ny5odG1s",
+    "hora": "14:00",
+    "torneo": "Africa Cup of Nations",
+    "evento": "Cameroon vs. Gabon ",
+    "tipo": "normal"
+  },
+  "acn4": {
+    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThjOTdhMjg3OWY4ODg0N2E4NTk1OWM4ODk4ODg4OC5odG1s",
+    "hora": "14:00",
+    "torneo": "Africa Cup of Nations",
+    "evento": "Cameroon vs. Gabon ",
+    "tipo": "normal"
+  },
+  "acn5": {
+    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThjOTdhMjg3OWY4ODg0N2E4NTk1OWM4OTk4ODg4OS5odG1s",
+    "hora": "14:00",
+    "torneo": "Africa Cup of Nations",
+    "evento": "Cameroon vs. Gabon ",
+    "tipo": "normal"
+  },
+  "acn6": {
+    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThjOTdhMjg3OWY4ODg0N2E4NTk1OWM4YTk4ODg4YS5odG1s",
+    "hora": "14:00",
+    "torneo": "Africa Cup of Nations",
+    "evento": "Cameroon vs. Gabon ",
+    "tipo": "normal"
+  },
+  "acn7": {
+    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThjOTdhMjg3OWY4ODg0N2E4NTk1OWM4Yjk4ODg4Yi5odG1s",
+    "hora": "14:00",
+    "torneo": "Africa Cup of Nations",
+    "evento": "Cameroon vs. Gabon ",
+    "tipo": "normal"
+  },
+  "acn8": {
+    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThjOTdhMjg3OWY4ODg0N2E4NTk1OWM4Yzk4ODg4Yy5odG1s",
+    "hora": "14:00",
+    "torneo": "Africa Cup of Nations",
+    "evento": "Cameroon vs. Gabon ",
+    "tipo": "normal"
+  },
+  "acn9": {
+    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThjOTdhMjg3OWY4ODg0N2E4NTk1OWM4ZDk4ODg4ZC5odG1s",
+    "hora": "14:00",
+    "torneo": "Africa Cup of Nations",
+    "evento": "Cameroon vs. Gabon ",
     "tipo": "normal"
   }
 }
