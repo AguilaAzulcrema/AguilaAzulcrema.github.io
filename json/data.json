@@ -1,12 +1,23 @@
 {
     "events": [
         {
-            "time": "19:00",
-            "tournament": "costa-rica-liga-de-ascenso",
-            "eventTitle": "Cofutpa vs. Inter San Carlos",
+            "time": "18:00",
+            "tournament": "guatemala",
+            "eventTitle": "CSD Municipal vs. Antigua",
             "streams": [
                 {
-                    "url": "emb2.html?r=https://voodc.com/embed/85818c97a18aa184847a85959f8c9885887b.html",
+                    "url": "emb2.html?r=https://voodc.com/embed/85818c97a48f9984847a85959d8d98868782.html",
+                    "optionText": "Opcion 1"
+                }
+            ]
+        },
+        {
+            "time": "19:00",
+            "tournament": "costa-rica-liga-de-ascenso",
+            "eventTitle": "Inter San Carlos vs. Cofutpa",
+            "streams": [
+                {
+                    "url": "emb2.html?r=https://voodc.com/embed/85818c97a48f9c8a847a8595a18e98868b7e.html",
                     "optionText": "Opcion 1"
                 }
             ]
@@ -14,15 +25,11 @@
         {
             "time": "19:00",
             "tournament": "honduras",
-            "eventTitle": "Real Espana vs. Motagua",
+            "eventTitle": "CD Olimpia vs. Real Espana",
             "streams": [
                 {
-                    "url": "emb2.html?r=https://voodc.com/embed/85818c97a18aa184847a85959f8d9885887c.html",
+                    "url": "emb2.html?r=https://voodc.com/embed/85818c97a48f9c8a847a8595a18f98868b7f.html",
                     "optionText": "Opcion 1"
-                },
-                {
-                    "url": "emb2.html?r=https://voodc.com/embed/85818c97a18aa184847a85959f8e9885887d.html",
-                    "optionText": "Opcion 2"
                 }
             ]
         }
