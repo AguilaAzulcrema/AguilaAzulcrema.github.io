@@ -1,12 +1,5 @@
 {
   "eau1": {
-    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThjOTg5Yzg4OWI4YTg0N2E4NTlhOWM4ODk4ODYuaHRtbA==",
-    "hora": "06:50",
-    "torneo": "UAE League",
-    "evento": "Ittihad Kalba vs. Al Jazira",
-    "tipo": "normal"
-  },
-  "eau2": {
     "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThjOTg5Yzg5OWM4NTg0N2E4NTlhOWM4Yjk4ODkuaHRtbA==",
     "hora": "09:45",
     "torneo": "UAE League",
@@ -39,6 +32,335 @@
     "hora": "10:00",
     "torneo": "Africa Cup of Nations",
     "evento": "Zimbabwe vs. South Africa ",
+    "tipo": "normal"
+  },
+  "en1": {
+    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThjOTg5YzhhOWE4Njg0N2E4NTk3OWQ5MDk4ODg4YS5odG1s",
+    "hora": "12:00",
+    "torneo": "England Championship",
+    "evento": "Coventry vs. Ipswich ",
+    "tipo": "normal"
+  },
+  "en2": {
+    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThjOTg5YzhhOWE4Njg0N2E4NTk2YTU5MDk4ODY4YzdkLmh0bWw=",
+    "hora": "12:00",
+    "torneo": "England Championship",
+    "evento": "Coventry vs. Ipswich ",
+    "tipo": "normal"
+  },
+  "acn5": {
+    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThjOTg5YzhhOWQ4Yzg0N2E4NTk3YTA4Yjk4OGE4Yi5odG1s",
+    "hora": "13:00",
+    "torneo": "Africa Cup of Nations",
+    "evento": "Comoros vs. Mali ",
+    "tipo": "normal"
+  },
+  "acn6": {
+    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThjOTg5YzhhOWQ4Yzg0N2E4NTk3YTA4Yzk4OGE4Yy5odG1s",
+    "hora": "13:00",
+    "torneo": "Africa Cup of Nations",
+    "evento": "Comoros vs. Mali ",
+    "tipo": "normal"
+  },
+  "acn7": {
+    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThjOTg5YzhhOWQ4Yzg0N2E4NTk3YTA4ZDk4OGE4ZC5odG1s",
+    "hora": "13:00",
+    "torneo": "Africa Cup of Nations",
+    "evento": "Zambia vs. Morocco ",
+    "tipo": "normal"
+  },
+  "acn8": {
+    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThjOTg5YzhhOWQ4Yzg0N2E4NTk3YTA4ZTk4OGI4NC5odG1s",
+    "hora": "13:00",
+    "torneo": "Africa Cup of Nations",
+    "evento": "Zambia vs. Morocco ",
+    "tipo": "normal"
+  },
+  "tv1": {
+    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThjOTg5YzhhOWY4YTg0N2E4NTk3YTE4ZTk4OGI4OS5odG1s",
+    "hora": "13:30",
+    "torneo": "England League Two",
+    "evento": "Newport Count vs. Crewe",
+    "tipo": "normal"
+  },
+  "en3": {
+    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThjOTg5YzhhYTA4OTg0N2E4NTk3YTI4Nzk4OGI4Yi5odG1s",
+    "hora": "13:45",
+    "torneo": "England Championship",
+    "evento": "Leicester City vs. Derby County",
+    "tipo": "normal"
+  },
+  "en4": {
+    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThjOTg5YzhhYTA4OTg0N2E4NTk3YTI4ODk4OGI4Yy5odG1s",
+    "hora": "13:45",
+    "torneo": "England Championship",
+    "evento": "Middlesbrough vs. Hull City",
+    "tipo": "normal"
+  },
+  "en5": {
+    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThjOTg5YzhhYTA4OTg0N2E4NTk3YTI4OTk4OGI4ZC5odG1s",
+    "hora": "13:45",
+    "torneo": "England Championship",
+    "evento": "Millwall vs. Bristol City",
+    "tipo": "normal"
+  },
+  "en6": {
+    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThjOTg5YzhhYTA4OTg0N2E4NTk3YTI4YTk4OGM4NC5odG1s",
+    "hora": "13:45",
+    "torneo": "England Championship",
+    "evento": "Norwich City vs. Watford",
+    "tipo": "normal"
+  },
+  "en7": {
+    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThjOTg5YzhhYTA4OTg0N2E4NTk3YTI4Yjk4OGM4NS5odG1s",
+    "hora": "13:45",
+    "torneo": "England Championship",
+    "evento": "Oxford United vs. Swansea City",
+    "tipo": "normal"
+  },
+  "en8": {
+    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThjOTg5YzhhYTA4OTg0N2E4NTk3YTI4Yzk4OGM4Ni5odG1s",
+    "hora": "13:45",
+    "torneo": "England Championship",
+    "evento": "Portsmouth vs. Charlton",
+    "tipo": "normal"
+  },
+  "en9": {
+    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThjOTg5YzhhYTA4OTg0N2E4NTk3YTI4ZDk4OGM4Ny5odG1s",
+    "hora": "13:45",
+    "torneo": "England Championship",
+    "evento": "Sheffield Wednesday vs. Blackburn Rovers",
+    "tipo": "normal"
+  },
+  "en10": {
+    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThjOTg5YzhhYTA4OTg0N2E4NTk3YTI4ZTk4OGM4OC5odG1s",
+    "hora": "13:45",
+    "torneo": "England Championship",
+    "evento": "Stoke City vs. Sheffield United",
+    "tipo": "normal"
+  },
+  "en11": {
+    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThjOTg5YzhhYTA4OTg0N2E4NTk3YTI4Zjk4OGM4OS5odG1s",
+    "hora": "13:45",
+    "torneo": "England Championship",
+    "evento": "West Brom vs. QPR",
+    "tipo": "normal"
+  },
+  "en12": {
+    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThjOTg5YzhhYTA4OTg0N2E4NTk3YTI5MDk4OGM4YS5odG1s",
+    "hora": "13:45",
+    "torneo": "England Championship",
+    "evento": "Wrexham vs. Preston",
+    "tipo": "normal"
+  },
+  "tv2": {
+    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThjOTg5YzhhYTA4OTg0N2E4NTk3YTM4Nzk4OGM4Yi5odG1s",
+    "hora": "13:45",
+    "torneo": "England League One",
+    "evento": "AFC Wimbledon vs. Exeter City",
+    "tipo": "normal"
+  },
+  "tv3": {
+    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThjOTg5YzhhYTA4OTg0N2E4NTk3YTM4ODk4OGM4Yy5odG1s",
+    "hora": "13:45",
+    "torneo": "England League One",
+    "evento": "Barnsley vs. Lincoln",
+    "tipo": "normal"
+  },
+  "tv4": {
+    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThjOTg5YzhhYTA4OTg0N2E4NTk3YTM4OTk4OGM4ZC5odG1s",
+    "hora": "13:45",
+    "torneo": "England League One",
+    "evento": "Blackpool vs. Rotherham",
+    "tipo": "normal"
+  },
+  "tv5": {
+    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThjOTg5YzhhYTA4OTg0N2E4NTk3YTM4YTk4OGQ4NC5odG1s",
+    "hora": "13:45",
+    "torneo": "England League One",
+    "evento": "Bolton vs. Mansfield",
+    "tipo": "normal"
+  },
+  "tv6": {
+    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThjOTg5YzhhYTA4OTg0N2E4NTk3YTM4Yjk4OGQ4NS5odG1s",
+    "hora": "13:45",
+    "torneo": "England League One",
+    "evento": "Bradford City vs. Port Vale",
+    "tipo": "normal"
+  },
+  "tv7": {
+    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThjOTg5YzhhYTA4OTg0N2E4NTk3YTM4Yzk4OGQ4Ni5odG1s",
+    "hora": "13:45",
+    "torneo": "England League One",
+    "evento": "Burton Albion vs. Wigan",
+    "tipo": "normal"
+  },
+  "tv8": {
+    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThjOTg5YzhhYTA4OTg0N2E4NTk3YTM4ZDk4OGQ4Ny5odG1s",
+    "hora": "13:45",
+    "torneo": "England League One",
+    "evento": "Cardiff City vs. Stevenage",
+    "tipo": "normal"
+  },
+  "tv9": {
+    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThjOTg5YzhhYTA4OTg0N2E4NTk3YTM4ZTk4OGQ4OC5odG1s",
+    "hora": "13:45",
+    "torneo": "England League One",
+    "evento": "Huddersfield vs. Northampton",
+    "tipo": "normal"
+  },
+  "tv10": {
+    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThjOTg5YzhhYTA4OTg0N2E4NTk3YTM4Zjk4OGQ4OS5odG1s",
+    "hora": "13:45",
+    "torneo": "England League One",
+    "evento": "Luton Town vs. Leyton Orient",
+    "tipo": "normal"
+  },
+  "tv11": {
+    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThjOTg5YzhhYTA4OTg0N2E4NTk3YTM5MDk4OGQ4YS5odG1s",
+    "hora": "13:45",
+    "torneo": "England League One",
+    "evento": "Peterborough vs. Reading",
+    "tipo": "normal"
+  },
+  "tv12": {
+    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThjOTg5YzhhYTA4OTg0N2E4NTk3YTQ4Nzk4OGQ4Yi5odG1s",
+    "hora": "13:45",
+    "torneo": "England League One",
+    "evento": "Plymouth vs. Wycombe",
+    "tipo": "normal"
+  },
+  "tv13": {
+    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThjOTg5YzhhYTA4OTg0N2E4NTk3YTQ4ODk4OGQ4Yy5odG1s",
+    "hora": "13:45",
+    "torneo": "England League One",
+    "evento": "Stockport County vs. Doncaster",
+    "tipo": "normal"
+  },
+  "tv14": {
+    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThjOTg5YzhhYTA4OTg0N2E4NTk3YTQ4OTk4OGQ4ZC5odG1s",
+    "hora": "13:45",
+    "torneo": "England League Two",
+    "evento": "Accrington vs. Harrogate",
+    "tipo": "normal"
+  },
+  "tv15": {
+    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThjOTg5YzhhYTA4OTg0N2E4NTk3YTQ4YTk4ODU4NDdhLmh0bWw=",
+    "hora": "13:45",
+    "torneo": "England League Two",
+    "evento": "Bristol Rovers vs. Barnet",
+    "tipo": "normal"
+  },
+  "tv16": {
+    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThjOTg5YzhhYTA4OTg0N2E4NTk3YTQ4Yjk4ODU4NDdiLmh0bWw=",
+    "hora": "13:45",
+    "torneo": "England League Two",
+    "evento": "Cheltenham vs. Swindon",
+    "tipo": "normal"
+  },
+  "tv17": {
+    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThjOTg5YzhhYTA4OTg0N2E4NTk3YTQ4Yzk4ODU4NDdjLmh0bWw=",
+    "hora": "13:45",
+    "torneo": "England League Two",
+    "evento": "Chesterfield vs. Cambridge United",
+    "tipo": "normal"
+  },
+  "tv18": {
+    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThjOTg5YzhhYTA4OTg0N2E4NTk3YTQ4ZDk4ODU4NDdkLmh0bWw=",
+    "hora": "13:45",
+    "torneo": "England League Two",
+    "evento": "Crawley vs. Bromley",
+    "tipo": "normal"
+  },
+  "tv19": {
+    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThjOTg5YzhhYTA4OTg0N2E4NTk3YTQ4ZTk4ODU4NDdlLmh0bWw=",
+    "hora": "13:45",
+    "torneo": "England League Two",
+    "evento": "Gillingham vs. Colchester",
+    "tipo": "normal"
+  },
+  "tv20": {
+    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThjOTg5YzhhYTA4OTg0N2E4NTk3YTQ4Zjk4ODU4NDdmLmh0bWw=",
+    "hora": "13:45",
+    "torneo": "England League Two",
+    "evento": "Grimsby vs. Shrewsbury",
+    "tipo": "normal"
+  },
+  "tv21": {
+    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThjOTg5YzhhYTA4OTg0N2E4NTk3YTQ5MDk4ODU4NDgwLmh0bWw=",
+    "hora": "13:45",
+    "torneo": "England League Two",
+    "evento": "MK Dons vs. Notts Co",
+    "tipo": "normal"
+  },
+  "tv22": {
+    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThjOTg5YzhhYTA4OTg0N2E4NTk3YTU4Nzk4ODU4NDgxLmh0bWw=",
+    "hora": "13:45",
+    "torneo": "England League Two",
+    "evento": "Salford vs. Fleetwood",
+    "tipo": "normal"
+  },
+  "tv23": {
+    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThjOTg5YzhhYTA4OTg0N2E4NTk3YTU4ODk4ODU4NDgyLmh0bWw=",
+    "hora": "13:45",
+    "torneo": "England League Two",
+    "evento": "Tranmere vs. Barrow",
+    "tipo": "normal"
+  },
+  "tv24": {
+    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThjOTg5YzhhYTA4OTg0N2E4NTk3YTU4OTk4ODU4NDgzLmh0bWw=",
+    "hora": "13:45",
+    "torneo": "England League Two",
+    "evento": "Walsall vs. Oldham",
+    "tipo": "normal"
+  },
+  "it1": {
+    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThjOTg5YzhhYTA4OTg0N2E4NTk3YTU4YTk4ODU4NTdhLmh0bWw=",
+    "hora": "13:45",
+    "torneo": "Serie A",
+    "evento": "AS Roma vs. Genoa ",
+    "tipo": "normal"
+  },
+  "it2": {
+    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThjOTg5YzhhYTA4OTg0N2E4NTk3YTU4Yjk4ODU4NTdiLmh0bWw=",
+    "hora": "13:45",
+    "torneo": "Serie A",
+    "evento": "AS Roma vs. Genoa ",
+    "tipo": "normal"
+  },
+  "en13": {
+    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThjOTg5YzhhYTI4Nzg0N2E4NTk4OWM4Yjk4ODU4NTgwLmh0bWw=",
+    "hora": "14:15",
+    "torneo": "England Championship",
+    "evento": "Birmingham vs. Southampton ",
+    "tipo": "normal"
+  },
+  "en14": {
+    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThjOTg5YzhhYTI4Nzg0N2E4NTk4OWM4Yzk4ODY4YzdlLmh0bWw=",
+    "hora": "14:15",
+    "torneo": "England Championship",
+    "evento": "Birmingham vs. Southampton ",
+    "tipo": "normal"
+  },
+  "por1": {
+    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThjOTg5YzhhYTI4Nzg0N2E4NTk4OWM4ZDk4ODU4NTgxLmh0bWw=",
+    "hora": "14:15",
+    "torneo": "Liga Portugal",
+    "evento": "FC Porto vs. AFS ",
+    "tipo": "normal"
+  },
+  "por2": {
+    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThjOTg5YzhhYTI4Nzg0N2E4NTk4OWM4ZTk4ODU4NTgyLmh0bWw=",
+    "hora": "14:15",
+    "torneo": "Liga Portugal",
+    "evento": "FC Porto vs. AFS ",
+    "tipo": "normal"
+  },
+  "tv25": {
+    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThjOTg5YzhjOWI4Yzg0N2E4NTk1OWY4ZTk4ODU4ZDdmLmh0bWw=",
+    "hora": "18:00",
+    "torneo": "Friendly",
+    "evento": "Tlaxcala vs. Pachuca",
     "tipo": "normal"
   }
 }
