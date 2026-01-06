@@ -1,586 +1,1634 @@
 {
   "tv1": {
-    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThjOThhMjhlYTA4ODg0N2E4NTlhYTQ4YTk4ODU4YzdjLmh0bWw=",
-    "hora": "23:30",
-    "categoria": "TENNIS",
-    "torneo": "WTA",
-    "evento": "WTA Brisbane vs. Show Court 1 Muchova vs. Tomljanovic",
-    "tipo": "normal"
-  },
-  "tv2": {
-    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThjOThhMjhmOWE4NDg0N2E4NTlhYTQ4Nzk4ODU4YzgyLmh0bWw=",
-    "hora": "00:30",
-    "categoria": "TENNIS",
-    "torneo": "Mixed",
-    "evento": "United Cup vs. Ken Rosewall Arena Australia vs. Czech Republic",
-    "tipo": "normal"
-  },
-  "tv3": {
-    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThjOThhMjhmOWI4Yzg0N2E4NTlhYTQ4YTk4ODU4ZDdmLmh0bWw=",
-    "hora": "01:00",
-    "categoria": "TENNIS",
-    "torneo": "WTA",
-    "evento": "WTA Brisbane vs. Show Court 1 Bouzkova vs. Badosa",
-    "tipo": "normal"
-  },
-  "tv4": {
-    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThjOThhMjhmOWY4ODg0N2E4NTlhYTQ4Nzk4ODU4ZDgwLmh0bWw=",
-    "hora": "02:00",
-    "categoria": "TENNIS",
-    "torneo": "ATP",
-    "evento": "United Cup vs. Ken Rosewall Arena  De Minaur vs. Mensik",
-    "tipo": "normal"
-  },
-  "tv5": {
-    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThjOThhMjhmYTE4Njg0N2E4NTlhYTQ4OTk4ODU4ZDgxLmh0bWw=",
-    "hora": "02:30",
-    "categoria": "TENNIS",
-    "torneo": "ATP",
-    "evento": "ATP Brisbane vs. Pat Rafter Arena  Dimitrov vs. Carreno-Busta",
-    "tipo": "normal"
-  },
-  "tv6": {
-    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThjOThhMjkwOWE4Yzg0N2E4NTlhYTQ4Nzk4ODY4NDdhLmh0bWw=",
-    "hora": "03:30",
-    "categoria": "TENNIS",
-    "torneo": "Mixed",
-    "evento": "United Cup vs. Ken Rosewall Arena  Hunter/Smith vs. Krejcikova/Mensik",
-    "tipo": "normal"
-  },
-  "tv7": {
-    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThjOThhMjkwOWM4YTg0N2E4NTlhYTU4ODk4ODY4NDdiLmh0bWw=",
-    "hora": "04:00",
-    "categoria": "TENNIS",
-    "torneo": "ATP",
-    "evento": "ATP Hong Kong vs. Center Court Shang vs. Comesana",
-    "tipo": "normal"
-  },
-  "tv8": {
-    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThjOThhMjkwOWM4YTg0N2E4NTlhYTQ4OTk4ODY4NDdjLmh0bWw=",
-    "hora": "04:00",
-    "categoria": "TENNIS",
-    "torneo": "WTA",
-    "evento": "WTA Brisbane vs. Pat Rafter Arena Rybakina vs. Zhang",
-    "tipo": "normal"
-  },
-  "tv9": {
-    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThjOThhMjkwOWU4ODg0N2E4NTlhOWM4Nzk4ODY4NDdlLmh0bWw=",
-    "hora": "04:30",
-    "categoria": "HOCKEY",
-    "torneo": "KHL",
-    "evento": "Novosibirsk vs. Admiral Vladivostok",
-    "tipo": "normal"
-  },
-  "tv10": {
-    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThjOThhMjkwYTA4Njg0N2E4NTlhOWM4ODk4ODY4NDdmLmh0bWw=",
-    "hora": "05:00",
-    "categoria": "HOCKEY",
-    "torneo": "KHL",
-    "evento": "Tractor Chelyabinsk vs. Yekaterinburg",
-    "tipo": "normal"
-  },
-  "tv11": {
-    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThjOThhMjkwYTA4Njg0N2E4NTk3OWM4Nzk4ODY4NTdiLmh0bWw=",
+    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThjOThhMjkwYTA4Njg0N2E4NTk3OWM4Nzk4ODUuaHRtbA==",
     "hora": "05:00",
     "categoria": "BILLIARD",
     "torneo": "Snooker",
     "evento": "Championship League Snooker vs. Table 1",
     "tipo": "normal"
   },
-  "tv12": {
-    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThjOThhMjkwYTA4Njg0N2E4NTk3OWM4ODk4ODY4NTdjLmh0bWw=",
+  "tv2": {
+    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThjOThhMjkwYTA4Njg0N2E4NTk3OWM4ODk4ODYuaHRtbA==",
     "hora": "05:00",
     "categoria": "BILLIARD",
     "torneo": "Snooker",
     "evento": "Championship League Snooker vs. Table 2",
     "tipo": "normal"
   },
-  "tv13": {
-    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThjOThhMjkwYTI4NDg0N2E4NTlhOWM4OTk4ODY4NDgxLmh0bWw=",
-    "hora": "05:30",
-    "categoria": "SOCCER",
-    "torneo": "Asian Cup",
-    "evento": "Vietnam U23 vs. Jordan U23",
-    "tipo": "normal"
-  },
-  "tv14": {
-    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThjOThhMjkwYTI4NDg0N2E4NTlhOWM4YTk4ODY4NDgwLmh0bWw=",
-    "hora": "05:30",
-    "categoria": "HOCKEY",
-    "torneo": "KHL",
-    "evento": "Magnitogorsk vs. Lokomotiv Yaroslavl",
-    "tipo": "normal"
-  },
-  "tv15": {
-    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThjOThhMjkwYTI4NDg0N2E4NTlhYTU4ODk4ODY4NDdkLmh0bWw=",
-    "hora": "05:30",
-    "categoria": "TENNIS",
-    "torneo": "ATP",
-    "evento": "ATP Hong Kong vs. Center Court Nouza/Rikl vs. Khachanov/Rublev",
-    "tipo": "normal"
-  },
-  "tv16": {
-    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThjOThhMzg3OWQ4ODg0N2E4NTlhOWM4Yjk4ODY4NDgzLmh0bWw=",
-    "hora": "07:00",
-    "categoria": "SOCCER",
-    "torneo": "Greek Cup",
-    "evento": "Aris vs. Panetolikos",
-    "tipo": "normal"
-  },
-  "tv17": {
-    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThjOThhMzg3OWQ4ODg0N2E4NTlhOWM4Yzk4ODY4NTdhLmh0bWw=",
-    "hora": "07:00",
-    "categoria": "SOCCER",
-    "torneo": "UAE League",
-    "evento": "Al Nasr vs. Al Sharjah",
-    "tipo": "normal"
-  },
-  "tv18": {
-    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThjOThhMzg3OWQ4ODg0N2E4NTlhOWM4ZDk4ODY4NDgyLmh0bWw=",
-    "hora": "07:00",
-    "categoria": "HOCKEY",
-    "torneo": "DEL",
-    "evento": "Schwenninger Wild Wings vs. Grizzly Wolfsburg",
-    "tipo": "normal"
-  },
-  "tv19": {
-    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThjOThhMzg3YTE4NDg0N2E4NTlhOWM4ZTk4ODY4NTgyLmh0bWw=",
-    "hora": "08:00",
-    "categoria": "SOCCER",
-    "torneo": "Brazil Copinha",
-    "evento": "CSA U20 vs. Bahia U20",
-    "tipo": "normal"
-  },
-  "tv20": {
-    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThjOThhMzg3YTE4NDg0N2E4NTlhOWM4Zjk4ODY4NTgzLmh0bWw=",
-    "hora": "08:00",
-    "categoria": "SOCCER",
-    "torneo": "Friendly",
-    "evento": "Slavia Prague vs. Basel",
-    "tipo": "normal"
-  },
-  "tv21": {
-    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThjOThhMzg3YTE4NDg0N2E4NTlhOWM5MDk4ODY4NjdhLmh0bWw=",
-    "hora": "08:00",
-    "categoria": "SOCCER",
-    "torneo": "Serie A",
-    "evento": "Pisa vs. Como ",
-    "tipo": "normal"
-  },
-  "tv22": {
-    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThjOThhMzg3YTE4NDg0N2E4NTlhOWQ4Nzk4ODY4NjdiLmh0bWw=",
-    "hora": "08:00",
-    "categoria": "SOCCER",
-    "torneo": "Serie A",
-    "evento": "Pisa vs. Como ",
-    "tipo": "normal"
-  },
-  "tv23": {
-    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThjOThhMzg3YTE4NDg0N2E4NTlhOWM4YTk4ODY4NTdlLmh0bWw=",
-    "hora": "08:00",
-    "categoria": "HOCKEY",
-    "torneo": "KHL",
-    "evento": "Ak Bars Kazan vs. Avangard Omsk",
-    "tipo": "normal"
-  },
-  "tv24": {
-    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThjOThhMzg3YTE4NDg0N2E4NTlhOWQ4ODk4ODY4NTgwLmh0bWw=",
-    "hora": "08:00",
-    "categoria": "HOCKEY",
-    "torneo": "KHL",
-    "evento": "Cherepovets vs. Spartak Moscow",
-    "tipo": "normal"
-  },
-  "tv25": {
-    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThjOThhMzg3YTE4NDg0N2E4NTlhOWM4ODk4ODY4NTdmLmh0bWw=",
-    "hora": "08:00",
-    "categoria": "HOCKEY",
-    "torneo": "KHL",
-    "evento": "CSKA Moscow vs. Dinamo Minsk",
-    "tipo": "normal"
-  },
-  "tv26": {
-    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThjOThhMzg3YTE4NDg0N2E4NTlhOWQ4OTk4ODY4NTgxLmh0bWw=",
-    "hora": "08:00",
-    "categoria": "HOCKEY",
-    "torneo": "KHL",
-    "evento": "Nizhny Novgorod vs. Barys Astana",
-    "tipo": "normal"
-  },
-  "tv27": {
-    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThjOThhMzg3YTE4NDg0N2E4NTlhOWQ4YTk4ODY4NTdkLmh0bWw=",
-    "hora": "08:00",
-    "categoria": "BASKETBALL",
-    "torneo": "Poland Basket Liga",
-    "evento": "Lublin vs. Szczecin",
-    "tipo": "normal"
-  },
-  "tv28": {
-    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThjOThhMzg3YTE4NDg0N2E4NTlhOWQ4Yjk4ODY4NjdjLmh0bWw=",
-    "hora": "08:00",
-    "categoria": "VOLLEYBALL",
-    "torneo": "Poland",
-    "evento": "Olsztyn vs. Barkom",
-    "tipo": "normal"
-  },
-  "tv29": {
-    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThjOThhMzg3YTE4ZDg0N2E4NTlhOWQ4Yzk4ODY4NjdkLmh0bWw=",
-    "hora": "08:15",
-    "categoria": "HOCKEY",
-    "torneo": "SHL",
-    "evento": "Linkoping vs. Frolunda Gothenburg",
-    "tipo": "normal"
-  },
-  "tv30": {
-    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThjOThhMzg3YTE4ZDg0N2E4NTlhOWQ4ZDk4ODY4NjdlLmh0bWw=",
-    "hora": "08:15",
-    "categoria": "HOCKEY",
-    "torneo": "SHL",
-    "evento": "Malmo vs. Farjestad",
-    "tipo": "normal"
-  },
-  "tv31": {
-    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThjOThhMzg3YTE4ZDg0N2E4NTlhOWQ4ZTk4ODY4NjdmLmh0bWw=",
-    "hora": "08:15",
-    "categoria": "HOCKEY",
-    "torneo": "SHL",
-    "evento": "Timra vs. Orebro",
-    "tipo": "normal"
-  },
-  "tv32": {
-    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThjOThhMzg4OWE4YTg0N2E4NTlhOWQ4Zjk4ODY4NjgxLmh0bWw=",
-    "hora": "09:00",
-    "categoria": "HOCKEY",
-    "torneo": "Mestis",
-    "evento": "Hermes vs. KeuPa",
-    "tipo": "normal"
-  },
-  "tv33": {
-    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThjOThhMzg4OWE4YTg0N2E4NTlhOWQ5MDk4ODY4NjgyLmh0bWw=",
+  "tv3": {
+    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThjOThhMzg4OWE4YTg0N2E4NTlhOWQ5MDk4ODcuaHRtbA==",
     "hora": "09:00",
     "categoria": "HOCKEY",
     "torneo": "Mestis",
     "evento": "Kettera vs. Jokerit",
     "tipo": "normal"
   },
-  "tv34": {
-    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThjOThhMzg4OWE4YTg0N2E4NTlhOWU4Nzk4ODY4NjgzLmh0bWw=",
-    "hora": "09:00",
-    "categoria": "HOCKEY",
-    "torneo": "Mestis",
-    "evento": "Pyry vs. IPK",
-    "tipo": "normal"
-  },
-  "tv35": {
-    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThjOThhMzg4OWE4YTg0N2E4NTlhOWU4ODk4ODY4NjgwLmh0bWw=",
-    "hora": "09:00",
-    "categoria": "BASKETBALL",
-    "torneo": "Poland Basket Liga",
-    "evento": "Jelenia Gora W vs. Sleza Wroclaw W",
-    "tipo": "normal"
-  },
-  "tv36": {
-    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThjOThhMzg4OWM4ODg0N2E4NTlhOWU4OTk4ODY4NzdkLmh0bWw=",
+  "tv4": {
+    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThjOThhMzg4OWM4ODg0N2E4NTlhOWU4OTk4OGIuaHRtbA==",
     "hora": "09:30",
     "categoria": "SOCCER",
     "torneo": "Greek Cup",
     "evento": "Volos vs. Kifisia",
     "tipo": "normal"
   },
-  "tv37": {
-    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThjOThhMzg4OWM4ODg0N2E4NTlhOWU4YTk4ODY4NzdhLmh0bWw=",
+  "tv5": {
+    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThjOThhMzg4OWM4ODg0N2E4NTlhOWU4YTk4ODguaHRtbA==",
     "hora": "09:30",
     "categoria": "HOCKEY",
     "torneo": "DEL",
     "evento": "ERC Ingolstadt vs. Frankfurt Lowen",
     "tipo": "normal"
   },
-  "tv38": {
-    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThjOThhMzg4OWM4ODg0N2E4NTlhOWU4Yjk4ODY4NzdiLmh0bWw=",
+  "tv6": {
+    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThjOThhMzg4OWM4ODg0N2E4NTlhOWU4Yjk4ODkuaHRtbA==",
     "hora": "09:30",
     "categoria": "HOCKEY",
     "torneo": "DEL",
     "evento": "Nurnberg Ice Tigers vs. Kolner Haie",
     "tipo": "normal"
   },
-  "tv39": {
-    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThjOThhMzg4OWM4ODg0N2E4NTlhOWU4Yzk4ODY4NzdjLmh0bWw=",
+  "tv7": {
+    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThjOThhMzg4OWM4ODg0N2E4NTlhOWU4Yzk4OGEuaHRtbA==",
     "hora": "09:30",
     "categoria": "HOCKEY",
     "torneo": "DEL",
     "evento": "Red Bull Munchen vs. Eisbaren Berlin",
     "tipo": "normal"
   },
-  "tv40": {
-    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThjOThhMzg4OWM4ODg0N2E4NTlhOWU4ZDk4ODY4NzdlLmh0bWw=",
+  "tv8": {
+    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThjOThhMzg4OWM4ODg0N2E4NTlhOWU4ZDk4OGMuaHRtbA==",
     "hora": "09:30",
     "categoria": "VOLLEYBALL",
     "torneo": "Poland",
     "evento": "Mogilno W vs. Chemik Police W",
     "tipo": "normal"
   },
-  "tv41": {
-    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThjOThhMzg4OWQ4Nzg0N2E4NTlhOWU4ZTk4ODY4NzdmLmh0bWw=",
+  "tv9": {
+    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThjOThhMzg4OWQ4Nzg0N2E4NTlhOWU4ZTk4OGQuaHRtbA==",
     "hora": "09:45",
     "categoria": "SOCCER",
     "torneo": "UAE League",
     "evento": "Al Wahda vs. Bani Yas",
     "tipo": "normal"
   },
-  "tv42": {
-    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThjOThhMzg4OWU4Njg0N2E4NTk3OWM4Yjk4ODY4NzgwLmh0bWw=",
+  "tv10": {
+    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThjOThhMzg4OWU4Njg0N2E4NTk3OWM4Yjk4ODU4NC5odG1s",
     "hora": "10:00",
     "categoria": "SOCCER",
     "torneo": "Africa Cup of Nations",
     "evento": "Algeria vs. D.R. Congo ",
     "tipo": "normal"
   },
-  "tv43": {
-    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThjOThhMzg4OWU4Njg0N2E4NTk3OWM4Yzk4ODY4NzgxLmh0bWw=",
+  "tv11": {
+    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThjOThhMzg4OWU4Njg0N2E4NTk3OWM4Yzk4ODU4NS5odG1s",
     "hora": "10:00",
     "categoria": "SOCCER",
     "torneo": "Africa Cup of Nations",
     "evento": "Algeria vs. D.R. Congo ",
     "tipo": "normal"
   },
-  "tv44": {
-    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThjOThhMzg4OWU4Njg0N2E4NTk3OWM4ZDk4ODY4NzgyLmh0bWw=",
+  "tv12": {
+    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThjOThhMzg4OWU4Njg0N2E4NTk3OWM4ZDk4ODU4Ni5odG1s",
     "hora": "10:00",
     "categoria": "SOCCER",
     "torneo": "Asian Cup",
     "evento": "Saudi Arabia U23 vs. Kyrgyzstan U23",
     "tipo": "normal"
   },
-  "tv45": {
-    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThjOThhMzg4OWU4Njg0N2E4NTk3OWM4ZTk4ODY4NzgzLmh0bWw=",
+  "tv13": {
+    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThjOThhMzg4OWU4Njg0N2E4NTk3OWM4ZTk4ODU4Ny5odG1s",
     "hora": "10:00",
     "categoria": "SOCCER",
     "torneo": "Bahrain Premier League",
     "evento": "Sitra vs. Al-Muharraq",
     "tipo": "normal"
   },
-  "tv46": {
-    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThjOThhMzg4YTA4NDg0N2E4NTk3OWM4Zjk4ODY4ODdkLmh0bWw=",
+  "tv14": {
+    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThjOThhMzg4YTA4NDg0N2E4NTk3OWM4Zjk4ODU4YS5odG1s",
     "hora": "10:30",
     "categoria": "HOCKEY",
     "torneo": "CZ Extraliga",
     "evento": "HC Litvinov vs. Kladno",
     "tipo": "normal"
   },
-  "tv47": {
-    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThjOThhMzg4YTA4NDg0N2E4NTk3OWM5MDk4ODY4ODdlLmh0bWw=",
+  "tv15": {
+    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThjOThhMzg4YTA4NDg0N2E4NTk3OWM5MDk4ODU4Yi5odG1s",
     "hora": "10:30",
     "categoria": "HOCKEY",
     "torneo": "CZ Extraliga",
     "evento": "HC Vitkovice Steel vs. Viktoria Plzen",
     "tipo": "normal"
   },
-  "tv48": {
-    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThjOThhMzg4YTA4NDg0N2E4NTk3OWQ4Nzk4ODY4ODdhLmh0bWw=",
+  "tv16": {
+    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThjOThhMzg4YTA4NDg0N2E4NTk3OWQ4Nzk4ODU4OC5odG1s",
     "hora": "10:30",
     "categoria": "BASKETBALL",
     "torneo": "Champions League",
     "evento": "Wurzburg vs. Levice",
     "tipo": "normal"
   },
-  "tv49": {
-    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThjOThhMzg4YTA4NDg0N2E4NTk3OWQ4ODk4ODY4ODdiLmh0bWw=",
+  "tv17": {
+    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThjOThhMzg4YTA4NDg0N2E4NTk3OWQ4ODk4ODU4OS5odG1s",
     "hora": "10:30",
     "categoria": "BASKETBALL",
     "torneo": "Poland Basket Liga",
     "evento": "Zielona Gora vs. Trefl Sopot",
     "tipo": "normal"
   },
-  "tv50": {
-    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThjOThhMzg4YTA4ZDg0N2E4NTk3OWQ4OTk4ODY4ODdmLmh0bWw=",
+  "tv18": {
+    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThjOThhMzg4YTA4ZDg0N2E4NTk3OWQ4OTk4ODU4Yy5odG1s",
     "hora": "10:45",
     "categoria": "BASKETBALL",
     "torneo": "Champions League",
     "evento": "Hapoel Holon vs. Trapani",
     "tipo": "normal"
   },
-  "tv51": {
-    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThjOThhMzg4YTE4Yzg0N2E4NTk3OWQ4YTk4ODY4OTgzLmh0bWw=",
+  "tv19": {
+    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThjOThhMzg4YTE4Yzg0N2E4NTk3OWQ4YTk4ODc4Ni5odG1s",
     "hora": "11:00",
     "categoria": "SOCCER",
     "torneo": "Serie A",
     "evento": "Lecce vs. AS Roma ",
     "tipo": "normal"
   },
-  "tv52": {
-    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThjOThhMzg4YTE4Yzg0N2E4NTk3OWQ4Yjk4ODY4YTdhLmh0bWw=",
+  "tv20": {
+    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThjOThhMzg4YTE4Yzg0N2E4NTk3OWQ4Yjk4ODc4Ny5odG1s",
     "hora": "11:00",
     "categoria": "SOCCER",
     "torneo": "Serie A",
     "evento": "Lecce vs. AS Roma ",
     "tipo": "normal"
   },
-  "tv53": {
-    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThjOThhMzg4YTE4Yzg0N2E4NTk3OWQ4Yzk4ODY4OTdlLmh0bWw=",
+  "tv21": {
+    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThjOThhMzg4YTE4Yzg0N2E4NTk3OWQ4Yzk4ODY4Yi5odG1s",
     "hora": "11:00",
     "categoria": "HOCKEY",
     "torneo": "CZ Extraliga",
     "evento": "HC Olomouc vs. HC Kometa Brno",
     "tipo": "normal"
   },
-  "tv54": {
-    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThjOThhMzg4YTE4Yzg0N2E4NTk3OWQ4ZDk4ODY4OTdmLmh0bWw=",
+  "tv22": {
+    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThjOThhMzg4YTE4Yzg0N2E4NTk3OWQ4ZDk4ODY4Yy5odG1s",
     "hora": "11:00",
     "categoria": "HOCKEY",
     "torneo": "SHL",
     "evento": "Brynas vs. Vaxjo Lakers",
     "tipo": "normal"
   },
-  "tv55": {
-    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThjOThhMzg4YTE4Yzg0N2E4NTk3OWQ4ZTk4ODY4OTgwLmh0bWw=",
+  "tv23": {
+    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThjOThhMzg4YTE4Yzg0N2E4NTk3OWQ4ZTk4ODY4ZC5odG1s",
     "hora": "11:00",
     "categoria": "HOCKEY",
     "torneo": "SHL",
     "evento": "Djurgarden vs. Rogle",
     "tipo": "normal"
   },
-  "tv56": {
-    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThjOThhMzg4YTE4Yzg0N2E4NTk3OWQ4Zjk4ODY4OTgxLmh0bWw=",
+  "tv24": {
+    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThjOThhMzg4YTE4Yzg0N2E4NTk3OWQ4Zjk4ODc4NC5odG1s",
     "hora": "11:00",
     "categoria": "HOCKEY",
     "torneo": "SHL",
     "evento": "Leksand vs. Skelleftea AIK",
     "tipo": "normal"
   },
-  "tv57": {
-    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThjOThhMzg4YTE4Yzg0N2E4NTk3OWQ5MDk4ODY4OTgyLmh0bWw=",
+  "tv25": {
+    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThjOThhMzg4YTE4Yzg0N2E4NTk3OWQ5MDk4ODc4NS5odG1s",
     "hora": "11:00",
     "categoria": "HOCKEY",
     "torneo": "SHL",
     "evento": "Lulea Hockey vs. HV71 Jonkoping",
     "tipo": "normal"
   },
-  "tv58": {
-    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThjOThhMzg4YTE4Yzg0N2E4NTk3OWU4Nzk4ODY4ODgwLmh0bWw=",
+  "tv26": {
+    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThjOThhMzg4YTE4Yzg0N2E4NTk3OWU4Nzk4ODU4ZC5odG1s",
     "hora": "11:00",
     "categoria": "BASKETBALL",
     "torneo": "Champions League",
     "evento": "Mersin SK vs. Le Mans",
     "tipo": "normal"
   },
-  "tv59": {
-    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThjOThhMzg4YTE4Yzg0N2E4NTk3OWU4ODk4ODY4ODgxLmh0bWw=",
+  "tv27": {
+    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThjOThhMzg4YTE4Yzg0N2E4NTk3OWU4ODk4ODY4NC5odG1s",
     "hora": "11:00",
     "categoria": "BASKETBALL",
     "torneo": "Champions League",
     "evento": "Szolnoki Olaj vs. Trieste",
     "tipo": "normal"
   },
-  "tv60": {
-    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThjOThhMzg4YTE4Yzg0N2E4NTk3OWU4OTk4ODY4ODgyLmh0bWw=",
+  "tv28": {
+    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThjOThhMzg4YTE4Yzg0N2E4NTk3OWU4OTk4ODY4NS5odG1s",
     "hora": "11:00",
     "categoria": "BASKETBALL",
     "torneo": "Champions League",
     "evento": "Tofas vs. Cholet",
     "tipo": "normal"
   },
-  "tv61": {
-    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThjOThhMzg4YTE4Yzg0N2E4NTk3OWU4YTk4ODY4ODgzLmh0bWw=",
+  "tv29": {
+    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThjOThhMzg4YTE4Yzg0N2E4NTk3OWU4YTk4ODY4Ni5odG1s",
     "hora": "11:00",
     "categoria": "BASKETBALL",
     "torneo": "Eurocup",
     "evento": "Besiktas vs. Ulm",
     "tipo": "normal"
   },
-  "tv62": {
-    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThjOThhMzg4YTE4Yzg0N2E4NTk3OWU4Yjk4ODY4OTdhLmh0bWw=",
+  "tv30": {
+    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThjOThhMzg4YTE4Yzg0N2E4NTk3OWU4Yjk4ODY4Ny5odG1s",
     "hora": "11:00",
     "categoria": "BASKETBALL",
     "torneo": "Poland Basket Liga",
     "evento": "AZS Poznan W vs. Torun W",
     "tipo": "normal"
   },
-  "tv63": {
-    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThjOThhMzg4YTE4Yzg0N2E4NTk3OWU4Yzk4ODY4OTdiLmh0bWw=",
+  "tv31": {
+    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThjOThhMzg4YTE4Yzg0N2E4NTk3OWU4Yzk4ODY4OC5odG1s",
     "hora": "11:00",
     "categoria": "BASKETBALL",
     "torneo": "Poland Basket Liga",
     "evento": "Bochnia W vs. Sosnowiec W",
     "tipo": "normal"
   },
-  "tv64": {
-    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThjOThhMzg4YTE4Yzg0N2E4NTk3OWU4ZDk4ODY4OTdjLmh0bWw=",
+  "tv32": {
+    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThjOThhMzg4YTE4Yzg0N2E4NTk3OWU4ZDk4ODY4OS5odG1s",
     "hora": "11:00",
     "categoria": "BASKETBALL",
     "torneo": "Poland Basket Liga",
     "evento": "Gorzow W vs. Wisla Krakow W",
     "tipo": "normal"
   },
-  "tv65": {
-    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThjOThhMzg4YTE4Yzg0N2E4NTk3OWU4ZTk4ODY4OTdkLmh0bWw=",
+  "tv33": {
+    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThjOThhMzg4YTE4Yzg0N2E4NTk3OWU4ZTk4ODY4YS5odG1s",
     "hora": "11:00",
     "categoria": "BASKETBALL",
     "torneo": "WASL Gulf League",
     "evento": "AlUla vs. Kuwait SC",
     "tipo": "normal"
   },
-  "tv66": {
-    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThjOThhMzg4YTE4Yzg0N2E4NTk3OWU4Zjk4ODY4YTdiLmh0bWw=",
+  "tv34": {
+    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThjOThhMzg4YTE4Yzg0N2E4NTk3OWU4Zjk4ODc4OC5odG1s",
     "hora": "11:00",
     "categoria": "VOLLEYBALL",
     "torneo": "CEV Champions League",
     "evento": "Budowlani Lodz W vs. Fenerbahce W",
     "tipo": "normal"
   },
-  "tv67": {
-    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThjOThhMzg4YTE4Yzg0N2E4NTk3OWU5MDk4ODY4YTdjLmh0bWw=",
+  "tv35": {
+    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThjOThhMzg4YTE4Yzg0N2E4NTk3OWU5MDk4ODc4OS5odG1s",
     "hora": "11:00",
     "categoria": "VOLLEYBALL",
     "torneo": "CEV Champions League",
     "evento": "Rzeszow vs. Luneburg",
     "tipo": "normal"
   },
-  "tv68": {
-    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThjOThhMzg5OTk4YTg0N2E4NTk3OWY4Nzk4ODY4YTgxLmh0bWw=",
+  "tv36": {
+    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThjOThhMzg5OTk4YTg0N2E4NTk3OWY4Nzk4ODg4NC5odG1s",
     "hora": "11:30",
     "categoria": "SOCCER",
     "torneo": "Turkish Super Cup",
     "evento": "Fenerbahce vs. Samsunspor",
     "tipo": "normal"
   },
-  "tv69": {
-    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThjOThhMzg5OTk4YTg0N2E4NTk3OWY4ODk4ODY4YTdlLmh0bWw=",
+  "tv37": {
+    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThjOThhMzg5OTk4YTg0N2E4NTk3OWY4ODk4ODc4Yi5odG1s",
     "hora": "11:30",
     "categoria": "HOCKEY",
     "torneo": "CZ Extraliga",
     "evento": "Sparta Prague vs. Dynamo Pardubice",
     "tipo": "normal"
   },
-  "tv70": {
-    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThjOThhMzg5OTk4YTg0N2E4NTk3OWY4OTk4ODY4YTdmLmh0bWw=",
+  "tv38": {
+    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThjOThhMzg5OTk4YTg0N2E4NTk3OWY4OTk4ODc4Yy5odG1s",
     "hora": "11:30",
     "categoria": "HOCKEY",
     "torneo": "Norway EHL",
     "evento": "Stjernen vs. Frisk Asker",
     "tipo": "normal"
   },
-  "tv71": {
-    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThjOThhMzg5OTk4YTg0N2E4NTk3OWY4YTk4ODY4YTgwLmh0bWw=",
+  "tv39": {
+    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThjOThhMzg5OTk4YTg0N2E4NTk3OWY4YTk4ODc4ZC5odG1s",
     "hora": "11:30",
     "categoria": "HOCKEY",
     "torneo": "Polish Hockey League",
     "evento": "Jastrzebie vs. Krakow",
     "tipo": "normal"
   },
-  "tv72": {
-    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThjOThhMzg5OTk4YTg0N2E4NTk3OWY4Yjk4ODY4YTdkLmh0bWw=",
+  "tv40": {
+    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThjOThhMzg5OTk4YTg0N2E4NTk3OWY4Yjk4ODc4YS5odG1s",
     "hora": "11:30",
     "categoria": "BASKETBALL",
     "torneo": "Champions League",
     "evento": "Heidelberg vs. CEZ Nymburk",
     "tipo": "normal"
   },
-  "tv73": {
-    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThjOThhMzg5OWE4OTg0N2E4NTk3OWY4Yzk4ODY4YTgyLmh0bWw=",
+  "tv41": {
+    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThjOThhMzg5OTk4YTg0N2E4NTk3OWM4Nzk4ODY4NDgwLmh0bWw=",
+    "hora": "11:30",
+    "categoria": "BILLIARD",
+    "torneo": "Snooker",
+    "evento": "Championship League Snooker vs. Table 1",
+    "tipo": "normal"
+  },
+  "tv42": {
+    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThjOThhMzg5OTk4YTg0N2E4NTk3OWM4ODk4ODY4NDgxLmh0bWw=",
+    "hora": "11:30",
+    "categoria": "BILLIARD",
+    "torneo": "Snooker",
+    "evento": "Championship League Snooker vs. Table 2",
+    "tipo": "normal"
+  },
+  "tv43": {
+    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThjOThhMzg5OWE4OTg0N2E4NTk3OWY4Yzk4ODg4NS5odG1s",
     "hora": "11:45",
     "categoria": "BASKETBALL",
     "torneo": "EuroLeague",
     "evento": "Fenerbahce vs. Olympiacos",
+    "tipo": "normal"
+  },
+  "tv44": {
+    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThjOThhMzg5OWI4ODg0N2E4NTk3OWY4ZDk4ODg4ZC5odG1s",
+    "hora": "12:00",
+    "categoria": "SOCCER",
+    "torneo": "Brazil Copinha",
+    "evento": "Guanabara City U20 vs. Vasco U20",
+    "tipo": "normal"
+  },
+  "tv45": {
+    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThjOThhMzg5OWI4ODg0N2E4NTk3OWY4ZTk4ODk4NC5odG1s",
+    "hora": "12:00",
+    "categoria": "SOCCER",
+    "torneo": "Brazil Copinha",
+    "evento": "Rio Branco ES U20 vs. Vitoria U20",
+    "tipo": "normal"
+  },
+  "tv46": {
+    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThjOThhMzg5OWI4ODg0N2E4NTk3OWY5MDk4ODk4Ni5odG1s",
+    "hora": "12:00",
+    "categoria": "SOCCER",
+    "torneo": "Copa del Rey",
+    "evento": "Granada CF vs. Rayo Vallecano ",
+    "tipo": "normal"
+  },
+  "tv47": {
+    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThjOThhMzg5OWI4ODg0N2E4NTk3YTA4Nzk4ODk4Ny5odG1s",
+    "hora": "12:00",
+    "categoria": "SOCCER",
+    "torneo": "Copa del Rey",
+    "evento": "Granada CF vs. Rayo Vallecano ",
+    "tipo": "normal"
+  },
+  "tv48": {
+    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThjOThhMzg5OWI4ODg0N2E4NTk3YTA4ODk4ODk4OC5odG1s",
+    "hora": "12:00",
+    "categoria": "SOCCER",
+    "torneo": "Greek Cup",
+    "evento": "PAOK vs. Atromitos",
+    "tipo": "normal"
+  },
+  "tv49": {
+    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThjOThhMzg5OWI4ODg0N2E4NTk3YTA4OTk4ODg4OC5odG1s",
+    "hora": "12:00",
+    "categoria": "HOCKEY",
+    "torneo": "DEL",
+    "evento": "Augsburger Panther vs. Iserlohn Roosters",
+    "tipo": "normal"
+  },
+  "tv50": {
+    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThjOThhMzg5OWI4ODg0N2E4NTk3YTA4YTk4ODg4OS5odG1s",
+    "hora": "12:00",
+    "categoria": "HOCKEY",
+    "torneo": "DEL",
+    "evento": "Straubing Tigers vs. Adler Mannheim",
+    "tipo": "normal"
+  },
+  "tv51": {
+    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThjOThhMzg5OWI4ODg0N2E4NTk3YTA4Yjk4ODg4YS5odG1s",
+    "hora": "12:00",
+    "categoria": "HOCKEY",
+    "torneo": "Metal Ligaen",
+    "evento": "Herlev vs. AaB Aalborg",
+    "tipo": "normal"
+  },
+  "tv52": {
+    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThjOThhMzg5OWI4ODg0N2E4NTk3YTA4Yzk4ODg4Yi5odG1s",
+    "hora": "12:00",
+    "categoria": "HOCKEY",
+    "torneo": "Metal Ligaen",
+    "evento": "Herning Blue Fox vs. Rungsted",
+    "tipo": "normal"
+  },
+  "tv53": {
+    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThjOThhMzg5OWI4ODg0N2E4NTk3YTA4ZDk4ODg4Yy5odG1s",
+    "hora": "12:00",
+    "categoria": "HOCKEY",
+    "torneo": "Metal Ligaen",
+    "evento": "Odense Bulldogs vs. Frederikshavn",
+    "tipo": "normal"
+  },
+  "tv54": {
+    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThjOThhMzg5OWI4ODg0N2E4NTk3YTA4ZTk4ODg4Ni5odG1s",
+    "hora": "12:00",
+    "categoria": "BASKETBALL",
+    "torneo": "Eurocup",
+    "evento": "Cedevita Olimpija vs. Bahcesehir Koleji",
+    "tipo": "normal"
+  },
+  "tv55": {
+    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThjOThhMzg5OWI4ODg0N2E4NTk3YTA4Zjk4ODg4Ny5odG1s",
+    "hora": "12:00",
+    "categoria": "BASKETBALL",
+    "torneo": "Eurocup",
+    "evento": "Manresa vs. Aris",
+    "tipo": "normal"
+  },
+  "tv56": {
+    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThjOThhMzg5OWM4Nzg0N2E4NTk3YTA5MDk4ODk4YS5odG1s",
+    "hora": "12:15",
+    "categoria": "SOCCER",
+    "torneo": "Brazil Copinha",
+    "evento": "Tuna Luso U20 vs. Santa Cruz U20",
+    "tipo": "normal"
+  },
+  "tv57": {
+    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThjOThhMzg5OWM4Nzg0N2E4NTk3YTE4Nzk4ODk4OS5odG1s",
+    "hora": "12:15",
+    "categoria": "BASKETBALL",
+    "torneo": "Iceland",
+    "evento": "Stjarnan W vs. Grindavik W",
+    "tipo": "normal"
+  },
+  "tv58": {
+    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThjOThhMzg5OWQ4Njg0N2E4NTk3YTE4ODk4OGE4NC5odG1s",
+    "hora": "12:30",
+    "categoria": "HOCKEY",
+    "torneo": "DEL",
+    "evento": "Dresdner Eislowen vs. Fischtown Pinguins",
+    "tipo": "normal"
+  },
+  "tv59": {
+    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThjOThhMzg5OWQ4Njg0N2E4NTk3YTE4OTk4ODk4Yi5odG1s",
+    "hora": "12:30",
+    "categoria": "BASKETBALL",
+    "torneo": "EuroLeague",
+    "evento": "Monaco vs. Partizan Mozzart Bet ",
+    "tipo": "normal"
+  },
+  "tv60": {
+    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThjOThhMzg5OWQ4Njg0N2E4NTk3YTE4YTk4ODk4Yy5odG1s",
+    "hora": "12:30",
+    "categoria": "BASKETBALL",
+    "torneo": "EuroLeague",
+    "evento": "Monaco vs. Partizan Mozzart Bet ",
+    "tipo": "normal"
+  },
+  "tv61": {
+    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThjOThhMzg5OWQ4Njg0N2E4NTk3YTE4Yjk4ODk4ZC5odG1s",
+    "hora": "12:30",
+    "categoria": "BASKETBALL",
+    "torneo": "EuroLeague",
+    "evento": "Monaco vs. Partizan Mozzart Bet ",
+    "tipo": "normal"
+  },
+  "tv62": {
+    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThjOThhMzg5OWU4NTg0N2E4NTk3YTE4Yzk4OGE4NS5odG1s",
+    "hora": "12:45",
+    "categoria": "HOCKEY",
+    "torneo": "Swiss National League",
+    "evento": "Ajoie vs. FC Zurich",
+    "tipo": "normal"
+  },
+  "tv63": {
+    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThjOThhMzg5OWU4NTg0N2E4NTk3YTE4ZDk4OGE4Ny5odG1s",
+    "hora": "12:45",
+    "categoria": "HOCKEY",
+    "torneo": "Swiss National League",
+    "evento": "Ambri-Piotta vs. EV Zug",
+    "tipo": "normal"
+  },
+  "tv64": {
+    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThjOThhMzg5OWU4NTg0N2E4NTk3YTE4ZTk4OGE4OS5odG1s",
+    "hora": "12:45",
+    "categoria": "HOCKEY",
+    "torneo": "Swiss National League",
+    "evento": "Biel vs. HC Davos",
+    "tipo": "normal"
+  },
+  "tv65": {
+    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThjOThhMzg5OWU4NTg0N2E4NTk3YTE4Zjk4OGE4Yi5odG1s",
+    "hora": "12:45",
+    "categoria": "HOCKEY",
+    "torneo": "Swiss National League",
+    "evento": "EHC Kloten vs. SC Bern",
+    "tipo": "normal"
+  },
+  "tv66": {
+    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThjOThhMzg5OWU4NTg0N2E4NTk3YTE5MDk4OGE4ZC5odG1s",
+    "hora": "12:45",
+    "categoria": "HOCKEY",
+    "torneo": "Swiss National League",
+    "evento": "Fribourg-Gotteron vs. Langnau Tigers",
+    "tipo": "normal"
+  },
+  "tv67": {
+    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThjOThhMzg5OWU4NTg0N2E4NTk3YTI4Nzk4OGI4NS5odG1s",
+    "hora": "12:45",
+    "categoria": "HOCKEY",
+    "torneo": "Swiss National League",
+    "evento": "Geneve-Servette vs. Rapperswil-Jona",
+    "tipo": "normal"
+  },
+  "tv68": {
+    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThjOThhMzg5OWY4NDg0N2E4NTk3YTI4ODk4OGM4NC5odG1s",
+    "hora": "13:00",
+    "categoria": "SOCCER",
+    "torneo": "Africa Cup of Nations",
+    "evento": "Ivory Coast vs. Burkina Faso ",
+    "tipo": "normal"
+  },
+  "tv69": {
+    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThjOThhMzg5OWY4NDg0N2E4NTk3YTI4OTk4OGM4NS5odG1s",
+    "hora": "13:00",
+    "categoria": "SOCCER",
+    "torneo": "Africa Cup of Nations",
+    "evento": "Ivory Coast vs. Burkina Faso ",
+    "tipo": "normal"
+  },
+  "tv70": {
+    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThjOThhMzg5OWY4NDg0N2E4NTk3YTI4YTk4OGI4Ny5odG1s",
+    "hora": "13:00",
+    "categoria": "BASKETBALL",
+    "torneo": "Champions League",
+    "evento": "Chalon/Saone vs. Promitheas",
+    "tipo": "normal"
+  },
+  "tv71": {
+    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThjOThhMzg5OWY4NDg0N2E4NTk3YTI4Yjk4OGI4OC5odG1s",
+    "hora": "13:00",
+    "categoria": "BASKETBALL",
+    "torneo": "Champions League",
+    "evento": "Spartak Subotica vs. AS Karditsas",
+    "tipo": "normal"
+  },
+  "tv72": {
+    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThjOThhMzg5OWY4NDg0N2E4NTk3YTI4Yzk4OGI4OS5odG1s",
+    "hora": "13:00",
+    "categoria": "BASKETBALL",
+    "torneo": "EuroLeague",
+    "evento": "Crvena zvezda vs. Valencia Basket ",
+    "tipo": "normal"
+  },
+  "tv73": {
+    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThjOThhMzg5OWY4NDg0N2E4NTk3YTI4ZDk4OGI4YS5odG1s",
+    "hora": "13:00",
+    "categoria": "BASKETBALL",
+    "torneo": "EuroLeague",
+    "evento": "Crvena zvezda vs. Valencia Basket ",
+    "tipo": "normal"
+  },
+  "tv74": {
+    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThjOThhMzg5OWY4NDg0N2E4NTk3YTI4ZTk4OGI4Yi5odG1s",
+    "hora": "13:00",
+    "categoria": "BASKETBALL",
+    "torneo": "EuroLeague",
+    "evento": "Lyon-Villeurbanne vs. Real Madrid ",
+    "tipo": "normal"
+  },
+  "tv75": {
+    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThjOThhMzg5OWY4NDg0N2E4NTk3YTI4Zjk4OGI4Yy5odG1s",
+    "hora": "13:00",
+    "categoria": "BASKETBALL",
+    "torneo": "EuroLeague",
+    "evento": "Lyon-Villeurbanne vs. Real Madrid ",
+    "tipo": "normal"
+  },
+  "tv76": {
+    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThjOThhMzg5OWY4NDg0N2E4NTk3YTI5MDk4OGI4ZC5odG1s",
+    "hora": "13:00",
+    "categoria": "BASKETBALL",
+    "torneo": "Poland Basket Liga",
+    "evento": "Lublin W vs. VBW Gdynia W",
+    "tipo": "normal"
+  },
+  "tv77": {
+    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThjOThhMzg5OWY4NDg0N2E4NTk3YTM4Nzk4OGM4Ni5odG1s",
+    "hora": "13:00",
+    "categoria": "VOLLEYBALL",
+    "torneo": "CEV Challenge Cup",
+    "evento": "Benfica vs. Arcada Galati",
+    "tipo": "normal"
+  },
+  "tv78": {
+    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThjOThhMzg5OWY4NDg0N2E4NTk3YTM4ODk4OGM4Ny5odG1s",
+    "hora": "13:00",
+    "categoria": "VOLLEYBALL",
+    "torneo": "CEV Champions League",
+    "evento": "Tours vs. Trentino",
+    "tipo": "normal"
+  },
+  "tv79": {
+    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThjOThhMzg5OWY4NDg0N2E4NTlhYTE4Nzk4ODY4NDgyLmh0bWw=",
+    "hora": "13:00",
+    "categoria": "BILLIARD",
+    "torneo": "Snooker",
+    "evento": "German Masters Qualifiers vs. Table 1",
+    "tipo": "normal"
+  },
+  "tv80": {
+    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThjOThhMzg5OWY4NDg0N2E4NTlhYTE4ODk4ODY4NDgzLmh0bWw=",
+    "hora": "13:00",
+    "categoria": "BILLIARD",
+    "torneo": "Snooker",
+    "evento": "German Masters Qualifiers vs. Table 2",
+    "tipo": "normal"
+  },
+  "tv81": {
+    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThjOThhMzg5OWY4NDg0N2E4NTlhYTE4OTk4ODY4NTdhLmh0bWw=",
+    "hora": "13:00",
+    "categoria": "BILLIARD",
+    "torneo": "Snooker",
+    "evento": "German Masters Qualifiers vs. Table 3",
+    "tipo": "normal"
+  },
+  "tv82": {
+    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThjOThhMzg5OWY4NDg0N2E4NTlhYTE4YTk4ODY4NTdiLmh0bWw=",
+    "hora": "13:00",
+    "categoria": "BILLIARD",
+    "torneo": "Snooker",
+    "evento": "German Masters Qualifiers vs. Table 4",
+    "tipo": "normal"
+  },
+  "tv83": {
+    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThjOThhMzg5OWY4Nzg0N2E4NTk3YTM4OTk4OGM4OC5odG1s",
+    "hora": "13:05",
+    "categoria": "BASKETBALL",
+    "torneo": "EuroLeague",
+    "evento": "Hapoel Tel-Aviv vs. Dubai ",
+    "tipo": "normal"
+  },
+  "tv84": {
+    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThjOThhMzg5OWY4Nzg0N2E4NTk3YTM4YTk4OGM4OS5odG1s",
+    "hora": "13:05",
+    "categoria": "BASKETBALL",
+    "torneo": "EuroLeague",
+    "evento": "Hapoel Tel-Aviv vs. Dubai ",
+    "tipo": "normal"
+  },
+  "tv85": {
+    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThjOThhMzg5OWY4Nzg0N2E4NTk3YTM4Yjk4OGM4YS5odG1s",
+    "hora": "13:05",
+    "categoria": "BASKETBALL",
+    "torneo": "EuroLeague",
+    "evento": "Hapoel Tel-Aviv vs. Dubai ",
+    "tipo": "normal"
+  },
+  "tv86": {
+    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThjOThhMzg5OWY4ZDg0N2E4NTk3YTM4Yzk4OGM4Yi5odG1s",
+    "hora": "13:15",
+    "categoria": "BASKETBALL",
+    "torneo": "EuroLeague",
+    "evento": "Panathinaikos vs. Olimpia Milano ",
+    "tipo": "normal"
+  },
+  "tv87": {
+    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThjOThhMzg5OWY4ZDg0N2E4NTk3YTM4ZDk4OGM4Yy5odG1s",
+    "hora": "13:15",
+    "categoria": "BASKETBALL",
+    "torneo": "EuroLeague",
+    "evento": "Panathinaikos vs. Olimpia Milano ",
+    "tipo": "normal"
+  },
+  "tv88": {
+    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThjOThhMzg5OWY4ZDg0N2E4NTk3YTM4ZTk4OGM4ZC5odG1s",
+    "hora": "13:15",
+    "categoria": "BASKETBALL",
+    "torneo": "Iceland",
+    "evento": "Armann W vs. Hamar W",
+    "tipo": "normal"
+  },
+  "tv89": {
+    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThjOThhMzg5OWY4ZDg0N2E4NTk3YTM4Zjk4OGQ4NC5odG1s",
+    "hora": "13:15",
+    "categoria": "BASKETBALL",
+    "torneo": "Iceland",
+    "evento": "Njardvik W vs. KR Reykjavik W",
+    "tipo": "normal"
+  },
+  "tv90": {
+    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThjOThhMzg5YTA4Yzg0N2E4NTk3YTM5MDk4OGQ4NS5odG1s",
+    "hora": "13:30",
+    "categoria": "BASKETBALL",
+    "torneo": "EuroLeague",
+    "evento": "Barcelona vs. Maccabi Tel Aviv ",
+    "tipo": "normal"
+  },
+  "tv91": {
+    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThjOThhMzg5YTA4Yzg0N2E4NTk3YTQ4Nzk4OGQ4Ni5odG1s",
+    "hora": "13:30",
+    "categoria": "BASKETBALL",
+    "torneo": "EuroLeague",
+    "evento": "Barcelona vs. Maccabi Tel Aviv ",
+    "tipo": "normal"
+  },
+  "tv92": {
+    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThjOThhMzg5YTA4Yzg0N2E4NTk3YTQ4ODk4OGQ4Ny5odG1s",
+    "hora": "13:30",
+    "categoria": "BASKETBALL",
+    "torneo": "EuroLeague",
+    "evento": "Virtus Bologna vs. Zalgiris Kaunas ",
+    "tipo": "normal"
+  },
+  "tv93": {
+    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThjOThhMzg5YTA4Yzg0N2E4NTk3YTQ4OTk4OGQ4OC5odG1s",
+    "hora": "13:30",
+    "categoria": "BASKETBALL",
+    "torneo": "EuroLeague",
+    "evento": "Virtus Bologna vs. Zalgiris Kaunas ",
+    "tipo": "normal"
+  },
+  "tv94": {
+    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThjOThhMzg5YTA4Yzg0N2E4NTk3YTQ4YTk4OGQ4OS5odG1s",
+    "hora": "13:30",
+    "categoria": "VOLLEYBALL",
+    "torneo": "CEV Champions League",
+    "evento": "Sporting CP vs. Zawiercie",
+    "tipo": "normal"
+  },
+  "tv95": {
+    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThjOThhMzg5YTE4Yjg0N2E4NTk3YTQ4Yjk4OGQ4YS5odG1s",
+    "hora": "13:45",
+    "categoria": "SOCCER",
+    "torneo": "Scotland",
+    "evento": "Livingston vs. St. Mirren",
+    "tipo": "normal"
+  },
+  "tv96": {
+    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThjOThhMzg5YTE4Yjg0N2E4NTk3YTQ4Yzk4OGQ4Yi5odG1s",
+    "hora": "13:45",
+    "categoria": "SOCCER",
+    "torneo": "Scottish Challenge Cup",
+    "evento": "Partick Thistle vs. Inverness",
+    "tipo": "normal"
+  },
+  "tv97": {
+    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThjOThhMzg5YTE4Yjg0N2E4NTk3YTQ4ZDk4OGQ4Yy5odG1s",
+    "hora": "13:45",
+    "categoria": "SOCCER",
+    "torneo": "Serie A",
+    "evento": "Sassuolo vs. Juventus ",
+    "tipo": "normal"
+  },
+  "tv98": {
+    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThjOThhMzg5YTE4Yjg0N2E4NTk3YTQ4ZTk4OGQ4ZC5odG1s",
+    "hora": "13:45",
+    "categoria": "SOCCER",
+    "torneo": "Serie A",
+    "evento": "Sassuolo vs. Juventus ",
+    "tipo": "normal"
+  },
+  "tv99": {
+    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThjOThhMzg5YTI4YTg0N2E4NTk4OWM4Nzk4ODU4NDdiLmh0bWw=",
+    "hora": "14:00",
+    "categoria": "SOCCER",
+    "torneo": "EPL",
+    "evento": "West Ham vs. Nottingham Forest ",
+    "tipo": "normal"
+  },
+  "tv100": {
+    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThjOThhMzg5YTI4YTg0N2E4NTk4OWM4ODk4ODU4NDdjLmh0bWw=",
+    "hora": "14:00",
+    "categoria": "SOCCER",
+    "torneo": "EPL",
+    "evento": "West Ham vs. Nottingham Forest ",
+    "tipo": "normal"
+  },
+  "tv101": {
+    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThjOThhMzg5YTI4YTg0N2E4NTk4OWM4OTk4ODU4NDdkLmh0bWw=",
+    "hora": "14:00",
+    "categoria": "SOCCER",
+    "torneo": "EPL",
+    "evento": "West Ham vs. Nottingham Forest ",
+    "tipo": "normal"
+  },
+  "tv102": {
+    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThjOThhMzg5YTI4YTg0N2E4NTk4OWM4YTk4ODU4NDdlLmh0bWw=",
+    "hora": "14:00",
+    "categoria": "SOCCER",
+    "torneo": "Scotland",
+    "evento": "Rangers vs. Aberdeen",
+    "tipo": "normal"
+  },
+  "tv103": {
+    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThjOThhMzg5YTI4YTg0N2E4NTk4OWM4Yjk4ODU4NDdmLmh0bWw=",
+    "hora": "14:00",
+    "categoria": "SOCCER",
+    "torneo": "Taca da Liga",
+    "evento": "Sporting CP vs. Vitoria Guimaraes ",
+    "tipo": "normal"
+  },
+  "tv104": {
+    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThjOThhMzg5YTI4YTg0N2E4NTk4OWM4Yzk4ODU4NDgwLmh0bWw=",
+    "hora": "14:00",
+    "categoria": "SOCCER",
+    "torneo": "Taca da Liga",
+    "evento": "Sporting CP vs. Vitoria Guimaraes ",
+    "tipo": "normal"
+  },
+  "tv105": {
+    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThjOThhMzg5YTI4YTg0N2E4NTk4OWM4ZDk4ODU4NDdhLmh0bWw=",
+    "hora": "14:00",
+    "categoria": "BASKETBALL",
+    "torneo": "Portugal LPB",
+    "evento": "FC Porto vs. Ovarense",
+    "tipo": "normal"
+  },
+  "tv106": {
+    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThjOThhMzhhOWM4Njg0N2E4NTk4OWM4ZTk4ODU4NDgxLmh0bWw=",
+    "hora": "15:00",
+    "categoria": "SOCCER",
+    "torneo": "Brazil Copinha",
+    "evento": "Comercial U20 vs. Noroeste U20",
+    "tipo": "normal"
+  },
+  "tv107": {
+    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThjOThhMzhhOWU4NDg0N2E4NTk4OWM4Zjk4ODU4NDgyLmh0bWw=",
+    "hora": "15:30",
+    "categoria": "VOLLEYBALL",
+    "torneo": "Brazil SuperLiga",
+    "evento": "Mackenzie W vs. Minas W",
+    "tipo": "normal"
+  },
+  "tv108": {
+    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThjOThhMzhhOWY4Yzg0N2E4NTk4OWM5MDk4ODU4NDgzLmh0bWw=",
+    "hora": "16:00",
+    "categoria": "GOLF",
+    "torneo": "TGL",
+    "evento": "The Bay Golf Club vs. Atlanta Drive GC",
+    "tipo": "normal"
+  },
+  "tv109": {
+    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThjOThhMzhhYTE4YTg0N2E4NTk4OWQ4Nzk4ODU4NTdhLmh0bWw=",
+    "hora": "16:30",
+    "categoria": "SOCCER",
+    "torneo": "Brazil Copinha",
+    "evento": "Luverdense U20 vs. Corinthians U20",
+    "tipo": "normal"
+  },
+  "tv110": {
+    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThjOThhMzhiOTk4ODg0N2E4NTk4OWQ4ODk4ODU4NTdjLmh0bWw=",
+    "hora": "17:00",
+    "categoria": "BASKETBALL",
+    "torneo": "NCAA",
+    "evento": "Massachusetts vs. Ohio",
+    "tipo": "normal"
+  },
+  "tv111": {
+    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThjOThhMzhiOTk4ODg0N2E4NTk4OWQ4OTk4ODU4NTdkLmh0bWw=",
+    "hora": "17:00",
+    "categoria": "BASKETBALL",
+    "torneo": "NCAAW",
+    "evento": "SIU Edwardsville (W) vs. Lindenwood (W)",
+    "tipo": "normal"
+  },
+  "tv112": {
+    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThjOThhMzhiOTk4ODg0N2E4NTk4OWQ4YTk4ODU4NTdlLmh0bWw=",
+    "hora": "17:00",
+    "categoria": "SOCCER",
+    "torneo": "Brazil Paranaense",
+    "evento": "Sao Joseense vs. Galo Maringa",
+    "tipo": "normal"
+  },
+  "tv113": {
+    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThjOThhMzhiOTk4ODg0N2E4NTk4OWQ4Yjk4ODU4NTdiLmh0bWw=",
+    "hora": "17:00",
+    "categoria": "HOCKEY",
+    "torneo": "NCAA",
+    "evento": "Northeastern W vs. Yale W",
+    "tipo": "normal"
+  },
+  "tv114": {
+    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThjOThhMzhiOTk4ODg0N2E4NTk4OWQ4Yzk4ODU4NTdmLmh0bWw=",
+    "hora": "17:00",
+    "categoria": "VOLLEYBALL",
+    "torneo": "Brazil SuperLiga",
+    "evento": "Maringa W vs. Fluminense W",
+    "tipo": "normal"
+  },
+  "tv115": {
+    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThjOThhMzhiOWI4Njg0N2E4NTk4OWQ4ZDk4ODU4NTgwLmh0bWw=",
+    "hora": "17:30",
+    "categoria": "SOCCER",
+    "torneo": "Brazil Copinha",
+    "evento": "EC de Patos U20 vs. Cruzeiro U20",
+    "tipo": "normal"
+  },
+  "tv116": {
+    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThjOThhMzhiOWQ4NDg0N2E4NTk1OWM4Nzk4ODU4NjdiLmh0bWw=",
+    "hora": "18:00",
+    "categoria": "BASKETBALL",
+    "torneo": "NBA",
+    "evento": "Cleveland Cavaliers vs. Indiana Pacers ",
+    "tipo": "normal"
+  },
+  "tv117": {
+    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThjOThhMzhiOWQ4NDg0N2E4NTk1OWM4ODk4ODU4NjdjLmh0bWw=",
+    "hora": "18:00",
+    "categoria": "BASKETBALL",
+    "torneo": "NBA",
+    "evento": "Cleveland Cavaliers vs. Indiana Pacers ",
+    "tipo": "normal"
+  },
+  "tv118": {
+    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThjOThhMzhiOWQ4NDg0N2E4NTk1OWM4OTk4ODU4NjdkLmh0bWw=",
+    "hora": "18:00",
+    "categoria": "BASKETBALL",
+    "torneo": "NBA",
+    "evento": "Orlando Magic vs. Washington Wizards ",
+    "tipo": "normal"
+  },
+  "tv119": {
+    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThjOThhMzhiOWQ4NDg0N2E4NTk1OWM4YTk4ODU4NjdlLmh0bWw=",
+    "hora": "18:00",
+    "categoria": "BASKETBALL",
+    "torneo": "NBA",
+    "evento": "Orlando Magic vs. Washington Wizards ",
+    "tipo": "normal"
+  },
+  "tv120": {
+    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThjOThhMzhiOWQ4NDg0N2E4NTk1OWM4Yjk4ODU4NzgyLmh0bWw=",
+    "hora": "18:00",
+    "categoria": "HOCKEY",
+    "torneo": "NHL",
+    "evento": "Anaheim Ducks vs. Philadelphia Flyers ",
+    "tipo": "normal"
+  },
+  "tv121": {
+    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThjOThhMzhiOWQ4NDg0N2E4NTk1OWM4Yzk4ODU4NzgzLmh0bWw=",
+    "hora": "18:00",
+    "categoria": "HOCKEY",
+    "torneo": "NHL",
+    "evento": "Anaheim Ducks vs. Philadelphia Flyers ",
+    "tipo": "normal"
+  },
+  "tv122": {
+    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThjOThhMzhiOWQ4NDg0N2E4NTk1OWM4ZDk4ODU4ODdhLmh0bWw=",
+    "hora": "18:00",
+    "categoria": "HOCKEY",
+    "torneo": "NHL",
+    "evento": "Colorado Avalanche vs. Tampa Bay Lightning ",
+    "tipo": "normal"
+  },
+  "tv123": {
+    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThjOThhMzhiOWQ4NDg0N2E4NTk1OWM4ZTk4ODU4ODdjLmh0bWw=",
+    "hora": "18:00",
+    "categoria": "HOCKEY",
+    "torneo": "NHL",
+    "evento": "Colorado Avalanche vs. Tampa Bay Lightning ",
+    "tipo": "normal"
+  },
+  "tv124": {
+    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThjOThhMzhiOWQ4NDg0N2E4NTk1OWM4Zjk4ODU4ODdiLmh0bWw=",
+    "hora": "18:00",
+    "categoria": "HOCKEY",
+    "torneo": "NHL",
+    "evento": "Colorado Avalanche vs. Tampa Bay Lightning ",
+    "tipo": "normal"
+  },
+  "tv125": {
+    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThjOThhMzhiOWQ4NDg0N2E4NTk1OWM5MDk4ODU4ODdkLmh0bWw=",
+    "hora": "18:00",
+    "categoria": "HOCKEY",
+    "torneo": "NHL",
+    "evento": "Dallas Stars vs. Carolina Hurricanes ",
+    "tipo": "normal"
+  },
+  "tv126": {
+    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThjOThhMzhiOWQ4NDg0N2E4NTk1OWQ4Nzk4ODU4ODdlLmh0bWw=",
+    "hora": "18:00",
+    "categoria": "HOCKEY",
+    "torneo": "NHL",
+    "evento": "Dallas Stars vs. Carolina Hurricanes ",
+    "tipo": "normal"
+  },
+  "tv127": {
+    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThjOThhMzhiOWQ4NDg0N2E4NTk1OWQ4ODk4ODU4ODdmLmh0bWw=",
+    "hora": "18:00",
+    "categoria": "HOCKEY",
+    "torneo": "NHL",
+    "evento": "Vancouver Canucks vs. Buffalo Sabres ",
+    "tipo": "normal"
+  },
+  "tv128": {
+    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThjOThhMzhiOWQ4NDg0N2E4NTk1OWQ4OTk4ODU4ODgwLmh0bWw=",
+    "hora": "18:00",
+    "categoria": "HOCKEY",
+    "torneo": "NHL",
+    "evento": "Vancouver Canucks vs. Buffalo Sabres ",
+    "tipo": "normal"
+  },
+  "tv129": {
+    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThjOThhMzhiOWQ4NDg0N2E4NTk1OWQ4YTk4ODU4NjgxLmh0bWw=",
+    "hora": "18:00",
+    "categoria": "BASKETBALL",
+    "torneo": "NCAA",
+    "evento": "#6 Duke vs. #20 Louisville",
+    "tipo": "normal"
+  },
+  "tv130": {
+    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThjOThhMzhiOWQ4NDg0N2E4NTk1OWQ4Yjk4ODU4NzdhLmh0bWw=",
+    "hora": "18:00",
+    "categoria": "BASKETBALL",
+    "torneo": "NCAA",
+    "evento": "Cincinnati vs. West Virginia",
+    "tipo": "normal"
+  },
+  "tv131": {
+    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThjOThhMzhiOWQ4NDg0N2E4NTk1OWQ4Yzk4ODU4NzdjLmh0bWw=",
+    "hora": "18:00",
+    "categoria": "BASKETBALL",
+    "torneo": "NCAA",
+    "evento": "South Carolina vs. LSU",
+    "tipo": "normal"
+  },
+  "tv132": {
+    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThjOThhMzhiOWQ4NDg0N2E4NTk1OWQ4ZDk4ODU4NzdlLmh0bWw=",
+    "hora": "18:00",
+    "categoria": "BASKETBALL",
+    "torneo": "NCAA",
+    "evento": "Syracuse vs. Georgia Tech",
+    "tipo": "normal"
+  },
+  "tv133": {
+    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThjOThhMzhiOWQ4NDg0N2E4NTk1OWQ4ZTk4ODU4NjdmLmh0bWw=",
+    "hora": "18:00",
+    "categoria": "BASKETBALL",
+    "torneo": "NCAA",
+    "evento": "#18 Georgia vs. Florida",
+    "tipo": "normal"
+  },
+  "tv134": {
+    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThjOThhMzhiOWQ4NDg0N2E4NTk1OWQ4Zjk4ODU4NjgwLmh0bWw=",
+    "hora": "18:00",
+    "categoria": "BASKETBALL",
+    "torneo": "NCAA",
+    "evento": "#2 Michigan vs. Penn State",
+    "tipo": "normal"
+  },
+  "tv135": {
+    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThjOThhMzhiOWQ4NDg0N2E4NTk1OWQ5MDk4ODU4NzdkLmh0bWw=",
+    "hora": "18:00",
+    "categoria": "BASKETBALL",
+    "torneo": "NCAA",
+    "evento": "St. John's vs. Butler",
+    "tipo": "normal"
+  },
+  "tv136": {
+    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThjOThhMzhiOWQ4NDg0N2E4NTk1OWU4Nzk4ODU4NjgyLmh0bWw=",
+    "hora": "18:00",
+    "categoria": "BASKETBALL",
+    "torneo": "NCAA",
+    "evento": "Bowling Green vs. Kent State",
+    "tipo": "normal"
+  },
+  "tv137": {
+    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThjOThhMzhiOWQ4NDg0N2E4NTk1OWU4ODk4ODU4NjgzLmh0bWw=",
+    "hora": "18:00",
+    "categoria": "BASKETBALL",
+    "torneo": "NCAA",
+    "evento": "Central Michigan vs. Akron",
+    "tipo": "normal"
+  },
+  "tv138": {
+    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThjOThhMzhiOWQ4NDg0N2E4NTk1OWU4OTk4ODU4NzdiLmh0bWw=",
+    "hora": "18:00",
+    "categoria": "BASKETBALL",
+    "torneo": "NCAA",
+    "evento": "Eastern Michigan vs. Ball State",
+    "tipo": "normal"
+  },
+  "tv139": {
+    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThjOThhMzhiOWQ4NDg0N2E4NTk1OWU4YTk4ODU4NzdmLmh0bWw=",
+    "hora": "18:00",
+    "categoria": "BASKETBALL",
+    "torneo": "NCAA",
+    "evento": "Western Michigan vs. Miami (OH)",
+    "tipo": "normal"
+  },
+  "tv140": {
+    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThjOThhMzhiOWQ4NDg0N2E4NTk1OWU4Yjk4ODU4NzgwLmh0bWw=",
+    "hora": "18:00",
+    "categoria": "BASKETBALL",
+    "torneo": "NCAAW",
+    "evento": "UAB (W) vs. South Florida (W)",
+    "tipo": "normal"
+  },
+  "tv141": {
+    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThjOThhMzhiOWQ4NDg0N2E4NTk1OWU4Yzk4ODU4NzgxLmh0bWw=",
+    "hora": "18:00",
+    "categoria": "BASKETBALL",
+    "torneo": "NCAAW",
+    "evento": "Wichita State (W) vs. Temple (W)",
+    "tipo": "normal"
+  },
+  "tv142": {
+    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThjOThhMzhiOWQ4NDg0N2E4NTk1OWU4ZDk4ODU4NjdhLmh0bWw=",
+    "hora": "18:00",
+    "categoria": "HOCKEY",
+    "torneo": "PWHL",
+    "evento": "Toronto Sceptres W vs. New York Sirens W",
+    "tipo": "normal"
+  },
+  "tv143": {
+    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThjOThhMzhiOWQ4NDg0N2E4NTk1OWU4ZTk4ODU4NTgxLmh0bWw=",
+    "hora": "18:00",
+    "categoria": "BASKETBALL",
+    "torneo": "Argentina Liga A",
+    "evento": "Obras Sanitarias vs. Union De Santa Fe",
+    "tipo": "normal"
+  },
+  "tv144": {
+    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThjOThhMzhiOWQ4NDg0N2E4NTk1OWU4Zjk4ODU4NTgyLmh0bWw=",
+    "hora": "18:00",
+    "categoria": "BASKETBALL",
+    "torneo": "Argentina Liga A",
+    "evento": "Racing de Chivilcoy vs. Instituto de Cordoba",
+    "tipo": "normal"
+  },
+  "tv145": {
+    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThjOThhMzhiOWQ4NDg0N2E4NTk1OWU5MDk4ODU4NTgzLmh0bWw=",
+    "hora": "18:00",
+    "categoria": "BASKETBALL",
+    "torneo": "NBA G League",
+    "evento": "Long Island Nets vs. San Diego Clippers",
+    "tipo": "normal"
+  },
+  "tv146": {
+    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThjOThhMzhiOWQ4NDg0N2E4NTk1OWY4Nzk4ODU4ODgxLmh0bWw=",
+    "hora": "18:00",
+    "categoria": "VOLLEYBALL",
+    "torneo": "Brazil SuperLiga",
+    "evento": "Brasilia Volei W vs. Praia Clube W",
+    "tipo": "normal"
+  },
+  "tv147": {
+    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThjOThhMzhiOWU4Yzg0N2E4NTk1OWY4ODk4ODU4OTdjLmh0bWw=",
+    "hora": "18:30",
+    "categoria": "HOCKEY",
+    "torneo": "NHL",
+    "evento": "Florida Panthers vs. Toronto Maple Leafs ",
+    "tipo": "normal"
+  },
+  "tv148": {
+    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThjOThhMzhiOWU4Yzg0N2E4NTk1OWY4OTk4ODU4OTdkLmh0bWw=",
+    "hora": "18:30",
+    "categoria": "HOCKEY",
+    "torneo": "NHL",
+    "evento": "Florida Panthers vs. Toronto Maple Leafs ",
+    "tipo": "normal"
+  },
+  "tv149": {
+    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThjOThhMzhiOWU4Yzg0N2E4NTk1OWY4YTk4ODU4OTdlLmh0bWw=",
+    "hora": "18:30",
+    "categoria": "HOCKEY",
+    "torneo": "NHL",
+    "evento": "New Jersey Devils vs. New York Islanders",
+    "tipo": "normal"
+  },
+  "tv150": {
+    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThjOThhMzhiOWU4Yzg0N2E4NTk1OWY4Yjk4ODU4OTdhLmh0bWw=",
+    "hora": "18:30",
+    "categoria": "BASKETBALL",
+    "torneo": "NCAAW",
+    "evento": "North Texas (W) vs. East Carolina (W)",
+    "tipo": "normal"
+  },
+  "tv151": {
+    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThjOThhMzhiOWU4Yzg0N2E4NTk1OWY4Yzk4ODU4OTdiLmh0bWw=",
+    "hora": "18:30",
+    "categoria": "BASKETBALL",
+    "torneo": "NCAAW",
+    "evento": "Tulane (W) vs. Tulsa (W)",
+    "tipo": "normal"
+  },
+  "tv152": {
+    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThjOThhMzhiOWU4Yzg0N2E4NTk1OWY4ZDk4ODU4OTdmLmh0bWw=",
+    "hora": "18:30",
+    "categoria": "SOCCER",
+    "torneo": "Brazil Copinha",
+    "evento": "Carajas U20 vs. Ceara U20",
+    "tipo": "normal"
+  },
+  "tv153": {
+    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThjOThhMzhiOWU4Yzg0N2E4NTk1OWY4ZTk4ODU4ODgyLmh0bWw=",
+    "hora": "18:30",
+    "categoria": "BASKETBALL",
+    "torneo": "Argentina Liga A",
+    "evento": "Regatas vs. Obera TC",
+    "tipo": "normal"
+  },
+  "tv154": {
+    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThjOThhMzhiOWU4Yzg0N2E4NTk1OWY4Zjk4ODU4ODgzLmh0bWw=",
+    "hora": "18:30",
+    "categoria": "BASKETBALL",
+    "torneo": "NBA G League",
+    "evento": "Raptors 905 vs. Noblesville Boom",
+    "tipo": "normal"
+  },
+  "tv155": {
+    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThjOThhMzhiYTA4YTg0N2E4NTk1OWY5MDk4ODU4YjdmLmh0bWw=",
+    "hora": "19:00",
+    "categoria": "COMBAT SPORT",
+    "torneo": "WWE",
+    "evento": "WWE NXT",
+    "tipo": "normal"
+  },
+  "tv156": {
+    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThjOThhMzhiYTA4YTg0N2E4NTk1YTA4Nzk4ODU4OTgxLmh0bWw=",
+    "hora": "19:00",
+    "categoria": "BASKETBALL",
+    "torneo": "NBA",
+    "evento": "Los Angeles Lakers vs. New Orleans Pelicans ",
+    "tipo": "normal"
+  },
+  "tv157": {
+    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThjOThhMzhiYTA4YTg0N2E4NTk1YTA4ODk4ODU4OTgyLmh0bWw=",
+    "hora": "19:00",
+    "categoria": "BASKETBALL",
+    "torneo": "NBA",
+    "evento": "Los Angeles Lakers vs. New Orleans Pelicans ",
+    "tipo": "normal"
+  },
+  "tv158": {
+    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThjOThhMzhiYTA4YTg0N2E4NTk1YTA4OTk4ODU4OTgzLmh0bWw=",
+    "hora": "19:00",
+    "categoria": "BASKETBALL",
+    "torneo": "NBA",
+    "evento": "Los Angeles Lakers vs. New Orleans Pelicans ",
+    "tipo": "normal"
+  },
+  "tv159": {
+    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThjOThhMzhiYTA4YTg0N2E4NTk1YTA4YTk4ODU4YTdjLmh0bWw=",
+    "hora": "19:00",
+    "categoria": "BASKETBALL",
+    "torneo": "NBA",
+    "evento": "Miami Heat vs. Minnesota Timberwolves ",
+    "tipo": "normal"
+  },
+  "tv160": {
+    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThjOThhMzhiYTA4YTg0N2E4NTk1YTA4Yjk4ODU4YTdiLmh0bWw=",
+    "hora": "19:00",
+    "categoria": "BASKETBALL",
+    "torneo": "NBA",
+    "evento": "Miami Heat vs. Minnesota Timberwolves ",
+    "tipo": "normal"
+  },
+  "tv161": {
+    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThjOThhMzhiYTA4YTg0N2E4NTk1YTA4Yzk4ODU4YTdhLmh0bWw=",
+    "hora": "19:00",
+    "categoria": "BASKETBALL",
+    "torneo": "NBA",
+    "evento": "Miami Heat vs. Minnesota Timberwolves ",
+    "tipo": "normal"
+  },
+  "tv162": {
+    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThjOThhMzhiYTA4YTg0N2E4NTk1YTA4ZDk4ODU4YTdkLmh0bWw=",
+    "hora": "19:00",
+    "categoria": "BASKETBALL",
+    "torneo": "NBA",
+    "evento": "Miami Heat vs. Minnesota Timberwolves ",
+    "tipo": "normal"
+  },
+  "tv163": {
+    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThjOThhMzhiYTA4YTg0N2E4NTk1YTA4ZTk4ODU4YTdlLmh0bWw=",
+    "hora": "19:00",
+    "categoria": "BASKETBALL",
+    "torneo": "NBA",
+    "evento": "San Antonio Spurs vs. Memphis Grizzlies ",
+    "tipo": "normal"
+  },
+  "tv164": {
+    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThjOThhMzhiYTA4YTg0N2E4NTk1YTA4Zjk4ODU4YTdmLmh0bWw=",
+    "hora": "19:00",
+    "categoria": "BASKETBALL",
+    "torneo": "NBA",
+    "evento": "San Antonio Spurs vs. Memphis Grizzlies ",
+    "tipo": "normal"
+  },
+  "tv165": {
+    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThjOThhMzhiYTA4YTg0N2E4NTk1YTA5MDk4ODU4YjdjLmh0bWw=",
+    "hora": "19:00",
+    "categoria": "HOCKEY",
+    "torneo": "NHL",
+    "evento": "Vegas Golden Knights vs. Winnipeg Jets ",
+    "tipo": "normal"
+  },
+  "tv166": {
+    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThjOThhMzhiYTA4YTg0N2E4NTk1YTE4Nzk4ODU4YjdkLmh0bWw=",
+    "hora": "19:00",
+    "categoria": "HOCKEY",
+    "torneo": "NHL",
+    "evento": "Vegas Golden Knights vs. Winnipeg Jets ",
+    "tipo": "normal"
+  },
+  "tv167": {
+    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThjOThhMzhiYTA4YTg0N2E4NTk1YTE4ODk4ODU4YTgwLmh0bWw=",
+    "hora": "19:00",
+    "categoria": "BASKETBALL",
+    "torneo": "NCAA",
+    "evento": "#19 Iowa vs. Minnesota",
+    "tipo": "normal"
+  },
+  "tv168": {
+    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThjOThhMzhiYTA4YTg0N2E4NTk1YTE4OTk4ODU4YTgzLmh0bWw=",
+    "hora": "19:00",
+    "categoria": "BASKETBALL",
+    "torneo": "NCAA",
+    "evento": "Georgetown vs. DePaul",
+    "tipo": "normal"
+  },
+  "tv169": {
+    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThjOThhMzhiYTA4YTg0N2E4NTk1YTE4YTk4ODU4YTgyLmh0bWw=",
+    "hora": "19:00",
+    "categoria": "BASKETBALL",
+    "torneo": "NCAA",
+    "evento": "George Washington vs. Dayton",
+    "tipo": "normal"
+  },
+  "tv170": {
+    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThjOThhMzhiYTA4YTg0N2E4NTk1YTE4Yjk4ODU4YTgxLmh0bWw=",
+    "hora": "19:00",
+    "categoria": "BASKETBALL",
+    "torneo": "NCAA",
+    "evento": "#25 UCF vs. Oklahoma State",
+    "tipo": "normal"
+  },
+  "tv171": {
+    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThjOThhMzhiYTA4YTg0N2E4NTk1YTE4Yzk4ODU4YjdhLmh0bWw=",
+    "hora": "19:00",
+    "categoria": "BASKETBALL",
+    "torneo": "NCAA",
+    "evento": "Toledo vs. Northern Illinois",
+    "tipo": "normal"
+  },
+  "tv172": {
+    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThjOThhMzhiYTA4YTg0N2E4NTk1YTE4ZDk4ODU4YjdiLmh0bWw=",
+    "hora": "19:00",
+    "categoria": "BASKETBALL",
+    "torneo": "NCAAW",
+    "evento": "Arizona (W) vs. BYU (W)",
+    "tipo": "normal"
+  },
+  "tv173": {
+    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThjOThhMzhiYTA4YTg0N2E4NTk1YTE4ZTk4ODU4YjdlLmh0bWw=",
+    "hora": "19:00",
+    "categoria": "SOCCER",
+    "torneo": "Mexico",
+    "evento": "Atlas W vs. Pachuca W",
+    "tipo": "normal"
+  },
+  "tv174": {
+    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThjOThhMzhiYTA4YTg0N2E4NTk1YTE4Zjk4ODU4OTgwLmh0bWw=",
+    "hora": "19:00",
+    "categoria": "BASKETBALL",
+    "torneo": "Argentina Liga A",
+    "evento": "Olimpico vs. San Lorenzo",
+    "tipo": "normal"
+  },
+  "tv175": {
+    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThjOThhMzhiYTI4ODg0N2E4NTk1YTE5MDk4ODU4YjgwLmh0bWw=",
+    "hora": "19:30",
+    "categoria": "BASKETBALL",
+    "torneo": "NCAA",
+    "evento": "Lindenwood vs. SIU Edwardsville",
+    "tipo": "normal"
+  },
+  "tv176": {
+    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThjOThhMzhjOWE4Njg0N2E4NTk1YTI4Nzk4ODU4YzgxLmh0bWw=",
+    "hora": "20:00",
+    "categoria": "HOCKEY",
+    "torneo": "NHL",
+    "evento": "Nashville Predators vs. Edmonton Oilers ",
+    "tipo": "normal"
+  },
+  "tv177": {
+    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThjOThhMzhjOWE4Njg0N2E4NTk1YTI4ODk4ODU4YzgzLmh0bWw=",
+    "hora": "20:00",
+    "categoria": "HOCKEY",
+    "torneo": "NHL",
+    "evento": "Nashville Predators vs. Edmonton Oilers ",
+    "tipo": "normal"
+  },
+  "tv178": {
+    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThjOThhMzhjOWE4Njg0N2E4NTk1YTI4OTk4ODU4YzgyLmh0bWw=",
+    "hora": "20:00",
+    "categoria": "HOCKEY",
+    "torneo": "NHL",
+    "evento": "Nashville Predators vs. Edmonton Oilers ",
+    "tipo": "normal"
+  },
+  "tv179": {
+    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThjOThhMzhjOWE4Njg0N2E4NTk1YTI4YTk4ODU4YzdjLmh0bWw=",
+    "hora": "20:00",
+    "categoria": "BASKETBALL",
+    "torneo": "NCAA",
+    "evento": "TCU vs. #22 Kansas",
+    "tipo": "normal"
+  },
+  "tv180": {
+    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThjOThhMzhjOWE4Njg0N2E4NTk1YTI4Yjk4ODU4YzdlLmh0bWw=",
+    "hora": "20:00",
+    "categoria": "BASKETBALL",
+    "torneo": "NCAA",
+    "evento": "Texas vs. #21 Tennessee",
+    "tipo": "normal"
+  },
+  "tv181": {
+    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThjOThhMzhjOWE4Njg0N2E4NTk1YTI4Yzk4ODU4YzdhLmh0bWw=",
+    "hora": "20:00",
+    "categoria": "BASKETBALL",
+    "torneo": "NCAA",
+    "evento": "NC State vs. Boston College",
+    "tipo": "normal"
+  },
+  "tv182": {
+    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThjOThhMzhjOWE4Njg0N2E4NTk1YTI4ZDk4ODU4YzdkLmh0bWw=",
+    "hora": "20:00",
+    "categoria": "BASKETBALL",
+    "torneo": "NCAA",
+    "evento": "Texas A&M vs. Auburn",
+    "tipo": "normal"
+  },
+  "tv183": {
+    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThjOThhMzhjOWE4Njg0N2E4NTk1YTI4ZTk4ODU4YjgzLmh0bWw=",
+    "hora": "20:00",
+    "categoria": "BASKETBALL",
+    "torneo": "NCAA",
+    "evento": "#14 Texas Tech vs. #7 Houston",
+    "tipo": "normal"
+  },
+  "tv184": {
+    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThjOThhMzhjOWE4Njg0N2E4NTk1YTI4Zjk4ODU4YzdmLmh0bWw=",
+    "hora": "20:00",
+    "categoria": "BASKETBALL",
+    "torneo": "NCAA",
+    "evento": "UCLA vs. Wisconsin",
+    "tipo": "normal"
+  },
+  "tv185": {
+    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThjOThhMzhjOWE4Njg0N2E4NTk1YTI5MDk4ODU4YzdiLmh0bWw=",
+    "hora": "20:00",
+    "categoria": "BASKETBALL",
+    "torneo": "NCAA",
+    "evento": "New Mexico vs. Colorado State",
+    "tipo": "normal"
+  },
+  "tv186": {
+    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThjOThhMzhjOWE4Njg0N2E4NTk1YTM4Nzk4ODU4YzgwLmh0bWw=",
+    "hora": "20:00",
+    "categoria": "BASKETBALL",
+    "torneo": "NCAA",
+    "evento": "Utah State vs. Air Force",
+    "tipo": "normal"
+  },
+  "tv187": {
+    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThjOThhMzhjOWE4Njg0N2E4NTk1YTM4ODk4ODU4YjgxLmh0bWw=",
+    "hora": "20:00",
+    "categoria": "BASKETBALL",
+    "torneo": "NBA G League",
+    "evento": "Mexico City Capitanes vs. Texas Legends",
+    "tipo": "normal"
+  },
+  "tv188": {
+    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThjOThhMzhjOWE4Njg0N2E4NTk1YTM4OTk4ODU4YjgyLmh0bWw=",
+    "hora": "20:00",
+    "categoria": "BASKETBALL",
+    "torneo": "NBA G League",
+    "evento": "Valley Suns vs. Oklahoma City Blue",
+    "tipo": "normal"
+  },
+  "tv189": {
+    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThjOThhMzhjOWQ4Yzg0N2E4NTk1YTM4YTk4ODU4ZDdmLmh0bWw=",
+    "hora": "21:00",
+    "categoria": "HOCKEY",
+    "torneo": "NHL",
+    "evento": "Boston Bruins vs. Seattle Kraken ",
+    "tipo": "normal"
+  },
+  "tv190": {
+    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThjOThhMzhjOWQ4Yzg0N2E4NTk1YTM4Yjk4ODU4ZDgwLmh0bWw=",
+    "hora": "21:00",
+    "categoria": "HOCKEY",
+    "torneo": "NHL",
+    "evento": "Boston Bruins vs. Seattle Kraken ",
+    "tipo": "normal"
+  },
+  "tv191": {
+    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThjOThhMzhjOWQ4Yzg0N2E4NTk1YTM4Yzk4ODU4ZDgxLmh0bWw=",
+    "hora": "21:00",
+    "categoria": "HOCKEY",
+    "torneo": "NHL",
+    "evento": "Columbus Blue Jackets vs. San Jose Sharks ",
+    "tipo": "normal"
+  },
+  "tv192": {
+    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThjOThhMzhjOWQ4Yzg0N2E4NTk1YTM4ZDk4ODU4ZDgyLmh0bWw=",
+    "hora": "21:00",
+    "categoria": "HOCKEY",
+    "torneo": "NHL",
+    "evento": "Columbus Blue Jackets vs. San Jose Sharks ",
+    "tipo": "normal"
+  },
+  "tv193": {
+    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThjOThhMzhjOWQ4Yzg0N2E4NTk1YTM4ZTk4ODU4ZDdkLmh0bWw=",
+    "hora": "21:00",
+    "categoria": "BASKETBALL",
+    "torneo": "NCAA",
+    "evento": "UNLV vs. Wyoming",
+    "tipo": "normal"
+  },
+  "tv194": {
+    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThjOThhMzhjOWQ4Yzg0N2E4NTk1YTM4Zjk4ODU4ZDdjLmh0bWw=",
+    "hora": "21:00",
+    "categoria": "BASKETBALL",
+    "torneo": "NCAA",
+    "evento": "Fresno State vs. San Jose State",
+    "tipo": "normal"
+  },
+  "tv195": {
+    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThjOThhMzhjOWQ4Yzg0N2E4NTk1YTM5MDk4ODU4ZDdlLmh0bWw=",
+    "hora": "21:00",
+    "categoria": "BASKETBALL",
+    "torneo": "NCAAW",
+    "evento": "#21 USC (W) vs. Oregon (W)",
+    "tipo": "normal"
+  },
+  "tv196": {
+    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThjOThhMzhjOWQ4Yzg0N2E4NTk1YTQ4Nzk4ODU4ZDdiLmh0bWw=",
+    "hora": "21:00",
+    "categoria": "HOCKEY",
+    "torneo": "AHL",
+    "evento": "Abbotsford Canucks vs. Bakersfield Condors",
+    "tipo": "normal"
+  },
+  "tv197": {
+    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThjOThhMzhjOWQ4Yzg0N2E4NTk1YTQ4ODk4ODU4ZDdhLmh0bWw=",
+    "hora": "21:00",
+    "categoria": "BASKETBALL",
+    "torneo": "NBA G League",
+    "evento": "South Bay Lakers vs. Memphis Hustle",
+    "tipo": "normal"
+  },
+  "tv198": {
+    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThjOThhMzhjOWU4NThhN2E4NTk1YTQ4OTk4ODU4ZDgzLmh0bWw=",
+    "hora": "21:06",
+    "categoria": "SOCCER",
+    "torneo": "Mexico",
+    "evento": "Mazatlan FC W vs. Juarez W",
+    "tipo": "normal"
+  },
+  "tv199": {
+    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThjOThhMzhjYTE4ODg0N2E4NTk1YTQ4YTk4ODY4NDdjLmh0bWw=",
+    "hora": "22:00",
+    "categoria": "BASKETBALL",
+    "torneo": "NBA",
+    "evento": "Dallas Mavericks vs. Sacramento Kings ",
+    "tipo": "normal"
+  },
+  "tv200": {
+    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThjOThhMzhjYTE4ODg0N2E4NTk1YTQ4Yjk4ODY4NDdhLmh0bWw=",
+    "hora": "22:00",
+    "categoria": "BASKETBALL",
+    "torneo": "NBA",
+    "evento": "Dallas Mavericks vs. Sacramento Kings ",
+    "tipo": "normal"
+  },
+  "tv201": {
+    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThjOThhMzhjYTE4ODg0N2E4NTk1YTQ4Yzk4ODY4NDdiLmh0bWw=",
+    "hora": "22:00",
+    "categoria": "BASKETBALL",
+    "torneo": "NBA",
+    "evento": "Dallas Mavericks vs. Sacramento Kings ",
+    "tipo": "normal"
+  },
+  "tv202": {
+    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThjOThhMzhjYTE4ODg0N2E4NTk1YTQ4ZDk4ODY4NDdkLmh0bWw=",
+    "hora": "22:00",
+    "categoria": "BASKETBALL",
+    "torneo": "NBA",
+    "evento": "Dallas Mavericks vs. Sacramento Kings ",
+    "tipo": "normal"
+  },
+  "tv203": {
+    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThjOThhMzhjYTE4ODg0N2E4NTk1YTQ4ZTk4ODY4NDdlLmh0bWw=",
+    "hora": "22:00",
+    "categoria": "BASKETBALL",
+    "torneo": "NCAA",
+    "evento": "San Diego State vs. Nevada",
+    "tipo": "normal"
+  },
+  "tv204": {
+    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThjOThhMzhlOWQ4YTg0N2E4NTk1YTQ4Zjk4ODY4NDdmLmh0bWw=",
+    "hora": "02:30",
+    "categoria": "BASKETBALL",
+    "torneo": "NBL",
+    "evento": "Melbourne United vs. Cairns Taipans",
     "tipo": "normal"
   }
 }
