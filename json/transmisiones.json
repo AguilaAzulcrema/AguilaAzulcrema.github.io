@@ -1,198 +1,65 @@
 {
-  "aus1": {
-    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThjOThhMjg3OTk4NDg0N2E4NTk1OWU4Yzk4ODYuaHRtbA==",
-    "hora": "02:00",
-    "torneo": "A-League",
-    "evento": "Macarthur FC vs. Auckland FC",
-    "tipo": "normal"
-  },
-  "acn1": {
-    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThjOThhMjg5YTE4Yzg0N2E4NTlhOWM4OTk4OGQuaHRtbA==",
-    "hora": "10:00",
-    "torneo": "Africa Cup of Nations",
-    "evento": "Egypt vs. Benin ",
-    "tipo": "normal"
-  },
-  "acn2": {
-    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThjOThhMjg5YTE4Yzg0N2E4NTlhOWM4YTk4ODU4NC5odG1s",
-    "hora": "10:00",
-    "torneo": "Africa Cup of Nations",
-    "evento": "Egypt vs. Benin ",
-    "tipo": "normal"
-  },
   "tv1": {
-    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThjOThhMjhhOWI4ODg0N2E4NTk3OWM4Yjk4ODY4Yy5odG1s",
-    "hora": "11:00",
-    "torneo": "Israel Leumit League",
-    "evento": "Hapoel Kfar Shalem vs. Bnei Yehuda",
+    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThjOThhMjkwYTI4NDg0N2E4NTlhOWM4OTk4ODY4NDgxLmh0bWw=",
+    "hora": "05:30",
+    "torneo": "Asian Cup",
+    "evento": "Vietnam U23 vs. Jordan U23",
     "tipo": "normal"
   },
   "tv2": {
-    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThjOThhMjhhOWI4ODg0N2E4NTk3OWM4Yzk4ODY4ZC5odG1s",
-    "hora": "11:00",
-    "torneo": "Israel Leumit League",
-    "evento": "Ironi Modiin vs. Hapoel Hadera",
+    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThjOThhMzg3OWQ4ODg0N2E4NTlhOWM4Yjk4ODY4NDgzLmh0bWw=",
+    "hora": "07:00",
+    "torneo": "Greek Cup",
+    "evento": "Aris vs. Panetolikos",
+    "tipo": "normal"
+  },
+  "eau1": {
+    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThjOThhMzg3OWQ4ODg0N2E4NTlhOWM4Yzk4ODY4NTdhLmh0bWw=",
+    "hora": "07:00",
+    "torneo": "UAE League",
+    "evento": "Al Nasr vs. Al Sharjah",
     "tipo": "normal"
   },
   "tv3": {
-    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThjOThhMjhhOWI4ODg0N2E4NTk3OWM4ZDk4ODc4NC5odG1s",
-    "hora": "11:00",
-    "torneo": "Israel Leumit League",
-    "evento": "Kiryat Yam vs. Nof Hagalil",
+    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThjOThhMzg3YTE4NDg0N2E4NTlhOWM4ZTk4ODY4NTgyLmh0bWw=",
+    "hora": "08:00",
+    "torneo": "Brazil Copinha",
+    "evento": "CSA U20 vs. Bahia U20",
     "tipo": "normal"
   },
   "tv4": {
-    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThjOThhMjhhOWQ4Njg0N2E4NTk3OWQ4Yjk4ODc4Ny5odG1s",
-    "hora": "11:30",
-    "torneo": "Turkish Super Cup",
-    "evento": "Galatasaray vs. Trabzonspor",
-    "tipo": "normal"
-  },
-  "por1": {
-    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThjOThhMjhhOWY4NDg0N2E4NTk3OWQ4ZDk4ODc4Yi5odG1s",
-    "hora": "12:00",
-    "torneo": "Liga Portugal 2",
-    "evento": "Benfica B vs. FC Porto B",
-    "tipo": "normal"
-  },
-  "tv5": {
-    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThjOThhMjhhYTA4Yzg0N2E4NTk3OWU4ZDk4ODg4OS5odG1s",
-    "hora": "12:30",
-    "torneo": "Israel Ligat haAl",
-    "evento": "Maccabi Haifa vs. Hapoel Haifa",
-    "tipo": "normal"
-  },
-  "acn3": {
-    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThjOThhMjhhYTI4YTg0N2E4NTk3OWY4Nzk4ODk4Ni5odG1s",
-    "hora": "13:00",
-    "torneo": "Africa Cup of Nations",
-    "evento": "Nigeria vs. Mozambique ",
-    "tipo": "normal"
-  },
-  "acn4": {
-    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThjOThhMjhhYTI4YTg0N2E4NTk3OWY4ODk4ODk4Ny5odG1s",
-    "hora": "13:00",
-    "torneo": "Africa Cup of Nations",
-    "evento": "Nigeria vs. Mozambique ",
-    "tipo": "normal"
-  },
-  "tv6": {
-    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThjOThhMjhhYTI4YTg0N2E4NTk3OWY4OTk4ODk4OC5odG1s",
-    "hora": "13:00",
-    "torneo": "Brazil Copinha",
-    "evento": "Galvez U20 vs. Gremio U20",
+    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThjOThhMzg3YTE4NDg0N2E4NTlhOWM4Zjk4ODY4NTgzLmh0bWw=",
+    "hora": "08:00",
+    "torneo": "Friendly",
+    "evento": "Slavia Prague vs. Basel",
     "tipo": "normal"
   },
   "it1": {
-    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThjOThhMjhiOWE4ODg0N2E4NTk3OWY5MDk4ODk4Yi5odG1s",
-    "hora": "13:30",
-    "torneo": "Italy Serie C",
-    "evento": "Altamura vs. Casertana",
+    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThjOThhMzg3YTE4NDg0N2E4NTlhOWM5MDk4ODY4NjdhLmh0bWw=",
+    "hora": "08:00",
+    "torneo": "Serie A",
+    "evento": "Pisa vs. Como ",
     "tipo": "normal"
   },
   "it2": {
-    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThjOThhMjhiOWE4ODg0N2E4NTk3YTA4Nzk4ODk4Yy5odG1s",
-    "hora": "13:30",
-    "torneo": "Italy Serie C",
-    "evento": "Benevento vs. Crotone",
+    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThjOThhMzg3YTE4NDg0N2E4NTlhOWQ4Nzk4ODY4NjdiLmh0bWw=",
+    "hora": "08:00",
+    "torneo": "Serie A",
+    "evento": "Pisa vs. Como ",
     "tipo": "normal"
   },
-  "it3": {
-    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThjOThhMjhiOWE4ODg0N2E4NTk3YTA4ODk4ODk4ZC5odG1s",
-    "hora": "13:30",
-    "torneo": "Italy Serie C",
-    "evento": "Cosenza vs. Monopoli",
+  "tv5": {
+    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThjOThhMzg4OWM4ODg0N2E4NTlhOWU4OTk4ODY4NzdkLmh0bWw=",
+    "hora": "09:30",
+    "torneo": "Greek Cup",
+    "evento": "Volos vs. Kifisia",
     "tipo": "normal"
   },
-  "it4": {
-    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThjOThhMjhiOWE4ODg0N2E4NTk3YTA4OTk4OGE4NC5odG1s",
-    "hora": "13:30",
-    "torneo": "Italy Serie C",
-    "evento": "Triestina vs. Alcione Milano",
-    "tipo": "normal"
-  },
-  "fr1": {
-    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThjOThhMjhiOWI4Nzg0N2E4NTk3YTA4YTk4OGE4NS5odG1s",
-    "hora": "13:45",
-    "torneo": "Ligue 2",
-    "evento": "Montpellier vs. Dunkerque",
-    "tipo": "normal"
-  },
-  "en1": {
-    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThjOThhMjhiOWM4Njg0N2E4NTk3YTA4Yjk4OGE4Ni5odG1s",
-    "hora": "14:00",
-    "torneo": "England Championship",
-    "evento": "Leicester City vs. West Brom ",
-    "tipo": "normal"
-  },
-  "en2": {
-    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThjOThhMjhiOWM4Njg0N2E4NTk3YTA4Yzk4OGE4Ny5odG1s",
-    "hora": "14:00",
-    "torneo": "England Championship",
-    "evento": "Leicester City vs. West Brom ",
-    "tipo": "normal"
-  },
-  "por2": {
-    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThjOThhMjhiOWQ4NTg0N2E4NTk3YTA4ZDk4OGE4OC5odG1s",
-    "hora": "14:15",
-    "torneo": "Liga Portugal 2",
-    "evento": "Vizela vs. Torreense",
-    "tipo": "normal"
-  },
-  "tv7": {
-    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThjOThhMjhiYTE4YTg0N2E4NTk3YTA4ZTk4OGE4YS5odG1s",
-    "hora": "15:30",
-    "torneo": "Brazil Copinha",
-    "evento": "Mirassol U20 vs. Linense U20",
-    "tipo": "normal"
-  },
-  "tv8": {
-    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThjOThhMjhjOWI4Njg0N2E4NTk3YTE4ODk4OGE4ZC5odG1s",
-    "hora": "16:30",
-    "torneo": "Brazil Copinha",
-    "evento": "Palmeiras U20 vs. Monte Roraima U20",
-    "tipo": "normal"
-  },
-  "tv9": {
-    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThjOThhMjhjOWY4Yjg0N2E4NTk3YTE4Yzk4OGI4Ny5odG1s",
-    "hora": "17:45",
-    "torneo": "Brazil Copinha",
-    "evento": "Forte U20 vs. Sport Recife U20",
-    "tipo": "normal"
-  },
-  "fem1": {
-    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThjOThhMjhjYTA4YTg0N2E4NTk1OWQ4Yzk4OGQ4NS5odG1s",
-    "hora": "18:00",
-    "torneo": "Mexico",
-    "evento": "Club Leon W vs. Cruz Azul W",
-    "tipo": "normal"
-  },
-  "fem2": {
-    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThjOThhMjhjYTA4YTg0N2E4NTk1OWQ4ZDk4OGQ4Ni5odG1s",
-    "hora": "18:00",
-    "torneo": "Mexico",
-    "evento": "Toluca W vs. Club Tijuana W",
-    "tipo": "normal"
-  },
-  "tv10": {
-    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThjOThhMjhjYTI4ODg0N2E4NTk1OWY4OTk4ODU4NDgyLmh0bWw=",
-    "hora": "18:30",
-    "torneo": "Brazil Copinha",
-    "evento": "Fluminense U20 vs. Agua Santa U20",
-    "tipo": "normal"
-  },
-  "fem3": {
-    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThjOThhMjhkOWU4NThhN2E4NTk1YTE4Nzk4ODU4NjdlLmh0bWw=",
-    "hora": "20:06",
-    "torneo": "Mexico",
-    "evento": "Santos Laguna W vs. Club America W",
-    "tipo": "normal"
-  },
-  "aus2": {
-    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThjOThhMjhmOWY4ODg0N2E4NTk1YTI4OTk4ODU4NzgxLmh0bWw=",
-    "hora": "02:00",
-    "torneo": "A-League",
-    "evento": "Melbourne City vs. Brisbane Roar",
+  "eau2": {
+    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThjOThhMzg4OWQ4Nzg0N2E4NTlhOWU4ZTk4ODY4NzdmLmh0bWw=",
+    "hora": "09:45",
+    "torneo": "UAE League",
+    "evento": "Al Wahda vs. Bani Yas",
     "tipo": "normal"
   }
 }
