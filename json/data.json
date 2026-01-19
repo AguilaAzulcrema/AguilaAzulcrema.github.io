@@ -1,13 +1,54 @@
 {
     "events": [
         {
-            "time": "11:00",
+            "time": "17:00",
             "tournament": "mexico",
-            "eventTitle": "Guadalajara Chivas (f) vs. Santos Laguna (f)",
+            "eventTitle": "Santos Laguna vs. Juarez",
             "streams": [
                 {
-                    "url": "emb2.html?r=https://voodc.com/embed/85818c99a38c9e8a847a85979d8c98898d.html",
+                    "url": "emb2.html?r=https://voodc.com/embed/85818c99a38ea086847a85999c889886.html",
                     "optionText": "Opcion 1"
+                },
+                {
+                    "url": "emb2.html?r=https://voodc.com/embed/85818c99a38ea086847a85999c899887.html",
+                    "optionText": "Opcion 2"
+                }
+            ]
+        },
+        {
+            "time": "18:00",
+            "tournament": "costa-rica-primera-division",
+            "eventTitle": "Guadalupe vs. Liberia",
+            "streams": [
+                {
+                    "url": "emb2.html?r=https://voodc.com/embed/85818c99a38f998c847a85959c8c98858a.html",
+                    "optionText": "Opcion 1"
+                }
+            ]
+        },
+        {
+            "time": "19:00",
+            "tournament": "costa-rica-primera-division",
+            "eventTitle": "San Carlos vs. Sporting FC",
+            "streams": [
+                {
+                    "url": "emb2.html?r=https://voodc.com/embed/85818c99a38f9d88847a85959d8d98868c.html",
+                    "optionText": "Opcion 1"
+                }
+            ]
+        },
+        {
+            "time": "19:06",
+            "tournament": "mexico",
+            "eventTitle": "Pachuca vs. Club America",
+            "streams": [
+                {
+                    "url": "emb2.html?r=https://voodc.com/embed/85818c99a38f9d8b8a7a85959d8f98868d.html",
+                    "optionText": "Opcion 1"
+                },
+                {
+                    "url": "emb2.html?r=https://voodc.com/embed/85818c99a38f9d8b8a7a85959d90988784.html",
+                    "optionText": "Opcion 2"
                 }
             ]
         }
