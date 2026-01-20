@@ -1,100 +1,58 @@
 {
-  "mx1": {
-    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThjOTlhMzhlYTA4Njg0N2E4NTk5OWM4ODk4ODYuaHRtbA==",
-    "hora": "17:00",
-    "torneo": "Mexico",
-    "evento": "Santos Laguna vs. Juarez ",
+  "cl1": {
+    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThjOTlhNTg5OWM4NDg0N2E4NTlhOWM4ZTk4ODU4Yy5odG1s",
+    "hora": "09:30",
+    "torneo": "UEFA Champions League",
+    "evento": "Kairat Almaty vs. Club Brugge KV ",
     "tipo": "normal"
   },
-  "mx2": {
-    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThjOTlhMzhlYTA4Njg0N2E4NTk5OWM4OTk4ODcuaHRtbA==",
-    "hora": "17:00",
-    "torneo": "Mexico",
-    "evento": "Santos Laguna vs. Juarez ",
-    "tipo": "normal"
-  },
-  "col1": {
-    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThjOTlhMzhlYTE4ODg0N2E4NTk5OWM4YTk4ODguaHRtbA==",
-    "hora": "17:20",
-    "torneo": "Colombia Primera A",
-    "evento": "Deportivo Junior vs. Deportes Tolima",
+  "cl2": {
+    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThjOTlhNTg5OWM4NDg0N2E4NTlhOWM4Zjk4ODU4ZC5odG1s",
+    "hora": "09:30",
+    "torneo": "UEFA Champions League",
+    "evento": "Kairat Almaty vs. Club Brugge KV ",
     "tipo": "normal"
   },
   "tv1": {
-    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThjOTlhMzhlYTI4NDg0N2E4NTk5OWM4ZDk4OGMuaHRtbA==",
-    "hora": "17:30",
-    "torneo": "Brazil Carioca",
-    "evento": "Portuguesa RJ vs. Marica",
+    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThjOTlhNTg5OWM4NDg0N2E4NTlhOWM5MDk4ODY4NC5odG1s",
+    "hora": "09:30",
+    "torneo": "Asian Cup",
+    "evento": "Vietnam U23 vs. China U23",
     "tipo": "normal"
   },
-  "tv2": {
-    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThjOTlhMzhlYTI4NDg0N2E4NTk5OWM4ZTk4OGQuaHRtbA==",
-    "hora": "17:30",
-    "torneo": "Brazil Carioca",
-    "evento": "Sampaio Correa FE vs. Botafogo RJ",
+  "it1": {
+    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThjOTlhNTg5YTE4ODg0N2E4NTk3OWM4Yjk4ODc4OS5odG1s",
+    "hora": "11:00",
+    "torneo": "Coppa Italia",
+    "evento": "AC Milan W vs. Fiorentina W",
     "tipo": "normal"
   },
-  "bra1": {
-    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThjOTlhMzhlYTI4NDg0N2E4NTk5OWM4Zjk4ODU4NC5odG1s",
-    "hora": "17:30",
-    "torneo": "Brazil Paulista",
-    "evento": "Guarani vs. Santos",
+  "sa1": {
+    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThjOTlhNThhOTk4Njg0N2E4NTk3OWQ4Zjk4ODg4Yi5odG1s",
+    "hora": "11:30",
+    "torneo": "Saudi Professional League",
+    "evento": "Al Ahli SC vs. Al Khaleej ",
     "tipo": "normal"
   },
-  "cr1": {
-    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThjOTlhMzhmOTk4Yzg0N2E4NTk1OWM4Yzk4ODU4YS5odG1s",
-    "hora": "18:00",
-    "torneo": "Costa Rica Primera Division",
-    "evento": "Guadalupe vs. Liberia",
+  "sa2": {
+    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThjOTlhNThhOTk4Njg0N2E4NTk3OWQ5MDk4ODg4Yy5odG1s",
+    "hora": "11:30",
+    "torneo": "Saudi Professional League",
+    "evento": "Al Ahli SC vs. Al Khaleej ",
     "tipo": "normal"
   },
-  "tv3": {
-    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThjOTlhMzhmOTk4Yzg0N2E4NTk1OWM4ZDk4ODU4Yi5odG1s",
-    "hora": "18:00",
-    "torneo": "Friendly",
-    "evento": "Boca Juniors vs. Olimpia Asuncion",
+  "cl3": {
+    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThjOTlhNThhOWE4NTg0N2E4NTk3OWU4Zjk4ODk4NS5odG1s",
+    "hora": "11:45",
+    "torneo": "UEFA Champions League",
+    "evento": "Bodo/Glimt vs. Manchester City ",
     "tipo": "normal"
   },
-  "tv4": {
-    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThjOTlhMzhmOTk4Yzg0N2E4NTk1OWM4ZTk4ODU4Yy5odG1s",
-    "hora": "18:00",
-    "torneo": "Serie Rio de la Plata",
-    "evento": "Colo Colo vs. Alianza Lima",
-    "tipo": "normal"
-  },
-  "ar1": {
-    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThjOTlhMzhmOWE4Yjg0N2E4NTk1OWM4Zjk4ODU4ZC5odG1s",
-    "hora": "18:15",
-    "torneo": "Copa Argentina",
-    "evento": "Lanus vs. Sarmiento de La Banda",
-    "tipo": "normal"
-  },
-  "cr2": {
-    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThjOTlhMzhmOWQ4ODg0N2E4NTk1OWQ4ZDk4ODY4Yy5odG1s",
-    "hora": "19:00",
-    "torneo": "Costa Rica Primera Division",
-    "evento": "San Carlos vs. Sporting FC",
-    "tipo": "normal"
-  },
-  "mx3": {
-    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThjOTlhMzhmOWQ4YjhhN2E4NTk1OWQ4Zjk4ODY4ZC5odG1s",
-    "hora": "19:06",
-    "torneo": "Mexico",
-    "evento": "Pachuca vs. Club America ",
-    "tipo": "normal"
-  },
-  "mx4": {
-    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThjOTlhMzhmOWQ4YjhhN2E4NTk1OWQ5MDk4ODc4NC5odG1s",
-    "hora": "19:06",
-    "torneo": "Mexico",
-    "evento": "Pachuca vs. Club America ",
-    "tipo": "normal"
-  },
-  "col2": {
-    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThjOTlhMzhmOWY4Njg0N2E4NTk1OWU4Nzk4ODc4NS5odG1s",
-    "hora": "19:30",
-    "torneo": "Colombia Primera A",
-    "evento": "Independiente Santa Fe vs. Aguilas Doradas",
+  "cl4": {
+    "v": "aHR0cHM6Ly92b29kYy5jb20vZW1iZWQvODU4MThjOTlhNThhOWE4NTg0N2E4NTk3OWU5MDk4ODk4Ni5odG1s",
+    "hora": "11:45",
+    "torneo": "UEFA Champions League",
+    "evento": "Bodo/Glimt vs. Manchester City ",
     "tipo": "normal"
   }
 }
