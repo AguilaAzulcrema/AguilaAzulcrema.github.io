@@ -1,54 +1,57 @@
 {
     "events": [
         {
-            "time": "17:00",
-            "tournament": "mexico",
-            "eventTitle": "Santos Laguna vs. Juarez",
-            "streams": [
-                {
-                    "url": "emb2.html?r=https://voodc.com/embed/85818c99a38ea086847a85999c889886.html",
-                    "optionText": "Opcion 1"
-                },
-                {
-                    "url": "emb2.html?r=https://voodc.com/embed/85818c99a38ea086847a85999c899887.html",
-                    "optionText": "Opcion 2"
-                }
-            ]
-        },
-        {
-            "time": "18:00",
-            "tournament": "costa-rica-primera-division",
-            "eventTitle": "Guadalupe vs. Liberia",
-            "streams": [
-                {
-                    "url": "emb2.html?r=https://voodc.com/embed/85818c99a38f998c847a85959c8c98858a.html",
-                    "optionText": "Opcion 1"
-                }
-            ]
-        },
-        {
             "time": "19:00",
-            "tournament": "costa-rica-primera-division",
-            "eventTitle": "San Carlos vs. Sporting FC",
+            "tournament": "mexico",
+            "eventTitle": "Pachuca (f) vs. Puebla (f)",
             "streams": [
                 {
-                    "url": "emb2.html?r=https://voodc.com/embed/85818c99a38f9d88847a85959d8d98868c.html",
+                    "url": "emb2.html?r=https://voodc.com/embed/85818c99a58ca086847a8595a09098858b82.html",
                     "optionText": "Opcion 1"
                 }
             ]
         },
         {
-            "time": "19:06",
-            "tournament": "mexico",
-            "eventTitle": "Pachuca vs. Club America",
+            "time": "20:00",
+            "tournament": "costa-rica-primera-division",
+            "eventTitle": "Herediano vs. Guadalupe",
             "streams": [
                 {
-                    "url": "emb2.html?r=https://voodc.com/embed/85818c99a38f9d8b8a7a85959d8f98868d.html",
+                    "url": "emb2.html?r=https://voodc.com/embed/85818c99a58d998c847a8595a28d98858d81.html",
                     "optionText": "Opcion 1"
-                },
+                }
+            ]
+        },
+        {
+            "time": "20:00",
+            "tournament": "guatemala",
+            "eventTitle": "Xelaju vs. Aurora F.C.",
+            "streams": [
                 {
-                    "url": "emb2.html?r=https://voodc.com/embed/85818c99a38f9d8b8a7a85959d90988784.html",
-                    "optionText": "Opcion 2"
+                    "url": "emb2.html?r=https://voodc.com/embed/85818c99a58d998c847a8595a28e98858d82.html",
+                    "optionText": "Opcion 1"
+                }
+            ]
+        },
+        {
+            "time": "20:00",
+            "tournament": "mexico",
+            "eventTitle": "Atletico San Luis (f) vs. Club America (f)",
+            "streams": [
+                {
+                    "url": "emb2.html?r=https://voodc.com/embed/85818c99a58d998c847a8595a28f98858d83.html",
+                    "optionText": "Opcion 1"
+                }
+            ]
+        },
+        {
+            "time": "21:06",
+            "tournament": "mexico",
+            "eventTitle": "Club Tijuana (f) vs. Juarez (f)",
+            "streams": [
+                {
+                    "url": "emb2.html?r=https://voodc.com/embed/85818c99a58d9d8b8a7a8595a48d98868581.html",
+                    "optionText": "Opcion 1"
                 }
             ]
         }
