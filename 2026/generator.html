@@ -1,0 +1,656 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Match Generator</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Barlow:wght@400;500;600&family=Barlow+Condensed:wght@500;600;700&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --bg:       #0b0b0d;
+            --surface:  #111114;
+            --card:     #17171c;
+            --card2:    #1d1d23;
+            --border:   #242429;
+            --border2:  #2e2e36;
+            --accent:   #e8ff00;
+            --accent-d: rgba(232,255,0,0.08);
+            --text:     #f0f0f2;
+            --muted:    #5a5a6a;
+            --dim:      #3a3a45;
+            --radius:   10px;
+            --fd:       'Bebas Neue', sans-serif;
+            --fu:       'Barlow', sans-serif;
+            --fc:       'Barlow Condensed', sans-serif;
+        }
+        *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+        html { font-size: 14px; }
+        body {
+            background: var(--bg);
+            color: var(--text);
+            font-family: var(--fu);
+            min-height: 100vh;
+            display: grid;
+            grid-template-columns: 380px 1fr;
+            grid-template-rows: auto 1fr;
+        }
+
+        /* ── Header ───────────────────────────────── */
+        header {
+            grid-column: 1 / -1;
+            display: flex; align-items: center;
+            justify-content: space-between;
+            padding: 16px 28px;
+            border-bottom: 1px solid var(--border);
+            background: var(--surface);
+        }
+        .logo { font-family: var(--fd); font-size: 22px; letter-spacing: 3px; }
+        .logo em { color: var(--accent); font-style: normal; }
+        .header-tag {
+            font-family: var(--fc); font-size: 11px; font-weight: 700;
+            letter-spacing: 3px; text-transform: uppercase;
+            color: var(--muted); border: 1px solid var(--border2);
+            padding: 4px 10px; border-radius: 20px;
+        }
+
+        /* ── Left panel ───────────────────────────── */
+        .panel {
+            background: var(--surface);
+            border-right: 1px solid var(--border);
+            height: calc(100vh - 57px);
+            overflow-y: auto;
+            display: flex; flex-direction: column;
+        }
+
+        /* Mode tabs */
+        .mode-tabs {
+            display: grid; grid-template-columns: 1fr 1fr;
+            border-bottom: 1px solid var(--border);
+        }
+        .mode-tab {
+            padding: 14px; text-align: center; cursor: pointer;
+            font-family: var(--fc); font-size: 12px; font-weight: 700;
+            letter-spacing: 2px; text-transform: uppercase;
+            color: var(--muted); border: none; background: none;
+            border-bottom: 2px solid transparent;
+            transition: all 0.2s;
+        }
+        .mode-tab:hover { color: var(--text); background: var(--accent-d); }
+        .mode-tab.active { color: var(--accent); border-bottom-color: var(--accent); background: var(--accent-d); }
+
+        /* Fields */
+        .fields { padding: 20px; display: flex; flex-direction: column; gap: 14px; flex: 1; }
+
+        .field-group { display: flex; flex-direction: column; gap: 6px; }
+        .field-label {
+            font-family: var(--fc); font-size: 10px; font-weight: 700;
+            letter-spacing: 2px; text-transform: uppercase; color: var(--muted);
+            display: flex; align-items: center; justify-content: space-between;
+        }
+        .field-label small { font-size: 9px; color: var(--dim); letter-spacing: 1px; }
+
+        .field-input {
+            background: var(--card); border: 1px solid var(--border);
+            color: var(--text); border-radius: var(--radius);
+            padding: 10px 12px; font-family: var(--fu); font-size: 13px;
+            outline: none; transition: border-color 0.2s, box-shadow 0.2s;
+            width: 100%;
+        }
+        .field-input:focus {
+            border-color: var(--accent);
+            box-shadow: 0 0 0 2px rgba(232,255,0,0.1);
+        }
+        .field-input::placeholder { color: var(--muted); }
+        select.field-input { appearance: none; cursor: pointer; }
+        select.field-input option { background: #17171c; }
+
+        /* Select wrapper with arrow */
+        .select-wrap { position: relative; }
+        .select-wrap::after {
+            content: '▾'; position: absolute; right: 12px; top: 50%;
+            transform: translateY(-50%); color: var(--muted);
+            pointer-events: none; font-size: 12px;
+        }
+
+        /* Two columns */
+        .two-col { display: grid; grid-template-columns: 1fr 1fr; gap: 10px; }
+
+        /* Color input */
+        .color-field {
+            display: flex; align-items: center; gap: 8px;
+            background: var(--card); border: 1px solid var(--border);
+            border-radius: var(--radius); padding: 7px 10px;
+            transition: border-color 0.2s;
+        }
+        .color-field:focus-within { border-color: var(--accent); }
+        .color-field input[type="color"] {
+            width: 28px; height: 28px; border: none;
+            border-radius: 5px; cursor: pointer; background: none; padding: 0;
+        }
+        .color-field input[type="color"]::-webkit-color-swatch-wrapper { padding: 0; }
+        .color-field input[type="color"]::-webkit-color-swatch { border: none; border-radius: 4px; }
+        .color-hex {
+            font-family: 'Courier New', monospace; font-size: 12px;
+            color: var(--muted); flex: 1; letter-spacing: 1px;
+        }
+
+        /* Divider */
+        .divider {
+            height: 1px; background: var(--border);
+            margin: 4px 0;
+        }
+        .divider-label {
+            font-family: var(--fc); font-size: 10px; font-weight: 600;
+            letter-spacing: 2px; text-transform: uppercase;
+            color: var(--dim); margin: 2px 0 8px;
+        }
+
+        /* Tags (equipo suggestions) */
+        .tags { display: flex; flex-wrap: wrap; gap: 5px; margin-top: 4px; }
+        .tag {
+            font-family: var(--fc); font-size: 10px; font-weight: 600;
+            letter-spacing: 0.5px; padding: 3px 8px;
+            background: var(--card2); border: 1px solid var(--border);
+            border-radius: 4px; color: var(--dim); cursor: pointer;
+            transition: all 0.15s;
+        }
+        .tag:hover { border-color: var(--accent); color: var(--accent); background: var(--accent-d); }
+
+        /* URL output */
+        .url-box {
+            margin: 0 20px 20px;
+            background: var(--card); border: 1px solid var(--border);
+            border-radius: var(--radius); overflow: hidden;
+        }
+        .url-box-header {
+            display: flex; align-items: center; justify-content: space-between;
+            padding: 8px 12px; border-bottom: 1px solid var(--border);
+            font-family: var(--fc); font-size: 10px; font-weight: 700;
+            letter-spacing: 2px; text-transform: uppercase; color: var(--muted);
+        }
+        .url-copy-btn {
+            background: none; border: none; cursor: pointer;
+            color: var(--muted); font-size: 11px; font-family: var(--fc);
+            font-weight: 600; letter-spacing: 1px; text-transform: uppercase;
+            transition: color 0.2s; padding: 2px 6px; border-radius: 4px;
+        }
+        .url-copy-btn:hover { color: var(--accent); background: var(--accent-d); }
+        .url-text {
+            padding: 10px 12px; font-family: 'Courier New', monospace;
+            font-size: 11px; color: var(--accent); line-height: 1.6;
+            word-break: break-all; cursor: pointer; transition: background 0.2s;
+        }
+        .url-text:hover { background: var(--accent-d); }
+
+        /* ── Right panel / preview ─────────────────── */
+        .preview-area {
+            display: flex; flex-direction: column;
+            height: calc(100vh - 57px);
+            background: var(--bg);
+        }
+        .preview-topbar {
+            display: flex; align-items: center; justify-content: space-between;
+            padding: 12px 24px; border-bottom: 1px solid var(--border);
+            background: var(--surface);
+        }
+        .preview-label {
+            font-family: var(--fc); font-size: 11px; font-weight: 700;
+            letter-spacing: 3px; text-transform: uppercase; color: var(--muted);
+        }
+        .preview-actions { display: flex; gap: 8px; }
+        .btn-sm {
+            display: flex; align-items: center; gap: 6px;
+            padding: 7px 14px; border-radius: 7px;
+            font-family: var(--fc); font-size: 11px; font-weight: 700;
+            letter-spacing: 1px; text-transform: uppercase; cursor: pointer;
+            transition: all 0.2s; border: 1px solid var(--border2);
+            background: var(--card); color: var(--muted);
+        }
+        .btn-sm:hover { color: var(--text); border-color: var(--text); }
+        .btn-sm.primary {
+            background: var(--accent); color: #000; border-color: var(--accent);
+        }
+        .btn-sm.primary:hover { opacity: 0.85; transform: translateY(-1px); }
+
+        .preview-canvas {
+            flex: 1; display: flex; align-items: center; justify-content: center;
+            padding: 32px;
+            background-image: radial-gradient(circle at 50% 50%, rgba(232,255,0,0.02) 0%, transparent 60%);
+        }
+        .iframe-wrapper {
+            position: relative;
+            width: 100%; max-width: 960px;
+            aspect-ratio: 1200/627;
+            border-radius: 12px; overflow: hidden;
+            box-shadow: 0 0 0 1px var(--border), 0 20px 60px rgba(0,0,0,0.6);
+        }
+        .iframe-wrapper iframe {
+            width: 100%; height: 100%; border: none; display: block;
+        }
+        /* Reload flash */
+        .iframe-wrapper::after {
+            content: ''; position: absolute; inset: 0;
+            background: var(--bg); opacity: 0; pointer-events: none;
+            transition: opacity 0.1s;
+        }
+        .iframe-wrapper.loading::after { opacity: 0.6; }
+
+        .preview-size-info {
+            padding: 10px 24px 14px;
+            font-family: var(--fc); font-size: 11px; color: var(--muted);
+            letter-spacing: 1px; text-align: center;
+        }
+        .preview-size-info span { color: var(--dim); }
+
+        /* Toast */
+        .toast {
+            position: fixed; bottom: 24px; left: 50%;
+            transform: translateX(-50%) translateY(60px);
+            background: var(--card); border: 1px solid var(--border2);
+            color: var(--accent); padding: 10px 20px; border-radius: 50px;
+            font-family: var(--fc); font-size: 12px; letter-spacing: 1px;
+            opacity: 0; transition: all 0.3s cubic-bezier(0.34,1.56,0.64,1);
+            z-index: 999; pointer-events: none;
+        }
+        .toast.show { opacity: 1; transform: translateX(-50%) translateY(0); }
+
+        /* Scrollbar */
+        ::-webkit-scrollbar { width: 4px; }
+        ::-webkit-scrollbar-track { background: transparent; }
+        ::-webkit-scrollbar-thumb { background: var(--border2); border-radius: 4px; }
+
+        @media (max-width: 800px) {
+            body { grid-template-columns: 1fr; grid-template-rows: auto auto auto; }
+            .panel { height: auto; border-right: none; border-bottom: 1px solid var(--border); }
+            .preview-area { height: auto; }
+            .preview-canvas { padding: 16px; }
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <div class="logo">MATCH<em>GEN</em></div>
+    <div class="header-tag">Generador de Imágenes</div>
+</header>
+
+<!-- LEFT PANEL -->
+<aside class="panel">
+
+    <!-- Mode tabs -->
+    <div class="mode-tabs">
+        <button class="mode-tab active" id="tab-imagen" onclick="setTab('imagen')">
+            🖼 Modo Imagen
+        </button>
+        <button class="mode-tab" id="tab-colores" onclick="setTab('colores')">
+            🎨 Modo Colores
+        </button>
+    </div>
+
+    <div class="fields">
+
+        <!-- EQUIPOS (ambos modos) -->
+        <div class="divider-label">Equipos</div>
+
+        <div class="field-group">
+            <div class="field-label">
+                Equipo Local
+                <small>ID del equipo</small>
+            </div>
+            <input class="field-input" id="f-local" type="text" placeholder="america" oninput="update()">
+            <div class="tags" id="tags-local"></div>
+        </div>
+
+        <div class="field-group">
+            <div class="field-label">
+                Equipo Visitante
+                <small>ID del equipo</small>
+            </div>
+            <input class="field-input" id="f-visita" type="text" placeholder="chivas" oninput="update()">
+            <div class="tags" id="tags-visita"></div>
+        </div>
+
+        <!-- MODO IMAGEN -->
+        <div id="fields-imagen">
+            <div class="divider-label" style="margin-top:4px;">Configuración de Imagen</div>
+
+            <div class="field-group">
+                <div class="field-label">Fondo</div>
+                <div class="select-wrap">
+                    <select class="field-input" id="f-fondo" onchange="update()">
+                        <optgroup label="Generales">
+                            <option value="black">Negro</option>
+                            <option value="azul">Azul</option>
+                            <option value="fondo5">Azul 2</option>
+                            <option value="fondorosa">Rosa</option>
+                            <option value="red">Rojo</option>
+                            <option value="verde">México</option>
+                        </optgroup>
+                        <optgroup label="Liga MX">
+                            <option value="ligamx">Liga MX</option>
+                            <option value="ligamx2">Liga MX 2</option>
+                            <option value="ligamx3">Liga MX 3</option>
+                            <option value="ligamxliguilla">Liguilla</option>
+                            <option value="campeondecampeones">Campeón de Campeones</option>
+                            <option value="ligamxf">Liga MX Femenil</option>
+                            <option value="ligamxf2">Liga MX Femenil 2</option>
+                            <option value="ligamxf3">Liga MX Femenil 3</option>
+                            <option value="expansion">Expansión MX</option>
+                            <option value="expansion2">Expansión MX 2</option>
+                            <option value="expansion3">Expansión MX 3</option>
+                        </optgroup>
+                        <optgroup label="CONCACAF">
+                            <option value="leaguescup">Leagues Cup</option>
+                            <option value="championscup">Champions Cup</option>
+                            <option value="concacafnationsleague">CONCACAF NL</option>
+                            <option value="copaoro">Copa Oro</option>
+                        </optgroup>
+                        <optgroup label="Europa">
+                            <option value="laliga">LaLiga</option>
+                            <option value="premierleague">Premier League</option>
+                            <option value="seriea">Serie A</option>
+                            <option value="championsleague">Champions League</option>
+                            <option value="championsleague2">Champions League 2</option>
+                            <option value="europaleague">Europa League</option>
+                            <option value="conferenceleague">Conference League</option>
+                            <option value="uefanationsleague">UEFA Nations League</option>
+                            <option value="uefaqualifier">UEFA Qualifier</option>
+                        </optgroup>
+                        <optgroup label="Sudamérica">
+                            <option value="conmebol">Conmebol</option>
+                            <option value="libertadores">Libertadores</option>
+                            <option value="sudamericana">Sudamericana</option>
+                        </optgroup>
+                    </select>
+                </div>
+            </div>
+
+            <div class="field-group">
+                <div class="field-label">
+                    Liga (filtro de logos)
+                    <small>Opcional</small>
+                </div>
+                <div class="select-wrap">
+                    <select class="field-input" id="f-liga-img" onchange="update()">
+                        <option value="todos">Todos los equipos</option>
+                        <option value="liga_mx">Liga MX</option>
+                        <option value="liga_mx_femenil">Liga MX Femenil</option>
+                    </select>
+                </div>
+            </div>
+        </div>
+
+        <!-- MODO COLORES -->
+        <div id="fields-colores" style="display:none;">
+            <div class="divider-label" style="margin-top:4px;">Colores de Fondo</div>
+
+            <div class="two-col">
+                <div class="field-group">
+                    <div class="field-label">Color Local</div>
+                    <div class="color-field">
+                        <input type="color" id="f-c1" value="#ffff00" oninput="onColor1()">
+                        <span class="color-hex" id="hex1">#FFFF00</span>
+                    </div>
+                    <input class="field-input" id="f-c1-text" type="text" placeholder="fff200"
+                        style="margin-top:5px;font-family:'Courier New',monospace;font-size:12px;letter-spacing:1px;"
+                        oninput="onHex1()" maxlength="6">
+                </div>
+                <div class="field-group">
+                    <div class="field-label">Color Visitante</div>
+                    <div class="color-field">
+                        <input type="color" id="f-c2" value="#de0b16" oninput="onColor2()">
+                        <span class="color-hex" id="hex2">#DE0B16</span>
+                    </div>
+                    <input class="field-input" id="f-c2-text" type="text" placeholder="de0b16"
+                        style="margin-top:5px;font-family:'Courier New',monospace;font-size:12px;letter-spacing:1px;"
+                        oninput="onHex2()" maxlength="6">
+                </div>
+            </div>
+
+            <div class="field-group" style="margin-top:4px;">
+                <div class="field-label">
+                    Liga (logo central)
+                    <small>Opcional</small>
+                </div>
+                <div class="select-wrap">
+                    <select class="field-input" id="f-liga-col" onchange="update()">
+                        <option value="todos">Todos</option>
+                        <option value="liga_mx">Liga MX</option>
+                        <option value="liga_mx_femenil">Liga MX Femenil</option>
+                    </select>
+                </div>
+            </div>
+        </div>
+
+        <!-- Sugerencias de equipos -->
+        <div class="divider" style="margin-top:8px;"></div>
+        <div class="divider-label">Equipos rápidos — click para seleccionar</div>
+        <div class="tags" id="quick-teams" style="gap:6px;"></div>
+
+    </div>
+
+    <!-- URL output -->
+    <div class="url-box">
+        <div class="url-box-header">
+            URL Generada
+            <button class="url-copy-btn" onclick="copiarUrl()">⎘ Copiar</button>
+        </div>
+        <div class="url-text" id="url-output" onclick="copiarUrl()"></div>
+    </div>
+
+</aside>
+
+<!-- RIGHT: PREVIEW -->
+<div class="preview-area">
+    <div class="preview-topbar">
+        <div class="preview-label">Vista Previa — 1200 × 627 px</div>
+        <div class="preview-actions">
+            <button class="btn-sm" onclick="recargar()">↺ Recargar</button>
+            <button class="btn-sm" onclick="abrirNuevaTab()">↗ Abrir</button>
+            <button class="btn-sm primary" onclick="copiarUrl()">⎘ Copiar URL</button>
+        </div>
+    </div>
+
+    <div class="preview-canvas">
+        <div class="iframe-wrapper" id="iframe-wrapper">
+            <iframe id="preview-iframe" src="" scrolling="no"></iframe>
+        </div>
+    </div>
+
+    <div class="preview-size-info">
+        Canvas: <span>1200 × 627 px</span> &nbsp;·&nbsp;
+        Ratio: <span>~1.91:1</span> &nbsp;·&nbsp;
+        Modo: <span id="modo-info">Imagen</span>
+    </div>
+</div>
+
+<div class="toast" id="toast"></div>
+
+<script>
+// ── Config ────────────────────────────────────────────────────────────────────
+const BASE = window.location.href.replace(/\/[^/]*$/, '/') + 'embed.html';
+
+const EQUIPOS = [
+    { id: 'america',    nombre: 'América' },
+    { id: 'atlas',      nombre: 'Atlas' },
+    { id: 'chivas',     nombre: 'Chivas' },
+    { id: 'cruz_azul',  nombre: 'Cruz Azul' },
+    { id: 'juarez',     nombre: 'FC Juárez' },
+    { id: 'leon',       nombre: 'León' },
+    { id: 'mazatlan',   nombre: 'Mazatlán' },
+    { id: 'monterrey',  nombre: 'Monterrey' },
+    { id: 'necaxa',     nombre: 'Necaxa' },
+    { id: 'pachuca',    nombre: 'Pachuca' },
+    { id: 'puebla',     nombre: 'Puebla' },
+    { id: 'pumas',      nombre: 'Pumas' },
+    { id: 'queretaro',  nombre: 'Querétaro' },
+    { id: 'san_luis',   nombre: 'At. San Luis' },
+    { id: 'santos',     nombre: 'Santos' },
+    { id: 'tigres',     nombre: 'Tigres' },
+    { id: 'tijuana',    nombre: 'Tijuana' },
+    { id: 'toluca',     nombre: 'Toluca' },
+    { id: 'rayadas',    nombre: 'Rayadas' },
+];
+
+// ── State ─────────────────────────────────────────────────────────────────────
+let modoActual = 'imagen';
+let updateTimer = null;
+let lastUrl = '';
+let lastSelectedField = 'local'; // para saber a qué campo va el quick-select
+
+// ── Tabs ──────────────────────────────────────────────────────────────────────
+function setTab(modo) {
+    modoActual = modo;
+    document.getElementById('tab-imagen').classList.toggle('active', modo === 'imagen');
+    document.getElementById('tab-colores').classList.toggle('active', modo === 'colores');
+    document.getElementById('fields-imagen').style.display  = modo === 'imagen'  ? 'block' : 'none';
+    document.getElementById('fields-colores').style.display = modo === 'colores' ? 'block' : 'none';
+    document.getElementById('modo-info').textContent = modo === 'imagen' ? 'Imagen' : 'Colores';
+    update();
+}
+
+// ── Build URL ─────────────────────────────────────────────────────────────────
+function buildUrl() {
+    const local  = document.getElementById('f-local').value.trim()  || 'america';
+    const visita = document.getElementById('f-visita').value.trim() || 'chivas';
+    const p = new URLSearchParams();
+    p.set('local',  local);
+    p.set('visita', visita);
+
+    if (modoActual === 'colores') {
+        p.set('modo', 'colores');
+        const c1 = document.getElementById('f-c1-text').value.trim();
+        const c2 = document.getElementById('f-c2-text').value.trim();
+        if (c1) p.set('c1', c1);
+        if (c2) p.set('c2', c2);
+        const liga = document.getElementById('f-liga-col').value;
+        if (liga !== 'todos') p.set('liga', liga);
+    } else {
+        const fondo = document.getElementById('f-fondo').value;
+        if (fondo !== 'black') p.set('fondo', fondo);
+        const liga = document.getElementById('f-liga-img').value;
+        if (liga !== 'todos') p.set('liga', liga);
+    }
+
+    return BASE + '?' + p.toString();
+}
+
+// ── Update preview (debounced 400ms) ─────────────────────────────────────────
+function update() {
+    clearTimeout(updateTimer);
+    updateTimer = setTimeout(applyUpdate, 400);
+}
+
+function applyUpdate() {
+    const url = buildUrl();
+    if (url === lastUrl) return;
+    lastUrl = url;
+
+    // Show URL
+    document.getElementById('url-output').textContent = url.replace(window.location.origin, '');
+
+    // Load iframe
+    const wrapper = document.getElementById('iframe-wrapper');
+    wrapper.classList.add('loading');
+    const iframe = document.getElementById('preview-iframe');
+    iframe.src = url;
+    iframe.onload = () => wrapper.classList.remove('loading');
+}
+
+function recargar() {
+    lastUrl = '';
+    applyUpdate();
+}
+
+function abrirNuevaTab() {
+    window.open(buildUrl(), '_blank');
+}
+
+// ── Color sync ────────────────────────────────────────────────────────────────
+function onColor1() {
+    const v = document.getElementById('f-c1').value;
+    document.getElementById('hex1').textContent = v.toUpperCase();
+    document.getElementById('f-c1-text').value = v.replace('#', '');
+    update();
+}
+function onColor2() {
+    const v = document.getElementById('f-c2').value;
+    document.getElementById('hex2').textContent = v.toUpperCase();
+    document.getElementById('f-c2-text').value = v.replace('#', '');
+    update();
+}
+function onHex1() {
+    let v = document.getElementById('f-c1-text').value.replace(/[^0-9a-fA-F]/g,'');
+    document.getElementById('f-c1-text').value = v;
+    if (v.length === 6) {
+        document.getElementById('f-c1').value = '#' + v;
+        document.getElementById('hex1').textContent = ('#' + v).toUpperCase();
+    }
+    update();
+}
+function onHex2() {
+    let v = document.getElementById('f-c2-text').value.replace(/[^0-9a-fA-F]/g,'');
+    document.getElementById('f-c2-text').value = v;
+    if (v.length === 6) {
+        document.getElementById('f-c2').value = '#' + v;
+        document.getElementById('hex2').textContent = ('#' + v).toUpperCase();
+    }
+    update();
+}
+
+// ── Quick teams ───────────────────────────────────────────────────────────────
+function renderQuickTeams() {
+    const container = document.getElementById('quick-teams');
+    container.innerHTML = '';
+    EQUIPOS.forEach(eq => {
+        const t = document.createElement('div');
+        t.className = 'tag';
+        t.textContent = eq.nombre;
+        t.title = eq.id;
+        t.onclick = () => insertarEquipo(eq.id);
+        container.appendChild(t);
+    });
+}
+
+// Track which field is focused for quick insert
+['f-local','f-visita'].forEach(id => {
+    document.getElementById(id).addEventListener('focus', () => {
+        lastSelectedField = id === 'f-local' ? 'local' : 'visita';
+        // Highlight active tags label
+        document.getElementById('quick-teams').dataset.target = lastSelectedField;
+    });
+});
+
+function insertarEquipo(id) {
+    const field = lastSelectedField === 'local' ? 'f-local' : 'f-visita';
+    document.getElementById(field).value = id;
+    update();
+}
+
+// ── Copy URL ──────────────────────────────────────────────────────────────────
+function copiarUrl() {
+    const url = buildUrl();
+    navigator.clipboard.writeText(url).then(() => toast('✓ URL copiada al portapapeles'));
+}
+
+// ── Toast ─────────────────────────────────────────────────────────────────────
+function toast(msg) {
+    const t = document.getElementById('toast');
+    t.textContent = msg;
+    t.classList.add('show');
+    setTimeout(() => t.classList.remove('show'), 2400);
+}
+
+// ── Init ──────────────────────────────────────────────────────────────────────
+renderQuickTeams();
+
+// Set initial colors text
+document.getElementById('f-c1-text').value = 'ffff00';
+document.getElementById('f-c2-text').value = 'de0b16';
+
+// Initial preview
+applyUpdate();
+</script>
+</body>
+</html>

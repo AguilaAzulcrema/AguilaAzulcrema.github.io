@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Match Generator</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Barlow:wght@300;400;500;600&family=Barlow+Condensed:wght@400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<div class="app-wrapper">
+
+    <!-- Header -->
+    <header class="app-header">
+        <div class="header-logo">
+            <span class="header-icon">⚽</span>
+            <span class="header-title">MATCH<span class="accent">GEN</span></span>
+        </div>
+        <div class="header-subtitle">Generador de Partidos</div>
+    </header>
+
+    <!-- Mode Toggle -->
+    <div class="mode-toggle-wrapper">
+        <div class="mode-toggle" id="modeToggle">
+            <button class="mode-btn active" data-mode="imagen" onclick="setMode('imagen')">
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="3" width="18" height="18" rx="2"/><circle cx="8.5" cy="8.5" r="1.5"/><polyline points="21 15 16 10 5 21"/></svg>
+                Fondo Imagen
+            </button>
+            <button class="mode-btn" data-mode="colores" onclick="setMode('colores')">
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><path d="M12 2a10 10 0 0 1 0 20"/><path d="M2 12h20"/></svg>
+                Fondo Colores
+            </button>
+            <div class="mode-slider" id="modeSlider"></div>
+        </div>
+    </div>
+
+    <!-- Controls Panel -->
+    <div class="controls-panel">
+
+        <!-- Modo Imagen -->
+        <div id="fondoImagenContainer" class="controls-grid">
+            <div class="control-group">
+                <label class="control-label">Fondo</label>
+                <div class="select-wrapper">
+                    <select id="fondoSelector" onchange="cargarImagenes()">
+                        <option value="azul">Fondo Azul</option>
+                        <option value="fondo5">Fondo Azul 2</option>
+                        <option value="fondorosa">Fondo Rosa</option>
+                        <option value="red">Fondo Rojo</option>
+                        <option value="black">Fondo Negro</option>
+                        <option value="ligamx">Liga MX</option>
+                        <option value="ligamx2">Liga MX 2</option>
+                        <option value="ligamx3">Liga MX 3</option>
+                        <option value="ligamxliguilla">Liga MX Liguilla</option>
+                        <option value="campeondecampeones">Campeon De Campeones</option>
+                        <option value="ligamxf">Liga MX Femenil</option>
+                        <option value="ligamxf2">Liga MX Femenil 2</option>
+                        <option value="ligamxf3">Liga MX Femenil 3</option>
+                        <option value="expansion">Liga De Expansion MX</option>
+                        <option value="expansion2">Liga De Expansion MX 2</option>
+                        <option value="expansion3">Liga De Expansion MX 3</option>
+                        <option value="championscup">Champions Cup</option>
+                        <option value="verde">Mexico</option>
+                        <option value="leaguescup">Leagues Cup</option>
+                        <option value="laliga">LaLiga</option>
+                        <option value="premierleague">Premier League</option>
+                        <option value="seriea">Serie A</option>
+                        <option value="championsleague">Champions League</option>
+                        <option value="championsleague2">Champions League 2</option>
+                        <option value="europaleague">Europa League</option>
+                        <option value="conferenceleague">Conference League</option>
+                        <option value="concacafnationsleague">CONCACAF NL</option>
+                        <option value="copaoro">Copa Oro</option>
+                        <option value="uefanationsleague">UEFA NL</option>
+                        <option value="uefaqualifier">UEFA Qualifier</option>
+                        <option value="conmebol">Conmebol</option>
+                        <option value="libertadores">Libertadores</option>
+                        <option value="sudamericana">Sudamericana</option>
+                    </select>
+                    <svg class="select-arrow" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"/></svg>
+                </div>
+            </div>
+
+            <div class="control-group">
+                <label class="control-label">Liga</label>
+                <div class="select-wrapper">
+                    <select id="ligaSelector" onchange="filtrarLogosPorLiga()">
+                        <option value="todos">Todos</option>
+                    </select>
+                    <svg class="select-arrow" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"/></svg>
+                </div>
+            </div>
+
+            <div class="control-group">
+                <label class="control-label">Local</label>
+                <div class="select-wrapper">
+                    <select id="logo1Selector" onchange="cargarImagenes()"></select>
+                    <svg class="select-arrow" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"/></svg>
+                </div>
+            </div>
+
+            <div class="control-group">
+                <label class="control-label">Visitante</label>
+                <div class="select-wrapper">
+                    <select id="logo2Selector" onchange="cargarImagenes()"></select>
+                    <svg class="select-arrow" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"/></svg>
+                </div>
+            </div>
+        </div>
+
+        <!-- Modo Colores -->
+        <div id="fondoColoresContainer" class="controls-grid" style="display:none;">
+            <div class="control-group">
+                <label class="control-label">Liga</label>
+                <div class="select-wrapper">
+                    <select id="liga" onchange="cargarEquiposPorLiga()"></select>
+                    <svg class="select-arrow" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"/></svg>
+                </div>
+            </div>
+
+            <div class="control-group">
+                <label class="control-label">Logo Liga</label>
+                <div class="select-wrapper">
+                    <select id="ligaLogo" onchange="generarImagenColores()"></select>
+                    <svg class="select-arrow" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"/></svg>
+                </div>
+            </div>
+
+            <div class="control-group">
+                <label class="control-label">Local</label>
+                <div class="select-wrapper">
+                    <select id="equipoLocal" onchange="generarImagenColores()"></select>
+                    <svg class="select-arrow" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"/></svg>
+                </div>
+            </div>
+
+            <div class="control-group">
+                <label class="control-label">Visitante</label>
+                <div class="select-wrapper">
+                    <select id="equipoVisitante" onchange="generarImagenColores()"></select>
+                    <svg class="select-arrow" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"/></svg>
+                </div>
+            </div>
+
+            <div class="control-group color-control">
+                <label class="control-label">Color Local</label>
+                <div class="color-input-wrapper">
+                    <input type="color" id="colorLocal" value="#FFFFFF">
+                    <span class="color-hex" id="hexLocal">#FFFFFF</span>
+                </div>
+            </div>
+
+            <div class="control-group color-control">
+                <label class="control-label">Color Visitante</label>
+                <div class="color-input-wrapper">
+                    <input type="color" id="colorVisitante" value="#000000">
+                    <span class="color-hex" id="hexVisitante">#000000</span>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Canvas Area -->
+    <div class="canvas-wrapper">
+        <div class="canvas-container">
+            <canvas id="miCanvas" width="1200" height="627"></canvas>
+            <div class="canvas-overlay" id="canvasOverlay">
+                <div class="loading-spinner"></div>
+                <span>Generando...</span>
+            </div>
+        </div>
+    </div>
+
+    <!-- Actions -->
+    <div class="actions-bar">
+        <button id="descargarImagen" class="btn-download">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><polyline points="7 10 12 15 17 10"/><line x1="12" y1="15" x2="12" y2="3"/></svg>
+            Descargar PNG
+        </button>
+        <button class="btn-copy" id="copyBtn" onclick="copiarAlPortapapeles()">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><rect x="9" y="9" width="13" height="13" rx="2"/><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"/></svg>
+            Copiar
+        </button>
+    </div>
+
+</div>
+
+<!-- Toast notification -->
+<div class="toast" id="toast"></div>
+
+<script src="script.js"></script>
+<script>
+    // ---- UI Enhancements ----
+
+    // Mode toggle — directly controls modoActual from script.js
+    function setMode(mode) {
+        // Update button styles
+        document.querySelectorAll('.mode-btn').forEach(b => b.classList.remove('active'));
+        document.querySelector(`[data-mode="${mode}"]`).classList.add('active');
+
+        // Move slider
+        const idx = mode === 'imagen' ? 0 : 1;
+        document.getElementById('modeSlider').style.transform = `translateX(${idx * 100}%)`;
+
+        // Update global var and show/hide containers (mirrors cambiarModoFondo logic)
+        modoActual = mode;
+        document.getElementById('fondoImagenContainer').style.display = mode === 'imagen' ? 'flex' : 'none';
+        document.getElementById('fondoColoresContainer').style.display = mode === 'colores' ? 'flex' : 'none';
+
+        if (mode === 'imagen') {
+            cargarImagenes();
+        } else {
+            cargarEquiposPorLiga();
+        }
+    }
+
+    // Color hex preview
+    document.getElementById('colorLocal').addEventListener('input', function() {
+        document.getElementById('hexLocal').textContent = this.value.toUpperCase();
+    });
+    document.getElementById('colorVisitante').addEventListener('input', function() {
+        document.getElementById('hexVisitante').textContent = this.value.toUpperCase();
+    });
+
+    // Copy to clipboard
+    async function copiarAlPortapapeles() {
+        const canvas = document.getElementById('miCanvas');
+        canvas.toBlob(async (blob) => {
+            try {
+                await navigator.clipboard.write([new ClipboardItem({ 'image/png': blob })]);
+                showToast('✓ Imagen copiada al portapapeles');
+            } catch {
+                showToast('No se pudo copiar. Usa Descargar.');
+            }
+        });
+    }
+
+    function showToast(msg) {
+        const t = document.getElementById('toast');
+        t.textContent = msg;
+        t.classList.add('show');
+        setTimeout(() => t.classList.remove('show'), 2500);
+    }
+
+    // Override cambiarModoFondo so script.js's window onload doesn't conflict
+    // (script.js calls cambiarModoFondo() on load — we intercept it here)
+    window.addEventListener('load', () => {
+        // After script.js's load handler runs, sync the toggle UI to the active mode
+        setTimeout(() => {
+            const currentMode = modoActual || 'imagen';
+            document.querySelectorAll('.mode-btn').forEach(b => b.classList.remove('active'));
+            const activeBtn = document.querySelector(`[data-mode="${currentMode}"]`);
+            if (activeBtn) activeBtn.classList.add('active');
+            const idx = currentMode === 'imagen' ? 0 : 1;
+            const slider = document.getElementById('modeSlider');
+            if (slider) slider.style.transform = `translateX(${idx * 100}%)`;
+        }, 50);
+    });
+
+    // Prevent context menu
+    document.oncontextmenu = function(){ return false; };
+</script>
+</body>
+</html>

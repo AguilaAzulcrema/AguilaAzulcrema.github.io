@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Match Embed</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        html, body { width: 100%; height: 100%; background: #000; overflow: hidden; }
+
+        #miCanvas {
+            position: absolute;
+            top: 50%; left: 50%;
+            transform: translate(-50%, -50%);
+            display: block;
+        }
+        #loader {
+            position: fixed; inset: 0; background: #0d0d0f;
+            display: flex; flex-direction: column;
+            align-items: center; justify-content: center;
+            gap: 16px; z-index: 10;
+            transition: opacity 0.5s ease;
+        }
+        #loader.hidden { opacity: 0; pointer-events: none; }
+        .spinner {
+            width: 36px; height: 36px;
+            border: 2px solid #2a2a30; border-top-color: #e8ff00;
+            border-radius: 50%; animation: spin 0.7s linear infinite;
+        }
+        @keyframes spin { to { transform: rotate(360deg); } }
+        .loader-text {
+            font-family: 'Helvetica Neue', Arial, sans-serif;
+            font-size: 11px; letter-spacing: 3px;
+            text-transform: uppercase; color: #4a4a58;
+        }
+        #urlHint {
+            position: fixed; bottom: 16px; left: 50%;
+            transform: translateX(-50%);
+            background: rgba(20,20,22,0.9); border: 1px solid #2a2a30;
+            border-radius: 8px; padding: 8px 16px;
+            font-family: 'Courier New', monospace;
+            font-size: 11px; color: #e8ff00; white-space: nowrap;
+            opacity: 0; transition: opacity 0.5s; pointer-events: none; z-index: 5;
+        }
+        #urlHint.show { opacity: 1; }
+    </style>
+</head>
+<body>
+
+<div id="loader">
+    <div class="spinner"></div>
+    <div class="loader-text">Generando imagen…</div>
+</div>
+
+<canvas id="miCanvas"></canvas>
+
+<!-- Todos los elementos que script.js necesita encontrar en el DOM -->
+<div style="position:fixed;left:-9999px;width:0;height:0;overflow:hidden;" aria-hidden="true">
+    <input type="radio" name="fondoTipo" value="imagen"  id="r_imagen"  checked>
+    <input type="radio" name="fondoTipo" value="colores" id="r_colores">
+    <select id="fondoSelector"></select>
+    <select id="ligaSelector"></select>
+    <select id="logo1Selector"></select>
+    <select id="logo2Selector"></select>
+    <select id="liga"></select>
+    <select id="ligaLogo"></select>
+    <select id="equipoLocal"></select>
+    <select id="equipoVisitante"></select>
+    <input type="color" id="colorLocal"     value="#FFFFFF">
+    <input type="color" id="colorVisitante" value="#000000">
+    <div id="fondoImagenContainer"></div>
+    <div id="fondoColoresContainer"></div>
+    <button id="descargarImagen"></button>
+</div>
+
+<div id="urlHint"></div>
+
+<!-- PASO 1: Configurar antes de que script.js cargue -->
+<script>
+    // Dimensiones del canvas
+    const CANVAS_W = 1200, CANVAS_H = 627;
+
+    // Canvas a pantalla completa manteniendo ratio
+    function resizeCanvas() {
+        const c = document.getElementById('miCanvas');
+        const r = CANVAS_W / CANVAS_H;
+        const ww = window.innerWidth, wh = window.innerHeight;
+        let w, h;
+        if (ww / wh > r) { h = wh; w = h * r; }
+        else              { w = ww; h = w / r; }
+        c.style.width = w + 'px'; c.style.height = h + 'px';
+    }
+    document.getElementById('miCanvas').width  = CANVAS_W;
+    document.getElementById('miCanvas').height = CANVAS_H;
+    resizeCanvas();
+    window.addEventListener('resize', resizeCanvas);
+
+    // Leer parámetros de URL
+    const _p    = new URLSearchParams(window.location.search);
+    const LOCAL  = _p.get('local')  || '';
+    const VISITA = _p.get('visita') || '';
+    const MODO   = _p.get('modo')   || 'imagen';   // imagen | colores
+    const FONDO  = _p.get('fondo')  || 'black';
+    const LIGA   = _p.get('liga')   || 'todos';
+    const C1     = _p.get('c1') ? '#' + _p.get('c1') : null;
+    const C2     = _p.get('c2') ? '#' + _p.get('c2') : null;
+
+    // Radio correcto para que script.js lo lea en su window.onload
+    document.getElementById(MODO === 'colores' ? 'r_colores' : 'r_imagen').checked = true;
+
+    // Seed fondoSelector con el valor del URL
+    const _fo = document.createElement('option');
+    _fo.value = FONDO; _fo.selected = true;
+    document.getElementById('fondoSelector').appendChild(_fo);
+
+    // Colores iniciales
+    if (C1) document.getElementById('colorLocal').value    = C1;
+    if (C2) document.getElementById('colorVisitante').value = C2;
+
+    // Bandera para bloquear renders prematuros
+    window._embedListo = false;
+</script>
+
+<!-- PASO 2: Cargar script compartido -->
+<script src="script.js"></script>
+
+<!-- PASO 3: Interceptar funciones de render y luego inyectar selecciones correctas -->
+<script>
+    // Pre-cargar JSON aquí mismo para garantizar que jsonData esté listo
+    // independientemente de la ruta relativa que use script.js
+    (function precargarJSON() {
+        // Intentar la misma ruta que script.js usa
+        const jsonUrl = new URL('equipos.json', window.location.href).href;
+        fetch(jsonUrl)
+            .then(r => {
+                if (!r.ok) throw new Error('HTTP ' + r.status);
+                return r.json();
+            })
+            .then(data => {
+                window.jsonData = data;
+                console.log('[embed] equipos.json cargado desde:', jsonUrl);
+            })
+            .catch(err => {
+                console.error('[embed] No se pudo cargar equipos.json desde:', jsonUrl, err);
+                document.querySelector('.loader-text').textContent = 'Error: no se encontró equipos.json';
+            });
+    })();
+
+    // ── Bloquear renders hasta que embedInit inyecte los datos correctos ──────
+    const _realGenerar = window.generarImagenColores;
+    const _realCargar  = window.cargarImagenes;
+    const _realEquipos = window.cargarEquiposPorLiga;
+
+    window.generarImagenColores = function() {
+        if (!window._embedListo) return;
+        _realGenerar();
+    };
+    window.cargarImagenes = function() {
+        if (!window._embedListo) return;
+        _realCargar();
+    };
+    window.cargarEquiposPorLiga = function() {
+        if (!window._embedListo) return;
+        _realEquipos();
+    };
+
+    // ── Esperar JSON, luego inyectar ──────────────────────────────────────────
+    let _tries = 0;
+    function embedInit() {
+        _tries++;
+        // Timeout: si en 16 segundos no cargó el JSON, mostrar error
+        if (_tries > 200) {
+            console.error('[embed] ERROR: jsonData nunca se cargó. ¿Existe equipos.json?');
+            document.querySelector('.loader-text').textContent = 'Error al cargar datos';
+            return;
+        }
+        if (!window.jsonData) {
+            setTimeout(embedInit, 80);
+            return;
+        }
+        console.log('[embed] OK — jsonData cargado. MODO=' + MODO + ' LOCAL=' + LOCAL + ' VISITA=' + VISITA);
+        window.modoActual = MODO;
+        try {
+            MODO === 'imagen' ? _inyectarImagen() : _inyectarColores();
+        } catch(err) {
+            console.error('[embed] Error en inyección:', err);
+            document.querySelector('.loader-text').textContent = 'Error: ' + err.message;
+        }
+    }
+
+    function _inyectarImagen() {
+        window.ligaSeleccionada = LIGA;
+        const s1 = document.getElementById('logo1Selector');
+        const s2 = document.getElementById('logo2Selector');
+        s1.innerHTML = s2.innerHTML = '';
+
+        let eq = LIGA === 'todos'
+            ? obtenerTodosEquipos()
+            : ligasCompuestas[LIGA]
+                ? obtenerEquiposDeLigas(ligasCompuestas[LIGA])
+                : (jsonData.ligas[LIGA] || {}).equipos || [];
+
+        eq.sort((a, b) => a.nombre.localeCompare(b.nombre));
+        eq.forEach(e => {
+            [s1, s2].forEach(sel => {
+                const o = document.createElement('option');
+                o.value = e.id; o.textContent = e.nombre;
+                sel.appendChild(o);
+            });
+        });
+
+        _setVal(s1, LOCAL);
+        _setVal(s2, VISITA);
+
+        // Desbloquear y renderizar
+        window._embedListo = true;
+        _realCargar();
+        _ocultarLoader();
+    }
+
+    function _inyectarColores() {
+        const sL  = document.getElementById('equipoLocal');
+        const sV  = document.getElementById('equipoVisitante');
+        const sLL = document.getElementById('ligaLogo');
+        sL.innerHTML = sV.innerHTML = sLL.innerHTML = '';
+
+        // Equipos
+        let eq = [];
+        if (LIGA === 'todos') {
+            eq = obtenerTodosEquipos();
+        } else if (ligasCompuestas[LIGA]) {
+            eq = obtenerEquiposDeLigas(ligasCompuestas[LIGA]);
+        } else {
+            eq = (jsonData.ligas[LIGA] || {}).equipos || [];
+        }
+
+        // Logo de liga (si existe en JSON)
+        if (LIGA === 'todos') {
+            for (const k in jsonData.ligas) {
+                if (jsonData.logos_ligas?.[k]) {
+                    const o = document.createElement('option');
+                    o.value = jsonData.logos_ligas[k];
+                    o.textContent = jsonData.ligas[k].nombre;
+                    sLL.appendChild(o);
+                }
+            }
+        } else if (jsonData.logos_ligas?.[LIGA]) {
+            const o = document.createElement('option');
+            o.value = jsonData.logos_ligas[LIGA];
+            o.textContent = jsonData.ligas[LIGA]?.nombre || LIGA;
+            sLL.appendChild(o);
+        }
+        // Si no hay logos_ligas definido, agregar opción vacía para que no bloquee el render
+        if (sLL.options.length === 0) {
+            const o = document.createElement('option');
+            o.value = ''; o.textContent = '';
+            sLL.appendChild(o);
+        }
+
+        eq.sort((a, b) => a.nombre.localeCompare(b.nombre));
+        eq.forEach(e => {
+            [sL, sV].forEach(sel => {
+                const o = document.createElement('option');
+                o.value = e.logo; o.textContent = e.nombre;
+                o.dataset.id = e.id;
+                sel.appendChild(o);
+            });
+        });
+
+        _setById(sL,  LOCAL);
+        _setById(sV, VISITA);
+
+        // Colores: URL > JSON del equipo
+        const all = obtenerTodosEquipos();
+        if (C1) {
+            document.getElementById('colorLocal').value = C1;
+        } else {
+            const e = all.find(x => x.id === LOCAL);
+            if (e?.color) document.getElementById('colorLocal').value = e.color;
+        }
+        if (C2) {
+            document.getElementById('colorVisitante').value = C2;
+        } else {
+            const e = all.find(x => x.id === VISITA);
+            if (e?.color) document.getElementById('colorVisitante').value = e.color;
+        }
+
+        // Desbloquear y renderizar
+        window._embedListo = true;
+        _realGenerar();
+        _ocultarLoader();
+    }
+
+    // ── Helpers ───────────────────────────────────────────────────────────────
+    function _setVal(sel, val) {
+        for (let i = 0; i < sel.options.length; i++)
+            if (sel.options[i].value === val) { sel.selectedIndex = i; return; }
+    }
+    function _setById(sel, id) {
+        for (let i = 0; i < sel.options.length; i++)
+            if (sel.options[i].dataset.id === id) { sel.selectedIndex = i; return; }
+    }
+    function _ocultarLoader() {
+        setTimeout(() => {
+            document.getElementById('loader').classList.add('hidden');
+        }, 900);
+    }
+
+    // Esperar a que script.js dispare su window.onload (carga el JSON),
+    // luego nuestro listener inicia el polling
+    window.addEventListener('load', embedInit);
+</script>
+
+</body>
+</html>
